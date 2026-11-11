@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // "The Great Emu War" — Campion, Western Australia, Nov 1932. Timed to stories/emu/voice.wav via emu_timing.js.
 import { TOTAL, LINES, wf } from './emu_timing.js';
 import * as PR from '../props.js';

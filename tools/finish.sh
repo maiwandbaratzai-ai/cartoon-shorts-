@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 # finish.sh <story> "Title"  -> stories/<story>/out/<Title>.mp4 (+ QA sheet). Needs frames/ + mix_raw.wav + subs.ass
 set -e; KIT=$(cd "$(dirname "$0")/.." && pwd); S=$1; D=$KIT/stories/$S; T="${2:-$S}"; mkdir -p $D/out; F="$D/out/${T// /-}.mp4"
 ffmpeg -v error -y -i $D/mix_raw.wav -af "loudnorm=I=-14:TP=-1.5:LRA=7" -ar 48000 -ac 2 $D/mix.wav

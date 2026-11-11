@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 # One-time setup on a fresh machine: python deps, playwright, Kokoro voice model.
 set -e; cd "$(dirname "$0")"
 pip install --break-system-packages -q kokoro-onnx soundfile numpy pillow 2>&1 | grep -v -i warn || true

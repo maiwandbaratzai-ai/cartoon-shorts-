@@ -1,3 +1,4 @@
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 import sys, os; KIT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))); sys.path.insert(0, KIT + '/tools')
 from audiolib import *
 TM = init(os.path.dirname(os.path.abspath(__file__)))

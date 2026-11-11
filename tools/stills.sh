@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 # stills.sh <story> "<frames comma list>"  -> stories/<story>/stills/sheet.jpg (contact sheet, 5 per row)
 set -e; KIT=$(cd "$(dirname "$0")/.." && pwd); S=$1; D=$KIT/stories/$S/stills; rm -rf $D; mkdir -p $D
 STORY=$S node $KIT/render.mjs $D "$2" 1 0.9 2>&1 | grep -v "^PAGE" | tail -3

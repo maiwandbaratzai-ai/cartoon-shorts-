@@ -1,5 +1,7 @@
 # cartoon-shorts
 
+Created by **Maiwand** ([maiwandbaratzai-ai](https://github.com/maiwandbaratzai-ai)).
+
 Vertical (1080×1920) cartoon explainer shorts about true, surprising stories: flat 2D characters in a 3D toon world,
 natural AI narration, word-by-word captions, original music and sound effects. Everything renders headless
 (three.js in Chrome via Playwright, Kokoro TTS, numpy audio, ffmpeg).

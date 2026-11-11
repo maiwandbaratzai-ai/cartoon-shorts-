@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // "The Great Molasses Flood" — Boston's North End, 15 Jan 1919. Timed to stories/molasses/voice.wav via molasses_timing.js.
 import { TOTAL, LINES, wf } from './molasses_timing.js';
 import * as PR from '../props.js';

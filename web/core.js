@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // Shared engine for cartoon shorts: plain three.js r160 in headless Chrome.
 // index.html?s=<story> loads ./s/<story>.js, whose default export is
 //   { TOTAL, build(K), frame(f, K) -> { light, cam, dof, actors, fx } }

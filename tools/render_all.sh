@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 # render_all.sh <story> [procs]  -> stories/<story>/frames/f####.jpg (resumable)
 KIT=$(cd "$(dirname "$0")/.." && pwd); S=$1; P=${2:-2}; D=$KIT/stories/$S/frames; mkdir -p $D
 T=$(python3 -c "import json;print(json.load(open('$KIT/stories/$S/timing.json'))['frames'])")

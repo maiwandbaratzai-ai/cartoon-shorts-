@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // Motion helpers: smooth, continuous, "animated" movement for cameras and cards.
 // Import in story.js:  import { M } from './motion.js';
 export const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));

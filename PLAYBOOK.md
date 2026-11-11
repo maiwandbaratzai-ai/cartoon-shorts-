@@ -38,3 +38,6 @@ natural AI narration (Kokoro `am_michael`), word-by-word captions, original synt
 - Grazing far surfaces (sea, plains) are fine — the ink pass ignores same-normal depth steps.
 - Keep tragedy respectful: no bodies or gore; show aftermath, rescuers, and the scale of the event instead.
 - Music is original (synth beds). Never copy a real song.
+
+---
+Author: Maiwand

@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // usage: node render.mjs <outdir> <frames: "a-b" or "1,2,3"> [step] [quality]
 import { chromium } from 'playwright'; import http from 'http'; import fs from 'fs'; import path from 'path';
 const [,, outdir, spec, step = '1', qual = '0.96'] = process.argv;

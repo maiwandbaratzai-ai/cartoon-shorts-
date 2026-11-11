@@ -1,3 +1,4 @@
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 """Shared audio: synthesized music beds + SFX library + voice-led mix. Original sounds only (numpy).
 usage in a story's audio.py:
     import sys; sys.path.insert(0, KIT + '/tools'); from audiolib import *

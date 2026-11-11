@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 export const INK = "#241726";
 export const SKIN = "#ffe2c2";
 const WHITE = "#ffffff";

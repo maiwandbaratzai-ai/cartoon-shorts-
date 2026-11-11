@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // Reusable props + 2D creature/effect drawings for stories. Everything takes the kit context K from core.js.
 import * as THREE from './lib/three.module.js';
 import { INK } from './toon.js';

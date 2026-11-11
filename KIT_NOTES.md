@@ -391,3 +391,6 @@ After a stills pass, check these numbers with your own measurement scripts:
 ## Credits
 
 Built on [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) (MIT), which provides `toon.ts` (the Pen, head and face library), the look values and the readability rules. The measured reports behind the [Look rules](#look-rules) are in that project's `references/reports/`, and its `templates/audio/` has a fuller stereo sound pipeline: a composed score, a large SFX library and a mastering mix with stems and a cue sheet.
+
+---
+Author: Maiwand

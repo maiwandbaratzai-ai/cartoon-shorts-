@@ -1,3 +1,4 @@
+# Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 """Narration for a story: Kokoro neural TTS -> voice.wav, timing.json, subs.ass and web/s/<story>_timing.js.
 
 usage: python3 tools/voice.py stories/<story> [target_seconds] [voice]

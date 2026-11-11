@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // "The Exploding Whale" — Florence, Oregon, 12 Nov 1970. Timed to stories/whale/voice.wav via whale_timing.js.
 import { TOTAL, LINES, wf } from './whale_timing.js';
 import * as PR from '../props.js';

@@ -1,3 +1,4 @@
+// Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 // Canvas2D painted textures (our own). All deterministic.
 import * as THREE from './lib/three.module.js';
 
