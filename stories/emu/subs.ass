@@ -1,0 +1,92 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1932,
+Dialogue: 0,0:00:00.29,0:00:01.68,Cap,,0,0,0,,IN {\c&H00E6FF&}1932,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.68,0:00:02.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AUSTRALIA'S{\c&HFFFFFF&} ARMY WENT
+Dialogue: 0,0:00:02.26,0:00:02.54,Cap,,0,0,0,,AUSTRALIA'S {\c&H00E6FF&}ARMY{\c&HFFFFFF&} WENT
+Dialogue: 0,0:00:02.54,0:00:02.82,Cap,,0,0,0,,AUSTRALIA'S ARMY {\c&H00E6FF&}WENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.82,0:00:02.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} WAR AGAINST
+Dialogue: 0,0:00:02.99,0:00:03.22,Cap,,0,0,0,,TO {\c&H00E6FF&}WAR{\c&HFFFFFF&} AGAINST
+Dialogue: 0,0:00:03.22,0:00:03.65,Cap,,0,0,0,,TO WAR {\c&H00E6FF&}AGAINST{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.65,0:00:04.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BIRDS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.06,0:00:04.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} LOST.
+Dialogue: 0,0:00:04.35,0:00:04.97,Cap,,0,0,0,,AND {\c&H00E6FF&}LOST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.05,0:00:05.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWENTY{\c&HFFFFFF&} THOUSAND EMUS
+Dialogue: 0,0:00:05.40,0:00:05.91,Cap,,0,0,0,,TWENTY {\c&H00E6FF&}THOUSAND{\c&HFFFFFF&} EMUS
+Dialogue: 0,0:00:05.91,0:00:06.17,Cap,,0,0,0,,TWENTY THOUSAND {\c&H00E6FF&}EMUS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.17,0:00:06.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WERE{\c&HFFFFFF&} EATING THE
+Dialogue: 0,0:00:06.94,0:00:07.29,Cap,,0,0,0,,WERE {\c&H00E6FF&}EATING{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:07.29,0:00:07.56,Cap,,0,0,0,,WERE EATING {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.56,0:00:07.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHEAT{\c&HFFFFFF&} FARMS OF
+Dialogue: 0,0:00:07.87,0:00:08.17,Cap,,0,0,0,,WHEAT {\c&H00E6FF&}FARMS{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:08.17,0:00:08.34,Cap,,0,0,0,,WHEAT FARMS {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.34,0:00:08.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WESTERN{\c&HFFFFFF&} AUSTRALIA.
+Dialogue: 0,0:00:08.74,0:00:09.50,Cap,,0,0,0,,WESTERN {\c&H00E6FF&}AUSTRALIA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.61,0:00:09.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE ARMY
+Dialogue: 0,0:00:09.77,0:00:09.99,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} ARMY
+Dialogue: 0,0:00:09.99,0:00:10.25,Cap,,0,0,0,,SO THE {\c&H00E6FF&}ARMY{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.25,0:00:10.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SENT{\c&HFFFFFF&} A MAJOR,
+Dialogue: 0,0:00:10.52,0:00:10.64,Cap,,0,0,0,,SENT {\c&H00E6FF&}A{\c&HFFFFFF&} MAJOR,
+Dialogue: 0,0:00:10.64,0:00:10.95,Cap,,0,0,0,,SENT A {\c&H00E6FF&}MAJOR,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.95,0:00:11.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} SOLDIERS,
+Dialogue: 0,0:00:11.56,0:00:12.01,Cap,,0,0,0,,TWO {\c&H00E6FF&}SOLDIERS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.01,0:00:12.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} TWO MACHINE
+Dialogue: 0,0:00:12.23,0:00:12.44,Cap,,0,0,0,,AND {\c&H00E6FF&}TWO{\c&HFFFFFF&} MACHINE
+Dialogue: 0,0:00:12.44,0:00:12.85,Cap,,0,0,0,,AND TWO {\c&H00E6FF&}MACHINE{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.85,0:00:13.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GUNS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.68,0:00:13.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} EVERY TIME
+Dialogue: 0,0:00:13.87,0:00:14.14,Cap,,0,0,0,,BUT {\c&H00E6FF&}EVERY{\c&HFFFFFF&} TIME
+Dialogue: 0,0:00:14.14,0:00:14.38,Cap,,0,0,0,,BUT EVERY {\c&H00E6FF&}TIME{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.38,0:00:14.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} AIMED,
+Dialogue: 0,0:00:14.61,0:00:15.36,Cap,,0,0,0,,THEY {\c&H00E6FF&}AIMED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.36,0:00:15.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} EMUS SCATTERED
+Dialogue: 0,0:00:15.55,0:00:15.78,Cap,,0,0,0,,THE {\c&H00E6FF&}EMUS{\c&HFFFFFF&} SCATTERED
+Dialogue: 0,0:00:15.78,0:00:16.23,Cap,,0,0,0,,THE EMUS {\c&H00E6FF&}SCATTERED{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.23,0:00:16.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} ALL DIRECTIONS.
+Dialogue: 0,0:00:16.38,0:00:16.57,Cap,,0,0,0,,IN {\c&H00E6FF&}ALL{\c&HFFFFFF&} DIRECTIONS.
+Dialogue: 0,0:00:16.57,0:00:17.54,Cap,,0,0,0,,IN ALL {\c&H00E6FF&}DIRECTIONS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.62,0:00:17.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} MOUNTED A
+Dialogue: 0,0:00:17.83,0:00:18.17,Cap,,0,0,0,,THEY {\c&H00E6FF&}MOUNTED{\c&HFFFFFF&} A
+Dialogue: 0,0:00:18.17,0:00:18.27,Cap,,0,0,0,,THEY MOUNTED {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.27,0:00:18.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GUN{\c&HFFFFFF&} ON A
+Dialogue: 0,0:00:18.45,0:00:18.58,Cap,,0,0,0,,GUN {\c&H00E6FF&}ON{\c&HFFFFFF&} A
+Dialogue: 0,0:00:18.58,0:00:18.68,Cap,,0,0,0,,GUN ON {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.68,0:00:19.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRUCK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.46,0:00:19.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} EMUS WERE
+Dialogue: 0,0:00:19.64,0:00:19.86,Cap,,0,0,0,,THE {\c&H00E6FF&}EMUS{\c&HFFFFFF&} WERE
+Dialogue: 0,0:00:19.86,0:00:20.07,Cap,,0,0,0,,THE EMUS {\c&H00E6FF&}WERE{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.07,0:00:20.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FASTER{\c&HFFFFFF&} THAN THE
+Dialogue: 0,0:00:20.37,0:00:20.65,Cap,,0,0,0,,FASTER {\c&H00E6FF&}THAN{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:20.65,0:00:20.83,Cap,,0,0,0,,FASTER THAN {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.83,0:00:21.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRUCK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.44,0:00:21.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AFTER{\c&HFFFFFF&} A WEEK,
+Dialogue: 0,0:00:21.71,0:00:21.81,Cap,,0,0,0,,AFTER {\c&H00E6FF&}A{\c&HFFFFFF&} WEEK,
+Dialogue: 0,0:00:21.81,0:00:22.38,Cap,,0,0,0,,AFTER A {\c&H00E6FF&}WEEK,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.38,0:00:22.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY'D{\c&HFFFFFF&} FIRED TWENTY-FIVE
+Dialogue: 0,0:00:22.65,0:00:22.92,Cap,,0,0,0,,THEY'D {\c&H00E6FF&}FIRED{\c&HFFFFFF&} TWENTY-FIVE
+Dialogue: 0,0:00:22.92,0:00:23.40,Cap,,0,0,0,,THEY'D FIRED {\c&H00E6FF&}TWENTY-FIVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.40,0:00:23.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HUNDRED{\c&HFFFFFF&} BULLETS,
+Dialogue: 0,0:00:23.76,0:00:24.11,Cap,,0,0,0,,HUNDRED {\c&H00E6FF&}BULLETS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.11,0:00:24.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE EMUS
+Dialogue: 0,0:00:24.72,0:00:24.96,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} EMUS
+Dialogue: 0,0:00:24.96,0:00:25.19,Cap,,0,0,0,,AND THE {\c&H00E6FF&}EMUS{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.19,0:00:25.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WERE{\c&HFFFFFF&} STILL THERE.
+Dialogue: 0,0:00:25.42,0:00:25.69,Cap,,0,0,0,,WERE {\c&H00E6FF&}STILL{\c&HFFFFFF&} THERE.
+Dialogue: 0,0:00:25.69,0:00:26.23,Cap,,0,0,0,,WERE STILL {\c&H00E6FF&}THERE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.39,0:00:26.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ARMY PULLED
+Dialogue: 0,0:00:26.59,0:00:26.83,Cap,,0,0,0,,THE {\c&H00E6FF&}ARMY{\c&HFFFFFF&} PULLED
+Dialogue: 0,0:00:26.83,0:00:27.17,Cap,,0,0,0,,THE ARMY {\c&H00E6FF&}PULLED{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.17,0:00:27.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OUT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.74,0:00:27.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} EMUS WON.
+Dialogue: 0,0:00:27.94,0:00:28.18,Cap,,0,0,0,,THE {\c&H00E6FF&}EMUS{\c&HFFFFFF&} WON.
+Dialogue: 0,0:00:28.18,0:00:28.65,Cap,,0,0,0,,THE EMUS {\c&H00E6FF&}WON.{\c&HFFFFFF&}

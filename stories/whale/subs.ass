@@ -1,0 +1,102 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1970,
+Dialogue: 0,0:00:00.26,0:00:01.01,Cap,,0,0,0,,IN {\c&H00E6FF&}1970,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.01,0:00:01.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OREGON{\c&HFFFFFF&} TRIED TO
+Dialogue: 0,0:00:01.87,0:00:02.15,Cap,,0,0,0,,OREGON {\c&H00E6FF&}TRIED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:02.15,0:00:02.30,Cap,,0,0,0,,OREGON TRIED {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.30,0:00:02.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GET{\c&HFFFFFF&} RID OF
+Dialogue: 0,0:00:02.57,0:00:02.76,Cap,,0,0,0,,GET {\c&H00E6FF&}RID{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:02.76,0:00:02.91,Cap,,0,0,0,,GET RID {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.91,0:00:03.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} DEAD WHALE
+Dialogue: 0,0:00:03.01,0:00:03.25,Cap,,0,0,0,,A {\c&H00E6FF&}DEAD{\c&HFFFFFF&} WHALE
+Dialogue: 0,0:00:03.25,0:00:03.53,Cap,,0,0,0,,A DEAD {\c&H00E6FF&}WHALE{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.53,0:00:03.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} HALF A
+Dialogue: 0,0:00:03.88,0:00:04.12,Cap,,0,0,0,,WITH {\c&H00E6FF&}HALF{\c&HFFFFFF&} A
+Dialogue: 0,0:00:04.12,0:00:04.29,Cap,,0,0,0,,WITH HALF {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.29,0:00:04.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TON{\c&HFFFFFF&} OF DYNAMITE.
+Dialogue: 0,0:00:04.48,0:00:04.63,Cap,,0,0,0,,TON {\c&H00E6FF&}OF{\c&HFFFFFF&} DYNAMITE.
+Dialogue: 0,0:00:04.63,0:00:05.30,Cap,,0,0,0,,TON OF {\c&H00E6FF&}DYNAMITE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.42,0:00:05.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FORTY-FIVE-FOOT SPERM
+Dialogue: 0,0:00:05.53,0:00:06.16,Cap,,0,0,0,,A {\c&H00E6FF&}FORTY-FIVE-FOOT{\c&HFFFFFF&} SPERM
+Dialogue: 0,0:00:06.16,0:00:06.45,Cap,,0,0,0,,A FORTY-FIVE-FOOT {\c&H00E6FF&}SPERM{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.45,0:00:06.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHALE{\c&HFFFFFF&} HAD WASHED
+Dialogue: 0,0:00:06.82,0:00:07.01,Cap,,0,0,0,,WHALE {\c&H00E6FF&}HAD{\c&HFFFFFF&} WASHED
+Dialogue: 0,0:00:07.01,0:00:07.34,Cap,,0,0,0,,WHALE HAD {\c&H00E6FF&}WASHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.34,0:00:07.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UP{\c&HFFFFFF&} ON THE
+Dialogue: 0,0:00:07.50,0:00:07.65,Cap,,0,0,0,,UP {\c&H00E6FF&}ON{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:07.65,0:00:07.92,Cap,,0,0,0,,UP ON {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.92,0:00:08.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEACH{\c&HFFFFFF&} IN FLORENCE,
+Dialogue: 0,0:00:08.21,0:00:08.36,Cap,,0,0,0,,BEACH {\c&H00E6FF&}IN{\c&HFFFFFF&} FLORENCE,
+Dialogue: 0,0:00:08.36,0:00:08.78,Cap,,0,0,0,,BEACH IN {\c&H00E6FF&}FLORENCE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.78,0:00:09.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} IT STANK.
+Dialogue: 0,0:00:09.45,0:00:09.60,Cap,,0,0,0,,AND {\c&H00E6FF&}IT{\c&HFFFFFF&} STANK.
+Dialogue: 0,0:00:09.60,0:00:10.15,Cap,,0,0,0,,AND IT {\c&H00E6FF&}STANK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.27,0:00:10.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE HIGHWAY
+Dialogue: 0,0:00:10.40,0:00:10.58,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} HIGHWAY
+Dialogue: 0,0:00:10.58,0:00:10.92,Cap,,0,0,0,,SO THE {\c&H00E6FF&}HIGHWAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.92,0:00:11.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DEPARTMENT{\c&HFFFFFF&} MADE A
+Dialogue: 0,0:00:11.44,0:00:11.66,Cap,,0,0,0,,DEPARTMENT {\c&H00E6FF&}MADE{\c&HFFFFFF&} A
+Dialogue: 0,0:00:11.66,0:00:11.76,Cap,,0,0,0,,DEPARTMENT MADE {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.76,0:00:12.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PLAN:{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.54,0:00:12.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLOW{\c&HFFFFFF&} IT INTO
+Dialogue: 0,0:00:12.76,0:00:12.90,Cap,,0,0,0,,BLOW {\c&H00E6FF&}IT{\c&HFFFFFF&} INTO
+Dialogue: 0,0:00:12.90,0:00:13.18,Cap,,0,0,0,,BLOW IT {\c&H00E6FF&}INTO{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.18,0:00:13.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TINY{\c&HFFFFFF&} PIECES FOR
+Dialogue: 0,0:00:13.40,0:00:13.76,Cap,,0,0,0,,TINY {\c&H00E6FF&}PIECES{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:13.76,0:00:14.01,Cap,,0,0,0,,TINY PIECES {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.01,0:00:14.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SEAGULLS.
+Dialogue: 0,0:00:14.19,0:00:15.01,Cap,,0,0,0,,THE {\c&H00E6FF&}SEAGULLS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.10,0:00:15.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} PACKED TWENTY
+Dialogue: 0,0:00:15.32,0:00:15.79,Cap,,0,0,0,,THEY {\c&H00E6FF&}PACKED{\c&HFFFFFF&} TWENTY
+Dialogue: 0,0:00:15.79,0:00:16.11,Cap,,0,0,0,,THEY PACKED {\c&H00E6FF&}TWENTY{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.11,0:00:16.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CASES{\c&HFFFFFF&} OF DYNAMITE
+Dialogue: 0,0:00:16.38,0:00:16.52,Cap,,0,0,0,,CASES {\c&H00E6FF&}OF{\c&HFFFFFF&} DYNAMITE
+Dialogue: 0,0:00:16.52,0:00:16.93,Cap,,0,0,0,,CASES OF {\c&H00E6FF&}DYNAMITE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.93,0:00:17.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AROUND{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:17.25,0:00:17.66,Cap,,0,0,0,,AROUND {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.76,0:00:17.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} CROWD GATHERED
+Dialogue: 0,0:00:17.87,0:00:18.16,Cap,,0,0,0,,A {\c&H00E6FF&}CROWD{\c&HFFFFFF&} GATHERED
+Dialogue: 0,0:00:18.16,0:00:18.58,Cap,,0,0,0,,A CROWD {\c&H00E6FF&}GATHERED{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.58,0:00:18.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} WATCH.
+Dialogue: 0,0:00:18.74,0:00:19.43,Cap,,0,0,0,,TO {\c&H00E6FF&}WATCH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.52,0:00:20.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BOOM!{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.30,0:00:20.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT STARTED
+Dialogue: 0,0:00:20.51,0:00:20.64,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} STARTED
+Dialogue: 0,0:00:20.64,0:00:20.97,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}STARTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.97,0:00:21.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RAINING{\c&HFFFFFF&} WHALE.
+Dialogue: 0,0:00:21.30,0:00:21.82,Cap,,0,0,0,,RAINING {\c&H00E6FF&}WHALE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.98,0:00:22.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLUBBER{\c&HFFFFFF&} FLEW EVERYWHERE,
+Dialogue: 0,0:00:22.33,0:00:22.56,Cap,,0,0,0,,BLUBBER {\c&H00E6FF&}FLEW{\c&HFFFFFF&} EVERYWHERE,
+Dialogue: 0,0:00:22.56,0:00:23.52,Cap,,0,0,0,,BLUBBER FLEW {\c&H00E6FF&}EVERYWHERE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.52,0:00:23.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} ONE CHUNK
+Dialogue: 0,0:00:23.71,0:00:23.90,Cap,,0,0,0,,AND {\c&H00E6FF&}ONE{\c&HFFFFFF&} CHUNK
+Dialogue: 0,0:00:23.90,0:00:24.29,Cap,,0,0,0,,AND ONE {\c&H00E6FF&}CHUNK{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.29,0:00:24.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CRUSHED{\c&HFFFFFF&} A BRAND-NEW
+Dialogue: 0,0:00:24.65,0:00:24.75,Cap,,0,0,0,,CRUSHED {\c&H00E6FF&}A{\c&HFFFFFF&} BRAND-NEW
+Dialogue: 0,0:00:24.75,0:00:25.15,Cap,,0,0,0,,CRUSHED A {\c&H00E6FF&}BRAND-NEW{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.15,0:00:25.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAR{\c&HFFFFFF&} A QUARTER
+Dialogue: 0,0:00:25.34,0:00:25.51,Cap,,0,0,0,,CAR {\c&H00E6FF&}A{\c&HFFFFFF&} QUARTER
+Dialogue: 0,0:00:25.51,0:00:25.87,Cap,,0,0,0,,CAR A {\c&H00E6FF&}QUARTER{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.87,0:00:26.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MILE{\c&HFFFFFF&} AWAY.
+Dialogue: 0,0:00:26.10,0:00:26.59,Cap,,0,0,0,,MILE {\c&H00E6FF&}AWAY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.71,0:00:26.86,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} MOST OF
+Dialogue: 0,0:00:26.86,0:00:27.07,Cap,,0,0,0,,AND {\c&H00E6FF&}MOST{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:27.07,0:00:27.18,Cap,,0,0,0,,AND MOST {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.18,0:00:27.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WHALE WAS
+Dialogue: 0,0:00:27.34,0:00:27.57,Cap,,0,0,0,,THE {\c&H00E6FF&}WHALE{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:27.57,0:00:27.73,Cap,,0,0,0,,THE WHALE {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.73,0:00:28.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STILL{\c&HFFFFFF&} ON THE
+Dialogue: 0,0:00:28.02,0:00:28.14,Cap,,0,0,0,,STILL {\c&H00E6FF&}ON{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:28.14,0:00:28.30,Cap,,0,0,0,,STILL ON {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.30,0:00:28.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEACH.{\c&HFFFFFF&}

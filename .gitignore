@@ -1,0 +1,7 @@
+models/
+node_modules
+stories/*/frames/
+stories/*/stills/
+stories/*/*.wav
+stories/*/render*.log
+*.mp4
