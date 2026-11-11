@@ -5,3 +5,4 @@ stories/*/stills/
 stories/*/*.wav
 stories/*/render*.log
 *.mp4
+__pycache__/
