@@ -1,6 +1,6 @@
 # Daily cartoon shorts — playbook
 
-Three vertical (1080×1920) cartoon explainer shorts a day: **two × 30 s, one × 60 s**, each a true, surprising,
+Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s, one × 60 s**, each a true, surprising,
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a 3D toon world,
 natural AI narration (Kokoro `am_michael`), word-by-word captions, original synthesized music + SFX.
 
