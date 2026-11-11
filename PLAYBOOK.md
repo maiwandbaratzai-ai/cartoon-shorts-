@@ -4,17 +4,22 @@ Three vertical (1080×1920) cartoon explainer shorts a day: **two × 30 s, one �
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a 3D toon world,
 natural AI narration (Kokoro `am_michael`), word-by-word captions, original synthesized music + SFX.
 
+**Read VIRAL.md first, every run.** It holds the YouTube Shorts rules (hook, pacing, loop, packaging, monetisation
+safety) and the pre-render checklist. Its rules override anything below when they conflict.
+
 ## Pipeline (per story, from the kit root)
-1. **Pick the topic.** Check `stories/` (and `TOPICS.md`) so nothing repeats. Prefer one clear, visual event with
-   a twist ending. Verify the facts with 2–3 web searches; keep numbers conservative where sources disagree.
-2. **Script** `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (the whole story in one
-   sentence). Last line is the twist/button. ~85 words for 30 s, ~165 words for 60 s.
+1. **Pick the topic** with the VIRAL.md §2 scorecard (7+/10). Check `TOPICS.md` so nothing repeats. Prefer one clear,
+   visual event with a twist ending, and a different setting from the last few days. Verify the facts with 2–3 web searches; keep numbers conservative where sources disagree.
+2. **Script** `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
+   shocking concrete claim). Last line is the twist and should loop back into line 1. 75–90 words for 30 s,
+   140–165 for 60 s (VIRAL.md §3).
    `say.txt` (optional, same lines): phonetic versions (years as words: "nineteen nineteen", odd names).
 3. **Voice + timing:** `python3 tools/voice.py stories/<slug> <30|60>` → voice.wav, timing.json, subs.ass,
    `web/s/<slug>_timing.js` (LINES = [start,end] frames per line, `wf(line, 'word')` = frame of a word).
 4. **Scene:** `web/s/<slug>.js` — copy the closest existing story (whale = beach/explosion, emu = field/animals/
-   vehicles, molasses = city street/flood/building damage). One shot per narration line; cuts 4 frames before each
-   line; key actions on the word that names them (`wf`). Reuse `props.js` (ocean, terrain, crates, cars, trucks,
+   vehicles, molasses = city street/flood/building damage). Frame 0 = the payoff image (flash-forward). Cuts 4
+   frames before each line, plus a second camera key / punch-in inside any line longer than ~3 s; key actions
+   on the word that names them (`wf`); last shot echoes the first (VIRAL.md §4). Reuse `props.js` (ocean, terrain, crates, cars, trucks,
    gulls, emus, kaboom, words, facades, mergeCopies) and `toon.js` characters (`bodyFront/bodySide`, outfits,
    expressions: neutral stern grin laugh whistle nervous shock relief dazed pained smile lick).
 5. **Look at stills before rendering:** `tools/stills.sh <slug> "f1,f2,..."` (one frame per shot + key moments) and
@@ -27,7 +32,8 @@ natural AI narration (Kokoro `am_michael`), word-by-word captions, original synt
    Render the three stories one after another, not in parallel.
 8. **Finish:** `tools/finish.sh <slug> "Title"` → `stories/<slug>/out/<Title>.mp4` (−14 LUFS, burned captions, QA).
    Check the QA sheet; a short black flash or a <1 s freeze at a hold is OK.
-9. **Deliver** the three mp4s with titles + a one-line YouTube description and 3–5 hashtags each, then add the
+9. **Package:** write `stories/<slug>/upload.txt` (title ≤ 50 chars, 1–2 sentence description, 3–5 hashtags; VIRAL.md §6).
+10. **Deliver** the three mp4s with their upload.txt contents, then add the
    topics to `TOPICS.md` and commit (no frames/wav/mp4 — see .gitignore).
 
 ## Rules of thumb
