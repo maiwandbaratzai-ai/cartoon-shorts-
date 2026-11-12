@@ -38,7 +38,7 @@ Prefer: engineering blunders, failed plans, freak accidents with few or no death
 "they tried X and Y happened". Use tragedies sparingly and respectfully (no bodies, no gore), at most one in three.
 Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, field, sky, sea, factory, mountain).
 
-## 3. Script rules (voice.py prints warnings if these are broken)
+## 3. Script rules (full craft guide: SCRIPTS.md; `tools/script_check.py` enforces them)
 
 - **Line 1 = the hook, ≤ 12 words, spoken in ≤ 3 s.** State the most shocking claim with a concrete noun and
   number. No "Did you know", no "In this video", no throat-clearing. Good: "In 1970, Oregon blew up a whale with

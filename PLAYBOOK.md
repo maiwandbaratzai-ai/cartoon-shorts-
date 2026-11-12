@@ -4,13 +4,13 @@ Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s (two p
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a 3D toon world,
 natural AI narration (Kokoro `am_michael`), word-by-word captions, original synthesized music + SFX.
 
-**Read VIRAL.md first, every run.** It holds the YouTube Shorts rules (hook, pacing, loop, packaging, monetisation
+**Read VIRAL.md and SCRIPTS.md first, every run.** SCRIPTS.md is how to write a script people watch to the end. It holds the YouTube Shorts rules (hook, pacing, loop, packaging, monetisation
 safety) and the pre-render checklist. Its rules override anything below when they conflict.
 
 ## Pipeline (per story, from the kit root)
 1. **Pick the topic** with the VIRAL.md §2 scorecard (7+/10). Check `TOPICS.md` so nothing repeats. Prefer one clear,
    visual event with a twist ending, and a different setting from the last few days. Verify the facts with 2–3 web searches; keep numbers conservative where sources disagree.
-2. **Script** `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
+2. **Script** — follow the SCRIPTS.md process (5 hooks, beat sheet, `tools/script_check.py` must pass, rubric ≥ 24/30). `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
    shocking concrete claim). Last line is the twist and should loop back into line 1. 75–90 words for 30 s,
    140–165 for 60 s (VIRAL.md §3).
    `say.txt` (optional, same lines): phonetic versions (years as words: "nineteen nineteen", odd names).
