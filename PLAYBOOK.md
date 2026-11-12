@@ -2,7 +2,7 @@
 
 Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s (two per YouTube channel), one × 64 s for TikTok**, each a true, surprising,
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a 3D toon world,
-natural AI narration (Kokoro `am_michael`), word-by-word captions, original synthesized music + SFX.
+natural AI narration (Kokoro `am_puck`, the playful male voice Maiwand chose), word-by-word captions, original synthesized music + SFX.
 
 **Read VIRAL.md and SCRIPTS.md first, every run.** SCRIPTS.md is how to write a script people watch to the end; VIRAL.md holds the YouTube Shorts rules (hook, pacing, loop, packaging, monetisation
 safety) and the pre-render checklist. Its rules override anything below when they conflict.

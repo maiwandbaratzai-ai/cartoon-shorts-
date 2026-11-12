@@ -13,7 +13,7 @@ KIT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MODEL = os.environ.get('KOKORO_DIR', os.path.join(KIT, 'models'))
 sd = sys.argv[1].rstrip('/'); name = os.path.basename(sd)
 target = float(sys.argv[2]) if len(sys.argv) > 2 else None
-VOICE = sys.argv[3] if len(sys.argv) > 3 else 'am_michael'
+VOICE = sys.argv[3] if len(sys.argv) > 3 else 'am_puck'   # Maiwand's pick (2026-11-12): playful male
 FPS, SR = 30, 24000
 lines = [l.strip() for l in open(f'{sd}/script.txt') if l.strip()]
 say = [l.strip() for l in open(f'{sd}/say.txt') if l.strip()] if os.path.exists(f'{sd}/say.txt') else lines
@@ -56,7 +56,7 @@ raw = np.zeros(int(dur * SR) + SR, np.float32)
 for t0, c in buf: i = int(t0 * SR); raw[i:i + len(c)] += c
 sf.write(f'{sd}/voice_raw.wav', raw[:int(dur * SR)], SR)
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', f'{sd}/voice_raw.wav', '-af',
-    'aresample=48000,highpass=f=70,equalizer=f=180:t=q:w=1:g=1.5,equalizer=f=4000:t=q:w=1.2:g=1.5,acompressor=threshold=-20dB:ratio=3:attack=5:release=80,volume=1.6',
+    'aresample=48000,highpass=f=80,equalizer=f=200:t=q:w=1:g=1,equalizer=f=3500:t=q:w=1.2:g=3,acompressor=threshold=-22dB:ratio=4:attack=3:release=60,volume=1.6',
     f'{sd}/voice.wav'], check=True)
 
 # ---- word timings: spread each line's words over its voiced time, weighted by length; pauses come from silence
