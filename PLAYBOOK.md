@@ -1,6 +1,6 @@
 # Daily cartoon shorts — playbook
 
-Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s, one × 60 s**, each a true, surprising,
+Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s (two per YouTube channel), one × 64 s for TikTok**, each a true, surprising,
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a 3D toon world,
 natural AI narration (Kokoro `am_michael`), word-by-word captions, original synthesized music + SFX.
 
@@ -14,7 +14,7 @@ safety) and the pre-render checklist. Its rules override anything below when the
    shocking concrete claim). Last line is the twist and should loop back into line 1. 75–90 words for 30 s,
    140–165 for 60 s (VIRAL.md §3).
    `say.txt` (optional, same lines): phonetic versions (years as words: "nineteen nineteen", odd names).
-3. **Voice + timing:** `python3 tools/voice.py stories/<slug> <30|60>` → voice.wav, timing.json, subs.ass,
+3. **Voice + timing:** `python3 tools/voice.py stories/<slug> <30|64>` → voice.wav, timing.json, subs.ass,
    `web/s/<slug>_timing.js` (LINES = [start,end] frames per line, `wf(line, 'word')` = frame of a word).
 4. **Scene:** `web/s/<slug>.js` — copy the closest existing story (whale = beach/explosion, emu = field/animals/
    vehicles, molasses = city street/flood/building damage). Frame 0 = the payoff image (flash-forward). Cuts 4

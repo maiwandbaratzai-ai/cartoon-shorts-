@@ -46,8 +46,8 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
 - **Open a loop in line 1–2** that only the ending closes: the viewer must want to know *how bad it got* or *why*.
 - **Escalate every line.** Each line adds a new fact, image, or stake. Cut any line that only explains.
 - **Short sentences, active verbs, concrete numbers.** ~165–180 words per minute (the voice runs ~1.1–1.2×).
-- **Length:** most viral Shorts in public data sit around 16–45 s. 30-second scripts: 75–90 words. "60-second"
-  scripts: 140–165 words, and only for stories with enough events to fill them. Never pad.
+- **Length:** most viral Shorts in public data sit around 16–45 s. 30-second scripts: 75–90 words. The daily
+  long video is **64 s for TikTok** (see §9): 155–175 words, a story with enough events to fill it. Never pad the script.
 - **Last line = the twist or button, and it should loop:** write it so that it flows back into line 1 when the
   video restarts (e.g. end "…and that's why Oregon never did it again." → loop restarts on "In 1970, Oregon…"), or
   end on a line that recontextualises the opening.
@@ -104,6 +104,21 @@ Ask Maiwand for Studio numbers per video: **Viewed vs. swiped away**, **APV**, e
 - High "viewed" but low APV → the middle sagged: more escalation, faster changes, cut explaining lines.
 - High APV but few shares/comments → the twist wasn't remarkable enough.
 Record what worked in the "Lessons" section below and adjust these rules.
+
+## 9. Where each video goes (Maiwand's setup, 2026-11-11)
+
+Every day: **four 30-second Shorts + one 64-second video.**
+- **YouTube channel A:** two of the 30-second Shorts. **YouTube channel B:** the other two. Give the two channels
+  different-feeling topics where possible, and never post the same video on both channels (duplicates across
+  channels look like mass-produced reuploads).
+- **TikTok:** the 64-second video. TikTok's Creator Rewards Program only pays for original videos **longer than one
+  minute**, so the long video is rendered at **64 s (1:04)** to be safely over the line: `voice.py <story> 64`
+  pads the ending if the narration runs short, and `finish.sh` warns if the final file is under the target.
+  Creator Rewards also needs 10,000 followers, 100,000 views in the last 30 days and the account holder to be 18+.
+- For TikTok the same rules apply (hook in 2 s, pace, loop). Write the 64-second script as a full story with 2–3
+  escalation beats; it must not feel padded. The padded tail (if any) should be a held final shot with music,
+  never dead air or black.
+- In the delivery message label each video: **Channel A**, **Channel B**, or **TikTok**.
 
 ## Pre-render checklist (all must be yes)
 - [ ] Topic scores 7+ and isn't in TOPICS.md
