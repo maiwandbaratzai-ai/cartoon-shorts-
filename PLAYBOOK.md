@@ -32,8 +32,11 @@ safety) and the pre-render checklist. Its rules override anything below when the
    Render the three stories one after another, not in parallel.
 8. **Finish:** `tools/finish.sh <slug> "Title"` → `stories/<slug>/out/<Title>.mp4` (−14 LUFS, burned captions, QA).
    Check the QA sheet; a short black flash or a <1 s freeze at a hold is OK.
-9. **Package:** write `stories/<slug>/upload.txt` (title ≤ 50 chars, 1–2 sentence description, 3–5 hashtags; VIRAL.md §6).
-10. **Deliver** the three mp4s with their upload.txt contents, then add the
+9. **Thumbnail:** pick the most spectacular rendered frame (no captions on raw frames) and run
+   `python3 tools/thumbnail.py stories/<slug> <frame> "LINE ONE|LINE TWO" "<year or place>"` →
+   `out/thumbnail.jpg` (1080×1920). 2–5 words, top third, must not cover the subject's face; check it by eye.
+10. **Package:** write `stories/<slug>/upload.txt` (title ≤ 50 chars, 1–2 sentence description, 3–5 hashtags; VIRAL.md §6).
+11. **Deliver** each mp4 together with its thumbnail.jpg and upload.txt contents, then add the
    topics to `TOPICS.md` and commit (no frames/wav/mp4 — see .gitignore).
 
 ## Rules of thumb

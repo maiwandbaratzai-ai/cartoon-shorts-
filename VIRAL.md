@@ -84,6 +84,9 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
 - **Description:** 1–2 plain sentences with the searchable names (place, year, event), then a one-line source note.
 - **Hashtags:** 3–5, most relevant first, in the description (only the first 3 show above the title):
   one broad (#history / #science), one niche (#weirdhistory / #disaster), one topic (#bostonmolassesflood).
+- **Thumbnail / cover** (`tools/thumbnail.py`): the payoff frame + 2–5 huge words (white, last line yellow, thick
+  black outline) in the top third + a small red year/place badge. Use it as the YouTube Shorts thumbnail where the
+  app allows choosing one, and as the TikTok cover. The words should tease the twist, not repeat the title.
 - **AI/synthetic disclosure:** our videos are clearly animated and use a generic (non-cloned) narrator voice.
   YouTube says clearly unrealistic/animated content doesn't need the "altered or synthetic" label. Never clone a
   real person's voice or make realistic footage of real people.
@@ -129,6 +132,7 @@ Every day: **four 30-second Shorts + one 64-second video.**
 - [ ] Last shot flows back into the first; no fade-out, music runs to the end
 - [ ] Narrator clearly above music; SFX on every hit
 - [ ] upload.txt has title (≤ 50 chars), description, 3–5 hashtags
+- [ ] thumbnail.jpg made and checked (subject visible, text readable at phone size)
 
 ## Lessons (append dated notes from real analytics here)
 - 2026-11-11: first four videos made; no analytics yet.
