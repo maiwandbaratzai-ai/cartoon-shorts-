@@ -21,7 +21,8 @@ if not re.search(r'\d|[A-Z][a-z]+ [A-Z]|\b(one|two|three|four|five|six|seven|eig
 # length
 total = sum(len(words(l)) for l in lines)
 lo, hi = (75, 92) if target <= 35 else (155, 178)
-if not lo <= total <= hi: (F if abs(total - (lo + hi) / 2) > (hi - lo) else Wn)(f'{total} words for {target}s (aim {lo}-{hi})')
+if total < lo: (F if total < lo - 8 else Wn)(f'{total} words for {target}s: too short, the video must not come in under {target}s (aim {lo}-{hi})')
+elif total > hi + (25 if target <= 35 else 40): Wn(f'{total} words: longer than {target}s is allowed, but cut anything that drags')
 
 # sentences + filler + weak openers
 FILLER = r'\b(very|really|just|actually|basically|literally|a lot of|kind of|sort of|some kind of)\b'

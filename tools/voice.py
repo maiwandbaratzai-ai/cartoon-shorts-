@@ -39,7 +39,9 @@ def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for
 speed = float(os.environ.get('VOICE_SPEED', 1.2)); clips = synth(speed)
 if target and not os.environ.get('VOICE_SPEED'):  # VOICE_SPEED=1.25 pins the speed (the auto-fit can oscillate)
     for _ in range(3):
-        T = total(clips); s2 = float(np.clip(speed * (T - LEAD - TAIL) / (target - LEAD - TAIL), 1.1, 1.42))
+        # never speed up past the natural pace to squeeze a long script in (longer than the target is fine);
+        # only slow down a little (to 1.05) when the script runs short, then pad the ending below
+        T = total(clips); s2 = float(np.clip(speed * (T - LEAD - TAIL) / (target - LEAD - TAIL), 1.05, 1.2))
         if abs(s2 - speed) < 0.015: break
         speed = s2; clips = synth(speed)
 print(f'speed {speed:.2f}  length {total(clips):.2f}s')
@@ -49,7 +51,7 @@ for i, (c, l) in enumerate(zip(clips, lines)):
     L.append(dict(text=l, s=round(t, 3), e=round(t + len(c) / SR, 3)))
     buf.append((t, c)); t += len(c) / SR + (gap(l) if i < len(lines) - 1 else 0)
 dur = t + TAIL
-if target and target >= 60 and dur < target:   # long (TikTok) videos must never come in under the target (e.g. 64 s)
+if target and dur < target:   # videos may run longer than the target but never shorter (30 s Shorts, 64 s TikTok)
     print(f'padding ending by {target - dur:.2f}s to reach {target}s'); dur = float(target)
 frames = int(np.ceil(dur * FPS))
 raw = np.zeros(int(dur * SR) + SR, np.float32)
