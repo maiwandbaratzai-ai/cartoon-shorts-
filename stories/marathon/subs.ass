@@ -1,0 +1,189 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} 1904 OLYMPIC
+Dialogue: 0,0:00:00.32,0:00:01.14,Cap,,0,0,0,,THE {\c&H00E6FF&}1904{\c&HFFFFFF&} OLYMPIC
+Dialogue: 0,0:00:01.14,0:00:01.61,Cap,,0,0,0,,THE 1904 {\c&H00E6FF&}OLYMPIC{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.61,0:00:02.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MARATHON{\c&HFFFFFF&} WAS WON
+Dialogue: 0,0:00:02.59,0:00:02.80,Cap,,0,0,0,,MARATHON {\c&H00E6FF&}WAS{\c&HFFFFFF&} WON
+Dialogue: 0,0:00:02.80,0:00:03.01,Cap,,0,0,0,,MARATHON WAS {\c&H00E6FF&}WON{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.01,0:00:03.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BY{\c&HFFFFFF&} A MAN
+Dialogue: 0,0:00:03.17,0:00:03.28,Cap,,0,0,0,,BY {\c&H00E6FF&}A{\c&HFFFFFF&} MAN
+Dialogue: 0,0:00:03.28,0:00:03.49,Cap,,0,0,0,,BY A {\c&H00E6FF&}MAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.49,0:00:03.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} RAT POISON.
+Dialogue: 0,0:00:03.66,0:00:04.00,Cap,,0,0,0,,ON {\c&H00E6FF&}RAT{\c&HFFFFFF&} POISON.
+Dialogue: 0,0:00:04.00,0:00:04.61,Cap,,0,0,0,,ON RAT {\c&H00E6FF&}POISON.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.72,0:00:04.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} WAS NINETY
+Dialogue: 0,0:00:04.87,0:00:05.08,Cap,,0,0,0,,IT {\c&H00E6FF&}WAS{\c&HFFFFFF&} NINETY
+Dialogue: 0,0:00:05.08,0:00:05.42,Cap,,0,0,0,,IT WAS {\c&H00E6FF&}NINETY{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.42,0:00:05.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DEGREES{\c&HFFFFFF&} IN ST.
+Dialogue: 0,0:00:05.80,0:00:05.96,Cap,,0,0,0,,DEGREES {\c&H00E6FF&}IN{\c&HFFFFFF&} ST.
+Dialogue: 0,0:00:05.96,0:00:06.18,Cap,,0,0,0,,DEGREES IN {\c&H00E6FF&}ST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.18,0:00:06.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LOUIS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.88,0:00:07.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} DUSTY DIRT
+Dialogue: 0,0:00:07.04,0:00:07.41,Cap,,0,0,0,,ON {\c&H00E6FF&}DUSTY{\c&HFFFFFF&} DIRT
+Dialogue: 0,0:00:07.41,0:00:07.72,Cap,,0,0,0,,ON DUSTY {\c&H00E6FF&}DIRT{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.72,0:00:08.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ROADS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.56,0:00:08.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CARS{\c&HFFFFFF&} DROVE AHEAD
+Dialogue: 0,0:00:08.78,0:00:09.05,Cap,,0,0,0,,CARS {\c&H00E6FF&}DROVE{\c&HFFFFFF&} AHEAD
+Dialogue: 0,0:00:09.05,0:00:09.32,Cap,,0,0,0,,CARS DROVE {\c&H00E6FF&}AHEAD{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.32,0:00:09.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} THE RUNNERS,
+Dialogue: 0,0:00:09.47,0:00:09.66,Cap,,0,0,0,,OF {\c&H00E6FF&}THE{\c&HFFFFFF&} RUNNERS,
+Dialogue: 0,0:00:09.66,0:00:10.44,Cap,,0,0,0,,OF THE {\c&H00E6FF&}RUNNERS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.44,0:00:10.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}KICKING{\c&HFFFFFF&} UP CLOUDS
+Dialogue: 0,0:00:10.90,0:00:11.05,Cap,,0,0,0,,KICKING {\c&H00E6FF&}UP{\c&HFFFFFF&} CLOUDS
+Dialogue: 0,0:00:11.05,0:00:11.36,Cap,,0,0,0,,KICKING UP {\c&H00E6FF&}CLOUDS{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.36,0:00:11.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} DUST.
+Dialogue: 0,0:00:11.51,0:00:12.00,Cap,,0,0,0,,OF {\c&H00E6FF&}DUST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.08,0:00:12.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} RUNNER NEARLY
+Dialogue: 0,0:00:12.26,0:00:12.56,Cap,,0,0,0,,ONE {\c&H00E6FF&}RUNNER{\c&HFFFFFF&} NEARLY
+Dialogue: 0,0:00:12.56,0:00:13.05,Cap,,0,0,0,,ONE RUNNER {\c&H00E6FF&}NEARLY{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.05,0:00:13.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DIED{\c&HFFFFFF&} FROM BREATHING
+Dialogue: 0,0:00:13.27,0:00:13.49,Cap,,0,0,0,,DIED {\c&H00E6FF&}FROM{\c&HFFFFFF&} BREATHING
+Dialogue: 0,0:00:13.49,0:00:13.91,Cap,,0,0,0,,DIED FROM {\c&H00E6FF&}BREATHING{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.91,0:00:14.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} IN.
+Dialogue: 0,0:00:14.05,0:00:14.46,Cap,,0,0,0,,IT {\c&H00E6FF&}IN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.58,0:00:14.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THERE WAS
+Dialogue: 0,0:00:14.76,0:00:15.03,Cap,,0,0,0,,AND {\c&H00E6FF&}THERE{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:15.03,0:00:15.21,Cap,,0,0,0,,AND THERE {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.21,0:00:15.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JUST{\c&HFFFFFF&} ONE WATER
+Dialogue: 0,0:00:15.44,0:00:15.62,Cap,,0,0,0,,JUST {\c&H00E6FF&}ONE{\c&HFFFFFF&} WATER
+Dialogue: 0,0:00:15.62,0:00:15.89,Cap,,0,0,0,,JUST ONE {\c&H00E6FF&}WATER{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.89,0:00:16.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STOP,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.34,0:00:16.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AT{\c&HFFFFFF&} MILE TWELVE.
+Dialogue: 0,0:00:16.48,0:00:16.71,Cap,,0,0,0,,AT {\c&H00E6FF&}MILE{\c&HFFFFFF&} TWELVE.
+Dialogue: 0,0:00:16.71,0:00:17.28,Cap,,0,0,0,,AT MILE {\c&H00E6FF&}TWELVE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.54,0:00:18.04,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THIRTY-TWO{\c&HFFFFFF&} MEN STARTED.
+Dialogue: 0,0:00:18.04,0:00:18.25,Cap,,0,0,0,,{\fs107}THIRTY-TWO {\c&H00E6FF&}MEN{\c&HFFFFFF&} STARTED.
+Dialogue: 0,0:00:18.25,0:00:18.65,Cap,,0,0,0,,{\fs107}THIRTY-TWO MEN {\c&H00E6FF&}STARTED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.65,0:00:19.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONLY{\c&HFFFFFF&} FOURTEEN WOULD
+Dialogue: 0,0:00:19.34,0:00:19.79,Cap,,0,0,0,,ONLY {\c&H00E6FF&}FOURTEEN{\c&HFFFFFF&} WOULD
+Dialogue: 0,0:00:19.79,0:00:20.10,Cap,,0,0,0,,ONLY FOURTEEN {\c&H00E6FF&}WOULD{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.10,0:00:20.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FINISH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.91,0:00:21.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FRED{\c&HFFFFFF&} LORZ GOT
+Dialogue: 0,0:00:21.15,0:00:21.40,Cap,,0,0,0,,FRED {\c&H00E6FF&}LORZ{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:21.40,0:00:21.60,Cap,,0,0,0,,FRED LORZ {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.60,0:00:22.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CRAMPS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.02,0:00:22.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HE HOPPED
+Dialogue: 0,0:00:22.18,0:00:22.53,Cap,,0,0,0,,SO {\c&H00E6FF&}HE{\c&HFFFFFF&} HOPPED
+Dialogue: 0,0:00:22.53,0:00:22.95,Cap,,0,0,0,,SO HE {\c&H00E6FF&}HOPPED{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.95,0:00:23.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} A CAR,
+Dialogue: 0,0:00:23.20,0:00:23.37,Cap,,0,0,0,,INTO {\c&H00E6FF&}A{\c&HFFFFFF&} CAR,
+Dialogue: 0,0:00:23.37,0:00:23.84,Cap,,0,0,0,,INTO A {\c&H00E6FF&}CAR,{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.89,0:00:24.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RODE{\c&HFFFFFF&} ELEVEN MILES,
+Dialogue: 0,0:00:24.13,0:00:24.47,Cap,,0,0,0,,RODE {\c&H00E6FF&}ELEVEN{\c&HFFFFFF&} MILES,
+Dialogue: 0,0:00:24.47,0:00:24.76,Cap,,0,0,0,,RODE ELEVEN {\c&H00E6FF&}MILES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.76,0:00:25.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} JUMPED OUT
+Dialogue: 0,0:00:25.57,0:00:25.91,Cap,,0,0,0,,THEN {\c&H00E6FF&}JUMPED{\c&HFFFFFF&} OUT
+Dialogue: 0,0:00:25.91,0:00:26.20,Cap,,0,0,0,,THEN JUMPED {\c&H00E6FF&}OUT{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.20,0:00:26.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} JOGGED ACROSS
+Dialogue: 0,0:00:26.48,0:00:26.81,Cap,,0,0,0,,AND {\c&H00E6FF&}JOGGED{\c&HFFFFFF&} ACROSS
+Dialogue: 0,0:00:26.81,0:00:27.15,Cap,,0,0,0,,AND JOGGED {\c&H00E6FF&}ACROSS{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.15,0:00:27.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FINISH LINE
+Dialogue: 0,0:00:27.41,0:00:27.74,Cap,,0,0,0,,THE {\c&H00E6FF&}FINISH{\c&HFFFFFF&} LINE
+Dialogue: 0,0:00:27.74,0:00:27.99,Cap,,0,0,0,,THE FINISH {\c&H00E6FF&}LINE{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.99,0:00:28.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} FIRST PLACE.
+Dialogue: 0,0:00:28.14,0:00:28.43,Cap,,0,0,0,,IN {\c&H00E6FF&}FIRST{\c&HFFFFFF&} PLACE.
+Dialogue: 0,0:00:28.43,0:00:29.19,Cap,,0,0,0,,IN FIRST {\c&H00E6FF&}PLACE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.28,0:00:29.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} WAS POSING
+Dialogue: 0,0:00:29.41,0:00:29.66,Cap,,0,0,0,,HE {\c&H00E6FF&}WAS{\c&HFFFFFF&} POSING
+Dialogue: 0,0:00:29.66,0:00:29.95,Cap,,0,0,0,,HE WAS {\c&H00E6FF&}POSING{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.95,0:00:30.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} THE PRESIDENT'S
+Dialogue: 0,0:00:30.16,0:00:30.33,Cap,,0,0,0,,WITH {\c&H00E6FF&}THE{\c&HFFFFFF&} PRESIDENT'S
+Dialogue: 0,0:00:30.33,0:00:30.77,Cap,,0,0,0,,WITH THE {\c&H00E6FF&}PRESIDENT'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.77,0:00:31.14,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DAUGHTER{\c&HFFFFFF&} WHEN OFFICIALS
+Dialogue: 0,0:00:31.14,0:00:31.67,Cap,,0,0,0,,{\fs107}DAUGHTER {\c&H00E6FF&}WHEN{\c&HFFFFFF&} OFFICIALS
+Dialogue: 0,0:00:31.67,0:00:32.07,Cap,,0,0,0,,{\fs107}DAUGHTER WHEN {\c&H00E6FF&}OFFICIALS{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.07,0:00:32.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOUND{\c&HFFFFFF&} OUT.
+Dialogue: 0,0:00:32.32,0:00:32.76,Cap,,0,0,0,,FOUND {\c&H00E6FF&}OUT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.87,0:00:33.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MEANWHILE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.34,0:00:33.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} CUBAN MAILMAN
+Dialogue: 0,0:00:33.67,0:00:34.02,Cap,,0,0,0,,A {\c&H00E6FF&}CUBAN{\c&HFFFFFF&} MAILMAN
+Dialogue: 0,0:00:34.02,0:00:34.40,Cap,,0,0,0,,A CUBAN {\c&H00E6FF&}MAILMAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.40,0:00:34.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAD{\c&HFFFFFF&} LOST HIS
+Dialogue: 0,0:00:34.60,0:00:34.85,Cap,,0,0,0,,HAD {\c&H00E6FF&}LOST{\c&HFFFFFF&} HIS
+Dialogue: 0,0:00:34.85,0:00:35.05,Cap,,0,0,0,,HAD LOST {\c&H00E6FF&}HIS{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.05,0:00:35.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRAVEL{\c&HFFFFFF&} MONEY GAMBLING
+Dialogue: 0,0:00:35.45,0:00:36.03,Cap,,0,0,0,,TRAVEL {\c&H00E6FF&}MONEY{\c&HFFFFFF&} GAMBLING
+Dialogue: 0,0:00:36.03,0:00:36.45,Cap,,0,0,0,,TRAVEL MONEY {\c&H00E6FF&}GAMBLING{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.45,0:00:36.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} HITCHHIKED TO
+Dialogue: 0,0:00:36.65,0:00:37.17,Cap,,0,0,0,,AND {\c&H00E6FF&}HITCHHIKED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:37.17,0:00:37.42,Cap,,0,0,0,,AND HITCHHIKED {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.42,0:00:37.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} RACE.
+Dialogue: 0,0:00:37.62,0:00:38.26,Cap,,0,0,0,,THE {\c&H00E6FF&}RACE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.34,0:00:38.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} RAN IN
+Dialogue: 0,0:00:38.45,0:00:38.62,Cap,,0,0,0,,HE {\c&H00E6FF&}RAN{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:38.62,0:00:38.74,Cap,,0,0,0,,HE RAN {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.74,0:00:39.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STREET{\c&HFFFFFF&} CLOTHES,
+Dialogue: 0,0:00:39.20,0:00:40.02,Cap,,0,0,0,,STREET {\c&H00E6FF&}CLOTHES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.02,0:00:40.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STOPPED{\c&HFFFFFF&} TO EAT
+Dialogue: 0,0:00:40.48,0:00:40.60,Cap,,0,0,0,,STOPPED {\c&H00E6FF&}TO{\c&HFFFFFF&} EAT
+Dialogue: 0,0:00:40.60,0:00:40.84,Cap,,0,0,0,,STOPPED TO {\c&H00E6FF&}EAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.84,0:00:41.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ROTTEN{\c&HFFFFFF&} APPLES,
+Dialogue: 0,0:00:41.16,0:00:41.49,Cap,,0,0,0,,ROTTEN {\c&H00E6FF&}APPLES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.49,0:00:41.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} TOOK A
+Dialogue: 0,0:00:41.66,0:00:41.85,Cap,,0,0,0,,AND {\c&H00E6FF&}TOOK{\c&HFFFFFF&} A
+Dialogue: 0,0:00:41.85,0:00:41.95,Cap,,0,0,0,,AND TOOK {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.95,0:00:42.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NAP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.51,0:00:42.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} STILL FINISHED
+Dialogue: 0,0:00:42.63,0:00:42.86,Cap,,0,0,0,,HE {\c&H00E6FF&}STILL{\c&HFFFFFF&} FINISHED
+Dialogue: 0,0:00:42.86,0:00:43.20,Cap,,0,0,0,,HE STILL {\c&H00E6FF&}FINISHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.20,0:00:43.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOURTH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.00,0:00:44.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ANOTHER{\c&HFFFFFF&} RUNNER WAS
+Dialogue: 0,0:00:44.37,0:00:44.70,Cap,,0,0,0,,ANOTHER {\c&H00E6FF&}RUNNER{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:44.70,0:00:44.90,Cap,,0,0,0,,ANOTHER RUNNER {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.90,0:00:45.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHASED{\c&HFFFFFF&} A MILE
+Dialogue: 0,0:00:45.23,0:00:45.34,Cap,,0,0,0,,CHASED {\c&H00E6FF&}A{\c&HFFFFFF&} MILE
+Dialogue: 0,0:00:45.34,0:00:45.58,Cap,,0,0,0,,CHASED A {\c&H00E6FF&}MILE{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.58,0:00:45.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} COURSE BY
+Dialogue: 0,0:00:45.85,0:00:46.25,Cap,,0,0,0,,OFF {\c&H00E6FF&}COURSE{\c&HFFFFFF&} BY
+Dialogue: 0,0:00:46.25,0:00:46.40,Cap,,0,0,0,,OFF COURSE {\c&H00E6FF&}BY{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.40,0:00:46.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WILD{\c&HFFFFFF&} DOGS.
+Dialogue: 0,0:00:46.64,0:00:46.88,Cap,,0,0,0,,WILD {\c&H00E6FF&}DOGS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.88,0:00:47.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} CAME NINTH.
+Dialogue: 0,0:00:47.62,0:00:47.86,Cap,,0,0,0,,HE {\c&H00E6FF&}CAME{\c&HFFFFFF&} NINTH.
+Dialogue: 0,0:00:47.86,0:00:48.41,Cap,,0,0,0,,HE CAME {\c&H00E6FF&}NINTH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.67,0:00:48.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE WINNER,
+Dialogue: 0,0:00:48.85,0:00:49.04,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} WINNER,
+Dialogue: 0,0:00:49.04,0:00:49.35,Cap,,0,0,0,,AND THE {\c&H00E6FF&}WINNER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.35,0:00:49.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THOMAS{\c&HFFFFFF&} HICKS?
+Dialogue: 0,0:00:49.66,0:00:50.44,Cap,,0,0,0,,THOMAS {\c&H00E6FF&}HICKS?{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.44,0:00:50.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} TRAINERS FED
+Dialogue: 0,0:00:50.62,0:00:51.02,Cap,,0,0,0,,HIS {\c&H00E6FF&}TRAINERS{\c&HFFFFFF&} FED
+Dialogue: 0,0:00:51.02,0:00:51.20,Cap,,0,0,0,,HIS TRAINERS {\c&H00E6FF&}FED{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.20,0:00:51.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIM{\c&HFFFFFF&} STRYCHNINE,
+Dialogue: 0,0:00:51.39,0:00:52.12,Cap,,0,0,0,,HIM {\c&H00E6FF&}STRYCHNINE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.12,0:00:52.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EGG{\c&HFFFFFF&} WHITES AND
+Dialogue: 0,0:00:52.31,0:00:52.62,Cap,,0,0,0,,EGG {\c&H00E6FF&}WHITES{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:52.62,0:00:52.80,Cap,,0,0,0,,EGG WHITES {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.80,0:00:53.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BRANDY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.50,0:00:53.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} WAS HALLUCINATING,
+Dialogue: 0,0:00:53.63,0:00:53.80,Cap,,0,0,0,,HE {\c&H00E6FF&}WAS{\c&HFFFFFF&} HALLUCINATING,
+Dialogue: 0,0:00:53.80,0:00:54.35,Cap,,0,0,0,,HE WAS {\c&H00E6FF&}HALLUCINATING,{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.35,0:00:54.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THEY PRACTICALLY
+Dialogue: 0,0:00:54.95,0:00:55.15,Cap,,0,0,0,,AND {\c&H00E6FF&}THEY{\c&HFFFFFF&} PRACTICALLY
+Dialogue: 0,0:00:55.15,0:00:55.78,Cap,,0,0,0,,AND THEY {\c&H00E6FF&}PRACTICALLY{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.78,0:00:56.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CARRIED{\c&HFFFFFF&} HIM TO
+Dialogue: 0,0:00:56.10,0:00:56.27,Cap,,0,0,0,,CARRIED {\c&H00E6FF&}HIM{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:56.27,0:00:56.40,Cap,,0,0,0,,CARRIED HIM {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.40,0:00:56.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FINISH.
+Dialogue: 0,0:00:56.57,0:00:57.22,Cap,,0,0,0,,THE {\c&H00E6FF&}FINISH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.30,0:00:57.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} TIME WAS
+Dialogue: 0,0:00:57.49,0:00:57.73,Cap,,0,0,0,,HIS {\c&H00E6FF&}TIME{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:57.73,0:00:58.03,Cap,,0,0,0,,HIS TIME {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.03,0:00:58.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SLOWEST WINNING
+Dialogue: 0,0:00:58.23,0:00:58.60,Cap,,0,0,0,,THE {\c&H00E6FF&}SLOWEST{\c&HFFFFFF&} WINNING
+Dialogue: 0,0:00:58.60,0:00:58.97,Cap,,0,0,0,,THE SLOWEST {\c&H00E6FF&}WINNING{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.97,0:00:59.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TIME{\c&HFFFFFF&} IN OLYMPIC
+Dialogue: 0,0:00:59.21,0:00:59.36,Cap,,0,0,0,,TIME {\c&H00E6FF&}IN{\c&HFFFFFF&} OLYMPIC
+Dialogue: 0,0:00:59.36,0:00:59.73,Cap,,0,0,0,,TIME IN {\c&H00E6FF&}OLYMPIC{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.73,0:01:00.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HISTORY.{\c&HFFFFFF&}

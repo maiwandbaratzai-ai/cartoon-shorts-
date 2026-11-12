@@ -1,0 +1,98 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1628,
+Dialogue: 0,0:00:00.26,0:00:00.99,Cap,,0,0,0,,IN {\c&H00E6FF&}1628,{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.99,0:00:01.69,Cap,,0,0,0,,{\fs94}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWEDEN'S{\c&HFFFFFF&} MIGHTIEST WARSHIP
+Dialogue: 0,0:00:01.69,0:00:02.13,Cap,,0,0,0,,{\fs94}SWEDEN'S {\c&H00E6FF&}MIGHTIEST{\c&HFFFFFF&} WARSHIP
+Dialogue: 0,0:00:02.13,0:00:02.48,Cap,,0,0,0,,{\fs94}SWEDEN'S MIGHTIEST {\c&H00E6FF&}WARSHIP{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.48,0:00:02.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SANK{\c&HFFFFFF&} WITHIN TWENTY
+Dialogue: 0,0:00:02.71,0:00:03.02,Cap,,0,0,0,,SANK {\c&H00E6FF&}WITHIN{\c&HFFFFFF&} TWENTY
+Dialogue: 0,0:00:03.02,0:00:03.33,Cap,,0,0,0,,SANK WITHIN {\c&H00E6FF&}TWENTY{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.33,0:00:04.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MINUTES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.17,0:00:04.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} VASA CARRIED
+Dialogue: 0,0:00:04.36,0:00:04.59,Cap,,0,0,0,,THE {\c&H00E6FF&}VASA{\c&HFFFFFF&} CARRIED
+Dialogue: 0,0:00:04.59,0:00:04.95,Cap,,0,0,0,,THE VASA {\c&H00E6FF&}CARRIED{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.95,0:00:05.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SIXTY-FOUR{\c&HFFFFFF&} CANNONS AND
+Dialogue: 0,0:00:05.40,0:00:05.76,Cap,,0,0,0,,SIXTY-FOUR {\c&H00E6FF&}CANNONS{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:05.76,0:00:06.11,Cap,,0,0,0,,SIXTY-FOUR CANNONS {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.11,0:00:06.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HUNDREDS{\c&HFFFFFF&} OF CARVED
+Dialogue: 0,0:00:06.52,0:00:06.73,Cap,,0,0,0,,HUNDREDS {\c&H00E6FF&}OF{\c&HFFFFFF&} CARVED
+Dialogue: 0,0:00:06.73,0:00:07.05,Cap,,0,0,0,,HUNDREDS OF {\c&H00E6FF&}CARVED{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.05,0:00:07.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STATUES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.77,0:00:07.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} IT WAS
+Dialogue: 0,0:00:07.95,0:00:08.10,Cap,,0,0,0,,BUT {\c&H00E6FF&}IT{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:08.10,0:00:08.29,Cap,,0,0,0,,BUT IT {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.29,0:00:08.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DANGEROUSLY{\c&HFFFFFF&} TOP-HEAVY.
+Dialogue: 0,0:00:08.81,0:00:09.47,Cap,,0,0,0,,DANGEROUSLY {\c&H00E6FF&}TOP-HEAVY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.61,0:00:09.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} A TEST,
+Dialogue: 0,0:00:09.73,0:00:09.83,Cap,,0,0,0,,IN {\c&H00E6FF&}A{\c&HFFFFFF&} TEST,
+Dialogue: 0,0:00:09.83,0:00:10.19,Cap,,0,0,0,,IN A {\c&H00E6FF&}TEST,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.19,0:00:10.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THIRTY{\c&HFFFFFF&} SAILORS RAN
+Dialogue: 0,0:00:10.47,0:00:10.78,Cap,,0,0,0,,THIRTY {\c&H00E6FF&}SAILORS{\c&HFFFFFF&} RAN
+Dialogue: 0,0:00:10.78,0:00:10.94,Cap,,0,0,0,,THIRTY SAILORS {\c&H00E6FF&}RAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.94,0:00:11.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ACROSS{\c&HFFFFFF&} THE DECK.
+Dialogue: 0,0:00:11.22,0:00:11.45,Cap,,0,0,0,,ACROSS {\c&H00E6FF&}THE{\c&HFFFFFF&} DECK.
+Dialogue: 0,0:00:11.45,0:00:12.06,Cap,,0,0,0,,ACROSS THE {\c&H00E6FF&}DECK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.06,0:00:12.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} NEARLY CAPSIZED.
+Dialogue: 0,0:00:12.19,0:00:12.46,Cap,,0,0,0,,IT {\c&H00E6FF&}NEARLY{\c&HFFFFFF&} CAPSIZED.
+Dialogue: 0,0:00:12.46,0:00:13.08,Cap,,0,0,0,,IT NEARLY {\c&H00E6FF&}CAPSIZED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.35,0:00:13.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} SAILED ANYWAY,
+Dialogue: 0,0:00:13.49,0:00:13.81,Cap,,0,0,0,,IT {\c&H00E6FF&}SAILED{\c&HFFFFFF&} ANYWAY,
+Dialogue: 0,0:00:13.81,0:00:14.13,Cap,,0,0,0,,IT SAILED {\c&H00E6FF&}ANYWAY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.13,0:00:14.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AS{\c&HFFFFFF&} CROWDS CHEERED
+Dialogue: 0,0:00:14.59,0:00:14.91,Cap,,0,0,0,,AS {\c&H00E6FF&}CROWDS{\c&HFFFFFF&} CHEERED
+Dialogue: 0,0:00:14.91,0:00:15.28,Cap,,0,0,0,,AS CROWDS {\c&H00E6FF&}CHEERED{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.28,0:00:15.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} STOCKHOLM.
+Dialogue: 0,0:00:15.43,0:00:16.14,Cap,,0,0,0,,IN {\c&H00E6FF&}STOCKHOLM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.26,0:00:16.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A GUST
+Dialogue: 0,0:00:16.43,0:00:16.51,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} GUST
+Dialogue: 0,0:00:16.51,0:00:16.74,Cap,,0,0,0,,THEN A {\c&H00E6FF&}GUST{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.74,0:00:17.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TIPPED{\c&HFFFFFF&} IT,
+Dialogue: 0,0:00:17.32,0:00:17.43,Cap,,0,0,0,,TIPPED {\c&H00E6FF&}IT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.43,0:00:17.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} WATER POURED
+Dialogue: 0,0:00:17.57,0:00:17.78,Cap,,0,0,0,,AND {\c&H00E6FF&}WATER{\c&HFFFFFF&} POURED
+Dialogue: 0,0:00:17.78,0:00:18.01,Cap,,0,0,0,,AND WATER {\c&H00E6FF&}POURED{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.01,0:00:18.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THROUGH{\c&HFFFFFF&} THE GUN
+Dialogue: 0,0:00:18.28,0:00:18.42,Cap,,0,0,0,,THROUGH {\c&H00E6FF&}THE{\c&HFFFFFF&} GUN
+Dialogue: 0,0:00:18.42,0:00:18.56,Cap,,0,0,0,,THROUGH THE {\c&H00E6FF&}GUN{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.56,0:00:19.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PORTS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.25,0:00:19.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} SANK IN
+Dialogue: 0,0:00:19.38,0:00:19.59,Cap,,0,0,0,,IT {\c&H00E6FF&}SANK{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:19.59,0:00:19.73,Cap,,0,0,0,,IT SANK {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.73,0:00:20.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MINUTES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.05,0:00:20.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} ABOUT THIRTY
+Dialogue: 0,0:00:20.45,0:00:20.70,Cap,,0,0,0,,AND {\c&H00E6FF&}ABOUT{\c&HFFFFFF&} THIRTY
+Dialogue: 0,0:00:20.70,0:00:20.98,Cap,,0,0,0,,AND ABOUT {\c&H00E6FF&}THIRTY{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.98,0:00:21.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} DIED.
+Dialogue: 0,0:00:21.27,0:00:21.75,Cap,,0,0,0,,PEOPLE {\c&H00E6FF&}DIED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.00,0:00:22.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THREE{\c&HFFFFFF&} HUNDRED AND
+Dialogue: 0,0:00:22.25,0:00:22.59,Cap,,0,0,0,,THREE {\c&H00E6FF&}HUNDRED{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:22.59,0:00:22.84,Cap,,0,0,0,,THREE HUNDRED {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.84,0:00:23.34,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THIRTY-THREE{\c&HFFFFFF&} YEARS LATER,
+Dialogue: 0,0:00:23.34,0:00:23.59,Cap,,0,0,0,,{\fs98}THIRTY-THREE {\c&H00E6FF&}YEARS{\c&HFFFFFF&} LATER,
+Dialogue: 0,0:00:23.59,0:00:24.18,Cap,,0,0,0,,{\fs98}THIRTY-THREE YEARS {\c&H00E6FF&}LATER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.18,0:00:24.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} WAS RAISED
+Dialogue: 0,0:00:24.32,0:00:24.50,Cap,,0,0,0,,IT {\c&H00E6FF&}WAS{\c&HFFFFFF&} RAISED
+Dialogue: 0,0:00:24.50,0:00:24.80,Cap,,0,0,0,,IT WAS {\c&H00E6FF&}RAISED{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.80,0:00:25.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALMOST{\c&HFFFFFF&} INTACT.
+Dialogue: 0,0:00:25.10,0:00:25.66,Cap,,0,0,0,,ALMOST {\c&H00E6FF&}INTACT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.93,0:00:26.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TODAY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.14,0:00:26.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MILLIONS{\c&HFFFFFF&} VISIT THE
+Dialogue: 0,0:00:26.61,0:00:26.84,Cap,,0,0,0,,MILLIONS {\c&H00E6FF&}VISIT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:26.84,0:00:27.00,Cap,,0,0,0,,MILLIONS VISIT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.00,0:00:27.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WARSHIP{\c&HFFFFFF&} THAT COULDN'T
+Dialogue: 0,0:00:27.36,0:00:27.61,Cap,,0,0,0,,WARSHIP {\c&H00E6FF&}THAT{\c&HFFFFFF&} COULDN'T
+Dialogue: 0,0:00:27.61,0:00:27.98,Cap,,0,0,0,,WARSHIP THAT {\c&H00E6FF&}COULDN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.98,0:00:28.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SAIL{\c&HFFFFFF&} A MILE.
+Dialogue: 0,0:00:28.16,0:00:28.25,Cap,,0,0,0,,SAIL {\c&H00E6FF&}A{\c&HFFFFFF&} MILE.
+Dialogue: 0,0:00:28.25,0:00:28.70,Cap,,0,0,0,,SAIL A {\c&H00E6FF&}MILE.{\c&HFFFFFF&}

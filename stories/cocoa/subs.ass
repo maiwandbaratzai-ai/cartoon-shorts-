@@ -1,0 +1,96 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 2020,
+Dialogue: 0,0:00:00.25,0:00:01.24,Cap,,0,0,0,,IN {\c&H00E6FF&}2020,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.24,0:00:01.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} SNOWED CHOCOLATE
+Dialogue: 0,0:00:01.37,0:00:01.65,Cap,,0,0,0,,IT {\c&H00E6FF&}SNOWED{\c&HFFFFFF&} CHOCOLATE
+Dialogue: 0,0:00:01.65,0:00:02.05,Cap,,0,0,0,,IT SNOWED {\c&H00E6FF&}CHOCOLATE{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.05,0:00:02.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} A TOWN
+Dialogue: 0,0:00:02.18,0:00:02.27,Cap,,0,0,0,,ON {\c&H00E6FF&}A{\c&HFFFFFF&} TOWN
+Dialogue: 0,0:00:02.27,0:00:02.48,Cap,,0,0,0,,ON A {\c&H00E6FF&}TOWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.48,0:00:02.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} SWITZERLAND.
+Dialogue: 0,0:00:02.61,0:00:03.35,Cap,,0,0,0,,IN {\c&H00E6FF&}SWITZERLAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.47,0:00:03.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} IN OLTEN
+Dialogue: 0,0:00:03.78,0:00:03.93,Cap,,0,0,0,,PEOPLE {\c&H00E6FF&}IN{\c&HFFFFFF&} OLTEN
+Dialogue: 0,0:00:03.93,0:00:04.20,Cap,,0,0,0,,PEOPLE IN {\c&H00E6FF&}OLTEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.20,0:00:04.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOUND{\c&HFFFFFF&} BROWN FLAKES
+Dialogue: 0,0:00:04.65,0:00:04.93,Cap,,0,0,0,,FOUND {\c&H00E6FF&}BROWN{\c&HFFFFFF&} FLAKES
+Dialogue: 0,0:00:04.93,0:00:05.24,Cap,,0,0,0,,FOUND BROWN {\c&H00E6FF&}FLAKES{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.24,0:00:05.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALL{\c&HFFFFFF&} OVER THEIR
+Dialogue: 0,0:00:05.49,0:00:05.72,Cap,,0,0,0,,ALL {\c&H00E6FF&}OVER{\c&HFFFFFF&} THEIR
+Dialogue: 0,0:00:05.72,0:00:06.05,Cap,,0,0,0,,ALL OVER {\c&H00E6FF&}THEIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.05,0:00:06.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.82,0:00:06.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} CAME FROM
+Dialogue: 0,0:00:06.95,0:00:07.15,Cap,,0,0,0,,IT {\c&H00E6FF&}CAME{\c&HFFFFFF&} FROM
+Dialogue: 0,0:00:07.15,0:00:07.36,Cap,,0,0,0,,IT CAME {\c&H00E6FF&}FROM{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.36,0:00:07.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} LINDT CHOCOLATE
+Dialogue: 0,0:00:07.52,0:00:07.77,Cap,,0,0,0,,THE {\c&H00E6FF&}LINDT{\c&HFFFFFF&} CHOCOLATE
+Dialogue: 0,0:00:07.77,0:00:08.16,Cap,,0,0,0,,THE LINDT {\c&H00E6FF&}CHOCOLATE{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.16,0:00:08.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FACTORY{\c&HFFFFFF&} RIGHT IN
+Dialogue: 0,0:00:08.81,0:00:09.05,Cap,,0,0,0,,FACTORY {\c&H00E6FF&}RIGHT{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:09.05,0:00:09.18,Cap,,0,0,0,,FACTORY RIGHT {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.18,0:00:09.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOWN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.89,0:00:09.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} COOLING FAN
+Dialogue: 0,0:00:09.99,0:00:10.35,Cap,,0,0,0,,A {\c&H00E6FF&}COOLING{\c&HFFFFFF&} FAN
+Dialogue: 0,0:00:10.35,0:00:10.54,Cap,,0,0,0,,A COOLING {\c&H00E6FF&}FAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.54,0:00:10.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} THE COCOA-ROASTING
+Dialogue: 0,0:00:10.68,0:00:10.87,Cap,,0,0,0,,ON {\c&H00E6FF&}THE{\c&HFFFFFF&} COCOA-ROASTING
+Dialogue: 0,0:00:10.87,0:00:11.48,Cap,,0,0,0,,ON THE {\c&H00E6FF&}COCOA-ROASTING{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.48,0:00:11.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LINE{\c&HFFFFFF&} HAD BROKEN.
+Dialogue: 0,0:00:11.71,0:00:11.99,Cap,,0,0,0,,LINE {\c&H00E6FF&}HAD{\c&HFFFFFF&} BROKEN.
+Dialogue: 0,0:00:11.99,0:00:12.63,Cap,,0,0,0,,LINE HAD {\c&H00E6FF&}BROKEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.72,0:00:12.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A STRONG
+Dialogue: 0,0:00:12.93,0:00:13.03,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} STRONG
+Dialogue: 0,0:00:13.03,0:00:13.33,Cap,,0,0,0,,THEN A {\c&H00E6FF&}STRONG{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.33,0:00:13.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WIND{\c&HFFFFFF&} GRABBED THE
+Dialogue: 0,0:00:13.54,0:00:13.88,Cap,,0,0,0,,WIND {\c&H00E6FF&}GRABBED{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:13.88,0:00:14.06,Cap,,0,0,0,,WIND GRABBED {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.06,0:00:14.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FINE{\c&HFFFFFF&} COCOA DUST
+Dialogue: 0,0:00:14.27,0:00:14.59,Cap,,0,0,0,,FINE {\c&H00E6FF&}COCOA{\c&HFFFFFF&} DUST
+Dialogue: 0,0:00:14.59,0:00:15.11,Cap,,0,0,0,,FINE COCOA {\c&H00E6FF&}DUST{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.11,0:00:15.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} SPRINKLED IT
+Dialogue: 0,0:00:15.31,0:00:15.68,Cap,,0,0,0,,AND {\c&H00E6FF&}SPRINKLED{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:15.68,0:00:15.79,Cap,,0,0,0,,AND SPRINKLED {\c&H00E6FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.79,0:00:16.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ACROSS{\c&HFFFFFF&} THE WHOLE
+Dialogue: 0,0:00:16.05,0:00:16.21,Cap,,0,0,0,,ACROSS {\c&H00E6FF&}THE{\c&HFFFFFF&} WHOLE
+Dialogue: 0,0:00:16.21,0:00:16.43,Cap,,0,0,0,,ACROSS THE {\c&H00E6FF&}WHOLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.43,0:00:17.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEIGHBORHOOD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.28,0:00:17.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SIDEWALKS{\c&HFFFFFF&} AND CARS
+Dialogue: 0,0:00:17.72,0:00:17.91,Cap,,0,0,0,,SIDEWALKS {\c&H00E6FF&}AND{\c&HFFFFFF&} CARS
+Dialogue: 0,0:00:17.91,0:00:18.15,Cap,,0,0,0,,SIDEWALKS AND {\c&H00E6FF&}CARS{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.15,0:00:18.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TURNED{\c&HFFFFFF&} BROWN,
+Dialogue: 0,0:00:18.47,0:00:18.74,Cap,,0,0,0,,TURNED {\c&H00E6FF&}BROWN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.74,0:00:19.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LIKE{\c&HFFFFFF&} A GIANT
+Dialogue: 0,0:00:19.41,0:00:19.51,Cap,,0,0,0,,LIKE {\c&H00E6FF&}A{\c&HFFFFFF&} GIANT
+Dialogue: 0,0:00:19.51,0:00:19.79,Cap,,0,0,0,,LIKE A {\c&H00E6FF&}GIANT{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.79,0:00:19.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MUG{\c&HFFFFFF&} OF HOT
+Dialogue: 0,0:00:19.98,0:00:20.13,Cap,,0,0,0,,MUG {\c&H00E6FF&}OF{\c&HFFFFFF&} HOT
+Dialogue: 0,0:00:20.13,0:00:20.32,Cap,,0,0,0,,MUG OF {\c&H00E6FF&}HOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.32,0:00:21.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHOCOLATE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.26,0:00:21.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LINDT{\c&HFFFFFF&} SAID THE
+Dialogue: 0,0:00:21.50,0:00:21.70,Cap,,0,0,0,,LINDT {\c&H00E6FF&}SAID{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:21.70,0:00:21.87,Cap,,0,0,0,,LINDT SAID {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.87,0:00:22.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}COCOA{\c&HFFFFFF&} DUST WAS
+Dialogue: 0,0:00:22.12,0:00:22.53,Cap,,0,0,0,,COCOA {\c&H00E6FF&}DUST{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:22.53,0:00:22.70,Cap,,0,0,0,,COCOA DUST {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.70,0:00:23.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}COMPLETELY{\c&HFFFFFF&} HARMLESS.
+Dialogue: 0,0:00:23.13,0:00:23.88,Cap,,0,0,0,,COMPLETELY {\c&H00E6FF&}HARMLESS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.97,0:00:24.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} IT OFFERED
+Dialogue: 0,0:00:24.13,0:00:24.26,Cap,,0,0,0,,AND {\c&H00E6FF&}IT{\c&HFFFFFF&} OFFERED
+Dialogue: 0,0:00:24.26,0:00:24.57,Cap,,0,0,0,,AND IT {\c&H00E6FF&}OFFERED{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.57,0:00:24.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} PAY FOR
+Dialogue: 0,0:00:24.70,0:00:24.87,Cap,,0,0,0,,TO {\c&H00E6FF&}PAY{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:24.87,0:00:25.09,Cap,,0,0,0,,TO PAY {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.09,0:00:25.44,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CLEANING{\c&HFFFFFF&} EVERYONE'S CARS.
+Dialogue: 0,0:00:25.44,0:00:25.83,Cap,,0,0,0,,{\fs98}CLEANING {\c&H00E6FF&}EVERYONE'S{\c&HFFFFFF&} CARS.
+Dialogue: 0,0:00:25.83,0:00:26.49,Cap,,0,0,0,,{\fs98}CLEANING EVERYONE'S {\c&H00E6FF&}CARS.{\c&HFFFFFF&}

@@ -1,0 +1,10 @@
+In nineteen ninety-nine, NASA lost a Mars probe to one tiny math mistake.
+The Mars Climate Orbiter flew nine months to reach Mars.
+Engineers steered it with small thruster burns.
+But one team's software measured force in pounds.
+NASA's navigators assumed newtons, the metric unit.
+Nobody converted, so every push was four times bigger than they thought.
+The orbiter drifted off course.
+It arrived just fifty-seven kilometers above Mars, way too low.
+It hit the atmosphere and was never heard from again.
+The fix: one multiplication. The cost: a hundred and twenty-five million dollars.

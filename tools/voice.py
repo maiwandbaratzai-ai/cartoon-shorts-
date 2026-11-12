@@ -35,8 +35,8 @@ def synth(speed):
 LEAD, TAIL = 0.12, 1.3
 gap = lambda l: 0.42 if l.endswith('?') else 0.3 if l.endswith(('.', '!')) else 0.18
 def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for l in lines[:-1]) + TAIL
-speed = 1.2; clips = synth(speed)
-if target:
+speed = float(os.environ.get('VOICE_SPEED', 1.2)); clips = synth(speed)
+if target and not os.environ.get('VOICE_SPEED'):  # VOICE_SPEED=1.25 pins the speed (the auto-fit can oscillate)
     for _ in range(3):
         T = total(clips); s2 = float(np.clip(speed * (T - LEAD - TAIL) / (target - LEAD - TAIL), 1.1, 1.42))
         if abs(s2 - speed) < 0.015: break
@@ -116,5 +116,6 @@ for ci, ch in enumerate(chunks):
         pop = '{\\fscx80\\fscy80\\t(0,90,\\fscx100\\fscy100)}' if j == 0 else ''
         ev.append(f'Dialogue: 0,{ts(a)},{ts(b)},Cap,,0,0,0,,{pop}{txt}')
 open(f'{sd}/subs.ass', 'w').write(head + '\n'.join(ev) + '\n')
+subprocess.run([sys.executable, os.path.join(KIT, 'tools', 'fitsubs.py'), f'{sd}/subs.ass'])
 print(f'{frames} frames, {len(lines)} lines, {len(words)} words')
 for i, x in enumerate(L): print(f'  L{i} {round(x["s"]*FPS):4d}-{round(x["e"]*FPS):4d}  {x["text"]}')

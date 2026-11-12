@@ -1,0 +1,101 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1999,
+Dialogue: 0,0:00:00.25,0:00:01.37,Cap,,0,0,0,,IN {\c&H00E6FF&}1999,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.37,0:00:01.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NASA{\c&HFFFFFF&} LOST A
+Dialogue: 0,0:00:01.58,0:00:01.80,Cap,,0,0,0,,NASA {\c&H00E6FF&}LOST{\c&HFFFFFF&} A
+Dialogue: 0,0:00:01.80,0:00:01.89,Cap,,0,0,0,,NASA LOST {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.89,0:00:02.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MARS{\c&HFFFFFF&} PROBE TO
+Dialogue: 0,0:00:02.18,0:00:02.43,Cap,,0,0,0,,MARS {\c&H00E6FF&}PROBE{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:02.43,0:00:02.56,Cap,,0,0,0,,MARS PROBE {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.56,0:00:02.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} TINY MATH
+Dialogue: 0,0:00:02.74,0:00:02.95,Cap,,0,0,0,,ONE {\c&H00E6FF&}TINY{\c&HFFFFFF&} MATH
+Dialogue: 0,0:00:02.95,0:00:03.17,Cap,,0,0,0,,ONE TINY {\c&H00E6FF&}MATH{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.17,0:00:03.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MISTAKE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.98,0:00:04.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} MARS CLIMATE
+Dialogue: 0,0:00:04.12,0:00:04.30,Cap,,0,0,0,,THE {\c&H00E6FF&}MARS{\c&HFFFFFF&} CLIMATE
+Dialogue: 0,0:00:04.30,0:00:04.58,Cap,,0,0,0,,THE MARS {\c&H00E6FF&}CLIMATE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.58,0:00:04.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ORBITER{\c&HFFFFFF&} FLEW NINE
+Dialogue: 0,0:00:04.87,0:00:05.05,Cap,,0,0,0,,ORBITER {\c&H00E6FF&}FLEW{\c&HFFFFFF&} NINE
+Dialogue: 0,0:00:05.05,0:00:05.24,Cap,,0,0,0,,ORBITER FLEW {\c&H00E6FF&}NINE{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.24,0:00:05.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MONTHS{\c&HFFFFFF&} TO REACH
+Dialogue: 0,0:00:05.47,0:00:05.59,Cap,,0,0,0,,MONTHS {\c&H00E6FF&}TO{\c&HFFFFFF&} REACH
+Dialogue: 0,0:00:05.59,0:00:05.80,Cap,,0,0,0,,MONTHS TO {\c&H00E6FF&}REACH{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.80,0:00:06.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.49,0:00:06.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ENGINEERS{\c&HFFFFFF&} STEERED IT
+Dialogue: 0,0:00:06.81,0:00:07.06,Cap,,0,0,0,,ENGINEERS {\c&H00E6FF&}STEERED{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:07.06,0:00:07.17,Cap,,0,0,0,,ENGINEERS STEERED {\c&H00E6FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.17,0:00:07.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} SMALL THRUSTER
+Dialogue: 0,0:00:07.34,0:00:07.54,Cap,,0,0,0,,WITH {\c&H00E6FF&}SMALL{\c&HFFFFFF&} THRUSTER
+Dialogue: 0,0:00:07.54,0:00:07.83,Cap,,0,0,0,,WITH SMALL {\c&H00E6FF&}THRUSTER{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.83,0:00:08.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BURNS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.54,0:00:08.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} ONE TEAM'S
+Dialogue: 0,0:00:08.67,0:00:08.81,Cap,,0,0,0,,BUT {\c&H00E6FF&}ONE{\c&HFFFFFF&} TEAM'S
+Dialogue: 0,0:00:08.81,0:00:09.01,Cap,,0,0,0,,BUT ONE {\c&H00E6FF&}TEAM'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.01,0:00:09.39,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOFTWARE{\c&HFFFFFF&} MEASURED FORCE
+Dialogue: 0,0:00:09.39,0:00:09.68,Cap,,0,0,0,,{\fs107}SOFTWARE {\c&H00E6FF&}MEASURED{\c&HFFFFFF&} FORCE
+Dialogue: 0,0:00:09.68,0:00:09.88,Cap,,0,0,0,,{\fs107}SOFTWARE MEASURED {\c&H00E6FF&}FORCE{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.88,0:00:09.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} POUNDS.
+Dialogue: 0,0:00:09.99,0:00:10.69,Cap,,0,0,0,,IN {\c&H00E6FF&}POUNDS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.77,0:00:11.00,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NASA'S{\c&HFFFFFF&} NAVIGATORS ASSUMED
+Dialogue: 0,0:00:11.00,0:00:11.40,Cap,,0,0,0,,{\fs98}NASA'S {\c&H00E6FF&}NAVIGATORS{\c&HFFFFFF&} ASSUMED
+Dialogue: 0,0:00:11.40,0:00:11.70,Cap,,0,0,0,,{\fs98}NASA'S NAVIGATORS {\c&H00E6FF&}ASSUMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.70,0:00:12.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEWTONS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.01,0:00:12.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} METRIC UNIT.
+Dialogue: 0,0:00:12.41,0:00:12.68,Cap,,0,0,0,,THE {\c&H00E6FF&}METRIC{\c&HFFFFFF&} UNIT.
+Dialogue: 0,0:00:12.68,0:00:13.14,Cap,,0,0,0,,THE METRIC {\c&H00E6FF&}UNIT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.22,0:00:13.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOBODY{\c&HFFFFFF&} CONVERTED,
+Dialogue: 0,0:00:13.45,0:00:13.79,Cap,,0,0,0,,NOBODY {\c&H00E6FF&}CONVERTED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.79,0:00:14.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} EVERY PUSH
+Dialogue: 0,0:00:14.19,0:00:14.39,Cap,,0,0,0,,SO {\c&H00E6FF&}EVERY{\c&HFFFFFF&} PUSH
+Dialogue: 0,0:00:14.39,0:00:14.57,Cap,,0,0,0,,SO EVERY {\c&H00E6FF&}PUSH{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.57,0:00:14.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAS{\c&HFFFFFF&} FOUR TIMES
+Dialogue: 0,0:00:14.71,0:00:14.88,Cap,,0,0,0,,WAS {\c&H00E6FF&}FOUR{\c&HFFFFFF&} TIMES
+Dialogue: 0,0:00:14.88,0:00:15.09,Cap,,0,0,0,,WAS FOUR {\c&H00E6FF&}TIMES{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.09,0:00:15.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BIGGER{\c&HFFFFFF&} THAN THEY
+Dialogue: 0,0:00:15.33,0:00:15.50,Cap,,0,0,0,,BIGGER {\c&H00E6FF&}THAN{\c&HFFFFFF&} THEY
+Dialogue: 0,0:00:15.50,0:00:15.68,Cap,,0,0,0,,BIGGER THAN {\c&H00E6FF&}THEY{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.68,0:00:16.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THOUGHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.37,0:00:16.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ORBITER DRIFTED
+Dialogue: 0,0:00:16.50,0:00:16.77,Cap,,0,0,0,,THE {\c&H00E6FF&}ORBITER{\c&HFFFFFF&} DRIFTED
+Dialogue: 0,0:00:16.77,0:00:17.03,Cap,,0,0,0,,THE ORBITER {\c&H00E6FF&}DRIFTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.03,0:00:17.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} COURSE.
+Dialogue: 0,0:00:17.17,0:00:17.73,Cap,,0,0,0,,OFF {\c&H00E6FF&}COURSE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.82,0:00:17.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} ARRIVED JUST
+Dialogue: 0,0:00:17.94,0:00:18.26,Cap,,0,0,0,,IT {\c&H00E6FF&}ARRIVED{\c&HFFFFFF&} JUST
+Dialogue: 0,0:00:18.26,0:00:18.46,Cap,,0,0,0,,IT ARRIVED {\c&H00E6FF&}JUST{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.46,0:00:18.89,Cap,,0,0,0,,{\fs88}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIFTY-SEVEN{\c&HFFFFFF&} KILOMETERS ABOVE
+Dialogue: 0,0:00:18.89,0:00:19.32,Cap,,0,0,0,,{\fs88}FIFTY-SEVEN {\c&H00E6FF&}KILOMETERS{\c&HFFFFFF&} ABOVE
+Dialogue: 0,0:00:19.32,0:00:19.56,Cap,,0,0,0,,{\fs88}FIFTY-SEVEN KILOMETERS {\c&H00E6FF&}ABOVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.56,0:00:19.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MARS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.76,0:00:20.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAY{\c&HFFFFFF&} TOO LOW.
+Dialogue: 0,0:00:20.22,0:00:20.39,Cap,,0,0,0,,WAY {\c&H00E6FF&}TOO{\c&HFFFFFF&} LOW.
+Dialogue: 0,0:00:20.39,0:00:20.82,Cap,,0,0,0,,WAY TOO {\c&H00E6FF&}LOW.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.94,0:00:21.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} HIT THE
+Dialogue: 0,0:00:21.04,0:00:21.18,Cap,,0,0,0,,IT {\c&H00E6FF&}HIT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:21.18,0:00:21.32,Cap,,0,0,0,,IT HIT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.32,0:00:21.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ATMOSPHERE{\c&HFFFFFF&} AND WAS
+Dialogue: 0,0:00:21.84,0:00:21.98,Cap,,0,0,0,,ATMOSPHERE {\c&H00E6FF&}AND{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:21.98,0:00:22.12,Cap,,0,0,0,,ATMOSPHERE AND {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.12,0:00:22.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEVER{\c&HFFFFFF&} HEARD FROM
+Dialogue: 0,0:00:22.32,0:00:22.52,Cap,,0,0,0,,NEVER {\c&H00E6FF&}HEARD{\c&HFFFFFF&} FROM
+Dialogue: 0,0:00:22.52,0:00:22.69,Cap,,0,0,0,,NEVER HEARD {\c&H00E6FF&}FROM{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.69,0:00:23.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AGAIN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.30,0:00:23.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FIX:
+Dialogue: 0,0:00:23.49,0:00:23.68,Cap,,0,0,0,,THE {\c&H00E6FF&}FIX:{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.68,0:00:23.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} MULTIPLICATION.
+Dialogue: 0,0:00:23.87,0:00:24.97,Cap,,0,0,0,,ONE {\c&H00E6FF&}MULTIPLICATION.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.97,0:00:25.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} COST:
+Dialogue: 0,0:00:25.42,0:00:25.65,Cap,,0,0,0,,THE {\c&H00E6FF&}COST:{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.65,0:00:26.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}$125{\c&HFFFFFF&} MILLION.
+Dialogue: 0,0:00:26.35,0:00:27.17,Cap,,0,0,0,,$125 {\c&H00E6FF&}MILLION.{\c&HFFFFFF&}

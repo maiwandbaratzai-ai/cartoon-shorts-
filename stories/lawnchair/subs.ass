@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1982,
+Dialogue: 0,0:00:00.26,0:00:01.42,Cap,,0,0,0,,IN {\c&H00E6FF&}1982,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.42,0:00:01.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} MAN FLEW
+Dialogue: 0,0:00:01.53,0:00:01.72,Cap,,0,0,0,,A {\c&H00E6FF&}MAN{\c&HFFFFFF&} FLEW
+Dialogue: 0,0:00:01.72,0:00:01.96,Cap,,0,0,0,,A MAN {\c&H00E6FF&}FLEW{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.96,0:00:02.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} LAWN CHAIR
+Dialogue: 0,0:00:02.07,0:00:02.30,Cap,,0,0,0,,A {\c&H00E6FF&}LAWN{\c&HFFFFFF&} CHAIR
+Dialogue: 0,0:00:02.30,0:00:02.58,Cap,,0,0,0,,A LAWN {\c&H00E6FF&}CHAIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.58,0:00:02.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEARLY{\c&HFFFFFF&} THREE MILES
+Dialogue: 0,0:00:02.90,0:00:03.18,Cap,,0,0,0,,NEARLY {\c&H00E6FF&}THREE{\c&HFFFFFF&} MILES
+Dialogue: 0,0:00:03.18,0:00:03.46,Cap,,0,0,0,,NEARLY THREE {\c&H00E6FF&}MILES{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.46,0:00:03.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.96,0:00:04.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LARRY{\c&HFFFFFF&} WALTERS TIED
+Dialogue: 0,0:00:04.23,0:00:04.73,Cap,,0,0,0,,LARRY {\c&H00E6FF&}WALTERS{\c&HFFFFFF&} TIED
+Dialogue: 0,0:00:04.73,0:00:04.96,Cap,,0,0,0,,LARRY WALTERS {\c&H00E6FF&}TIED{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.96,0:00:05.37,Cap,,0,0,0,,{\fs94}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FORTY-TWO{\c&HFFFFFF&} WEATHER BALLOONS
+Dialogue: 0,0:00:05.37,0:00:05.73,Cap,,0,0,0,,{\fs94}FORTY-TWO {\c&H00E6FF&}WEATHER{\c&HFFFFFF&} BALLOONS
+Dialogue: 0,0:00:05.73,0:00:06.13,Cap,,0,0,0,,{\fs94}FORTY-TWO WEATHER {\c&H00E6FF&}BALLOONS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.13,0:00:06.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} A PATIO
+Dialogue: 0,0:00:06.28,0:00:06.39,Cap,,0,0,0,,TO {\c&H00E6FF&}A{\c&HFFFFFF&} PATIO
+Dialogue: 0,0:00:06.39,0:00:06.73,Cap,,0,0,0,,TO A {\c&H00E6FF&}PATIO{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.73,0:00:07.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHAIR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.47,0:00:07.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} PLAN:
+Dialogue: 0,0:00:07.68,0:00:07.86,Cap,,0,0,0,,HIS {\c&H00E6FF&}PLAN:{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.86,0:00:08.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLOAT{\c&HFFFFFF&} THIRTY FEET
+Dialogue: 0,0:00:08.34,0:00:08.71,Cap,,0,0,0,,FLOAT {\c&H00E6FF&}THIRTY{\c&HFFFFFF&} FEET
+Dialogue: 0,0:00:08.71,0:00:08.89,Cap,,0,0,0,,FLOAT THIRTY {\c&H00E6FF&}FEET{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.89,0:00:09.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ABOVE{\c&HFFFFFF&} HIS BACKYARD.
+Dialogue: 0,0:00:09.10,0:00:09.24,Cap,,0,0,0,,ABOVE {\c&H00E6FF&}HIS{\c&HFFFFFF&} BACKYARD.
+Dialogue: 0,0:00:09.24,0:00:09.91,Cap,,0,0,0,,ABOVE HIS {\c&H00E6FF&}BACKYARD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.14,0:00:10.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THE ROPE
+Dialogue: 0,0:00:10.30,0:00:10.44,Cap,,0,0,0,,THEN {\c&H00E6FF&}THE{\c&HFFFFFF&} ROPE
+Dialogue: 0,0:00:10.44,0:00:10.60,Cap,,0,0,0,,THEN THE {\c&H00E6FF&}ROPE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.60,0:00:11.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SNAPPED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.30,0:00:11.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} ROCKETED TO
+Dialogue: 0,0:00:11.44,0:00:11.85,Cap,,0,0,0,,HE {\c&H00E6FF&}ROCKETED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:11.85,0:00:12.00,Cap,,0,0,0,,HE ROCKETED {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.00,0:00:12.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIFTEEN{\c&HFFFFFF&} THOUSAND FEET,
+Dialogue: 0,0:00:12.36,0:00:12.76,Cap,,0,0,0,,FIFTEEN {\c&H00E6FF&}THOUSAND{\c&HFFFFFF&} FEET,
+Dialogue: 0,0:00:12.76,0:00:13.12,Cap,,0,0,0,,FIFTEEN THOUSAND {\c&H00E6FF&}FEET,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.12,0:00:13.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} THE FLIGHT
+Dialogue: 0,0:00:13.35,0:00:13.61,Cap,,0,0,0,,INTO {\c&H00E6FF&}THE{\c&HFFFFFF&} FLIGHT
+Dialogue: 0,0:00:13.61,0:00:13.93,Cap,,0,0,0,,INTO THE {\c&H00E6FF&}FLIGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.93,0:00:14.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PATH{\c&HFFFFFF&} OF LAX.
+Dialogue: 0,0:00:14.61,0:00:14.86,Cap,,0,0,0,,PATH {\c&H00E6FF&}OF{\c&HFFFFFF&} LAX.
+Dialogue: 0,0:00:14.86,0:00:15.41,Cap,,0,0,0,,PATH OF {\c&H00E6FF&}LAX.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.50,0:00:15.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} AIRLINE PILOTS
+Dialogue: 0,0:00:15.69,0:00:16.07,Cap,,0,0,0,,TWO {\c&H00E6FF&}AIRLINE{\c&HFFFFFF&} PILOTS
+Dialogue: 0,0:00:16.07,0:00:16.40,Cap,,0,0,0,,TWO AIRLINE {\c&H00E6FF&}PILOTS{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.40,0:00:16.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}REPORTED{\c&HFFFFFF&} A MAN
+Dialogue: 0,0:00:16.83,0:00:16.94,Cap,,0,0,0,,REPORTED {\c&H00E6FF&}A{\c&HFFFFFF&} MAN
+Dialogue: 0,0:00:16.94,0:00:17.14,Cap,,0,0,0,,REPORTED A {\c&H00E6FF&}MAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.14,0:00:17.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} A LAWN
+Dialogue: 0,0:00:17.29,0:00:17.40,Cap,,0,0,0,,IN {\c&H00E6FF&}A{\c&HFFFFFF&} LAWN
+Dialogue: 0,0:00:17.40,0:00:17.65,Cap,,0,0,0,,IN A {\c&H00E6FF&}LAWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.65,0:00:18.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHAIR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.34,0:00:18.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} SHOT BALLOONS
+Dialogue: 0,0:00:18.45,0:00:18.72,Cap,,0,0,0,,HE {\c&H00E6FF&}SHOT{\c&HFFFFFF&} BALLOONS
+Dialogue: 0,0:00:18.72,0:00:19.04,Cap,,0,0,0,,HE SHOT {\c&H00E6FF&}BALLOONS{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.04,0:00:19.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} A PELLET
+Dialogue: 0,0:00:19.22,0:00:19.37,Cap,,0,0,0,,WITH {\c&H00E6FF&}A{\c&HFFFFFF&} PELLET
+Dialogue: 0,0:00:19.37,0:00:19.68,Cap,,0,0,0,,WITH A {\c&H00E6FF&}PELLET{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.68,0:00:19.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GUN{\c&HFFFFFF&} TO COME
+Dialogue: 0,0:00:19.83,0:00:20.01,Cap,,0,0,0,,GUN {\c&H00E6FF&}TO{\c&HFFFFFF&} COME
+Dialogue: 0,0:00:20.01,0:00:20.19,Cap,,0,0,0,,GUN TO {\c&H00E6FF&}COME{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.19,0:00:20.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOWN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.67,0:00:20.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} LANDED IN
+Dialogue: 0,0:00:20.83,0:00:21.11,Cap,,0,0,0,,AND {\c&H00E6FF&}LANDED{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:21.11,0:00:21.24,Cap,,0,0,0,,AND LANDED {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.24,0:00:21.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}POWER{\c&HFFFFFF&} LINES,
+Dialogue: 0,0:00:21.48,0:00:21.72,Cap,,0,0,0,,POWER {\c&H00E6FF&}LINES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.72,0:00:22.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLACKING{\c&HFFFFFF&} OUT A
+Dialogue: 0,0:00:22.46,0:00:22.62,Cap,,0,0,0,,BLACKING {\c&H00E6FF&}OUT{\c&HFFFFFF&} A
+Dialogue: 0,0:00:22.62,0:00:22.72,Cap,,0,0,0,,BLACKING OUT {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.72,0:00:22.92,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LONG{\c&HFFFFFF&} BEACH NEIGHBORHOOD.
+Dialogue: 0,0:00:22.92,0:00:23.16,Cap,,0,0,0,,{\fs102}LONG {\c&H00E6FF&}BEACH{\c&HFFFFFF&} NEIGHBORHOOD.
+Dialogue: 0,0:00:23.16,0:00:23.99,Cap,,0,0,0,,{\fs102}LONG BEACH {\c&H00E6FF&}NEIGHBORHOOD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.09,0:00:24.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FAA FINED
+Dialogue: 0,0:00:24.27,0:00:24.76,Cap,,0,0,0,,THE {\c&H00E6FF&}FAA{\c&HFFFFFF&} FINED
+Dialogue: 0,0:00:24.76,0:00:25.03,Cap,,0,0,0,,THE FAA {\c&H00E6FF&}FINED{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.03,0:00:25.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIM{\c&HFFFFFF&} FIFTEEN HUNDRED
+Dialogue: 0,0:00:25.22,0:00:25.58,Cap,,0,0,0,,HIM {\c&H00E6FF&}FIFTEEN{\c&HFFFFFF&} HUNDRED
+Dialogue: 0,0:00:25.58,0:00:25.93,Cap,,0,0,0,,HIM FIFTEEN {\c&H00E6FF&}HUNDRED{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.93,0:00:26.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOLLARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.79,0:00:26.97,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} REASON?
+Dialogue: 0,0:00:26.97,0:00:27.27,Cap,,0,0,0,,HIS {\c&H00E6FF&}REASON?{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.27,0:00:27.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"A{\c&HFFFFFF&} MAN CAN'T
+Dialogue: 0,0:00:27.60,0:00:27.78,Cap,,0,0,0,,"A {\c&H00E6FF&}MAN{\c&HFFFFFF&} CAN'T
+Dialogue: 0,0:00:27.78,0:00:28.00,Cap,,0,0,0,,"A MAN {\c&H00E6FF&}CAN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.00,0:00:28.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JUST{\c&HFFFFFF&} SIT AROUND."
+Dialogue: 0,0:00:28.23,0:00:28.41,Cap,,0,0,0,,JUST {\c&H00E6FF&}SIT{\c&HFFFFFF&} AROUND."
+Dialogue: 0,0:00:28.41,0:00:28.98,Cap,,0,0,0,,JUST SIT {\c&H00E6FF&}AROUND."{\c&HFFFFFF&}

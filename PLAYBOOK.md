@@ -16,6 +16,9 @@ safety) and the pre-render checklist. Its rules override anything below when the
    `say.txt` (optional, same lines): phonetic versions (years as words: "nineteen nineteen", odd names).
 3. **Voice + timing:** `python3 tools/voice.py stories/<slug> <30|64>` → voice.wav, timing.json, subs.ass,
    `web/s/<slug>_timing.js` (LINES = [start,end] frames per line, `wf(line, 'word')` = frame of a word).
+   The auto speed fit can oscillate; if the length or hook comes out wrong, pin it: `VOICE_SPEED=1.3 python3 tools/voice.py ...`
+   (1.25–1.35 for 30 s, ~1.1 for 64 s). Long caption chunks are shrunk to fit by `tools/fitsubs.py` (run automatically).
+   Vertical frames are narrow (±12° horizontally): put the subject on the camera's look line, or it will be off-frame.
 4. **Scene:** `web/s/<slug>.js` — copy the closest existing story (whale = beach/explosion, emu = field/animals/
    vehicles, molasses = city street/flood/building damage). Frame 0 = the payoff image (flash-forward). Cuts 4
    frames before each line, plus a second camera key / punch-in inside any line longer than ~3 s; key actions
