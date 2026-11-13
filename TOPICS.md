@@ -9,6 +9,11 @@
 - 2026-11-12 Vasa warship sinks on its maiden voyage, Stockholm, 1628 (30 s, Channel A)
 - 2026-11-12 Chocolate snow from the Lindt factory, Olten, Switzerland, 2020 (30 s, Channel B)
 - 2026-11-12 1904 Olympic marathon, St. Louis (64 s, TikTok)
+- 2026-11-13 Swiss army accidentally invades Liechtenstein, 2007 (30 s, Channel A)
+- 2026-11-13 Tree of Ténéré hit by a truck, Niger, 1973 (30 s, Channel A)
+- 2026-11-13 Pig War, San Juan Island, 1859 (30 s, Channel B)
+- 2026-11-13 Operation Cat Drop, Borneo/Sarawak, 1960 (30 s, Channel B)
+- 2026-11-13 Friendly Floatees bath-toy spill, North Pacific, 1992 (64 s, TikTok)
 
 ---
 Author: Maiwand

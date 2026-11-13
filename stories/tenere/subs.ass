@@ -1,0 +1,111 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1973,
+Dialogue: 0,0:00:00.29,0:00:01.24,Cap,,0,0,0,,IN {\c&H00E6FF&}1973,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.24,0:00:01.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} TRUCK HIT
+Dialogue: 0,0:00:01.36,0:00:01.93,Cap,,0,0,0,,A {\c&H00E6FF&}TRUCK{\c&HFFFFFF&} HIT
+Dialogue: 0,0:00:01.93,0:00:02.23,Cap,,0,0,0,,A TRUCK {\c&H00E6FF&}HIT{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.23,0:00:02.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ONLY TREE
+Dialogue: 0,0:00:02.46,0:00:02.73,Cap,,0,0,0,,THE {\c&H00E6FF&}ONLY{\c&HFFFFFF&} TREE
+Dialogue: 0,0:00:02.73,0:00:03.18,Cap,,0,0,0,,THE ONLY {\c&H00E6FF&}TREE{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.18,0:00:03.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} 250 MILES.
+Dialogue: 0,0:00:03.40,0:00:04.25,Cap,,0,0,0,,FOR {\c&H00E6FF&}250{\c&HFFFFFF&} MILES.
+Dialogue: 0,0:00:04.25,0:00:04.90,Cap,,0,0,0,,FOR 250 {\c&H00E6FF&}MILES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.00,0:00:05.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} TREE OF
+Dialogue: 0,0:00:05.17,0:00:05.43,Cap,,0,0,0,,THE {\c&H00E6FF&}TREE{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:05.43,0:00:05.57,Cap,,0,0,0,,THE TREE {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.57,0:00:05.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TÉNÉRÉ{\c&HFFFFFF&} STOOD ALONE
+Dialogue: 0,0:00:05.85,0:00:06.10,Cap,,0,0,0,,TÉNÉRÉ {\c&H00E6FF&}STOOD{\c&HFFFFFF&} ALONE
+Dialogue: 0,0:00:06.10,0:00:06.35,Cap,,0,0,0,,TÉNÉRÉ STOOD {\c&H00E6FF&}ALONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.35,0:00:06.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} THE SAHARA.
+Dialogue: 0,0:00:06.48,0:00:06.65,Cap,,0,0,0,,IN {\c&H00E6FF&}THE{\c&HFFFFFF&} SAHARA.
+Dialogue: 0,0:00:06.65,0:00:07.20,Cap,,0,0,0,,IN THE {\c&H00E6FF&}SAHARA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.29,0:00:07.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ITS{\c&HFFFFFF&} ROOTS REACHED
+Dialogue: 0,0:00:07.46,0:00:07.70,Cap,,0,0,0,,ITS {\c&H00E6FF&}ROOTS{\c&HFFFFFF&} REACHED
+Dialogue: 0,0:00:07.70,0:00:08.03,Cap,,0,0,0,,ITS ROOTS {\c&H00E6FF&}REACHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.03,0:00:08.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MORE{\c&HFFFFFF&} THAN 100
+Dialogue: 0,0:00:08.30,0:00:08.51,Cap,,0,0,0,,MORE {\c&H00E6FF&}THAN{\c&HFFFFFF&} 100
+Dialogue: 0,0:00:08.51,0:00:09.14,Cap,,0,0,0,,MORE THAN {\c&H00E6FF&}100{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.14,0:00:09.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FEET{\c&HFFFFFF&} DOWN TO
+Dialogue: 0,0:00:09.41,0:00:09.62,Cap,,0,0,0,,FEET {\c&H00E6FF&}DOWN{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:09.62,0:00:09.86,Cap,,0,0,0,,FEET DOWN {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.86,0:00:10.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIND{\c&HFFFFFF&} WATER.
+Dialogue: 0,0:00:10.06,0:00:10.57,Cap,,0,0,0,,FIND {\c&H00E6FF&}WATER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.68,0:00:10.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} CARAVANS STEERED
+Dialogue: 0,0:00:10.82,0:00:11.22,Cap,,0,0,0,,SO {\c&H00E6FF&}CARAVANS{\c&HFFFFFF&} STEERED
+Dialogue: 0,0:00:11.22,0:00:11.58,Cap,,0,0,0,,SO CARAVANS {\c&H00E6FF&}STEERED{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.58,0:00:11.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BY{\c&HFFFFFF&} IT,
+Dialogue: 0,0:00:11.73,0:00:11.87,Cap,,0,0,0,,BY {\c&H00E6FF&}IT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.87,0:00:12.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} MAPS MARKED
+Dialogue: 0,0:00:12.22,0:00:12.45,Cap,,0,0,0,,AND {\c&H00E6FF&}MAPS{\c&HFFFFFF&} MARKED
+Dialogue: 0,0:00:12.45,0:00:12.77,Cap,,0,0,0,,AND MAPS {\c&H00E6FF&}MARKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.77,0:00:12.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} LIKE A
+Dialogue: 0,0:00:12.99,0:00:13.22,Cap,,0,0,0,,IT {\c&H00E6FF&}LIKE{\c&HFFFFFF&} A
+Dialogue: 0,0:00:13.22,0:00:13.32,Cap,,0,0,0,,IT LIKE {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.32,0:00:13.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CITY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.90,0:00:14.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THOUSANDS{\c&HFFFFFF&} OF CAMELS
+Dialogue: 0,0:00:14.28,0:00:14.41,Cap,,0,0,0,,THOUSANDS {\c&H00E6FF&}OF{\c&HFFFFFF&} CAMELS
+Dialogue: 0,0:00:14.41,0:00:14.69,Cap,,0,0,0,,THOUSANDS OF {\c&H00E6FF&}CAMELS{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.69,0:00:15.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PASSED{\c&HFFFFFF&} IT,
+Dialogue: 0,0:00:15.03,0:00:15.16,Cap,,0,0,0,,PASSED {\c&H00E6FF&}IT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.16,0:00:15.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} NONE KNOCKED
+Dialogue: 0,0:00:15.43,0:00:15.64,Cap,,0,0,0,,BUT {\c&H00E6FF&}NONE{\c&HFFFFFF&} KNOCKED
+Dialogue: 0,0:00:15.64,0:00:16.02,Cap,,0,0,0,,BUT NONE {\c&H00E6FF&}KNOCKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.02,0:00:16.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} DOWN.
+Dialogue: 0,0:00:16.15,0:00:16.62,Cap,,0,0,0,,IT {\c&H00E6FF&}DOWN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.71,0:00:16.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A TRUCK
+Dialogue: 0,0:00:16.89,0:00:16.98,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} TRUCK
+Dialogue: 0,0:00:16.98,0:00:17.30,Cap,,0,0,0,,THEN A {\c&H00E6FF&}TRUCK{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.30,0:00:17.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAME{\c&HFFFFFF&} DOWN THE
+Dialogue: 0,0:00:17.49,0:00:17.68,Cap,,0,0,0,,CAME {\c&H00E6FF&}DOWN{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:17.68,0:00:17.91,Cap,,0,0,0,,CAME DOWN {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.91,0:00:18.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OLD{\c&HFFFFFF&} CARAVAN TRAIL.
+Dialogue: 0,0:00:18.06,0:00:18.35,Cap,,0,0,0,,OLD {\c&H00E6FF&}CARAVAN{\c&HFFFFFF&} TRAIL.
+Dialogue: 0,0:00:18.35,0:00:18.84,Cap,,0,0,0,,OLD CARAVAN {\c&H00E6FF&}TRAIL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.96,0:00:19.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HOW DO
+Dialogue: 0,0:00:19.08,0:00:19.23,Cap,,0,0,0,,SO {\c&H00E6FF&}HOW{\c&HFFFFFF&} DO
+Dialogue: 0,0:00:19.23,0:00:19.35,Cap,,0,0,0,,SO HOW {\c&H00E6FF&}DO{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.35,0:00:19.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}YOU{\c&HFFFFFF&} HIT THE
+Dialogue: 0,0:00:19.51,0:00:19.73,Cap,,0,0,0,,YOU {\c&H00E6FF&}HIT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:19.73,0:00:19.89,Cap,,0,0,0,,YOU HIT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.89,0:00:20.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONLY{\c&HFFFFFF&} TREE IN
+Dialogue: 0,0:00:20.08,0:00:20.27,Cap,,0,0,0,,ONLY {\c&H00E6FF&}TREE{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:20.27,0:00:20.39,Cap,,0,0,0,,ONLY TREE {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.39,0:00:20.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} DESERT?
+Dialogue: 0,0:00:20.55,0:00:21.07,Cap,,0,0,0,,THE {\c&H00E6FF&}DESERT?{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.38,0:00:21.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RUMOR{\c&HFFFFFF&} SAYS THE
+Dialogue: 0,0:00:21.61,0:00:21.80,Cap,,0,0,0,,RUMOR {\c&H00E6FF&}SAYS{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:21.80,0:00:21.97,Cap,,0,0,0,,RUMOR SAYS {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.97,0:00:22.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DRIVER{\c&HFFFFFF&} WAS DRUNK.
+Dialogue: 0,0:00:22.23,0:00:22.39,Cap,,0,0,0,,DRIVER {\c&H00E6FF&}WAS{\c&HFFFFFF&} DRUNK.
+Dialogue: 0,0:00:22.39,0:00:22.69,Cap,,0,0,0,,DRIVER WAS {\c&H00E6FF&}DRUNK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.69,0:00:23.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} TRUNK SNAPPED.
+Dialogue: 0,0:00:23.03,0:00:23.26,Cap,,0,0,0,,THE {\c&H00E6FF&}TRUNK{\c&HFFFFFF&} SNAPPED.
+Dialogue: 0,0:00:23.26,0:00:23.83,Cap,,0,0,0,,THE TRUNK {\c&H00E6FF&}SNAPPED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.06,0:00:24.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TODAY{\c&HFFFFFF&} ITS DEAD
+Dialogue: 0,0:00:24.31,0:00:24.48,Cap,,0,0,0,,TODAY {\c&H00E6FF&}ITS{\c&HFFFFFF&} DEAD
+Dialogue: 0,0:00:24.48,0:00:24.70,Cap,,0,0,0,,TODAY ITS {\c&H00E6FF&}DEAD{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.70,0:00:24.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRUNK{\c&HFFFFFF&} SITS IN
+Dialogue: 0,0:00:24.95,0:00:25.17,Cap,,0,0,0,,TRUNK {\c&H00E6FF&}SITS{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:25.17,0:00:25.30,Cap,,0,0,0,,TRUNK SITS {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.30,0:00:25.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} MUSEUM.
+Dialogue: 0,0:00:25.40,0:00:25.96,Cap,,0,0,0,,A {\c&H00E6FF&}MUSEUM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.09,0:00:26.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ITS{\c&HFFFFFF&} REPLACEMENT IS
+Dialogue: 0,0:00:26.27,0:00:26.79,Cap,,0,0,0,,ITS {\c&H00E6FF&}REPLACEMENT{\c&HFFFFFF&} IS
+Dialogue: 0,0:00:26.79,0:00:26.94,Cap,,0,0,0,,ITS REPLACEMENT {\c&H00E6FF&}IS{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.94,0:00:27.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}METAL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.21,0:00:27.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LET'S{\c&HFFFFFF&} SEE A
+Dialogue: 0,0:00:27.52,0:00:27.70,Cap,,0,0,0,,LET'S {\c&H00E6FF&}SEE{\c&HFFFFFF&} A
+Dialogue: 0,0:00:27.70,0:00:27.81,Cap,,0,0,0,,LET'S SEE {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.81,0:00:28.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRUCK{\c&HFFFFFF&} TRY.
+Dialogue: 0,0:00:28.19,0:00:28.64,Cap,,0,0,0,,TRUCK {\c&H00E6FF&}TRY.{\c&HFFFFFF&}

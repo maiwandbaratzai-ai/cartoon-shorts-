@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 2007,
+Dialogue: 0,0:00:00.28,0:00:01.09,Cap,,0,0,0,,IN {\c&H00E6FF&}2007,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.09,0:00:01.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SWISS ARMY
+Dialogue: 0,0:00:01.42,0:00:01.73,Cap,,0,0,0,,THE {\c&H00E6FF&}SWISS{\c&HFFFFFF&} ARMY
+Dialogue: 0,0:00:01.73,0:00:01.98,Cap,,0,0,0,,THE SWISS {\c&H00E6FF&}ARMY{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.98,0:00:02.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INVADED{\c&HFFFFFF&} A COUNTRY
+Dialogue: 0,0:00:02.38,0:00:02.49,Cap,,0,0,0,,INVADED {\c&H00E6FF&}A{\c&HFFFFFF&} COUNTRY
+Dialogue: 0,0:00:02.49,0:00:02.89,Cap,,0,0,0,,INVADED A {\c&H00E6FF&}COUNTRY{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.89,0:00:03.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BY{\c&HFFFFFF&} ACCIDENT.
+Dialogue: 0,0:00:03.05,0:00:03.76,Cap,,0,0,0,,BY {\c&H00E6FF&}ACCIDENT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.86,0:00:04.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}170{\c&HFFFFFF&} SOLDIERS SET
+Dialogue: 0,0:00:04.46,0:00:04.88,Cap,,0,0,0,,170 {\c&H00E6FF&}SOLDIERS{\c&HFFFFFF&} SET
+Dialogue: 0,0:00:04.88,0:00:05.09,Cap,,0,0,0,,170 SOLDIERS {\c&H00E6FF&}SET{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.09,0:00:05.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} ON A
+Dialogue: 0,0:00:05.29,0:00:05.44,Cap,,0,0,0,,OFF {\c&H00E6FF&}ON{\c&HFFFFFF&} A
+Dialogue: 0,0:00:05.44,0:00:05.56,Cap,,0,0,0,,OFF ON {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.56,0:00:05.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NIGHT{\c&HFFFFFF&} MARCH THROUGH
+Dialogue: 0,0:00:05.92,0:00:06.21,Cap,,0,0,0,,NIGHT {\c&H00E6FF&}MARCH{\c&HFFFFFF&} THROUGH
+Dialogue: 0,0:00:06.21,0:00:06.69,Cap,,0,0,0,,NIGHT MARCH {\c&H00E6FF&}THROUGH{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.69,0:00:06.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ALPS.
+Dialogue: 0,0:00:06.89,0:00:07.52,Cap,,0,0,0,,THE {\c&H00E6FF&}ALPS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.62,0:00:07.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} IT WAS
+Dialogue: 0,0:00:07.78,0:00:07.98,Cap,,0,0,0,,BUT {\c&H00E6FF&}IT{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:07.98,0:00:08.15,Cap,,0,0,0,,BUT IT {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.15,0:00:08.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}POURING{\c&HFFFFFF&} RAIN,
+Dialogue: 0,0:00:08.47,0:00:08.68,Cap,,0,0,0,,POURING {\c&H00E6FF&}RAIN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.68,0:00:08.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE BORDER
+Dialogue: 0,0:00:08.84,0:00:09.01,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} BORDER
+Dialogue: 0,0:00:09.01,0:00:09.29,Cap,,0,0,0,,AND THE {\c&H00E6FF&}BORDER{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.29,0:00:09.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAD{\c&HFFFFFF&} NO FENCE.
+Dialogue: 0,0:00:09.46,0:00:09.71,Cap,,0,0,0,,HAD {\c&H00E6FF&}NO{\c&HFFFFFF&} FENCE.
+Dialogue: 0,0:00:09.71,0:00:10.22,Cap,,0,0,0,,HAD NO {\c&H00E6FF&}FENCE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.31,0:00:10.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THEY KEPT
+Dialogue: 0,0:00:10.45,0:00:10.67,Cap,,0,0,0,,SO {\c&H00E6FF&}THEY{\c&HFFFFFF&} KEPT
+Dialogue: 0,0:00:10.67,0:00:10.95,Cap,,0,0,0,,SO THEY {\c&H00E6FF&}KEPT{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.95,0:00:11.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MARCHING,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.40,0:00:11.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FULL MILE
+Dialogue: 0,0:00:11.50,0:00:11.72,Cap,,0,0,0,,A {\c&H00E6FF&}FULL{\c&HFFFFFF&} MILE
+Dialogue: 0,0:00:11.72,0:00:11.94,Cap,,0,0,0,,A FULL {\c&H00E6FF&}MILE{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.94,0:00:12.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} LIECHTENSTEIN.
+Dialogue: 0,0:00:12.16,0:00:13.09,Cap,,0,0,0,,INTO {\c&H00E6FF&}LIECHTENSTEIN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.19,0:00:13.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} CARRIED RIFLES,
+Dialogue: 0,0:00:13.39,0:00:13.71,Cap,,0,0,0,,THEY {\c&H00E6FF&}CARRIED{\c&HFFFFFF&} RIFLES,
+Dialogue: 0,0:00:13.71,0:00:13.98,Cap,,0,0,0,,THEY CARRIED {\c&H00E6FF&}RIFLES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.98,0:00:14.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} NOT ONE
+Dialogue: 0,0:00:14.21,0:00:14.38,Cap,,0,0,0,,BUT {\c&H00E6FF&}NOT{\c&HFFFFFF&} ONE
+Dialogue: 0,0:00:14.38,0:00:14.55,Cap,,0,0,0,,BUT NOT {\c&H00E6FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.55,0:00:15.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BULLET.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.19,0:00:15.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} SOMEONE CHECKED
+Dialogue: 0,0:00:15.36,0:00:15.63,Cap,,0,0,0,,THEN {\c&H00E6FF&}SOMEONE{\c&HFFFFFF&} CHECKED
+Dialogue: 0,0:00:15.63,0:00:16.00,Cap,,0,0,0,,THEN SOMEONE {\c&H00E6FF&}CHECKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.00,0:00:16.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} MAP.
+Dialogue: 0,0:00:16.25,0:00:16.39,Cap,,0,0,0,,THE {\c&H00E6FF&}MAP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.39,0:00:16.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WRONG{\c&HFFFFFF&} COUNTRY.
+Dialogue: 0,0:00:16.61,0:00:17.16,Cap,,0,0,0,,WRONG {\c&H00E6FF&}COUNTRY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.24,0:00:17.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THEY TURNED
+Dialogue: 0,0:00:17.36,0:00:17.55,Cap,,0,0,0,,SO {\c&H00E6FF&}THEY{\c&HFFFFFF&} TURNED
+Dialogue: 0,0:00:17.55,0:00:17.80,Cap,,0,0,0,,SO THEY {\c&H00E6FF&}TURNED{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.80,0:00:18.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AROUND{\c&HFFFFFF&} AND TIPTOED
+Dialogue: 0,0:00:18.06,0:00:18.22,Cap,,0,0,0,,AROUND {\c&H00E6FF&}AND{\c&HFFFFFF&} TIPTOED
+Dialogue: 0,0:00:18.22,0:00:18.59,Cap,,0,0,0,,AROUND AND {\c&H00E6FF&}TIPTOED{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.59,0:00:18.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BACK{\c&HFFFFFF&} TO SWITZERLAND.
+Dialogue: 0,0:00:18.87,0:00:18.99,Cap,,0,0,0,,BACK {\c&H00E6FF&}TO{\c&HFFFFFF&} SWITZERLAND.
+Dialogue: 0,0:00:18.99,0:00:19.69,Cap,,0,0,0,,BACK TO {\c&H00E6FF&}SWITZERLAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.84,0:00:20.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} HERE'S THE
+Dialogue: 0,0:00:20.04,0:00:20.33,Cap,,0,0,0,,BUT {\c&H00E6FF&}HERE'S{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:20.33,0:00:20.53,Cap,,0,0,0,,BUT HERE'S {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.53,0:00:20.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PART{\c&HFFFFFF&} NOBODY SAW
+Dialogue: 0,0:00:20.78,0:00:21.12,Cap,,0,0,0,,PART {\c&H00E6FF&}NOBODY{\c&HFFFFFF&} SAW
+Dialogue: 0,0:00:21.12,0:00:21.38,Cap,,0,0,0,,PART NOBODY {\c&H00E6FF&}SAW{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.38,0:00:21.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}COMING:{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.93,0:00:22.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LIECHTENSTEIN{\c&HFFFFFF&} HAS NO
+Dialogue: 0,0:00:22.67,0:00:22.87,Cap,,0,0,0,,LIECHTENSTEIN {\c&H00E6FF&}HAS{\c&HFFFFFF&} NO
+Dialogue: 0,0:00:22.87,0:00:23.03,Cap,,0,0,0,,LIECHTENSTEIN HAS {\c&H00E6FF&}NO{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.03,0:00:23.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ARMY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.67,0:00:23.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOBODY{\c&HFFFFFF&} THERE EVEN
+Dialogue: 0,0:00:23.92,0:00:24.15,Cap,,0,0,0,,NOBODY {\c&H00E6FF&}THERE{\c&HFFFFFF&} EVEN
+Dialogue: 0,0:00:24.15,0:00:24.33,Cap,,0,0,0,,NOBODY THERE {\c&H00E6FF&}EVEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.33,0:00:24.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOTICED{\c&HFFFFFF&} THE INVASION.
+Dialogue: 0,0:00:24.69,0:00:24.84,Cap,,0,0,0,,NOTICED {\c&H00E6FF&}THE{\c&HFFFFFF&} INVASION.
+Dialogue: 0,0:00:24.84,0:00:25.43,Cap,,0,0,0,,NOTICED THE {\c&H00E6FF&}INVASION.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.54,0:00:25.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} SPOKESWOMAN SHRUGGED
+Dialogue: 0,0:00:25.63,0:00:26.17,Cap,,0,0,0,,A {\c&H00E6FF&}SPOKESWOMAN{\c&HFFFFFF&} SHRUGGED
+Dialogue: 0,0:00:26.17,0:00:26.53,Cap,,0,0,0,,A SPOKESWOMAN {\c&H00E6FF&}SHRUGGED{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.53,0:00:26.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} THE SWISS
+Dialogue: 0,0:00:26.79,0:00:26.95,Cap,,0,0,0,,OFF {\c&H00E6FF&}THE{\c&HFFFFFF&} SWISS
+Dialogue: 0,0:00:26.95,0:00:27.20,Cap,,0,0,0,,OFF THE {\c&H00E6FF&}SWISS{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.20,0:00:27.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ARMY:{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.41,0:00:27.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"IT{\c&HFFFFFF&} HAS HAPPENED
+Dialogue: 0,0:00:27.72,0:00:27.89,Cap,,0,0,0,,"IT {\c&H00E6FF&}HAS{\c&HFFFFFF&} HAPPENED
+Dialogue: 0,0:00:27.89,0:00:28.24,Cap,,0,0,0,,"IT HAS {\c&H00E6FF&}HAPPENED{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.24,0:00:28.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEFORE."{\c&HFFFFFF&}

@@ -1,0 +1,115 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1859,
+Dialogue: 0,0:00:00.27,0:00:01.04,Cap,,0,0,0,,IN {\c&H00E6FF&}1859,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.04,0:00:01.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AMERICA{\c&HFFFFFF&} AND BRITAIN
+Dialogue: 0,0:00:01.50,0:00:01.70,Cap,,0,0,0,,AMERICA {\c&H00E6FF&}AND{\c&HFFFFFF&} BRITAIN
+Dialogue: 0,0:00:01.70,0:00:02.07,Cap,,0,0,0,,AMERICA AND {\c&H00E6FF&}BRITAIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.07,0:00:02.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALMOST{\c&HFFFFFF&} WENT TO
+Dialogue: 0,0:00:02.50,0:00:02.74,Cap,,0,0,0,,ALMOST {\c&H00E6FF&}WENT{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:02.74,0:00:02.89,Cap,,0,0,0,,ALMOST WENT {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.89,0:00:03.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAR{\c&HFFFFFF&} OVER A
+Dialogue: 0,0:00:03.09,0:00:03.34,Cap,,0,0,0,,WAR {\c&H00E6FF&}OVER{\c&HFFFFFF&} A
+Dialogue: 0,0:00:03.34,0:00:03.45,Cap,,0,0,0,,WAR OVER {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.45,0:00:03.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PIG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.10,0:00:04.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} SAN JUAN
+Dialogue: 0,0:00:04.23,0:00:04.40,Cap,,0,0,0,,ON {\c&H00E6FF&}SAN{\c&HFFFFFF&} JUAN
+Dialogue: 0,0:00:04.40,0:00:04.60,Cap,,0,0,0,,ON SAN {\c&H00E6FF&}JUAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.60,0:00:04.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ISLAND,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.89,0:00:05.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BOTH{\c&HFFFFFF&} COUNTRIES CLAIMED
+Dialogue: 0,0:00:05.19,0:00:05.59,Cap,,0,0,0,,BOTH {\c&H00E6FF&}COUNTRIES{\c&HFFFFFF&} CLAIMED
+Dialogue: 0,0:00:05.59,0:00:05.97,Cap,,0,0,0,,BOTH COUNTRIES {\c&H00E6FF&}CLAIMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.97,0:00:06.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SAME LAND.
+Dialogue: 0,0:00:06.14,0:00:06.35,Cap,,0,0,0,,THE {\c&H00E6FF&}SAME{\c&HFFFFFF&} LAND.
+Dialogue: 0,0:00:06.35,0:00:06.82,Cap,,0,0,0,,THE SAME {\c&H00E6FF&}LAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.97,0:00:07.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A BRITISH
+Dialogue: 0,0:00:07.17,0:00:07.27,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} BRITISH
+Dialogue: 0,0:00:07.27,0:00:07.65,Cap,,0,0,0,,THEN A {\c&H00E6FF&}BRITISH{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.65,0:00:07.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PIG{\c&HFFFFFF&} WANDERED INTO
+Dialogue: 0,0:00:07.82,0:00:08.18,Cap,,0,0,0,,PIG {\c&H00E6FF&}WANDERED{\c&HFFFFFF&} INTO
+Dialogue: 0,0:00:08.18,0:00:08.39,Cap,,0,0,0,,PIG WANDERED {\c&H00E6FF&}INTO{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.39,0:00:08.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AN{\c&HFFFFFF&} AMERICAN'S POTATO
+Dialogue: 0,0:00:08.52,0:00:09.07,Cap,,0,0,0,,AN {\c&H00E6FF&}AMERICAN'S{\c&HFFFFFF&} POTATO
+Dialogue: 0,0:00:09.07,0:00:09.35,Cap,,0,0,0,,AN AMERICAN'S {\c&H00E6FF&}POTATO{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.35,0:00:09.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PATCH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.04,0:00:10.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} FARMER LYMAN
+Dialogue: 0,0:00:10.16,0:00:10.44,Cap,,0,0,0,,SO {\c&H00E6FF&}FARMER{\c&HFFFFFF&} LYMAN
+Dialogue: 0,0:00:10.44,0:00:10.67,Cap,,0,0,0,,SO FARMER {\c&H00E6FF&}LYMAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.67,0:00:10.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CUTLAR{\c&HFFFFFF&} SHOT IT.
+Dialogue: 0,0:00:10.95,0:00:11.15,Cap,,0,0,0,,CUTLAR {\c&H00E6FF&}SHOT{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:11.15,0:00:11.54,Cap,,0,0,0,,CUTLAR SHOT {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.64,0:00:11.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} OFFERED TEN
+Dialogue: 0,0:00:11.77,0:00:12.11,Cap,,0,0,0,,HE {\c&H00E6FF&}OFFERED{\c&HFFFFFF&} TEN
+Dialogue: 0,0:00:12.11,0:00:12.29,Cap,,0,0,0,,HE OFFERED {\c&H00E6FF&}TEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.29,0:00:12.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOLLARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.63,0:00:12.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BRITISH DEMANDED
+Dialogue: 0,0:00:12.91,0:00:13.25,Cap,,0,0,0,,THE {\c&H00E6FF&}BRITISH{\c&HFFFFFF&} DEMANDED
+Dialogue: 0,0:00:13.25,0:00:13.63,Cap,,0,0,0,,THE BRITISH {\c&H00E6FF&}DEMANDED{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.63,0:00:13.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} HUNDRED.
+Dialogue: 0,0:00:13.73,0:00:14.33,Cap,,0,0,0,,A {\c&H00E6FF&}HUNDRED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.42,0:00:14.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE U.S.
+Dialogue: 0,0:00:14.57,0:00:14.76,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} U.S.
+Dialogue: 0,0:00:14.76,0:00:14.92,Cap,,0,0,0,,SO THE {\c&H00E6FF&}U.S.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.92,0:00:15.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ARMY{\c&HFFFFFF&} SENT 64
+Dialogue: 0,0:00:15.16,0:00:15.40,Cap,,0,0,0,,ARMY {\c&H00E6FF&}SENT{\c&HFFFFFF&} 64
+Dialogue: 0,0:00:15.40,0:00:15.89,Cap,,0,0,0,,ARMY SENT {\c&H00E6FF&}64{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.89,0:00:16.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOLDIERS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.31,0:00:16.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BRITAIN{\c&HFFFFFF&} SENT THREE
+Dialogue: 0,0:00:16.95,0:00:17.19,Cap,,0,0,0,,BRITAIN {\c&H00E6FF&}SENT{\c&HFFFFFF&} THREE
+Dialogue: 0,0:00:17.19,0:00:17.54,Cap,,0,0,0,,BRITAIN SENT {\c&H00E6FF&}THREE{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.54,0:00:18.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WARSHIPS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.44,0:00:18.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:18.68,0:00:18.84,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:18.84,0:00:19.04,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.04,0:00:19.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.44,0:00:20.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}461{\c&HFFFFFF&} AMERICANS DUG
+Dialogue: 0,0:00:20.04,0:00:20.51,Cap,,0,0,0,,461 {\c&H00E6FF&}AMERICANS{\c&HFFFFFF&} DUG
+Dialogue: 0,0:00:20.51,0:00:20.71,Cap,,0,0,0,,461 AMERICANS {\c&H00E6FF&}DUG{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.71,0:00:20.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} AGAINST 2,000
+Dialogue: 0,0:00:20.94,0:00:21.38,Cap,,0,0,0,,IN {\c&H00E6FF&}AGAINST{\c&HFFFFFF&} 2,000
+Dialogue: 0,0:00:21.38,0:00:22.22,Cap,,0,0,0,,IN AGAINST {\c&H00E6FF&}2,000{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.22,0:00:22.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BRITISH{\c&HFFFFFF&} TROOPS.
+Dialogue: 0,0:00:22.60,0:00:23.36,Cap,,0,0,0,,BRITISH {\c&H00E6FF&}TROOPS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.46,0:00:23.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE BRITISH
+Dialogue: 0,0:00:23.61,0:00:23.76,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} BRITISH
+Dialogue: 0,0:00:23.76,0:00:24.04,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}BRITISH{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.04,0:00:24.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ADMIRAL{\c&HFFFFFF&} REFUSED TO
+Dialogue: 0,0:00:24.32,0:00:24.71,Cap,,0,0,0,,ADMIRAL {\c&H00E6FF&}REFUSED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:24.71,0:00:24.92,Cap,,0,0,0,,ADMIRAL REFUSED {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.92,0:00:25.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIRE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.46,0:00:25.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"I{\c&HFFFFFF&} WILL NOT
+Dialogue: 0,0:00:25.56,0:00:25.79,Cap,,0,0,0,,"I {\c&H00E6FF&}WILL{\c&HFFFFFF&} NOT
+Dialogue: 0,0:00:25.79,0:00:25.98,Cap,,0,0,0,,"I WILL {\c&H00E6FF&}NOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.98,0:00:26.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INVOLVE{\c&HFFFFFF&} TWO GREAT
+Dialogue: 0,0:00:26.33,0:00:26.52,Cap,,0,0,0,,INVOLVE {\c&H00E6FF&}TWO{\c&HFFFFFF&} GREAT
+Dialogue: 0,0:00:26.52,0:00:26.79,Cap,,0,0,0,,INVOLVE TWO {\c&H00E6FF&}GREAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.79,0:00:27.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NATIONS{\c&HFFFFFF&} IN A
+Dialogue: 0,0:00:27.15,0:00:27.30,Cap,,0,0,0,,NATIONS {\c&H00E6FF&}IN{\c&HFFFFFF&} A
+Dialogue: 0,0:00:27.30,0:00:27.40,Cap,,0,0,0,,NATIONS IN {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.40,0:00:27.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAR{\c&HFFFFFF&} OVER A
+Dialogue: 0,0:00:27.59,0:00:27.82,Cap,,0,0,0,,WAR {\c&H00E6FF&}OVER{\c&HFFFFFF&} A
+Dialogue: 0,0:00:27.82,0:00:27.92,Cap,,0,0,0,,WAR OVER {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.92,0:00:28.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SQUABBLE{\c&HFFFFFF&} ABOUT A
+Dialogue: 0,0:00:28.39,0:00:28.66,Cap,,0,0,0,,SQUABBLE {\c&H00E6FF&}ABOUT{\c&HFFFFFF&} A
+Dialogue: 0,0:00:28.66,0:00:28.77,Cap,,0,0,0,,SQUABBLE ABOUT {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.77,0:00:29.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PIG."{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.36,0:00:29.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} STANDOFF LASTED
+Dialogue: 0,0:00:29.54,0:00:29.91,Cap,,0,0,0,,THE {\c&H00E6FF&}STANDOFF{\c&HFFFFFF&} LASTED
+Dialogue: 0,0:00:29.91,0:00:30.21,Cap,,0,0,0,,THE STANDOFF {\c&H00E6FF&}LASTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.21,0:00:30.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}12{\c&HFFFFFF&} YEARS.
+Dialogue: 0,0:00:30.59,0:00:30.96,Cap,,0,0,0,,12 {\c&H00E6FF&}YEARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.96,0:00:31.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ONLY CASUALTY?
+Dialogue: 0,0:00:31.14,0:00:31.36,Cap,,0,0,0,,THE {\c&H00E6FF&}ONLY{\c&HFFFFFF&} CASUALTY?
+Dialogue: 0,0:00:31.36,0:00:31.75,Cap,,0,0,0,,THE ONLY {\c&H00E6FF&}CASUALTY?{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.75,0:00:31.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} PIG.
+Dialogue: 0,0:00:31.93,0:00:32.37,Cap,,0,0,0,,THE {\c&H00E6FF&}PIG.{\c&HFFFFFF&}

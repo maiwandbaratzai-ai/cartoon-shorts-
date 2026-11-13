@@ -1,0 +1,105 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1960,
+Dialogue: 0,0:00:00.27,0:00:01.04,Cap,,0,0,0,,IN {\c&H00E6FF&}1960,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.04,0:00:01.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ROYAL AIR
+Dialogue: 0,0:00:01.31,0:00:01.60,Cap,,0,0,0,,THE {\c&H00E6FF&}ROYAL{\c&HFFFFFF&} AIR
+Dialogue: 0,0:00:01.60,0:00:01.80,Cap,,0,0,0,,THE ROYAL {\c&H00E6FF&}AIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.80,0:00:02.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FORCE{\c&HFFFFFF&} PARACHUTED CATS
+Dialogue: 0,0:00:02.23,0:00:02.79,Cap,,0,0,0,,FORCE {\c&H00E6FF&}PARACHUTED{\c&HFFFFFF&} CATS
+Dialogue: 0,0:00:02.79,0:00:03.04,Cap,,0,0,0,,FORCE PARACHUTED {\c&H00E6FF&}CATS{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.04,0:00:03.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} BORNEO.
+Dialogue: 0,0:00:03.28,0:00:03.87,Cap,,0,0,0,,INTO {\c&H00E6FF&}BORNEO.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.97,0:00:04.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} STARTED WITH
+Dialogue: 0,0:00:04.09,0:00:04.41,Cap,,0,0,0,,IT {\c&H00E6FF&}STARTED{\c&HFFFFFF&} WITH
+Dialogue: 0,0:00:04.41,0:00:04.61,Cap,,0,0,0,,IT STARTED {\c&H00E6FF&}WITH{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.61,0:00:05.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOSQUITOES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.03,0:00:05.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MALARIA{\c&HFFFFFF&} WAS SPREADING
+Dialogue: 0,0:00:05.52,0:00:05.68,Cap,,0,0,0,,MALARIA {\c&H00E6FF&}WAS{\c&HFFFFFF&} SPREADING
+Dialogue: 0,0:00:05.68,0:00:06.14,Cap,,0,0,0,,MALARIA WAS {\c&H00E6FF&}SPREADING{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.14,0:00:06.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THROUGH{\c&HFFFFFF&} THE VILLAGES.
+Dialogue: 0,0:00:06.51,0:00:06.68,Cap,,0,0,0,,THROUGH {\c&H00E6FF&}THE{\c&HFFFFFF&} VILLAGES.
+Dialogue: 0,0:00:06.68,0:00:07.29,Cap,,0,0,0,,THROUGH THE {\c&H00E6FF&}VILLAGES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.40,0:00:07.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HEALTH WORKERS
+Dialogue: 0,0:00:07.55,0:00:07.88,Cap,,0,0,0,,SO {\c&H00E6FF&}HEALTH{\c&HFFFFFF&} WORKERS
+Dialogue: 0,0:00:07.88,0:00:08.32,Cap,,0,0,0,,SO HEALTH {\c&H00E6FF&}WORKERS{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.32,0:00:08.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SPRAYED{\c&HFFFFFF&} THE HOUSES
+Dialogue: 0,0:00:08.69,0:00:08.89,Cap,,0,0,0,,SPRAYED {\c&H00E6FF&}THE{\c&HFFFFFF&} HOUSES
+Dialogue: 0,0:00:08.89,0:00:09.28,Cap,,0,0,0,,SPRAYED THE {\c&H00E6FF&}HOUSES{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.28,0:00:09.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} THE PESTICIDE
+Dialogue: 0,0:00:09.52,0:00:09.72,Cap,,0,0,0,,WITH {\c&H00E6FF&}THE{\c&HFFFFFF&} PESTICIDE
+Dialogue: 0,0:00:09.72,0:00:10.24,Cap,,0,0,0,,WITH THE {\c&H00E6FF&}PESTICIDE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.24,0:00:10.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DDT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.90,0:00:11.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} MOSQUITOES DIED.
+Dialogue: 0,0:00:11.09,0:00:11.55,Cap,,0,0,0,,THE {\c&H00E6FF&}MOSQUITOES{\c&HFFFFFF&} DIED.
+Dialogue: 0,0:00:11.55,0:00:11.78,Cap,,0,0,0,,THE MOSQUITOES {\c&H00E6FF&}DIED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.78,0:00:11.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} SO DID
+Dialogue: 0,0:00:11.96,0:00:12.11,Cap,,0,0,0,,BUT {\c&H00E6FF&}SO{\c&HFFFFFF&} DID
+Dialogue: 0,0:00:12.11,0:00:12.29,Cap,,0,0,0,,BUT SO {\c&H00E6FF&}DID{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.29,0:00:12.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WASPS THAT
+Dialogue: 0,0:00:12.46,0:00:12.79,Cap,,0,0,0,,THE {\c&H00E6FF&}WASPS{\c&HFFFFFF&} THAT
+Dialogue: 0,0:00:12.79,0:00:13.02,Cap,,0,0,0,,THE WASPS {\c&H00E6FF&}THAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.02,0:00:13.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ATE{\c&HFFFFFF&} CATERPILLARS.
+Dialogue: 0,0:00:13.28,0:00:14.09,Cap,,0,0,0,,ATE {\c&H00E6FF&}CATERPILLARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.19,0:00:14.31,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} CATERPILLARS MUNCHED
+Dialogue: 0,0:00:14.31,0:00:14.79,Cap,,0,0,0,,{\fs107}SO {\c&H00E6FF&}CATERPILLARS{\c&HFFFFFF&} MUNCHED
+Dialogue: 0,0:00:14.79,0:00:15.09,Cap,,0,0,0,,{\fs107}SO CATERPILLARS {\c&H00E6FF&}MUNCHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.09,0:00:15.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} THATCHED ROOFS
+Dialogue: 0,0:00:15.31,0:00:15.64,Cap,,0,0,0,,THE {\c&H00E6FF&}THATCHED{\c&HFFFFFF&} ROOFS
+Dialogue: 0,0:00:15.64,0:00:15.88,Cap,,0,0,0,,THE THATCHED {\c&H00E6FF&}ROOFS{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.88,0:00:16.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UNTIL{\c&HFFFFFF&} THEY CAVED
+Dialogue: 0,0:00:16.11,0:00:16.40,Cap,,0,0,0,,UNTIL {\c&H00E6FF&}THEY{\c&HFFFFFF&} CAVED
+Dialogue: 0,0:00:16.40,0:00:16.63,Cap,,0,0,0,,UNTIL THEY {\c&H00E6FF&}CAVED{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.63,0:00:17.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.12,0:00:17.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:17.32,0:00:17.44,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:17.44,0:00:17.61,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.61,0:00:17.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.84,0:00:18.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LIZARDS{\c&HFFFFFF&} ATE THE
+Dialogue: 0,0:00:18.23,0:00:18.46,Cap,,0,0,0,,LIZARDS {\c&H00E6FF&}ATE{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:18.46,0:00:18.62,Cap,,0,0,0,,LIZARDS ATE {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.62,0:00:18.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}POISONED{\c&HFFFFFF&} BUGS,
+Dialogue: 0,0:00:18.96,0:00:19.16,Cap,,0,0,0,,POISONED {\c&H00E6FF&}BUGS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.16,0:00:19.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} CATS ATE
+Dialogue: 0,0:00:19.33,0:00:19.53,Cap,,0,0,0,,AND {\c&H00E6FF&}CATS{\c&HFFFFFF&} ATE
+Dialogue: 0,0:00:19.53,0:00:19.69,Cap,,0,0,0,,AND CATS {\c&H00E6FF&}ATE{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.69,0:00:19.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} LIZARDS.
+Dialogue: 0,0:00:19.94,0:00:20.57,Cap,,0,0,0,,THE {\c&H00E6FF&}LIZARDS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.72,0:00:20.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CATS DIED,
+Dialogue: 0,0:00:20.90,0:00:21.12,Cap,,0,0,0,,THE {\c&H00E6FF&}CATS{\c&HFFFFFF&} DIED,
+Dialogue: 0,0:00:21.12,0:00:21.34,Cap,,0,0,0,,THE CATS {\c&H00E6FF&}DIED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.34,0:00:21.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE RATS
+Dialogue: 0,0:00:21.52,0:00:21.70,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} RATS
+Dialogue: 0,0:00:21.70,0:00:21.92,Cap,,0,0,0,,AND THE {\c&H00E6FF&}RATS{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.92,0:00:22.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOVED{\c&HFFFFFF&} IN.
+Dialogue: 0,0:00:22.18,0:00:22.59,Cap,,0,0,0,,MOVED {\c&H00E6FF&}IN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.69,0:00:22.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE RAF
+Dialogue: 0,0:00:22.83,0:00:23.01,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} RAF
+Dialogue: 0,0:00:23.01,0:00:23.19,Cap,,0,0,0,,SO THE {\c&H00E6FF&}RAF{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.19,0:00:23.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PACKED{\c&HFFFFFF&} LIVE CATS
+Dialogue: 0,0:00:23.50,0:00:23.86,Cap,,0,0,0,,PACKED {\c&H00E6FF&}LIVE{\c&HFFFFFF&} CATS
+Dialogue: 0,0:00:23.86,0:00:24.15,Cap,,0,0,0,,PACKED LIVE {\c&H00E6FF&}CATS{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.15,0:00:24.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} CRATES AND
+Dialogue: 0,0:00:24.37,0:00:24.67,Cap,,0,0,0,,INTO {\c&H00E6FF&}CRATES{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:24.67,0:00:24.86,Cap,,0,0,0,,INTO CRATES {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.86,0:00:25.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DROPPED{\c&HFFFFFF&} THEM BY
+Dialogue: 0,0:00:25.20,0:00:25.56,Cap,,0,0,0,,DROPPED {\c&H00E6FF&}THEM{\c&HFFFFFF&} BY
+Dialogue: 0,0:00:25.56,0:00:25.70,Cap,,0,0,0,,DROPPED THEM {\c&H00E6FF&}BY{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.70,0:00:26.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PARACHUTE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.49,0:00:26.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} MISSION'S OFFICIAL
+Dialogue: 0,0:00:26.66,0:00:27.03,Cap,,0,0,0,,THE {\c&H00E6FF&}MISSION'S{\c&HFFFFFF&} OFFICIAL
+Dialogue: 0,0:00:27.03,0:00:27.39,Cap,,0,0,0,,THE MISSION'S {\c&H00E6FF&}OFFICIAL{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.39,0:00:27.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NAME?{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.71,0:00:28.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OPERATION{\c&HFFFFFF&} CAT DROP.
+Dialogue: 0,0:00:28.12,0:00:28.37,Cap,,0,0,0,,OPERATION {\c&H00E6FF&}CAT{\c&HFFFFFF&} DROP.
+Dialogue: 0,0:00:28.37,0:00:28.85,Cap,,0,0,0,,OPERATION CAT {\c&H00E6FF&}DROP.{\c&HFFFFFF&}

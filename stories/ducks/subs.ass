@@ -1,0 +1,187 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1992,
+Dialogue: 0,0:00:00.29,0:00:01.17,Cap,,0,0,0,,IN {\c&H00E6FF&}1992,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.17,0:00:02.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}28,800{\c&HFFFFFF&} BATH TOYS
+Dialogue: 0,0:00:02.45,0:00:02.73,Cap,,0,0,0,,28,800 {\c&H00E6FF&}BATH{\c&HFFFFFF&} TOYS
+Dialogue: 0,0:00:02.73,0:00:03.01,Cap,,0,0,0,,28,800 BATH {\c&H00E6FF&}TOYS{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.01,0:00:03.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FELL{\c&HFFFFFF&} INTO THE
+Dialogue: 0,0:00:03.39,0:00:03.67,Cap,,0,0,0,,FELL {\c&H00E6FF&}INTO{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:03.67,0:00:04.00,Cap,,0,0,0,,FELL INTO {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.00,0:00:04.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MIDDLE{\c&HFFFFFF&} OF THE
+Dialogue: 0,0:00:04.37,0:00:04.55,Cap,,0,0,0,,MIDDLE {\c&H00E6FF&}OF{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:04.55,0:00:04.78,Cap,,0,0,0,,MIDDLE OF {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.78,0:00:05.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PACIFIC.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.77,0:00:05.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} STORM HIT
+Dialogue: 0,0:00:05.88,0:00:06.19,Cap,,0,0,0,,A {\c&H00E6FF&}STORM{\c&HFFFFFF&} HIT
+Dialogue: 0,0:00:06.19,0:00:06.40,Cap,,0,0,0,,A STORM {\c&H00E6FF&}HIT{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.40,0:00:06.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} CARGO SHIP
+Dialogue: 0,0:00:06.52,0:00:06.83,Cap,,0,0,0,,A {\c&H00E6FF&}CARGO{\c&HFFFFFF&} SHIP
+Dialogue: 0,0:00:06.83,0:00:07.15,Cap,,0,0,0,,A CARGO {\c&H00E6FF&}SHIP{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.15,0:00:07.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SAILING{\c&HFFFFFF&} FROM HONG
+Dialogue: 0,0:00:07.62,0:00:07.88,Cap,,0,0,0,,SAILING {\c&H00E6FF&}FROM{\c&HFFFFFF&} HONG
+Dialogue: 0,0:00:07.88,0:00:08.14,Cap,,0,0,0,,SAILING FROM {\c&H00E6FF&}HONG{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.14,0:00:08.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}KONG{\c&HFFFFFF&} TO AMERICA.
+Dialogue: 0,0:00:08.40,0:00:08.56,Cap,,0,0,0,,KONG {\c&H00E6FF&}TO{\c&HFFFFFF&} AMERICA.
+Dialogue: 0,0:00:08.56,0:00:09.29,Cap,,0,0,0,,KONG TO {\c&H00E6FF&}AMERICA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.39,0:00:09.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWELVE{\c&HFFFFFF&} CONTAINERS WENT
+Dialogue: 0,0:00:09.81,0:00:10.34,Cap,,0,0,0,,TWELVE {\c&H00E6FF&}CONTAINERS{\c&HFFFFFF&} WENT
+Dialogue: 0,0:00:10.34,0:00:10.60,Cap,,0,0,0,,TWELVE CONTAINERS {\c&H00E6FF&}WENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.60,0:00:11.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OVERBOARD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.08,0:00:11.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} WAS FULL
+Dialogue: 0,0:00:11.51,0:00:11.79,Cap,,0,0,0,,ONE {\c&H00E6FF&}WAS{\c&HFFFFFF&} FULL
+Dialogue: 0,0:00:11.79,0:00:12.13,Cap,,0,0,0,,ONE WAS {\c&H00E6FF&}FULL{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.13,0:00:12.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} PLASTIC DUCKS,
+Dialogue: 0,0:00:12.29,0:00:12.89,Cap,,0,0,0,,OF {\c&H00E6FF&}PLASTIC{\c&HFFFFFF&} DUCKS,
+Dialogue: 0,0:00:12.89,0:00:13.35,Cap,,0,0,0,,OF PLASTIC {\c&H00E6FF&}DUCKS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.35,0:00:13.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FROGS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.79,0:00:14.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEAVERS{\c&HFFFFFF&} AND TURTLES.
+Dialogue: 0,0:00:14.19,0:00:14.39,Cap,,0,0,0,,BEAVERS {\c&H00E6FF&}AND{\c&HFFFFFF&} TURTLES.
+Dialogue: 0,0:00:14.39,0:00:15.05,Cap,,0,0,0,,BEAVERS AND {\c&H00E6FF&}TURTLES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.15,0:00:15.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BOXES DISSOLVED,
+Dialogue: 0,0:00:15.33,0:00:15.59,Cap,,0,0,0,,THE {\c&H00E6FF&}BOXES{\c&HFFFFFF&} DISSOLVED,
+Dialogue: 0,0:00:15.59,0:00:16.02,Cap,,0,0,0,,THE BOXES {\c&H00E6FF&}DISSOLVED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.02,0:00:16.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE TOYS
+Dialogue: 0,0:00:16.27,0:00:16.45,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} TOYS
+Dialogue: 0,0:00:16.45,0:00:16.67,Cap,,0,0,0,,AND THE {\c&H00E6FF&}TOYS{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.67,0:00:17.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}POPPED{\c&HFFFFFF&} FREE.
+Dialogue: 0,0:00:17.24,0:00:17.73,Cap,,0,0,0,,POPPED {\c&H00E6FF&}FREE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.82,0:00:17.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} A YELLOW
+Dialogue: 0,0:00:17.98,0:00:18.09,Cap,,0,0,0,,SO {\c&H00E6FF&}A{\c&HFFFFFF&} YELLOW
+Dialogue: 0,0:00:18.09,0:00:18.41,Cap,,0,0,0,,SO A {\c&H00E6FF&}YELLOW{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.41,0:00:18.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ARMY{\c&HFFFFFF&} OF DUCKS
+Dialogue: 0,0:00:18.66,0:00:18.89,Cap,,0,0,0,,ARMY {\c&H00E6FF&}OF{\c&HFFFFFF&} DUCKS
+Dialogue: 0,0:00:18.89,0:00:19.23,Cap,,0,0,0,,ARMY OF {\c&H00E6FF&}DUCKS{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.23,0:00:19.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SET{\c&HFFFFFF&} SAIL,
+Dialogue: 0,0:00:19.48,0:00:19.73,Cap,,0,0,0,,SET {\c&H00E6FF&}SAIL,{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.73,0:00:20.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} NO CAPTAIN
+Dialogue: 0,0:00:20.20,0:00:20.36,Cap,,0,0,0,,WITH {\c&H00E6FF&}NO{\c&HFFFFFF&} CAPTAIN
+Dialogue: 0,0:00:20.36,0:00:20.84,Cap,,0,0,0,,WITH NO {\c&H00E6FF&}CAPTAIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.84,0:00:21.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} NO MAP.
+Dialogue: 0,0:00:21.02,0:00:21.18,Cap,,0,0,0,,AND {\c&H00E6FF&}NO{\c&HFFFFFF&} MAP.
+Dialogue: 0,0:00:21.18,0:00:21.80,Cap,,0,0,0,,AND NO {\c&H00E6FF&}MAP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.90,0:00:22.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TEN{\c&HFFFFFF&} MONTHS LATER,
+Dialogue: 0,0:00:22.10,0:00:22.43,Cap,,0,0,0,,TEN {\c&H00E6FF&}MONTHS{\c&HFFFFFF&} LATER,
+Dialogue: 0,0:00:22.43,0:00:22.72,Cap,,0,0,0,,TEN MONTHS {\c&H00E6FF&}LATER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.72,0:00:23.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TEN{\c&HFFFFFF&} OF THEM
+Dialogue: 0,0:00:23.01,0:00:23.17,Cap,,0,0,0,,TEN {\c&H00E6FF&}OF{\c&HFFFFFF&} THEM
+Dialogue: 0,0:00:23.17,0:00:23.41,Cap,,0,0,0,,TEN OF {\c&H00E6FF&}THEM{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.41,0:00:23.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WASHED{\c&HFFFFFF&} UP IN
+Dialogue: 0,0:00:23.74,0:00:23.96,Cap,,0,0,0,,WASHED {\c&H00E6FF&}UP{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:23.96,0:00:24.12,Cap,,0,0,0,,WASHED UP {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.12,0:00:24.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALASKA,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.53,0:00:25.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}2,000{\c&HFFFFFF&} MILES AWAY.
+Dialogue: 0,0:00:25.53,0:00:25.82,Cap,,0,0,0,,2,000 {\c&H00E6FF&}MILES{\c&HFFFFFF&} AWAY.
+Dialogue: 0,0:00:25.82,0:00:26.33,Cap,,0,0,0,,2,000 MILES {\c&H00E6FF&}AWAY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.41,0:00:26.66,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} OCEANOGRAPHER CURTIS
+Dialogue: 0,0:00:26.66,0:00:27.43,Cap,,0,0,0,,{\fs98}THEN {\c&H00E6FF&}OCEANOGRAPHER{\c&HFFFFFF&} CURTIS
+Dialogue: 0,0:00:27.43,0:00:27.77,Cap,,0,0,0,,{\fs98}THEN OCEANOGRAPHER {\c&H00E6FF&}CURTIS{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.77,0:00:28.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EBBESMEYER{\c&HFFFFFF&} SAW A
+Dialogue: 0,0:00:28.29,0:00:28.50,Cap,,0,0,0,,EBBESMEYER {\c&H00E6FF&}SAW{\c&HFFFFFF&} A
+Dialogue: 0,0:00:28.50,0:00:28.61,Cap,,0,0,0,,EBBESMEYER SAW {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.61,0:00:29.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FREE{\c&HFFFFFF&} EXPERIMENT ON
+Dialogue: 0,0:00:29.00,0:00:29.64,Cap,,0,0,0,,FREE {\c&H00E6FF&}EXPERIMENT{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:29.64,0:00:29.80,Cap,,0,0,0,,FREE EXPERIMENT {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.80,0:00:30.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OCEAN{\c&HFFFFFF&} CURRENTS.
+Dialogue: 0,0:00:30.09,0:00:30.98,Cap,,0,0,0,,OCEAN {\c&H00E6FF&}CURRENTS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.09,0:00:31.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HE ASKED
+Dialogue: 0,0:00:31.22,0:00:31.36,Cap,,0,0,0,,SO {\c&H00E6FF&}HE{\c&HFFFFFF&} ASKED
+Dialogue: 0,0:00:31.36,0:00:31.71,Cap,,0,0,0,,SO HE {\c&H00E6FF&}ASKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.71,0:00:32.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEACHCOMBERS{\c&HFFFFFF&} TO REPORT
+Dialogue: 0,0:00:32.24,0:00:32.38,Cap,,0,0,0,,BEACHCOMBERS {\c&H00E6FF&}TO{\c&HFFFFFF&} REPORT
+Dialogue: 0,0:00:32.38,0:00:32.67,Cap,,0,0,0,,BEACHCOMBERS TO {\c&H00E6FF&}REPORT{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.67,0:00:33.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} DUCK THEY
+Dialogue: 0,0:00:33.02,0:00:33.24,Cap,,0,0,0,,EVERY {\c&H00E6FF&}DUCK{\c&HFFFFFF&} THEY
+Dialogue: 0,0:00:33.24,0:00:33.65,Cap,,0,0,0,,EVERY DUCK {\c&H00E6FF&}THEY{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.65,0:00:34.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOUND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.32,0:00:34.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HUNDREDS{\c&HFFFFFF&} TURNED UP
+Dialogue: 0,0:00:34.71,0:00:35.02,Cap,,0,0,0,,HUNDREDS {\c&H00E6FF&}TURNED{\c&HFFFFFF&} UP
+Dialogue: 0,0:00:35.02,0:00:35.23,Cap,,0,0,0,,HUNDREDS TURNED {\c&H00E6FF&}UP{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.23,0:00:35.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALONG{\c&HFFFFFF&} THE COAST
+Dialogue: 0,0:00:35.50,0:00:35.69,Cap,,0,0,0,,ALONG {\c&H00E6FF&}THE{\c&HFFFFFF&} COAST
+Dialogue: 0,0:00:35.69,0:00:35.96,Cap,,0,0,0,,ALONG THE {\c&H00E6FF&}COAST{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.96,0:00:36.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} ALASKA.
+Dialogue: 0,0:00:36.10,0:00:36.75,Cap,,0,0,0,,OF {\c&H00E6FF&}ALASKA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.84,0:00:37.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THAT WASN'T
+Dialogue: 0,0:00:37.00,0:00:37.21,Cap,,0,0,0,,BUT {\c&H00E6FF&}THAT{\c&HFFFFFF&} WASN'T
+Dialogue: 0,0:00:37.21,0:00:37.45,Cap,,0,0,0,,BUT THAT {\c&H00E6FF&}WASN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.45,0:00:37.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVEN{\c&HFFFFFF&} THE STRANGEST
+Dialogue: 0,0:00:37.66,0:00:37.83,Cap,,0,0,0,,EVEN {\c&H00E6FF&}THE{\c&HFFFFFF&} STRANGEST
+Dialogue: 0,0:00:37.83,0:00:38.28,Cap,,0,0,0,,EVEN THE {\c&H00E6FF&}STRANGEST{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.28,0:00:38.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PART.{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.96,0:00:39.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOME{\c&HFFFFFF&} DRIFTED NORTH,
+Dialogue: 0,0:00:39.17,0:00:39.49,Cap,,0,0,0,,SOME {\c&H00E6FF&}DRIFTED{\c&HFFFFFF&} NORTH,
+Dialogue: 0,0:00:39.49,0:00:39.74,Cap,,0,0,0,,SOME DRIFTED {\c&H00E6FF&}NORTH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.74,0:00:40.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THROUGH{\c&HFFFFFF&} THE BERING
+Dialogue: 0,0:00:40.26,0:00:40.43,Cap,,0,0,0,,THROUGH {\c&H00E6FF&}THE{\c&HFFFFFF&} BERING
+Dialogue: 0,0:00:40.43,0:00:40.72,Cap,,0,0,0,,THROUGH THE {\c&H00E6FF&}BERING{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.72,0:00:41.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STRAIT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.01,0:00:41.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} THE ARCTIC.
+Dialogue: 0,0:00:41.22,0:00:41.39,Cap,,0,0,0,,INTO {\c&H00E6FF&}THE{\c&HFFFFFF&} ARCTIC.
+Dialogue: 0,0:00:41.39,0:00:42.04,Cap,,0,0,0,,INTO THE {\c&H00E6FF&}ARCTIC.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.26,0:00:42.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} FROZE INTO
+Dialogue: 0,0:00:42.58,0:00:42.84,Cap,,0,0,0,,THEY {\c&H00E6FF&}FROZE{\c&HFFFFFF&} INTO
+Dialogue: 0,0:00:42.84,0:00:43.06,Cap,,0,0,0,,THEY FROZE {\c&H00E6FF&}INTO{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.06,0:00:43.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ICE AND
+Dialogue: 0,0:00:43.23,0:00:43.41,Cap,,0,0,0,,THE {\c&H00E6FF&}ICE{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:43.41,0:00:43.59,Cap,,0,0,0,,THE ICE {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.59,0:00:44.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DRIFTED{\c&HFFFFFF&} FOR YEARS,
+Dialogue: 0,0:00:44.11,0:00:44.29,Cap,,0,0,0,,DRIFTED {\c&H00E6FF&}FOR{\c&HFFFFFF&} YEARS,
+Dialogue: 0,0:00:44.29,0:00:44.55,Cap,,0,0,0,,DRIFTED FOR {\c&H00E6FF&}YEARS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.55,0:00:44.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOWARD{\c&HFFFFFF&} THE ATLANTIC.
+Dialogue: 0,0:00:44.92,0:00:45.10,Cap,,0,0,0,,TOWARD {\c&H00E6FF&}THE{\c&HFFFFFF&} ATLANTIC.
+Dialogue: 0,0:00:45.10,0:00:45.74,Cap,,0,0,0,,TOWARD THE {\c&H00E6FF&}ATLANTIC.{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.96,0:00:46.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SUN BLEACHED
+Dialogue: 0,0:00:46.13,0:00:46.31,Cap,,0,0,0,,THE {\c&H00E6FF&}SUN{\c&HFFFFFF&} BLEACHED
+Dialogue: 0,0:00:46.31,0:00:46.69,Cap,,0,0,0,,THE SUN {\c&H00E6FF&}BLEACHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.69,0:00:46.86,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} DUCKS WHITE,
+Dialogue: 0,0:00:46.86,0:00:47.12,Cap,,0,0,0,,THE {\c&H00E6FF&}DUCKS{\c&HFFFFFF&} WHITE,
+Dialogue: 0,0:00:47.12,0:00:47.51,Cap,,0,0,0,,THE DUCKS {\c&H00E6FF&}WHITE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.51,0:00:47.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE FROGS
+Dialogue: 0,0:00:47.80,0:00:47.97,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} FROGS
+Dialogue: 0,0:00:47.97,0:00:48.23,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}FROGS{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.23,0:00:48.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STAYED{\c&HFFFFFF&} GREEN.
+Dialogue: 0,0:00:48.53,0:00:49.05,Cap,,0,0,0,,STAYED {\c&H00E6FF&}GREEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.15,0:00:49.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BY{\c&HFFFFFF&} 2003,
+Dialogue: 0,0:00:49.31,0:00:50.29,Cap,,0,0,0,,BY {\c&H00E6FF&}2003,{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.29,0:00:50.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} TOY COMPANY
+Dialogue: 0,0:00:50.60,0:00:50.82,Cap,,0,0,0,,THE {\c&H00E6FF&}TOY{\c&HFFFFFF&} COMPANY
+Dialogue: 0,0:00:50.82,0:00:51.23,Cap,,0,0,0,,THE TOY {\c&H00E6FF&}COMPANY{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.23,0:00:51.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFFERED{\c&HFFFFFF&} A REWARD
+Dialogue: 0,0:00:51.64,0:00:51.76,Cap,,0,0,0,,OFFERED {\c&H00E6FF&}A{\c&HFFFFFF&} REWARD
+Dialogue: 0,0:00:51.76,0:00:52.13,Cap,,0,0,0,,OFFERED A {\c&H00E6FF&}REWARD{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.13,0:00:52.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} ANY FOUND
+Dialogue: 0,0:00:52.34,0:00:52.66,Cap,,0,0,0,,FOR {\c&H00E6FF&}ANY{\c&HFFFFFF&} FOUND
+Dialogue: 0,0:00:52.66,0:00:52.98,Cap,,0,0,0,,FOR ANY {\c&H00E6FF&}FOUND{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.98,0:00:53.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} NEW ENGLAND.
+Dialogue: 0,0:00:53.15,0:00:53.36,Cap,,0,0,0,,IN {\c&H00E6FF&}NEW{\c&HFFFFFF&} ENGLAND.
+Dialogue: 0,0:00:53.36,0:00:54.04,Cap,,0,0,0,,IN NEW {\c&H00E6FF&}ENGLAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.15,0:00:54.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TODAY{\c&HFFFFFF&} COLLECTORS PAY
+Dialogue: 0,0:00:54.42,0:00:55.05,Cap,,0,0,0,,TODAY {\c&H00E6FF&}COLLECTORS{\c&HFFFFFF&} PAY
+Dialogue: 0,0:00:55.05,0:00:55.24,Cap,,0,0,0,,TODAY COLLECTORS {\c&H00E6FF&}PAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.24,0:00:55.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HUNDREDS{\c&HFFFFFF&} FOR ONE
+Dialogue: 0,0:00:55.64,0:00:55.90,Cap,,0,0,0,,HUNDREDS {\c&H00E6FF&}FOR{\c&HFFFFFF&} ONE
+Dialogue: 0,0:00:55.90,0:00:56.10,Cap,,0,0,0,,HUNDREDS FOR {\c&H00E6FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.10,0:00:56.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FADED{\c&HFFFFFF&} DUCK.
+Dialogue: 0,0:00:56.48,0:00:57.04,Cap,,0,0,0,,FADED {\c&H00E6FF&}DUCK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.28,0:00:57.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HOW DOES
+Dialogue: 0,0:00:57.40,0:00:57.56,Cap,,0,0,0,,SO {\c&H00E6FF&}HOW{\c&HFFFFFF&} DOES
+Dialogue: 0,0:00:57.56,0:00:57.75,Cap,,0,0,0,,SO HOW {\c&H00E6FF&}DOES{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.75,0:00:57.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} BATH DUCK
+Dialogue: 0,0:00:57.84,0:00:58.17,Cap,,0,0,0,,A {\c&H00E6FF&}BATH{\c&HFFFFFF&} DUCK
+Dialogue: 0,0:00:58.17,0:00:58.36,Cap,,0,0,0,,A BATH {\c&H00E6FF&}DUCK{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.36,0:00:58.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}END{\c&HFFFFFF&} UP CROSSING
+Dialogue: 0,0:00:58.52,0:00:58.64,Cap,,0,0,0,,END {\c&H00E6FF&}UP{\c&HFFFFFF&} CROSSING
+Dialogue: 0,0:00:58.64,0:00:59.07,Cap,,0,0,0,,END UP {\c&H00E6FF&}CROSSING{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.07,0:00:59.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ARCTIC?
+Dialogue: 0,0:00:59.23,0:00:59.84,Cap,,0,0,0,,THE {\c&H00E6FF&}ARCTIC?{\c&HFFFFFF&}
