@@ -1,0 +1,209 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1938,
+Dialogue: 0,0:00:00.28,0:00:01.29,Cap,,0,0,0,,IN {\c&H00E6FF&}1938,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.29,0:00:01.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} PILOT TOOK
+Dialogue: 0,0:00:01.47,0:00:01.83,Cap,,0,0,0,,A {\c&H00E6FF&}PILOT{\c&HFFFFFF&} TOOK
+Dialogue: 0,0:00:01.83,0:00:02.09,Cap,,0,0,0,,A PILOT {\c&H00E6FF&}TOOK{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.09,0:00:02.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} FOR CALIFORNIA
+Dialogue: 0,0:00:02.36,0:00:02.56,Cap,,0,0,0,,OFF {\c&H00E6FF&}FOR{\c&HFFFFFF&} CALIFORNIA
+Dialogue: 0,0:00:02.56,0:00:03.20,Cap,,0,0,0,,OFF FOR {\c&H00E6FF&}CALIFORNIA{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.20,0:00:03.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} LANDED IN
+Dialogue: 0,0:00:03.40,0:00:03.75,Cap,,0,0,0,,AND {\c&H00E6FF&}LANDED{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:03.75,0:00:03.91,Cap,,0,0,0,,AND LANDED {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.91,0:00:04.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IRELAND.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.76,0:00:05.13,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOUGLAS{\c&HFFFFFF&} CORRIGAN DREAMED
+Dialogue: 0,0:00:05.13,0:00:05.55,Cap,,0,0,0,,{\fs102}DOUGLAS {\c&H00E6FF&}CORRIGAN{\c&HFFFFFF&} DREAMED
+Dialogue: 0,0:00:05.55,0:00:05.92,Cap,,0,0,0,,{\fs102}DOUGLAS CORRIGAN {\c&H00E6FF&}DREAMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.92,0:00:06.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} FLYING ACROSS
+Dialogue: 0,0:00:06.07,0:00:06.40,Cap,,0,0,0,,OF {\c&H00E6FF&}FLYING{\c&HFFFFFF&} ACROSS
+Dialogue: 0,0:00:06.40,0:00:06.73,Cap,,0,0,0,,OF FLYING {\c&H00E6FF&}ACROSS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.73,0:00:06.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ATLANTIC.
+Dialogue: 0,0:00:06.93,0:00:07.61,Cap,,0,0,0,,THE {\c&H00E6FF&}ATLANTIC.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.79,0:00:07.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE'D{\c&HFFFFFF&} EVEN HELPED
+Dialogue: 0,0:00:07.96,0:00:08.17,Cap,,0,0,0,,HE'D {\c&H00E6FF&}EVEN{\c&HFFFFFF&} HELPED
+Dialogue: 0,0:00:08.17,0:00:08.62,Cap,,0,0,0,,HE'D EVEN {\c&H00E6FF&}HELPED{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.62,0:00:08.87,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUILD{\c&HFFFFFF&} LINDBERGH'S FAMOUS
+Dialogue: 0,0:00:08.87,0:00:09.37,Cap,,0,0,0,,{\fs102}BUILD {\c&H00E6FF&}LINDBERGH'S{\c&HFFFFFF&} FAMOUS
+Dialogue: 0,0:00:09.37,0:00:09.73,Cap,,0,0,0,,{\fs102}BUILD LINDBERGH'S {\c&H00E6FF&}FAMOUS{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.73,0:00:10.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PLANE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.09,0:00:10.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SPIRIT OF
+Dialogue: 0,0:00:10.34,0:00:10.62,Cap,,0,0,0,,THE {\c&H00E6FF&}SPIRIT{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:10.62,0:00:10.76,Cap,,0,0,0,,THE SPIRIT {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.76,0:00:10.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.95,0:00:11.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LOUIS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.56,0:00:11.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} OFFICIALS RULED
+Dialogue: 0,0:00:11.84,0:00:12.31,Cap,,0,0,0,,BUT {\c&H00E6FF&}OFFICIALS{\c&HFFFFFF&} RULED
+Dialogue: 0,0:00:12.31,0:00:12.60,Cap,,0,0,0,,BUT OFFICIALS {\c&H00E6FF&}RULED{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.60,0:00:12.80,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} NINE-YEAR-OLD PLANE
+Dialogue: 0,0:00:12.80,0:00:13.42,Cap,,0,0,0,,{\fs107}HIS {\c&H00E6FF&}NINE-YEAR-OLD{\c&HFFFFFF&} PLANE
+Dialogue: 0,0:00:13.42,0:00:13.71,Cap,,0,0,0,,{\fs107}HIS NINE-YEAR-OLD {\c&H00E6FF&}PLANE{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.71,0:00:13.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOO{\c&HFFFFFF&} UNSAFE TO
+Dialogue: 0,0:00:13.91,0:00:14.34,Cap,,0,0,0,,TOO {\c&H00E6FF&}UNSAFE{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:14.34,0:00:14.56,Cap,,0,0,0,,TOO UNSAFE {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.56,0:00:15.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.13,0:00:15.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE'D{\c&HFFFFFF&} PAID ABOUT
+Dialogue: 0,0:00:15.34,0:00:15.52,Cap,,0,0,0,,HE'D {\c&H00E6FF&}PAID{\c&HFFFFFF&} ABOUT
+Dialogue: 0,0:00:15.52,0:00:15.82,Cap,,0,0,0,,HE'D PAID {\c&H00E6FF&}ABOUT{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.82,0:00:16.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THREE{\c&HFFFFFF&} HUNDRED DOLLARS
+Dialogue: 0,0:00:16.04,0:00:16.32,Cap,,0,0,0,,THREE {\c&H00E6FF&}HUNDRED{\c&HFFFFFF&} DOLLARS
+Dialogue: 0,0:00:16.32,0:00:16.59,Cap,,0,0,0,,THREE HUNDRED {\c&H00E6FF&}DOLLARS{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.59,0:00:16.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:16.80,0:00:17.18,Cap,,0,0,0,,FOR {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.27,0:00:17.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HE FILED
+Dialogue: 0,0:00:17.42,0:00:17.57,Cap,,0,0,0,,SO {\c&H00E6FF&}HE{\c&HFFFFFF&} FILED
+Dialogue: 0,0:00:17.57,0:00:17.85,Cap,,0,0,0,,SO HE {\c&H00E6FF&}FILED{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.85,0:00:17.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FLIGHT PLAN
+Dialogue: 0,0:00:17.96,0:00:18.37,Cap,,0,0,0,,A {\c&H00E6FF&}FLIGHT{\c&HFFFFFF&} PLAN
+Dialogue: 0,0:00:18.37,0:00:18.61,Cap,,0,0,0,,A FLIGHT {\c&H00E6FF&}PLAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.61,0:00:18.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HOME{\c&HFFFFFF&} TO CALIFORNIA
+Dialogue: 0,0:00:18.85,0:00:19.00,Cap,,0,0,0,,HOME {\c&H00E6FF&}TO{\c&HFFFFFF&} CALIFORNIA
+Dialogue: 0,0:00:19.00,0:00:19.60,Cap,,0,0,0,,HOME TO {\c&H00E6FF&}CALIFORNIA{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.60,0:00:20.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INSTEAD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.41,0:00:20.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AT{\c&HFFFFFF&} DAWN,
+Dialogue: 0,0:00:20.54,0:00:20.75,Cap,,0,0,0,,AT {\c&H00E6FF&}DAWN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.75,0:00:20.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} TOOK OFF
+Dialogue: 0,0:00:20.89,0:00:21.10,Cap,,0,0,0,,HE {\c&H00E6FF&}TOOK{\c&HFFFFFF&} OFF
+Dialogue: 0,0:00:21.10,0:00:21.27,Cap,,0,0,0,,HE TOOK {\c&H00E6FF&}OFF{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.27,0:00:21.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FROM{\c&HFFFFFF&} NEW YORK,
+Dialogue: 0,0:00:21.49,0:00:21.66,Cap,,0,0,0,,FROM {\c&H00E6FF&}NEW{\c&HFFFFFF&} YORK,
+Dialogue: 0,0:00:21.66,0:00:22.05,Cap,,0,0,0,,FROM NEW {\c&H00E6FF&}YORK,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.05,0:00:22.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} TURNED EAST.
+Dialogue: 0,0:00:22.26,0:00:22.55,Cap,,0,0,0,,THEN {\c&H00E6FF&}TURNED{\c&HFFFFFF&} EAST.
+Dialogue: 0,0:00:22.55,0:00:23.03,Cap,,0,0,0,,THEN TURNED {\c&H00E6FF&}EAST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.19,0:00:23.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NO{\c&HFFFFFF&} RADIO.
+Dialogue: 0,0:00:23.37,0:00:23.70,Cap,,0,0,0,,NO {\c&H00E6FF&}RADIO.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.70,0:00:23.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} FOOD:
+Dialogue: 0,0:00:23.94,0:00:24.37,Cap,,0,0,0,,HIS {\c&H00E6FF&}FOOD:{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.37,0:00:24.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} CHOCOLATE BARS
+Dialogue: 0,0:00:24.68,0:00:25.32,Cap,,0,0,0,,TWO {\c&H00E6FF&}CHOCOLATE{\c&HFFFFFF&} BARS
+Dialogue: 0,0:00:25.32,0:00:25.60,Cap,,0,0,0,,TWO CHOCOLATE {\c&H00E6FF&}BARS{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.60,0:00:25.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} TWO BOXES
+Dialogue: 0,0:00:25.84,0:00:26.07,Cap,,0,0,0,,AND {\c&H00E6FF&}TWO{\c&HFFFFFF&} BOXES
+Dialogue: 0,0:00:26.07,0:00:26.41,Cap,,0,0,0,,AND TWO {\c&H00E6FF&}BOXES{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.41,0:00:26.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} FIG BARS.
+Dialogue: 0,0:00:26.72,0:00:26.95,Cap,,0,0,0,,OF {\c&H00E6FF&}FIG{\c&HFFFFFF&} BARS.
+Dialogue: 0,0:00:26.95,0:00:27.50,Cap,,0,0,0,,OF FIG {\c&H00E6FF&}BARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.59,0:00:27.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:27.80,0:00:27.94,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:27.94,0:00:28.11,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.11,0:00:28.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.46,0:00:28.83,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GASOLINE{\c&HFFFFFF&} STARTED LEAKING
+Dialogue: 0,0:00:28.83,0:00:29.16,Cap,,0,0,0,,{\fs102}GASOLINE {\c&H00E6FF&}STARTED{\c&HFFFFFF&} LEAKING
+Dialogue: 0,0:00:29.16,0:00:29.49,Cap,,0,0,0,,{\fs102}GASOLINE STARTED {\c&H00E6FF&}LEAKING{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.49,0:00:29.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} THE COCKPIT.
+Dialogue: 0,0:00:29.79,0:00:29.96,Cap,,0,0,0,,INTO {\c&H00E6FF&}THE{\c&HFFFFFF&} COCKPIT.
+Dialogue: 0,0:00:29.96,0:00:30.68,Cap,,0,0,0,,INTO THE {\c&H00E6FF&}COCKPIT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.77,0:00:30.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HE PUNCHED
+Dialogue: 0,0:00:30.90,0:00:31.03,Cap,,0,0,0,,SO {\c&H00E6FF&}HE{\c&HFFFFFF&} PUNCHED
+Dialogue: 0,0:00:31.03,0:00:31.35,Cap,,0,0,0,,SO HE {\c&H00E6FF&}PUNCHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.35,0:00:31.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} HOLE IN
+Dialogue: 0,0:00:31.44,0:00:31.65,Cap,,0,0,0,,A {\c&H00E6FF&}HOLE{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:31.65,0:00:31.78,Cap,,0,0,0,,A HOLE {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.78,0:00:32.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FLOOR WITH
+Dialogue: 0,0:00:32.05,0:00:32.30,Cap,,0,0,0,,THE {\c&H00E6FF&}FLOOR{\c&HFFFFFF&} WITH
+Dialogue: 0,0:00:32.30,0:00:32.50,Cap,,0,0,0,,THE FLOOR {\c&H00E6FF&}WITH{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.50,0:00:32.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} SCREWDRIVER TO
+Dialogue: 0,0:00:32.68,0:00:33.15,Cap,,0,0,0,,A {\c&H00E6FF&}SCREWDRIVER{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:33.15,0:00:33.28,Cap,,0,0,0,,A SCREWDRIVER {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.28,0:00:33.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DRAIN{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:33.52,0:00:33.92,Cap,,0,0,0,,DRAIN {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.02,0:00:34.19,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} TWENTY-EIGHT HOURS,
+Dialogue: 0,0:00:34.19,0:00:34.69,Cap,,0,0,0,,{\fs107}FOR {\c&H00E6FF&}TWENTY-EIGHT{\c&HFFFFFF&} HOURS,
+Dialogue: 0,0:00:34.69,0:00:34.94,Cap,,0,0,0,,{\fs107}FOR TWENTY-EIGHT {\c&H00E6FF&}HOURS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.94,0:00:35.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} SAW NOTHING
+Dialogue: 0,0:00:35.08,0:00:35.26,Cap,,0,0,0,,HE {\c&H00E6FF&}SAW{\c&HFFFFFF&} NOTHING
+Dialogue: 0,0:00:35.26,0:00:35.74,Cap,,0,0,0,,HE SAW {\c&H00E6FF&}NOTHING{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.74,0:00:35.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} CLOUDS AND
+Dialogue: 0,0:00:35.91,0:00:36.21,Cap,,0,0,0,,BUT {\c&H00E6FF&}CLOUDS{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:36.21,0:00:36.39,Cap,,0,0,0,,BUT CLOUDS {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.39,0:00:36.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OCEAN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.01,0:00:37.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} LATER CLAIMED
+Dialogue: 0,0:00:37.15,0:00:37.41,Cap,,0,0,0,,HE {\c&H00E6FF&}LATER{\c&HFFFFFF&} CLAIMED
+Dialogue: 0,0:00:37.41,0:00:37.78,Cap,,0,0,0,,HE LATER {\c&H00E6FF&}CLAIMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.78,0:00:37.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} ONLY LOOKED
+Dialogue: 0,0:00:37.91,0:00:38.15,Cap,,0,0,0,,HE {\c&H00E6FF&}ONLY{\c&HFFFFFF&} LOOKED
+Dialogue: 0,0:00:38.15,0:00:38.60,Cap,,0,0,0,,HE ONLY {\c&H00E6FF&}LOOKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.60,0:00:38.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOWN{\c&HFFFFFF&} AFTER TWENTY-SIX
+Dialogue: 0,0:00:38.91,0:00:39.20,Cap,,0,0,0,,DOWN {\c&H00E6FF&}AFTER{\c&HFFFFFF&} TWENTY-SIX
+Dialogue: 0,0:00:39.20,0:00:39.62,Cap,,0,0,0,,DOWN AFTER {\c&H00E6FF&}TWENTY-SIX{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.62,0:00:40.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HOURS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.27,0:00:40.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} HE LANDED
+Dialogue: 0,0:00:40.53,0:00:40.69,Cap,,0,0,0,,THEN {\c&H00E6FF&}HE{\c&HFFFFFF&} LANDED
+Dialogue: 0,0:00:40.69,0:00:41.05,Cap,,0,0,0,,THEN HE {\c&H00E6FF&}LANDED{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.05,0:00:41.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} DUBLIN AND
+Dialogue: 0,0:00:41.21,0:00:41.57,Cap,,0,0,0,,IN {\c&H00E6FF&}DUBLIN{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:41.57,0:00:41.78,Cap,,0,0,0,,IN DUBLIN {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.78,0:00:42.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SAID:{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.15,0:00:42.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"WHERE{\c&HFFFFFF&} AM I?
+Dialogue: 0,0:00:42.46,0:00:42.79,Cap,,0,0,0,,"WHERE {\c&H00E6FF&}AM{\c&HFFFFFF&} I?
+Dialogue: 0,0:00:42.79,0:00:42.91,Cap,,0,0,0,,"WHERE AM {\c&H00E6FF&}I?{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.91,0:00:43.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}I{\c&HFFFFFF&} INTENDED TO
+Dialogue: 0,0:00:43.02,0:00:43.47,Cap,,0,0,0,,I {\c&H00E6FF&}INTENDED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:43.47,0:00:43.64,Cap,,0,0,0,,I INTENDED {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.64,0:00:43.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLY{\c&HFFFFFF&} TO CALIFORNIA."
+Dialogue: 0,0:00:43.85,0:00:44.02,Cap,,0,0,0,,FLY {\c&H00E6FF&}TO{\c&HFFFFFF&} CALIFORNIA."
+Dialogue: 0,0:00:44.02,0:00:44.80,Cap,,0,0,0,,FLY TO {\c&H00E6FF&}CALIFORNIA."{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.80,0:00:44.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} EXCUSE?
+Dialogue: 0,0:00:44.99,0:00:45.30,Cap,,0,0,0,,HIS {\c&H00E6FF&}EXCUSE?{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.30,0:00:45.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOG,{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.49,0:00:45.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} HE FOLLOWED
+Dialogue: 0,0:00:45.83,0:00:45.98,Cap,,0,0,0,,AND {\c&H00E6FF&}HE{\c&HFFFFFF&} FOLLOWED
+Dialogue: 0,0:00:45.98,0:00:46.47,Cap,,0,0,0,,AND HE {\c&H00E6FF&}FOLLOWED{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.47,0:00:46.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WRONG END
+Dialogue: 0,0:00:46.66,0:00:46.94,Cap,,0,0,0,,THE {\c&H00E6FF&}WRONG{\c&HFFFFFF&} END
+Dialogue: 0,0:00:46.94,0:00:47.13,Cap,,0,0,0,,THE WRONG {\c&H00E6FF&}END{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.13,0:00:47.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} HIS COMPASS
+Dialogue: 0,0:00:47.28,0:00:47.47,Cap,,0,0,0,,OF {\c&H00E6FF&}HIS{\c&HFFFFFF&} COMPASS
+Dialogue: 0,0:00:47.47,0:00:47.83,Cap,,0,0,0,,OF HIS {\c&H00E6FF&}COMPASS{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.83,0:00:48.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEEDLE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.50,0:00:48.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOBODY{\c&HFFFFFF&} BELIEVED HIM.
+Dialogue: 0,0:00:48.80,0:00:49.19,Cap,,0,0,0,,NOBODY {\c&H00E6FF&}BELIEVED{\c&HFFFFFF&} HIM.
+Dialogue: 0,0:00:49.19,0:00:49.38,Cap,,0,0,0,,NOBODY BELIEVED {\c&H00E6FF&}HIM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.38,0:00:49.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} AMERICA LOVED
+Dialogue: 0,0:00:49.73,0:00:50.08,Cap,,0,0,0,,BUT {\c&H00E6FF&}AMERICA{\c&HFFFFFF&} LOVED
+Dialogue: 0,0:00:50.08,0:00:50.35,Cap,,0,0,0,,BUT AMERICA {\c&H00E6FF&}LOVED{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.35,0:00:50.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.04,0:00:51.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEW{\c&HFFFFFF&} YORK THREW
+Dialogue: 0,0:00:51.19,0:00:51.53,Cap,,0,0,0,,NEW {\c&H00E6FF&}YORK{\c&HFFFFFF&} THREW
+Dialogue: 0,0:00:51.53,0:00:51.76,Cap,,0,0,0,,NEW YORK {\c&H00E6FF&}THREW{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.76,0:00:51.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIM{\c&HFFFFFF&} A TICKER-TAPE
+Dialogue: 0,0:00:51.98,0:00:52.07,Cap,,0,0,0,,HIM {\c&H00E6FF&}A{\c&HFFFFFF&} TICKER-TAPE
+Dialogue: 0,0:00:52.07,0:00:52.58,Cap,,0,0,0,,HIM A {\c&H00E6FF&}TICKER-TAPE{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.58,0:00:52.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PARADE{\c&HFFFFFF&} BIGGER THAN
+Dialogue: 0,0:00:52.84,0:00:53.17,Cap,,0,0,0,,PARADE {\c&H00E6FF&}BIGGER{\c&HFFFFFF&} THAN
+Dialogue: 0,0:00:53.17,0:00:53.36,Cap,,0,0,0,,PARADE BIGGER {\c&H00E6FF&}THAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.36,0:00:54.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LINDBERGH'S.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.22,0:00:54.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} PUNISHMENT:
+Dialogue: 0,0:00:54.50,0:00:55.27,Cap,,0,0,0,,HIS {\c&H00E6FF&}PUNISHMENT:{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.27,0:00:55.39,Cap,,0,0,0,,{\fs94}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FOURTEEN-DAY SUSPENSION.
+Dialogue: 0,0:00:55.39,0:00:55.98,Cap,,0,0,0,,{\fs94}A {\c&H00E6FF&}FOURTEEN-DAY{\c&HFFFFFF&} SUSPENSION.
+Dialogue: 0,0:00:55.98,0:00:56.78,Cap,,0,0,0,,{\fs94}A FOURTEEN-DAY {\c&H00E6FF&}SUSPENSION.{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.78,0:00:57.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EXACTLY{\c&HFFFFFF&} AS LONG
+Dialogue: 0,0:00:57.25,0:00:57.41,Cap,,0,0,0,,EXACTLY {\c&H00E6FF&}AS{\c&HFFFFFF&} LONG
+Dialogue: 0,0:00:57.41,0:00:57.68,Cap,,0,0,0,,EXACTLY AS {\c&H00E6FF&}LONG{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.68,0:00:57.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AS{\c&HFFFFFF&} HIS BOAT
+Dialogue: 0,0:00:57.84,0:00:58.15,Cap,,0,0,0,,AS {\c&H00E6FF&}HIS{\c&HFFFFFF&} BOAT
+Dialogue: 0,0:00:58.15,0:00:58.41,Cap,,0,0,0,,AS HIS {\c&H00E6FF&}BOAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.41,0:00:58.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RIDE{\c&HFFFFFF&} HOME.
+Dialogue: 0,0:00:58.67,0:00:59.20,Cap,,0,0,0,,RIDE {\c&H00E6FF&}HOME.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.29,0:00:59.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UNTIL{\c&HFFFFFF&} HE DIED,
+Dialogue: 0,0:00:59.56,0:00:59.70,Cap,,0,0,0,,UNTIL {\c&H00E6FF&}HE{\c&HFFFFFF&} DIED,
+Dialogue: 0,0:00:59.70,0:00:59.93,Cap,,0,0,0,,UNTIL HE {\c&H00E6FF&}DIED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.93,0:01:00.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} SWORE HE
+Dialogue: 0,0:01:00.20,0:01:00.47,Cap,,0,0,0,,HE {\c&H00E6FF&}SWORE{\c&HFFFFFF&} HE
+Dialogue: 0,0:01:00.47,0:01:00.62,Cap,,0,0,0,,HE SWORE {\c&H00E6FF&}HE{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.62,0:01:00.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAS{\c&HFFFFFF&} FLYING TO
+Dialogue: 0,0:01:00.88,0:01:01.20,Cap,,0,0,0,,WAS {\c&H00E6FF&}FLYING{\c&HFFFFFF&} TO
+Dialogue: 0,0:01:01.20,0:01:01.34,Cap,,0,0,0,,WAS FLYING {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.34,0:01:02.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CALIFORNIA.{\c&HFFFFFF&}

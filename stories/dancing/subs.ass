@@ -1,0 +1,95 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1518,
+Dialogue: 0,0:00:00.34,0:00:01.23,Cap,,0,0,0,,IN {\c&H00E6FF&}1518,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.23,0:00:01.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} WOMAN IN
+Dialogue: 0,0:00:01.34,0:00:01.61,Cap,,0,0,0,,A {\c&H00E6FF&}WOMAN{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:01.61,0:00:01.76,Cap,,0,0,0,,A WOMAN {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.76,0:00:02.32,Cap,,0,0,0,,{\fs94}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STRASBOURG{\c&HFFFFFF&} STARTED DANCING
+Dialogue: 0,0:00:02.32,0:00:02.67,Cap,,0,0,0,,{\fs94}STRASBOURG {\c&H00E6FF&}STARTED{\c&HFFFFFF&} DANCING
+Dialogue: 0,0:00:02.67,0:00:03.03,Cap,,0,0,0,,{\fs94}STRASBOURG STARTED {\c&H00E6FF&}DANCING{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.03,0:00:03.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} COULDN'T STOP.
+Dialogue: 0,0:00:03.22,0:00:03.63,Cap,,0,0,0,,AND {\c&H00E6FF&}COULDN'T{\c&HFFFFFF&} STOP.
+Dialogue: 0,0:00:03.63,0:00:04.13,Cap,,0,0,0,,AND COULDN'T {\c&H00E6FF&}STOP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.36,0:00:04.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FRAU{\c&HFFFFFF&} TROFFEA DANCED
+Dialogue: 0,0:00:04.58,0:00:04.92,Cap,,0,0,0,,FRAU {\c&H00E6FF&}TROFFEA{\c&HFFFFFF&} DANCED
+Dialogue: 0,0:00:04.92,0:00:05.23,Cap,,0,0,0,,FRAU TROFFEA {\c&H00E6FF&}DANCED{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.23,0:00:05.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} THE STREET
+Dialogue: 0,0:00:05.37,0:00:05.56,Cap,,0,0,0,,IN {\c&H00E6FF&}THE{\c&HFFFFFF&} STREET
+Dialogue: 0,0:00:05.56,0:00:05.86,Cap,,0,0,0,,IN THE {\c&H00E6FF&}STREET{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.86,0:00:06.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} ALMOST A
+Dialogue: 0,0:00:06.16,0:00:06.47,Cap,,0,0,0,,FOR {\c&H00E6FF&}ALMOST{\c&HFFFFFF&} A
+Dialogue: 0,0:00:06.47,0:00:06.57,Cap,,0,0,0,,FOR ALMOST {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.57,0:00:07.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WEEK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.28,0:00:07.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} HER NEIGHBORS
+Dialogue: 0,0:00:07.52,0:00:07.72,Cap,,0,0,0,,THEN {\c&H00E6FF&}HER{\c&HFFFFFF&} NEIGHBORS
+Dialogue: 0,0:00:07.72,0:00:08.19,Cap,,0,0,0,,THEN HER {\c&H00E6FF&}NEIGHBORS{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.19,0:00:08.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JOINED{\c&HFFFFFF&} IN.
+Dialogue: 0,0:00:08.52,0:00:08.84,Cap,,0,0,0,,JOINED {\c&H00E6FF&}IN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.84,0:00:09.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOON,{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.08,0:00:09.73,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THIRTY-FOUR{\c&HFFFFFF&} PEOPLE WERE
+Dialogue: 0,0:00:09.73,0:00:10.06,Cap,,0,0,0,,{\fs107}THIRTY-FOUR {\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} WERE
+Dialogue: 0,0:00:10.06,0:00:10.31,Cap,,0,0,0,,{\fs107}THIRTY-FOUR PEOPLE {\c&H00E6FF&}WERE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.31,0:00:10.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DANCING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.04,0:00:11.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITHIN{\c&HFFFFFF&} A MONTH,
+Dialogue: 0,0:00:11.28,0:00:11.36,Cap,,0,0,0,,WITHIN {\c&H00E6FF&}A{\c&HFFFFFF&} MONTH,
+Dialogue: 0,0:00:11.36,0:00:11.69,Cap,,0,0,0,,WITHIN A {\c&H00E6FF&}MONTH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.69,0:00:11.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THERE{\c&HFFFFFF&} WERE ABOUT
+Dialogue: 0,0:00:11.90,0:00:12.07,Cap,,0,0,0,,THERE {\c&H00E6FF&}WERE{\c&HFFFFFF&} ABOUT
+Dialogue: 0,0:00:12.07,0:00:12.28,Cap,,0,0,0,,THERE WERE {\c&H00E6FF&}ABOUT{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.28,0:00:12.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOUR{\c&HFFFFFF&} HUNDRED.
+Dialogue: 0,0:00:12.46,0:00:13.00,Cap,,0,0,0,,FOUR {\c&H00E6FF&}HUNDRED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.17,0:00:13.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE DOCTORS
+Dialogue: 0,0:00:13.32,0:00:13.53,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} DOCTORS
+Dialogue: 0,0:00:13.53,0:00:14.00,Cap,,0,0,0,,SO THE {\c&H00E6FF&}DOCTORS{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.00,0:00:14.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MADE{\c&HFFFFFF&} THEIR DIAGNOSIS:
+Dialogue: 0,0:00:14.25,0:00:14.55,Cap,,0,0,0,,MADE {\c&H00E6FF&}THEIR{\c&HFFFFFF&} DIAGNOSIS:
+Dialogue: 0,0:00:14.55,0:00:15.03,Cap,,0,0,0,,MADE THEIR {\c&H00E6FF&}DIAGNOSIS:{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.03,0:00:15.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"HOT{\c&HFFFFFF&} BLOOD."
+Dialogue: 0,0:00:15.40,0:00:16.07,Cap,,0,0,0,,"HOT {\c&H00E6FF&}BLOOD."{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.09,0:00:16.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEIR{\c&HFFFFFF&} CURE?
+Dialogue: 0,0:00:16.36,0:00:16.58,Cap,,0,0,0,,THEIR {\c&H00E6FF&}CURE?{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.58,0:00:16.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVEN{\c&HFFFFFF&} MORE DANCING.
+Dialogue: 0,0:00:16.81,0:00:17.04,Cap,,0,0,0,,EVEN {\c&H00E6FF&}MORE{\c&HFFFFFF&} DANCING.
+Dialogue: 0,0:00:17.04,0:00:17.66,Cap,,0,0,0,,EVEN MORE {\c&H00E6FF&}DANCING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.75,0:00:17.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CITY CLEARED
+Dialogue: 0,0:00:17.94,0:00:18.18,Cap,,0,0,0,,THE {\c&H00E6FF&}CITY{\c&HFFFFFF&} CLEARED
+Dialogue: 0,0:00:18.18,0:00:18.56,Cap,,0,0,0,,THE CITY {\c&H00E6FF&}CLEARED{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.56,0:00:18.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OUT{\c&HFFFFFF&} HALLS,
+Dialogue: 0,0:00:18.76,0:00:19.14,Cap,,0,0,0,,OUT {\c&H00E6FF&}HALLS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.14,0:00:19.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUILT{\c&HFFFFFF&} A WOODEN
+Dialogue: 0,0:00:19.43,0:00:19.54,Cap,,0,0,0,,BUILT {\c&H00E6FF&}A{\c&HFFFFFF&} WOODEN
+Dialogue: 0,0:00:19.54,0:00:19.87,Cap,,0,0,0,,BUILT A {\c&H00E6FF&}WOODEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.87,0:00:20.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STAGE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.21,0:00:20.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} HIRED MUSICIANS.
+Dialogue: 0,0:00:20.41,0:00:20.69,Cap,,0,0,0,,AND {\c&H00E6FF&}HIRED{\c&HFFFFFF&} MUSICIANS.
+Dialogue: 0,0:00:20.69,0:00:21.42,Cap,,0,0,0,,AND HIRED {\c&H00E6FF&}MUSICIANS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.52,0:00:21.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE MUSIC
+Dialogue: 0,0:00:21.72,0:00:21.92,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} MUSIC
+Dialogue: 0,0:00:21.92,0:00:22.21,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}MUSIC{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.21,0:00:22.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONLY{\c&HFFFFFF&} PULLED IN
+Dialogue: 0,0:00:22.45,0:00:22.79,Cap,,0,0,0,,ONLY {\c&H00E6FF&}PULLED{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:22.79,0:00:22.94,Cap,,0,0,0,,ONLY PULLED {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.94,0:00:23.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MORE{\c&HFFFFFF&} DANCERS.
+Dialogue: 0,0:00:23.19,0:00:23.83,Cap,,0,0,0,,MORE {\c&H00E6FF&}DANCERS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.93,0:00:24.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE CITY
+Dialogue: 0,0:00:24.06,0:00:24.24,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} CITY
+Dialogue: 0,0:00:24.24,0:00:24.46,Cap,,0,0,0,,SO THE {\c&H00E6FF&}CITY{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.46,0:00:24.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DID{\c&HFFFFFF&} THE OPPOSITE.
+Dialogue: 0,0:00:24.63,0:00:24.81,Cap,,0,0,0,,DID {\c&H00E6FF&}THE{\c&HFFFFFF&} OPPOSITE.
+Dialogue: 0,0:00:24.81,0:00:25.38,Cap,,0,0,0,,DID THE {\c&H00E6FF&}OPPOSITE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.38,0:00:25.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} BANNED MUSIC,
+Dialogue: 0,0:00:25.60,0:00:25.90,Cap,,0,0,0,,IT {\c&H00E6FF&}BANNED{\c&HFFFFFF&} MUSIC,
+Dialogue: 0,0:00:25.90,0:00:26.21,Cap,,0,0,0,,IT BANNED {\c&H00E6FF&}MUSIC,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.21,0:00:26.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} DANCING.
+Dialogue: 0,0:00:26.39,0:00:26.99,Cap,,0,0,0,,AND {\c&H00E6FF&}DANCING.{\c&HFFFFFF&}

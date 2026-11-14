@@ -1,0 +1,99 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1876,
+Dialogue: 0,0:00:00.29,0:00:01.14,Cap,,0,0,0,,IN {\c&H00E6FF&}1876,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.14,0:00:01.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} RAINED RAW
+Dialogue: 0,0:00:01.40,0:00:01.86,Cap,,0,0,0,,IT {\c&H00E6FF&}RAINED{\c&HFFFFFF&} RAW
+Dialogue: 0,0:00:01.86,0:00:02.08,Cap,,0,0,0,,IT RAINED {\c&H00E6FF&}RAW{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.08,0:00:02.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MEAT{\c&HFFFFFF&} ON A
+Dialogue: 0,0:00:02.35,0:00:02.52,Cap,,0,0,0,,MEAT {\c&H00E6FF&}ON{\c&HFFFFFF&} A
+Dialogue: 0,0:00:02.52,0:00:02.74,Cap,,0,0,0,,MEAT ON {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.74,0:00:03.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}KENTUCKY{\c&HFFFFFF&} FARM.
+Dialogue: 0,0:00:03.40,0:00:03.93,Cap,,0,0,0,,KENTUCKY {\c&H00E6FF&}FARM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.01,0:00:04.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MRS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.21,0:00:04.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CROUCH{\c&HFFFFFF&} WAS MAKING
+Dialogue: 0,0:00:04.60,0:00:04.81,Cap,,0,0,0,,CROUCH {\c&H00E6FF&}WAS{\c&HFFFFFF&} MAKING
+Dialogue: 0,0:00:04.81,0:00:05.14,Cap,,0,0,0,,CROUCH WAS {\c&H00E6FF&}MAKING{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.14,0:00:05.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOAP{\c&HFFFFFF&} OUTSIDE.
+Dialogue: 0,0:00:05.39,0:00:05.77,Cap,,0,0,0,,SOAP {\c&H00E6FF&}OUTSIDE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.77,0:00:06.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SKY WAS
+Dialogue: 0,0:00:06.10,0:00:06.30,Cap,,0,0,0,,THE {\c&H00E6FF&}SKY{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:06.30,0:00:06.50,Cap,,0,0,0,,THE SKY {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.50,0:00:07.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PERFECTLY{\c&HFFFFFF&} CLEAR.
+Dialogue: 0,0:00:07.17,0:00:07.73,Cap,,0,0,0,,PERFECTLY {\c&H00E6FF&}CLEAR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.83,0:00:08.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} RED FLAKES
+Dialogue: 0,0:00:08.03,0:00:08.30,Cap,,0,0,0,,THEN {\c&H00E6FF&}RED{\c&HFFFFFF&} FLAKES
+Dialogue: 0,0:00:08.30,0:00:08.58,Cap,,0,0,0,,THEN RED {\c&H00E6FF&}FLAKES{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.58,0:00:08.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STARTED{\c&HFFFFFF&} SLAPPING THE
+Dialogue: 0,0:00:08.89,0:00:09.24,Cap,,0,0,0,,STARTED {\c&H00E6FF&}SLAPPING{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:09.24,0:00:09.41,Cap,,0,0,0,,STARTED SLAPPING {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.41,0:00:09.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GROUND{\c&HFFFFFF&} AROUND HER.
+Dialogue: 0,0:00:09.68,0:00:09.96,Cap,,0,0,0,,GROUND {\c&H00E6FF&}AROUND{\c&HFFFFFF&} HER.
+Dialogue: 0,0:00:09.96,0:00:10.39,Cap,,0,0,0,,GROUND AROUND {\c&H00E6FF&}HER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.48,0:00:10.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOME{\c&HFFFFFF&} WERE FOUR
+Dialogue: 0,0:00:10.68,0:00:10.88,Cap,,0,0,0,,SOME {\c&H00E6FF&}WERE{\c&HFFFFFF&} FOUR
+Dialogue: 0,0:00:10.88,0:00:11.07,Cap,,0,0,0,,SOME WERE {\c&H00E6FF&}FOUR{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.07,0:00:11.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INCHES{\c&HFFFFFF&} WIDE.
+Dialogue: 0,0:00:11.35,0:00:11.54,Cap,,0,0,0,,INCHES {\c&H00E6FF&}WIDE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.54,0:00:11.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} COVERED A
+Dialogue: 0,0:00:11.91,0:00:12.22,Cap,,0,0,0,,THEY {\c&H00E6FF&}COVERED{\c&HFFFFFF&} A
+Dialogue: 0,0:00:12.22,0:00:12.31,Cap,,0,0,0,,THEY COVERED {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.31,0:00:12.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHOLE{\c&HFFFFFF&} FOOTBALL FIELD.
+Dialogue: 0,0:00:12.55,0:00:13.09,Cap,,0,0,0,,WHOLE {\c&H00E6FF&}FOOTBALL{\c&HFFFFFF&} FIELD.
+Dialogue: 0,0:00:13.09,0:00:13.59,Cap,,0,0,0,,WHOLE FOOTBALL {\c&H00E6FF&}FIELD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.76,0:00:13.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} TWO BRAVE
+Dialogue: 0,0:00:13.92,0:00:14.13,Cap,,0,0,0,,SO {\c&H00E6FF&}TWO{\c&HFFFFFF&} BRAVE
+Dialogue: 0,0:00:14.13,0:00:14.44,Cap,,0,0,0,,SO TWO {\c&H00E6FF&}BRAVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.44,0:00:14.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MEN{\c&HFFFFFF&} TASTED IT.
+Dialogue: 0,0:00:14.65,0:00:15.01,Cap,,0,0,0,,MEN {\c&H00E6FF&}TASTED{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:15.01,0:00:15.17,Cap,,0,0,0,,MEN TASTED {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.17,0:00:15.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEIR{\c&HFFFFFF&} VERDICT:
+Dialogue: 0,0:00:15.74,0:00:16.22,Cap,,0,0,0,,THEIR {\c&H00E6FF&}VERDICT:{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.22,0:00:16.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MUTTON,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.58,0:00:16.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MAYBE{\c&HFFFFFF&} VENISON.
+Dialogue: 0,0:00:16.88,0:00:17.55,Cap,,0,0,0,,MAYBE {\c&H00E6FF&}VENISON.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.64,0:00:17.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:17.85,0:00:17.98,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:17.98,0:00:18.15,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.15,0:00:18.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.40,0:00:18.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SCIENTISTS{\c&HFFFFFF&} TESTED IT.
+Dialogue: 0,0:00:18.84,0:00:19.20,Cap,,0,0,0,,SCIENTISTS {\c&H00E6FF&}TESTED{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:19.20,0:00:19.60,Cap,,0,0,0,,SCIENTISTS TESTED {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.70,0:00:19.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} MEAT WAS
+Dialogue: 0,0:00:19.89,0:00:20.13,Cap,,0,0,0,,THE {\c&H00E6FF&}MEAT{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:20.13,0:00:20.33,Cap,,0,0,0,,THE MEAT {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.33,0:00:20.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LUNG{\c&HFFFFFF&} TISSUE,
+Dialogue: 0,0:00:20.57,0:00:20.89,Cap,,0,0,0,,LUNG {\c&H00E6FF&}TISSUE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.89,0:00:21.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOST{\c&HFFFFFF&} LIKELY THROWN
+Dialogue: 0,0:00:21.26,0:00:21.59,Cap,,0,0,0,,MOST {\c&H00E6FF&}LIKELY{\c&HFFFFFF&} THROWN
+Dialogue: 0,0:00:21.59,0:00:22.00,Cap,,0,0,0,,MOST LIKELY {\c&H00E6FF&}THROWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.00,0:00:22.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UP{\c&HFFFFFF&} BY VULTURES.
+Dialogue: 0,0:00:22.15,0:00:22.30,Cap,,0,0,0,,UP {\c&H00E6FF&}BY{\c&HFFFFFF&} VULTURES.
+Dialogue: 0,0:00:22.30,0:00:23.04,Cap,,0,0,0,,UP BY {\c&H00E6FF&}VULTURES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.13,0:00:23.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SCARED{\c&HFFFFFF&} VULTURES VOMIT
+Dialogue: 0,0:00:23.45,0:00:23.86,Cap,,0,0,0,,SCARED {\c&H00E6FF&}VULTURES{\c&HFFFFFF&} VOMIT
+Dialogue: 0,0:00:23.86,0:00:24.14,Cap,,0,0,0,,SCARED VULTURES {\c&H00E6FF&}VOMIT{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.14,0:00:24.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THEY CAN
+Dialogue: 0,0:00:24.37,0:00:24.60,Cap,,0,0,0,,SO {\c&H00E6FF&}THEY{\c&HFFFFFF&} CAN
+Dialogue: 0,0:00:24.60,0:00:24.87,Cap,,0,0,0,,SO THEY {\c&H00E6FF&}CAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.87,0:00:25.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLY{\c&HFFFFFF&} AWAY LIGHTER.
+Dialogue: 0,0:00:25.06,0:00:25.30,Cap,,0,0,0,,FLY {\c&H00E6FF&}AWAY{\c&HFFFFFF&} LIGHTER.
+Dialogue: 0,0:00:25.30,0:00:25.93,Cap,,0,0,0,,FLY AWAY {\c&H00E6FF&}LIGHTER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.02,0:00:26.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE MEAT
+Dialogue: 0,0:00:26.17,0:00:26.37,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} MEAT
+Dialogue: 0,0:00:26.37,0:00:26.68,Cap,,0,0,0,,SO THE {\c&H00E6FF&}MEAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.68,0:00:26.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THOSE{\c&HFFFFFF&} MEN TASTED?
+Dialogue: 0,0:00:26.96,0:00:27.16,Cap,,0,0,0,,THOSE {\c&H00E6FF&}MEN{\c&HFFFFFF&} TASTED?
+Dialogue: 0,0:00:27.16,0:00:27.67,Cap,,0,0,0,,THOSE MEN {\c&H00E6FF&}TASTED?{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.67,0:00:28.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}VULTURE{\c&HFFFFFF&} VOMIT.
+Dialogue: 0,0:00:28.04,0:00:28.59,Cap,,0,0,0,,VULTURE {\c&H00E6FF&}VOMIT.{\c&HFFFFFF&}

@@ -1,0 +1,100 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1908,
+Dialogue: 0,0:00:00.26,0:00:01.13,Cap,,0,0,0,,IN {\c&H00E6FF&}1908,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.13,0:00:01.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOMETHING{\c&HFFFFFF&} FLATTENED 80
+Dialogue: 0,0:00:01.63,0:00:02.15,Cap,,0,0,0,,SOMETHING {\c&H00E6FF&}FLATTENED{\c&HFFFFFF&} 80
+Dialogue: 0,0:00:02.15,0:00:02.55,Cap,,0,0,0,,SOMETHING FLATTENED {\c&H00E6FF&}80{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.55,0:00:02.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MILLION{\c&HFFFFFF&} TREES IN
+Dialogue: 0,0:00:02.91,0:00:03.19,Cap,,0,0,0,,MILLION {\c&H00E6FF&}TREES{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:03.19,0:00:03.33,Cap,,0,0,0,,MILLION TREES {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.33,0:00:03.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SIBERIA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.04,0:00:04.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FORTY{\c&HFFFFFF&} MILES AWAY,
+Dialogue: 0,0:00:04.31,0:00:04.59,Cap,,0,0,0,,FORTY {\c&H00E6FF&}MILES{\c&HFFFFFF&} AWAY,
+Dialogue: 0,0:00:04.59,0:00:04.82,Cap,,0,0,0,,FORTY MILES {\c&H00E6FF&}AWAY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.82,0:00:04.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} TRADER FELT
+Dialogue: 0,0:00:04.93,0:00:05.41,Cap,,0,0,0,,A {\c&H00E6FF&}TRADER{\c&HFFFFFF&} FELT
+Dialogue: 0,0:00:05.41,0:00:05.65,Cap,,0,0,0,,A TRADER {\c&H00E6FF&}FELT{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.65,0:00:05.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LIKE{\c&HFFFFFF&} HIS SHIRT
+Dialogue: 0,0:00:05.88,0:00:06.07,Cap,,0,0,0,,LIKE {\c&H00E6FF&}HIS{\c&HFFFFFF&} SHIRT
+Dialogue: 0,0:00:06.07,0:00:06.42,Cap,,0,0,0,,LIKE HIS {\c&H00E6FF&}SHIRT{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.42,0:00:06.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAS{\c&HFFFFFF&} ON FIRE.
+Dialogue: 0,0:00:06.61,0:00:06.86,Cap,,0,0,0,,WAS {\c&H00E6FF&}ON{\c&HFFFFFF&} FIRE.
+Dialogue: 0,0:00:06.86,0:00:07.36,Cap,,0,0,0,,WAS ON {\c&H00E6FF&}FIRE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.45,0:00:07.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A BLAST
+Dialogue: 0,0:00:07.63,0:00:07.72,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} BLAST
+Dialogue: 0,0:00:07.72,0:00:07.94,Cap,,0,0,0,,THEN A {\c&H00E6FF&}BLAST{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.94,0:00:08.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THREW{\c&HFFFFFF&} HIM CLEAN
+Dialogue: 0,0:00:08.22,0:00:08.37,Cap,,0,0,0,,THREW {\c&H00E6FF&}HIM{\c&HFFFFFF&} CLEAN
+Dialogue: 0,0:00:08.37,0:00:08.59,Cap,,0,0,0,,THREW HIM {\c&H00E6FF&}CLEAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.59,0:00:08.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} HIS PORCH.
+Dialogue: 0,0:00:08.74,0:00:08.96,Cap,,0,0,0,,OFF {\c&H00E6FF&}HIS{\c&HFFFFFF&} PORCH.
+Dialogue: 0,0:00:08.96,0:00:09.51,Cap,,0,0,0,,OFF HIS {\c&H00E6FF&}PORCH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.62,0:00:09.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} EXPLOSION WAS
+Dialogue: 0,0:00:09.81,0:00:10.33,Cap,,0,0,0,,THE {\c&H00E6FF&}EXPLOSION{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:10.33,0:00:10.52,Cap,,0,0,0,,THE EXPLOSION {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.52,0:00:10.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HUNDREDS{\c&HFFFFFF&} OF TIMES
+Dialogue: 0,0:00:10.93,0:00:11.14,Cap,,0,0,0,,HUNDREDS {\c&H00E6FF&}OF{\c&HFFFFFF&} TIMES
+Dialogue: 0,0:00:11.14,0:00:11.41,Cap,,0,0,0,,HUNDREDS OF {\c&H00E6FF&}TIMES{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.41,0:00:11.89,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STRONGER{\c&HFFFFFF&} THAN HIROSHIMA.
+Dialogue: 0,0:00:11.89,0:00:12.13,Cap,,0,0,0,,{\fs102}STRONGER {\c&H00E6FF&}THAN{\c&HFFFFFF&} HIROSHIMA.
+Dialogue: 0,0:00:12.13,0:00:12.84,Cap,,0,0,0,,{\fs102}STRONGER THAN {\c&H00E6FF&}HIROSHIMA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.93,0:00:13.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} NOBODY WENT
+Dialogue: 0,0:00:13.09,0:00:13.37,Cap,,0,0,0,,BUT {\c&H00E6FF&}NOBODY{\c&HFFFFFF&} WENT
+Dialogue: 0,0:00:13.37,0:00:13.57,Cap,,0,0,0,,BUT NOBODY {\c&H00E6FF&}WENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.57,0:00:13.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} LOOK FOR
+Dialogue: 0,0:00:13.70,0:00:14.06,Cap,,0,0,0,,TO {\c&H00E6FF&}LOOK{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:14.06,0:00:14.23,Cap,,0,0,0,,TO LOOK {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.23,0:00:14.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NINETEEN{\c&HFFFFFF&} YEARS.
+Dialogue: 0,0:00:14.58,0:00:15.08,Cap,,0,0,0,,NINETEEN {\c&H00E6FF&}YEARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.17,0:00:15.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} WHAT DID
+Dialogue: 0,0:00:15.29,0:00:15.48,Cap,,0,0,0,,SO {\c&H00E6FF&}WHAT{\c&HFFFFFF&} DID
+Dialogue: 0,0:00:15.48,0:00:15.64,Cap,,0,0,0,,SO WHAT {\c&H00E6FF&}DID{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.64,0:00:15.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FIRST EXPEDITION
+Dialogue: 0,0:00:15.89,0:00:16.12,Cap,,0,0,0,,THE {\c&H00E6FF&}FIRST{\c&HFFFFFF&} EXPEDITION
+Dialogue: 0,0:00:16.12,0:00:16.68,Cap,,0,0,0,,THE FIRST {\c&H00E6FF&}EXPEDITION{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.68,0:00:17.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIND?{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.43,0:00:17.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} RING OF
+Dialogue: 0,0:00:17.53,0:00:17.75,Cap,,0,0,0,,A {\c&H00E6FF&}RING{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:17.75,0:00:17.89,Cap,,0,0,0,,A RING {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.89,0:00:18.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLATTENED{\c&HFFFFFF&} FOREST,
+Dialogue: 0,0:00:18.42,0:00:18.72,Cap,,0,0,0,,FLATTENED {\c&H00E6FF&}FOREST,{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.72,0:00:19.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} TRUNK POINTING
+Dialogue: 0,0:00:19.12,0:00:19.38,Cap,,0,0,0,,EVERY {\c&H00E6FF&}TRUNK{\c&HFFFFFF&} POINTING
+Dialogue: 0,0:00:19.38,0:00:19.87,Cap,,0,0,0,,EVERY TRUNK {\c&H00E6FF&}POINTING{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.87,0:00:20.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AWAY{\c&HFFFFFF&} FROM THE
+Dialogue: 0,0:00:20.09,0:00:20.40,Cap,,0,0,0,,AWAY {\c&H00E6FF&}FROM{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:20.40,0:00:20.58,Cap,,0,0,0,,AWAY FROM {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.58,0:00:21.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CENTER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.23,0:00:21.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} AT THE
+Dialogue: 0,0:00:21.40,0:00:21.53,Cap,,0,0,0,,BUT {\c&H00E6FF&}AT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:21.53,0:00:21.71,Cap,,0,0,0,,BUT AT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.71,0:00:21.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CENTER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.99,0:00:22.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} TREES STILL
+Dialogue: 0,0:00:22.17,0:00:22.42,Cap,,0,0,0,,THE {\c&H00E6FF&}TREES{\c&HFFFFFF&} STILL
+Dialogue: 0,0:00:22.42,0:00:22.67,Cap,,0,0,0,,THE TREES {\c&H00E6FF&}STILL{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.67,0:00:22.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STOOD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.92,0:00:23.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THERE WAS
+Dialogue: 0,0:00:23.23,0:00:23.48,Cap,,0,0,0,,AND {\c&H00E6FF&}THERE{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:23.48,0:00:23.65,Cap,,0,0,0,,AND THERE {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.65,0:00:23.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NO{\c&HFFFFFF&} CRATER.
+Dialogue: 0,0:00:23.79,0:00:24.34,Cap,,0,0,0,,NO {\c&H00E6FF&}CRATER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.42,0:00:24.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BECAUSE{\c&HFFFFFF&} THE SPACE
+Dialogue: 0,0:00:24.79,0:00:24.99,Cap,,0,0,0,,BECAUSE {\c&H00E6FF&}THE{\c&HFFFFFF&} SPACE
+Dialogue: 0,0:00:24.99,0:00:25.28,Cap,,0,0,0,,BECAUSE THE {\c&H00E6FF&}SPACE{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.28,0:00:25.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ROCK{\c&HFFFFFF&} EXPLODED MILES
+Dialogue: 0,0:00:25.52,0:00:26.02,Cap,,0,0,0,,ROCK {\c&H00E6FF&}EXPLODED{\c&HFFFFFF&} MILES
+Dialogue: 0,0:00:26.02,0:00:26.30,Cap,,0,0,0,,ROCK EXPLODED {\c&H00E6FF&}MILES{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.30,0:00:26.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ABOVE{\c&HFFFFFF&} THE TREES.
+Dialogue: 0,0:00:26.59,0:00:26.79,Cap,,0,0,0,,ABOVE {\c&H00E6FF&}THE{\c&HFFFFFF&} TREES.
+Dialogue: 0,0:00:26.79,0:00:27.34,Cap,,0,0,0,,ABOVE THE {\c&H00E6FF&}TREES.{\c&HFFFFFF&}

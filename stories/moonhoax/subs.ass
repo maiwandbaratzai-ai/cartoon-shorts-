@@ -1,0 +1,101 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1835,
+Dialogue: 0,0:00:00.27,0:00:01.11,Cap,,0,0,0,,IN {\c&H00E6FF&}1835,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.11,0:00:01.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} NEW YORK
+Dialogue: 0,0:00:01.22,0:00:01.56,Cap,,0,0,0,,A {\c&H00E6FF&}NEW{\c&HFFFFFF&} YORK
+Dialogue: 0,0:00:01.56,0:00:01.80,Cap,,0,0,0,,A NEW {\c&H00E6FF&}YORK{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.80,0:00:02.41,Cap,,0,0,0,,{\fs84}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEWSPAPER{\c&HFFFFFF&} REPORTED BAT-PEOPLE
+Dialogue: 0,0:00:02.41,0:00:02.82,Cap,,0,0,0,,{\fs84}NEWSPAPER {\c&H00E6FF&}REPORTED{\c&HFFFFFF&} BAT-PEOPLE
+Dialogue: 0,0:00:02.82,0:00:03.48,Cap,,0,0,0,,{\fs84}NEWSPAPER REPORTED {\c&H00E6FF&}BAT-PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.48,0:00:03.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LIVING{\c&HFFFFFF&} ON THE
+Dialogue: 0,0:00:03.81,0:00:03.96,Cap,,0,0,0,,LIVING {\c&H00E6FF&}ON{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:03.96,0:00:04.16,Cap,,0,0,0,,LIVING ON {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.16,0:00:04.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOON.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.74,0:00:04.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SUN CLAIMED
+Dialogue: 0,0:00:04.91,0:00:05.09,Cap,,0,0,0,,THE {\c&H00E6FF&}SUN{\c&HFFFFFF&} CLAIMED
+Dialogue: 0,0:00:05.09,0:00:05.52,Cap,,0,0,0,,THE SUN {\c&H00E6FF&}CLAIMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.52,0:00:05.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FAMOUS ASTRONOMER
+Dialogue: 0,0:00:05.62,0:00:05.92,Cap,,0,0,0,,A {\c&H00E6FF&}FAMOUS{\c&HFFFFFF&} ASTRONOMER
+Dialogue: 0,0:00:05.92,0:00:06.38,Cap,,0,0,0,,A FAMOUS {\c&H00E6FF&}ASTRONOMER{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.38,0:00:06.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SPOTTED{\c&HFFFFFF&} THEM THROUGH
+Dialogue: 0,0:00:06.79,0:00:07.01,Cap,,0,0,0,,SPOTTED {\c&H00E6FF&}THEM{\c&HFFFFFF&} THROUGH
+Dialogue: 0,0:00:07.01,0:00:07.41,Cap,,0,0,0,,SPOTTED THEM {\c&H00E6FF&}THROUGH{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.41,0:00:07.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} GIANT TELESCOPE.
+Dialogue: 0,0:00:07.51,0:00:07.84,Cap,,0,0,0,,A {\c&H00E6FF&}GIANT{\c&HFFFFFF&} TELESCOPE.
+Dialogue: 0,0:00:07.84,0:00:08.59,Cap,,0,0,0,,A GIANT {\c&H00E6FF&}TELESCOPE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.80,0:00:09.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIRST{\c&HFFFFFF&} CAME BLUE
+Dialogue: 0,0:00:09.08,0:00:09.32,Cap,,0,0,0,,FIRST {\c&H00E6FF&}CAME{\c&HFFFFFF&} BLUE
+Dialogue: 0,0:00:09.32,0:00:09.56,Cap,,0,0,0,,FIRST CAME {\c&H00E6FF&}BLUE{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.56,0:00:09.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UNICORNS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.98,0:00:10.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} BEAVERS WALKING
+Dialogue: 0,0:00:10.36,0:00:10.74,Cap,,0,0,0,,THEN {\c&H00E6FF&}BEAVERS{\c&HFFFFFF&} WALKING
+Dialogue: 0,0:00:10.74,0:00:11.11,Cap,,0,0,0,,THEN BEAVERS {\c&H00E6FF&}WALKING{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.11,0:00:11.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} TWO LEGS.
+Dialogue: 0,0:00:11.27,0:00:11.46,Cap,,0,0,0,,ON {\c&H00E6FF&}TWO{\c&HFFFFFF&} LEGS.
+Dialogue: 0,0:00:11.46,0:00:12.03,Cap,,0,0,0,,ON TWO {\c&H00E6FF&}LEGS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.12,0:00:12.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THE STARS:
+Dialogue: 0,0:00:12.34,0:00:12.53,Cap,,0,0,0,,THEN {\c&H00E6FF&}THE{\c&HFFFFFF&} STARS:
+Dialogue: 0,0:00:12.53,0:00:12.93,Cap,,0,0,0,,THEN THE {\c&H00E6FF&}STARS:{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.93,0:00:13.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FURRY{\c&HFFFFFF&} WINGED MEN
+Dialogue: 0,0:00:13.20,0:00:13.51,Cap,,0,0,0,,FURRY {\c&H00E6FF&}WINGED{\c&HFFFFFF&} MEN
+Dialogue: 0,0:00:13.51,0:00:13.83,Cap,,0,0,0,,FURRY WINGED {\c&H00E6FF&}MEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.83,0:00:14.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} FACES LIKE
+Dialogue: 0,0:00:14.06,0:00:14.33,Cap,,0,0,0,,WITH {\c&H00E6FF&}FACES{\c&HFFFFFF&} LIKE
+Dialogue: 0,0:00:14.33,0:00:14.56,Cap,,0,0,0,,WITH FACES {\c&H00E6FF&}LIKE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.56,0:00:15.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ORANGUTANS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.40,0:00:15.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEW{\c&HFFFFFF&} YORKERS BOUGHT
+Dialogue: 0,0:00:15.57,0:00:15.90,Cap,,0,0,0,,NEW {\c&H00E6FF&}YORKERS{\c&HFFFFFF&} BOUGHT
+Dialogue: 0,0:00:15.90,0:00:16.20,Cap,,0,0,0,,NEW YORKERS {\c&H00E6FF&}BOUGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.20,0:00:16.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.45,0:00:16.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SUN'S SALES
+Dialogue: 0,0:00:16.62,0:00:16.84,Cap,,0,0,0,,THE {\c&H00E6FF&}SUN'S{\c&HFFFFFF&} SALES
+Dialogue: 0,0:00:16.84,0:00:17.09,Cap,,0,0,0,,THE SUN'S {\c&H00E6FF&}SALES{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.09,0:00:17.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EXPLODED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.96,0:00:18.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE ASTRONOMER,
+Dialogue: 0,0:00:18.21,0:00:18.41,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} ASTRONOMER,
+Dialogue: 0,0:00:18.41,0:00:18.92,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}ASTRONOMER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.92,0:00:19.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SIR{\c&HFFFFFF&} JOHN HERSCHEL,
+Dialogue: 0,0:00:19.12,0:00:19.36,Cap,,0,0,0,,SIR {\c&H00E6FF&}JOHN{\c&HFFFFFF&} HERSCHEL,
+Dialogue: 0,0:00:19.36,0:00:19.78,Cap,,0,0,0,,SIR JOHN {\c&H00E6FF&}HERSCHEL,{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.78,0:00:19.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAD{\c&HFFFFFF&} NO IDEA.
+Dialogue: 0,0:00:19.98,0:00:20.13,Cap,,0,0,0,,HAD {\c&H00E6FF&}NO{\c&HFFFFFF&} IDEA.
+Dialogue: 0,0:00:20.13,0:00:20.64,Cap,,0,0,0,,HAD NO {\c&H00E6FF&}IDEA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.72,0:00:20.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HOW DID
+Dialogue: 0,0:00:20.84,0:00:21.01,Cap,,0,0,0,,SO {\c&H00E6FF&}HOW{\c&HFFFFFF&} DID
+Dialogue: 0,0:00:21.01,0:00:21.17,Cap,,0,0,0,,SO HOW {\c&H00E6FF&}DID{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.17,0:00:21.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SUN END
+Dialogue: 0,0:00:21.34,0:00:21.51,Cap,,0,0,0,,THE {\c&H00E6FF&}SUN{\c&HFFFFFF&} END
+Dialogue: 0,0:00:21.51,0:00:21.67,Cap,,0,0,0,,THE SUN {\c&H00E6FF&}END{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.67,0:00:21.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} STORY?
+Dialogue: 0,0:00:21.84,0:00:22.34,Cap,,0,0,0,,THE {\c&H00E6FF&}STORY?{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.55,0:00:22.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} TELESCOPE'S GIANT
+Dialogue: 0,0:00:22.74,0:00:23.24,Cap,,0,0,0,,THE {\c&H00E6FF&}TELESCOPE'S{\c&HFFFFFF&} GIANT
+Dialogue: 0,0:00:23.24,0:00:23.52,Cap,,0,0,0,,THE TELESCOPE'S {\c&H00E6FF&}GIANT{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.52,0:00:23.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LENS{\c&HFFFFFF&} FOCUSED THE
+Dialogue: 0,0:00:23.76,0:00:24.23,Cap,,0,0,0,,LENS {\c&H00E6FF&}FOCUSED{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:24.23,0:00:24.49,Cap,,0,0,0,,LENS FOCUSED {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.49,0:00:24.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SUNLIGHT{\c&HFFFFFF&} AND BURNED
+Dialogue: 0,0:00:24.90,0:00:25.18,Cap,,0,0,0,,SUNLIGHT {\c&H00E6FF&}AND{\c&HFFFFFF&} BURNED
+Dialogue: 0,0:00:25.18,0:00:25.51,Cap,,0,0,0,,SUNLIGHT AND {\c&H00E6FF&}BURNED{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.51,0:00:25.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOWN{\c&HFFFFFF&} THE OBSERVATORY.
+Dialogue: 0,0:00:25.75,0:00:25.94,Cap,,0,0,0,,DOWN {\c&H00E6FF&}THE{\c&HFFFFFF&} OBSERVATORY.
+Dialogue: 0,0:00:25.94,0:00:26.75,Cap,,0,0,0,,DOWN THE {\c&H00E6FF&}OBSERVATORY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.89,0:00:27.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE SUN
+Dialogue: 0,0:00:27.03,0:00:27.17,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} SUN
+Dialogue: 0,0:00:27.17,0:00:27.32,Cap,,0,0,0,,AND THE {\c&H00E6FF&}SUN{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.32,0:00:27.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEVER{\c&HFFFFFF&} TOOK BACK
+Dialogue: 0,0:00:27.52,0:00:27.80,Cap,,0,0,0,,NEVER {\c&H00E6FF&}TOOK{\c&HFFFFFF&} BACK
+Dialogue: 0,0:00:27.80,0:00:28.06,Cap,,0,0,0,,NEVER TOOK {\c&H00E6FF&}BACK{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.06,0:00:28.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BAT-PEOPLE.
+Dialogue: 0,0:00:28.20,0:00:28.87,Cap,,0,0,0,,THE {\c&H00E6FF&}BAT-PEOPLE.{\c&HFFFFFF&}

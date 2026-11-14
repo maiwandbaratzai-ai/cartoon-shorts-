@@ -14,6 +14,11 @@
 - 2026-11-13 Pig War, San Juan Island, 1859 (30 s, Channel B)
 - 2026-11-13 Operation Cat Drop, Borneo/Sarawak, 1960 (30 s, Channel B)
 - 2026-11-13 Friendly Floatees bath-toy spill, North Pacific, 1992 (64 s, TikTok)
+- 2026-11-14 Kentucky meat shower, Bath County KY, 1876 (30 s, Channel A)
+- 2026-11-14 Tunguska event, Siberia, 1908 (30 s, Channel A)
+- 2026-11-14 Dancing plague, Strasbourg, 1518 (30 s, Channel B)
+- 2026-11-14 Great Moon Hoax, The Sun, New York, 1835 (30 s, Channel B)
+- 2026-11-14 Wrong Way Corrigan, Brooklyn to Dublin, 1938 (64 s, TikTok)
 
 ---
 Author: Maiwand
