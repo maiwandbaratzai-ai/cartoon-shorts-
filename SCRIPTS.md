@@ -89,6 +89,27 @@ Use at most one per 30 s video, two per 64 s video. It must be followed by somet
 - Say numbers the way people say them; put spoken forms in say.txt ("nineteen eighty-two").
 - Respectful with deaths: state them once, plainly, no jokes near them, no graphic detail.
 
+## 6b. Storytelling rule: make true stories fun (never boring)
+
+Don't recite the event like a history book. Retell it the way a funny friend would, and keep every fact true.
+
+**Do (encouraged):**
+- Talk to the viewer: "Imagine you're the guy holding the hose..."
+- Put the viewer in the moment: present tense, "right now", what it looked, sounded or smelled like.
+- Jokes, comic timing, playful comparisons ("a wave taller than a giraffe"), and reactions ("Bad idea.").
+- Lead with the weirdest REAL detail; cut the boring ones (dates, titles, background) unless they're the punchline.
+- Give the people in the story clear feelings and motives that fit what really happened.
+- Short dialogue that is clearly playful ("Officer: 'Sir, is that a lawn chair?'") is fine when it matches what happened.
+- Sound effects, exaggerated cartoon visuals, and fast cuts to dramatise real moments.
+- Round numbers the way people talk ("about 3 miles up"), as long as they stay accurate.
+
+**Don't:**
+- Invent events, outcomes, people, quotes presented as real, or numbers. The video says it's a TRUE story,
+  and made-up facts get called out in the comments and kill trust (and can hurt monetisation).
+- If a detail is uncertain or a legend, say so in a fun way: "Legend says...", "Supposedly...".
+
+Test: a fact-checker would find nothing false, and a 12-year-old would find nothing boring.
+
 ## 7. Process (do all of it, every script)
 
 1. Research: collect 10–15 facts; star the 3 most surprising and the one best quote.
@@ -118,5 +139,7 @@ one day," → (restart) "it snowed chocolate on a Swiss town."
 4. **Specificity**: names, numbers, vivid details, a quote?
 5. **Kicker**: does the last line land a laugh, gasp, or "no way"?
 6. **Loop**: does the end flow back into the start?
+
+Pass/fail on top of the score (§6b): is it told in a fun way ("you", jokes, the weirdest real details), and is every fact true? If not, rewrite before rendering.
 
 Write the score in upload.txt (`Script score: 26/30`) so we can compare it with the real retention later.

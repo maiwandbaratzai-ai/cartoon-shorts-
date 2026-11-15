@@ -10,7 +10,7 @@ safety) and the pre-render checklist. Its rules override anything below when the
 ## Pipeline (per story, from the kit root)
 1. **Pick the topic** with the VIRAL.md §2 scorecard (7+/10). Check `TOPICS.md` so nothing repeats. Prefer one clear,
    visual event with a twist ending, and a different setting from the last few days. Verify the facts with 2–3 web searches; keep numbers conservative where sources disagree.
-2. **Script** — follow the SCRIPTS.md process (5 hooks, beat sheet, `tools/script_check.py` must pass, rubric ≥ 24/30). `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
+2. **Script** — follow the SCRIPTS.md process (5 hooks, beat sheet, `tools/script_check.py` must pass, rubric ≥ 24/30, storytelling rule §6b: tell it in a fun way, but keep every fact true). `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
    shocking concrete claim). Last line is the twist and should loop back into line 1. 75–90 words for 30 s,
    140–165 for 60 s (VIRAL.md §3).
    `say.txt` (optional, same lines): phonetic versions (years as words: "nineteen nineteen", odd names).
