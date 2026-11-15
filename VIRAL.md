@@ -163,6 +163,13 @@ Every day: **four 30-second Shorts + one 64-second video.**
   Popular "weird history" stories get copied fast. Prefer less-covered stories, and search YouTube for the topic
   before picking it: if 2+ Shorts on it went up in the last week, choose another topic.
   Titles: no #foryou (a TikTok tag); use #shorts + one topic tag, and add a one-sentence description.
+- 2026-11-14 (TikTok, Stick History Official): almost every story video gets 250–310 views (90% from For You),
+  so TikTok's first test batch likes them but none break out yet. Videos with a big-text thumbnail
+  (number/place badge + 3–5 word hook) get about 2–3x the views of the first ones without one: always use it.
+  Weak spots: only +3 followers in 7 days and 8 comments in 28 days. TikTok rewards follows and comments, so every
+  TikTok video ends with a short follow reason ("Follow for a new weird true story every day") and asks one easy
+  question in the caption ("Would you have eaten it?"). The account still has older AI fruit-story videos that
+  pull the wrong search traffic. Creator Rewards needs 10k followers, so followers are the main goal there.
 
 
 ## Sources consulted
