@@ -1,0 +1,113 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} CHRISTMAS,
+Dialogue: 0,0:00:00.37,0:00:00.79,Cap,,0,0,0,,EVERY {\c&H00E6FF&}CHRISTMAS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.79,0:00:00.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} SWEDISH TOWN
+Dialogue: 0,0:00:00.89,0:00:01.23,Cap,,0,0,0,,A {\c&H00E6FF&}SWEDISH{\c&HFFFFFF&} TOWN
+Dialogue: 0,0:00:01.23,0:00:01.45,Cap,,0,0,0,,A SWEDISH {\c&H00E6FF&}TOWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.45,0:00:01.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUILDS{\c&HFFFFFF&} A 13-METER
+Dialogue: 0,0:00:01.74,0:00:01.84,Cap,,0,0,0,,BUILDS {\c&H00E6FF&}A{\c&HFFFFFF&} 13-METER
+Dialogue: 0,0:00:01.84,0:00:02.52,Cap,,0,0,0,,BUILDS A {\c&H00E6FF&}13-METER{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.52,0:00:02.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STRAW{\c&HFFFFFF&} GOAT.
+Dialogue: 0,0:00:02.84,0:00:03.32,Cap,,0,0,0,,STRAW {\c&H00E6FF&}GOAT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.41,0:00:03.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOST{\c&HFFFFFF&} YEARS,
+Dialogue: 0,0:00:03.63,0:00:03.89,Cap,,0,0,0,,MOST {\c&H00E6FF&}YEARS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.89,0:00:04.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} ENDS UP
+Dialogue: 0,0:00:04.03,0:00:04.26,Cap,,0,0,0,,IT {\c&H00E6FF&}ENDS{\c&HFFFFFF&} UP
+Dialogue: 0,0:00:04.26,0:00:04.40,Cap,,0,0,0,,IT ENDS {\c&H00E6FF&}UP{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.40,0:00:04.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AS{\c&HFFFFFF&} A GIANT
+Dialogue: 0,0:00:04.60,0:00:04.70,Cap,,0,0,0,,AS {\c&H00E6FF&}A{\c&HFFFFFF&} GIANT
+Dialogue: 0,0:00:04.70,0:00:04.97,Cap,,0,0,0,,AS A {\c&H00E6FF&}GIANT{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.97,0:00:05.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLAMING{\c&HFFFFFF&} TORCH.
+Dialogue: 0,0:00:05.43,0:00:06.04,Cap,,0,0,0,,FLAMING {\c&H00E6FF&}TORCH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.25,0:00:06.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} FIRST ONE,
+Dialogue: 0,0:00:06.43,0:00:06.69,Cap,,0,0,0,,THE {\c&H00E6FF&}FIRST{\c&HFFFFFF&} ONE,
+Dialogue: 0,0:00:06.69,0:00:06.87,Cap,,0,0,0,,THE FIRST {\c&H00E6FF&}ONE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.87,0:00:07.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1966,
+Dialogue: 0,0:00:07.01,0:00:07.77,Cap,,0,0,0,,IN {\c&H00E6FF&}1966,{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.77,0:00:08.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BURNED{\c&HFFFFFF&} ON NEW
+Dialogue: 0,0:00:08.20,0:00:08.34,Cap,,0,0,0,,BURNED {\c&H00E6FF&}ON{\c&HFFFFFF&} NEW
+Dialogue: 0,0:00:08.34,0:00:08.52,Cap,,0,0,0,,BURNED ON {\c&H00E6FF&}NEW{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.52,0:00:08.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}YEAR'S{\c&HFFFFFF&} EVE.
+Dialogue: 0,0:00:08.78,0:00:09.23,Cap,,0,0,0,,YEAR'S {\c&H00E6FF&}EVE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.40,0:00:09.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} GÄVLE GOT
+Dialogue: 0,0:00:09.56,0:00:09.88,Cap,,0,0,0,,SO {\c&H00E6FF&}GÄVLE{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:09.88,0:00:10.09,Cap,,0,0,0,,SO GÄVLE {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.09,0:00:10.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SERIOUS:{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.50,0:00:11.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GUARDS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.00,0:00:11.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FENCES,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.44,0:00:11.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVEN{\c&HFFFFFF&} WEBCAMS.
+Dialogue: 0,0:00:11.71,0:00:12.45,Cap,,0,0,0,,EVEN {\c&H00E6FF&}WEBCAMS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.57,0:00:12.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE GOAT
+Dialogue: 0,0:00:12.71,0:00:12.85,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} GOAT
+Dialogue: 0,0:00:12.85,0:00:13.02,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}GOAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.02,0:00:13.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}KEPT{\c&HFFFFFF&} BURNING.
+Dialogue: 0,0:00:13.30,0:00:13.83,Cap,,0,0,0,,KEPT {\c&H00E6FF&}BURNING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.93,0:00:14.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} IT GETS
+Dialogue: 0,0:00:14.11,0:00:14.26,Cap,,0,0,0,,AND {\c&H00E6FF&}IT{\c&HFFFFFF&} GETS
+Dialogue: 0,0:00:14.26,0:00:14.47,Cap,,0,0,0,,AND IT {\c&H00E6FF&}GETS{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.47,0:00:14.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WEIRDER:{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.90,0:00:15.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 2001,
+Dialogue: 0,0:00:15.04,0:00:15.78,Cap,,0,0,0,,IN {\c&H00E6FF&}2001,{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.78,0:00:15.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AN{\c&HFFFFFF&} AMERICAN TOURIST
+Dialogue: 0,0:00:15.91,0:00:16.32,Cap,,0,0,0,,AN {\c&H00E6FF&}AMERICAN{\c&HFFFFFF&} TOURIST
+Dialogue: 0,0:00:16.32,0:00:16.66,Cap,,0,0,0,,AN AMERICAN {\c&H00E6FF&}TOURIST{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.66,0:00:17.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TORCHED{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:17.02,0:00:17.48,Cap,,0,0,0,,TORCHED {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.59,0:00:17.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} THOUGHT IT
+Dialogue: 0,0:00:17.79,0:00:18.11,Cap,,0,0,0,,HE {\c&H00E6FF&}THOUGHT{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:18.11,0:00:18.25,Cap,,0,0,0,,HE THOUGHT {\c&H00E6FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.25,0:00:18.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAS{\c&HFFFFFF&} A LEGAL
+Dialogue: 0,0:00:18.42,0:00:18.51,Cap,,0,0,0,,WAS {\c&H00E6FF&}A{\c&HFFFFFF&} LEGAL
+Dialogue: 0,0:00:18.51,0:00:18.76,Cap,,0,0,0,,WAS A {\c&H00E6FF&}LEGAL{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.76,0:00:19.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRADITION.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.34,0:00:19.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} GOT 18
+Dialogue: 0,0:00:19.48,0:00:19.65,Cap,,0,0,0,,HE {\c&H00E6FF&}GOT{\c&HFFFFFF&} 18
+Dialogue: 0,0:00:19.65,0:00:20.01,Cap,,0,0,0,,HE GOT {\c&H00E6FF&}18{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.01,0:00:20.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DAYS{\c&HFFFFFF&} IN JAIL.
+Dialogue: 0,0:00:20.22,0:00:20.36,Cap,,0,0,0,,DAYS {\c&H00E6FF&}IN{\c&HFFFFFF&} JAIL.
+Dialogue: 0,0:00:20.36,0:00:20.83,Cap,,0,0,0,,DAYS IN {\c&H00E6FF&}JAIL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.93,0:00:21.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 2005,
+Dialogue: 0,0:00:21.08,0:00:21.98,Cap,,0,0,0,,IN {\c&H00E6FF&}2005,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.98,0:00:22.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} DRESSED AS
+Dialogue: 0,0:00:22.30,0:00:22.67,Cap,,0,0,0,,PEOPLE {\c&H00E6FF&}DRESSED{\c&HFFFFFF&} AS
+Dialogue: 0,0:00:22.67,0:00:22.83,Cap,,0,0,0,,PEOPLE DRESSED {\c&H00E6FF&}AS{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.83,0:00:23.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SANTA{\c&HFFFFFF&} AND A
+Dialogue: 0,0:00:23.11,0:00:23.41,Cap,,0,0,0,,SANTA {\c&H00E6FF&}AND{\c&HFFFFFF&} A
+Dialogue: 0,0:00:23.41,0:00:23.51,Cap,,0,0,0,,SANTA AND {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.51,0:00:24.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GINGERBREAD{\c&HFFFFFF&} MAN SHOT
+Dialogue: 0,0:00:24.06,0:00:24.25,Cap,,0,0,0,,GINGERBREAD {\c&H00E6FF&}MAN{\c&HFFFFFF&} SHOT
+Dialogue: 0,0:00:24.25,0:00:24.49,Cap,,0,0,0,,GINGERBREAD MAN {\c&H00E6FF&}SHOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.49,0:00:24.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} WITH A
+Dialogue: 0,0:00:24.64,0:00:24.95,Cap,,0,0,0,,IT {\c&H00E6FF&}WITH{\c&HFFFFFF&} A
+Dialogue: 0,0:00:24.95,0:00:25.06,Cap,,0,0,0,,IT WITH {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.06,0:00:25.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLAMING{\c&HFFFFFF&} ARROW.
+Dialogue: 0,0:00:25.55,0:00:26.10,Cap,,0,0,0,,FLAMING {\c&H00E6FF&}ARROW.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.23,0:00:26.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} FAR,
+Dialogue: 0,0:00:26.36,0:00:26.52,Cap,,0,0,0,,SO {\c&H00E6FF&}FAR,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.52,0:00:26.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}43{\c&HFFFFFF&} GOATS HAVE
+Dialogue: 0,0:00:26.94,0:00:27.18,Cap,,0,0,0,,43 {\c&H00E6FF&}GOATS{\c&HFFFFFF&} HAVE
+Dialogue: 0,0:00:27.18,0:00:27.38,Cap,,0,0,0,,43 GOATS {\c&H00E6FF&}HAVE{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.38,0:00:27.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEEN{\c&HFFFFFF&} BURNED OR
+Dialogue: 0,0:00:27.59,0:00:27.87,Cap,,0,0,0,,BEEN {\c&H00E6FF&}BURNED{\c&HFFFFFF&} OR
+Dialogue: 0,0:00:27.87,0:00:28.00,Cap,,0,0,0,,BEEN BURNED {\c&H00E6FF&}OR{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.00,0:00:28.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WRECKED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.83,0:00:28.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THIS CHRISTMAS,
+Dialogue: 0,0:00:28.94,0:00:29.13,Cap,,0,0,0,,SO {\c&H00E6FF&}THIS{\c&HFFFFFF&} CHRISTMAS,
+Dialogue: 0,0:00:29.13,0:00:29.49,Cap,,0,0,0,,SO THIS {\c&H00E6FF&}CHRISTMAS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.49,0:00:29.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} TOWN WILL
+Dialogue: 0,0:00:29.70,0:00:29.88,Cap,,0,0,0,,THE {\c&H00E6FF&}TOWN{\c&HFFFFFF&} WILL
+Dialogue: 0,0:00:29.88,0:00:30.07,Cap,,0,0,0,,THE TOWN {\c&H00E6FF&}WILL{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.07,0:00:30.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUILD{\c&HFFFFFF&} ANOTHER GOAT.
+Dialogue: 0,0:00:30.29,0:00:30.58,Cap,,0,0,0,,BUILD {\c&H00E6FF&}ANOTHER{\c&HFFFFFF&} GOAT.
+Dialogue: 0,0:00:30.58,0:00:31.03,Cap,,0,0,0,,BUILD ANOTHER {\c&H00E6FF&}GOAT.{\c&HFFFFFF&}

@@ -1,0 +1,112 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1958,
+Dialogue: 0,0:00:00.26,0:00:00.99,Cap,,0,0,0,,IN {\c&H00E6FF&}1958,{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.99,0:00:01.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} US BOMBER
+Dialogue: 0,0:00:01.27,0:00:01.41,Cap,,0,0,0,,A {\c&H00E6FF&}US{\c&HFFFFFF&} BOMBER
+Dialogue: 0,0:00:01.41,0:00:01.79,Cap,,0,0,0,,A US {\c&H00E6FF&}BOMBER{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.79,0:00:02.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DROPPED{\c&HFFFFFF&} AN ATOMIC
+Dialogue: 0,0:00:02.15,0:00:02.37,Cap,,0,0,0,,DROPPED {\c&H00E6FF&}AN{\c&HFFFFFF&} ATOMIC
+Dialogue: 0,0:00:02.37,0:00:02.68,Cap,,0,0,0,,DROPPED AN {\c&H00E6FF&}ATOMIC{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.68,0:00:03.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BOMB{\c&HFFFFFF&} ON A
+Dialogue: 0,0:00:03.04,0:00:03.18,Cap,,0,0,0,,BOMB {\c&H00E6FF&}ON{\c&HFFFFFF&} A
+Dialogue: 0,0:00:03.18,0:00:03.29,Cap,,0,0,0,,BOMB ON {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.29,0:00:04.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BACKYARD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.19,0:00:04.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} BLEW A
+Dialogue: 0,0:00:04.38,0:00:04.56,Cap,,0,0,0,,IT {\c&H00E6FF&}BLEW{\c&HFFFFFF&} A
+Dialogue: 0,0:00:04.56,0:00:04.65,Cap,,0,0,0,,IT BLEW {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.65,0:00:05.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PLAYHOUSE{\c&HFFFFFF&} TO SPLINTERS
+Dialogue: 0,0:00:05.01,0:00:05.13,Cap,,0,0,0,,PLAYHOUSE {\c&H00E6FF&}TO{\c&HFFFFFF&} SPLINTERS
+Dialogue: 0,0:00:05.13,0:00:05.56,Cap,,0,0,0,,PLAYHOUSE TO {\c&H00E6FF&}SPLINTERS{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.56,0:00:05.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} DUG A
+Dialogue: 0,0:00:05.79,0:00:05.95,Cap,,0,0,0,,AND {\c&H00E6FF&}DUG{\c&HFFFFFF&} A
+Dialogue: 0,0:00:05.95,0:00:06.11,Cap,,0,0,0,,AND DUG {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.11,0:00:06.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CRATER{\c&HFFFFFF&} 70 FEET
+Dialogue: 0,0:00:06.37,0:00:06.80,Cap,,0,0,0,,CRATER {\c&H00E6FF&}70{\c&HFFFFFF&} FEET
+Dialogue: 0,0:00:06.80,0:00:07.07,Cap,,0,0,0,,CRATER 70 {\c&H00E6FF&}FEET{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.07,0:00:07.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WIDE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.69,0:00:07.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} WARNING LIGHT
+Dialogue: 0,0:00:07.77,0:00:08.07,Cap,,0,0,0,,A {\c&H00E6FF&}WARNING{\c&HFFFFFF&} LIGHT
+Dialogue: 0,0:00:08.07,0:00:08.37,Cap,,0,0,0,,A WARNING {\c&H00E6FF&}LIGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.37,0:00:08.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLINKED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.73,0:00:08.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE NAVIGATOR
+Dialogue: 0,0:00:08.85,0:00:09.01,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} NAVIGATOR
+Dialogue: 0,0:00:09.01,0:00:09.37,Cap,,0,0,0,,SO THE {\c&H00E6FF&}NAVIGATOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.37,0:00:09.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WENT{\c&HFFFFFF&} TO CHECK
+Dialogue: 0,0:00:09.56,0:00:09.68,Cap,,0,0,0,,WENT {\c&H00E6FF&}TO{\c&HFFFFFF&} CHECK
+Dialogue: 0,0:00:09.68,0:00:10.01,Cap,,0,0,0,,WENT TO {\c&H00E6FF&}CHECK{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.01,0:00:10.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BOMB.
+Dialogue: 0,0:00:10.16,0:00:10.62,Cap,,0,0,0,,THE {\c&H00E6FF&}BOMB.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.70,0:00:10.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} REACHED FOR
+Dialogue: 0,0:00:10.82,0:00:11.12,Cap,,0,0,0,,HE {\c&H00E6FF&}REACHED{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:11.12,0:00:11.28,Cap,,0,0,0,,HE REACHED {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.28,0:00:11.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} LOCKING PIN,
+Dialogue: 0,0:00:11.37,0:00:11.67,Cap,,0,0,0,,A {\c&H00E6FF&}LOCKING{\c&HFFFFFF&} PIN,
+Dialogue: 0,0:00:11.67,0:00:11.83,Cap,,0,0,0,,A LOCKING {\c&H00E6FF&}PIN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.83,0:00:11.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE BOMB
+Dialogue: 0,0:00:11.99,0:00:12.15,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} BOMB
+Dialogue: 0,0:00:12.15,0:00:12.34,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}BOMB{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.34,0:00:12.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAME{\c&HFFFFFF&} UNHOOKED.
+Dialogue: 0,0:00:12.54,0:00:13.29,Cap,,0,0,0,,CAME {\c&H00E6FF&}UNHOOKED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.38,0:00:13.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} TONS OF
+Dialogue: 0,0:00:13.53,0:00:13.72,Cap,,0,0,0,,TWO {\c&H00E6FF&}TONS{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:13.72,0:00:13.85,Cap,,0,0,0,,TWO TONS {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.85,0:00:14.28,Cap,,0,0,0,,{\fs94}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EXPLOSIVE{\c&HFFFFFF&} SMASHED STRAIGHT
+Dialogue: 0,0:00:14.28,0:00:14.58,Cap,,0,0,0,,{\fs94}EXPLOSIVE {\c&H00E6FF&}SMASHED{\c&HFFFFFF&} STRAIGHT
+Dialogue: 0,0:00:14.58,0:00:14.97,Cap,,0,0,0,,{\fs94}EXPLOSIVE SMASHED {\c&H00E6FF&}STRAIGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.97,0:00:15.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THROUGH{\c&HFFFFFF&} THE BOMB
+Dialogue: 0,0:00:15.39,0:00:15.55,Cap,,0,0,0,,THROUGH {\c&H00E6FF&}THE{\c&HFFFFFF&} BOMB
+Dialogue: 0,0:00:15.55,0:00:15.74,Cap,,0,0,0,,THROUGH THE {\c&H00E6FF&}BOMB{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.74,0:00:15.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BAY{\c&HFFFFFF&} DOORS.
+Dialogue: 0,0:00:15.90,0:00:16.39,Cap,,0,0,0,,BAY {\c&H00E6FF&}DOORS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.52,0:00:16.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT FELL
+Dialogue: 0,0:00:16.78,0:00:16.99,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} FELL
+Dialogue: 0,0:00:16.99,0:00:17.25,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}FELL{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.25,0:00:18.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}15,000{\c&HFFFFFF&} FEET ONTO
+Dialogue: 0,0:00:18.12,0:00:18.31,Cap,,0,0,0,,15,000 {\c&H00E6FF&}FEET{\c&HFFFFFF&} ONTO
+Dialogue: 0,0:00:18.31,0:00:18.61,Cap,,0,0,0,,15,000 FEET {\c&H00E6FF&}ONTO{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.61,0:00:18.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MARS{\c&HFFFFFF&} BLUFF,
+Dialogue: 0,0:00:18.89,0:00:19.13,Cap,,0,0,0,,MARS {\c&H00E6FF&}BLUFF,{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.13,0:00:19.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOUTH{\c&HFFFFFF&} CAROLINA.
+Dialogue: 0,0:00:19.36,0:00:19.96,Cap,,0,0,0,,SOUTH {\c&H00E6FF&}CAROLINA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.06,0:00:20.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HERE'S{\c&HFFFFFF&} THE PART
+Dialogue: 0,0:00:20.32,0:00:20.51,Cap,,0,0,0,,HERE'S {\c&H00E6FF&}THE{\c&HFFFFFF&} PART
+Dialogue: 0,0:00:20.51,0:00:20.74,Cap,,0,0,0,,HERE'S THE {\c&H00E6FF&}PART{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.74,0:00:21.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOBODY{\c&HFFFFFF&} SAW COMING:
+Dialogue: 0,0:00:21.05,0:00:21.23,Cap,,0,0,0,,NOBODY {\c&H00E6FF&}SAW{\c&HFFFFFF&} COMING:
+Dialogue: 0,0:00:21.23,0:00:21.54,Cap,,0,0,0,,NOBODY SAW {\c&H00E6FF&}COMING:{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.54,0:00:21.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} NUCLEAR CORE
+Dialogue: 0,0:00:21.89,0:00:22.30,Cap,,0,0,0,,THE {\c&H00E6FF&}NUCLEAR{\c&HFFFFFF&} CORE
+Dialogue: 0,0:00:22.30,0:00:22.53,Cap,,0,0,0,,THE NUCLEAR {\c&H00E6FF&}CORE{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.53,0:00:22.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WASN'T{\c&HFFFFFF&} IN IT.
+Dialogue: 0,0:00:22.80,0:00:22.94,Cap,,0,0,0,,WASN'T {\c&H00E6FF&}IN{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:22.94,0:00:23.35,Cap,,0,0,0,,WASN'T IN {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.42,0:00:23.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SIX{\c&HFFFFFF&} PEOPLE WERE
+Dialogue: 0,0:00:23.60,0:00:23.91,Cap,,0,0,0,,SIX {\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} WERE
+Dialogue: 0,0:00:23.91,0:00:24.14,Cap,,0,0,0,,SIX PEOPLE {\c&H00E6FF&}WERE{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.14,0:00:24.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HURT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.37,0:00:24.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOBODY{\c&HFFFFFF&} DIED.
+Dialogue: 0,0:00:24.68,0:00:24.91,Cap,,0,0,0,,NOBODY {\c&H00E6FF&}DIED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.91,0:00:25.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CHICKENS WEREN'T
+Dialogue: 0,0:00:25.31,0:00:25.70,Cap,,0,0,0,,THE {\c&H00E6FF&}CHICKENS{\c&HFFFFFF&} WEREN'T
+Dialogue: 0,0:00:25.70,0:00:26.01,Cap,,0,0,0,,THE CHICKENS {\c&H00E6FF&}WEREN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.01,0:00:26.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} LUCKY.
+Dialogue: 0,0:00:26.16,0:00:26.75,Cap,,0,0,0,,SO {\c&H00E6FF&}LUCKY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.85,0:00:27.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} AIR FORCE
+Dialogue: 0,0:00:27.04,0:00:27.23,Cap,,0,0,0,,THE {\c&H00E6FF&}AIR{\c&HFFFFFF&} FORCE
+Dialogue: 0,0:00:27.23,0:00:27.51,Cap,,0,0,0,,THE AIR {\c&H00E6FF&}FORCE{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.51,0:00:27.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PAID{\c&HFFFFFF&} $54,000.
+Dialogue: 0,0:00:27.91,0:00:28.98,Cap,,0,0,0,,PAID {\c&H00E6FF&}$54,000.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.98,0:00:29.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} ONE BACKYARD.
+Dialogue: 0,0:00:29.33,0:00:29.52,Cap,,0,0,0,,FOR {\c&H00E6FF&}ONE{\c&HFFFFFF&} BACKYARD.
+Dialogue: 0,0:00:29.52,0:00:30.27,Cap,,0,0,0,,FOR ONE {\c&H00E6FF&}BACKYARD.{\c&HFFFFFF&}

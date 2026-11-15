@@ -1,0 +1,108 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1943,
+Dialogue: 0,0:00:00.28,0:00:01.16,Cap,,0,0,0,,IN {\c&H00E6FF&}1943,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.16,0:00:01.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} US ARMY
+Dialogue: 0,0:00:01.45,0:00:01.61,Cap,,0,0,0,,THE {\c&H00E6FF&}US{\c&HFFFFFF&} ARMY
+Dialogue: 0,0:00:01.61,0:00:01.86,Cap,,0,0,0,,THE US {\c&H00E6FF&}ARMY{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.86,0:00:02.41,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STRAPPED{\c&HFFFFFF&} TINY FIREBOMBS
+Dialogue: 0,0:00:02.41,0:00:02.67,Cap,,0,0,0,,{\fs107}STRAPPED {\c&H00E6FF&}TINY{\c&HFFFFFF&} FIREBOMBS
+Dialogue: 0,0:00:02.67,0:00:03.23,Cap,,0,0,0,,{\fs107}STRAPPED TINY {\c&H00E6FF&}FIREBOMBS{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.23,0:00:03.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} LIVE BATS.
+Dialogue: 0,0:00:03.40,0:00:03.74,Cap,,0,0,0,,TO {\c&H00E6FF&}LIVE{\c&HFFFFFF&} BATS.
+Dialogue: 0,0:00:03.74,0:00:04.35,Cap,,0,0,0,,TO LIVE {\c&H00E6FF&}BATS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.44,0:00:04.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} THOUSAND BATS
+Dialogue: 0,0:00:04.60,0:00:04.97,Cap,,0,0,0,,A {\c&H00E6FF&}THOUSAND{\c&HFFFFFF&} BATS
+Dialogue: 0,0:00:04.97,0:00:05.25,Cap,,0,0,0,,A THOUSAND {\c&H00E6FF&}BATS{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.25,0:00:05.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PER{\c&HFFFFFF&} BOMB,
+Dialogue: 0,0:00:05.43,0:00:05.64,Cap,,0,0,0,,PER {\c&H00E6FF&}BOMB,{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.64,0:00:05.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EACH{\c&HFFFFFF&} WITH NAPALM
+Dialogue: 0,0:00:05.94,0:00:06.15,Cap,,0,0,0,,EACH {\c&H00E6FF&}WITH{\c&HFFFFFF&} NAPALM
+Dialogue: 0,0:00:06.15,0:00:06.45,Cap,,0,0,0,,EACH WITH {\c&H00E6FF&}NAPALM{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.45,0:00:06.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CLIPPED{\c&HFFFFFF&} TO ITS
+Dialogue: 0,0:00:06.87,0:00:07.00,Cap,,0,0,0,,CLIPPED {\c&H00E6FF&}TO{\c&HFFFFFF&} ITS
+Dialogue: 0,0:00:07.00,0:00:07.18,Cap,,0,0,0,,CLIPPED TO {\c&H00E6FF&}ITS{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.18,0:00:07.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHEST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.84,0:00:07.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} DENTIST'S IDEA:
+Dialogue: 0,0:00:07.94,0:00:08.33,Cap,,0,0,0,,A {\c&H00E6FF&}DENTIST'S{\c&HFFFFFF&} IDEA:
+Dialogue: 0,0:00:08.33,0:00:08.56,Cap,,0,0,0,,A DENTIST'S {\c&H00E6FF&}IDEA:{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.56,0:00:08.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DROP{\c&HFFFFFF&} THEM ON
+Dialogue: 0,0:00:08.78,0:00:09.27,Cap,,0,0,0,,DROP {\c&H00E6FF&}THEM{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:09.27,0:00:09.41,Cap,,0,0,0,,DROP THEM {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.41,0:00:09.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JAPAN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.68,0:00:09.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHERE{\c&HFFFFFF&} THEY'D HIDE
+Dialogue: 0,0:00:09.95,0:00:10.22,Cap,,0,0,0,,WHERE {\c&H00E6FF&}THEY'D{\c&HFFFFFF&} HIDE
+Dialogue: 0,0:00:10.22,0:00:10.44,Cap,,0,0,0,,WHERE THEY'D {\c&H00E6FF&}HIDE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.44,0:00:10.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} ATTICS.
+Dialogue: 0,0:00:10.59,0:00:11.24,Cap,,0,0,0,,IN {\c&H00E6FF&}ATTICS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.34,0:00:11.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOMEHOW,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.70,0:00:12.21,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PRESIDENT{\c&HFFFFFF&} ROOSEVELT SAID
+Dialogue: 0,0:00:12.21,0:00:12.66,Cap,,0,0,0,,{\fs102}PRESIDENT {\c&H00E6FF&}ROOSEVELT{\c&HFFFFFF&} SAID
+Dialogue: 0,0:00:12.66,0:00:12.89,Cap,,0,0,0,,{\fs102}PRESIDENT ROOSEVELT {\c&H00E6FF&}SAID{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.89,0:00:13.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}YES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.44,0:00:13.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} IN MAY
+Dialogue: 0,0:00:13.60,0:00:13.76,Cap,,0,0,0,,SO {\c&H00E6FF&}IN{\c&HFFFFFF&} MAY
+Dialogue: 0,0:00:13.76,0:00:13.97,Cap,,0,0,0,,SO IN {\c&H00E6FF&}MAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.97,0:00:14.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}1943,{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.79,0:00:15.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} TESTED IT
+Dialogue: 0,0:00:15.17,0:00:15.52,Cap,,0,0,0,,THEY {\c&H00E6FF&}TESTED{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:15.52,0:00:15.69,Cap,,0,0,0,,THEY TESTED {\c&H00E6FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.69,0:00:15.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AT{\c&HFFFFFF&} AN AIRFIELD
+Dialogue: 0,0:00:15.85,0:00:16.01,Cap,,0,0,0,,AT {\c&H00E6FF&}AN{\c&HFFFFFF&} AIRFIELD
+Dialogue: 0,0:00:16.01,0:00:16.46,Cap,,0,0,0,,AT AN {\c&H00E6FF&}AIRFIELD{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.46,0:00:16.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} NEW MEXICO.
+Dialogue: 0,0:00:16.62,0:00:16.83,Cap,,0,0,0,,IN {\c&H00E6FF&}NEW{\c&HFFFFFF&} MEXICO.
+Dialogue: 0,0:00:16.83,0:00:17.45,Cap,,0,0,0,,IN NEW {\c&H00E6FF&}MEXICO.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.54,0:00:17.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:17.73,0:00:17.85,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:17.85,0:00:18.01,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.01,0:00:18.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.24,0:00:18.44,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOME{\c&HFFFFFF&} ARMED BATS
+Dialogue: 0,0:00:18.44,0:00:18.67,Cap,,0,0,0,,SOME {\c&H00E6FF&}ARMED{\c&HFFFFFF&} BATS
+Dialogue: 0,0:00:18.67,0:00:18.86,Cap,,0,0,0,,SOME ARMED {\c&H00E6FF&}BATS{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.86,0:00:19.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ESCAPED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.71,0:00:19.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} FLEW UNDER
+Dialogue: 0,0:00:19.96,0:00:20.16,Cap,,0,0,0,,THEY {\c&H00E6FF&}FLEW{\c&HFFFFFF&} UNDER
+Dialogue: 0,0:00:20.16,0:00:20.45,Cap,,0,0,0,,THEY FLEW {\c&H00E6FF&}UNDER{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.45,0:00:20.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FUEL TANK,
+Dialogue: 0,0:00:20.54,0:00:20.73,Cap,,0,0,0,,A {\c&H00E6FF&}FUEL{\c&HFFFFFF&} TANK,
+Dialogue: 0,0:00:20.73,0:00:21.11,Cap,,0,0,0,,A FUEL {\c&H00E6FF&}TANK,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.11,0:00:21.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} HUNG UPSIDE
+Dialogue: 0,0:00:21.27,0:00:21.46,Cap,,0,0,0,,AND {\c&H00E6FF&}HUNG{\c&HFFFFFF&} UPSIDE
+Dialogue: 0,0:00:21.46,0:00:21.73,Cap,,0,0,0,,AND HUNG {\c&H00E6FF&}UPSIDE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.73,0:00:21.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOWN{\c&HFFFFFF&} FOR A
+Dialogue: 0,0:00:21.93,0:00:22.18,Cap,,0,0,0,,DOWN {\c&H00E6FF&}FOR{\c&HFFFFFF&} A
+Dialogue: 0,0:00:22.18,0:00:22.26,Cap,,0,0,0,,DOWN FOR {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.26,0:00:22.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NAP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.93,0:00:23.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THE TIMERS
+Dialogue: 0,0:00:23.11,0:00:23.26,Cap,,0,0,0,,THEN {\c&H00E6FF&}THE{\c&HFFFFFF&} TIMERS
+Dialogue: 0,0:00:23.26,0:00:23.51,Cap,,0,0,0,,THEN THE {\c&H00E6FF&}TIMERS{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.51,0:00:23.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RAN{\c&HFFFFFF&} OUT.
+Dialogue: 0,0:00:23.66,0:00:24.08,Cap,,0,0,0,,RAN {\c&H00E6FF&}OUT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.17,0:00:24.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHOOSH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.43,0:00:24.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BATS BURNED
+Dialogue: 0,0:00:24.58,0:00:24.78,Cap,,0,0,0,,THE {\c&H00E6FF&}BATS{\c&HFFFFFF&} BURNED
+Dialogue: 0,0:00:24.78,0:00:25.11,Cap,,0,0,0,,THE BATS {\c&H00E6FF&}BURNED{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.11,0:00:25.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOWN{\c&HFFFFFF&} THEIR OWN
+Dialogue: 0,0:00:25.30,0:00:25.53,Cap,,0,0,0,,DOWN {\c&H00E6FF&}THEIR{\c&HFFFFFF&} OWN
+Dialogue: 0,0:00:25.53,0:00:25.69,Cap,,0,0,0,,DOWN THEIR {\c&H00E6FF&}OWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.69,0:00:25.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TEST{\c&HFFFFFF&} RANGE.
+Dialogue: 0,0:00:25.88,0:00:26.37,Cap,,0,0,0,,TEST {\c&H00E6FF&}RANGE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.50,0:00:26.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} WHO DID
+Dialogue: 0,0:00:26.63,0:00:26.79,Cap,,0,0,0,,SO {\c&H00E6FF&}WHO{\c&HFFFFFF&} DID
+Dialogue: 0,0:00:26.79,0:00:26.96,Cap,,0,0,0,,SO WHO {\c&H00E6FF&}DID{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.96,0:00:27.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BATS FIREBOMB
+Dialogue: 0,0:00:27.13,0:00:27.39,Cap,,0,0,0,,THE {\c&H00E6FF&}BATS{\c&HFFFFFF&} FIREBOMB
+Dialogue: 0,0:00:27.39,0:00:27.83,Cap,,0,0,0,,THE BATS {\c&H00E6FF&}FIREBOMB{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.83,0:00:28.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIRST?{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.15,0:00:28.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AMERICA.{\c&HFFFFFF&}

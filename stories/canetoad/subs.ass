@@ -1,0 +1,104 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1935,
+Dialogue: 0,0:00:00.29,0:00:01.15,Cap,,0,0,0,,IN {\c&H00E6FF&}1935,{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.15,0:00:01.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AUSTRALIA{\c&HFFFFFF&} IMPORTED 102
+Dialogue: 0,0:00:01.80,0:00:02.27,Cap,,0,0,0,,AUSTRALIA {\c&H00E6FF&}IMPORTED{\c&HFFFFFF&} 102
+Dialogue: 0,0:00:02.27,0:00:02.93,Cap,,0,0,0,,AUSTRALIA IMPORTED {\c&H00E6FF&}102{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.93,0:00:03.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOADS{\c&HFFFFFF&} TO EAT
+Dialogue: 0,0:00:03.25,0:00:03.43,Cap,,0,0,0,,TOADS {\c&H00E6FF&}TO{\c&HFFFFFF&} EAT
+Dialogue: 0,0:00:03.43,0:00:03.81,Cap,,0,0,0,,TOADS TO {\c&H00E6FF&}EAT{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.81,0:00:04.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEETLES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.58,0:00:04.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} YEARS LATER,
+Dialogue: 0,0:00:04.75,0:00:05.00,Cap,,0,0,0,,TWO {\c&H00E6FF&}YEARS{\c&HFFFFFF&} LATER,
+Dialogue: 0,0:00:05.00,0:00:05.24,Cap,,0,0,0,,TWO YEARS {\c&H00E6FF&}LATER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.24,0:00:06.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}62,000{\c&HFFFFFF&} BABY TOADS
+Dialogue: 0,0:00:06.13,0:00:06.34,Cap,,0,0,0,,62,000 {\c&H00E6FF&}BABY{\c&HFFFFFF&} TOADS
+Dialogue: 0,0:00:06.34,0:00:06.59,Cap,,0,0,0,,62,000 BABY {\c&H00E6FF&}TOADS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.59,0:00:06.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WERE{\c&HFFFFFF&} HOPPING THROUGH
+Dialogue: 0,0:00:06.80,0:00:07.21,Cap,,0,0,0,,WERE {\c&H00E6FF&}HOPPING{\c&HFFFFFF&} THROUGH
+Dialogue: 0,0:00:07.21,0:00:07.60,Cap,,0,0,0,,WERE HOPPING {\c&H00E6FF&}THROUGH{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.60,0:00:07.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SUGARCANE.
+Dialogue: 0,0:00:07.77,0:00:08.53,Cap,,0,0,0,,THE {\c&H00E6FF&}SUGARCANE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.62,0:00:08.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} PLAN:
+Dialogue: 0,0:00:08.78,0:00:08.97,Cap,,0,0,0,,THE {\c&H00E6FF&}PLAN:{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.97,0:00:09.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GOBBLE{\c&HFFFFFF&} UP THE
+Dialogue: 0,0:00:09.24,0:00:09.36,Cap,,0,0,0,,GOBBLE {\c&H00E6FF&}UP{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:09.36,0:00:09.58,Cap,,0,0,0,,GOBBLE UP {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.58,0:00:09.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CANE{\c&HFFFFFF&} BEETLES WRECKING
+Dialogue: 0,0:00:09.78,0:00:10.08,Cap,,0,0,0,,CANE {\c&H00E6FF&}BEETLES{\c&HFFFFFF&} WRECKING
+Dialogue: 0,0:00:10.08,0:00:10.49,Cap,,0,0,0,,CANE BEETLES {\c&H00E6FF&}WRECKING{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.49,0:00:10.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CROP.
+Dialogue: 0,0:00:10.65,0:00:11.24,Cap,,0,0,0,,THE {\c&H00E6FF&}CROP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.32,0:00:11.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE BEETLES
+Dialogue: 0,0:00:11.47,0:00:11.63,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} BEETLES
+Dialogue: 0,0:00:11.63,0:00:11.93,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}BEETLES{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.93,0:00:12.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LIVED{\c&HFFFFFF&} HIGH UP
+Dialogue: 0,0:00:12.16,0:00:12.35,Cap,,0,0,0,,LIVED {\c&H00E6FF&}HIGH{\c&HFFFFFF&} UP
+Dialogue: 0,0:00:12.35,0:00:12.54,Cap,,0,0,0,,LIVED HIGH {\c&H00E6FF&}UP{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.54,0:00:12.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ON{\c&HFFFFFF&} THE CANE
+Dialogue: 0,0:00:12.66,0:00:12.82,Cap,,0,0,0,,ON {\c&H00E6FF&}THE{\c&HFFFFFF&} CANE
+Dialogue: 0,0:00:12.82,0:00:13.01,Cap,,0,0,0,,ON THE {\c&H00E6FF&}CANE{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.01,0:00:13.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STALKS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.75,0:00:13.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} TOADS CAN'T
+Dialogue: 0,0:00:13.93,0:00:14.19,Cap,,0,0,0,,AND {\c&H00E6FF&}TOADS{\c&HFFFFFF&} CAN'T
+Dialogue: 0,0:00:14.19,0:00:14.42,Cap,,0,0,0,,AND TOADS {\c&H00E6FF&}CAN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.42,0:00:14.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CLIMB.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.07,0:00:15.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE TOADS
+Dialogue: 0,0:00:15.19,0:00:15.35,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} TOADS
+Dialogue: 0,0:00:15.35,0:00:15.58,Cap,,0,0,0,,SO THE {\c&H00E6FF&}TOADS{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.58,0:00:15.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ATE{\c&HFFFFFF&} EVERYTHING ELSE
+Dialogue: 0,0:00:15.83,0:00:16.23,Cap,,0,0,0,,ATE {\c&H00E6FF&}EVERYTHING{\c&HFFFFFF&} ELSE
+Dialogue: 0,0:00:16.23,0:00:16.43,Cap,,0,0,0,,ATE EVERYTHING {\c&H00E6FF&}ELSE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.43,0:00:16.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INSTEAD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.16,0:00:17.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:17.37,0:00:17.51,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:17.51,0:00:17.69,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.69,0:00:17.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.95,0:00:18.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY'RE{\c&HFFFFFF&} POISONOUS.
+Dialogue: 0,0:00:18.25,0:00:18.82,Cap,,0,0,0,,THEY'RE {\c&H00E6FF&}POISONOUS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.82,0:00:19.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SNAKES{\c&HFFFFFF&} AND LIZARDS
+Dialogue: 0,0:00:19.11,0:00:19.29,Cap,,0,0,0,,SNAKES {\c&H00E6FF&}AND{\c&HFFFFFF&} LIZARDS
+Dialogue: 0,0:00:19.29,0:00:19.63,Cap,,0,0,0,,SNAKES AND {\c&H00E6FF&}LIZARDS{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.63,0:00:19.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THAT{\c&HFFFFFF&} ATE THEM
+Dialogue: 0,0:00:19.85,0:00:20.11,Cap,,0,0,0,,THAT {\c&H00E6FF&}ATE{\c&HFFFFFF&} THEM
+Dialogue: 0,0:00:20.11,0:00:20.33,Cap,,0,0,0,,THAT ATE {\c&H00E6FF&}THEM{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.33,0:00:20.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DIED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.98,0:00:21.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TODAY{\c&HFFFFFF&} THERE ARE
+Dialogue: 0,0:00:21.28,0:00:21.59,Cap,,0,0,0,,TODAY {\c&H00E6FF&}THERE{\c&HFFFFFF&} ARE
+Dialogue: 0,0:00:21.59,0:00:21.87,Cap,,0,0,0,,TODAY THERE {\c&H00E6FF&}ARE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.87,0:00:22.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OVER{\c&HFFFFFF&} 200 MILLION.
+Dialogue: 0,0:00:22.13,0:00:22.76,Cap,,0,0,0,,OVER {\c&H00E6FF&}200{\c&HFFFFFF&} MILLION.
+Dialogue: 0,0:00:22.76,0:00:23.39,Cap,,0,0,0,,OVER 200 {\c&H00E6FF&}MILLION.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.39,0:00:23.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} FOUND IN
+Dialogue: 0,0:00:23.61,0:00:23.91,Cap,,0,0,0,,ONE {\c&H00E6FF&}FOUND{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:23.91,0:00:24.08,Cap,,0,0,0,,ONE FOUND {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.08,0:00:25.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}2023{\c&HFFFFFF&} WEIGHED 2.7
+Dialogue: 0,0:00:25.04,0:00:25.44,Cap,,0,0,0,,2023 {\c&H00E6FF&}WEIGHED{\c&HFFFFFF&} 2.7
+Dialogue: 0,0:00:25.44,0:00:25.95,Cap,,0,0,0,,2023 WEIGHED {\c&H00E6FF&}2.7{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.95,0:00:26.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}KILOS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.61,0:00:26.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RANGERS{\c&HFFFFFF&} NAMED HER
+Dialogue: 0,0:00:26.92,0:00:27.17,Cap,,0,0,0,,RANGERS {\c&H00E6FF&}NAMED{\c&HFFFFFF&} HER
+Dialogue: 0,0:00:27.17,0:00:27.33,Cap,,0,0,0,,RANGERS NAMED {\c&H00E6FF&}HER{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.33,0:00:27.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOADZILLA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.08,0:00:28.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE BEETLES
+Dialogue: 0,0:00:28.23,0:00:28.39,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} BEETLES
+Dialogue: 0,0:00:28.39,0:00:28.70,Cap,,0,0,0,,AND THE {\c&H00E6FF&}BEETLES{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.70,0:00:28.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THOSE{\c&HFFFFFF&} TOADS WERE
+Dialogue: 0,0:00:28.93,0:00:29.16,Cap,,0,0,0,,THOSE {\c&H00E6FF&}TOADS{\c&HFFFFFF&} WERE
+Dialogue: 0,0:00:29.16,0:00:29.35,Cap,,0,0,0,,THOSE TOADS {\c&H00E6FF&}WERE{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.35,0:00:29.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIRED{\c&HFFFFFF&} TO EAT?
+Dialogue: 0,0:00:29.58,0:00:29.70,Cap,,0,0,0,,HIRED {\c&H00E6FF&}TO{\c&HFFFFFF&} EAT?
+Dialogue: 0,0:00:29.70,0:00:30.06,Cap,,0,0,0,,HIRED TO {\c&H00E6FF&}EAT?{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.06,0:00:30.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STILL{\c&HFFFFFF&} THERE.
+Dialogue: 0,0:00:30.29,0:00:30.79,Cap,,0,0,0,,STILL {\c&H00E6FF&}THERE.{\c&HFFFFFF&}
