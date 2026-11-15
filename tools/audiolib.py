@@ -267,11 +267,48 @@ def bell(f=880):
     n = int(1.4 * SR); t = np.arange(n) / SR
     return (sum(np.sin(2 * np.pi * f * k * t) * np.exp(-t * (1.2 + k)) / k for k in (1, 2.4, 3.9))).astype(np.float32) * 0.3
 
+
+# ---------------- comedy sfx (YouTube feedback 2026-11-15: punchier bespoke SFX on the jokes) ----------------
+def bonk(f0=420):           # cartoon head-bonk / comedic thud: woody knock + falling pitch
+    d = 0.35; n = int(d * SR); t = np.arange(n) / SR
+    tone = np.sin(2 * np.pi * f0 * t * (1 - 0.35 * t / d)) * np.exp(-t * 22)
+    return ((tone + thunk(70, d) * 0.9 + hp_fast(noise(d), 2500) * np.exp(-t * 80) * 0.4) * 0.5).astype(np.float32)
+def chew(d=1.2, rate=5.0):   # crunchy chewing: rhythmic filtered noise bursts
+    n = int(d * SR); t = np.arange(n) / SR
+    gate = np.clip(np.sin(2 * np.pi * rate * t), 0, 1) ** 3
+    return ((lp_fast(noise(d), 2500) * 0.8 + hp_fast(noise(d), 3000) * 0.5 * (rng.random(n) > 0.97)) * gate * 0.5).astype(np.float32)
+def boing(f0=180, d=0.6):    # spring: pitch wobble
+    n = int(d * SR); t = np.arange(n) / SR
+    f = f0 * (1 + 0.5 * np.sin(2 * np.pi * 12 * t) * np.exp(-t * 4))
+    return (np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * 5) * 0.8).astype(np.float32)
+def slide(up=True, d=0.7):   # slide whistle up/down
+    n = int(d * SR); t = np.arange(n) / SR
+    f = np.linspace(500, 1600, n) if up else np.linspace(1600, 400, n)
+    return (np.sin(2 * np.pi * np.cumsum(f * (1 + 0.01 * np.sin(2 * np.pi * 6 * t))) / SR) * np.sin(np.pi * t / d) * 0.5).astype(np.float32)
+def scratch():               # record scratch: stop-the-story moment
+    d = 0.45; n = int(d * SR); t = np.arange(n) / SR
+    f = 300 + 900 * np.abs(np.sin(2 * np.pi * 3.5 * t))
+    return (np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.3 + bp(noise(d), 1200) * 0.8) .astype(np.float32) * np.exp(-t * 3).astype(np.float32)
+def bp(x, f): return hp_fast(lp_fast(x, f * 1.5), f * 0.6)
+def ribbit():                # frog/toad croak
+    d = 0.4; n = int(d * SR); t = np.arange(n) / SR
+    pulses = (np.sin(2 * np.pi * 28 * t) > 0.2).astype(np.float32)
+    return (np.sin(2 * np.pi * 140 * t) * pulses * np.sin(np.pi * t / d) * 0.9).astype(np.float32)
+def tick():                  # counter tick for numbers ticking up
+    d = 0.05; t = np.arange(int(d * SR)) / SR
+    return (np.sin(2 * np.pi * 2400 * t) * np.exp(-t * 120)).astype(np.float32)
+def countup(t0, t1, gain=0.6):  # rapid ticks while a big number counts up on screen
+    k = t0
+    while k < t1: place(sfx, tick(), k, gain); k += 0.05 + 0.1 * (k - t0) / max(0.01, t1 - t0)
+def gulp():
+    d = 0.3; n = int(d * SR); t = np.arange(n) / SR
+    return (np.sin(2 * np.pi * (300 - 500 * t) * t) * np.exp(-t * 10) + lp_fast(noise(d), 600) * np.exp(-t * 20) * 0.5).astype(np.float32)
+
 # ---------------- mix ----------------
 def load_voice():
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', f'{SD}/voice.wav', '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True).stdout
     v = np.frombuffer(raw, np.float32).copy(); out = np.zeros(N, np.float32); out[:min(N, len(v))] = v[:N]; return out
-def mixdown(music_gain=0.8, sfx_gain=0.45):
+def mixdown(music_gain=0.8, sfx_gain=0.55):
     voice = load_voice()
     ve = np.abs(voice); k = int(0.05 * SR); ve = np.convolve(ve, np.ones(k) / k, 'same')
     duck = 1 - 0.7 * np.clip(ve / (ve.max() * 0.25), 0, 1)

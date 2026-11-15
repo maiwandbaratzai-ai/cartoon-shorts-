@@ -81,6 +81,10 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
 - A sound effect on every visual hit (impacts, pops, whooshes on cuts). Silence only as a deliberate beat before a
   twist, never more than ~0.4 s.
 - Music: original synthesized beds only (audiolib). Keep it running through the last frame for the loop.
+- **Comedy SFX on every joke** (YouTube's AI review gave our audio B+ for this): `bonk()` on a dumb decision or fall,
+  `chew()`/`gulp()` when anything eats, `boing()`, `slide(True/False)` for things going up or down, `scratch()` right before the
+  twist ("but then…"), `ribbit()` for frogs/toads, and `countup(t0, t1)` ticks while a big number counts up. Aim for one
+  bespoke sound every 2–3 s on top of the cut whooshes, and match the sound to the action on screen.
 
 ## 6. Packaging (write stories/<slug>/upload.txt with these)
 
@@ -173,6 +177,11 @@ Every day: **four 30-second Shorts + one 64-second video.**
   question in the caption ("Would you have eaten it?"). The account still has older AI fruit-story videos that
   pull the wrong search traffic. Creator Rewards needs 10k followers, so followers are the main goal there.
 
+
+- 2026-11-15 (YouTube's built-in AI feedback on the cane-toad Short): Hook A, Narrative A, Presence/voice A,
+  Visuals A-, Audio B+. To fix: (1) open on the absurd claim or conflict itself, not on a date stamp. The year badge can
+  wait until line 2 or the thumbnail. (2) Use quicker cuts and changing camera angles in the MIDDLE explanation (lines 3–6),
+  where shots tend to sit too long. (3) Add punchier bespoke SFX (see §5).
 
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/

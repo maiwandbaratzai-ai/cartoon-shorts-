@@ -45,7 +45,8 @@ Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side
 
 ## Shot rules (you do these in each story)
 
-- **Cut or move every 1.5–3 s.** A 30 s video has 12+ shots; a 64 s video has 25+.
+- **Cut or move every 1.5–3 s.** A 30 s video has 12+ shots; a 64 s video has 25+. The middle explanation (lines 3–6)
+  needs it most: new angle per line (low angle, over-the-shoulder, top-down, insert), never one long held shot.
 - **At least half the shots are close-ups:** the character's head and body fill 60–80% of the frame height
   (camera 2–4 m away, fov 30–40). Wide shots only open a new place.
 - **Insert shot for every object the narration names** (newspaper headline, money, tool, food, sign, letter).
