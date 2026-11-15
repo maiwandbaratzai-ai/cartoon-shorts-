@@ -153,6 +153,10 @@ Every day: **four 30-second Shorts + one 64-second video.**
   - **No dead air at the end:** the 64 s bath-toy video had 4.2 s of padded silence and its retention fell off a
     cliff in the last seconds. Never pad more than ~1 s; lengthen the script instead (voice.py now refuses).
   - Don't slow the narrator below 1.1× to hit a length: it drags. Add a line instead.
+- 2026-11-14 (YouTube channel 2): its first 3 Shorts got 0.4–1.06K views like channel 1, but every Short posted
+  after ~Nov 12 got **0–1 views**, i.e. the channel stopped being shown at all. That's a channel-level issue,
+  not the scripts (the same kind of video got ~1.3K on channel 1 the same day). Cause unknown; Maiwand is checking
+  Restrictions / Made-for-kids / duplicate uploads. Never upload the same video to both channels.
 
 
 ## Sources consulted
