@@ -19,6 +19,11 @@
 - 2026-11-14 Dancing plague, Strasbourg, 1518 (30 s, Channel B)
 - 2026-11-14 Great Moon Hoax, The Sun, New York, 1835 (30 s, Channel B)
 - 2026-11-14 Wrong Way Corrigan, Brooklyn to Dublin, 1938 (64 s, TikTok)
+- 2026-11-15 Bat bomb burns its own test range, Carlsbad Army Airfield NM, 1943 (30 s, Channel A)
+- 2026-11-15 Cane toads in Australia, Gordonvale QLD, 1935 (+ Toadzilla 2023) (30 s, Channel A)
+- 2026-11-15 Mars Bluff B-47 bomb drop, South Carolina, 1958 (30 s, Channel B)
+- 2026-11-15 Gävle Christmas goat keeps getting burned, Sweden, 1966– (30 s, Channel B)
+- 2026-11-15 Gimli Glider, Air Canada Flight 143, Manitoba, 1983 (64 s, TikTok)
 
 ---
 Author: Maiwand

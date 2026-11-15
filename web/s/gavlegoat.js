@@ -169,7 +169,7 @@ const dofAt = (f, Cm) => { const id = shotAt(f).id;
   return { focus: 10, cinf: 0 }; };
 
 export default {
-  TOTAL, build,
+  TOTAL, build, look: 'toon',
   frame(f, k) {
     const S = shotAt(f), cam = camAt(f), id = S.id;
     const sec = !['hook', 'torch', 'first'].includes(id);

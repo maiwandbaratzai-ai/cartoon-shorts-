@@ -21,9 +21,9 @@ const SHOTS = [['hook', 0], ['engines', cut(1)], ['cockpit', F_COCK - 6], ['bell
 const shotAt = (f) => SHOTS.find((s) => f >= s.a && f <= s.b) || SHOTS[SHOTS.length - 1];
 
 const DAY = { az: 230, el: 38, sky: '#e4f0fa', ground: '#8a9a5a', hemi: 1.15, sun: '#fff2dc', sunI: 2.5, fog: '#d8e8f4', fogNear: 200, fogFar: 1600,
-  skyTop: '#2f7fd8', skyHor: '#e2eef8', sat: 1.14, vig: 0.2, shadowExt: 40 };
-const SKYL = { ...DAY, az: 160, el: 30, fog: '#c8dcf0', fogNear: 300, fogFar: 3000, skyTop: '#1e64c8', skyHor: '#d8e8f8' };
-const COCKL = { ...DAY, az: 180, el: 10, sun: '#ffe8c8', sunI: 1.4, sky: '#c8d0e0', ground: '#3a3e4a', hemi: 1.4, fog: '#8a90a0', fogNear: 30, fogFar: 300, vig: 0.34 };
+  skyTop: '#2f7fd8', skyHor: '#e2eef8', sat: 1.14, vig: 0.2, shadowExt: 40, exposure: 1.1 };
+const SKYL = { ...DAY, az: 160, el: 30, ground: '#d0d8e4', hemi: 1.0, fog: '#a8c8ec', fogNear: 300, fogFar: 3000, skyTop: '#1450b8', skyHor: '#b8d4f0', exposure: 1.0, sat: 1.2 };
+const COCKL = { ...DAY, az: 180, el: 10, sun: '#ffe8c8', sunI: 1.4, sky: '#c8d0e0', ground: '#3a3e4a', hemi: 1.4, fog: '#8a90a0', fogNear: 30, fogFar: 300, vig: 0.34, exposure: 1.2, cardTint: '#fff4e8' };
 const SKY = [0, 420, 0], COCK = [3000, 0, 0], TARMAC = [0, 0, 700];
 let K, jet, fans = [], rat, noseGear, cockScreens = [], cars = [], slideM;
 const rnd = (() => { let s = 1983; return () => ((s = (s * 1664525 + 1013904223) >>> 0) / 4294967296); })();
