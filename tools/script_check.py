@@ -18,6 +18,10 @@ if hw > 12: F(f'hook has {hw} words (max 12): "{h}"')
 if re.match(r'(?i)(did you know|in this video|let me|have you ever|today we|this is the story)', h): F('hook opens with throat-clearing')
 if not re.search(r'\d|[A-Z][a-z]+ [A-Z]|\b(one|two|three|four|five|six|seven|eight|nine|ten|hundred|thousand|million)\b', h): Wn('hook has no number or proper name: make it concrete')
 
+# line 2 must be a visible second surprise, not background (analytics 2026-11-14: biggest drop is at line 2)
+if len(lines) > 1 and re.match(r'(?i)(it (all )?(started|began)|on |in the |back (in|then)|there (was|were)|at the time|during |for (years|centuries|decades)|a (storm|man|woman|team|company) |the [a-z]+ (was|were|had) )', lines[1]):
+    F(f'line 2 is background, not a visible surprise (SCRIPTS.md §2b): "{lines[1]}"')
+
 # length
 total = sum(len(words(l)) for l in lines)
 lo, hi = (75, 92) if target <= 35 else (155, 178)

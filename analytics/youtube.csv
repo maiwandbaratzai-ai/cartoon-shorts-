@@ -1,0 +1,9 @@
+date_checked,channel,slug,title,length_s,views,engaged_views,subs,stayed_pct,swiped_pct,avg_view_s,apv_pct,script_score,notes
+2026-11-14,YT1,whale,Real story (Exploding Whale),30,1100,610,3,58.1,41.9,16,53.4,,old voice; generic title
+2026-11-14,YT1,marsorbiter,NASA Lost a Mars Probe to Math,29,1000,424,0,42.3,57.7,15,53.2,,worst: abstract/technical topic
+2026-11-14,YT1,pigwar,They Almost Went to War Over a Pig,34,1300,643,2,49.8,50.2,19,58.1,28,
+2026-11-14,YT1,cocoa,It Snowed Chocolate in Switzerland,28,1200,625,1,58.4,41.6,20,74.4,,best APV; line 2 is a visual (brown flakes on cars)
+2026-11-14,YT1,catdrop,Britain Parachuted Cats Into the Jungle,30,1453,690,4,49.2,50.8,20,66.8,26,most views + subs
+2026-11-14,YT1,meatshower,Kentucky's Sky Rained Raw Meat,30,1300,706,1,56.8,43.2,,,25,retention pending; voice slowed to 1.05
+2026-11-14,YT1,ducks,28,800 Bath Toys Lost at Sea,64,1200,849,0,67.5,32.5,36,55.9,27,best stayed%; 4.2 s padded silent tail -> steep drop at the end
+2026-11-14,YT1,tunguska,Something Flattened 80 Million Trees,30,1300,717,0,50.4,49.6,,,25,retention pending; voice slowed to 1.06

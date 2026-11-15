@@ -41,7 +41,7 @@ if target and not os.environ.get('VOICE_SPEED'):  # VOICE_SPEED=1.25 pins the sp
     for _ in range(3):
         # never speed up past the natural pace to squeeze a long script in (longer than the target is fine);
         # only slow down a little (to 1.05) when the script runs short, then pad the ending below
-        T = total(clips); s2 = float(np.clip(speed * (T - LEAD - TAIL) / (target - LEAD - TAIL), 1.05, 1.2))
+        T = total(clips); s2 = float(np.clip(speed * (T - LEAD - TAIL) / (target - LEAD - TAIL), 1.1, 1.2))
         if abs(s2 - speed) < 0.015: break
         speed = s2; clips = synth(speed)
 print(f'speed {speed:.2f}  length {total(clips):.2f}s')
@@ -52,6 +52,8 @@ for i, (c, l) in enumerate(zip(clips, lines)):
     buf.append((t, c)); t += len(c) / SR + (gap(l) if i < len(lines) - 1 else 0)
 dur = t + TAIL
 if target and dur < target:   # videos may run longer than the target but never shorter (30 s Shorts, 64 s TikTok)
+    if target - dur > 1.2:     # analytics 2026-11-14: a 4 s silent tail made viewers leave before the loop
+        sys.exit(f'ERROR: narration ends {target - dur:.1f}s short of {target}s. Add a line to the script (do not pad).')
     print(f'padding ending by {target - dur:.2f}s to reach {target}s'); dur = float(target)
 frames = int(np.ceil(dur * FPS))
 raw = np.zeros(int(dur * SR) + SR, np.float32)

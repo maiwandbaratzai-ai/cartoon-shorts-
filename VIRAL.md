@@ -27,7 +27,8 @@ looping into a rewatch. Everything below serves those two.
 The closest successful format to ours is Zack D. Films (3D animated curiosity Shorts, 100% Shorts, ~27M subs).
 Its most-viewed video is "Ohio's 1986 Balloon Disaster": **place + year + absurd disaster**. That's our lane.
 
-Score every candidate 0–2 on each; only make topics scoring **7+ / 10**:
+Score every candidate 0–2 on each; only make topics scoring **7+ / 10** (see Lessons: physical, harmless,
+everyday-object absurdity beats abstract/technical topics on our channel):
 1. **Absurd contrast**: a harmless thing turns deadly or ridiculous (balloons, molasses, a whale, birds vs an army).
 2. **Visual payoff**: one image that's spectacular in our engine (a wave, an explosion, a crowd fleeing, things flying).
 3. **Specific & true**: a real place, year, number. Verifiable in 2–3 sources.
@@ -136,8 +137,23 @@ Every day: **four 30-second Shorts + one 64-second video.**
 - [ ] upload.txt has title (≤ 50 chars), description, 3–5 hashtags
 - [ ] thumbnail.jpg made and checked (subject visible, text readable at phone size)
 
-## Lessons (append dated notes from real analytics here)
+## Lessons (append dated notes from real analytics here; raw numbers in analytics/youtube.csv)
 - 2026-11-11: first four videos made; no analytics yet.
+- 2026-11-14 (YouTube channel 1, 8 Shorts, 1–3 days old):
+  - Every Short got ~1.0–1.45K views in its first hours, then flattened: YouTube tested each one on a seed
+    audience and didn't widen it. To break out we need more people to **stay** (best 67.5%, typical ~50–58%).
+  - **The big drop is at 0:03–0:08, during line 2**, on almost every retention graph. In those videos line 2 is
+    background ("A storm hit a cargo ship…", "It started with mosquitoes.", "On San Juan Island, both countries
+    claimed the same land."). The best-retained Short (chocolate snow, 74% APV) had a *visual* line 2 ("People
+    found brown flakes all over their cars"). → **Line 2 must be a second surprise you can see, never context.**
+  - **Concrete, harmless, physical absurdity wins** (chocolate snow 74% APV, cats by parachute 67% APV and most
+    views/subs, 28,800 bath toys best stay rate 67.5%). **Abstract/technical topics lose** (NASA units mix-up:
+    worst on every metric, 42% stayed). Score technical stories lower; if used, hook on the physical result.
+  - **Big number + everyday object hooks** ("28,800 bath toys…") got the best stay rate.
+  - **No dead air at the end:** the 64 s bath-toy video had 4.2 s of padded silence and its retention fell off a
+    cliff in the last seconds. Never pad more than ~1 s; lengthen the script instead (voice.py now refuses).
+  - Don't slow the narrator below 1.1× to hit a length: it drags. Add a line instead.
+
 
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/

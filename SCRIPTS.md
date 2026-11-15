@@ -9,7 +9,7 @@ picture can only be as gripping as the words it illustrates.
 | Time (30 s / 64 s) | Job | What the viewer feels |
 | --- | --- | --- |
 | 0–3 s | **Hook**: the strangest true claim, concrete and short | "Wait, what?" |
-| 3–8 s / 3–12 s | **Setup in one breath**: who, where, what they wanted | "OK, I'm in" |
+| 3–8 s | **Line 2 = a second surprise you can SEE** (never background/context) — this is where our viewers drop | "Wait, it gets weirder" |
 | middle | **Escalation**: each line is a new turn, *but* / *so* / *then* | "It gets worse?" |
 | ~60% mark | **Re-hook**: a line that resets attention | "There's more?!" |
 | last 15% | **Payoff + kicker**: the twist, then one short punch line | "No way." |
@@ -33,6 +33,14 @@ after it, or a hook that needs the second line to make sense.
 
 **Don't spend the best fact in the hook.** The hook shows *what* happened; keep *how bad* or *why* for the end.
 (Hook: "a man flew a lawn chair to 16,000 feet". End: "when they asked why, he said: a man can't just sit around.")
+
+## 2b. Line 2 (our biggest leak, from real analytics)
+
+Our retention graphs drop hardest at 0:03–0:08, right when line 2 gives background. Line 2 must instead show a
+new, visible, strange detail. Context (who/where/why) gets slipped in later, half a clause at a time.
+- Bad: "A storm hit a cargo ship sailing from Hong Kong to America." / "It started with mosquitoes."
+- Good: "People in Olten found brown flakes all over their cars." / "Some of them are still washing up today."
+- Test: could the animator draw line 2 as a surprising picture? If it's a map, a date or an explanation, rewrite.
 
 ## 3. Escalation: every line must turn
 
