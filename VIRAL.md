@@ -157,6 +157,12 @@ Every day: **four 30-second Shorts + one 64-second video.**
   after ~Nov 12 got **0–1 views**, i.e. the channel stopped being shown at all. That's a channel-level issue,
   not the scripts (the same kind of video got ~1.3K on channel 1 the same day). Cause unknown; Maiwand is checking
   Restrictions / Made-for-kids / duplicate uploads. Never upload the same video to both channels.
+- 2026-11-14 (channel 2 check): no strikes, Public, "not made for kids", and the video DOES show in YouTube search,
+  so the channel isn't hidden; YouTube just stopped giving it a test audience (new-channel cool-down likely).
+  Also seen: other cartoon-story channels posted the same Moon-hoax story the same day (one got 204 views in 27 min).
+  Popular "weird history" stories get copied fast. Prefer less-covered stories, and search YouTube for the topic
+  before picking it: if 2+ Shorts on it went up in the last week, choose another topic.
+  Titles: no #foryou (a TikTok tag); use #shorts + one topic tag, and add a one-sentence description.
 
 
 ## Sources consulted
