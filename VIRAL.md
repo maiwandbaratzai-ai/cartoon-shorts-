@@ -58,6 +58,8 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
 
 ## 4. Picture rules (the engine makes these cheap, so always do them)
 
+**Look and shot rules now live in LOOK.md** (rich textured 3D sets, lamps, close-ups, prop inserts, cuts every 1.5–3 s; reference: @RicksClips3000).
+
 - **Frame 0 shows the payoff.** Open on the most spectacular moment (flash-forward): the wave mid-street, the
   explosion, the birds scattering. No slow push-in on an empty scene, no title card, no logo, no fade-in.
 - **Something visibly changes every ~2–3 s.** One camera per narration line isn't enough when a line runs 4–5 s:

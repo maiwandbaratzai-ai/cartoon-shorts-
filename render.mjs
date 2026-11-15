@@ -11,7 +11,7 @@ await new Promise(r => srv.on('listening', r));
 const b = await chromium.launch({ executablePath: process.env.CHROME || '/usr/bin/google-chrome', args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
 const pg = await b.newPage({ viewport: { width: 1080, height: 1920 } });
 pg.on('console', m => console.log('PAGE', m.text())); pg.on('pageerror', e => console.log('ERR', e.message));
-await pg.goto(`http://localhost:${srv.address().port}/index.html?s=${process.env.STORY}&dbg=${process.env.DBG||''}`);
+await pg.goto(`http://localhost:${srv.address().port}/index.html?s=${process.env.STORY}&dbg=${process.env.DBG||''}&look=${process.env.LOOK||''}`);
 await pg.waitForFunction(() => window.ready || window.err, null, { timeout: 180000 });
 if (await pg.evaluate(() => window.err)) { console.log('page error'); process.exit(1); }
 const t0 = Date.now();
