@@ -197,6 +197,9 @@ Every day: **four 30-second Shorts + one 64-second video.**
   keep people watching; real stories are the raw material we learn from. Only limits are in SCRIPTS.md §6b: never
   label fiction as "true", don't pin invented scandals on real named people, and no fake news on current events or health.
 
+- 2026-11-16 (Maiwand): the biggest weakness is characters just standing around. Now every character acts out the
+  narration on the word (LOOK.md "Acting": T.act timeline, 45+ poses, held items, hops, squash & stretch).
+
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/
 - Everpop, Shorts metrics from YouTube Help: everpop.app/blog/youtube-shorts-algorithm-2026-what-actually-matters

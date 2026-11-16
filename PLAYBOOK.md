@@ -22,7 +22,9 @@ safety) and the pre-render checklist. Its rules override anything below when the
 4. **Scene:** `web/s/<slug>.js` — follow LOOK.md (textured materials via `K.mat(kind, color)`, lamps, busy sets,
    close-ups, prop inserts, a cut every 1.5–3 s). Copy patterns from `web/s/lookdev.js` (interior/lantern/inserts) and the closest
    existing story (whale = beach/explosion, emu = field/animals/vehicles, molasses = city street/flood/building damage),
-   but upgrade old sets to the rich look: no plain grey boxes. Frame 0 = the payoff image (flash-forward). Cuts 4
+   but upgrade old sets to the rich look: no plain grey boxes.
+   **Acting (LOOK.md):** write an acting track with `T.act` for every character, so they physically do each verb the
+   narrator says, on the word (web/s/acting.js is the example). Frame 0 = the payoff image (flash-forward). Cuts 4
    frames before each line, plus a second camera key / punch-in inside any line longer than ~3 s; key actions
    on the word that names them (`wf`); last shot echoes the first (VIRAL.md §4). Reuse `props.js` (ocean, terrain, crates, cars, trucks,
    gulls, emus, kaboom, words, facades, mergeCopies) and `toon.js` characters (`bodyFront/bodySide`, outfits,

@@ -1112,13 +1112,47 @@ const footStroke = (p, a, b, w, col)=>{
         b
     ], w, col);
 };
+
+// ---------- hand-held items for acting (drawn at the hand) ----------
+export const ITEMS = ["paper", "money", "moneybag", "phone", "cup", "food", "box", "sign", "letter", "hammer", "book", "torch"];
+export const drawItem = (p, kind, x, y, u, ang = 0, both = false)=>{
+    const R = (pts)=>rotPts(pts, both ? 0 : ang + Math.PI / 2, x, y), rect = (w, h, dy = 0)=>R([[x - w, y - h + dy], [x + w, y - h + dy], [x + w, y + h + dy], [x - w, y + h + dy]]);
+    if (kind === "paper" || kind === "book" || kind === "letter") {
+        const big = both ? 1.6 : 1;
+        p.poly(rect(17 * u * big, 22 * u * big, both ? -10 * u : -18 * u), kind === "book" ? "#b8463a" : "#fbf6ea", 2.4 * u);
+        if (kind !== "book") for (let i = -2; i <= 2; i++) p.stroke(R([[x - 11 * u * big, y + i * 7 * u * big - (both ? 10 : 18) * u], [x + 11 * u * big, y + i * 7 * u * big - (both ? 10 : 18) * u]]), 1.6 * u, "#9aa3ad");
+        if (kind === "letter") p.poly(R([[x - 17 * u, y - 40 * u], [x + 17 * u, y - 40 * u], [x, y - 24 * u]]), null, 1.6 * u);
+    } else if (kind === "money") {
+        p.poly(rect(24 * u, 12 * u, -14 * u), "#7cc47a", 2.2 * u); p.ell(x, y - 14 * u, 6 * u, 6 * u, "#5aa25a", 1.4 * u);
+    } else if (kind === "moneybag") {
+        p.ell(x, y + 20 * u, 22 * u, 20 * u, "#c9a35a", 2.4 * u); p.ell(x, y + 2 * u, 8 * u, 4 * u, "#a8823a", 1.8 * u);
+        p.g.save(); p.g.fillStyle = "#3a5a2a"; p.g.font = `bold ${22 * u}px sans-serif`; p.g.textAlign = "center"; p.g.textBaseline = "middle"; const [tx, ty] = p.P(x, y + 22 * u); p.g.fillText("$", tx, ty); p.g.restore();
+    } else if (kind === "phone") {
+        p.poly(rect(9 * u, 16 * u, -10 * u), "#2a2d36", 2 * u); p.poly(rect(6.5 * u, 12 * u, -10 * u), "#6ec6ff", 0);
+    } else if (kind === "cup") {
+        p.poly(R([[x - 11 * u, y - 30 * u], [x + 11 * u, y - 30 * u], [x + 9 * u, y], [x - 9 * u, y]]), "#f2f2f2", 2.2 * u);
+    } else if (kind === "food") {
+        p.ell(x, y - 18 * u, 14 * u, 11 * u, "#c87a3a", 2.2 * u); p.stroke(R([[x, y - 6 * u], [x, y + 6 * u]]), 4 * u, "#f5ecd8");
+    } else if (kind === "box") {
+        const w = both ? 40 : 22, h = both ? 30 : 18;
+        p.poly([[x - w * u, y - h * u], [x + w * u, y - h * u], [x + w * u, y + h * u], [x - w * u, y + h * u]], "#c69a5c", 2.6 * u);
+        p.stroke([[x - w * u, y - h * u + 2], [x + w * u, y - h * u + 2]], 1, INK); p.stroke([[x, y - h * u], [x, y + h * u]], 5 * u, "#e8d2a0");
+    } else if (kind === "sign") {
+        p.stroke(R([[x, y + 10 * u], [x, y - 60 * u]]), 4 * u, "#8a5a34"); p.poly(R([[x - 30 * u, y - 95 * u], [x + 30 * u, y - 95 * u], [x + 30 * u, y - 55 * u], [x - 30 * u, y - 55 * u]]), "#fbf6ea", 2.4 * u);
+    } else if (kind === "hammer") {
+        p.stroke(R([[x, y + 10 * u], [x, y - 40 * u]]), 4.5 * u, "#8a5a34"); p.poly(R([[x - 16 * u, y - 52 * u], [x + 16 * u, y - 52 * u], [x + 16 * u, y - 38 * u], [x - 16 * u, y - 38 * u]]), "#6b7078", 2 * u);
+    } else if (kind === "torch") {
+        p.stroke(R([[x, y + 8 * u], [x, y - 34 * u]]), 5 * u, "#6a4428"); p.ell(x, y - 46 * u, 9 * u, 14 * u, "#ffb02e", 1.4 * u); p.ell(x, y - 43 * u, 5 * u, 8 * u, "#fff2a0", 0);
+    }
+};
 export const bodyFront = (p, o, opts)=>{
-    const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1 } = opts;
+    const { phase = 0, expr = "neutral", mode = "march", look = 0, blink = false, lift = 60, prop = null, tilt = 0, headTilt = 0, wave, light = DEF_LIGHT, facing = 0, seed = 1, arms: armSpec = null, item = null } = opts;
     const Bd = BUILD[o.build ?? "adult"], skin = o.skin ?? SKIN, two = Math.PI * 2, lid = lidOf(blink);
     const H = headBlob(seed, Bd.a, facing), W = 2 * H.a, HH = 2 * H.b, u = W / 100;
     const tall = (1 + Bd.torso + Bd.legs) * HH, sole = 975;
-    const bob = mode === "march" ? 0.025 * tall * Math.cos(2 * two * phase) : mode === "stroll" ? 0.015 * tall * Math.cos(2 * two * phase) : 0;
-    const torsoBot = mode === "sit" ? sole - 0.2 * HH : sole - Bd.legs * HH + bob;
+    const bob = mode === "march" ? 0.025 * tall * Math.cos(2 * two * phase) : mode === "stroll" ? 0.015 * tall * Math.cos(2 * two * phase) : mode === "run" ? 0.05 * tall * Math.abs(Math.cos(two * phase)) - 0.03 * tall : 0;
+    const crouch = mode === "crouch" ? 0.42 : mode === "jump" ? 0.12 : 0;
+    const torsoBot = mode === "sit" ? sole - 0.2 * HH : sole - Bd.legs * HH + bob + crouch * HH;
     const chin = torsoBot - Bd.torso * HH, hc = chin - H.b, crown = hc - H.b, hipY = torsoBot - 0.12 * HH;
     const thick = thickAngle(light), ow = 5 * u;
     const legCol = mix(o.pants, INK, 0.55), armCol = mix(o.jacket, INK, 0.5), footCol = o.boots;
@@ -1210,8 +1244,15 @@ export const bodyFront = (p, o, opts)=>{
                 fy + u
             ], footW, footCol);
         }
+    } else if (mode === "crouch" || mode === "jump") {
+        for (const side of [-1, 1]){
+            const h = [300 + side * 15 * u, hipY], up = mode === "jump" ? 0.22 * HH : 0;
+            const f = [300 + side * 30 * u, sole - 4 * u - up], k = [300 + side * 46 * u, (hipY + f[1]) / 2 - 0.05 * HH];
+            p.stroke(curve(h, k, f), legW, legCol);
+            footStroke(p, [f[0] - side * 3 * u, f[1]], [f[0] + side * 13 * u, f[1] + 0.5 * u], footW, footCol);
+        }
     } else {
-        const L = mode === "march" ? lift * 1.25 : mode === "stroll" ? lift * 0.55 : 0;
+        const L = mode === "march" ? lift * 1.25 : mode === "stroll" ? lift * 0.55 : mode === "run" ? lift * 2.4 : 0;
         for (const [side, ph] of [
             [
                 -1,
@@ -1406,9 +1447,40 @@ export const bodyFront = (p, o, opts)=>{
             front: false
         });
     }
+    // ---- posed arms (acting): armSpec = { L: [tx, ty, hand, front?], R: [...] }, targets relative to the shoulder in
+    // head-heights (x outward, y down). hand: 'open' | 'fist' | 'point' | an item name. Run mode pumps the arms itself.
+    let spec = armSpec;
+    if (!spec && mode === "run") { const k = Math.sin(two * phase); spec = { L: [0.28, 0.35 + 0.35 * k, "fist"], R: [0.28, 0.35 - 0.35 * k, "fist"] }; }
+    if (spec && mode !== "sit" && mode !== "fall") {
+        arms.length = 0;
+        const L1 = 0.5 * HH, L2 = 0.46 * HH;
+        for (const [side, key] of [[-1, "L"], [1, "R"]]) {
+            const sp = spec[key];
+            if (!sp) { arms.push({ pts: hang(side, 0), front: false }); continue; }
+            const S = sh(side), tx = S[0] + side * sp[0] * HH, ty = S[1] + sp[1] * HH;
+            const dx = tx - S[0], dy = ty - S[1], d = clamp(Math.hypot(dx, dy), 1, L1 + L2 - 0.5);
+            const A1 = Math.acos(clamp((L1 * L1 + d * d - L2 * L2) / (2 * L1 * d), -1, 1)), base = Math.atan2(dy, dx);
+            // elbow bends outward / downward (away from the body), like a real arm
+            const c1 = [S[0] + L1 * Math.cos(base - A1), S[1] + L1 * Math.sin(base - A1)], c2 = [S[0] + L1 * Math.cos(base + A1), S[1] + L1 * Math.sin(base + A1)];
+            const E = side * (c1[0] - S[0]) > side * (c2[0] - S[0]) ? c1 : c2; // pick the elbow further out from the body
+            const Hn = [S[0] + dx / Math.hypot(dx, dy) * d, S[1] + dy / Math.hypot(dx, dy) * d];
+            const across = side * (Hn[0] - tcx) < 0.75 * T.a && Hn[1] > chin - 0.1 * HH;
+            const top = Hn[1] < chin + 0.05 * HH && side * (Hn[0] - tcx) < 0.9 * T.a; // hand at the face: draw over the head
+            arms.push({ pts: [S, lerp2(lerp2(S, Hn, 0.5), E, 0.85), Hn], front: top ? "top" : (sp[3] ?? across), hand: sp[2] || "open", side });
+        }
+    }
+    const drawHand = (a)=>{
+        const [hx, hy] = a.pts[2], [ex, ey] = a.pts[1], ang = Math.atan2(hy - ey, hx - ex);
+        if (a.hand === "point") {
+            p.stroke([[hx, hy], [hx + Math.cos(ang) * 13 * u, hy + Math.sin(ang) * 13 * u]], 3.4 * u, INK);
+            p.dot(hx, hy, 6 * u);
+        } else if (a.hand === "fist") p.dot(hx, hy, 7 * u);
+        else { p.dot(hx, hy, 6.2 * u); p.stroke([[hx, hy], [hx + Math.cos(ang - 0.9) * 8 * u, hy + Math.sin(ang - 0.9) * 8 * u]], 3.2 * u, INK); }
+        if (a.hand && !["open", "fist", "point"].includes(a.hand)) drawItem(p, a.hand, hx, hy, u, ang);
+    };
     const drawArm = (a)=>{
         p.stroke(curve(a.pts[0], a.pts[1], a.pts[2]), 5.2 * u, armCol);
-        p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
+        if (a.hand) drawHand(a); else p.dot(a.pts[2][0], a.pts[2][1], 5.5 * u);
     };
     if (rifle) {
         p.band([
@@ -1536,7 +1608,7 @@ export const bodyFront = (p, o, opts)=>{
         }
         p.inkRing(tp, ow, thick);
     }
-    for (const a of arms)if (a.front) {
+    for (const a of arms)if (a.front === true) {
         drawArm(a);
         const [hx, hy] = a.pts[2];
         if (prop === "icecream") {
@@ -1590,6 +1662,7 @@ export const bodyFront = (p, o, opts)=>{
             p.dot(hx, hy, 5.5 * u);
         }
     }
+    if (item && arms.length === 2) { const m = lerp2(arms[0].pts[2], arms[1].pts[2], 0.5); drawItem(p, item, m[0], m[1], u, 0, true); for (const a of arms) if (a.front) p.dot(a.pts[2][0], a.pts[2][1], 6.2 * u); }
     if (prop === "shako") {
         const [hx, hy] = arms[0].pts[2];
         p.poly([
@@ -1635,6 +1708,7 @@ export const bodyFront = (p, o, opts)=>{
     const brim = !!o.hat && o.hat !== "hair" && o.hat !== "bonnet" && o.hat !== "cap";
     faceFront(p, 300, hc, W, expr, facing, look, lid, brim, skin, o.moustache, o.build === "stout");
     p.rot = null;
+    for (const a of arms) if (a.front === "top") drawArm(a);
 };
 const ik = (hip, ank, l1, l2)=>{
     const dx = ank[0] - hip[0], dy = ank[1] - hip[1], d = clamp(Math.hypot(dx, dy), 1, l1 + l2 - 0.01);
@@ -2707,3 +2781,100 @@ export const fxDrip = (p) => p.ell(300, 500, 40, 64, "#9fd4ff", 10);
 export const fxWood = (p, seed) => { p.poly([[200, 420], [400, 400], [420, 560], [230, 600]], "#5b3d22", 14); p.stroke([[240, 450], [380, 440]], 6, "#3a2614"); p.ell(330, 520, 26, 18, "#4d7a32", 0); };
 
 export const headCenter = (seed = 3) => { const H = headBlob(seed, 118, 0), HH = 2 * H.b; return 975 - 1.38 * HH - 1.08 * HH - H.b; };
+
+// =====================================================================================================
+// ACTING: pose library + timeline. Characters must DO what the narrator says (LOOK.md "Acting").
+// Arm targets are [x outward, y down] from the shoulder in head-heights, plus a hand type or item.
+// =====================================================================================================
+const I = [0.16, 0.92], IL = [0.16, 0.92];
+export const POSES = {
+    idle:      { L: IL, R: I },
+    hips:      { L: [0.42, 0.62, "fist"], R: [0.42, 0.62, "fist"] },                 // hands on hips (confident, bossy)
+    point:     { L: IL, R: [0.95, 0.02, "point"], expr: "stern" },                    // point sideways at something
+    pointL:    { L: [0.95, 0.02, "point"], R: I, expr: "stern" },
+    pointUp:   { L: IL, R: [0.28, -0.92, "point"], expr: "grin" },                    // "look up there!" / idea
+    pointDown: { L: IL, R: [0.55, 0.72, "point"] },
+    wave:      { L: IL, R: [0.42, -0.78, "open"], expr: "smile", wiggle: "R" },
+    cheer:     { L: [0.38, -0.86, "fist"], R: [0.38, -0.86, "fist"], expr: "laugh", hop: 0.25 },
+    celebrate: { L: [0.5, -0.75, "open"], R: [0.5, -0.75, "open"], expr: "laugh", hop: 0.35, mode: "jump" },
+    panic:     { L: [0.3, -0.62, "open"], R: [0.3, -0.62, "open"], expr: "shock", shake: 1 }, // hands up by the head
+    scared:    { L: [-0.05, 0.22, "fist", true], R: [-0.05, 0.22, "fist", true], expr: "nervous", mode: "crouch", shake: 0.6 },
+    shock:     { L: [0.62, -0.18, "open"], R: [0.62, -0.18, "open"], expr: "shock", hop: 0.12 },  // jump back in surprise
+    shrug:     { L: [0.62, 0.12, "open"], R: [0.62, 0.12, "open"], expr: "pained", headTilt: 8 },
+    facepalm:  { L: IL, R: [-0.28, -0.6, "open", true], expr: "pained", headTilt: 6 },
+    think:     { L: [-0.32, 0.4, "fist", true], R: [-0.24, -0.38, "fist", true], expr: "neutral", headTilt: -6 },
+    idea:      { L: IL, R: [0.24, -0.95, "point"], expr: "grin", hop: 0.1 },
+    cross:     { L: [-0.42, 0.34, "fist", true], R: [-0.42, 0.3, "fist", true], expr: "stern" },   // arms crossed
+    stop:      { L: IL, R: [0.78, -0.3, "open"], expr: "stern" },                     // "stop!" palm out
+    reach:     { L: IL, R: [0.92, -0.38, "open"], expr: "grin" },
+    grab:      { L: [0.85, -0.1, "fist"], R: [0.85, -0.1, "fist"], expr: "stern" },
+    carry:     { L: [-0.18, 0.5, "open", true], R: [-0.18, 0.5, "open", true], item: "box" },  // carry a box in front
+    read:      { L: [-0.22, 0.32, "open", true], R: [-0.22, 0.32, "open", true], item: "paper", expr: "neutral", headTilt: 4 },
+    hold:      { L: IL, R: [0.25, 0.42, "money"], expr: "grin" },                    // hold up an item (set item via hand)
+    show:      { L: IL, R: [0.5, -0.55, "paper"], expr: "grin" },                    // raise an item to show it off
+    phone:     { L: IL, R: [-0.3, -0.52, "phone", true], expr: "neutral" },
+    eat:       { L: IL, R: [-0.3, -0.42, "food", true], expr: "grin", chew: 1 },
+    drink:     { L: IL, R: [-0.3, -0.48, "cup", true], expr: "neutral" },
+    throwBack: { L: [0.4, 0.3, "open"], R: [0.35, -0.85, "fist"], expr: "stern", tilt: -6 }, // wind-up
+    throw:     { L: [0.3, 0.4, "open"], R: [0.98, -0.05, "open"], expr: "grin", tilt: 6 },     // release
+    salute:    { L: IL, R: [-0.12, -0.82, "open", true], expr: "stern" },
+    ears:      { L: [-0.1, -0.66, "open", true], R: [-0.1, -0.66, "open", true], expr: "pained", shake: 0.5 }, // cover ears
+    clap:      { L: [-0.36, 0.08, "open", true], R: [-0.36, 0.08, "open", true], expr: "laugh", clap: 1 },
+    angry:     { L: [0.3, 0.78, "fist"], R: [0.3, 0.78, "fist"], expr: "stern", shake: 0.4 },
+    sneak:     { L: [0.35, 0.3, "open"], R: [0.2, 0.15, "open"], expr: "nervous", mode: "crouch", tilt: -4 },
+    run:       { mode: "run", expr: "shock", tilt: 4 },
+    walk:      { mode: "march", L: null, R: null },
+    stroll:    { mode: "stroll" },
+    jump:      { L: [0.45, -0.7, "open"], R: [0.45, -0.7, "open"], mode: "jump", hop: 0.5, expr: "shock" },
+    crouch:    { L: [0.4, 0.3, "open"], R: [0.4, 0.3, "open"], mode: "crouch" },
+    sit:       { mode: "sit" },
+    fall:      { mode: "fall", expr: "shock" },
+    write:     { L: [-0.22, 0.38, "paper", true], R: [-0.3, 0.3, "fist", true], expr: "neutral", scribble: 1 },
+    type:      { L: [-0.2, 0.42, "open", true], R: [-0.2, 0.42, "open", true], expr: "neutral", scribble: 1 },
+    dig:       { L: [0.1, 0.55, "fist"], R: [0.3, -0.7, "hammer"], expr: "stern", tilt: 4, chop: 1 },   // swing a pick/shovel/hammer
+    hammer:    { L: [-0.2, 0.45, "open", true], R: [0.3, -0.7, "hammer"], expr: "stern", chop: 1 },
+    push:      { L: [0.6, -0.05, "open"], R: [0.6, -0.05, "open"], expr: "stern", tilt: 8 },
+    lookAround:{ L: IL, R: I, expr: "nervous", lookSweep: 1 },
+};
+const easeOutBack = (t)=>{ const c = 1.6; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2); };
+const lerpArm = (a, b, t)=>{
+    a = a || I; b = b || I;
+    return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, (t < 0.5 ? a : b)[2] ?? "open", (t < 0.5 ? a : b)[3]];
+};
+/**
+ * T.act(f, keys, opts) -> { opts, dy, sx, sy }   Acting timeline for one character.
+ *   keys: [[frame, 'pose', {overrides}], ...] in frame order (use wf(line,'word') for frames), e.g.
+ *         [[0,'idle'], [wf(1,'saw'),'shock'], [wf(2,'ran'),'run'], [wf(4,'money'),'hold',{R:[0.3,0.4,'moneybag']}]]
+ *   Poses blend over `blend` frames with a springy overshoot; there is always some life (breathing, sway).
+ *   dy = hop height in metres to ADD to the actor's y; sx/sy = squash & stretch for the card (pass through to the actor).
+ */
+export const act = (f, keys, base = {})=>{
+    const blend = base.blend ?? 6;
+    let i = 0; while (i + 1 < keys.length && f >= keys[i + 1][0]) i++;
+    const [f0, n0, o0 = {}] = keys[i], P0 = { ...POSES[n0], ...o0 };
+    const prev = i > 0 ? { ...POSES[keys[i - 1][1]], ...(keys[i - 1][2] || {}) } : P0;
+    const t = clamp((f - f0) / blend, 0, 1), e = easeOutBack(t);
+    const P = t < 1 ? prev : P0;
+    const arms = (P0.L === null && P0.R === null) ? null : { L: lerpArm(prev.L, P0.L, e), R: lerpArm(prev.R, P0.R, e) };
+    const sec = f / 30, since = (f - f0) / 30;
+    // life: breathing + gentle sway so nobody is ever frozen
+    if (arms) for (const k of ["L", "R"]) { arms[k][1] += 0.025 * Math.sin(sec * 2.4 + (k === "L" ? 0 : 1)); arms[k][0] += 0.015 * Math.sin(sec * 1.7); }
+    if (arms && P0.wiggle) arms[P0.wiggle][0] += 0.16 * Math.sin(sec * 14);
+    if (arms && P0.clap) { const c = 0.5 + 0.5 * Math.sin(sec * 16); arms.L[0] += 0.1 * c; arms.R[0] += 0.1 * c; }
+    if (arms && P0.scribble) { arms.R[0] += 0.04 * Math.sin(sec * 22); arms.R[1] += 0.03 * Math.cos(sec * 19); if (P0.L?.[2] === "open") arms.L[1] += 0.03 * Math.sin(sec * 21); }
+    if (arms && P0.chop) { const c = Math.pow(0.5 + 0.5 * Math.sin(sec * 7), 3); arms.R[0] = 0.3 + 0.3 * c; arms.R[1] = -0.75 + 1.3 * c; }
+    if (arms && P0.chew) arms.R[1] += 0.05 * Math.max(0, Math.sin(sec * 9));
+    const shake = (P0.shake || 0) * (t >= 1 ? 1 : t);
+    const mode = P0.mode || (prev.mode === "run" && t < 1 ? "run" : "stand");
+    const expr = (o0.expr || P0.expr || base.expr || "neutral");
+    const look = P0.lookSweep ? 0.6 * Math.sin(sec * 3) : (o0.look ?? base.look ?? 0);
+    const tilt = (prev.tilt || 0) + ((P0.tilt || 0) - (prev.tilt || 0)) * e + shake * 2.5 * Math.sin(sec * 40);
+    const headTilt = (P0.headTilt || 0) * e + 2 * Math.sin(sec * 1.3);
+    // hop + squash/stretch at the start of a pose that has one
+    let dy = 0, sx = 1, sy = 1;
+    const hop = P0.hop || 0;
+    if (hop && since >= 0 && since < 0.5) { const h = since / 0.5; dy = hop * Math.sin(Math.PI * h); sy = 1 + 0.12 * Math.sin(Math.PI * h) - (h > 0.9 ? 0.1 : 0); sx = 2 - sy; }
+    else if (since >= 0 && since < 0.1 && n0 !== keys[Math.max(0, i - 1)][1]) { sy = 0.94; sx = 1.04; } // anticipation squash on every change
+    if (mode === "run") { sy = 1 + 0.03 * Math.sin(sec * 18); }
+    return { opts: { ...base, mode, expr, look, tilt, headTilt, arms, item: o0.item ?? P0.item ?? null, phase: mode === "run" ? (sec * 3.2) % 1 : mode === "march" || mode === "stroll" ? (sec * 1.6) % 1 : base.phase ?? 0 }, dy, sx, sy };
+};

@@ -62,6 +62,32 @@ Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side
 - **Reaction shots:** cut to the other character's face on the punchline.
 - **Depth of field:** close-ups `cinf 10–16`, inserts `16–22`, wides `4–8`.
 
+
+## Acting: the characters DO what the narrator says (most important rule, Maiwand 2026-11-16)
+
+Characters never just stand there. On every line, the character on screen performs the verb the narrator is saying,
+on that word: "he ran" → he runs; "she counted the money" → she holds up the moneybag; "they voted no" → they cross
+their arms; "he couldn't believe it" → shock jump, then facepalm. Act like a cartoon: big, clear, exaggerated.
+
+Use `T.act(f, keys, base)` from web/toon.js (see web/s/acting.js for a full example):
+```js
+const joeKeys = [[0, 'dig'], [wf(1,'hit') - 4, 'shock'], [wf(1,'gold'), 'celebrate'], [wf(2,'sprinted') - 6, 'run'],
+                 [wf(4,'kept'), 'shock'], [wf(4,'kept') + 14, 'facepalm'], [wf(4,'kept') + 40, 'angry']];
+const A = T.act(f, joeKeys, { light: -2.1, seed: 9, blink: blinkAt(f, 9) });
+actors.push({ key: 'joe' + JSON.stringify(A.opts), draw: (p) => T.bodyFront(p, JOE, A.opts),
+              x, y: y + A.dy, z, sx: A.sx, sy: A.sy });   // dy = hop height, sx/sy = squash & stretch
+```
+- Key each pose 2–6 frames BEFORE the word (anticipation), and change the pose at least every 1–2 s.
+- Poses (T.POSES): idle, hips, point, pointL, pointUp, pointDown, wave, cheer, celebrate, panic, scared, shock, shrug,
+  facepalm, think, idea, cross, stop, reach, grab, carry, read, hold, show, phone, eat, drink, throwBack → throw,
+  salute, ears, clap, angry, sneak, run, walk, stroll, jump, crouch, sit, fall, write, type, dig, hammer, push, lookAround.
+- Held items: put the item name as the hand: `[[f,'hold',{R:[0.3,0.4,'moneybag']}]]`. Items: paper, money, moneybag,
+  phone, cup, food, box, sign, letter, hammer, book, torch. `carry`/`read` hold one item in both hands (`item: 'box'`).
+- Override any arm: `{ R: [x out, y down, hand, front?] }` in head-heights from the shoulder; `expr`, `look` as before.
+- Moving actions: also move the actor's x/z (run toward or across the camera), and use whip-pans to follow.
+- Every character in shot reacts: the listener nods, laughs, gasps or facepalms. Nobody is a statue.
+- Keep characters fully in frame (head and hands) in close-ups; never crop through the face.
+
 ## Check before rendering (stills)
 
 Look at `tools/stills.sh` sheets and ask:
