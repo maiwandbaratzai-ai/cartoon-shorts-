@@ -8,7 +8,7 @@ picture can only be as gripping as the words it illustrates.
 
 | Time (30 s / 64 s) | Job | What the viewer feels |
 | --- | --- | --- |
-| 0–3 s | **Hook**: the strangest true claim, concrete and short | "Wait, what?" |
+| 0–3 s | **Hook**: the strangest claim, concrete and short | "Wait, what?" |
 | 3–8 s | **Line 2 = a second surprise you can SEE** (never background/context) — this is where our viewers drop | "Wait, it gets weirder" |
 | middle | **Escalation**: each line is a new turn, *but* / *so* / *then* | "It gets worse?" |
 | ~60% mark | **Re-hook**: a line that resets attention | "There's more?!" |
@@ -89,30 +89,34 @@ Use at most one per 30 s video, two per 64 s video. It must be followed by somet
 - Say numbers the way people say them; put spoken forms in say.txt ("nineteen eighty-two").
 - Respectful with deaths: state them once, plainly, no jokes near them, no graphic detail.
 
-## 6b. Storytelling rule: make true stories fun (never boring)
+## 6b. Storytelling rule: entertainment first (changed 2026-11-16, Maiwand's call)
 
-Don't recite the event like a history book. Retell it the way a funny friend would, and keep every fact true.
+Stories **do not have to be true.** Fiction and exaggeration are welcome when they make the video more fun and keep
+people watching. We study real stories (what happened, why people loved them) to build our best stories, true or not.
 
-**Do (encouraged):**
+Two kinds of video, pick per video and say which in upload.txt ("Type: true" or "Type: story"):
+- **True:** a real event, told the fun way below. Facts stay right, so these can be called "true story".
+- **Story:** inspired by a real event or completely made up: invented characters, events, dialogue, twists, bigger
+  numbers, a funnier ending. Push it as far as it makes the video better.
+
+**Do (both kinds):**
 - Talk to the viewer: "Imagine you're the guy holding the hose..."
 - Put the viewer in the moment: present tense, "right now", what it looked, sounded or smelled like.
 - Jokes, comic timing, playful comparisons ("a wave taller than a giraffe"), and reactions ("Bad idea.").
-- Lead with the weirdest REAL detail; cut the boring ones (dates, titles, background) unless they're the punchline.
-- Give the people in the story clear feelings and motives that fit what really happened.
-- Short dialogue that is clearly playful ("Officer: 'Sir, is that a lawn chair?'") is fine when it matches what happened.
-- Sound effects, exaggerated cartoon visuals, and fast cuts to dramatise real moments.
-- Round numbers the way people talk ("about 3 miles up"), as long as they stay accurate.
+- Lead with the weirdest detail; cut the boring ones (dates, titles, background) unless they're the punchline.
+- Dialogue, characters with clear feelings, cartoon exaggeration, sound effects and fast cuts.
 
-**Don't:**
-- Invent events, outcomes, people, quotes presented as real, or numbers. The video says it's a TRUE story,
-  and made-up facts get called out in the comments and kill trust (and can hurt monetisation).
-- If a detail is uncertain or a legend, say so in a fun way: "Legend says...", "Supposedly...".
+**Only limits for "story" videos** (these keep the channels safe from YouTube/TikTok misinformation and defamation strikes):
+- Don't label a made-up story as true: no "true story", "real", "this really happened", or a "TRUE STORY" badge in
+  the title, captions, thumbnail or hook card. A real year or place as a badge is fine when the story is inspired by it.
+- Make up your own characters. Don't invent crimes, scandals or embarrassing acts and pin them on real, named people.
+- No fake news about current events, health or medicine, elections, or real disasters with victims.
 
-Test: a fact-checker would find nothing false, and a 12-year-old would find nothing boring.
+Test: a 12-year-old would find nothing boring; nobody could be fooled into believing something harmful.
 
 ## 7. Process (do all of it, every script)
 
-1. Research: collect 10–15 facts; star the 3 most surprising and the one best quote.
+1. Research: collect 10–15 facts or story ideas (for a "story" video, also brainstorm the funniest made-up twists); star the 3 most surprising.
 2. Write 5 hooks (§2); pick the most specific and strange.
 3. Beat sheet: hook → setup → 3–4 turns (30 s) or 6–8 turns (64 s) → re-hook → payoff → kicker/loop.
 4. Draft the script, one beat per line.
@@ -140,6 +144,6 @@ one day," → (restart) "it snowed chocolate on a Swiss town."
 5. **Kicker**: does the last line land a laugh, gasp, or "no way"?
 6. **Loop**: does the end flow back into the start?
 
-Pass/fail on top of the score (§6b): is it told in a fun way ("you", jokes, the weirdest real details), and is every fact true? If not, rewrite before rendering.
+Pass/fail on top of the score (§6b): is it told in a fun way ("you", jokes, the weirdest details), and if it's a "story" video, is it free of "true story" labels and of made-up claims about real named people? If not, rewrite before rendering.
 
 Write the score in upload.txt (`Script score: 26/30`) so we can compare it with the real retention later.

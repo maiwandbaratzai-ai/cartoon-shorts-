@@ -31,7 +31,7 @@ Score every candidate 0–2 on each; only make topics scoring **7+ / 10** (see L
 everyday-object absurdity beats abstract/technical topics on our channel):
 1. **Absurd contrast**: a harmless thing turns deadly or ridiculous (balloons, molasses, a whale, birds vs an army).
 2. **Visual payoff**: one image that's spectacular in our engine (a wave, an explosion, a crowd fleeing, things flying).
-3. **Specific & true**: a real place, year, number. Verifiable in 2–3 sources.
+3. **Specific**: a concrete place, year, number or name (true, or invented for a "story" video; SCRIPTS.md §6b).
 4. **One-sentence story**: it can be told as setup → escalation → twist with nothing else needed.
 5. **Twist ending**: the last line flips or tops the premise ("…and most of the whale was still on the beach").
 
@@ -177,7 +177,7 @@ Every day: **four 30-second Shorts + one 64-second video.**
   so TikTok's first test batch likes them but none break out yet. Videos with a big-text thumbnail
   (number/place badge + 3–5 word hook) get about 2–3x the views of the first ones without one: always use it.
   Weak spots: only +3 followers in 7 days and 8 comments in 28 days. TikTok rewards follows and comments, so every
-  TikTok video ends with a short follow reason ("Follow for a new weird true story every day") and asks one easy
+  TikTok video ends with a short follow reason ("Follow for a new weird story every day") and asks one easy
   question in the caption ("Would you have eaten it?"). The account still has older AI fruit-story videos that
   pull the wrong search traffic. Creator Rewards needs 10k followers, so followers are the main goal there.
 
@@ -192,6 +192,10 @@ Every day: **four 30-second Shorts + one 64-second video.**
   opens with tools/hookcard.py (big 2–5 word claim on 0–1.6 s); (2) faster transitions between scenes → whip-pan
   cuts with `swish()`; (3) action-matched SFX (swerving cars, flipping signs, stamps) → new sounds; (4) more vocal drama
   on the chaos reveal → `[hype]`/`[slow]`/`[beat]` tags.
+
+- 2026-11-16 (Maiwand's decision): stories no longer have to be true. Fiction or exaggerated versions are fine if they
+  keep people watching; real stories are the raw material we learn from. Only limits are in SCRIPTS.md §6b: never
+  label fiction as "true", don't pin invented scandals on real named people, and no fake news on current events or health.
 
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/

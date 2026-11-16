@@ -4,7 +4,7 @@
 usage: python3 tools/thumbnail.py stories/<slug> <frame> "LINE ONE|LINE TWO" [badge] [zoom]
   frame  frame number to use (from stories/<slug>/frames; pick the most spectacular payoff moment)
   text   2-5 words, '|' splits lines; the last line is drawn in yellow
-  badge  optional small tag in a red box, e.g. "1970" or "TRUE STORY"
+  badge  optional small tag in a red box, e.g. "1970" ("TRUE STORY" only for true videos)
   zoom   optional crop zoom (default 1.08) to fill the frame with the subject
 -> stories/<slug>/out/thumbnail.jpg
 Rules (VIRAL.md §6): text in the top ~35% (clear of the YouTube/TikTok UI at the bottom and right),
