@@ -8,6 +8,7 @@ import * as T from './toon.js';
 import * as P from './paint.js';
 import * as MO from './motion.js';
 import * as LK from './look.js';
+import * as R3 from './rig3d.js';
 
 const W = 1080, H = 1920;
 const canvas = document.getElementById('c');
@@ -257,7 +258,7 @@ const swapForNd = (on) => {
 };
 
 // ---------- kit context handed to stories ----------
-const K = { lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { stick: (o, opts) => R3.stick(K, o, opts), lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;

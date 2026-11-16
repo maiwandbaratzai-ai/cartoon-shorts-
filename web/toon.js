@@ -1252,7 +1252,7 @@ export const bodyFront = (p, o, opts)=>{
             footStroke(p, [f[0] - side * 3 * u, f[1]], [f[0] + side * 13 * u, f[1] + 0.5 * u], footW, footCol);
         }
     } else {
-        const L = mode === "march" ? lift * 1.25 : mode === "stroll" ? lift * 0.55 : mode === "run" ? lift * 2.4 : 0;
+        const L = mode === "march" ? lift * 1.25 : mode === "stroll" ? lift * 0.55 : mode === "run" ? lift * 3.2 : 0;
         for (const [side, ph] of [
             [
                 -1,
@@ -1450,7 +1450,7 @@ export const bodyFront = (p, o, opts)=>{
     // ---- posed arms (acting): armSpec = { L: [tx, ty, hand, front?], R: [...] }, targets relative to the shoulder in
     // head-heights (x outward, y down). hand: 'open' | 'fist' | 'point' | an item name. Run mode pumps the arms itself.
     let spec = armSpec;
-    if (!spec && mode === "run") { const k = Math.sin(two * phase); spec = { L: [0.28, 0.35 + 0.35 * k, "fist"], R: [0.28, 0.35 - 0.35 * k, "fist"] }; }
+    if (!spec && mode === "run") { const k = Math.sin(two * phase); spec = { L: [0.34 - 0.08 * k, 0.28 + 0.5 * k, "fist"], R: [0.34 + 0.08 * k, 0.28 - 0.5 * k, "fist"] }; }
     if (spec && mode !== "sit" && mode !== "fall") {
         arms.length = 0;
         const L1 = 0.5 * HH, L2 = 0.46 * HH;
@@ -2790,8 +2790,8 @@ const I = [0.16, 0.92], IL = [0.16, 0.92];
 export const POSES = {
     idle:      { L: IL, R: I },
     hips:      { L: [0.42, 0.62, "fist"], R: [0.42, 0.62, "fist"] },                 // hands on hips (confident, bossy)
-    point:     { L: IL, R: [0.95, 0.02, "point"], expr: "stern" },                    // point sideways at something
-    pointL:    { L: [0.95, 0.02, "point"], R: I, expr: "stern" },
+    point:     { L: IL, R: [0.95, 0.02, "point"], expr: "stern", tilt: 4 },                    // point sideways at something
+    pointL:    { L: [0.95, 0.02, "point"], R: I, expr: "stern", tilt: -4 },
     pointUp:   { L: IL, R: [0.28, -0.92, "point"], expr: "grin" },                    // "look up there!" / idea
     pointDown: { L: IL, R: [0.55, 0.72, "point"] },
     wave:      { L: IL, R: [0.42, -0.78, "open"], expr: "smile", wiggle: "R" },
@@ -2799,14 +2799,14 @@ export const POSES = {
     celebrate: { L: [0.5, -0.75, "open"], R: [0.5, -0.75, "open"], expr: "laugh", hop: 0.35, mode: "jump" },
     panic:     { L: [0.3, -0.62, "open"], R: [0.3, -0.62, "open"], expr: "shock", shake: 1 }, // hands up by the head
     scared:    { L: [-0.05, 0.22, "fist", true], R: [-0.05, 0.22, "fist", true], expr: "nervous", mode: "crouch", shake: 0.6 },
-    shock:     { L: [0.62, -0.18, "open"], R: [0.62, -0.18, "open"], expr: "shock", hop: 0.12 },  // jump back in surprise
+    shock:     { L: [0.62, -0.18, "open"], R: [0.62, -0.18, "open"], expr: "shock", hop: 0.16, headTilt: -6 },  // jump back in surprise
     shrug:     { L: [0.62, 0.12, "open"], R: [0.62, 0.12, "open"], expr: "pained", headTilt: 8 },
     facepalm:  { L: IL, R: [-0.28, -0.6, "open", true], expr: "pained", headTilt: 6 },
     think:     { L: [-0.32, 0.4, "fist", true], R: [-0.24, -0.38, "fist", true], expr: "neutral", headTilt: -6 },
     idea:      { L: IL, R: [0.24, -0.95, "point"], expr: "grin", hop: 0.1 },
     cross:     { L: [-0.42, 0.34, "fist", true], R: [-0.42, 0.3, "fist", true], expr: "stern" },   // arms crossed
-    stop:      { L: IL, R: [0.78, -0.3, "open"], expr: "stern" },                     // "stop!" palm out
-    reach:     { L: IL, R: [0.92, -0.38, "open"], expr: "grin" },
+    stop:      { L: IL, R: [0.78, -0.3, "open"], expr: "stern", tilt: 3 },                     // "stop!" palm out
+    reach:     { L: [0.3, 0.6, "open"], R: [0.92, -0.38, "open"], expr: "grin", tilt: 7 },
     grab:      { L: [0.85, -0.1, "fist"], R: [0.85, -0.1, "fist"], expr: "stern" },
     carry:     { L: [-0.18, 0.5, "open", true], R: [-0.18, 0.5, "open", true], item: "box" },  // carry a box in front
     read:      { L: [-0.22, 0.32, "open", true], R: [-0.22, 0.32, "open", true], item: "paper", expr: "neutral", headTilt: 4 },
@@ -2822,7 +2822,7 @@ export const POSES = {
     clap:      { L: [-0.36, 0.08, "open", true], R: [-0.36, 0.08, "open", true], expr: "laugh", clap: 1 },
     angry:     { L: [0.3, 0.78, "fist"], R: [0.3, 0.78, "fist"], expr: "stern", shake: 0.4 },
     sneak:     { L: [0.35, 0.3, "open"], R: [0.2, 0.15, "open"], expr: "nervous", mode: "crouch", tilt: -4 },
-    run:       { mode: "run", expr: "shock", tilt: 4 },
+    run:       { mode: "run", expr: "shock", tilt: 6 },
     walk:      { mode: "march", L: null, R: null },
     stroll:    { mode: "stroll" },
     jump:      { L: [0.45, -0.7, "open"], R: [0.45, -0.7, "open"], mode: "jump", hop: 0.5, expr: "shock" },
@@ -2836,45 +2836,80 @@ export const POSES = {
     push:      { L: [0.6, -0.05, "open"], R: [0.6, -0.05, "open"], expr: "stern", tilt: 8 },
     lookAround:{ L: IL, R: I, expr: "nervous", lookSweep: 1 },
 };
-const easeOutBack = (t)=>{ const c = 1.6; return 1 + (c + 1) * Math.pow(t - 1, 3) + c * Math.pow(t - 1, 2); };
+// ---- motion curves (12 principles: anticipation, slow-in/out, overshoot + settle, arcs, overlap) ----
+// anticipation: a small move the opposite way first (3 frames), then a springy move that overshoots and settles.
+const ANT = 3 / 30;
+const spring = (dt)=>{ // dt seconds since the move started; ~0.3 s to land, ~12% overshoot, settles by ~0.5 s
+    if (dt <= 0) return 0;
+    return 1 - Math.exp(-dt * 13) * (Math.cos(dt * 21) + 0.55 * Math.sin(dt * 21));
+};
+const moveCurve = (dt, ant = 0.12)=>dt < 0 ? 0 : dt < ANT ? -ant * Math.sin(Math.PI * dt / ANT) : spring(dt - ANT);
+// arcs: blend arm targets in polar coordinates around the shoulder so hands travel on curves, not straight lines
+const toPol = (a)=>[Math.hypot(a[0], a[1]), Math.atan2(a[1], a[0])];
 const lerpArm = (a, b, t)=>{
     a = a || I; b = b || I;
-    return [a[0] + (b[0] - a[0]) * t, a[1] + (b[1] - a[1]) * t, (t < 0.5 ? a : b)[2] ?? "open", (t < 0.5 ? a : b)[3]];
+    const [ra, aa] = toPol(a), [rb, ab] = toPol(b);
+    let d = ab - aa; if (d > Math.PI) d -= 2 * Math.PI; if (d < -Math.PI) d += 2 * Math.PI;
+    const r = ra + (rb - ra) * t, ang = aa + d * t;
+    return [r * Math.cos(ang), r * Math.sin(ang), (t < 0.5 ? a : b)[2] ?? "open", (t < 0.5 ? a : b)[3]];
 };
+const twin = (L, R)=>L && R && Math.abs(L[0] - R[0]) < 0.02 && Math.abs(L[1] - R[1]) < 0.02;
 /**
  * T.act(f, keys, opts) -> { opts, dy, sx, sy }   Acting timeline for one character.
  *   keys: [[frame, 'pose', {overrides}], ...] in frame order (use wf(line,'word') for frames), e.g.
  *         [[0,'idle'], [wf(1,'saw'),'shock'], [wf(2,'ran'),'run'], [wf(4,'money'),'hold',{R:[0.3,0.4,'moneybag']}]]
- *   Poses blend over `blend` frames with a springy overshoot; there is always some life (breathing, sway).
- *   dy = hop height in metres to ADD to the actor's y; sx/sy = squash & stretch for the card (pass through to the actor).
+ *   Built on the 12 principles: every change has anticipation, an overshoot and a settle; hands travel on arcs;
+ *   the left arm trails the right by 2 frames and the head drags 3 frames behind the body (overlapping action,
+ *   no "twinning"); the eyes lead; holds keep moving (breathing, weight shift, eye darts); hops squash on landing.
+ *   dy = hop height in metres to ADD to the actor's y; sx/sy = squash & stretch for the card.
  */
 export const act = (f, keys, base = {})=>{
-    const blend = base.blend ?? 6;
     let i = 0; while (i + 1 < keys.length && f >= keys[i + 1][0]) i++;
     const [f0, n0, o0 = {}] = keys[i], P0 = { ...POSES[n0], ...o0 };
     const prev = i > 0 ? { ...POSES[keys[i - 1][1]], ...(keys[i - 1][2] || {}) } : P0;
-    const t = clamp((f - f0) / blend, 0, 1), e = easeOutBack(t);
-    const P = t < 1 ? prev : P0;
-    const arms = (P0.L === null && P0.R === null) ? null : { L: lerpArm(prev.L, P0.L, e), R: lerpArm(prev.R, P0.R, e) };
-    const sec = f / 30, since = (f - f0) / 30;
-    // life: breathing + gentle sway so nobody is ever frozen
-    if (arms) for (const k of ["L", "R"]) { arms[k][1] += 0.025 * Math.sin(sec * 2.4 + (k === "L" ? 0 : 1)); arms[k][0] += 0.015 * Math.sin(sec * 1.7); }
-    if (arms && P0.wiggle) arms[P0.wiggle][0] += 0.16 * Math.sin(sec * 14);
-    if (arms && P0.clap) { const c = 0.5 + 0.5 * Math.sin(sec * 16); arms.L[0] += 0.1 * c; arms.R[0] += 0.1 * c; }
-    if (arms && P0.scribble) { arms.R[0] += 0.04 * Math.sin(sec * 22); arms.R[1] += 0.03 * Math.cos(sec * 19); if (P0.L?.[2] === "open") arms.L[1] += 0.03 * Math.sin(sec * 21); }
-    if (arms && P0.chop) { const c = Math.pow(0.5 + 0.5 * Math.sin(sec * 7), 3); arms.R[0] = 0.3 + 0.3 * c; arms.R[1] = -0.75 + 1.3 * c; }
-    if (arms && P0.chew) arms.R[1] += 0.05 * Math.max(0, Math.sin(sec * 9));
-    const shake = (P0.shake || 0) * (t >= 1 ? 1 : t);
-    const mode = P0.mode || (prev.mode === "run" && t < 1 ? "run" : "stand");
+    const sec = f / 30, since = (f - f0) / 30, changed = i > 0;
+    const big = Math.min(1, (Math.abs((P0.tilt || 0) - (prev.tilt || 0)) / 10) + 0.6);
+    const eR = changed ? moveCurve(since, 0.12 * big) : 1, eL = changed ? moveCurve(since - 2 / 30, 0.1 * big) : 1, eH = changed ? moveCurve(since - 3 / 30, 0.08) : 1;
+    const eB = changed ? moveCurve(since + 1 / 30, 0.15) : 1; // body / line of action leads
+    let arms = null;
+    if (!(P0.L === null && P0.R === null)) {
+        let tL = P0.L, tR = P0.R;
+        if (twin(tL, tR)) tL = [tL[0] + 0.05, tL[1] - 0.04, tL[2], tL[3]]; // break symmetry
+        arms = { L: lerpArm(prev.L, tL, eL), R: lerpArm(prev.R, tR, eR) };
+        // moving hold: breathing + small drift, offset between arms
+        arms.L[1] += 0.025 * Math.sin(sec * 2.4); arms.R[1] += 0.025 * Math.sin(sec * 2.4 + 0.7);
+        arms.L[0] += 0.015 * Math.sin(sec * 1.7 + 1); arms.R[0] += 0.015 * Math.sin(sec * 1.7);
+        if (P0.wiggle) arms[P0.wiggle][0] += 0.16 * Math.sin(sec * 14) * Math.min(1, since * 4);
+        if (P0.clap) { const c = 0.5 + 0.5 * Math.sin(sec * 16); arms.L[0] += 0.1 * c; arms.R[0] += 0.1 * c; }
+        if (P0.scribble) { arms.R[0] += 0.04 * Math.sin(sec * 22); arms.R[1] += 0.03 * Math.cos(sec * 19); if (P0.L?.[2] === "open") arms.L[1] += 0.03 * Math.sin(sec * 21); }
+        if (P0.chop) { const c = Math.pow(0.5 + 0.5 * Math.sin(sec * 7), 3); arms.R[0] = 0.3 + 0.3 * c; arms.R[1] = -0.75 + 1.3 * c; }
+        if (P0.chew) arms.R[1] += 0.05 * Math.max(0, Math.sin(sec * 9));
+    }
+    const shake = (P0.shake || 0) * Math.min(1, since * 5);
+    const mode = P0.mode || (prev.mode === "run" && since < 0.1 ? "run" : "stand");
+    // eyes lead: look snaps over 2 frames, the head follows later (eH)
+    const lookT = P0.lookSweep ? 0.6 * Math.sin(sec * 3) : (o0.look ?? P0.look ?? base.look ?? 0);
+    const lookP = prev.lookSweep ? 0 : (keys[i - 1]?.[2]?.look ?? prev.look ?? base.look ?? 0);
+    const dart = 0.08 * Math.sign(Math.sin(sec * 0.73 + (base.seed || 0))) * (Math.sin(sec * 2.9) > 0.92 ? 1 : 0); // eye darts in holds
+    const look = (changed ? lookP + (lookT - lookP) * Math.min(1, since * 15) : lookT) + dart;
+    const leanT = P0.tilt ?? 0, leanP = prev.tilt ?? 0;
+    const tilt = leanP + (leanT - leanP) * eB + 1.2 * Math.sin(sec * 0.9 + (base.seed || 0)) + shake * 2.5 * Math.sin(sec * 40); // + weight shift
+    const htT = P0.headTilt ?? 0, htP = prev.headTilt ?? 0;
+    const headTilt = htP + (htT - htP) * eH + 2 * Math.sin(sec * 1.3) - (changed && since < 0.25 ? 4 * Math.sin(Math.PI * since / 0.25) * Math.sign(leanT - leanP || 1) : 0); // head drags
     const expr = (o0.expr || P0.expr || base.expr || "neutral");
-    const look = P0.lookSweep ? 0.6 * Math.sin(sec * 3) : (o0.look ?? base.look ?? 0);
-    const tilt = (prev.tilt || 0) + ((P0.tilt || 0) - (prev.tilt || 0)) * e + shake * 2.5 * Math.sin(sec * 40);
-    const headTilt = (P0.headTilt || 0) * e + 2 * Math.sin(sec * 1.3);
-    // hop + squash/stretch at the start of a pose that has one
+    const blinkNow = base.blink || (changed && since >= 0 && since < 0.1 && expr !== (keys[i - 1]?.[2]?.expr || prev.expr)); // blink on an expression change
+    // hops: anticipation squash -> stretch up -> squash on landing -> settle
     let dy = 0, sx = 1, sy = 1;
-    const hop = P0.hop || 0;
-    if (hop && since >= 0 && since < 0.5) { const h = since / 0.5; dy = hop * Math.sin(Math.PI * h); sy = 1 + 0.12 * Math.sin(Math.PI * h) - (h > 0.9 ? 0.1 : 0); sx = 2 - sy; }
-    else if (since >= 0 && since < 0.1 && n0 !== keys[Math.max(0, i - 1)][1]) { sy = 0.94; sx = 1.04; } // anticipation squash on every change
-    if (mode === "run") { sy = 1 + 0.03 * Math.sin(sec * 18); }
-    return { opts: { ...base, mode, expr, look, tilt, headTilt, arms, item: o0.item ?? P0.item ?? null, phase: mode === "run" ? (sec * 3.2) % 1 : mode === "march" || mode === "stroll" ? (sec * 1.6) % 1 : base.phase ?? 0 }, dy, sx, sy };
+    const hop = P0.hop || 0, HT = 0.18 + hop * 0.5; // air time grows with height
+    if (hop && since >= 0) {
+        if (since < 0.08) { sy = 1 - 0.14 * Math.sin(Math.PI * since / 0.16); }
+        else if (since < 0.08 + HT) { const h = (since - 0.08) / HT; dy = hop * 4 * h * (1 - h); sy = 1 + 0.14 * (1 - 2 * h) * (h < 0.5 ? 1 : 0.4); }
+        else if (since < 0.08 + HT + 0.35) { const l = (since - 0.08 - HT) / 0.35; sy = 1 - 0.16 * Math.exp(-l * 5) * Math.cos(l * 9); }
+        sx = 1 + (1 - sy) * 0.8;
+    } else if (changed && since >= 0 && since < ANT) { sy = 1 - 0.05 * Math.sin(Math.PI * since / ANT); sx = 1 + 0.04 * Math.sin(Math.PI * since / ANT); }
+    if (mode === "run") { const r = Math.abs(Math.sin(sec * Math.PI * 3.2)); dy += 0.06 * r; sy = 0.96 + 0.06 * r; sx = 2 - sy; }
+    return { opts: { ...base, blink: blinkNow, mode, expr, look, tilt, headTilt, arms, item: o0.item ?? P0.item ?? null, phase: mode === "run" ? (sec * 3.2) % 1 : mode === "march" || mode === "stroll" ? (sec * 1.6) % 1 : base.phase ?? 0 }, dy, sx, sy };
 };
+
+/** Draw a character's face (2D style) at (cx, cy) with width W — used for the 3D characters' face texture. */
+export const drawFace = (p, cx, cy, W, o, expr = "neutral", look = 0, blink = 0)=>faceFront(p, cx, cy, W, expr, 0, look, lidOf(blink), false, o.skin ?? SKIN, o.moustache, o.build === "stout");

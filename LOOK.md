@@ -88,6 +88,21 @@ actors.push({ key: 'joe' + JSON.stringify(A.opts), draw: (p) => T.bodyFront(p, J
 - Every character in shot reacts: the listener nods, laughs, gasps or facepalms. Nobody is a statue.
 - Keep characters fully in frame (head and hands) in close-ups; never crop through the face.
 
+
+## 3D characters (in testing — use only after Maiwand approves; then this becomes the default)
+
+`K.stick(outfit, { key, glow })` builds a real 3D stick man (round head with the cartoon face, bean body, stick arms
+and legs with elbows and knees, shoes, cap/hair/top hat, held items). In `build()` create each character once; in
+`frame()` drive it with the same acting keys:
+```js
+JOE3 = K.stick(JOE, { key: 'joe' });                                   // build()
+JOE3.set(T.act(f, joeKeys, { seed: 9, blink: blinkAt(f, 9) }), { x, z, yaw });   // frame(); yaw 0 faces +z
+JOE3.root.visible = false;                                              // hide when not in the shot
+```
+It casts real shadows, gets outlines and contact shadows, can turn (`yaw`), walk and run anywhere (move x/z and use
+the `walk`/`run` poses), sit (`{ seat: 0.45 }`), crouch, jump and fall. Use `ink: 0.5–0.6` in the light object so
+characters get a clear cartoon outline. Example: web/s/acting3d.js.
+
 ## Check before rendering (stills)
 
 Look at `tools/stills.sh` sheets and ask:
