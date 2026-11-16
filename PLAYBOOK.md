@@ -35,6 +35,7 @@ safety) and the pre-render checklist. Its rules override anything below when the
    on line/word times `LS(i)`, `WS(i,'word')`. `python3 stories/<slug>/audio.py` → mix_raw.wav (voice-led, ducked).
 7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3 s/frame/process outdoors, 4–5 s indoors with lamps → a 30 s short ≈ 35–45 min).
    Render the three stories one after another, not in parallel.
+7b. **Opening graphic:** `python3 tools/hookcard.py stories/<slug> "BIG CLAIM|2-5 WORDS" "<badge>"` (LOOK.md); finish.sh overlays it on 0–1.6 s.
 8. **Finish:** `tools/finish.sh <slug> "Title"` → `stories/<slug>/out/<Title>.mp4` (−14 LUFS, burned captions, QA).
    Check the QA sheet; a short black flash or a <1 s freeze at a hold is OK.
 9. **Thumbnail:** pick the most spectacular rendered frame (no captions on raw frames) and run

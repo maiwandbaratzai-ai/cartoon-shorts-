@@ -300,6 +300,21 @@ def tick():                  # counter tick for numbers ticking up
 def countup(t0, t1, gain=0.6):  # rapid ticks while a big number counts up on screen
     k = t0
     while k < t1: place(sfx, tick(), k, gain); k += 0.05 + 0.1 * (k - t0) / max(0.01, t1 - t0)
+def screech(d=0.9):          # tyres swerving
+    n = int(d * SR); t = np.arange(n) / SR
+    f = 2200 + 400 * np.sin(2 * np.pi * 7 * t)
+    return ((np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.35 + bp(noise(d), 2600) * 0.6) * np.minimum(1, t / 0.03) * np.exp(-t * 2.2)).astype(np.float32)
+def flip():                  # sign / card / page flipping over
+    d = 0.22; n = int(d * SR); t = np.arange(n) / SR
+    return (bp(noise(d), 1800) * np.exp(-((t - 0.06) / 0.04) ** 2) * 1.2 + thunk(300, d) * np.exp(-((t - 0.14) / 0.02) ** 2) * 0.5).astype(np.float32)
+def stamp():                 # rubber stamp / gavel: sharp thud + paper slap
+    d = 0.3; n = int(d * SR); t = np.arange(n) / SR
+    return ((thunk(110, d) * 0.9 + hp_fast(noise(d), 1500) * np.exp(-t * 60) * 0.6) * 0.45).astype(np.float32)
+def swish(d=0.28):           # fast whip-pan transition between shots
+    n = int(d * SR); t = np.arange(n) / SR
+    env_ = np.sin(np.pi * t / d) ** 3
+    lo, hi = bp(noise(d), 1000), bp(noise(d), 3200)
+    return ((lo * (1 - t / d) + hi * (t / d)) * env_ * 0.9).astype(np.float32)
 def gulp():
     d = 0.3; n = int(d * SR); t = np.arange(n) / SR
     return (np.sin(2 * np.pi * (300 - 500 * t) * t) * np.exp(-t * 10) + lp_fast(noise(d), 600) * np.exp(-t * 20) * 0.5).astype(np.float32)

@@ -85,6 +85,10 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
   `chew()`/`gulp()` when anything eats, `boing()`, `slide(True/False)` for things going up or down, `scratch()` right before the
   twist ("but then…"), `ribbit()` for frogs/toads, and `countup(t0, t1)` ticks while a big number counts up. Aim for one
   bespoke sound every 2–3 s on top of the cut whooshes, and match the sound to the action on screen.
+  Also: `screech()` (swerving cars), `flip()` (signs, pages, cards turning), `stamp()` (votes, approvals, gavels),
+  `swish()` on every fast camera transition.
+- **Voice drama** (tools/voice.py tags at the start of a script line): `[hype]` = faster and louder for the chaos/action
+  line, `[slow]` = slower for the punchline or kicker, `[beat]` = a short pause before the twist. Use 1–3 per video.
 
 ## 6. Packaging (write stories/<slug>/upload.txt with these)
 
@@ -182,6 +186,12 @@ Every day: **four 30-second Shorts + one 64-second video.**
   Visuals A-, Audio B+. To fix: (1) open on the absurd claim or conflict itself, not on a date stamp. The year badge can
   wait until line 2 or the thumbnail. (2) Use quicker cuts and changing camera angles in the MIDDLE explanation (lines 3–6),
   where shots tend to sit too long. (3) Add punchier bespoke SFX (see §5).
+
+- 2026-11-16 (YouTube AI feedback on Dagen H, first video in the rich look): Hook A, Visuals A (up from A-),
+  Audio A- (up from B+), Narrative A, Presence A. Next steps it named: (1) a bolder opening graphic → every video now
+  opens with tools/hookcard.py (big 2–5 word claim on 0–1.6 s); (2) faster transitions between scenes → whip-pan
+  cuts with `swish()`; (3) action-matched SFX (swerving cars, flipping signs, stamps) → new sounds; (4) more vocal drama
+  on the chaos reveal → `[hype]`/`[slow]`/`[beat]` tags.
 
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/

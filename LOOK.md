@@ -55,6 +55,10 @@ Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side
   and a detailed, softly blurred background. Never a character against an empty wall or a flat plain.
 - **Dress every set:** 8+ props for an interior, with things on tables, shelves and walls (signs, calendars,
   bottles, tools). Put a readable sign or label in the world when it helps the story (a mine name, a shop name, a newspaper).
+- **Fast transitions:** move between scenes with a whip-pan: in the last 4–6 frames of a shot, swing the camera
+  sideways fast (motion blur is fine), then cut, with `swish()` on the sound. No slow drifts between locations.
+- **Opening graphic:** run `python3 tools/hookcard.py stories/<slug> "BIG CLAIM|IN 2-5 WORDS" "<number/place>"` and
+  finish.sh shows it over the first 1.6 s. It states the absurd claim, not a date, and sits in the top 40% of the frame.
 - **Reaction shots:** cut to the other character's face on the punchline.
 - **Depth of field:** close-ups `cinf 10–16`, inserts `16–22`, wides `4–8`.
 

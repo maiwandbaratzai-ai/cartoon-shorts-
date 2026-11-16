@@ -7,7 +7,8 @@ Prints FAIL (must fix) and WARN (fix unless there's a reason) lines, then a summ
 import sys, re
 
 sd = sys.argv[1].rstrip('/'); target = int(sys.argv[2]) if len(sys.argv) > 2 else 30
-lines = [l.strip() for l in open(f'{sd}/script.txt') if l.strip()]
+import re as _re
+lines = [_re.sub(r'\[(hype|slow|beat)\]\s*', '', l.strip()) for l in open(f'{sd}/script.txt') if l.strip()]
 words = lambda s: re.findall(r"[A-Za-z0-9$'%,.-]+", s)
 fails, warns = [], []
 F = lambda m: fails.append(m); Wn = lambda m: warns.append(m)

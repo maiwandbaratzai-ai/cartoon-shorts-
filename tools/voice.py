@@ -18,6 +18,14 @@ FPS, SR = 30, 24000
 lines = [l.strip() for l in open(f'{sd}/script.txt') if l.strip()]
 say = [l.strip() for l in open(f'{sd}/say.txt') if l.strip()] if os.path.exists(f'{sd}/say.txt') else lines
 assert len(say) == len(lines)
+# delivery tags (YouTube feedback 2026-11-16: more vocal drama on the chaos reveal). Put at the start of a line in
+# script.txt or say.txt: [hype] faster + louder (chaos, action), [slow] slower (punchline, kicker), [beat] short pause before the line.
+import re as _re
+TAGS = []
+for i in range(len(lines)):
+    tg = set(_re.findall(r'\[(hype|slow|beat)\]', lines[i] + ' ' + say[i]))
+    lines[i] = _re.sub(r'\[(hype|slow|beat)\]\s*', '', lines[i]).strip(); say[i] = _re.sub(r'\[(hype|slow|beat)\]\s*', '', say[i]).strip()
+    TAGS.append(tg)
 # SCRIPTS.md lint (full report) + VIRAL.md §3 checks (warnings only)
 import subprocess as _sp; _sp.run([sys.executable, os.path.join(KIT, 'tools', 'script_check.py'), sd, str(int(target or 30))])
 _nw = sum(len(l.split()) for l in lines)
@@ -29,13 +37,15 @@ k = Kokoro(f'{MODEL}/kokoro-v1.0.onnx', f'{MODEL}/voices-v1.0.bin')
 
 def synth(speed):
     out = []
-    for l in say:
-        a, sr = k.create(l, voice=VOICE, speed=speed, lang='en-us')
-        idx = np.where(np.abs(a) > 0.01)[0]; out.append(a[max(0, idx[0] - 120):idx[-1] + 600].astype(np.float32))
+    for l, tg in zip(say, TAGS):
+        sp = speed * (1.12 if 'hype' in tg else 0.88 if 'slow' in tg else 1.0)
+        a, sr = k.create(l, voice=VOICE, speed=sp, lang='en-us')
+        idx = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, idx[0] - 120):idx[-1] + 600].astype(np.float32)
+        out.append(a * (1.3 if 'hype' in tg else 1.0))
     return out
 LEAD, TAIL = 0.12, 1.3
 gap = lambda l: 0.42 if l.endswith('?') else 0.3 if l.endswith(('.', '!')) else 0.18
-def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for l in lines[:-1]) + TAIL
+def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for l in lines[:-1]) + sum(0.35 for tg in TAGS if 'beat' in tg) + TAIL
 speed = float(os.environ.get('VOICE_SPEED', 1.2)); clips = synth(speed)
 if target and not os.environ.get('VOICE_SPEED'):  # VOICE_SPEED=1.25 pins the speed (the auto-fit can oscillate)
     for _ in range(3):
@@ -48,6 +58,7 @@ print(f'speed {speed:.2f}  length {total(clips):.2f}s')
 
 t = LEAD; buf = []; L = []
 for i, (c, l) in enumerate(zip(clips, lines)):
+    if 'beat' in TAGS[i]: t += 0.35
     L.append(dict(text=l, s=round(t, 3), e=round(t + len(c) / SR, 3)))
     buf.append((t, c)); t += len(c) / SR + (gap(l) if i < len(lines) - 1 else 0)
 dur = t + TAIL
