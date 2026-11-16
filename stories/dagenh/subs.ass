@@ -1,0 +1,110 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AT{\c&HFFFFFF&} 5 A.M.,
+Dialogue: 0,0:00:00.35,0:00:00.58,Cap,,0,0,0,,AT {\c&H00E6FF&}5{\c&HFFFFFF&} A.M.,
+Dialogue: 0,0:00:00.58,0:00:00.73,Cap,,0,0,0,,AT 5 {\c&H00E6FF&}A.M.,{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.73,0:00:01.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWEDEN'S{\c&HFFFFFF&} DRIVERS ALL
+Dialogue: 0,0:00:01.09,0:00:01.51,Cap,,0,0,0,,SWEDEN'S {\c&H00E6FF&}DRIVERS{\c&HFFFFFF&} ALL
+Dialogue: 0,0:00:01.51,0:00:01.76,Cap,,0,0,0,,SWEDEN'S DRIVERS {\c&H00E6FF&}ALL{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.76,0:00:02.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWITCHED{\c&HFFFFFF&} SIDES OF
+Dialogue: 0,0:00:02.16,0:00:02.44,Cap,,0,0,0,,SWITCHED {\c&H00E6FF&}SIDES{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:02.44,0:00:02.58,Cap,,0,0,0,,SWITCHED SIDES {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.58,0:00:02.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} ROAD.
+Dialogue: 0,0:00:02.77,0:00:03.27,Cap,,0,0,0,,THE {\c&H00E6FF&}ROAD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.42,0:00:03.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1967,
+Dialogue: 0,0:00:03.56,0:00:04.30,Cap,,0,0,0,,IN {\c&H00E6FF&}1967,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.30,0:00:04.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} CAR IN
+Dialogue: 0,0:00:04.64,0:00:04.83,Cap,,0,0,0,,EVERY {\c&H00E6FF&}CAR{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:04.83,0:00:04.98,Cap,,0,0,0,,EVERY CAR {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.98,0:00:05.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} COUNTRY STOPPED,
+Dialogue: 0,0:00:05.17,0:00:05.53,Cap,,0,0,0,,THE {\c&H00E6FF&}COUNTRY{\c&HFFFFFF&} STOPPED,
+Dialogue: 0,0:00:05.53,0:00:05.88,Cap,,0,0,0,,THE COUNTRY {\c&H00E6FF&}STOPPED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.88,0:00:06.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CREPT{\c&HFFFFFF&} RIGHT,
+Dialogue: 0,0:00:06.36,0:00:06.74,Cap,,0,0,0,,CREPT {\c&H00E6FF&}RIGHT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.74,0:00:07.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} WAITED.
+Dialogue: 0,0:00:07.02,0:00:07.60,Cap,,0,0,0,,AND {\c&H00E6FF&}WAITED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.77,0:00:08.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWEDEN{\c&HFFFFFF&} DROVE ON
+Dialogue: 0,0:00:08.03,0:00:08.26,Cap,,0,0,0,,SWEDEN {\c&H00E6FF&}DROVE{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:08.26,0:00:08.38,Cap,,0,0,0,,SWEDEN DROVE {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.38,0:00:08.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} LEFT.
+Dialogue: 0,0:00:08.54,0:00:08.73,Cap,,0,0,0,,THE {\c&H00E6FF&}LEFT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.73,0:00:09.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} MOST OF
+Dialogue: 0,0:00:09.09,0:00:09.28,Cap,,0,0,0,,BUT {\c&H00E6FF&}MOST{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:09.28,0:00:09.40,Cap,,0,0,0,,BUT MOST {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.40,0:00:09.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ITS{\c&HFFFFFF&} CARS WERE
+Dialogue: 0,0:00:09.56,0:00:09.75,Cap,,0,0,0,,ITS {\c&H00E6FF&}CARS{\c&HFFFFFF&} WERE
+Dialogue: 0,0:00:09.75,0:00:09.94,Cap,,0,0,0,,ITS CARS {\c&H00E6FF&}WERE{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.94,0:00:10.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUILT{\c&HFFFFFF&} FOR THE
+Dialogue: 0,0:00:10.17,0:00:10.33,Cap,,0,0,0,,BUILT {\c&H00E6FF&}FOR{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:10.33,0:00:10.64,Cap,,0,0,0,,BUILT FOR {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.64,0:00:11.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RIGHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.22,0:00:11.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1955,
+Dialogue: 0,0:00:11.36,0:00:12.24,Cap,,0,0,0,,IN {\c&H00E6FF&}1955,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.24,0:00:12.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}83{\c&HFFFFFF&} PERCENT OF
+Dialogue: 0,0:00:12.80,0:00:13.16,Cap,,0,0,0,,83 {\c&H00E6FF&}PERCENT{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:13.16,0:00:13.31,Cap,,0,0,0,,83 PERCENT {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.31,0:00:13.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWEDES{\c&HFFFFFF&} VOTED AGAINST
+Dialogue: 0,0:00:13.63,0:00:13.91,Cap,,0,0,0,,SWEDES {\c&H00E6FF&}VOTED{\c&HFFFFFF&} AGAINST
+Dialogue: 0,0:00:13.91,0:00:14.28,Cap,,0,0,0,,SWEDES VOTED {\c&H00E6FF&}AGAINST{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.28,0:00:14.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWITCHING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.07,0:00:15.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE GOVERNMENT
+Dialogue: 0,0:00:15.20,0:00:15.36,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} GOVERNMENT
+Dialogue: 0,0:00:15.36,0:00:15.77,Cap,,0,0,0,,SO THE {\c&H00E6FF&}GOVERNMENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.77,0:00:15.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DID{\c&HFFFFFF&} IT ANYWAY.
+Dialogue: 0,0:00:15.93,0:00:16.05,Cap,,0,0,0,,DID {\c&H00E6FF&}IT{\c&HFFFFFF&} ANYWAY.
+Dialogue: 0,0:00:16.05,0:00:16.57,Cap,,0,0,0,,DID IT {\c&H00E6FF&}ANYWAY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.66,0:00:16.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:16.88,0:00:17.02,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:17.02,0:00:17.20,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.20,0:00:17.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.57,0:00:18.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}360,000{\c&HFFFFFF&} ROAD SIGNS
+Dialogue: 0,0:00:18.66,0:00:18.88,Cap,,0,0,0,,360,000 {\c&H00E6FF&}ROAD{\c&HFFFFFF&} SIGNS
+Dialogue: 0,0:00:18.88,0:00:19.15,Cap,,0,0,0,,360,000 ROAD {\c&H00E6FF&}SIGNS{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.15,0:00:19.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAD{\c&HFFFFFF&} TO FLIP
+Dialogue: 0,0:00:19.33,0:00:19.47,Cap,,0,0,0,,HAD {\c&H00E6FF&}TO{\c&HFFFFFF&} FLIP
+Dialogue: 0,0:00:19.47,0:00:19.82,Cap,,0,0,0,,HAD TO {\c&H00E6FF&}FLIP{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.82,0:00:20.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} ABOUT A
+Dialogue: 0,0:00:20.02,0:00:20.28,Cap,,0,0,0,,IN {\c&H00E6FF&}ABOUT{\c&HFFFFFF&} A
+Dialogue: 0,0:00:20.28,0:00:20.38,Cap,,0,0,0,,IN ABOUT {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.38,0:00:20.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DAY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.92,0:00:21.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUSES{\c&HFFFFFF&} GOT NEW
+Dialogue: 0,0:00:21.18,0:00:21.37,Cap,,0,0,0,,BUSES {\c&H00E6FF&}GOT{\c&HFFFFFF&} NEW
+Dialogue: 0,0:00:21.37,0:00:21.55,Cap,,0,0,0,,BUSES GOT {\c&H00E6FF&}NEW{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.55,0:00:21.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOORS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.82,0:00:21.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} POP SONG
+Dialogue: 0,0:00:21.92,0:00:22.10,Cap,,0,0,0,,A {\c&H00E6FF&}POP{\c&HFFFFFF&} SONG
+Dialogue: 0,0:00:22.10,0:00:22.33,Cap,,0,0,0,,A POP {\c&H00E6FF&}SONG{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.33,0:00:22.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BEGGED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.64,0:00:22.86,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"KEEP{\c&HFFFFFF&} TO THE
+Dialogue: 0,0:00:22.86,0:00:23.27,Cap,,0,0,0,,"KEEP {\c&H00E6FF&}TO{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:23.27,0:00:23.46,Cap,,0,0,0,,"KEEP TO {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.46,0:00:23.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RIGHT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.73,0:00:24.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SVENSSON!"{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.36,0:00:24.77,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERYONE{\c&HFFFFFF&} EXPECTED CRASHES
+Dialogue: 0,0:00:24.77,0:00:25.27,Cap,,0,0,0,,{\fs98}EVERYONE {\c&H00E6FF&}EXPECTED{\c&HFFFFFF&} CRASHES
+Dialogue: 0,0:00:25.27,0:00:25.64,Cap,,0,0,0,,{\fs98}EVERYONE EXPECTED {\c&H00E6FF&}CRASHES{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.64,0:00:26.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERYWHERE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.14,0:00:26.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INSTEAD,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.64,0:00:27.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CRASHES{\c&HFFFFFF&} WENT DOWN
+Dialogue: 0,0:00:27.00,0:00:27.25,Cap,,0,0,0,,CRASHES {\c&H00E6FF&}WENT{\c&HFFFFFF&} DOWN
+Dialogue: 0,0:00:27.25,0:00:27.48,Cap,,0,0,0,,CRASHES WENT {\c&H00E6FF&}DOWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.48,0:00:27.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOR{\c&HFFFFFF&} A WHILE.
+Dialogue: 0,0:00:27.75,0:00:27.86,Cap,,0,0,0,,FOR {\c&H00E6FF&}A{\c&HFFFFFF&} WHILE.
+Dialogue: 0,0:00:27.86,0:00:28.41,Cap,,0,0,0,,FOR A {\c&H00E6FF&}WHILE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.52,0:00:28.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TURNS{\c&HFFFFFF&} OUT,
+Dialogue: 0,0:00:28.77,0:00:28.94,Cap,,0,0,0,,TURNS {\c&H00E6FF&}OUT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.94,0:00:29.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SCARED{\c&HFFFFFF&} DRIVERS ARE
+Dialogue: 0,0:00:29.23,0:00:29.56,Cap,,0,0,0,,SCARED {\c&H00E6FF&}DRIVERS{\c&HFFFFFF&} ARE
+Dialogue: 0,0:00:29.56,0:00:29.79,Cap,,0,0,0,,SCARED DRIVERS {\c&H00E6FF&}ARE{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.79,0:00:30.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAREFUL{\c&HFFFFFF&} DRIVERS.
+Dialogue: 0,0:00:30.20,0:00:30.79,Cap,,0,0,0,,CAREFUL {\c&H00E6FF&}DRIVERS.{\c&HFFFFFF&}

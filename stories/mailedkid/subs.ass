@@ -1,0 +1,115 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} PARENTS IN
+Dialogue: 0,0:00:00.31,0:00:00.68,Cap,,0,0,0,,TWO {\c&H00E6FF&}PARENTS{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:00.68,0:00:00.83,Cap,,0,0,0,,TWO PARENTS {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.83,0:00:01.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IDAHO{\c&HFFFFFF&} MAILED THEIR
+Dialogue: 0,0:00:01.11,0:00:01.53,Cap,,0,0,0,,IDAHO {\c&H00E6FF&}MAILED{\c&HFFFFFF&} THEIR
+Dialogue: 0,0:00:01.53,0:00:01.81,Cap,,0,0,0,,IDAHO MAILED {\c&H00E6FF&}THEIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.81,0:00:02.41,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIVE-YEAR-OLD{\c&HFFFFFF&} TO GRANDMA.
+Dialogue: 0,0:00:02.41,0:00:02.57,Cap,,0,0,0,,{\fs98}FIVE-YEAR-OLD {\c&H00E6FF&}TO{\c&HFFFFFF&} GRANDMA.
+Dialogue: 0,0:00:02.57,0:00:03.20,Cap,,0,0,0,,{\fs98}FIVE-YEAR-OLD TO {\c&H00E6FF&}GRANDMA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.34,0:00:03.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} POSTAGE STAMPS
+Dialogue: 0,0:00:03.49,0:00:03.80,Cap,,0,0,0,,THE {\c&H00E6FF&}POSTAGE{\c&HFFFFFF&} STAMPS
+Dialogue: 0,0:00:03.80,0:00:04.06,Cap,,0,0,0,,THE POSTAGE {\c&H00E6FF&}STAMPS{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.06,0:00:04.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WENT{\c&HFFFFFF&} RIGHT ON
+Dialogue: 0,0:00:04.26,0:00:04.49,Cap,,0,0,0,,WENT {\c&H00E6FF&}RIGHT{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:04.49,0:00:04.61,Cap,,0,0,0,,WENT RIGHT {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.61,0:00:04.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HER{\c&HFFFFFF&} COAT.
+Dialogue: 0,0:00:04.77,0:00:05.23,Cap,,0,0,0,,HER {\c&H00E6FF&}COAT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.31,0:00:05.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} 1914,
+Dialogue: 0,0:00:05.46,0:00:06.21,Cap,,0,0,0,,IN {\c&H00E6FF&}1914,{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.21,0:00:06.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PARCEL{\c&HFFFFFF&} POST TOOK
+Dialogue: 0,0:00:06.53,0:00:06.76,Cap,,0,0,0,,PARCEL {\c&H00E6FF&}POST{\c&HFFFFFF&} TOOK
+Dialogue: 0,0:00:06.76,0:00:07.00,Cap,,0,0,0,,PARCEL POST {\c&H00E6FF&}TOOK{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.00,0:00:07.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ANY{\c&HFFFFFF&} PACKAGE UNDER
+Dialogue: 0,0:00:07.19,0:00:07.56,Cap,,0,0,0,,ANY {\c&H00E6FF&}PACKAGE{\c&HFFFFFF&} UNDER
+Dialogue: 0,0:00:07.56,0:00:07.84,Cap,,0,0,0,,ANY PACKAGE {\c&H00E6FF&}UNDER{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.84,0:00:08.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}50{\c&HFFFFFF&} POUNDS.
+Dialogue: 0,0:00:08.42,0:00:09.01,Cap,,0,0,0,,50 {\c&H00E6FF&}POUNDS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.10,0:00:09.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MAY{\c&HFFFFFF&} WEIGHED 48
+Dialogue: 0,0:00:09.26,0:00:09.58,Cap,,0,0,0,,MAY {\c&H00E6FF&}WEIGHED{\c&HFFFFFF&} 48
+Dialogue: 0,0:00:09.58,0:00:09.94,Cap,,0,0,0,,MAY WEIGHED {\c&H00E6FF&}48{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.94,0:00:10.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} A HALF.
+Dialogue: 0,0:00:10.11,0:00:10.20,Cap,,0,0,0,,AND {\c&H00E6FF&}A{\c&HFFFFFF&} HALF.
+Dialogue: 0,0:00:10.20,0:00:10.54,Cap,,0,0,0,,AND A {\c&H00E6FF&}HALF.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.54,0:00:10.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} LEGALLY,
+Dialogue: 0,0:00:10.67,0:00:10.99,Cap,,0,0,0,,SO {\c&H00E6FF&}LEGALLY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.99,0:00:11.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SHE{\c&HFFFFFF&} WAS A
+Dialogue: 0,0:00:11.15,0:00:11.32,Cap,,0,0,0,,SHE {\c&H00E6FF&}WAS{\c&HFFFFFF&} A
+Dialogue: 0,0:00:11.32,0:00:11.42,Cap,,0,0,0,,SHE WAS {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.42,0:00:12.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PACKAGE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.26,0:00:12.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MAILING{\c&HFFFFFF&} HER COST
+Dialogue: 0,0:00:12.58,0:00:12.74,Cap,,0,0,0,,MAILING {\c&H00E6FF&}HER{\c&HFFFFFF&} COST
+Dialogue: 0,0:00:12.74,0:00:12.95,Cap,,0,0,0,,MAILING HER {\c&H00E6FF&}COST{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.95,0:00:13.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LESS{\c&HFFFFFF&} THAN A
+Dialogue: 0,0:00:13.16,0:00:13.37,Cap,,0,0,0,,LESS {\c&H00E6FF&}THAN{\c&HFFFFFF&} A
+Dialogue: 0,0:00:13.37,0:00:13.46,Cap,,0,0,0,,LESS THAN {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.46,0:00:13.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRAIN{\c&HFFFFFF&} TICKET.
+Dialogue: 0,0:00:13.70,0:00:14.09,Cap,,0,0,0,,TRAIN {\c&H00E6FF&}TICKET.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.09,0:00:14.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} OFF SHE
+Dialogue: 0,0:00:14.22,0:00:14.39,Cap,,0,0,0,,SO {\c&H00E6FF&}OFF{\c&HFFFFFF&} SHE
+Dialogue: 0,0:00:14.39,0:00:14.56,Cap,,0,0,0,,SO OFF {\c&H00E6FF&}SHE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.56,0:00:15.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WENT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.10,0:00:15.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SHE{\c&HFFFFFF&} RODE IN
+Dialogue: 0,0:00:15.26,0:00:15.46,Cap,,0,0,0,,SHE {\c&H00E6FF&}RODE{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:15.46,0:00:15.59,Cap,,0,0,0,,SHE RODE {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.59,0:00:15.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} MAIL CAR,
+Dialogue: 0,0:00:15.75,0:00:16.01,Cap,,0,0,0,,THE {\c&H00E6FF&}MAIL{\c&HFFFFFF&} CAR,
+Dialogue: 0,0:00:16.01,0:00:16.17,Cap,,0,0,0,,THE MAIL {\c&H00E6FF&}CAR,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.17,0:00:16.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BETWEEN{\c&HFFFFFF&} THE SACKS
+Dialogue: 0,0:00:16.54,0:00:16.70,Cap,,0,0,0,,BETWEEN {\c&H00E6FF&}THE{\c&HFFFFFF&} SACKS
+Dialogue: 0,0:00:16.70,0:00:16.94,Cap,,0,0,0,,BETWEEN THE {\c&H00E6FF&}SACKS{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.94,0:00:17.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} LETTERS.
+Dialogue: 0,0:00:17.07,0:00:17.64,Cap,,0,0,0,,OF {\c&H00E6FF&}LETTERS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.73,0:00:17.86,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} SHE WASN'T
+Dialogue: 0,0:00:17.86,0:00:18.00,Cap,,0,0,0,,BUT {\c&H00E6FF&}SHE{\c&HFFFFFF&} WASN'T
+Dialogue: 0,0:00:18.00,0:00:18.20,Cap,,0,0,0,,BUT SHE {\c&H00E6FF&}WASN'T{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.20,0:00:18.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVEN{\c&HFFFFFF&} THE WEIRDEST
+Dialogue: 0,0:00:18.43,0:00:18.57,Cap,,0,0,0,,EVEN {\c&H00E6FF&}THE{\c&HFFFFFF&} WEIRDEST
+Dialogue: 0,0:00:18.57,0:00:18.86,Cap,,0,0,0,,EVEN THE {\c&H00E6FF&}WEIRDEST{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.86,0:00:19.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THING{\c&HFFFFFF&} IN THE
+Dialogue: 0,0:00:19.11,0:00:19.21,Cap,,0,0,0,,THING {\c&H00E6FF&}IN{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:19.21,0:00:19.36,Cap,,0,0,0,,THING IN {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.36,0:00:19.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MAIL.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.91,0:00:20.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} UTAH,
+Dialogue: 0,0:00:20.04,0:00:20.25,Cap,,0,0,0,,IN {\c&H00E6FF&}UTAH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.25,0:00:20.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOMEONE{\c&HFFFFFF&} MAILED A
+Dialogue: 0,0:00:20.57,0:00:20.86,Cap,,0,0,0,,SOMEONE {\c&H00E6FF&}MAILED{\c&HFFFFFF&} A
+Dialogue: 0,0:00:20.86,0:00:20.95,Cap,,0,0,0,,SOMEONE MAILED {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.95,0:00:21.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHOLE{\c&HFFFFFF&} BANK:
+Dialogue: 0,0:00:21.20,0:00:21.41,Cap,,0,0,0,,WHOLE {\c&H00E6FF&}BANK:{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.41,0:00:22.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}40{\c&HFFFFFF&} TONS OF
+Dialogue: 0,0:00:22.02,0:00:22.23,Cap,,0,0,0,,40 {\c&H00E6FF&}TONS{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:22.23,0:00:22.38,Cap,,0,0,0,,40 TONS {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.38,0:00:22.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BRICKS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.77,0:00:23.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}50{\c&HFFFFFF&} POUNDS AT
+Dialogue: 0,0:00:23.30,0:00:23.57,Cap,,0,0,0,,50 {\c&H00E6FF&}POUNDS{\c&HFFFFFF&} AT
+Dialogue: 0,0:00:23.57,0:00:23.71,Cap,,0,0,0,,50 POUNDS {\c&H00E6FF&}AT{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.71,0:00:23.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} TIME.
+Dialogue: 0,0:00:23.80,0:00:24.29,Cap,,0,0,0,,A {\c&H00E6FF&}TIME.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.36,0:00:24.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE POST
+Dialogue: 0,0:00:24.47,0:00:24.62,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} POST
+Dialogue: 0,0:00:24.62,0:00:24.80,Cap,,0,0,0,,SO THE {\c&H00E6FF&}POST{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.80,0:00:25.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFFICE{\c&HFFFFFF&} BANNED MAILING
+Dialogue: 0,0:00:25.18,0:00:25.43,Cap,,0,0,0,,OFFICE {\c&H00E6FF&}BANNED{\c&HFFFFFF&} MAILING
+Dialogue: 0,0:00:25.43,0:00:25.72,Cap,,0,0,0,,OFFICE BANNED {\c&H00E6FF&}MAILING{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.72,0:00:26.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PEOPLE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.42,0:00:26.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOO{\c&HFFFFFF&} LATE.
+Dialogue: 0,0:00:26.58,0:00:26.92,Cap,,0,0,0,,TOO {\c&H00E6FF&}LATE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.92,0:00:27.08,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MAY{\c&HFFFFFF&} WAS HAND-DELIVERED,
+Dialogue: 0,0:00:27.08,0:00:27.25,Cap,,0,0,0,,{\fs107}MAY {\c&H00E6FF&}WAS{\c&HFFFFFF&} HAND-DELIVERED,
+Dialogue: 0,0:00:27.25,0:00:27.79,Cap,,0,0,0,,{\fs107}MAY WAS {\c&H00E6FF&}HAND-DELIVERED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.79,0:00:28.09,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RIGHT{\c&HFFFFFF&} TO GRANDMA.
+Dialogue: 0,0:00:28.09,0:00:28.22,Cap,,0,0,0,,RIGHT {\c&H00E6FF&}TO{\c&HFFFFFF&} GRANDMA.
+Dialogue: 0,0:00:28.22,0:00:28.80,Cap,,0,0,0,,RIGHT TO {\c&H00E6FF&}GRANDMA.{\c&HFFFFFF&}

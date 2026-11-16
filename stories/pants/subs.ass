@@ -1,0 +1,117 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FARMERS{\c&HFFFFFF&} IN NEW
+Dialogue: 0,0:00:00.46,0:00:00.61,Cap,,0,0,0,,FARMERS {\c&H00E6FF&}IN{\c&HFFFFFF&} NEW
+Dialogue: 0,0:00:00.61,0:00:00.79,Cap,,0,0,0,,FARMERS IN {\c&H00E6FF&}NEW{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.79,0:00:01.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ZEALAND{\c&HFFFFFF&} HAD A
+Dialogue: 0,0:00:01.14,0:00:01.33,Cap,,0,0,0,,ZEALAND {\c&H00E6FF&}HAD{\c&HFFFFFF&} A
+Dialogue: 0,0:00:01.33,0:00:01.43,Cap,,0,0,0,,ZEALAND HAD {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.43,0:00:01.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PROBLEM:{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.78,0:00:02.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEIR{\c&HFFFFFF&} PANTS KEPT
+Dialogue: 0,0:00:02.17,0:00:02.44,Cap,,0,0,0,,THEIR {\c&H00E6FF&}PANTS{\c&HFFFFFF&} KEPT
+Dialogue: 0,0:00:02.44,0:00:02.73,Cap,,0,0,0,,THEIR PANTS {\c&H00E6FF&}KEPT{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.73,0:00:03.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EXPLODING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.59,0:00:03.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} PAIR WENT
+Dialogue: 0,0:00:03.74,0:00:03.93,Cap,,0,0,0,,ONE {\c&H00E6FF&}PAIR{\c&HFFFFFF&} WENT
+Dialogue: 0,0:00:03.93,0:00:04.12,Cap,,0,0,0,,ONE PAIR {\c&H00E6FF&}WENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.12,0:00:04.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BANG{\c&HFFFFFF&} WHILE THE
+Dialogue: 0,0:00:04.38,0:00:04.61,Cap,,0,0,0,,BANG {\c&H00E6FF&}WHILE{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:04.61,0:00:04.76,Cap,,0,0,0,,BANG WHILE {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.76,0:00:05.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FARMER{\c&HFFFFFF&} WAS STILL
+Dialogue: 0,0:00:05.02,0:00:05.18,Cap,,0,0,0,,FARMER {\c&H00E6FF&}WAS{\c&HFFFFFF&} STILL
+Dialogue: 0,0:00:05.18,0:00:05.40,Cap,,0,0,0,,FARMER WAS {\c&H00E6FF&}STILL{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.40,0:00:05.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WEARING{\c&HFFFFFF&} THEM.
+Dialogue: 0,0:00:05.69,0:00:06.15,Cap,,0,0,0,,WEARING {\c&H00E6FF&}THEM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.31,0:00:06.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CAUSE?
+Dialogue: 0,0:00:06.45,0:00:06.67,Cap,,0,0,0,,THE {\c&H00E6FF&}CAUSE?{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.67,0:00:06.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} WEEDKILLER CALLED
+Dialogue: 0,0:00:06.75,0:00:07.13,Cap,,0,0,0,,A {\c&H00E6FF&}WEEDKILLER{\c&HFFFFFF&} CALLED
+Dialogue: 0,0:00:07.13,0:00:07.38,Cap,,0,0,0,,A WEEDKILLER {\c&H00E6FF&}CALLED{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.38,0:00:07.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SODIUM{\c&HFFFFFF&} CHLORATE.
+Dialogue: 0,0:00:07.63,0:00:08.27,Cap,,0,0,0,,SODIUM {\c&H00E6FF&}CHLORATE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.36,0:00:08.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} THE 1930S,
+Dialogue: 0,0:00:08.49,0:00:08.66,Cap,,0,0,0,,IN {\c&H00E6FF&}THE{\c&HFFFFFF&} 1930S,
+Dialogue: 0,0:00:08.66,0:00:09.44,Cap,,0,0,0,,IN THE {\c&H00E6FF&}1930S,{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.44,0:00:09.61,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} GOVERNMENT TOLD
+Dialogue: 0,0:00:09.61,0:00:10.05,Cap,,0,0,0,,THE {\c&H00E6FF&}GOVERNMENT{\c&HFFFFFF&} TOLD
+Dialogue: 0,0:00:10.05,0:00:10.34,Cap,,0,0,0,,THE GOVERNMENT {\c&H00E6FF&}TOLD{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.34,0:00:10.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FARMERS{\c&HFFFFFF&} TO SPRAY
+Dialogue: 0,0:00:10.67,0:00:10.89,Cap,,0,0,0,,FARMERS {\c&H00E6FF&}TO{\c&HFFFFFF&} SPRAY
+Dialogue: 0,0:00:10.89,0:00:11.14,Cap,,0,0,0,,FARMERS TO {\c&H00E6FF&}SPRAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.14,0:00:11.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} ON RAGWORT.
+Dialogue: 0,0:00:11.27,0:00:11.41,Cap,,0,0,0,,IT {\c&H00E6FF&}ON{\c&HFFFFFF&} RAGWORT.
+Dialogue: 0,0:00:11.41,0:00:12.00,Cap,,0,0,0,,IT ON {\c&H00E6FF&}RAGWORT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.11,0:00:12.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} KILLED THE
+Dialogue: 0,0:00:12.29,0:00:12.52,Cap,,0,0,0,,IT {\c&H00E6FF&}KILLED{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:12.52,0:00:12.65,Cap,,0,0,0,,IT KILLED {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.65,0:00:12.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WEEDS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.87,0:00:13.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE SPRAY
+Dialogue: 0,0:00:13.14,0:00:13.36,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} SPRAY
+Dialogue: 0,0:00:13.36,0:00:13.56,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}SPRAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.56,0:00:13.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOAKED{\c&HFFFFFF&} INTO THEIR
+Dialogue: 0,0:00:13.88,0:00:14.05,Cap,,0,0,0,,SOAKED {\c&H00E6FF&}INTO{\c&HFFFFFF&} THEIR
+Dialogue: 0,0:00:14.05,0:00:14.27,Cap,,0,0,0,,SOAKED INTO {\c&H00E6FF&}THEIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.27,0:00:14.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TROUSERS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.96,0:00:15.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} ONCE THE
+Dialogue: 0,0:00:15.08,0:00:15.28,Cap,,0,0,0,,SO {\c&H00E6FF&}ONCE{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:15.28,0:00:15.45,Cap,,0,0,0,,SO ONCE {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.45,0:00:15.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CLOTH{\c&HFFFFFF&} DRIED,
+Dialogue: 0,0:00:15.69,0:00:15.92,Cap,,0,0,0,,CLOTH {\c&H00E6FF&}DRIED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.92,0:00:16.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} BURNED LIKE
+Dialogue: 0,0:00:16.05,0:00:16.38,Cap,,0,0,0,,IT {\c&H00E6FF&}BURNED{\c&HFFFFFF&} LIKE
+Dialogue: 0,0:00:16.38,0:00:16.59,Cap,,0,0,0,,IT BURNED {\c&H00E6FF&}LIKE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.59,0:00:16.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} MATCH HEAD.
+Dialogue: 0,0:00:16.68,0:00:16.91,Cap,,0,0,0,,A {\c&H00E6FF&}MATCH{\c&HFFFFFF&} HEAD.
+Dialogue: 0,0:00:16.91,0:00:17.38,Cap,,0,0,0,,A MATCH {\c&H00E6FF&}HEAD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.54,0:00:17.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GOT
+Dialogue: 0,0:00:17.76,0:00:17.90,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:17.90,0:00:18.08,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.08,0:00:18.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WORSE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.41,0:00:18.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} PAIR ON
+Dialogue: 0,0:00:18.59,0:00:18.81,Cap,,0,0,0,,ONE {\c&H00E6FF&}PAIR{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:18.81,0:00:18.95,Cap,,0,0,0,,ONE PAIR {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.95,0:00:19.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} WASHING LINE
+Dialogue: 0,0:00:19.05,0:00:19.39,Cap,,0,0,0,,A {\c&H00E6FF&}WASHING{\c&HFFFFFF&} LINE
+Dialogue: 0,0:00:19.39,0:00:19.61,Cap,,0,0,0,,A WASHING {\c&H00E6FF&}LINE{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.61,0:00:19.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STARTED{\c&HFFFFFF&} SMOKING.
+Dialogue: 0,0:00:19.95,0:00:20.64,Cap,,0,0,0,,STARTED {\c&H00E6FF&}SMOKING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.73,0:00:21.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FARMERS{\c&HFFFFFF&} HUNG THEIR
+Dialogue: 0,0:00:21.05,0:00:21.27,Cap,,0,0,0,,FARMERS {\c&H00E6FF&}HUNG{\c&HFFFFFF&} THEIR
+Dialogue: 0,0:00:21.27,0:00:21.52,Cap,,0,0,0,,FARMERS HUNG {\c&H00E6FF&}THEIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.52,0:00:21.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PANTS{\c&HFFFFFF&} BY THE
+Dialogue: 0,0:00:21.77,0:00:21.91,Cap,,0,0,0,,PANTS {\c&H00E6FF&}BY{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:21.91,0:00:22.08,Cap,,0,0,0,,PANTS BY {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.08,0:00:22.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FIRE{\c&HFFFFFF&} TO DRY.
+Dialogue: 0,0:00:22.29,0:00:22.43,Cap,,0,0,0,,FIRE {\c&H00E6FF&}TO{\c&HFFFFFF&} DRY.
+Dialogue: 0,0:00:22.43,0:00:22.82,Cap,,0,0,0,,FIRE TO {\c&H00E6FF&}DRY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.82,0:00:23.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BANG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.39,0:00:23.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SEVENTY{\c&HFFFFFF&} YEARS LATER,
+Dialogue: 0,0:00:23.80,0:00:24.12,Cap,,0,0,0,,SEVENTY {\c&H00E6FF&}YEARS{\c&HFFFFFF&} LATER,
+Dialogue: 0,0:00:24.12,0:00:24.43,Cap,,0,0,0,,SEVENTY YEARS {\c&H00E6FF&}LATER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.43,0:00:24.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} HISTORIAN'S PAPER
+Dialogue: 0,0:00:24.56,0:00:25.19,Cap,,0,0,0,,A {\c&H00E6FF&}HISTORIAN'S{\c&HFFFFFF&} PAPER
+Dialogue: 0,0:00:25.19,0:00:25.56,Cap,,0,0,0,,A HISTORIAN'S {\c&H00E6FF&}PAPER{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.56,0:00:25.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ABOUT{\c&HFFFFFF&} IT WON
+Dialogue: 0,0:00:25.88,0:00:26.05,Cap,,0,0,0,,ABOUT {\c&H00E6FF&}IT{\c&HFFFFFF&} WON
+Dialogue: 0,0:00:26.05,0:00:26.34,Cap,,0,0,0,,ABOUT IT {\c&H00E6FF&}WON{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.34,0:00:26.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AN{\c&HFFFFFF&} IG NOBEL
+Dialogue: 0,0:00:26.51,0:00:26.68,Cap,,0,0,0,,AN {\c&H00E6FF&}IG{\c&HFFFFFF&} NOBEL
+Dialogue: 0,0:00:26.68,0:00:27.00,Cap,,0,0,0,,AN IG {\c&H00E6FF&}NOBEL{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.00,0:00:27.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PRIZE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.67,0:00:27.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ITS{\c&HFFFFFF&} TITLE?
+Dialogue: 0,0:00:27.88,0:00:28.18,Cap,,0,0,0,,ITS {\c&H00E6FF&}TITLE?{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.18,0:00:28.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}"MR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.35,0:00:28.75,Cap,,0,0,0,,{\fs91}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RICHARD{\c&HFFFFFF&} BUCKLEY'S EXPLODING
+Dialogue: 0,0:00:28.75,0:00:29.25,Cap,,0,0,0,,{\fs91}RICHARD {\c&H00E6FF&}BUCKLEY'S{\c&HFFFFFF&} EXPLODING
+Dialogue: 0,0:00:29.25,0:00:29.82,Cap,,0,0,0,,{\fs91}RICHARD BUCKLEY'S {\c&H00E6FF&}EXPLODING{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.82,0:00:30.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TROUSERS."{\c&HFFFFFF&}

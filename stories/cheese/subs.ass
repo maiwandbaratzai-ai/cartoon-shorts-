@@ -1,0 +1,113 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ANDREW{\c&HFFFFFF&} JACKSON THREW
+Dialogue: 0,0:00:00.42,0:00:00.77,Cap,,0,0,0,,ANDREW {\c&H00E6FF&}JACKSON{\c&HFFFFFF&} THREW
+Dialogue: 0,0:00:00.77,0:00:01.04,Cap,,0,0,0,,ANDREW JACKSON {\c&H00E6FF&}THREW{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.04,0:00:01.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} PARTY FOR
+Dialogue: 0,0:00:01.14,0:00:01.41,Cap,,0,0,0,,A {\c&H00E6FF&}PARTY{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:01.41,0:00:01.72,Cap,,0,0,0,,A PARTY {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.72,0:00:01.94,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} 1,400-POUND CHEESE.
+Dialogue: 0,0:00:01.94,0:00:02.94,Cap,,0,0,0,,A {\c&H00E6FF&}1,400-POUND{\c&HFFFFFF&} CHEESE.
+Dialogue: 0,0:00:02.94,0:00:03.51,Cap,,0,0,0,,A 1,400-POUND {\c&H00E6FF&}CHEESE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.60,0:00:04.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}10,000{\c&HFFFFFF&} PEOPLE MOBBED
+Dialogue: 0,0:00:04.33,0:00:04.65,Cap,,0,0,0,,10,000 {\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} MOBBED
+Dialogue: 0,0:00:04.65,0:00:04.91,Cap,,0,0,0,,10,000 PEOPLE {\c&H00E6FF&}MOBBED{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.91,0:00:05.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WHITE HOUSE
+Dialogue: 0,0:00:05.06,0:00:05.29,Cap,,0,0,0,,THE {\c&H00E6FF&}WHITE{\c&HFFFFFF&} HOUSE
+Dialogue: 0,0:00:05.29,0:00:05.51,Cap,,0,0,0,,THE WHITE {\c&H00E6FF&}HOUSE{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.51,0:00:05.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} TORE INTO
+Dialogue: 0,0:00:05.67,0:00:05.86,Cap,,0,0,0,,AND {\c&H00E6FF&}TORE{\c&HFFFFFF&} INTO
+Dialogue: 0,0:00:05.86,0:00:06.04,Cap,,0,0,0,,AND TORE {\c&H00E6FF&}INTO{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.04,0:00:06.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.52,0:00:06.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CHEESE WAS
+Dialogue: 0,0:00:06.66,0:00:06.89,Cap,,0,0,0,,THE {\c&H00E6FF&}CHEESE{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:06.89,0:00:07.03,Cap,,0,0,0,,THE CHEESE {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.03,0:00:07.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOUR{\c&HFFFFFF&} FEET WIDE
+Dialogue: 0,0:00:07.27,0:00:07.45,Cap,,0,0,0,,FOUR {\c&H00E6FF&}FEET{\c&HFFFFFF&} WIDE
+Dialogue: 0,0:00:07.45,0:00:07.62,Cap,,0,0,0,,FOUR FEET {\c&H00E6FF&}WIDE{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.62,0:00:07.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} TWO FEET
+Dialogue: 0,0:00:07.76,0:00:07.90,Cap,,0,0,0,,AND {\c&H00E6FF&}TWO{\c&HFFFFFF&} FEET
+Dialogue: 0,0:00:07.90,0:00:08.14,Cap,,0,0,0,,AND TWO {\c&H00E6FF&}FEET{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.14,0:00:08.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THICK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.90,0:00:08.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} NEW YORK
+Dialogue: 0,0:00:08.98,0:00:09.12,Cap,,0,0,0,,A {\c&H00E6FF&}NEW{\c&HFFFFFF&} YORK
+Dialogue: 0,0:00:09.12,0:00:09.41,Cap,,0,0,0,,A NEW {\c&H00E6FF&}YORK{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.41,0:00:09.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DAIRY{\c&HFFFFFF&} FARMER MADE
+Dialogue: 0,0:00:09.71,0:00:09.95,Cap,,0,0,0,,DAIRY {\c&H00E6FF&}FARMER{\c&HFFFFFF&} MADE
+Dialogue: 0,0:00:09.95,0:00:10.12,Cap,,0,0,0,,DAIRY FARMER {\c&H00E6FF&}MADE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.12,0:00:10.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} AS A
+Dialogue: 0,0:00:10.24,0:00:10.35,Cap,,0,0,0,,IT {\c&H00E6FF&}AS{\c&HFFFFFF&} A
+Dialogue: 0,0:00:10.35,0:00:10.43,Cap,,0,0,0,,IT AS {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.43,0:00:11.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GIFT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.12,0:00:11.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} ON WASHINGTON'S
+Dialogue: 0,0:00:11.28,0:00:11.43,Cap,,0,0,0,,SO {\c&H00E6FF&}ON{\c&HFFFFFF&} WASHINGTON'S
+Dialogue: 0,0:00:11.43,0:00:11.97,Cap,,0,0,0,,SO ON {\c&H00E6FF&}WASHINGTON'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.97,0:00:12.56,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BIRTHDAY{\c&HFFFFFF&} IN 1837,
+Dialogue: 0,0:00:12.56,0:00:12.71,Cap,,0,0,0,,BIRTHDAY {\c&H00E6FF&}IN{\c&HFFFFFF&} 1837,
+Dialogue: 0,0:00:12.71,0:00:13.48,Cap,,0,0,0,,BIRTHDAY IN {\c&H00E6FF&}1837,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.48,0:00:14.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JACKSON{\c&HFFFFFF&} SERVED IT
+Dialogue: 0,0:00:14.01,0:00:14.34,Cap,,0,0,0,,JACKSON {\c&H00E6FF&}SERVED{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:14.34,0:00:14.48,Cap,,0,0,0,,JACKSON SERVED {\c&H00E6FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.48,0:00:14.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} THE PUBLIC.
+Dialogue: 0,0:00:14.63,0:00:14.90,Cap,,0,0,0,,TO {\c&H00E6FF&}THE{\c&HFFFFFF&} PUBLIC.
+Dialogue: 0,0:00:14.90,0:00:15.49,Cap,,0,0,0,,TO THE {\c&H00E6FF&}PUBLIC.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.72,0:00:15.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} TWO HOURS,
+Dialogue: 0,0:00:15.83,0:00:15.98,Cap,,0,0,0,,IN {\c&H00E6FF&}TWO{\c&HFFFFFF&} HOURS,
+Dialogue: 0,0:00:15.98,0:00:16.19,Cap,,0,0,0,,IN TWO {\c&H00E6FF&}HOURS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.19,0:00:16.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WHOLE THING
+Dialogue: 0,0:00:16.34,0:00:16.65,Cap,,0,0,0,,THE {\c&H00E6FF&}WHOLE{\c&HFFFFFF&} THING
+Dialogue: 0,0:00:16.65,0:00:16.86,Cap,,0,0,0,,THE WHOLE {\c&H00E6FF&}THING{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.86,0:00:17.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAS{\c&HFFFFFF&} GONE.
+Dialogue: 0,0:00:17.01,0:00:17.46,Cap,,0,0,0,,WAS {\c&H00E6FF&}GONE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.56,0:00:17.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} THE SMELL?
+Dialogue: 0,0:00:17.71,0:00:17.86,Cap,,0,0,0,,BUT {\c&H00E6FF&}THE{\c&HFFFFFF&} SMELL?
+Dialogue: 0,0:00:17.86,0:00:18.08,Cap,,0,0,0,,BUT THE {\c&H00E6FF&}SMELL?{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.08,0:00:18.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SMELL STAYED.
+Dialogue: 0,0:00:18.24,0:00:18.46,Cap,,0,0,0,,THE {\c&H00E6FF&}SMELL{\c&HFFFFFF&} STAYED.
+Dialogue: 0,0:00:18.46,0:00:18.98,Cap,,0,0,0,,THE SMELL {\c&H00E6FF&}STAYED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.14,0:00:19.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} REPORTER WROTE
+Dialogue: 0,0:00:19.23,0:00:19.55,Cap,,0,0,0,,A {\c&H00E6FF&}REPORTER{\c&HFFFFFF&} WROTE
+Dialogue: 0,0:00:19.55,0:00:19.77,Cap,,0,0,0,,A REPORTER {\c&H00E6FF&}WROTE{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.77,0:00:19.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} CARPET WAS
+Dialogue: 0,0:00:19.93,0:00:20.18,Cap,,0,0,0,,THE {\c&H00E6FF&}CARPET{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:20.18,0:00:20.34,Cap,,0,0,0,,THE CARPET {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.34,0:00:20.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SLIPPERY{\c&HFFFFFF&} WITH CHEESE.
+Dialogue: 0,0:00:20.73,0:00:21.02,Cap,,0,0,0,,SLIPPERY {\c&H00E6FF&}WITH{\c&HFFFFFF&} CHEESE.
+Dialogue: 0,0:00:21.02,0:00:21.54,Cap,,0,0,0,,SLIPPERY WITH {\c&H00E6FF&}CHEESE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.63,0:00:21.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} NEXT PRESIDENT
+Dialogue: 0,0:00:21.80,0:00:22.07,Cap,,0,0,0,,THE {\c&H00E6FF&}NEXT{\c&HFFFFFF&} PRESIDENT
+Dialogue: 0,0:00:22.07,0:00:22.47,Cap,,0,0,0,,THE NEXT {\c&H00E6FF&}PRESIDENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.47,0:00:22.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAD{\c&HFFFFFF&} TO AIR
+Dialogue: 0,0:00:22.64,0:00:22.83,Cap,,0,0,0,,HAD {\c&H00E6FF&}TO{\c&HFFFFFF&} AIR
+Dialogue: 0,0:00:22.83,0:00:23.06,Cap,,0,0,0,,HAD TO {\c&H00E6FF&}AIR{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.06,0:00:23.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OUT{\c&HFFFFFF&} THE ROOMS
+Dialogue: 0,0:00:23.23,0:00:23.40,Cap,,0,0,0,,OUT {\c&H00E6FF&}THE{\c&HFFFFFF&} ROOMS
+Dialogue: 0,0:00:23.40,0:00:23.65,Cap,,0,0,0,,OUT THE {\c&H00E6FF&}ROOMS{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.65,0:00:23.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} REPAINT THE
+Dialogue: 0,0:00:23.82,0:00:24.14,Cap,,0,0,0,,AND {\c&H00E6FF&}REPAINT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:24.14,0:00:24.31,Cap,,0,0,0,,AND REPAINT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.31,0:00:24.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WALLS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.92,0:00:25.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} HE BANNED
+Dialogue: 0,0:00:25.10,0:00:25.21,Cap,,0,0,0,,THEN {\c&H00E6FF&}HE{\c&HFFFFFF&} BANNED
+Dialogue: 0,0:00:25.21,0:00:25.57,Cap,,0,0,0,,THEN HE {\c&H00E6FF&}BANNED{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.57,0:00:25.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOOD{\c&HFFFFFF&} AT WHITE
+Dialogue: 0,0:00:25.76,0:00:25.87,Cap,,0,0,0,,FOOD {\c&H00E6FF&}AT{\c&HFFFFFF&} WHITE
+Dialogue: 0,0:00:25.87,0:00:26.09,Cap,,0,0,0,,FOOD AT {\c&H00E6FF&}WHITE{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.09,0:00:26.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HOUSE{\c&HFFFFFF&} PARTIES.
+Dialogue: 0,0:00:26.37,0:00:26.92,Cap,,0,0,0,,HOUSE {\c&H00E6FF&}PARTIES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.02,0:00:27.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHO{\c&HFFFFFF&} THROWS A
+Dialogue: 0,0:00:27.19,0:00:27.48,Cap,,0,0,0,,WHO {\c&H00E6FF&}THROWS{\c&HFFFFFF&} A
+Dialogue: 0,0:00:27.48,0:00:27.57,Cap,,0,0,0,,WHO THROWS {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.57,0:00:27.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHEESE{\c&HFFFFFF&} PARTY,
+Dialogue: 0,0:00:27.92,0:00:28.17,Cap,,0,0,0,,CHEESE {\c&H00E6FF&}PARTY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.17,0:00:28.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ANYWAY?{\c&HFFFFFF&}

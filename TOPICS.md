@@ -24,6 +24,11 @@
 - 2026-11-15 Mars Bluff B-47 bomb drop, South Carolina, 1958 (30 s, Channel B)
 - 2026-11-15 Gävle Christmas goat keeps getting burned, Sweden, 1966– (30 s, Channel B)
 - 2026-11-15 Gimli Glider, Air Canada Flight 143, Manitoba, 1983 (64 s, TikTok)
+- 2026-11-16 Child mailed by parcel post (May Pierstorff), Grangeville to Lewiston, Idaho, 1914 (30 s, Channel A)
+- 2026-11-16 Exploding trousers (sodium chlorate on ragwort), New Zealand, 1930s (30 s, Channel A)
+- 2026-11-16 Andrew Jackson's 1,400 lb cheese party, White House, 1837 (30 s, Channel B)
+- 2026-11-16 Dagen H: Sweden switches to right-hand traffic, 1967 (30 s, Channel B)
+- 2026-11-16 American Hippo Bill, Louisiana, 1910 (+ Colombia's wild hippos) (64 s, TikTok)
 
 ---
 Author: Maiwand
