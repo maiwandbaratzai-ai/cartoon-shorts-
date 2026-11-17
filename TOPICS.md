@@ -30,6 +30,7 @@
 - 2026-11-16 Dagen H: Sweden switches to right-hand traffic, 1967 (30 s, Channel B)
 - 2026-11-16 American Hippo Bill, Louisiana, 1910 (+ Colombia's wild hippos) (64 s, TikTok)
 - 2026-11-17 Jack the signalman baboon, Uitenhage, South Africa, 1880s (30 s, Channel A, true)
+- 2026-11-17 Tamworth Two pigs escape the slaughterhouse, Malmesbury, England, 1998 (30 s, Channel A, true)
 
 ---
 Author: Maiwand

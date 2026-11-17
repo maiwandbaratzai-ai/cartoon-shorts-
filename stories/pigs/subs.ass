@@ -1,0 +1,102 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWO{\c&HFFFFFF&} PIGS ESCAPED
+Dialogue: 0,0:00:00.30,0:00:00.53,Cap,,0,0,0,,TWO {\c&H00E6FF&}PIGS{\c&HFFFFFF&} ESCAPED
+Dialogue: 0,0:00:00.53,0:00:00.89,Cap,,0,0,0,,TWO PIGS {\c&H00E6FF&}ESCAPED{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.89,0:00:01.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} MALMESBURY BUTCHER
+Dialogue: 0,0:00:01.07,0:00:01.62,Cap,,0,0,0,,A {\c&H00E6FF&}MALMESBURY{\c&HFFFFFF&} BUTCHER
+Dialogue: 0,0:00:01.62,0:00:01.98,Cap,,0,0,0,,A MALMESBURY {\c&H00E6FF&}BUTCHER{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.98,0:00:02.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} BECAME BRITAIN'S
+Dialogue: 0,0:00:02.17,0:00:02.67,Cap,,0,0,0,,AND {\c&H00E6FF&}BECAME{\c&HFFFFFF&} BRITAIN'S
+Dialogue: 0,0:00:02.67,0:00:03.07,Cap,,0,0,0,,AND BECAME {\c&H00E6FF&}BRITAIN'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.07,0:00:03.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOST{\c&HFFFFFF&} WANTED.
+Dialogue: 0,0:00:03.30,0:00:04.02,Cap,,0,0,0,,MOST {\c&H00E6FF&}WANTED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.19,0:00:04.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} SQUEEZED THROUGH
+Dialogue: 0,0:00:04.36,0:00:04.71,Cap,,0,0,0,,THEY {\c&H00E6FF&}SQUEEZED{\c&HFFFFFF&} THROUGH
+Dialogue: 0,0:00:04.71,0:00:05.04,Cap,,0,0,0,,THEY SQUEEZED {\c&H00E6FF&}THROUGH{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.04,0:00:05.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FENCE AND
+Dialogue: 0,0:00:05.12,0:00:05.32,Cap,,0,0,0,,A {\c&H00E6FF&}FENCE{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:05.32,0:00:05.46,Cap,,0,0,0,,A FENCE {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.46,0:00:05.74,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWAM{\c&HFFFFFF&} A FREEZING
+Dialogue: 0,0:00:05.74,0:00:05.81,Cap,,0,0,0,,SWAM {\c&H00E6FF&}A{\c&HFFFFFF&} FREEZING
+Dialogue: 0,0:00:05.81,0:00:06.11,Cap,,0,0,0,,SWAM A {\c&H00E6FF&}FREEZING{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.11,0:00:06.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RIVER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.67,0:00:06.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THEY VANISHED
+Dialogue: 0,0:00:06.87,0:00:07.07,Cap,,0,0,0,,THEN {\c&H00E6FF&}THEY{\c&HFFFFFF&} VANISHED
+Dialogue: 0,0:00:07.07,0:00:07.42,Cap,,0,0,0,,THEN THEY {\c&H00E6FF&}VANISHED{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.42,0:00:07.62,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} THE TOWN'S
+Dialogue: 0,0:00:07.62,0:00:07.78,Cap,,0,0,0,,INTO {\c&H00E6FF&}THE{\c&HFFFFFF&} TOWN'S
+Dialogue: 0,0:00:07.78,0:00:08.20,Cap,,0,0,0,,INTO THE {\c&H00E6FF&}TOWN'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.20,0:00:08.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BACK{\c&HFFFFFF&} GARDENS.
+Dialogue: 0,0:00:08.39,0:00:08.96,Cap,,0,0,0,,BACK {\c&H00E6FF&}GARDENS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.05,0:00:09.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} REPORTERS WORLDWIDE
+Dialogue: 0,0:00:09.19,0:00:09.60,Cap,,0,0,0,,SO {\c&H00E6FF&}REPORTERS{\c&HFFFFFF&} WORLDWIDE
+Dialogue: 0,0:00:09.60,0:00:10.01,Cap,,0,0,0,,SO REPORTERS {\c&H00E6FF&}WORLDWIDE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.01,0:00:10.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CHASED{\c&HFFFFFF&} THEM THROUGH
+Dialogue: 0,0:00:10.36,0:00:10.57,Cap,,0,0,0,,CHASED {\c&H00E6FF&}THEM{\c&HFFFFFF&} THROUGH
+Dialogue: 0,0:00:10.57,0:00:10.96,Cap,,0,0,0,,CHASED THEM {\c&H00E6FF&}THROUGH{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.96,0:00:11.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} HEDGES.
+Dialogue: 0,0:00:11.13,0:00:11.70,Cap,,0,0,0,,THE {\c&H00E6FF&}HEDGES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.79,0:00:11.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} PAPERS NAMED
+Dialogue: 0,0:00:11.96,0:00:12.26,Cap,,0,0,0,,THE {\c&H00E6FF&}PAPERS{\c&HFFFFFF&} NAMED
+Dialogue: 0,0:00:12.26,0:00:12.52,Cap,,0,0,0,,THE PAPERS {\c&H00E6FF&}NAMED{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.52,0:00:12.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEM{\c&HFFFFFF&} BUTCH CASSIDY
+Dialogue: 0,0:00:12.73,0:00:12.99,Cap,,0,0,0,,THEM {\c&H00E6FF&}BUTCH{\c&HFFFFFF&} CASSIDY
+Dialogue: 0,0:00:12.99,0:00:13.33,Cap,,0,0,0,,THEM BUTCH {\c&H00E6FF&}CASSIDY{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.33,0:00:13.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE SUNDANCE
+Dialogue: 0,0:00:13.60,0:00:13.78,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} SUNDANCE
+Dialogue: 0,0:00:13.78,0:00:14.22,Cap,,0,0,0,,AND THE {\c&H00E6FF&}SUNDANCE{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.22,0:00:14.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PIG.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.80,0:00:15.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} IT GETS
+Dialogue: 0,0:00:15.00,0:00:15.16,Cap,,0,0,0,,BUT {\c&H00E6FF&}IT{\c&HFFFFFF&} GETS
+Dialogue: 0,0:00:15.16,0:00:15.40,Cap,,0,0,0,,BUT IT {\c&H00E6FF&}GETS{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.40,0:00:15.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WEIRDER:{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.79,0:00:16.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}VETS{\c&HFFFFFF&} SHOT SUNDANCE
+Dialogue: 0,0:00:16.04,0:00:16.29,Cap,,0,0,0,,VETS {\c&H00E6FF&}SHOT{\c&HFFFFFF&} SUNDANCE
+Dialogue: 0,0:00:16.29,0:00:16.72,Cap,,0,0,0,,VETS SHOT {\c&H00E6FF&}SUNDANCE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.72,0:00:17.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} A TRANQUILIZER
+Dialogue: 0,0:00:17.02,0:00:17.14,Cap,,0,0,0,,WITH {\c&H00E6FF&}A{\c&HFFFFFF&} TRANQUILIZER
+Dialogue: 0,0:00:17.14,0:00:17.75,Cap,,0,0,0,,WITH A {\c&H00E6FF&}TRANQUILIZER{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.75,0:00:18.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DART.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.71,0:00:18.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} BARELY SLOWED
+Dialogue: 0,0:00:18.85,0:00:19.16,Cap,,0,0,0,,HE {\c&H00E6FF&}BARELY{\c&HFFFFFF&} SLOWED
+Dialogue: 0,0:00:19.16,0:00:19.48,Cap,,0,0,0,,HE BARELY {\c&H00E6FF&}SLOWED{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.48,0:00:19.97,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DOWN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.08,0:00:20.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AFTER{\c&HFFFFFF&} A WEEK,
+Dialogue: 0,0:00:20.30,0:00:20.39,Cap,,0,0,0,,AFTER {\c&H00E6FF&}A{\c&HFFFFFF&} WEEK,
+Dialogue: 0,0:00:20.39,0:00:20.66,Cap,,0,0,0,,AFTER A {\c&H00E6FF&}WEEK,{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.66,0:00:20.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} CAUGHT BOTH.
+Dialogue: 0,0:00:20.85,0:00:21.12,Cap,,0,0,0,,THEY {\c&H00E6FF&}CAUGHT{\c&HFFFFFF&} BOTH.
+Dialogue: 0,0:00:21.12,0:00:21.42,Cap,,0,0,0,,THEY CAUGHT {\c&H00E6FF&}BOTH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.42,0:00:21.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BACK{\c&HFFFFFF&} TO THE
+Dialogue: 0,0:00:21.69,0:00:21.81,Cap,,0,0,0,,BACK {\c&H00E6FF&}TO{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:21.81,0:00:21.97,Cap,,0,0,0,,BACK TO {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.97,0:00:22.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUTCHER?{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.73,0:00:22.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NO.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.89,0:00:23.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} NEWSPAPER BOUGHT
+Dialogue: 0,0:00:23.01,0:00:23.51,Cap,,0,0,0,,A {\c&H00E6FF&}NEWSPAPER{\c&HFFFFFF&} BOUGHT
+Dialogue: 0,0:00:23.51,0:00:23.86,Cap,,0,0,0,,A NEWSPAPER {\c&H00E6FF&}BOUGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.86,0:00:24.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEM{\c&HFFFFFF&} AND RETIRED
+Dialogue: 0,0:00:24.20,0:00:24.42,Cap,,0,0,0,,THEM {\c&H00E6FF&}AND{\c&HFFFFFF&} RETIRED
+Dialogue: 0,0:00:24.42,0:00:24.82,Cap,,0,0,0,,THEM AND {\c&H00E6FF&}RETIRED{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.82,0:00:25.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEM{\c&HFFFFFF&} TO A
+Dialogue: 0,0:00:25.08,0:00:25.25,Cap,,0,0,0,,THEM {\c&H00E6FF&}TO{\c&HFFFFFF&} A
+Dialogue: 0,0:00:25.25,0:00:25.36,Cap,,0,0,0,,THEM TO {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.36,0:00:25.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FARM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.97,0:00:26.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BRITAIN'S{\c&HFFFFFF&} MOST WANTED
+Dialogue: 0,0:00:26.36,0:00:26.60,Cap,,0,0,0,,BRITAIN'S {\c&H00E6FF&}MOST{\c&HFFFFFF&} WANTED
+Dialogue: 0,0:00:26.60,0:00:26.91,Cap,,0,0,0,,BRITAIN'S MOST {\c&H00E6FF&}WANTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.91,0:00:27.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PIGS{\c&HFFFFFF&} NEVER BECAME
+Dialogue: 0,0:00:27.14,0:00:27.42,Cap,,0,0,0,,PIGS {\c&H00E6FF&}NEVER{\c&HFFFFFF&} BECAME
+Dialogue: 0,0:00:27.42,0:00:27.73,Cap,,0,0,0,,PIGS NEVER {\c&H00E6FF&}BECAME{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.73,0:00:28.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BACON.{\c&HFFFFFF&}
