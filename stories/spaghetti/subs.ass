@@ -1,0 +1,105 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BBC SHOWED
+Dialogue: 0,0:00:00.30,0:00:00.49,Cap,,0,0,0,,THE {\c&H00E6FF&}BBC{\c&HFFFFFF&} SHOWED
+Dialogue: 0,0:00:00.49,0:00:00.81,Cap,,0,0,0,,THE BBC {\c&H00E6FF&}SHOWED{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.81,0:00:01.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SWISS{\c&HFFFFFF&} FARMERS PICKING
+Dialogue: 0,0:00:01.08,0:00:01.50,Cap,,0,0,0,,SWISS {\c&H00E6FF&}FARMERS{\c&HFFFFFF&} PICKING
+Dialogue: 0,0:00:01.50,0:00:01.93,Cap,,0,0,0,,SWISS FARMERS {\c&H00E6FF&}PICKING{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.93,0:00:02.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SPAGHETTI{\c&HFFFFFF&} OFF TREES.
+Dialogue: 0,0:00:02.37,0:00:02.66,Cap,,0,0,0,,SPAGHETTI {\c&H00E6FF&}OFF{\c&HFFFFFF&} TREES.
+Dialogue: 0,0:00:02.66,0:00:03.20,Cap,,0,0,0,,SPAGHETTI OFF {\c&H00E6FF&}TREES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.32,0:00:03.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOODLES{\c&HFFFFFF&} DANGLED FROM
+Dialogue: 0,0:00:03.66,0:00:04.01,Cap,,0,0,0,,NOODLES {\c&H00E6FF&}DANGLED{\c&HFFFFFF&} FROM
+Dialogue: 0,0:00:04.01,0:00:04.23,Cap,,0,0,0,,NOODLES DANGLED {\c&H00E6FF&}FROM{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.23,0:00:04.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} BRANCH,
+Dialogue: 0,0:00:04.50,0:00:04.81,Cap,,0,0,0,,EVERY {\c&H00E6FF&}BRANCH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.81,0:00:04.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} FAMILIES YANKED
+Dialogue: 0,0:00:04.99,0:00:05.55,Cap,,0,0,0,,AND {\c&H00E6FF&}FAMILIES{\c&HFFFFFF&} YANKED
+Dialogue: 0,0:00:05.55,0:00:05.86,Cap,,0,0,0,,AND FAMILIES {\c&H00E6FF&}YANKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.86,0:00:06.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEM{\c&HFFFFFF&} DOWN.
+Dialogue: 0,0:00:06.19,0:00:06.68,Cap,,0,0,0,,THEM {\c&H00E6FF&}DOWN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.81,0:00:06.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THEY LAID
+Dialogue: 0,0:00:06.99,0:00:07.18,Cap,,0,0,0,,THEN {\c&H00E6FF&}THEY{\c&HFFFFFF&} LAID
+Dialogue: 0,0:00:07.18,0:00:07.43,Cap,,0,0,0,,THEN THEY {\c&H00E6FF&}LAID{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.43,0:00:07.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} SPAGHETTI OUT
+Dialogue: 0,0:00:07.59,0:00:07.95,Cap,,0,0,0,,THE {\c&H00E6FF&}SPAGHETTI{\c&HFFFFFF&} OUT
+Dialogue: 0,0:00:07.95,0:00:08.11,Cap,,0,0,0,,THE SPAGHETTI {\c&H00E6FF&}OUT{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.11,0:00:08.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} THE SUN
+Dialogue: 0,0:00:08.23,0:00:08.38,Cap,,0,0,0,,IN {\c&H00E6FF&}THE{\c&HFFFFFF&} SUN
+Dialogue: 0,0:00:08.38,0:00:08.54,Cap,,0,0,0,,IN THE {\c&H00E6FF&}SUN{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.54,0:00:08.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} DRY.
+Dialogue: 0,0:00:08.66,0:00:09.08,Cap,,0,0,0,,TO {\c&H00E6FF&}DRY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.17,0:00:09.34,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} REPORTER SAID
+Dialogue: 0,0:00:09.34,0:00:09.71,Cap,,0,0,0,,THE {\c&H00E6FF&}REPORTER{\c&HFFFFFF&} SAID
+Dialogue: 0,0:00:09.71,0:00:09.92,Cap,,0,0,0,,THE REPORTER {\c&H00E6FF&}SAID{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.92,0:00:10.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} MILD WINTER
+Dialogue: 0,0:00:10.02,0:00:10.23,Cap,,0,0,0,,A {\c&H00E6FF&}MILD{\c&HFFFFFF&} WINTER
+Dialogue: 0,0:00:10.23,0:00:10.52,Cap,,0,0,0,,A MILD {\c&H00E6FF&}WINTER{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.52,0:00:10.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MEANT{\c&HFFFFFF&} A BUMPER
+Dialogue: 0,0:00:10.77,0:00:10.87,Cap,,0,0,0,,MEANT {\c&H00E6FF&}A{\c&HFFFFFF&} BUMPER
+Dialogue: 0,0:00:10.87,0:00:11.16,Cap,,0,0,0,,MEANT A {\c&H00E6FF&}BUMPER{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.16,0:00:11.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CROP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.95,0:00:12.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVEN{\c&HFFFFFF&} THE DREADED
+Dialogue: 0,0:00:12.16,0:00:12.33,Cap,,0,0,0,,EVEN {\c&H00E6FF&}THE{\c&HFFFFFF&} DREADED
+Dialogue: 0,0:00:12.33,0:00:12.67,Cap,,0,0,0,,EVEN THE {\c&H00E6FF&}DREADED{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.67,0:00:13.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SPAGHETTI{\c&HFFFFFF&} WEEVIL WAS
+Dialogue: 0,0:00:13.07,0:00:13.37,Cap,,0,0,0,,SPAGHETTI {\c&H00E6FF&}WEEVIL{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:13.37,0:00:13.54,Cap,,0,0,0,,SPAGHETTI WEEVIL {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.54,0:00:14.02,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GONE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.11,0:00:14.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EIGHT{\c&HFFFFFF&} MILLION PEOPLE
+Dialogue: 0,0:00:14.36,0:00:14.68,Cap,,0,0,0,,EIGHT {\c&H00E6FF&}MILLION{\c&HFFFFFF&} PEOPLE
+Dialogue: 0,0:00:14.68,0:00:15.03,Cap,,0,0,0,,EIGHT MILLION {\c&H00E6FF&}PEOPLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.03,0:00:15.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WATCHED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.36,0:00:15.84,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HUNDREDS{\c&HFFFFFF&} STILL BELIEVED
+Dialogue: 0,0:00:15.84,0:00:16.09,Cap,,0,0,0,,{\fs107}HUNDREDS {\c&H00E6FF&}STILL{\c&HFFFFFF&} BELIEVED
+Dialogue: 0,0:00:16.09,0:00:16.46,Cap,,0,0,0,,{\fs107}HUNDREDS STILL {\c&H00E6FF&}BELIEVED{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.46,0:00:16.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.02,0:00:17.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE PHONES
+Dialogue: 0,0:00:17.15,0:00:17.32,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} PHONES
+Dialogue: 0,0:00:17.32,0:00:17.61,Cap,,0,0,0,,SO THE {\c&H00E6FF&}PHONES{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.61,0:00:18.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EXPLODED:{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.14,0:00:18.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HOW{\c&HFFFFFF&} DO I
+Dialogue: 0,0:00:18.32,0:00:18.45,Cap,,0,0,0,,HOW {\c&H00E6FF&}DO{\c&HFFFFFF&} I
+Dialogue: 0,0:00:18.45,0:00:18.54,Cap,,0,0,0,,HOW DO {\c&H00E6FF&}I{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.54,0:00:18.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GROW{\c&HFFFFFF&} MY OWN
+Dialogue: 0,0:00:18.76,0:00:18.89,Cap,,0,0,0,,GROW {\c&H00E6FF&}MY{\c&HFFFFFF&} OWN
+Dialogue: 0,0:00:18.89,0:00:19.06,Cap,,0,0,0,,GROW MY {\c&H00E6FF&}OWN{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.06,0:00:19.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SPAGHETTI{\c&HFFFFFF&} TREE?
+Dialogue: 0,0:00:19.53,0:00:20.01,Cap,,0,0,0,,SPAGHETTI {\c&H00E6FF&}TREE?{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.58,0:00:20.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BBC'S ANSWER?
+Dialogue: 0,0:00:20.83,0:00:21.14,Cap,,0,0,0,,THE {\c&H00E6FF&}BBC'S{\c&HFFFFFF&} ANSWER?
+Dialogue: 0,0:00:21.14,0:00:21.83,Cap,,0,0,0,,THE BBC'S {\c&H00E6FF&}ANSWER?{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.04,0:00:22.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PUT{\c&HFFFFFF&} A SPRIG
+Dialogue: 0,0:00:22.21,0:00:22.37,Cap,,0,0,0,,PUT {\c&H00E6FF&}A{\c&HFFFFFF&} SPRIG
+Dialogue: 0,0:00:22.37,0:00:22.62,Cap,,0,0,0,,PUT A {\c&H00E6FF&}SPRIG{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.62,0:00:22.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} SPAGHETTI IN
+Dialogue: 0,0:00:22.76,0:00:23.16,Cap,,0,0,0,,OF {\c&H00E6FF&}SPAGHETTI{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:23.16,0:00:23.29,Cap,,0,0,0,,OF SPAGHETTI {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.29,0:00:23.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOMATO{\c&HFFFFFF&} SAUCE,
+Dialogue: 0,0:00:23.58,0:00:23.83,Cap,,0,0,0,,TOMATO {\c&H00E6FF&}SAUCE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.83,0:00:24.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} HOPE FOR
+Dialogue: 0,0:00:24.00,0:00:24.29,Cap,,0,0,0,,AND {\c&H00E6FF&}HOPE{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:24.29,0:00:24.60,Cap,,0,0,0,,AND HOPE {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.60,0:00:24.77,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BEST.
+Dialogue: 0,0:00:24.77,0:00:25.25,Cap,,0,0,0,,THE {\c&H00E6FF&}BEST.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.40,0:00:25.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} DATE THE
+Dialogue: 0,0:00:25.60,0:00:25.84,Cap,,0,0,0,,THE {\c&H00E6FF&}DATE{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:25.84,0:00:26.04,Cap,,0,0,0,,THE DATE {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.04,0:00:26.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BBC{\c&HFFFFFF&} SHOWED THOSE
+Dialogue: 0,0:00:26.25,0:00:26.58,Cap,,0,0,0,,BBC {\c&H00E6FF&}SHOWED{\c&HFFFFFF&} THOSE
+Dialogue: 0,0:00:26.58,0:00:26.87,Cap,,0,0,0,,BBC SHOWED {\c&H00E6FF&}THOSE{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.87,0:00:27.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TREES?{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.16,0:00:27.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}APRIL{\c&HFFFFFF&} THE FIRST.
+Dialogue: 0,0:00:27.66,0:00:27.97,Cap,,0,0,0,,APRIL {\c&H00E6FF&}THE{\c&HFFFFFF&} FIRST.
+Dialogue: 0,0:00:27.97,0:00:28.53,Cap,,0,0,0,,APRIL THE {\c&H00E6FF&}FIRST.{\c&HFFFFFF&}

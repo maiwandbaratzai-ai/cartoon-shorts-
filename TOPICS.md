@@ -32,6 +32,7 @@
 - 2026-11-17 Jack the signalman baboon, Uitenhage, South Africa, 1880s (30 s, Channel A, true)
 - 2026-11-17 Tamworth Two pigs escape the slaughterhouse, Malmesbury, England, 1998 (30 s, Channel A, true)
 - 2026-11-17 Swamp rabbit attacks President Carter's fishing boat, Plains, Georgia, 1979 (30 s, Channel B, true)
+- 2026-11-17 BBC spaghetti-tree April Fools' hoax, Ticino, Switzerland, 1957 (30 s, Channel B, true)
 
 ---
 Author: Maiwand
