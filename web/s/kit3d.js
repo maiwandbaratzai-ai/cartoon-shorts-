@@ -1,4 +1,5 @@
 // Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
+// NOTE 2026-11-17: for animals use K.animal(type) (web/animals3d.js) — real 3D animals; critter() below is the old stick-in-costume look.
 // Shared helpers for the 3D-stick stories: shot lists with whip-pans, word cards, cartoon animal parts for K.stick
 // rigs (ears, snouts, tails), small reusable props. Import into a story: import * as X from './kit3d.js';
 import * as PR from '../props.js';

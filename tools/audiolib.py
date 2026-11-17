@@ -319,6 +319,76 @@ def gulp():
     d = 0.3; n = int(d * SR); t = np.arange(n) / SR
     return (np.sin(2 * np.pi * (300 - 500 * t) * t) * np.exp(-t * 10) + lp_fast(noise(d), 600) * np.exp(-t * 20) * 0.5).astype(np.float32)
 
+
+# ---------------- character voices & animal sounds (YouTube feedback: give characters soundbites) ----------------
+_kok = None
+def vox(text, t, voice='am_michael', speed=1.15, gain=0.9, pitch=1.0):
+    """A character says a short line ("Huh?!", "Mine!", "Nooo!") at time t, in a different voice from the narrator.
+    voices: am_michael, am_adam, am_fenrir (men), af_bella, af_nicole, af_sky (women), bf_emma, bm_george (British).
+    pitch > 1 = higher/cartoonier (also faster). Keep lines to 1-4 words so they don't fight the narration."""
+    global _kok
+    import os
+    if _kok is None:
+        from kokoro_onnx import Kokoro
+        M = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'models')
+        _kok = Kokoro(f'{M}/kokoro-v1.0.onnx', f'{M}/voices-v1.0.bin')
+    a, sr = _kok.create(text, voice=voice, speed=speed, lang='en-us')
+    a = np.asarray(a, dtype=np.float32)
+    n_out = int(len(a) * SR / sr / pitch); a = np.interp(np.linspace(0, len(a) - 1, n_out), np.arange(len(a)), a).astype(np.float32)
+    a = a / (np.abs(a).max() + 1e-6) * 0.8
+    place(sfx, a, t, gain / max(0.01, 0.55))   # sfx bus is scaled by sfx_gain in mixdown
+def _tone(f0, d, vib=0, vibf=6, harm=(1, .5, .25), env=None):
+    n = int(d * SR); t = np.arange(n) / SR; f = f0 * (1 + vib * np.sin(2 * np.pi * vibf * t)) if np.isscalar(f0) else f0
+    ph = 2 * np.pi * np.cumsum(f) / SR; y = sum(h * np.sin((i + 1) * ph) for i, h in enumerate(harm))
+    e = env if env is not None else np.sin(np.pi * t / d) ** 0.6
+    return (y * e / sum(harm)).astype(np.float32)
+def bark():
+    d = 0.22; n = int(d * SR); t = np.arange(n) / SR; f = 420 * np.exp(-t * 4)
+    return (_tone(f, d, harm=(1, .8, .6, .4)) * 0.8 + bp(noise(d), 900) * np.exp(-t * 20) * 0.5).astype(np.float32)
+def meow():
+    d = 0.6; n = int(d * SR); t = np.arange(n) / SR; f = 520 + 380 * np.sin(np.pi * t / d) - 150 * t
+    return _tone(f, d, harm=(1, .6, .4, .2)) * 0.8
+def moo():
+    d = 1.1; n = int(d * SR); t = np.arange(n) / SR; f = 115 + 30 * np.sin(np.pi * t / d)
+    return _tone(f, d, harm=(1, .9, .7, .5, .3), env=np.minimum(1, t / 0.15) * np.minimum(1, (d - t) / 0.3)) * 0.9
+def oink():
+    d = 0.18; n = int(d * SR); t = np.arange(n) / SR
+    y = _tone(260 * (1 + 0.3 * np.sin(2 * np.pi * 35 * t)), d, harm=(1, .8, .6)) + bp(noise(d), 600) * 0.6
+    return (y * np.sin(np.pi * t / d)).astype(np.float32) * 0.8
+def baa():
+    d = 0.7; n = int(d * SR); t = np.arange(n) / SR
+    return _tone(330 * (1 + 0.06 * np.sign(np.sin(2 * np.pi * 9 * t))), d, harm=(1, .7, .5, .3)) * 0.7
+def quack():
+    d = 0.2; n = int(d * SR); t = np.arange(n) / SR
+    return (bp(_tone(500 * np.exp(-t * 2), d, harm=(1, 1, 1, .8, .6)), 1400) * 2.2).astype(np.float32)
+def cluck():
+    out = np.zeros(int(0.5 * SR), np.float32)
+    for k in range(3): c = _tone(700 + 120 * k, 0.07, harm=(1, .7, .4)); i = int(k * 0.13 * SR); out[i:i + len(c)] += c
+    return out
+def roar():
+    d = 1.0; n = int(d * SR); t = np.arange(n) / SR
+    return (lp_fast(noise(d), 500) * 1.4 + _tone(90 + 30 * np.sin(np.pi * t / d), d, harm=(1, .8, .6)) * 0.6).astype(np.float32) * np.sin(np.pi * t / d).astype(np.float32)
+def neigh():
+    d = 0.9; n = int(d * SR); t = np.arange(n) / SR; f = 700 - 350 * t / d
+    return _tone(f, d, vib=0.08, vibf=14, harm=(1, .6, .4)) * 0.6
+def monkey():   # "ooh ooh ah ah"
+    out = np.zeros(int(1.0 * SR), np.float32)
+    for k, (f, d) in enumerate([(380, 0.14), (420, 0.14), (650, 0.18), (700, 0.2)]): c = _tone(f, d, harm=(1, .6, .3)); i = int(k * 0.22 * SR); out[i:i + len(c)] += c
+    return out
+def trumpet():  # elephant
+    d = 0.9; n = int(d * SR); t = np.arange(n) / SR
+    return (_tone(300 + 200 * np.sin(np.pi * t / d), d, vib=0.03, vibf=20, harm=(1, .9, .8, .7, .5)) * 0.7).astype(np.float32)
+def squeak():
+    d = 0.15; n = int(d * SR); t = np.arange(n) / SR
+    return _tone(2200 + 1200 * t / d, d, harm=(1, .3)) * 0.5
+def tweet():
+    out = np.zeros(int(0.5 * SR), np.float32)
+    for k in range(3): c = _tone(np.linspace(3000, 4200, int(0.08 * SR)), 0.08, harm=(1, .2)); i = int(k * 0.12 * SR); out[i:i + len(c)] += c * 0.6
+    return out
+def gasp():
+    d = 0.35; n = int(d * SR); t = np.arange(n) / SR
+    return (bp(noise(d), 1800) * np.sin(np.pi * t / d) ** 2 * 0.7).astype(np.float32)
+
 # ---------------- mix ----------------
 def load_voice():
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', f'{SD}/voice.wav', '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True).stdout
@@ -326,9 +396,12 @@ def load_voice():
 def mixdown(music_gain=0.8, sfx_gain=0.55):
     voice = load_voice()
     ve = np.abs(voice); k = int(0.05 * SR); ve = np.convolve(ve, np.ones(k) / k, 'same')
-    duck = 1 - 0.7 * np.clip(ve / (ve.max() * 0.25), 0, 1)
+    # stronger, smoother ducking (YouTube feedback 2026-11-17: dip the music more under fast narration)
+    vmax = max(float(ve.max()), 1e-6)
+    duck = 1 - 0.82 * np.clip(ve / (vmax * 0.18), 0, 1)
+    k2 = int(0.12 * SR); duck = np.convolve(duck, np.ones(k2) / k2, 'same')
     m, x = music[:N], sfx[:N]
-    mix = voice * 1.25 + m * duck * music_gain + x * sfx_gain * (1 - 0.3 * np.clip(ve / (ve.max() * 0.25), 0, 1))
+    mix = voice * 1.25 + m * duck * music_gain + x * sfx_gain * (1 - 0.3 * np.clip(ve / (vmax * 0.25), 0, 1))
     mix = np.tanh(mix * 0.95) / np.tanh(0.95)
     fade = int(0.04 * SR); mix[-fade:] *= np.linspace(1, 0, fade)
     pcm = (np.clip(mix, -1, 1) * 32767).astype(np.int16)

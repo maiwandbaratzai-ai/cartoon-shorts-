@@ -34,6 +34,9 @@ after it, or a hook that needs the second line to make sense.
 **Don't spend the best fact in the hook.** The hook shows *what* happened; keep *how bad* or *why* for the end.
 (Hook: "a man flew a lawn chair to 16,000 feet". End: "when they asked why, he said: a man can't just sit around.")
 
+**Stakes early (YouTube feedback 2026-11-17):** by line 2 the viewer must know what could go wrong or be won
+("...and if he got it wrong, a train would crash"). Put a `[beat]` before the reveal of whether it worked.
+
 ## 2b. Line 2 (our biggest leak, from real analytics)
 
 Our retention graphs drop hardest at 0:03–0:08, right when line 2 gives background. Line 2 must instead show a

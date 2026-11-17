@@ -4,7 +4,7 @@ Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s (two p
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a textured, lit 3D world (LOOK.md),
 natural AI narration (Kokoro `am_puck`, the playful male voice Maiwand chose), word-by-word captions, original synthesized music + SFX.
 
-**Read VIRAL.md (especially its Lessons section), SCRIPTS.md and LOOK.md first, every run, and glance at analytics/*.csv.** SCRIPTS.md is how to write a script people watch to the end; VIRAL.md holds the YouTube Shorts rules (hook, pacing, loop, packaging, monetisation
+**Read VIRAL.md (especially its Lessons section), SCRIPTS.md, LOOK.md and COMMUNITY.md first, every run, and glance at analytics/*.csv.** SCRIPTS.md is how to write a script people watch to the end; VIRAL.md holds the YouTube Shorts rules (hook, pacing, loop, packaging, monetisation
 safety) and the pre-render checklist. Its rules override anything below when they conflict.
 
 ## Pipeline (per story, from the kit root)

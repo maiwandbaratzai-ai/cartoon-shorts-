@@ -87,6 +87,12 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
   bespoke sound every 2–3 s on top of the cut whooshes, and match the sound to the action on screen.
   Also: `screech()` (swerving cars), `flip()` (signs, pages, cards turning), `stamp()` (votes, approvals, gavels),
   `swish()` on every fast camera transition.
+- **Character soundbites:** characters say 1–4 word lines in their own voices with `vox("Mine!", t, "am_fenrir", pitch=1.1)`
+  (voices: am_michael, am_adam, am_fenrir, af_bella, af_nicole, af_sky, bf_emma, bm_george; pitch >1 = cartoonier).
+  Put them in gaps between narration lines, 1–3 per video. Gasps with `gasp()`.
+- **Animal sounds:** `bark() meow() moo() oink() baa() quack() cluck() roar() neigh() monkey() trumpet() squeak() tweet()`.
+  Every animal on screen makes its sound at least once.
+- Music now ducks more under the narration automatically (mixdown).
 - **Voice drama** (tools/voice.py tags at the start of a script line): `[hype]` = faster and louder for the chaos/action
   line, `[slow]` = slower for the punchline or kicker, `[beat]` = a short pause before the twist. Use 1–3 per video.
 
@@ -199,6 +205,11 @@ Every day: **four 30-second Shorts + one 64-second video.**
 
 - 2026-11-16 (Maiwand): the biggest weakness is characters just standing around. Now every character acts out the
   narration on the word (LOOK.md "Acting": T.act timeline, 45+ poses, held items, hops, squash & stretch).
+
+- 2026-11-17 (YouTube AI feedback on the 3D baboon video): all A's (Hook, Visuals, Audio, Narrative, Presence). Notes:
+  hint at the stakes in the first line or two ("...would the baboon keep his job?"), a micro-pause ([beat]) before the
+  reveal, quick camera punch-ins on dramatic beats, music ducked more under fast narration, and character
+  soundbites/animal vocalizations for personality. All are in the kit now.
 
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/

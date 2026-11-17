@@ -569,6 +569,15 @@ const FACE = {
         ],
         mouth: "smile"
     },
+    angry: { eye: ["lid", "lid"], brow: [7, -4], mouth: "teeth" },
+    sad: { eye: ["small", "small"], brow: [-5, 4], mouth: "frown" },
+    scared: { eye: ["shock", "shock"], brow: [-6, 4], mouth: "wave" },
+    excited: { eye: ["shock", "shock"], brow: [-6, -6], mouth: "laugh" },
+    proud: { eye: ["happy", "happy"], brow: [-1, -3], mouth: "smileWide" },
+    confused: { eye: ["dot", "small"], brow: [-5, 1], mouth: "wave" },
+    sleepy: { eye: ["dash", "dash"], brow: [0, 1], mouth: "o" },
+    talk: { eye: ["dot", "dot"], brow: [-1, -2], mouth: "o" },
+    yell: { eye: ["lid", "lid"], brow: [6, -3], mouth: "O" },
     lick: {
         eye: [
             "dot",
@@ -2896,7 +2905,8 @@ export const act = (f, keys, base = {})=>{
     const tilt = leanP + (leanT - leanP) * eB + 1.2 * Math.sin(sec * 0.9 + (base.seed || 0)) + shake * 2.5 * Math.sin(sec * 40); // + weight shift
     const htT = P0.headTilt ?? 0, htP = prev.headTilt ?? 0;
     const headTilt = htP + (htT - htP) * eH + 2 * Math.sin(sec * 1.3) - (changed && since < 0.25 ? 4 * Math.sin(Math.PI * since / 0.25) * Math.sign(leanT - leanP || 1) : 0); // head drags
-    const expr = (o0.expr || P0.expr || base.expr || "neutral");
+    let expr = (o0.expr || P0.expr || base.expr || "neutral");
+    if (o0.talk || P0.talk) { const k = Math.floor(f / 3 + Math.sin(f * 0.7) * 0.6) % 3; expr = k === 0 ? (expr === "neutral" ? "talk" : expr) : k === 1 ? "talk" : (expr === "talk" ? "smile" : expr); } // mouth flaps while a character speaks
     const blinkNow = base.blink || (changed && since >= 0 && since < 0.1 && expr !== (keys[i - 1]?.[2]?.expr || prev.expr)); // blink on an expression change
     // hops: anticipation squash -> stretch up -> squash on landing -> settle
     let dy = 0, sx = 1, sy = 1;

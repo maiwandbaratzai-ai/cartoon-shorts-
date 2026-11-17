@@ -105,6 +105,44 @@ It casts real shadows, gets outlines and contact shadows, can turn (`yaw`), walk
 the `walk`/`run` poses), sit (`{ seat: 0.45 }`), crouch, jump and fall. Use `ink: 0.5–0.6` in the light object so
 characters get a clear cartoon outline. Example: web/s/acting3d.js.
 
+
+## Outfits (every character gets details — 2026-11-17)
+`K.stick(outfit)` options, mix freely:
+- `jacket`, `pants`, `boots`, `gloves` colours; `build: 'stout' | 'kid'`
+- hats `hat`: cap, tophat, hardhat, helmet, police, pilot, chef, beanie, cowboy, crown (`hatColor` to recolour)
+- hair `hairStyle`: short, spiky, long, bun, ponytail, curly (+ `hair` colour); `moustache` colour; `glasses: true | colour`
+- clothes: `collar` (colour or false), `tie`, `bowtie`, `belt`, `pockets: true`, `vest`, `apron`, `dress`, `scarf`, `badge`
+Give every character at least 3 details that tell you who they are (a cop: police hat + badge + tie; a farmer:
+cowboy hat + vest + scarf + belt; a chef: chef hat + bowtie + apron). Two characters in one video never share an outfit.
+
+## Animals: real 3D animals, never a stick man with ears (2026-11-17)
+`const dog = K.animal('dog', { color, scale, seed })` then `dog.set(f, { x, z, yaw, mode, look, expr, wag, flap })`.
+Types: dog, cat, pig, cow, horse, sheep, bear, fox, rabbit, monkey (baboon/ape), elephant, chicken, duck, pigeon.
+Modes: stand, walk, run, sit, beg, jump, eat, sleep, wag. Expr: neutral, happy, shock, angry, sad, sleepy.
+Move them with `K.walkPath` like people. Pair every animal moment with its sound (VIRAL.md §5: bark, meow, moo...).
+
+## Walking without going through things (2026-11-17)
+- Register everything solid: `K.solid(mesh)` for crates, tables, walls, cars, trees, people standing still.
+- Move characters with `const W = K.walkPath(f, startFrame, [[x,z], [x,z], ...], speed)`, then use `W.x, W.z, W.yaw`
+  and the `walk` (speed ~1.1–1.4) or `run` (~3) pose while `W.moving`. They turn smoothly to face where they go.
+- The render log prints **PATH COLLISION** if a path goes through a solid: fix the path (add a corner point) before rendering.
+- Feet stay on the ground: walk speed and the walk cycle are matched; don't slide a standing character.
+
+## Faces match the narration (2026-11-17)
+Every line, set each character's `expr` to the feeling of what's being said, on the word: neutral, smile, grin, laugh,
+proud, excited, shock, scared, nervous, confused, sad, pained, angry, stern, yell, sleepy, relief, dazed, whistle, lick, talk.
+When a character "says" something (vox line or dialogue), add `talk: true` to that key so the mouth moves.
+Listeners react with a different face from the speaker.
+
+## Lighting: bright, glowing, clean ("HD")
+The rich look now defaults to brighter exposure (1.45), more bloom (0.75) and richer colour; 3D characters get a soft
+rim light so they glow off the background (`K.stick(o, { rim: 0.55, rimColor })`). Daylight scenes: `sunI 3–3.5`,
+`hemi ~1`. Night/indoor: warm lamps + `ink 0.55`. Never leave a character's face in shadow in a close-up; add a lamp
+or move the sun. Keep sets clean: fewer, nicer props beat random clutter.
+
+## Camera punch-ins on dramatic beats
+`fov: 40 * K.punch(f, wf(line, 'word'), 0.3, 6)` gives a quick zoom-in on the shock word. Use 1–3 per video.
+
 ## Check before rendering (stills)
 
 Look at `tools/stills.sh` sheets and ask:

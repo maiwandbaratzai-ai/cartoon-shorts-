@@ -9,6 +9,7 @@ import * as P from './paint.js';
 import * as MO from './motion.js';
 import * as LK from './look.js';
 import * as R3 from './rig3d.js';
+import * as AN from './animals3d.js';
 
 const W = 1080, H = 1920;
 const canvas = document.getElementById('c');
@@ -122,6 +123,34 @@ const dust = (c, sz, n = 120, color = '#ffd29a', size = 0.012, parent = scene) =
   m.userData.ndSkip = true; m.frustumCulled = false; m.renderOrder = 6; parent.add(m); return m;
 };
 
+
+// ---------- paths, obstacles, camera punch-ins ----------
+const solids = [];
+/** K.solid(obj, pad=0.25): register an object characters must walk around (its x/z footprint). Returns obj. */
+const solid = (obj, pad = 0.25) => { obj.updateMatrixWorld(true); const b = new THREE.Box3().setFromObject(obj); solids.push({ b, pad, name: obj.name || 'object' }); return obj; };
+const checked = new Set();
+/** K.walkPath(f, f0, path, speed=1.2, opts) -> { x, z, yaw, moving, done }.  path = [[x,z], ...]; speed m/s.
+ *  Characters turn smoothly to face where they walk. Warns "PATH COLLISION" in the render log if the path goes through a K.solid. */
+const walkPath = (f, f0, path, speed = 1.2, o = {}) => {
+  const key = JSON.stringify(path);
+  if (!checked.has(key)) { checked.add(key);
+    for (let i = 0; i + 1 < path.length; i++) for (let t = 0; t <= 1; t += 0.05) { const x = path[i][0] + (path[i + 1][0] - path[i][0]) * t, z = path[i][1] + (path[i + 1][1] - path[i][1]) * t;
+      for (const s of solids) if (x > s.b.min.x - s.pad && x < s.b.max.x + s.pad && z > s.b.min.z - s.pad && z < s.b.max.z + s.pad) { console.warn(`PATH COLLISION: path ${key} goes through ${s.name} near (${x.toFixed(2)}, ${z.toFixed(2)})`); t = 2; i = path.length; break; } } }
+  const segs = []; let tot = 0; for (let i = 0; i + 1 < path.length; i++) { const L = Math.hypot(path[i + 1][0] - path[i][0], path[i + 1][1] - path[i][1]); segs.push(L); tot += L; }
+  let d = Math.max(0, (f - f0) / 30 * speed); const done = d >= tot; d = Math.min(d, tot);
+  let i = 0; while (i < segs.length - 1 && d > segs[i]) { d -= segs[i]; i++; }
+  const a = path[i], b = path[Math.min(i + 1, path.length - 1)], t = segs[i] ? d / segs[i] : 0;
+  const x = a[0] + (b[0] - a[0]) * t, z = a[1] + (b[1] - a[1]) * t;
+  // smooth turning: look a little ahead along the path
+  const ahead = Math.min(tot, (f - f0) / 30 * speed + 0.35); let d2 = ahead, j = 0; while (j < segs.length - 1 && d2 > segs[j]) { d2 -= segs[j]; j++; }
+  const a2 = path[j], b2 = path[Math.min(j + 1, path.length - 1)], t2 = segs[j] ? Math.min(1, d2 / segs[j]) : 0;
+  const ax = a2[0] + (b2[0] - a2[0]) * t2 - x, az = a2[1] + (b2[1] - a2[1]) * t2 - z;
+  const yaw = done || Math.hypot(ax, az) < 1e-4 ? (o.endYaw ?? Math.atan2(b[0] - a[0], b[1] - a[1])) : Math.atan2(ax, az);
+  return { x, z, yaw, moving: !done && f >= f0, done };
+};
+/** K.punch(f, f0, amount=0.25, dur=8): quick camera zoom-in on a dramatic beat -> multiply your fov by the result. */
+const punch = (f, f0, amount = 0.25, dur = 8) => { const t = (f - f0) / dur; if (t < 0) return 1; const e = t < 1 ? 1 - Math.pow(1 - t, 3) : 1; return 1 - amount * e; };
+
 // ---------- cards (2D characters / effects on billboards) ----------
 const CW = 1200, CH = 2000, CM = 2.25;
 const cardGeo = new THREE.PlaneGeometry(CM * 0.6, CM); cardGeo.translate(0, CM / 2 - CM * 0.025, 0);
@@ -224,8 +253,8 @@ function applyLight(L) {
   sun.color.set(L.sun); sun.intensity = L.sunI;
   scene.fog.color.set(L.fog); scene.fog.near = L.fogNear; scene.fog.far = L.fogFar;
   skyU.top.value.set(L.skyTop); skyU.hor.value.set(L.skyHor);
-  const R_ = LOOK === 'rich'; inkU.ink.value = L.ink ?? (R_ ? 0.3 : 1); inkU.ao.value = L.ao ?? (R_ ? 0.7 : 0); inkU.bloom.value = L.bloom ?? (R_ ? 0.6 : 0); inkU.expo.value = L.exposure ?? 1.35; inkU.tm.value = R_ ? 1 : 0; brightU.thr.value = L.bloomThr ?? 0.85;
-  inkU.sat.value = L.sat ?? 1.08; inkU.gain.value.set(L.gain || '#ffffff'); inkU.lift.value.set(L.lift || '#000000'); inkU.vig.value = L.vig ?? 0.22;
+  const R_ = LOOK === 'rich'; inkU.ink.value = L.ink ?? (R_ ? 0.3 : 1); inkU.ao.value = L.ao ?? (R_ ? 0.7 : 0); inkU.bloom.value = L.bloom ?? (R_ ? 0.75 : 0); inkU.expo.value = L.exposure ?? 1.45; inkU.tm.value = R_ ? 1 : 0; brightU.thr.value = L.bloomThr ?? 0.8;
+  inkU.sat.value = L.sat ?? (R_ ? 1.14 : 1.08); inkU.gain.value.set(L.gain || '#ffffff'); inkU.lift.value.set(L.lift || '#000000'); inkU.vig.value = L.vig ?? 0.22;
 }
 function placeSun(L, focus) {
   const az = rx(L.az), el = rx(L.el); tmpV.set(Math.cos(el) * Math.cos(az), Math.sin(el), Math.cos(el) * Math.sin(az));
@@ -258,7 +287,7 @@ const swapForNd = (on) => {
 };
 
 // ---------- kit context handed to stories ----------
-const K = { stick: (o, opts) => R3.stick(K, o, opts), lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;
