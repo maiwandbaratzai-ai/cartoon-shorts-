@@ -89,7 +89,9 @@ actors.push({ key: 'joe' + JSON.stringify(A.opts), draw: (p) => T.bodyFront(p, J
 - Keep characters fully in frame (head and hands) in close-ups; never crop through the face.
 
 
-## 3D characters (in testing — use only after Maiwand approves; then this becomes the default)
+## 3D characters: the DEFAULT for every video (approved by Maiwand 2026-11-16)
+
+All characters are real 3D stick men built with `K.stick`. Don't use the flat 2D cards for characters any more.
 
 `K.stick(outfit, { key, glow })` builds a real 3D stick man (round head with the cartoon face, bean body, stick arms
 and legs with elbows and knees, shoes, cap/hair/top hat, held items). In `build()` create each character once; in
