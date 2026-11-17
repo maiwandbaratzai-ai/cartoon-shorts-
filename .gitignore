@@ -9,3 +9,6 @@ __pycache__/
 stories/*/out/
 package.json
 package-lock.json
+stories/*/hook.png
+stories/*/render_all.out
+stories/*/voice.log
