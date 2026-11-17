@@ -1,0 +1,108 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.21,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} SWAMP RABBIT
+Dialogue: 0,0:00:00.21,0:00:00.46,Cap,,0,0,0,,A {\c&H00E6FF&}SWAMP{\c&HFFFFFF&} RABBIT
+Dialogue: 0,0:00:00.46,0:00:00.75,Cap,,0,0,0,,A SWAMP {\c&H00E6FF&}RABBIT{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.75,0:00:01.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ATTACKED{\c&HFFFFFF&} THE PRESIDENT
+Dialogue: 0,0:00:01.12,0:00:01.41,Cap,,0,0,0,,ATTACKED {\c&H00E6FF&}THE{\c&HFFFFFF&} PRESIDENT
+Dialogue: 0,0:00:01.41,0:00:01.82,Cap,,0,0,0,,ATTACKED THE {\c&H00E6FF&}PRESIDENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.82,0:00:01.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OF{\c&HFFFFFF&} THE UNITED
+Dialogue: 0,0:00:01.95,0:00:02.13,Cap,,0,0,0,,OF {\c&H00E6FF&}THE{\c&HFFFFFF&} UNITED
+Dialogue: 0,0:00:02.13,0:00:02.42,Cap,,0,0,0,,OF THE {\c&H00E6FF&}UNITED{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.42,0:00:03.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STATES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.16,0:00:03.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} SWAM STRAIGHT
+Dialogue: 0,0:00:03.27,0:00:03.45,Cap,,0,0,0,,IT {\c&H00E6FF&}SWAM{\c&HFFFFFF&} STRAIGHT
+Dialogue: 0,0:00:03.45,0:00:03.76,Cap,,0,0,0,,IT SWAM {\c&H00E6FF&}STRAIGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.76,0:00:03.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AT{\c&HFFFFFF&} HIS BOAT,
+Dialogue: 0,0:00:03.87,0:00:04.02,Cap,,0,0,0,,AT {\c&H00E6FF&}HIS{\c&HFFFFFF&} BOAT,
+Dialogue: 0,0:00:04.02,0:00:04.20,Cap,,0,0,0,,AT HIS {\c&H00E6FF&}BOAT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.20,0:00:04.47,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HISSING,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.47,0:00:04.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TEETH{\c&HFFFFFF&} BARED.
+Dialogue: 0,0:00:04.68,0:00:05.28,Cap,,0,0,0,,TEETH {\c&H00E6FF&}BARED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.43,0:00:05.70,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JIMMY{\c&HFFFFFF&} CARTER WAS
+Dialogue: 0,0:00:05.70,0:00:06.01,Cap,,0,0,0,,JIMMY {\c&H00E6FF&}CARTER{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:06.01,0:00:06.27,Cap,,0,0,0,,JIMMY CARTER {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.27,0:00:06.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FISHING{\c&HFFFFFF&} ALONE ON
+Dialogue: 0,0:00:06.63,0:00:06.91,Cap,,0,0,0,,FISHING {\c&H00E6FF&}ALONE{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:06.91,0:00:07.05,Cap,,0,0,0,,FISHING ALONE {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.05,0:00:07.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} POND IN
+Dialogue: 0,0:00:07.16,0:00:07.39,Cap,,0,0,0,,A {\c&H00E6FF&}POND{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:07.39,0:00:07.54,Cap,,0,0,0,,A POND {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.54,0:00:08.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GEORGIA.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.25,0:00:08.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HE GRABBED
+Dialogue: 0,0:00:08.37,0:00:08.50,Cap,,0,0,0,,SO {\c&H00E6FF&}HE{\c&HFFFFFF&} GRABBED
+Dialogue: 0,0:00:08.50,0:00:08.81,Cap,,0,0,0,,SO HE {\c&H00E6FF&}GRABBED{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.81,0:00:08.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} PADDLE AND
+Dialogue: 0,0:00:08.98,0:00:09.25,Cap,,0,0,0,,HIS {\c&H00E6FF&}PADDLE{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:09.25,0:00:09.42,Cap,,0,0,0,,HIS PADDLE {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.42,0:00:09.85,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SPLASHED{\c&HFFFFFF&} IT LIKE
+Dialogue: 0,0:00:09.85,0:00:09.98,Cap,,0,0,0,,SPLASHED {\c&H00E6FF&}IT{\c&HFFFFFF&} LIKE
+Dialogue: 0,0:00:09.98,0:00:10.28,Cap,,0,0,0,,SPLASHED IT {\c&H00E6FF&}LIKE{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.28,0:00:10.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CRAZY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.88,0:00:11.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} RABBIT SPUN
+Dialogue: 0,0:00:11.06,0:00:11.43,Cap,,0,0,0,,THE {\c&H00E6FF&}RABBIT{\c&HFFFFFF&} SPUN
+Dialogue: 0,0:00:11.43,0:00:11.66,Cap,,0,0,0,,THE RABBIT {\c&H00E6FF&}SPUN{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.66,0:00:11.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AROUND{\c&HFFFFFF&} AND PADDLED
+Dialogue: 0,0:00:11.96,0:00:12.15,Cap,,0,0,0,,AROUND {\c&H00E6FF&}AND{\c&HFFFFFF&} PADDLED
+Dialogue: 0,0:00:12.15,0:00:12.49,Cap,,0,0,0,,AROUND AND {\c&H00E6FF&}PADDLED{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.49,0:00:12.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AWAY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.71,0:00:12.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STILL{\c&HFFFFFF&} HISSING.
+Dialogue: 0,0:00:12.98,0:00:13.59,Cap,,0,0,0,,STILL {\c&H00E6FF&}HISSING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.68,0:00:13.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} BACK HOME,
+Dialogue: 0,0:00:13.87,0:00:14.11,Cap,,0,0,0,,BUT {\c&H00E6FF&}BACK{\c&HFFFFFF&} HOME,
+Dialogue: 0,0:00:14.11,0:00:14.34,Cap,,0,0,0,,BUT BACK {\c&H00E6FF&}HOME,{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.34,0:00:14.67,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOBODY{\c&HFFFFFF&} BELIEVED HIM.
+Dialogue: 0,0:00:14.67,0:00:15.08,Cap,,0,0,0,,NOBODY {\c&H00E6FF&}BELIEVED{\c&HFFFFFF&} HIM.
+Dialogue: 0,0:00:15.08,0:00:15.27,Cap,,0,0,0,,NOBODY BELIEVED {\c&H00E6FF&}HIM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.27,0:00:15.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} KILLER RABBIT?
+Dialogue: 0,0:00:15.59,0:00:15.91,Cap,,0,0,0,,A {\c&H00E6FF&}KILLER{\c&HFFFFFF&} RABBIT?
+Dialogue: 0,0:00:15.91,0:00:16.34,Cap,,0,0,0,,A KILLER {\c&H00E6FF&}RABBIT?{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.34,0:00:16.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}COME{\c&HFFFFFF&} ON.
+Dialogue: 0,0:00:16.57,0:00:16.99,Cap,,0,0,0,,COME {\c&H00E6FF&}ON.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.07,0:00:17.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THEY FOUND
+Dialogue: 0,0:00:17.25,0:00:17.43,Cap,,0,0,0,,THEN {\c&H00E6FF&}THEY{\c&HFFFFFF&} FOUND
+Dialogue: 0,0:00:17.43,0:00:17.64,Cap,,0,0,0,,THEN THEY {\c&H00E6FF&}FOUND{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.64,0:00:17.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OUT{\c&HFFFFFF&} A WHITE
+Dialogue: 0,0:00:17.79,0:00:17.87,Cap,,0,0,0,,OUT {\c&H00E6FF&}A{\c&HFFFFFF&} WHITE
+Dialogue: 0,0:00:17.87,0:00:18.09,Cap,,0,0,0,,OUT A {\c&H00E6FF&}WHITE{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.09,0:00:18.30,Cap,,0,0,0,,{\fs94}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HOUSE{\c&HFFFFFF&} PHOTOGRAPHER SNAPPED
+Dialogue: 0,0:00:18.30,0:00:18.81,Cap,,0,0,0,,{\fs94}HOUSE {\c&H00E6FF&}PHOTOGRAPHER{\c&HFFFFFF&} SNAPPED
+Dialogue: 0,0:00:18.81,0:00:19.16,Cap,,0,0,0,,{\fs94}HOUSE PHOTOGRAPHER {\c&H00E6FF&}SNAPPED{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.16,0:00:19.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WHOLE FIGHT.
+Dialogue: 0,0:00:19.43,0:00:19.64,Cap,,0,0,0,,THE {\c&H00E6FF&}WHOLE{\c&HFFFFFF&} FIGHT.
+Dialogue: 0,0:00:19.64,0:00:20.23,Cap,,0,0,0,,THE WHOLE {\c&H00E6FF&}FIGHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.32,0:00:20.51,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} STORY LEAKED
+Dialogue: 0,0:00:20.51,0:00:20.80,Cap,,0,0,0,,THE {\c&H00E6FF&}STORY{\c&HFFFFFF&} LEAKED
+Dialogue: 0,0:00:20.80,0:00:21.22,Cap,,0,0,0,,THE STORY {\c&H00E6FF&}LEAKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.22,0:00:21.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} A REPORTER,
+Dialogue: 0,0:00:21.37,0:00:21.48,Cap,,0,0,0,,TO {\c&H00E6FF&}A{\c&HFFFFFF&} REPORTER,
+Dialogue: 0,0:00:21.48,0:00:22.00,Cap,,0,0,0,,TO A {\c&H00E6FF&}REPORTER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.00,0:00:22.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} NEWSPAPERS ACROSS
+Dialogue: 0,0:00:22.20,0:00:22.70,Cap,,0,0,0,,AND {\c&H00E6FF&}NEWSPAPERS{\c&HFFFFFF&} ACROSS
+Dialogue: 0,0:00:22.70,0:00:23.03,Cap,,0,0,0,,AND NEWSPAPERS {\c&H00E6FF&}ACROSS{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.03,0:00:23.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AMERICA{\c&HFFFFFF&} WENT WILD.
+Dialogue: 0,0:00:23.48,0:00:23.72,Cap,,0,0,0,,AMERICA {\c&H00E6FF&}WENT{\c&HFFFFFF&} WILD.
+Dialogue: 0,0:00:23.72,0:00:24.23,Cap,,0,0,0,,AMERICA WENT {\c&H00E6FF&}WILD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.39,0:00:24.58,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} HEADLINE:
+Dialogue: 0,0:00:24.58,0:00:24.99,Cap,,0,0,0,,ONE {\c&H00E6FF&}HEADLINE:{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.99,0:00:25.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUNNY{\c&HFFFFFF&} GOES BUGS.
+Dialogue: 0,0:00:25.28,0:00:25.59,Cap,,0,0,0,,BUNNY {\c&H00E6FF&}GOES{\c&HFFFFFF&} BUGS.
+Dialogue: 0,0:00:25.59,0:00:25.83,Cap,,0,0,0,,BUNNY GOES {\c&H00E6FF&}BUGS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.83,0:00:26.26,Cap,,0,0,0,,{\fs98}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RABBIT{\c&HFFFFFF&} ATTACKS PRESIDENT.
+Dialogue: 0,0:00:26.26,0:00:26.63,Cap,,0,0,0,,{\fs98}RABBIT {\c&H00E6FF&}ATTACKS{\c&HFFFFFF&} PRESIDENT.
+Dialogue: 0,0:00:26.63,0:00:27.42,Cap,,0,0,0,,{\fs98}RABBIT ATTACKS {\c&H00E6FF&}PRESIDENT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.49,0:00:27.65,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE RABBIT?
+Dialogue: 0,0:00:27.65,0:00:27.81,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} RABBIT?
+Dialogue: 0,0:00:27.81,0:00:28.09,Cap,,0,0,0,,AND THE {\c&H00E6FF&}RABBIT?{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.09,0:00:28.32,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEVER{\c&HFFFFFF&} CAUGHT.
+Dialogue: 0,0:00:28.32,0:00:28.93,Cap,,0,0,0,,NEVER {\c&H00E6FF&}CAUGHT.{\c&HFFFFFF&}
