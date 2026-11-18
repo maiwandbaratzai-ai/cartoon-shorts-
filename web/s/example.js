@@ -64,7 +64,7 @@ export default {
       const keys = [[0, 'pointUp', { expr: 'confused' }], [COL - 4 - i, 'panic', { expr: 'scared', talk: i === 1 }], [SAG - 3, 'ears', { expr: 'scared' }], [HELD + i, 'cheer', { expr: 'excited' }]];
       c.set(T.act(f, keys, { seed: 10 + i, blink: blinkAt(f, 10 + i) }), { x: -9.2 + (i % 3) * 0.9, z: 2.6 + Math.floor(i / 3) * 0.9, yaw: 0.9 });
     });
-    BARNUM.set(T.act(f, [[0, 'point', { expr: 'grin' }], [COL, 'hips', { expr: 'stern' }], [SAG, 'shock', { expr: 'nervous' }], [HELD - 2, 'show', { expr: 'proud', talk: true }]], { seed: 3, blink: blinkAt(f, 3) }), { x: -7.6, z: -1.6, yaw: 1.2 });
+    BARNUM.set(T.act(f, [[0, 'point', { expr: 'grin' }], [COL, 'hips', { expr: 'grin', sweat: true }], [SAG, 'shock', { expr: 'nervous' }], [HELD - 2, 'show', { expr: 'proud', talk: true }]], { seed: 3, blink: blinkAt(f, 3) }), { x: -7.6, z: -1.6, yaw: 1.2 });
     // ---- shots: a new, moving shot every ~2 s, none reused ----
     const L = LINES; let cam, dof, u;
     const sh = (a, b) => (u = clamp((f - a) / (b - a), 0, 1), f >= a && f < b);
@@ -72,7 +72,8 @@ export default {
     if (sh(0, 45)) {            // 1. strange action: an elephant's foot on a brand-new bridge (push-in)
       cam = { pos: [lead + 1.4, 0.45 + sag, 1.7], look: [lead + 0.35, 0.35 + sag, 0.1], fov: 38 * K.push(u, 0.12) }; dof = { focus: 1.8, cinf: 16 };
     } else if (sh(45, L[1][0] - 4)) { // 2. wide: the whole line of elephants, pan with them
-      cam = { pos: [lerp(-4, -1, u), 3.2, 11], look: [lerp(-4.5, -1.5, u), 2.2, 0], fov: 44 }; dof = { focus: 11, cinf: 4 };
+      const tc = K.track(f, (g) => [-4.6 - 2.7 + (g / 30) * 0.75, 0, 0], { off: [2.2, 2.6, 10.5], lag: 8, lookY: 1.2 }); // camera follows the herd
+      cam = { pos: tc.pos, look: tc.look, fov: 44 }; dof = { focus: 11, cinf: 4 };
     } else if (sh(L[1][0] - 4, L[2][0] - 2)) { // 3. crowd screaming, over a blurred rope in the foreground
       cam = { pos: [-6.6, 1.45, 4.6], look: [-8.6, 1.35, 3.0], fov: 40 * K.push(u, 0.1) }; dof = { focus: 2.6, cinf: 12 };
     } else if (sh(L[2][0] - 2, SAG - 4)) { // 4. cable close-up, creak + shake

@@ -79,7 +79,7 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
 
 - The narrator is always clearly louder than the music (ducking is built in; keep `music_gain` ≤ 0.8).
 - A sound effect on every visual hit (impacts, pops, whooshes on cuts). Silence only as a deliberate beat before a
-  twist, never more than ~0.4 s.
+  twist, never more than ~0.2 s (YouTube feedback 2026-11-18: a longer pause before the big moment loses people).
 - Music: original synthesized beds only (audiolib). Keep it running through the last frame for the loop.
 - **Comedy SFX on every joke** (YouTube's AI review gave our audio B+ for this): `bonk()` on a dumb decision or fall,
   `chew()`/`gulp()` when anything eats, `boing()`, `slide(True/False)` for things going up or down, `scratch()` right before the
@@ -87,12 +87,14 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
   bespoke sound every 2–3 s on top of the cut whooshes, and match the sound to the action on screen.
   Also: `screech()` (swerving cars), `flip()` (signs, pages, cards turning), `stamp()` (votes, approvals, gavels),
   `swish()` on every fast camera transition.
+- **Deep bass on every impact (YouTube feedback 2026-11-18).** Heavy steps use `stomp()`, impacts `thunk()` (now with
+  a sub layer) or `boom()`, tension drones `hum()` (now with a deep under-hum). Add `sub()` under any big hit.
 - **Only the narrator speaks (Maiwand 2026-11-18).** No character voices, no soundbites, no dialogue audio, no gasps.
   Characters show what they feel with faces, poses and mouth movement only; `vox()` is disabled.
 - **Animal sounds:** `bark() meow() moo() oink() baa() quack() cluck() roar() neigh() monkey() trumpet() squeak() tweet()`.
   Every animal on screen makes its sound at least once.
 - Music now ducks more under the narration automatically (mixdown). Let the music build tension during the
-  escalations (switch to the 'tension' bed, raise it), and drop to near silence for ~0.4 s right before the payoff.
+  escalations (switch to the 'tension' bed, raise it), and drop to near silence for ~0.2 s right before the payoff (no longer: keep it tight).
 - **Voice drama** (tools/voice.py tags at the start of a script line): `[hype]` = faster and louder for the chaos/action
   line, `[slow]` = slower for the punchline or kicker, `[beat]` = a short pause before the twist. Use 1–3 per video.
 
@@ -234,3 +236,16 @@ after studying Ricks Clips, whose Shorts run 55–65 s; 45 s keeps the overnight
 - YouTube Help, disclosing GenAI content: support.google.com/youtube/answer/14328491
 - Social Media Today / Gulf News on the inauthentic-content update: socialmediatoday.com/news/youtube-clarifies-monetization-update-inauthentic-repeated-content/752892/
 - Fluxnote, faceless Shorts pacing (directional): fluxnote.io/guides/faceless-shorts-retention-tips-2026
+
+### YouTube AI feedback on the 3D example (2026-11-18)
+Grades: hook A, visual B+, audio A-, narrative A, presence A. Fixes now in the kit:
+- Stiff walking → the 3D rig now has body dip and rise on each step, forward lean, weight shift over the planted foot,
+  lagging head bob, arm follow-through, breathing when standing, and loose parts (ponytail, tie, scarf, pom-pom)
+  that swing and settle.
+- Static camera → `K.track()` follows a moving subject like a real camera operator (eases in behind, frames ahead).
+  Use it on every walking, running or chase shot.
+- Thin low end → `sub()`, `stomp()`, and deeper `thunk()`/`hum()`.
+- Pause before the big moment → `[beat]` is now 0.2 s; near-silence before the payoff is at most 0.2 s.
+- More reactions → sweat drops for nervous/scared faces (`sweat: true`), and crowd reaction close-ups (see LOOK.md).
+- Name the main character in line 1 when there is a known name (e.g. "Why did P.T. Barnum march 21 elephants...").
+

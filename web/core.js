@@ -161,6 +161,20 @@ const puff = (f, f0, x, z, n = 7, size = 0.35, color = '#d8c8a8') => {
     const sp = puffPool[puffUsed++], a = i / n * Math.PI * 2 + f0, r = 0.15 + t * 0.55;
     sp.visible = true; sp.material.color.set(color); sp.material.opacity = 0.55 * (1 - t);
     sp.position.set(x + Math.cos(a) * r, 0.08 + t * 0.25 + (i % 3) * 0.05, z + Math.sin(a) * r * 0.6); sp.scale.setScalar(size * (0.6 + t)); } };
+/** K.track(f, at, o): a camera that follows a moving subject like a real operator — it eases in behind the subject (lag),
+ *  frames a little ahead of where it is going (lead) and drifts slightly by hand. at(f) -> [x, y, z] is the subject's position.
+ *  o = { off: [x, y, z] camera offset from the subject, lag: frames of follow delay (6), lead: seconds to look ahead (0.25),
+ *        drift: handheld drift (0.02), lookY: aim height above the subject (1.1) }  ->  { pos, look } for the frame's cam. */
+const track = (f, at, o = {}) => {
+  const off = o.off || [0, 1.6, 5], lag = o.lag ?? 6, lead = o.lead ?? 0.25, dr = o.drift ?? 0.02, ly = o.lookY ?? 1.1;
+  const sm = [0, 0, 0]; let wsum = 0;
+  for (let i = 0; i <= lag * 2; i++) { const w = Math.exp(-i / Math.max(1, lag)), p = at(f - i); sm[0] += p[0] * w; sm[1] += p[1] * w; sm[2] += p[2] * w; wsum += w; }
+  for (let k = 0; k < 3; k++) sm[k] /= wsum;
+  const a = at(f), b = at(f - 3), v = [(a[0] - b[0]) * 10, (a[1] - b[1]) * 10, (a[2] - b[2]) * 10];
+  const look = [sm[0] + v[0] * lead, sm[1] + ly + v[1] * lead, sm[2] + v[2] * lead];
+  const d = [dr * Math.sin(f * 0.043) + dr * 0.5 * Math.sin(f * 0.11), dr * 0.6 * Math.sin(f * 0.057 + 1), dr * Math.cos(f * 0.039)];
+  return { pos: [sm[0] + off[0] + d[0], sm[1] + off[1] + d[1], sm[2] + off[2] + d[2]], look };
+};
 const punch = (f, f0, amount = 0.25, dur = 8) => { const t = (f - f0) / dur; if (t < 0) return 1; const e = t < 1 ? 1 - Math.pow(1 - t, 3) : 1; return 1 - amount * e; };
 
 // ---------- cards (2D characters / effects on billboards) ----------
@@ -299,7 +313,7 @@ const swapForNd = (on) => {
 };
 
 // ---------- kit context handed to stories ----------
-const K = { stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;

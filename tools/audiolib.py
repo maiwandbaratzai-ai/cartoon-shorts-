@@ -125,9 +125,23 @@ def button(t, style='quirky', gain=1.0):
 
 # ---------------- sfx ----------------
 def noise(d): return rng.standard_normal(int(d * SR)).astype(np.float32)
-def thunk(f0=90, d=0.3):
+def sub(d=0.5, f0=52, drop=1.7):
+    """Deep low-end body for impacts (YouTube feedback 2026-11-18: more bass on thuds and hums).
+    A pitch-dropping sine, lightly saturated so its harmonics still read as bass on phone speakers."""
     n = int(d * SR); t = np.arange(n) / SR
-    return (np.sin(2 * np.pi * f0 * t * (1 + 0.6 * np.exp(-t * 40))) * np.exp(-t * 14) + lp_fast(noise(d), 1200) * np.exp(-t * 30) * 0.5).astype(np.float32)
+    f = f0 * (1 + (drop - 1) * np.exp(-t * 25)); s = np.sin(2 * np.pi * np.cumsum(f) / SR) * np.exp(-t * (4.5 / d))
+    return (np.tanh(s * 2.2) / np.tanh(2.2) * np.minimum(1, t / 0.003)).astype(np.float32)
+def thunk(f0=90, d=0.3, bass=0.7):
+    n = int(d * SR); t = np.arange(n) / SR
+    s = np.sin(2 * np.pi * f0 * t * (1 + 0.6 * np.exp(-t * 40))) * np.exp(-t * 14) + lp_fast(noise(d), 1200) * np.exp(-t * 30) * 0.5
+    out = np.zeros(int(max(d, 0.45) * SR), np.float32); out[:n] += s.astype(np.float32)
+    if bass: out += sub(len(out) / SR, 50) * bass
+    return out
+def stomp(weight=1.0):
+    """Heavy footfall (elephant, giant, big boots): deep sub thump + ground knock + a little grit."""
+    d = 0.55; n = int(d * SR); t = np.arange(n) / SR
+    s = sub(d, 44, 1.9) * 1.0 + np.sin(2 * np.pi * 95 * t) * np.exp(-t * 22) * 0.5 + lp_fast(noise(d), 700) * np.exp(-t * 28) * 0.5
+    return (s * weight).astype(np.float32)
 def rumble(d):
     n = int(d * SR); t = np.arange(n) / SR
     s = lp_fast(noise(d), 160) * 3 * np.minimum(1, t / 0.15) * np.exp(-t / (d * 0.45))
@@ -194,6 +208,7 @@ def roar(d, bright=1200):
 def hum(d):
     n = int(d * SR); t = np.arange(n) / SR
     s = sum(np.sin(2 * np.pi * 58 * k * t + k) / k for k in range(1, 8)) * (0.8 + 0.2 * np.sin(2 * np.pi * 3.1 * t))
+    s = s + np.tanh(2 * np.sin(2 * np.pi * 36 * t)) * 0.9 * (0.7 + 0.3 * np.sin(2 * np.pi * 0.7 * t))   # deep under-hum for tension
     return lp_fast((s * 0.4 + noise(d) * 0.08).astype(np.float32), 1500) * np.minimum(1, t / 0.2) * np.minimum(1, (d - t) / 0.05)
 def bloop(f0=220):
     n = int(0.28 * SR); t = np.arange(n) / SR; f = f0 * (1 + 2.2 * t / 0.28)

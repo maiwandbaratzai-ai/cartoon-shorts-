@@ -46,7 +46,7 @@ def synth(speed):
     return out
 LEAD, TAIL = 0.12, 1.3
 gap = lambda l: 0.3 if l.endswith('?') else 0.2 if l.endswith(('.', '!')) else 0.12   # tight: no dead air (Ricks-style pacing)
-def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for l in lines[:-1]) + sum(0.35 for tg in TAGS if 'beat' in tg) + TAIL
+def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for l in lines[:-1]) + sum(0.2 for tg in TAGS if "beat" in tg) + TAIL
 speed = float(os.environ.get('VOICE_SPEED', 1.2)); clips = synth(speed)
 if target and not os.environ.get('VOICE_SPEED'):  # VOICE_SPEED=1.25 pins the speed (the auto-fit can oscillate)
     for _ in range(3):
@@ -59,7 +59,7 @@ print(f'speed {speed:.2f}  length {total(clips):.2f}s')
 
 t = LEAD; buf = []; L = []
 for i, (c, l) in enumerate(zip(clips, lines)):
-    if 'beat' in TAGS[i]: t += 0.35
+    if "beat" in TAGS[i]: t += 0.2   # trimmed from 0.35 (YouTube feedback 2026-11-18: keep the tension tight)
     L.append(dict(text=l, s=round(t, 3), e=round(t + len(c) / SR, 3)))
     buf.append((t, c)); t += len(c) / SR + (gap(l) if i < len(lines) - 1 else 0)
 dur = t + TAIL

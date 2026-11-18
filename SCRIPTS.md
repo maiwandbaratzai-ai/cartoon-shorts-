@@ -48,7 +48,8 @@ after it, or a hook that needs the second line to make sense.
 (Hook: "a man flew a lawn chair to 16,000 feet". End: "when they asked why, he said: a man can't just sit around.")
 
 **Stakes early (YouTube feedback 2026-11-17):** by line 2 the viewer must know what could go wrong or be won
-("...and if he got it wrong, a train would crash"). Put a `[beat]` before the reveal of whether it worked.
+("...and if he got it wrong, a train would crash"). Put a `[beat]` before the reveal of whether it worked (it is a short 0.2 s pause; never stack pauses before the big moment).
+When the story has a known name (a person, animal or place people search for), say it in line 1: it hooks history fans and helps search.
 
 ## 2b. Line 2 (our biggest leak, from real analytics)
 

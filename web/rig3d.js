@@ -64,6 +64,7 @@ function buildItems(K, hand) {
 
 // ---------- the character ----------
 export function stick(K, o, opts = {}) {
+  const jig = [];   // secondary motion: loose parts (ponytail, tie, scarf, pom-pom) swing and settle after the body moves
   const root = new THREE.Group(); (opts.parent || K.scene).add(root);
   const stout = o.build === 'stout', kid = o.build === 'kid', sc = kid ? 0.72 : 1;
   root.userData.base = sc;
@@ -104,7 +105,7 @@ export function stick(K, o, opts = {}) {
     const c = o.hatColor || { police: '#1f2a4a', pilot: '#1f2a4a', chef: '#ffffff', beanie: '#c0392b', cowboy: '#8a5a34', crown: '#f2c230' }[o.hat];
     const hm = K.toon({ color: c, plain: true, roughness: o.hat === 'crown' ? 0.25 : 0.7 });
     if (o.hat === 'chef') { const t = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.19, 0.3, 32), hm); t.position.y = 0.5; neck.add(t); const puff = new THREE.Mesh(new THREE.SphereGeometry(0.24, 24, 16), hm); puff.scale.set(1, 0.6, 1); puff.position.y = 0.67; neck.add(puff); }
-    else if (o.hat === 'beanie') { const b = new THREE.Mesh(new THREE.SphereGeometry(0.258, 40, 16, 0, Math.PI * 2, 0, 1.3), hm); b.position.y = 0.21; b.scale.set(1, 1.05, 0.93); neck.add(b); const pom = new THREE.Mesh(new THREE.SphereGeometry(0.06, 14, 10), K.toon({ color: '#f5f0e6', plain: true })); pom.position.y = 0.48; neck.add(pom); }
+    else if (o.hat === 'beanie') { const b = new THREE.Mesh(new THREE.SphereGeometry(0.258, 40, 16, 0, Math.PI * 2, 0, 1.3), hm); b.position.y = 0.21; b.scale.set(1, 1.05, 0.93); neck.add(b); const pom = new THREE.Mesh(new THREE.SphereGeometry(0.06, 14, 10), K.toon({ color: '#f5f0e6', plain: true })); pom.position.y = 0.48; neck.add(pom); jig.push([pom, 'z', 0.25]); }
     else if (o.hat === 'cowboy') { const cr = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.19, 0.2, 24), hm); cr.position.y = 0.47; neck.add(cr); const br = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.36, 0.02, 32), hm); br.position.y = 0.37; br.scale.z = 0.85; neck.add(br); }
     else if (o.hat === 'crown') { for (let i = 0; i < 6; i++) { const sp = new THREE.Mesh(new THREE.ConeGeometry(0.035, 0.12, 8), hm); const a = i / 6 * Math.PI * 2; sp.position.set(Math.sin(a) * 0.13, 0.5, Math.cos(a) * 0.13); neck.add(sp); } const band = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.07, 24, 1, true), hm); band.position.y = 0.43; neck.add(band); }
     else { const top = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.2, 0.1, 32), hm); top.position.y = 0.42; top.rotation.x = -0.1; neck.add(top); const visor = new THREE.Mesh(new THREE.CylinderGeometry(0.15, 0.15, 0.015, 24, 1, false, -Math.PI / 2, Math.PI), K.toon({ color: '#111', plain: true, roughness: 0.2 })); visor.position.set(0, 0.36, 0.14); neck.add(visor); const badge = new THREE.Mesh(new THREE.SphereGeometry(0.03, 10, 8), K.toon({ color: '#f2c230', plain: true })); badge.position.set(0, 0.42, 0.21); badge.scale.z = 0.4; neck.add(badge); }
@@ -117,17 +118,21 @@ export function stick(K, o, opts = {}) {
     if (o.hairStyle === 'curly') for (let i = 0; i < 14; i++) { const b = new THREE.Mesh(new THREE.SphereGeometry(0.07, 12, 8), hm); const a = i / 14 * Math.PI * 2; b.position.set(Math.sin(a) * 0.2, 0.36 + 0.05 * Math.cos(a * 3), Math.cos(a) * 0.17 - 0.05); neck.add(b); }
     if (o.hairStyle === 'long') { const back = new THREE.Mesh(new THREE.CapsuleGeometry(0.2, 0.22, 6, 20), hm); back.position.set(0, 0.08, -0.12); back.scale.set(1.15, 1, 0.55); neck.add(back); }
     if (o.hairStyle === 'bun') { const b = new THREE.Mesh(new THREE.SphereGeometry(0.09, 16, 12), hm); b.position.set(0, 0.43, -0.08); neck.add(b); }
-    if (o.hairStyle === 'ponytail') { const b = new THREE.Mesh(new THREE.CapsuleGeometry(0.05, 0.22, 4, 12), hm); b.position.set(0, 0.16, -0.27); b.rotation.x = 0.4; neck.add(b); }
+    if (o.hairStyle === 'ponytail') { const b = new THREE.Mesh(new THREE.CapsuleGeometry(0.05, 0.22, 4, 12), hm); b.position.set(0, 0.16, -0.27); b.rotation.x = 0.4; neck.add(b); jig.push([b, 'x', 0.35]); }
   }
   if (o.glasses) { const gm = K.toon({ color: o.glasses === true ? '#1a1a1a' : o.glasses, plain: true, roughness: 0.3 });
     for (const sx of [-1, 1]) { const ring = new THREE.Mesh(new THREE.TorusGeometry(0.052, 0.009, 8, 24), gm); ring.position.set(sx * 0.065, 0.225, 0.215); neck.add(ring); }
     const br = new THREE.Mesh(new THREE.CylinderGeometry(0.006, 0.006, 0.03, 6), gm); br.rotation.z = Math.PI / 2; br.position.set(0, 0.23, 0.225); neck.add(br); }
+  // sweat drops (expr 'nervous'/'scared' or sweat: true): they bead on the temples and slide down, so worry reads from far away
+  const sweatMat = new THREE.MeshStandardMaterial({ color: '#bfe6ff', emissive: '#7fc8ff', emissiveIntensity: 0.35, roughness: 0.08, metalness: 0, transparent: true, opacity: 0.92 });
+  const sweat = [[-1, 0.0], [1, 0.45], [1, 0.8]].map(([sx, d]) => { const m = new THREE.Mesh(new THREE.SphereGeometry(0.028, 12, 10), sweatMat); m.scale.set(0.8, 1.35, 0.8); m.userData.sx = sx; m.userData.d = d; m.visible = false; neck.add(m); return m; });
+  for (const j of jig) j[3] = j[0].rotation[j[1]];
   // clothing details on the torso: collar, tie/bowtie, buttons, belt, pockets, vest, apron, dress, scarf, badge
   const det = (c) => K.toon({ color: c, plain: true, roughness: 0.6 });
   const bodyZ = (y) => { const t = (y + 0.06) / BH; return R * 0.86 * Math.pow(Math.sin(Math.PI * Math.min(0.999, t * 0.98 + 0.01)), 0.62) * (1 + 0.1 * (0.5 - t)); };
   if (o.collar !== false) { const cm = det(o.collar || '#f5f2ea'); for (const sx of [-1, 1]) { const c = new THREE.Mesh(new THREE.ConeGeometry(0.05, 0.09, 3), cm); c.position.set(sx * 0.05, BH - 0.17, bodyZ(BH - 0.17) * 0.88); c.rotation.set(0.3, 0, sx * 2.5); c.scale.z = 0.35; body.add(c); } }
   if (o.tie) { const tm = det(o.tie); const knot = new THREE.Mesh(new THREE.SphereGeometry(0.025, 10, 8), tm); knot.position.set(0, BH - 0.2, bodyZ(BH - 0.2) * 0.93); body.add(knot);
-    const blade = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.24, 4), tm); blade.rotation.set(Math.PI, Math.PI / 4, 0); blade.scale.z = 0.3; blade.position.set(0, BH - 0.34, bodyZ(BH - 0.34) * 0.99); body.add(blade); }
+    const blade = new THREE.Mesh(new THREE.ConeGeometry(0.04, 0.24, 4), tm); blade.rotation.set(Math.PI, Math.PI / 4, 0); blade.scale.z = 0.3; blade.position.set(0, BH - 0.34, bodyZ(BH - 0.34) * 0.99); body.add(blade); jig.push([blade, 'z', 0.12]); }
   if (o.bowtie) { const tm = det(o.bowtie); for (const sx of [-1, 1]) { const w = new THREE.Mesh(new THREE.ConeGeometry(0.035, 0.07, 4), tm); w.rotation.z = sx * Math.PI / 2; w.position.set(sx * 0.035, BH - 0.19, bodyZ(BH - 0.19) * 0.95); w.scale.z = 0.4; body.add(w); } }
   if (o.belt) { const bm = det(o.belt), yb = 0.08; const belt = new THREE.Mesh(new THREE.TorusGeometry(1, 0.06, 8, 40), bm); belt.rotation.x = Math.PI / 2; belt.position.y = yb; belt.scale.set(bodyZ(yb) / 0.86 * 1.01, bodyZ(yb) * 1.01, 0.35); body.add(belt);
     const buckle = new THREE.Mesh(new THREE.BoxGeometry(0.06, 0.045, 0.01), det('#d8b44a')); buckle.position.set(0, yb, bodyZ(yb) * 1.02); body.add(buckle); }
@@ -139,7 +144,7 @@ export function stick(K, o, opts = {}) {
     if (o.apron) panel(o.apron, -0.02, BH - 0.22, 1.5);
     if (o.dress) { const sk = new THREE.Mesh(new THREE.CylinderGeometry(R * 1.02, R * 1.6, 0.32, 32, 1, true), det(o.dress)); sk.position.y = -0.1; body.add(sk); }
   }
-  if (o.scarf) { const sm = det(o.scarf); const sc2 = new THREE.Mesh(new THREE.TorusGeometry(0.12, 0.045, 10, 30), sm); sc2.rotation.x = Math.PI / 2; sc2.position.y = BH - 0.14; body.add(sc2); const tail2 = new THREE.Mesh(new THREE.BoxGeometry(0.07, 0.2, 0.03), sm); tail2.position.set(0.07, BH - 0.27, bodyZ(BH - 0.27) * 0.98); tail2.rotation.z = 0.15; body.add(tail2); }
+  if (o.scarf) { const sm = det(o.scarf); const sc2 = new THREE.Mesh(new THREE.TorusGeometry(0.12, 0.045, 10, 30), sm); sc2.rotation.x = Math.PI / 2; sc2.position.y = BH - 0.14; body.add(sc2); const tail2 = new THREE.Mesh(new THREE.BoxGeometry(0.07, 0.2, 0.03), sm); tail2.position.set(0.07, BH - 0.27, bodyZ(BH - 0.27) * 0.98); tail2.rotation.z = 0.15; body.add(tail2); jig.push([tail2, 'z', 0.25]); }
   if (o.badge) { const bd = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 0.012, 5), det(o.badge === true ? '#f2c230' : o.badge)); bd.rotation.x = Math.PI / 2; bd.position.set(-0.1, BH - 0.3, bodyZ(BH - 0.3) * 0.98); body.add(bd); }
   // limbs
   const unitCyl = new THREE.CylinderGeometry(1, 1, 1, 10, 1, true);
@@ -181,13 +186,19 @@ export function stick(K, o, opts = {}) {
       if (mode === 'crouch') hy -= 0.2;
       if (mode === 'jump') hy -= 0.06;
       if (mode === 'run') { hy -= 0.04 - 0.035 * Math.abs(Math.sin(ph)); fwd = 0.2; }
-      if (mode === 'march' || mode === 'stroll') hy += 0.012 * Math.cos(2 * ph);
+      const t = P.t ?? 0;
+      // walk: body dips on each contact (feet apart) and rises on the passing pose; leans into the walk; weight shifts over the planted foot
+      let sway = 0;
+      if (mode === 'march' || mode === 'stroll') { hy += (mode === 'march' ? 0.04 : 0.028) * (0.5 - Math.abs(Math.sin(ph))); fwd = mode === 'march' ? 0.07 : 0.045; sway = 0.022 * Math.cos(ph); }
+      if (mode === 'run') sway = 0.03 * Math.cos(ph);
+      if (mode === 'stand' || mode === 'crouch') hy += 0.006 * Math.sin(t * 2.3);   // breathing, so nobody is ever frozen
       if (mode === 'sit') hy = (pos.seat ?? 0.45) + 0.04;
       if (mode === 'crouch') fwd = 0.25;
-      body.position.y = hy; body.rotation.set(fwd, 0, -THREE.MathUtils.degToRad(P.tilt || 0));
+      body.position.y = hy; body.position.x = sway; body.rotation.set(fwd, 0, -THREE.MathUtils.degToRad(P.tilt || 0) - sway * 1.2);
       if (mode === 'fall') { body.rotation.x = -1.2; body.position.y = 0.3; }
       // head: eyes lead (face texture), head turns/tilts after
-      neck.rotation.set(-0.06 + (mode === 'run' ? -0.15 : 0) + (mode === 'march' || mode === 'stroll' || mode === 'run' ? 0.03 * Math.sin(2 * ph) : 0), (P.look || 0) * 0.5, -THREE.MathUtils.degToRad(P.headTilt || 0) * 0.8);
+      const wk = mode === 'march' || mode === 'stroll' || mode === 'run';
+      neck.rotation.set(-0.06 + (mode === 'run' ? -0.15 : 0) - (wk ? fwd * 0.6 : 0) + (wk ? 0.045 * Math.sin(2 * ph - 0.9) : 0.012 * Math.sin(t * 2.3 - 0.8)), (P.look || 0) * 0.5 - (wk ? 0.07 * Math.sin(ph) * (mode === 'run' ? 1.6 : 1) : 0), -THREE.MathUtils.degToRad(P.headTilt || 0) * 0.8);
       { const ft = faceTexture(o, P.expr || 'neutral', (P.look || 0) * 0.5, P.blink, opts.key || 'c'); if (skinMat.map !== ft) { skinMat.map = ft; skinMat.emissiveMap = ft; skinMat.needsUpdate = true; } }
       body.updateMatrixWorld(true);
       const toW = (v) => body.localToWorld(v.clone());
@@ -204,7 +215,7 @@ export function stick(K, o, opts = {}) {
         const zf = sp[3] === true ? 0.5 : near ? 0.62 : sp[3] === 'top' ? 0.6 : 0.16 + Math.max(0, -sp[1]) * 0.1;
         const holding = sp[2] && !['open', 'fist', 'point'].includes(sp[2]);
         let Tg = V(side * (R * 0.82 + sp[0] * HH * 0.9), BH - 0.2 - sp[1] * HH * 0.9, zf * HH);
-        if (swing && !holding && !P.item) { const c = Math.sin(ph + (side < 0 ? Math.PI : 0)); // opposite to the same-side leg
+        if (swing && !holding && !P.item) { const c = Math.sin(ph - 0.35 + (side < 0 ? Math.PI : 0)); // opposite to the same-side leg, lagging a touch (follow-through)
           Tg = mode === 'run' ? V(side * (R * 0.9 + 0.04), BH - 0.38 + 0.12 * Math.max(0, c), 0.3 * c + 0.05) : V(side * (R * 0.85 + 0.03), BH - 0.2 - 0.4 + 0.04 * Math.abs(c), swing * 0.45 * c); }
         if (Tg.x * side < 0.04) Tg.z = Math.max(Tg.z, R * 0.9 + 0.06);  // never through the body
         const [E, Hn] = ik2(S, Tg, UPPER, FORE, V(side, -0.7, -0.6));
@@ -241,6 +252,13 @@ export function stick(K, o, opts = {}) {
         place(l.up, hipW, Kn); place(l.lo, Kn, Ft); l.kn.position.copy(Kn); l.shoe.position.copy(Ft).add(V(0, -0.015, 0.05));
         l.shoe.rotation.set(walking ? -0.35 * Math.cos(ph + off) : 0, 0, 0);   // heel-toe roll
       }
+      // sweat: shown for nervous/scared faces (or sweat: true); each drop slides down the temple and restarts
+      const sw = P.sweat ?? (P.expr === 'nervous' || P.expr === 'scared');
+      for (const m of sweat) { m.visible = !!sw; if (!sw) continue; const u = (t * 0.7 + m.userData.d) % 1;
+        m.position.set(m.userData.sx * (0.215 - 0.02 * u), 0.33 - 0.2 * u, 0.1 + 0.03 * u); m.scale.set(0.8, 1.2 + 0.5 * u, 0.8).multiplyScalar(Math.min(1, u * 6) * (1 - Math.max(0, u - 0.85) * 6)); }
+      // loose parts swing behind the motion and settle
+      const bounce = (1 - (A.sy || 1)) * 4 + (A.dy || 0) * 0.8;
+      for (const [m, ax, amp, b0] of jig) m.rotation[ax] = b0 + amp * ((walking ? 0.7 * Math.sin(2 * ph - 1.4) : 0) + 0.25 * Math.sin(t * 2.6 + amp * 9) + bounce);
       return api;
     },
   };

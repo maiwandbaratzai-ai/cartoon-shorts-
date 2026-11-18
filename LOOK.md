@@ -48,6 +48,9 @@ Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side
 - **Every shot moves the camera** (Maiwand 2026-11-18): slow push-in `fov: 40 * K.push(u)` (100% → 112%), a pan following
   the action, or a tracking move. Add `K.shake(f, f0)` to the camera position only on impacts, creaks and collapses.
   Cut to close-ups (a foot, a face, a cable) and back to the wide.
+- **Tracking camera** (YouTube feedback 2026-11-18): every shot where someone walks, runs or chases uses
+  `K.track(f, (g) => posOf(g), { off: [x, y, z] })` so the camera eases along behind the subject and frames slightly
+  ahead of it. `posOf(g)` must return the subject's [x, y, z] at frame g (the same function used to place it).
 - **Layers / depth in every shot:** a foreground layer close to the camera (crowd heads, ropes, a sign, a post) that
   the depth of field blurs, the sharp subject in the middle, a detailed background, and effects (dust, clouds,
   smoke, rain, birds). Because our world is real 3D, the layers move at different speeds automatically when the camera moves.
@@ -146,6 +149,11 @@ Move them with `K.walkPath` like people. Pair every animal moment with its sound
 ## Faces match the narration (2026-11-17)
 Every line, set each character's `expr` to the feeling of what's being said, on the word: neutral, smile, grin, laugh,
 proud, excited, shock, scared, nervous, confused, sad, pained, angry, stern, yell, sleepy, relief, dazed, whistle, lick, talk.
+**Sweat** (YouTube feedback 2026-11-18): `expr: 'nervous'` or `'scared'` shows sweat drops sliding down the temples
+automatically; add `sweat: true` to any other key (a showman with a confident smile but sweating). Use it on whoever
+has the most at stake.
+**Reaction close-ups:** at least 2 per video — a crowd member's face (gasp face, hands on cheeks, pointing), or the
+main character sweating, cut in right after the big moment and right before it.
 Only the narrator is heard. If the narration quotes a character, you may add `talk: true` so their mouth moves, but no character voice is ever added.
 Listeners react with a different face from the speaker.
 

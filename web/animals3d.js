@@ -63,7 +63,7 @@ export function animal(K, type, opts = {}) {
     if (S.comb) add(new THREE.SphereGeometry(hr * 0.2, 10, 8), plain(S.comb), 0, -hr * 0.55, hr * 0.85, head);
   } else if (S.trunk) {
     const tr = new THREE.Group(); tr.position.set(0, -hr * 0.2, hr * 0.85); head.add(tr); let parent = tr;
-    for (let i = 0; i < 6; i++) { const seg = new THREE.Group(); seg.position.set(0, i ? -0.1 : 0, 0); parent.add(seg); add(new THREE.SphereGeometry(0.075 - i * 0.008, 14, 10), fur, 0, -0.05, 0, seg); seg.rotation.x = 0.18; parent = seg; }
+    for (let i = 0; i < 6; i++) { const seg = new THREE.Group(); seg.position.set(0, i ? -0.1 : 0, 0); parent.add(seg); add(new THREE.SphereGeometry(0.075 - i * 0.008, 14, 10), fur, 0, -0.05, 0, seg); seg.rotation.x = 0.18; seg.userData.trunk = i; parent = seg; }
     if (S.tusks) for (const sx of [-1, 1]) { const t = add(new THREE.ConeGeometry(0.025, 0.25, 10), plain('#f6f0dc', 0.3), sx * 0.12, -hr * 0.45, hr * 0.7, head); t.rotation.x = 2.2; }
   } else {
     const [sl, sr] = S.snout;
@@ -134,18 +134,22 @@ export function animal(K, type, opts = {}) {
       root.visible = st.visible !== false;
       root.position.set(st.x || 0, st.y || 0, st.z || 0); root.rotation.set(0, st.yaw || 0, 0);
       let by = bodyY, pitch = -(S.upright || 0), roll = 0;
-      if (mode === 'walk') by += 0.015 * Math.abs(Math.sin(ph));
+      // walk: 4-beat gait (each foot in turn) with the body dipping twice per cycle, rocking side to side over the
+      // planted feet and pitching gently — weight you can feel (YouTube feedback 2026-11-18: walks felt stiff)
+      if (mode === 'walk') { by += (S.bird ? 0.012 : 0.022) * (0.5 + 0.5 * Math.cos(ph * 2)); roll = (S.bird ? 0.06 : 0.035) * Math.sin(ph); pitch += 0.02 * Math.sin(ph * 2 + 0.6); }
       if (mode === 'run') { by += 0.05 * Math.abs(Math.sin(ph)); pitch += 0.12 * Math.sin(ph); }
       if (S.hop && (mode === 'walk' || mode === 'run' || mode === 'jump')) by += (mode === 'run' ? 0.2 : 0.1) * Math.max(0, Math.sin(ph * 0.5 + 0.0));
       if (mode === 'jump') by += 0.35 * Math.max(0, Math.sin(Math.PI * ((sec * 1.5) % 1)));
       if (mode === 'sit' || mode === 'beg') { pitch = -0.55 - (mode === 'beg' ? 0.5 : 0); by = bodyY * 0.8; }
       if (mode === 'sleep') { by = BHt * 0.42; roll = 0.0; }
       by += 0.006 * Math.sin(sec * 2.4); // breathing
-      body.position.set(0, by, 0); body.rotation.set(pitch, 0, roll);
+      body.position.set(0, by, 0); body.rotation.set(pitch, mode === 'walk' ? 0.03 * Math.sin(ph + 1) : 0, roll);
       // head: look, nod while walking, down to eat
       const look = st.look || 0;
-      neck.rotation.set((mode === 'eat' ? 0.9 : mode === 'sleep' ? 0.5 : 0) + (st.nod || 0) + (mode === 'walk' ? 0.06 * Math.sin(ph * 2) : 0) - pitch * 0.8 + 0.03 * Math.sin(sec * 1.3), look * 0.7, 0);
-      for (const c of head.children) if (c.userData.ear) c.rotation.x = 0.15 * Math.sin(sec * 3 + c.userData.ear) * (mode === 'run' ? 2 : 0.4);
+      neck.rotation.set((mode === 'eat' ? 0.9 : mode === 'sleep' ? 0.5 : 0) + (st.nod || 0) + (mode === 'walk' ? (S.bird ? 0.1 : 0.07) * Math.sin(ph * 2 - 0.9) : 0) - pitch * 0.8 + 0.03 * Math.sin(sec * 1.3), look * 0.7 + (mode === 'walk' ? 0.05 * Math.sin(ph - 0.5) : 0), -roll * 0.6);
+      for (const c of head.children) if (c.userData.ear) c.rotation.x = 0.15 * Math.sin(sec * 3 + c.userData.ear) * (mode === 'run' ? 2 : 0.4) + (mode === 'walk' ? 0.12 * Math.sin(ph * 2 - 1.6) : 0);
+      // trunk: swings with the steps, each segment a little later than the one before (follow-through)
+      head.traverse((g) => { if (g.userData.trunk !== undefined) { const i = g.userData.trunk; g.rotation.z = (mode === 'walk' || mode === 'run' ? 0.09 : 0.04) * Math.sin((mode === 'walk' || mode === 'run' ? ph : sec * 1.6) - i * 0.55); g.rotation.x = 0.18 + 0.03 * Math.sin(sec * 1.1 - i * 0.4); } });
       // eyes & expressions
       const ex = st.expr || 'neutral', blink = (Math.sin(sec * 1.7 + (opts.seed || 0)) > 0.985) || mode === 'sleep' || ex === 'sleepy';
       for (const e of eyes) {
@@ -156,7 +160,7 @@ export function animal(K, type, opts = {}) {
         e.brow.rotation.z = e.sx * (ex === 'angry' ? -0.45 : ex === 'sad' ? 0.45 : ex === 'shock' ? 0.15 : 0); e.brow.position.y = hr * (ex === 'shock' ? 0.45 : 0.33);
       }
       // tail wag
-      const wag = mode === 'wag' || st.wag ? 0.7 * Math.sin(sec * 18) : 0.25 * Math.sin(sec * 3) + (mode === 'run' ? 0.2 * Math.sin(ph) : 0);
+      const wag = mode === 'wag' || st.wag ? 0.7 * Math.sin(sec * 18) : 0.25 * Math.sin(sec * 3) + (mode === 'run' ? 0.2 * Math.sin(ph) : mode === 'walk' ? 0.25 * Math.sin(ph - 1.2) : 0);
       tail.rotation.y = wag;
       // tail base angle (+ = up) and curl per segment: dogs up, cats/monkeys curve up, horses/cows/elephants hang down
       const TB = { up: 0.55, curve: 0.2, long: type === 'cat' ? 0.35 : -0.55, tuft: -0.9, thin: -0.8, bushy: -0.15 }[S.tail] ?? 0;
@@ -169,9 +173,18 @@ export function animal(K, type, opts = {}) {
       for (const lg of legs) {
         const front = lg.fz > 0, hipL = V(lg.sx * BW * 0.32, -BHt * 0.15, lg.fz * BL * 0.32);
         const hipW = body.localToWorld(hipL.clone()); root.worldToLocal(hipW);
-        const off = S.bird ? (lg.sx > 0 ? 0 : Math.PI) : mode === 'run' ? (front ? 0 : Math.PI * 0.9) + (lg.sx > 0 ? 0.6 : 0) : ((lg.sx > 0) === front ? 0 : Math.PI);
+        const off = S.bird ? (lg.sx > 0 ? 0 : Math.PI) : mode === 'run' ? (front ? 0 : Math.PI * 0.9) + (lg.sx > 0 ? 0.6 : 0)
+          : mode === 'walk' ? (front ? Math.PI / 2 : 0) + (lg.sx > 0 ? Math.PI : 0)   // 4-beat walk: LH, LF, RH, RF
+          : ((lg.sx > 0) === front ? 0 : Math.PI);
         let F;
-        if (mode === 'walk' || mode === 'run') { const st2 = mode === 'run' ? 0.22 : 0.12, c = Math.sin(ph + off);
+        if (mode === 'walk' && !S.upright) {
+          // each foot stays planted ~70% of the cycle and slides back with the body, then lifts, swings forward and sets down
+          const u = (((ph + off) / (Math.PI * 2)) % 1 + 1) % 1, st2 = 0.13 * (lg.L / 0.4), STN = 0.7;
+          let z, y = 0.02;
+          if (u < STN) z = st2 * (1 - 2 * u / STN);
+          else { const w = (u - STN) / (1 - STN), e = w * w * (3 - 2 * w); z = -st2 + 2 * st2 * e; y += Math.sin(Math.PI * w) * 0.09 * (lg.L / 0.4); }
+          F = V(lg.sx * BW * 0.3, y, hipW.z + z);
+        } else if (mode === 'walk' || mode === 'run') { const st2 = mode === 'run' ? 0.22 : 0.12, c = Math.sin(ph + off);
           F = V(lg.sx * BW * 0.3, 0.02 + Math.max(0, Math.cos(ph + off)) * (mode === 'run' ? 0.14 : 0.07) * (lg.L / 0.4), hipW.z + st2 * c * (lg.L / 0.4)); }
         else if (mode === 'sit' || mode === 'beg') F = front ? V(lg.sx * BW * 0.25, mode === 'beg' ? hipW.y * 0.7 : 0.02, hipW.z + 0.05) : V(lg.sx * BW * 0.4, 0.02, hipW.z + 0.15);
         else if (mode === 'sleep') F = V(lg.sx * BW * 0.45, 0.03, hipW.z + (front ? 0.2 : -0.1));

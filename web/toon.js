@@ -2918,7 +2918,7 @@ export const act = (f, keys, base = {})=>{
         sx = 1 + (1 - sy) * 0.8;
     } else if (changed && since >= 0 && since < ANT) { sy = 1 - 0.05 * Math.sin(Math.PI * since / ANT); sx = 1 + 0.04 * Math.sin(Math.PI * since / ANT); }
     if (mode === "run") { const r = Math.abs(Math.sin(sec * Math.PI * 3.2)); dy += 0.06 * r; sy = 0.96 + 0.06 * r; sx = 2 - sy; }
-    return { opts: { ...base, blink: blinkNow, mode, expr, look, tilt, headTilt, arms, item: o0.item ?? P0.item ?? null, phase: mode === "run" ? (sec * 3.2) % 1 : mode === "march" || mode === "stroll" ? (sec * 1.6) % 1 : base.phase ?? 0 }, dy, sx, sy };
+    return { opts: { ...base, blink: blinkNow, mode, expr, look, tilt, headTilt, arms, item: o0.item ?? P0.item ?? null, t: sec, sweat: o0.sweat ?? P0.sweat, phase: mode === "run" ? (sec * 3.2) % 1 : mode === "march" || mode === "stroll" ? (sec * 1.6) % 1 : base.phase ?? 0 }, dy, sx, sy };
 };
 
 /** Draw a character's face (2D style) at (cx, cy) with width W — used for the 3D characters' face texture. */
