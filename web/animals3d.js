@@ -4,7 +4,7 @@
 //   dog.set(f, { x, z, yaw, mode: 'walk', look: 0.3, expr: 'happy' });   // frame()
 // types: dog, cat, pig, cow, horse, sheep, bear, fox, rabbit, monkey (baboon), chicken, duck, pigeon, elephant
 // modes: stand, walk, run, sit, jump, eat (head down), beg (sit up), sleep, wag (stand + fast tail)
-// expr: neutral, happy, shock, angry, sad, sleepy. Faces +z at yaw 0. Units: metres.
+// expr: neutral, happy, shock, angry, sad, sleepy. Extras: nod (head tilt down, radians), lift (0..1 raises the right front foot). Faces +z at yaw 0. Units: metres.
 import * as THREE from './lib/three.module.js';
 
 const V = (x = 0, y = 0, z = 0) => new THREE.Vector3(x, y, z);
@@ -144,7 +144,7 @@ export function animal(K, type, opts = {}) {
       body.position.set(0, by, 0); body.rotation.set(pitch, 0, roll);
       // head: look, nod while walking, down to eat
       const look = st.look || 0;
-      neck.rotation.set((mode === 'eat' ? 0.9 : mode === 'sleep' ? 0.5 : 0) + (mode === 'walk' ? 0.06 * Math.sin(ph * 2) : 0) - pitch * 0.8 + 0.03 * Math.sin(sec * 1.3), look * 0.7, 0);
+      neck.rotation.set((mode === 'eat' ? 0.9 : mode === 'sleep' ? 0.5 : 0) + (st.nod || 0) + (mode === 'walk' ? 0.06 * Math.sin(ph * 2) : 0) - pitch * 0.8 + 0.03 * Math.sin(sec * 1.3), look * 0.7, 0);
       for (const c of head.children) if (c.userData.ear) c.rotation.x = 0.15 * Math.sin(sec * 3 + c.userData.ear) * (mode === 'run' ? 2 : 0.4);
       // eyes & expressions
       const ex = st.expr || 'neutral', blink = (Math.sin(sec * 1.7 + (opts.seed || 0)) > 0.985) || mode === 'sleep' || ex === 'sleepy';
@@ -177,6 +177,7 @@ export function animal(K, type, opts = {}) {
         else if (mode === 'sleep') F = V(lg.sx * BW * 0.45, 0.03, hipW.z + (front ? 0.2 : -0.1));
         else if (mode === 'jump') F = V(lg.sx * BW * 0.3, hipW.y - lg.L * 0.6, hipW.z + (front ? 0.12 : -0.12));
         else F = V(lg.sx * BW * 0.3, 0.02, hipW.z + (front && S.upright ? 0.12 : 0));
+        if (st.lift && front && lg.sx > 0 && mode !== 'walk' && mode !== 'run') { F.y += st.lift * lg.L * 0.6; F.z += st.lift * lg.L * 0.3; } // lift the right front paw/foot
         const a = lg.L * 0.52, b = lg.L * 0.5;
         const [J, Ft] = ik2(hipW, F, a, b, front ? V(0, 0, -1) : V(0, 0.2, 1));
         place(lg.up, hipW, J); place(lg.lo, J, Ft); lg.joint.position.copy(J); lg.foot.position.copy(Ft);

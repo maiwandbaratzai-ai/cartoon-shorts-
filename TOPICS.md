@@ -34,6 +34,7 @@
 - 2026-11-17 Swamp rabbit attacks President Carter's fishing boat, Plains, Georgia, 1979 (30 s, Channel B, true)
 - 2026-11-17 BBC spaghetti-tree April Fools' hoax, Ticino, Switzerland, 1957 (30 s, Channel B, true)
 - 2026-11-17 Wojtek the soldier bear, Iran to Monte Cassino to Edinburgh, 1942–1963 (64 s, TikTok, story)
+- 2026-11-18 Barnum's 21 elephants test the Brooklyn Bridge, New York, 1884 (30 s, Channel A, story)
 
 ---
 Author: Maiwand
