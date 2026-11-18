@@ -1,0 +1,106 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} TINY VILLAGE
+Dialogue: 0,0:00:00.31,0:00:00.62,Cap,,0,0,0,,A {\c&H00E6FF&}TINY{\c&HFFFFFF&} VILLAGE
+Dialogue: 0,0:00:00.62,0:00:01.09,Cap,,0,0,0,,A TINY {\c&H00E6FF&}VILLAGE{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.09,0:00:01.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LOST{\c&HFFFFFF&} 117 SHOES
+Dialogue: 0,0:00:01.40,0:00:02.15,Cap,,0,0,0,,LOST {\c&H00E6FF&}117{\c&HFFFFFF&} SHOES
+Dialogue: 0,0:00:02.15,0:00:02.51,Cap,,0,0,0,,LOST 117 {\c&H00E6FF&}SHOES{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.51,0:00:02.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} ONE SUMMER.
+Dialogue: 0,0:00:02.71,0:00:02.96,Cap,,0,0,0,,IN {\c&H00E6FF&}ONE{\c&HFFFFFF&} SUMMER.
+Dialogue: 0,0:00:02.96,0:00:03.64,Cap,,0,0,0,,IN ONE {\c&H00E6FF&}SUMMER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.76,0:00:04.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} MORNING,
+Dialogue: 0,0:00:04.03,0:00:04.39,Cap,,0,0,0,,EVERY {\c&H00E6FF&}MORNING,{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.39,0:00:04.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ANOTHER{\c&HFFFFFF&} DOORSTEP HAD
+Dialogue: 0,0:00:04.75,0:00:05.16,Cap,,0,0,0,,ANOTHER {\c&H00E6FF&}DOORSTEP{\c&HFFFFFF&} HAD
+Dialogue: 0,0:00:05.16,0:00:05.35,Cap,,0,0,0,,ANOTHER DOORSTEP {\c&H00E6FF&}HAD{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.35,0:00:05.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} SHOE MISSING.
+Dialogue: 0,0:00:05.54,0:00:05.77,Cap,,0,0,0,,ONE {\c&H00E6FF&}SHOE{\c&HFFFFFF&} MISSING.
+Dialogue: 0,0:00:05.77,0:00:06.13,Cap,,0,0,0,,ONE SHOE {\c&H00E6FF&}MISSING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.13,0:00:06.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEVER{\c&HFFFFFF&} THE PAIR.
+Dialogue: 0,0:00:06.69,0:00:06.88,Cap,,0,0,0,,NEVER {\c&H00E6FF&}THE{\c&HFFFFFF&} PAIR.
+Dialogue: 0,0:00:06.88,0:00:07.38,Cap,,0,0,0,,NEVER THE {\c&H00E6FF&}PAIR.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.48,0:00:07.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE BAKER
+Dialogue: 0,0:00:07.60,0:00:07.77,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} BAKER
+Dialogue: 0,0:00:07.77,0:00:08.01,Cap,,0,0,0,,SO THE {\c&H00E6FF&}BAKER{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.01,0:00:08.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLAMED{\c&HFFFFFF&} THE MAILMAN,
+Dialogue: 0,0:00:08.28,0:00:08.45,Cap,,0,0,0,,BLAMED {\c&H00E6FF&}THE{\c&HFFFFFF&} MAILMAN,
+Dialogue: 0,0:00:08.45,0:00:08.76,Cap,,0,0,0,,BLAMED THE {\c&H00E6FF&}MAILMAN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.76,0:00:09.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THE MAILMAN
+Dialogue: 0,0:00:09.08,0:00:09.24,Cap,,0,0,0,,AND {\c&H00E6FF&}THE{\c&HFFFFFF&} MAILMAN
+Dialogue: 0,0:00:09.24,0:00:09.55,Cap,,0,0,0,,AND THE {\c&H00E6FF&}MAILMAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.55,0:00:09.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLAMED{\c&HFFFFFF&} THE BAKER.
+Dialogue: 0,0:00:09.83,0:00:10.00,Cap,,0,0,0,,BLAMED {\c&H00E6FF&}THE{\c&HFFFFFF&} BAKER.
+Dialogue: 0,0:00:10.00,0:00:10.67,Cap,,0,0,0,,BLAMED THE {\c&H00E6FF&}BAKER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.84,0:00:11.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UNTIL{\c&HFFFFFF&} ONE MAN
+Dialogue: 0,0:00:11.06,0:00:11.23,Cap,,0,0,0,,UNTIL {\c&H00E6FF&}ONE{\c&HFFFFFF&} MAN
+Dialogue: 0,0:00:11.23,0:00:11.40,Cap,,0,0,0,,UNTIL ONE {\c&H00E6FF&}MAN{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.40,0:00:11.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STAYED{\c&HFFFFFF&} UP ALL
+Dialogue: 0,0:00:11.68,0:00:11.80,Cap,,0,0,0,,STAYED {\c&H00E6FF&}UP{\c&HFFFFFF&} ALL
+Dialogue: 0,0:00:11.80,0:00:12.05,Cap,,0,0,0,,STAYED UP {\c&H00E6FF&}ALL{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.05,0:00:12.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NIGHT{\c&HFFFFFF&} WITH A
+Dialogue: 0,0:00:12.29,0:00:12.49,Cap,,0,0,0,,NIGHT {\c&H00E6FF&}WITH{\c&HFFFFFF&} A
+Dialogue: 0,0:00:12.49,0:00:12.69,Cap,,0,0,0,,NIGHT WITH {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.69,0:00:13.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FLASHLIGHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.56,0:00:13.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AT{\c&HFFFFFF&} 3 A.M.,
+Dialogue: 0,0:00:13.69,0:00:13.88,Cap,,0,0,0,,AT {\c&H00E6FF&}3{\c&HFFFFFF&} A.M.,
+Dialogue: 0,0:00:13.88,0:00:14.01,Cap,,0,0,0,,AT 3 {\c&H00E6FF&}A.M.,{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.01,0:00:14.38,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOMETHING{\c&HFFFFFF&} SMALL TIPTOED
+Dialogue: 0,0:00:14.38,0:00:14.61,Cap,,0,0,0,,{\fs107}SOMETHING {\c&H00E6FF&}SMALL{\c&HFFFFFF&} TIPTOED
+Dialogue: 0,0:00:14.61,0:00:14.97,Cap,,0,0,0,,{\fs107}SOMETHING SMALL {\c&H00E6FF&}TIPTOED{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.97,0:00:15.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONTO{\c&HFFFFFF&} HIS PORCH.
+Dialogue: 0,0:00:15.18,0:00:15.32,Cap,,0,0,0,,ONTO {\c&H00E6FF&}HIS{\c&HFFFFFF&} PORCH.
+Dialogue: 0,0:00:15.32,0:00:15.97,Cap,,0,0,0,,ONTO HIS {\c&H00E6FF&}PORCH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.13,0:00:16.31,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} IT GRABBED
+Dialogue: 0,0:00:16.31,0:00:16.43,Cap,,0,0,0,,THEN {\c&H00E6FF&}IT{\c&HFFFFFF&} GRABBED
+Dialogue: 0,0:00:16.43,0:00:16.71,Cap,,0,0,0,,THEN IT {\c&H00E6FF&}GRABBED{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.71,0:00:16.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} SLIPPER AND
+Dialogue: 0,0:00:16.87,0:00:17.15,Cap,,0,0,0,,HIS {\c&H00E6FF&}SLIPPER{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:17.15,0:00:17.30,Cap,,0,0,0,,HIS SLIPPER {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.30,0:00:17.72,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RAN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.80,0:00:17.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} CHASED IT
+Dialogue: 0,0:00:17.92,0:00:18.17,Cap,,0,0,0,,HE {\c&H00E6FF&}CHASED{\c&HFFFFFF&} IT
+Dialogue: 0,0:00:18.17,0:00:18.29,Cap,,0,0,0,,HE CHASED {\c&H00E6FF&}IT{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.29,0:00:18.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}INTO{\c&HFFFFFF&} THE WOODS.
+Dialogue: 0,0:00:18.48,0:00:18.64,Cap,,0,0,0,,INTO {\c&H00E6FF&}THE{\c&HFFFFFF&} WOODS.
+Dialogue: 0,0:00:18.64,0:00:18.86,Cap,,0,0,0,,INTO THE {\c&H00E6FF&}WOODS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.86,0:00:19.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} WHAT DID
+Dialogue: 0,0:00:19.11,0:00:19.36,Cap,,0,0,0,,AND {\c&H00E6FF&}WHAT{\c&HFFFFFF&} DID
+Dialogue: 0,0:00:19.36,0:00:19.61,Cap,,0,0,0,,AND WHAT {\c&H00E6FF&}DID{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.61,0:00:19.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} FIND?
+Dialogue: 0,0:00:19.73,0:00:20.18,Cap,,0,0,0,,HE {\c&H00E6FF&}FIND?{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.82,0:00:21.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} FOX,
+Dialogue: 0,0:00:21.00,0:00:21.32,Cap,,0,0,0,,A {\c&H00E6FF&}FOX,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.32,0:00:21.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FAST{\c&HFFFFFF&} ASLEEP ON
+Dialogue: 0,0:00:21.52,0:00:21.82,Cap,,0,0,0,,FAST {\c&H00E6FF&}ASLEEP{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:21.82,0:00:21.95,Cap,,0,0,0,,FAST ASLEEP {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.95,0:00:22.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} MOUNTAIN OF
+Dialogue: 0,0:00:22.05,0:00:22.43,Cap,,0,0,0,,A {\c&H00E6FF&}MOUNTAIN{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:22.43,0:00:22.55,Cap,,0,0,0,,A MOUNTAIN {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.55,0:00:23.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SHOES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.19,0:00:23.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} EVERY SINGLE
+Dialogue: 0,0:00:23.35,0:00:23.60,Cap,,0,0,0,,AND {\c&H00E6FF&}EVERY{\c&HFFFFFF&} SINGLE
+Dialogue: 0,0:00:23.60,0:00:23.88,Cap,,0,0,0,,AND EVERY {\c&H00E6FF&}SINGLE{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.88,0:00:24.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} WAS A
+Dialogue: 0,0:00:24.04,0:00:24.21,Cap,,0,0,0,,ONE {\c&H00E6FF&}WAS{\c&HFFFFFF&} A
+Dialogue: 0,0:00:24.21,0:00:24.30,Cap,,0,0,0,,ONE WAS {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.30,0:00:24.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LEFT{\c&HFFFFFF&} SHOE.
+Dialogue: 0,0:00:24.59,0:00:25.06,Cap,,0,0,0,,LEFT {\c&H00E6FF&}SHOE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.14,0:00:25.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THAT'S{\c&HFFFFFF&} HOW A
+Dialogue: 0,0:00:25.48,0:00:25.72,Cap,,0,0,0,,THAT'S {\c&H00E6FF&}HOW{\c&HFFFFFF&} A
+Dialogue: 0,0:00:25.72,0:00:25.85,Cap,,0,0,0,,THAT'S HOW {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.85,0:00:26.14,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TINY{\c&HFFFFFF&} VILLAGE LOST
+Dialogue: 0,0:00:26.14,0:00:26.59,Cap,,0,0,0,,TINY {\c&H00E6FF&}VILLAGE{\c&HFFFFFF&} LOST
+Dialogue: 0,0:00:26.59,0:00:26.88,Cap,,0,0,0,,TINY VILLAGE {\c&H00E6FF&}LOST{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.88,0:00:27.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}117{\c&HFFFFFF&} SHOES.
+Dialogue: 0,0:00:27.60,0:00:28.21,Cap,,0,0,0,,117 {\c&H00E6FF&}SHOES.{\c&HFFFFFF&}
