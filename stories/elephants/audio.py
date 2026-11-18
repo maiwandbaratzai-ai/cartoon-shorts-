@@ -27,7 +27,7 @@ place(sfx, swish(), LS(4) - 0.15, 0.5); place(sfx, hum(2.6), WS(4, 'cables') - 0
 # riverbank crowd
 place(sfx, swish(), LS(5) - 0.15, 0.5); place(sfx, crowd(1.6, 'gasp'), WS(5, 'thousands'), 0.3); place(sfx, gasp(), WS(5, 'froze'), 0.5); place(sfx, sting(), WS(5, 'hold') + 0.1, 0.3)
 # the stop, the foot, the stomp
-place(sfx, scratch(), LS(6) - 0.75, 0.35) - 0.62, 'am_adam', 1.2, 0.8, 1.05)
+place(sfx, scratch(), LS(6) - 0.75, 0.35)
 place(sfx, swish(), LS(6) - 0.15, 0.4); place(sfx, thunk(70, 0.3), WS(6, 'stopped'), 0.5); place(sfx, bloop(180), WS(6, 'looked'), 0.4); place(sfx, slide(True, 0.7), WS(6, 'lifted'), 0.45)
 place(sfx, thunk(45, 0.7), WS(7, 'stomped'), 1.0); place(sfx, rumble(0.9), WS(7, 'stomped'), 0.5); place(sfx, crash(0.6), WS(7, 'stomped') + 0.02, 0.15); place(sfx, ting(), WS(7, 'nothing') + 0.25, 0.4)
 # passed + free ads
