@@ -72,7 +72,7 @@ export default {
     if (sh(0, 45)) {            // 1. strange action: an elephant's foot on a brand-new bridge (push-in)
       cam = { pos: [lead + 1.4, 0.45 + sag, 1.7], look: [lead + 0.35, 0.35 + sag, 0.1], fov: 38 * K.push(u, 0.12) }; dof = { focus: 1.8, cinf: 16 };
     } else if (sh(45, L[1][0] - 4)) { // 2. wide: the whole line of elephants, pan with them
-      const tc = K.track(f, (g) => [-4.6 - 2.7 + (g / 30) * 0.75, 0, 0], { off: [2.2, 2.6, 10.5], lag: 8, lookY: 1.2 }); // camera follows the herd
+      const tc = K.track(f, (g) => [-4.6 + (g / 30) * 0.75, 0, 0], { off: [3.8, 2.8, 11], lag: 8, lookY: 1.0 }); // camera follows the herd
       cam = { pos: tc.pos, look: tc.look, fov: 44 }; dof = { focus: 11, cinf: 4 };
     } else if (sh(L[1][0] - 4, L[2][0] - 2)) { // 3. crowd screaming, over a blurred rope in the foreground
       cam = { pos: [-6.6, 1.45, 4.6], look: [-8.6, 1.35, 3.0], fov: 40 * K.push(u, 0.1) }; dof = { focus: 2.6, cinf: 12 };
