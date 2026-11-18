@@ -47,9 +47,9 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
 - **Open a loop in line 1–2** that only the ending closes: the viewer must want to know *how bad it got* or *why*.
 - **Escalate every line.** Each line adds a new fact, image, or stake. Cut any line that only explains.
 - **Short sentences, active verbs, concrete numbers.** ~165–180 words per minute (the voice runs ~1.1–1.2×).
-- **Length rule (Maiwand, 2026-11-12): a video may run longer than its target (30 s / 64 s) but never shorter.**
+- **Length rule (Maiwand, 2026-11-12): a video may run longer than its target (45 s / 64 s) but never shorter.**
   voice.py keeps the natural pace, slows slightly or pads the ending if short, and never speeds up to squeeze.
-  Most viral Shorts in public data sit around 16–45 s. 30-second scripts: 75–90 words. The daily
+  Most viral Shorts in public data sit around 16–45 s. 45-second scripts: 118–136 words (30-second scripts were 75–90). The daily
   long video is **64 s for TikTok** (see §9): 155–175 words, a story with enough events to fill it. Never pad the script.
 - **Last line = the twist or button, and it should loop:** write it so that it flows back into line 1 when the
   video restarts (e.g. end "…and that's why Oregon never did it again." → loop restarts on "In 1970, Oregon…"), or
@@ -130,8 +130,9 @@ Record what worked in the "Lessons" section below and adjust these rules.
 
 ## 9. Where each video goes (Maiwand's setup, 2026-11-11)
 
-Every day: **four 30-second Shorts + one 64-second video.**
-- **YouTube channel A:** two of the 30-second Shorts. **YouTube channel B:** the other two. Give the two channels
+Every day: **four 45-second Shorts + one 64-second video.** (Shorts changed from 30 s to 45 s on 2026-11-18, Maiwand's call
+after studying Ricks Clips, whose Shorts run 55–65 s; 45 s keeps the overnight run finishing before 11 AM.)
+- **YouTube channel A:** two of the 45-second Shorts. **YouTube channel B:** the other two. Give the two channels
   different-feeling topics where possible, and never post the same video on both channels (duplicates across
   channels look like mass-produced reuploads).
 - **TikTok:** the 64-second video. TikTok's Creator Rewards Program only pays for original videos **longer than one

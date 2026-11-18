@@ -27,12 +27,13 @@ for i in range(len(lines)):
     lines[i] = _re.sub(r'\[(hype|slow|beat)\]\s*', '', lines[i]).strip(); say[i] = _re.sub(r'\[(hype|slow|beat)\]\s*', '', say[i]).strip()
     TAGS.append(tg)
 # SCRIPTS.md lint (full report) + VIRAL.md §3 checks (warnings only)
-import subprocess as _sp; _sp.run([sys.executable, os.path.join(KIT, 'tools', 'script_check.py'), sd, str(int(target or 30))])
+import subprocess as _sp; _sp.run([sys.executable, os.path.join(KIT, 'tools', 'script_check.py'), sd, str(int(target or 45))])
 _nw = sum(len(l.split()) for l in lines)
 if len(lines[0].split()) > 12: print(f'WARN hook line has {len(lines[0].split())} words (VIRAL.md: <= 12)')
 if lines[0].lower().startswith(('did you know', 'in this video', 'let me', 'have you ever')): print('WARN hook starts with throat-clearing')
 if target and target <= 35 and not 70 <= _nw <= 95: print(f'WARN {_nw} words for a {target}s short (aim 75-90)')
-if target and target >= 50 and not 150 <= _nw <= 185: print(f'WARN {_nw} words for a {target}s video (aim 155-175 for 64 s)')
+if target and 40 <= target < 55 and not 112 <= _nw <= 140: print(f'WARN {_nw} words for a {target}s short (aim 118-136)')
+if target and target >= 55 and not 150 <= _nw <= 185: print(f'WARN {_nw} words for a {target}s video (aim 155-175 for 64 s)')
 k = Kokoro(f'{MODEL}/kokoro-v1.0.onnx', f'{MODEL}/voices-v1.0.bin')
 
 def synth(speed):

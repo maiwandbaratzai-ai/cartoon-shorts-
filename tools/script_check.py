@@ -1,12 +1,12 @@
 # Author: Maiwand (github.com/maiwandbaratzai-ai) — cartoon-shorts
 """Lint a narration script against SCRIPTS.md before voicing it.
 
-usage: python3 tools/script_check.py stories/<slug> [30|64]
+usage: python3 tools/script_check.py stories/<slug> [45|64]  (YouTube Shorts are 45 s since 2026-11-18)
 Prints FAIL (must fix) and WARN (fix unless there's a reason) lines, then a summary. Exit code 1 on any FAIL.
 """
 import sys, re
 
-sd = sys.argv[1].rstrip('/'); target = int(sys.argv[2]) if len(sys.argv) > 2 else 30
+sd = sys.argv[1].rstrip('/'); target = int(sys.argv[2]) if len(sys.argv) > 2 else 45
 import re as _re
 lines = [_re.sub(r'\[(hype|slow|beat)\]\s*', '', l.strip()) for l in open(f'{sd}/script.txt') if l.strip()]
 words = lambda s: re.findall(r"[A-Za-z0-9$'%,.-]+", s)
@@ -25,7 +25,7 @@ if len(lines) > 1 and re.match(r'(?i)(it (all )?(started|began)|on |in the |back
 
 # length
 total = sum(len(words(l)) for l in lines)
-lo, hi = (75, 92) if target <= 35 else (155, 178)
+lo, hi = (75, 92) if target <= 35 else (118, 136) if target <= 50 else (155, 178)
 if total < lo: (F if total < lo - 8 else Wn)(f'{total} words for {target}s: too short, the video must not come in under {target}s (aim {lo}-{hi})')
 elif total > hi + (25 if target <= 35 else 40): Wn(f'{total} words: longer than {target}s is allowed, but cut anything that drags')
 

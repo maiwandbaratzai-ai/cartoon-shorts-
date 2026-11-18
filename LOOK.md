@@ -60,7 +60,7 @@ Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side
 - Lots of close-ups on the key object (the gold, the fuse, the bridge cable).
 - Rich worlds around the characters: weather, crowds, smoke, light, background people doing things.
 
-- **Cut or move every 1.5–3 s.** A 30 s video has 12+ shots; a 64 s video has 25+. The middle explanation (lines 3–6)
+- **Cut or move every 1.5–3 s.** A 45 s video has 15+ shots; a 64 s video has 20+. The middle explanation (lines 3–6)
   needs it most: new angle per line (low angle, over-the-shoulder, top-down, insert), never one long held shot.
 - **At least half the shots are close-ups:** the character's head and body fill 60–80% of the frame height
   (camera 2–4 m away, fov 30–40). Wide shots only open a new place.
@@ -165,4 +165,4 @@ Look at `tools/stills.sh` sheets and ask:
 - Is anything blown out (pure white or orange)? If so, lower `exposure` or the lamp `intensity`.
 - Is anything too dark to read? Raise `hemi` or add a lamp near the subject.
 
-Render speed: about 3 s per frame outdoors and 4–5 s indoors with lamps (2 processes). A 30 s video takes about 35–45 minutes.
+Render speed: about 3 s per frame outdoors and 4–5 s indoors with lamps (2 processes). A 45 s video takes about 55–75 minutes.

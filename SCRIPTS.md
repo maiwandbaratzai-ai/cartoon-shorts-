@@ -19,7 +19,7 @@ picture can only be as gripping as the words it illustrates.
 
 ## 1. The shape of every video
 
-| Time (30 s / 64 s) | Job | What the viewer feels |
+| Time (30 s / 64 s; a 45 s Short sits between) | Job | What the viewer feels |
 | --- | --- | --- |
 | 0–3 s | **Hook**: the strangest claim, concrete and short | "Wait, what?" |
 | 3–8 s | **Line 2 = a second surprise you can SEE** (never background/context) — this is where our viewers drop | "Wait, it gets weirder" |
@@ -82,7 +82,7 @@ Attention dips in the middle. Put one line there that restarts it, then deliver:
 - "Here's the part nobody saw coming."
 - "But the real problem was still on board."
 - A direct question: "So where did all that water go?"
-Use at most one per 30 s video, two per 64 s video. It must be followed by something genuinely surprising.
+Use at most one per 45 s video, two per 64 s video. It must be followed by something genuinely surprising.
 
 ## 5. Payoff, kicker, loop
 
@@ -134,7 +134,7 @@ Test: a 12-year-old would find nothing boring; nobody could be fooled into belie
 
 1. Research: collect 10–15 facts or story ideas (for a "story" video, also brainstorm the funniest made-up twists); star the 3 most surprising.
 2. Write 5 hooks (§2); pick the most specific and strange.
-3. Beat sheet: hook → setup → 3–4 turns (30 s) or 6–8 turns (64 s) → re-hook → payoff → kicker/loop.
+3. Beat sheet: hook → setup → 4–6 turns (45 s) or 6–8 turns (64 s) → re-hook → payoff → kicker/loop.
 4. Draft the script, one beat per line.
 5. Run `python3 tools/script_check.py stories/<slug> 30|64` and fix every FAIL; fix WARNs unless there's a reason.
 6. Read it aloud in your head at speed: any line that drags or explains gets cut or merged. Cut ~15%.

@@ -1,6 +1,6 @@
 # Daily cartoon shorts — playbook
 
-Five vertical (1080×1920) cartoon explainer shorts a day: **four × 30 s (two per YouTube channel), one × 64 s for TikTok**, each a surprising (true, or fictional and inspired by real events: SCRIPTS.md §6b),
+Five vertical (1080×1920) cartoon explainer shorts a day: **four × 45 s (two per YouTube channel), one × 64 s for TikTok**, each a surprising (true, or fictional and inspired by real events: SCRIPTS.md §6b),
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a textured, lit 3D world (LOOK.md),
 natural AI narration (Kokoro `am_puck`, the playful male voice Maiwand chose), word-by-word captions, original synthesized music + SFX.
 
@@ -11,13 +11,13 @@ safety) and the pre-render checklist. Its rules override anything below when the
 1. **Pick the topic** with the VIRAL.md §2 scorecard (7+/10). Check `TOPICS.md` so nothing repeats. Prefer one clear,
    visual event with a twist ending, and a different setting from the last few days. For a "true" video, check the facts with 2–3 web searches; for a "story" video, research the real event for inspiration, then make it as fun as you like.
 2. **Script** — follow the SCRIPTS.md process (5 hooks, beat sheet, `tools/script_check.py` must pass, rubric ≥ 24/30, storytelling rule §6b: entertainment first; fiction is fine but never labelled as true). `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
-   shocking concrete claim). Last line is the twist and should loop back into line 1. 75–90 words for 30 s,
+   shocking concrete claim). Last line is the twist and should loop back into line 1. 118–136 words for 45 s,
    140–165 for 60 s (VIRAL.md §3).
    `say.txt` (optional, same lines): phonetic versions (years as words: "nineteen nineteen", odd names).
 3. **Voice + timing:** `python3 tools/voice.py stories/<slug> <30|64>` → voice.wav, timing.json, subs.ass,
    `web/s/<slug>_timing.js` (LINES = [start,end] frames per line, `wf(line, 'word')` = frame of a word).
    The auto speed fit can oscillate; if the length or hook comes out wrong, pin it: `VOICE_SPEED=1.3 python3 tools/voice.py ...`
-   (1.25–1.35 for 30 s, ~1.1 for 64 s). Long caption chunks are shrunk to fit by `tools/fitsubs.py` (run automatically).
+   (~1.2 for 45 s, ~1.1 for 64 s). Long caption chunks are shrunk to fit by `tools/fitsubs.py` (run automatically).
    Vertical frames are narrow (±12° horizontally): put the subject on the camera's look line, or it will be off-frame.
 4. **Scene:** `web/s/<slug>.js` — follow LOOK.md (textured materials via `K.mat(kind, color)`, lamps, busy sets,
    close-ups, prop inserts, a cut every 1.5–3 s). Copy patterns from `web/s/lookdev.js` (interior/lantern/inserts) and the closest
@@ -35,7 +35,7 @@ safety) and the pre-render checklist. Its rules override anything below when the
 6. **Sound:** `stories/<slug>/audio.py` (copy one): music beds via `bed(t0, t1, style)` (quirky, march, dark, sad,
    tension), SFX library (boom, mgun, crash, splat, crowd, gull, squawk, engine, pop, gloop, roar, water, …) placed
    on line/word times `LS(i)`, `WS(i,'word')`. `python3 stories/<slug>/audio.py` → mix_raw.wav (voice-led, ducked).
-7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3 s/frame/process outdoors, 4–5 s indoors with lamps → a 30 s short ≈ 35–45 min).
+7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3 s/frame/process outdoors, 4–5 s indoors with lamps → a 45 s short ≈ 55–75 min).
    Render the three stories one after another, not in parallel.
 7b. **Opening graphic:** `python3 tools/hookcard.py stories/<slug> "BIG CLAIM|2-5 WORDS" "<badge>"` (LOOK.md); finish.sh overlays it on 0–1.6 s.
 8. **Finish:** `tools/finish.sh <slug> "Title"` → `stories/<slug>/out/<Title>.mp4` (−14 LUFS, burned captions, QA).
