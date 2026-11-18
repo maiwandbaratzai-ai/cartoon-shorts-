@@ -7,6 +7,7 @@ for l in open(p):
     if l.startswith('Dialogue:'):
         l = re.sub(r'\{\\fs\d+\}', '', l)
         txt = re.sub(r'\{[^}]*\}', '', l.split(',,0,0,0,,', 1)[1]).strip(); n = len(txt)
-        if n > MAXC: l = l.replace(',,0,0,0,,', ',,0,0,0,,{\\fs%d}' % int(112 * MAXC / n), 1)
+        size, mx = (168, 13) if ',Key,' in l else (116, 21)
+        if n > mx: l = l.replace(',,0,0,0,,', ',,0,0,0,,{\\fs%d}' % int(size * mx / n), 1)
     out.append(l)
 open(p, 'w').writelines(out)

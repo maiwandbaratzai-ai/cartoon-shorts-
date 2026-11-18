@@ -4,6 +4,19 @@ Author: Maiwand. Every daily run reads this before writing a script, follows the
 `python3 tools/script_check.py stories/<slug>` until it passes. A script is the biggest lever on retention: the
 picture can only be as gripping as the words it illustrates.
 
+
+## 0. The Ricks Clips structure (studied 2026-11-18: 10 of his videos, 3–35M views each). Use it for every script.
+1. **Frame 1 + line 1 = a strange ACTION and a paradox**, no intro, no title card, no "In 1884...":
+   a man loading a shotgun with gold; a bomb rolling into camp that won't go off; an elephant's foot on a swaying bridge.
+   The first line creates a QUESTION ("Why would anyone shoot gold into a mine?"), not a fact.
+2. **People mock him / things get worse** (escalation 1).
+3. **Things get worse AGAIN** (escalation 2), e.g. the experts say it will fail, then the bridge actually sags.
+4. **The explanation is held back until ~75%** of the video. Never explain the paradox early.
+5. **Big visual payoff**, then the last line **flows straight back into line 1** so the video restarts and people
+   rewatch. No subscribe ask, no "the end", no stamps or end cards.
+**Titles:** "Why / How / This..." + the paradox the video only explains at the end:
+"Why 21 Elephants Had to Cross That Bridge" beats "21 Elephants vs. One Bridge".
+
 ## 1. The shape of every video
 
 | Time (30 s / 64 s) | Job | What the viewer feels |

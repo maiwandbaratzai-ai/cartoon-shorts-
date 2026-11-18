@@ -92,7 +92,8 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
   Put them in gaps between narration lines, 1–3 per video. Gasps with `gasp()`.
 - **Animal sounds:** `bark() meow() moo() oink() baa() quack() cluck() roar() neigh() monkey() trumpet() squeak() tweet()`.
   Every animal on screen makes its sound at least once.
-- Music now ducks more under the narration automatically (mixdown).
+- Music now ducks more under the narration automatically (mixdown). Let the music build tension during the
+  escalations (switch to the 'tension' bed, raise it), and drop to near silence for ~0.4 s right before the payoff.
 - **Voice drama** (tools/voice.py tags at the start of a script line): `[hype]` = faster and louder for the chaos/action
   line, `[slow]` = slower for the punchline or kicker, `[beat]` = a short pause before the twist. Use 1–3 per video.
 
@@ -210,6 +211,17 @@ Every day: **four 30-second Shorts + one 64-second video.**
   hint at the stakes in the first line or two ("...would the baboon keep his job?"), a micro-pause ([beat]) before the
   reveal, quick camera punch-ins on dramatic beats, music ducked more under fast narration, and character
   soundbites/animal vocalizations for personality. All are in the kit now.
+
+- 2026-11-18 (Maiwand's study of 10 Ricks Clips Shorts, 194K subs, 472M views): his top videos hit 16–35M views while his
+  newest got 195K with the same quality, so **the topic and title decide the ceiling and craft decides the floor.** His
+  system: 55–65 s; frame 1 is a strange action + paradox line; mockery → escalation → escalation → explanation at ~75% →
+  visual payoff → loop to line 1; characters always doing something; a new shot every 3–5 s (12–20 per video), never
+  reused; captions in big bold WHITE with a thick black outline, 1–3 words, key words alone and bigger; an acted voice
+  with no dead air and character voices; low music that rises in tension, SFX on key moments; titles "Why/How/This" +
+  paradox. Our gaps on the elephant video: the hook lived in the title instead of frame 1, shots were reused, the
+  voice felt flat, and the "Elephant Approved" stamp ended the video instead of looping it. Captions are now white
+  (tools/voice.py; key words in stories/<slug>/keys.txt + any number pop big), pauses are tighter, and SCRIPTS.md §0 has
+  the structure.
 
 ## Sources consulted
 - OutlierKit, "How the YouTube Shorts Algorithm Works in 2026, in YouTube's Words": outlierkit.com/resources/youtube-shorts-algorithm/

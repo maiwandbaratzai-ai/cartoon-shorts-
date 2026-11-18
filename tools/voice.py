@@ -44,7 +44,7 @@ def synth(speed):
         out.append(a * (1.3 if 'hype' in tg else 1.0))
     return out
 LEAD, TAIL = 0.12, 1.3
-gap = lambda l: 0.42 if l.endswith('?') else 0.3 if l.endswith(('.', '!')) else 0.18
+gap = lambda l: 0.3 if l.endswith('?') else 0.2 if l.endswith(('.', '!')) else 0.12   # tight: no dead air (Ricks-style pacing)
 def total(clips): return LEAD + sum(len(c) / SR for c in clips) + sum(gap(l) for l in lines[:-1]) + sum(0.35 for tg in TAGS if 'beat' in tg) + TAIL
 speed = float(os.environ.get('VOICE_SPEED', 1.2)); clips = synth(speed)
 if target and not os.environ.get('VOICE_SPEED'):  # VOICE_SPEED=1.25 pins the speed (the auto-fit can oscillate)
@@ -100,9 +100,16 @@ with open(f'{KIT}/web/s/{name}_timing.js', 'w') as f:
     f.write('/** frame where word number n (0-based, counting through the whole script) starts */\nexport const W = (n) => WORDS[n][1];\n')
     f.write('/** frame of the first word in line li whose text starts with str */\nexport const wf = (li, str) => { const w = WORDS.find((x) => x[2] === li && x[0].toLowerCase().replace(/[^a-z0-9]/g, "").startsWith(str.toLowerCase())); if (!w) throw new Error("no word " + str); return w[1]; };\n')
 
-# ---- captions: 1-3 words, current word yellow, pop-in
+# ---- captions (Ricks style, 2026-11-18): bold WHITE text, thick black outline, 1-3 words at a time, lower centre.
+# Key words pop alone and bigger: any word with a digit, plus words listed in stories/<slug>/keys.txt (one per line).
+KEYS = set()
+if os.path.exists(f'{sd}/keys.txt'): KEYS = {k.strip().lower() for k in open(f'{sd}/keys.txt') if k.strip()}
+isKey = lambda w: bool(re.search(r'\d', w)) or re.sub(r'[^a-z0-9]', '', w.lower()) in KEYS
 chunks, cur = [], []
 for w in words:
+    if isKey(w['w']):
+        if cur: chunks.append(cur)
+        chunks.append([w]); cur = []; continue
     if cur and (w['line'] != cur[-1]['line'] or len(cur) == 3): chunks.append(cur); cur = []
     cur.append(w)
     if re.search(r'[.,?!:;]$', w['w']): chunks.append(cur); cur = []
@@ -116,7 +123,8 @@ WrapStyle: 2
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -125,12 +133,12 @@ ev = []
 for ci, ch in enumerate(chunks):
     end = ch[-1]['e'] + 0.25
     if ci + 1 < len(chunks): end = min(max(end, ch[-1]['e']), chunks[ci + 1][0]['s'])
-    for j, w in enumerate(ch):
-        a = w['s']; b = ch[j + 1]['s'] if j + 1 < len(ch) else end
-        if b <= a: continue
-        txt = ' '.join(('{\\c&H00E6FF&}' + x['w'].upper() + '{\\c&HFFFFFF&}') if m == j else x['w'].upper() for m, x in enumerate(ch))
-        pop = '{\\fscx80\\fscy80\\t(0,90,\\fscx100\\fscy100)}' if j == 0 else ''
-        ev.append(f'Dialogue: 0,{ts(a)},{ts(b)},Cap,,0,0,0,,{pop}{txt}')
+    a = ch[0]['s']
+    if end <= a: continue
+    key = len(ch) == 1 and isKey(ch[0]['w'])
+    txt = ' '.join(x['w'].upper() for x in ch)
+    pop = '{\\fscx70\\fscy70\\t(0,110,\\fscx112\\fscy112)\\t(110,190,\\fscx100\\fscy100)}' if key else '{\\fscx86\\fscy86\\t(0,80,\\fscx100\\fscy100)}'
+    ev.append(f'Dialogue: 0,{ts(a)},{ts(end)},{"Key" if key else "Cap"},,0,0,0,,{pop}{txt}')
 open(f'{sd}/subs.ass', 'w').write(head + '\n'.join(ev) + '\n')
 subprocess.run([sys.executable, os.path.join(KIT, 'tools', 'fitsubs.py'), f'{sd}/subs.ass'])
 print(f'{frames} frames, {len(lines)} lines, {len(words)} words')
