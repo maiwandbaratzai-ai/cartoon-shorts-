@@ -1,0 +1,112 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOMEONE{\c&HFFFFFF&} STOLE 18
+Dialogue: 0,0:00:00.50,0:00:00.79,Cap,,0,0,0,,SOMEONE {\c&H00E6FF&}STOLE{\c&HFFFFFF&} 18
+Dialogue: 0,0:00:00.79,0:00:01.21,Cap,,0,0,0,,SOMEONE STOLE {\c&H00E6FF&}18{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.21,0:00:01.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MILLION{\c&HFFFFFF&} DOLLARS OF
+Dialogue: 0,0:00:01.59,0:00:01.98,Cap,,0,0,0,,MILLION {\c&H00E6FF&}DOLLARS{\c&HFFFFFF&} OF
+Dialogue: 0,0:00:01.98,0:00:02.13,Cap,,0,0,0,,MILLION DOLLARS {\c&H00E6FF&}OF{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.13,0:00:02.48,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MAPLE{\c&HFFFFFF&} SYRUP,
+Dialogue: 0,0:00:02.48,0:00:02.99,Cap,,0,0,0,,MAPLE {\c&H00E6FF&}SYRUP,{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.99,0:00:03.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} NOBODY NOTICED.
+Dialogue: 0,0:00:03.19,0:00:03.52,Cap,,0,0,0,,AND {\c&H00E6FF&}NOBODY{\c&HFFFFFF&} NOTICED.
+Dialogue: 0,0:00:03.52,0:00:04.17,Cap,,0,0,0,,AND NOBODY {\c&H00E6FF&}NOTICED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.31,0:00:04.46,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BARRELS NEVER
+Dialogue: 0,0:00:04.46,0:00:04.75,Cap,,0,0,0,,THE {\c&H00E6FF&}BARRELS{\c&HFFFFFF&} NEVER
+Dialogue: 0,0:00:04.75,0:00:04.98,Cap,,0,0,0,,THE BARRELS {\c&H00E6FF&}NEVER{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.98,0:00:05.20,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOVED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.20,0:00:05.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THOUSANDS,{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.78,0:00:06.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STACKED{\c&HFFFFFF&} TO THE
+Dialogue: 0,0:00:06.08,0:00:06.28,Cap,,0,0,0,,STACKED {\c&H00E6FF&}TO{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:06.28,0:00:06.43,Cap,,0,0,0,,STACKED TO {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.43,0:00:06.99,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CEILING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.07,0:00:07.25,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} WORLD'S EMERGENCY
+Dialogue: 0,0:00:07.25,0:00:07.55,Cap,,0,0,0,,THE {\c&H00E6FF&}WORLD'S{\c&HFFFFFF&} EMERGENCY
+Dialogue: 0,0:00:07.55,0:00:07.97,Cap,,0,0,0,,THE WORLD'S {\c&H00E6FF&}EMERGENCY{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.97,0:00:08.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SYRUP{\c&HFFFFFF&} STASH,
+Dialogue: 0,0:00:08.23,0:00:08.49,Cap,,0,0,0,,SYRUP {\c&H00E6FF&}STASH,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.49,0:00:08.93,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GUARDED{\c&HFFFFFF&} DAY AND
+Dialogue: 0,0:00:08.93,0:00:09.11,Cap,,0,0,0,,GUARDED {\c&H00E6FF&}DAY{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:09.11,0:00:09.29,Cap,,0,0,0,,GUARDED DAY {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.29,0:00:09.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NIGHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.93,0:00:10.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UNTIL{\c&HFFFFFF&} AN INSPECTOR
+Dialogue: 0,0:00:10.13,0:00:10.24,Cap,,0,0,0,,UNTIL {\c&H00E6FF&}AN{\c&HFFFFFF&} INSPECTOR
+Dialogue: 0,0:00:10.24,0:00:10.66,Cap,,0,0,0,,UNTIL AN {\c&H00E6FF&}INSPECTOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.66,0:00:10.95,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CLIMBED{\c&HFFFFFF&} THE STACK
+Dialogue: 0,0:00:10.95,0:00:11.09,Cap,,0,0,0,,CLIMBED {\c&H00E6FF&}THE{\c&HFFFFFF&} STACK
+Dialogue: 0,0:00:11.09,0:00:11.38,Cap,,0,0,0,,CLIMBED THE {\c&H00E6FF&}STACK{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.38,0:00:11.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} COUNT THEM.
+Dialogue: 0,0:00:11.49,0:00:11.71,Cap,,0,0,0,,TO {\c&H00E6FF&}COUNT{\c&HFFFFFF&} THEM.
+Dialogue: 0,0:00:11.71,0:00:12.15,Cap,,0,0,0,,TO COUNT {\c&H00E6FF&}THEM.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.26,0:00:12.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} BUMPED ONE
+Dialogue: 0,0:00:12.35,0:00:12.56,Cap,,0,0,0,,HE {\c&H00E6FF&}BUMPED{\c&HFFFFFF&} ONE
+Dialogue: 0,0:00:12.56,0:00:12.69,Cap,,0,0,0,,HE BUMPED {\c&H00E6FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.69,0:00:12.90,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BARREL,{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.90,0:00:13.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} IT FLEW
+Dialogue: 0,0:00:13.03,0:00:13.12,Cap,,0,0,0,,AND {\c&H00E6FF&}IT{\c&HFFFFFF&} FLEW
+Dialogue: 0,0:00:13.12,0:00:13.28,Cap,,0,0,0,,AND IT {\c&H00E6FF&}FLEW{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.28,0:00:13.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}OFF{\c&HFFFFFF&} LIKE A
+Dialogue: 0,0:00:13.40,0:00:13.56,Cap,,0,0,0,,OFF {\c&H00E6FF&}LIKE{\c&HFFFFFF&} A
+Dialogue: 0,0:00:13.56,0:00:13.63,Cap,,0,0,0,,OFF LIKE {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.63,0:00:14.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BALLOON.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.24,0:00:14.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAY{\c&HFFFFFF&} TOO LIGHT.
+Dialogue: 0,0:00:14.41,0:00:14.59,Cap,,0,0,0,,WAY {\c&H00E6FF&}TOO{\c&HFFFFFF&} LIGHT.
+Dialogue: 0,0:00:14.59,0:00:14.84,Cap,,0,0,0,,WAY TOO {\c&H00E6FF&}LIGHT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.84,0:00:14.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} HE PRIED
+Dialogue: 0,0:00:14.98,0:00:15.11,Cap,,0,0,0,,SO {\c&H00E6FF&}HE{\c&HFFFFFF&} PRIED
+Dialogue: 0,0:00:15.11,0:00:15.36,Cap,,0,0,0,,SO HE {\c&H00E6FF&}PRIED{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.36,0:00:15.50,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} OPEN.
+Dialogue: 0,0:00:15.50,0:00:15.98,Cap,,0,0,0,,IT {\c&H00E6FF&}OPEN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.43,0:00:16.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WATER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.68,0:00:16.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} OPENED ANOTHER.
+Dialogue: 0,0:00:16.81,0:00:17.10,Cap,,0,0,0,,HE {\c&H00E6FF&}OPENED{\c&HFFFFFF&} ANOTHER.
+Dialogue: 0,0:00:17.10,0:00:17.56,Cap,,0,0,0,,HE OPENED {\c&H00E6FF&}ANOTHER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.56,0:00:17.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WATER{\c&HFFFFFF&} AGAIN.
+Dialogue: 0,0:00:17.81,0:00:18.32,Cap,,0,0,0,,WATER {\c&H00E6FF&}AGAIN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.43,0:00:18.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} WHERE DID
+Dialogue: 0,0:00:18.53,0:00:18.73,Cap,,0,0,0,,SO {\c&H00E6FF&}WHERE{\c&HFFFFFF&} DID
+Dialogue: 0,0:00:18.73,0:00:18.87,Cap,,0,0,0,,SO WHERE {\c&H00E6FF&}DID{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.87,0:00:19.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALL{\c&HFFFFFF&} THE SYRUP
+Dialogue: 0,0:00:19.01,0:00:19.15,Cap,,0,0,0,,ALL {\c&H00E6FF&}THE{\c&HFFFFFF&} SYRUP
+Dialogue: 0,0:00:19.15,0:00:19.47,Cap,,0,0,0,,ALL THE {\c&H00E6FF&}SYRUP{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.47,0:00:19.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GO?{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.06,0:00:20.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THIEVES{\c&HFFFFFF&} HAD SIPHONED
+Dialogue: 0,0:00:20.37,0:00:20.54,Cap,,0,0,0,,THIEVES {\c&H00E6FF&}HAD{\c&HFFFFFF&} SIPHONED
+Dialogue: 0,0:00:20.54,0:00:20.90,Cap,,0,0,0,,THIEVES HAD {\c&H00E6FF&}SIPHONED{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.90,0:00:21.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT{\c&HFFFFFF&} OUT,
+Dialogue: 0,0:00:21.03,0:00:21.37,Cap,,0,0,0,,IT {\c&H00E6FF&}OUT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.37,0:00:21.76,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}REFILLING{\c&HFFFFFF&} EVERY BARREL
+Dialogue: 0,0:00:21.76,0:00:22.00,Cap,,0,0,0,,REFILLING {\c&H00E6FF&}EVERY{\c&HFFFFFF&} BARREL
+Dialogue: 0,0:00:22.00,0:00:22.29,Cap,,0,0,0,,REFILLING EVERY {\c&H00E6FF&}BARREL{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.29,0:00:22.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} WATER.
+Dialogue: 0,0:00:22.49,0:00:23.00,Cap,,0,0,0,,WITH {\c&H00E6FF&}WATER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.09,0:00:23.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THEY SOLD
+Dialogue: 0,0:00:23.30,0:00:23.50,Cap,,0,0,0,,THEN {\c&H00E6FF&}THEY{\c&HFFFFFF&} SOLD
+Dialogue: 0,0:00:23.50,0:00:23.70,Cap,,0,0,0,,THEN THEY {\c&H00E6FF&}SOLD{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.70,0:00:23.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.91,0:00:24.27,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRUCK{\c&HFFFFFF&} BY TRUCK,
+Dialogue: 0,0:00:24.27,0:00:24.39,Cap,,0,0,0,,TRUCK {\c&H00E6FF&}BY{\c&HFFFFFF&} TRUCK,
+Dialogue: 0,0:00:24.39,0:00:24.80,Cap,,0,0,0,,TRUCK BY {\c&H00E6FF&}TRUCK,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.80,0:00:25.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RIGHT{\c&HFFFFFF&} UNDER EVERYONE'S
+Dialogue: 0,0:00:25.04,0:00:25.27,Cap,,0,0,0,,RIGHT {\c&H00E6FF&}UNDER{\c&HFFFFFF&} EVERYONE'S
+Dialogue: 0,0:00:25.27,0:00:25.66,Cap,,0,0,0,,RIGHT UNDER {\c&H00E6FF&}EVERYONE'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.66,0:00:26.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NOSES.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.26,0:00:26.43,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THAT'S HOW
+Dialogue: 0,0:00:26.43,0:00:26.69,Cap,,0,0,0,,AND {\c&H00E6FF&}THAT'S{\c&HFFFFFF&} HOW
+Dialogue: 0,0:00:26.69,0:00:26.86,Cap,,0,0,0,,AND THAT'S {\c&H00E6FF&}HOW{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.86,0:00:27.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}YOU{\c&HFFFFFF&} STEAL SYRUP
+Dialogue: 0,0:00:27.04,0:00:27.29,Cap,,0,0,0,,YOU {\c&H00E6FF&}STEAL{\c&HFFFFFF&} SYRUP
+Dialogue: 0,0:00:27.29,0:00:27.65,Cap,,0,0,0,,YOU STEAL {\c&H00E6FF&}SYRUP{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.65,0:00:27.98,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITHOUT{\c&HFFFFFF&} ANYONE NOTICING.
+Dialogue: 0,0:00:27.98,0:00:28.27,Cap,,0,0,0,,{\fs102}WITHOUT {\c&H00E6FF&}ANYONE{\c&HFFFFFF&} NOTICING.
+Dialogue: 0,0:00:28.27,0:00:28.91,Cap,,0,0,0,,{\fs102}WITHOUT ANYONE {\c&H00E6FF&}NOTICING.{\c&HFFFFFF&}
