@@ -1,0 +1,237 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} DYING RAILWAY
+Dialogue: 0,0:00:00.22,0:00:00.48,Cap,,0,0,0,,A {\c&H00E6FF&}DYING{\c&HFFFFFF&} RAILWAY
+Dialogue: 0,0:00:00.48,0:00:00.82,Cap,,0,0,0,,A DYING {\c&H00E6FF&}RAILWAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.82,0:00:01.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WAS{\c&HFFFFFF&} SAVED BY
+Dialogue: 0,0:00:01.00,0:00:01.36,Cap,,0,0,0,,WAS {\c&H00E6FF&}SAVED{\c&HFFFFFF&} BY
+Dialogue: 0,0:00:01.36,0:00:01.49,Cap,,0,0,0,,WAS SAVED {\c&H00E6FF&}BY{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.49,0:00:01.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONE{\c&HFFFFFF&} CAT IN
+Dialogue: 0,0:00:01.68,0:00:01.86,Cap,,0,0,0,,ONE {\c&H00E6FF&}CAT{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:01.86,0:00:02.00,Cap,,0,0,0,,ONE CAT {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.00,0:00:02.10,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} HAT.
+Dialogue: 0,0:00:02.10,0:00:02.54,Cap,,0,0,0,,A {\c&H00E6FF&}HAT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.63,0:00:02.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HER{\c&HFFFFFF&} UNIFORM:
+Dialogue: 0,0:00:02.83,0:00:03.21,Cap,,0,0,0,,HER {\c&H00E6FF&}UNIFORM:{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.21,0:00:03.33,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} LITTLE STATION
+Dialogue: 0,0:00:03.33,0:00:03.65,Cap,,0,0,0,,A {\c&H00E6FF&}LITTLE{\c&HFFFFFF&} STATION
+Dialogue: 0,0:00:03.65,0:00:04.04,Cap,,0,0,0,,A LITTLE {\c&H00E6FF&}STATION{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.04,0:00:04.38,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MASTER{\c&HFFFFFF&} CAP.
+Dialogue: 0,0:00:04.38,0:00:04.83,Cap,,0,0,0,,MASTER {\c&H00E6FF&}CAP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.83,0:00:05.03,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HER{\c&HFFFFFF&} SALARY:
+Dialogue: 0,0:00:05.03,0:00:05.37,Cap,,0,0,0,,HER {\c&H00E6FF&}SALARY:{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.37,0:00:05.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAT{\c&HFFFFFF&} FOOD.
+Dialogue: 0,0:00:05.57,0:00:06.25,Cap,,0,0,0,,CAT {\c&H00E6FF&}FOOD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.40,0:00:06.57,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} BEFORE HER,
+Dialogue: 0,0:00:06.57,0:00:06.87,Cap,,0,0,0,,BUT {\c&H00E6FF&}BEFORE{\c&HFFFFFF&} HER,
+Dialogue: 0,0:00:06.87,0:00:07.04,Cap,,0,0,0,,BUT BEFORE {\c&H00E6FF&}HER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.04,0:00:07.22,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} STATION WAS
+Dialogue: 0,0:00:07.22,0:00:07.55,Cap,,0,0,0,,THE {\c&H00E6FF&}STATION{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:07.55,0:00:07.73,Cap,,0,0,0,,THE STATION {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.73,0:00:07.86,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} EMPTY,
+Dialogue: 0,0:00:07.86,0:00:08.12,Cap,,0,0,0,,SO {\c&H00E6FF&}EMPTY,{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.12,0:00:08.64,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CRICKETS{\c&HFFFFFF&} BOUGHT THE
+Dialogue: 0,0:00:08.64,0:00:09.01,Cap,,0,0,0,,CRICKETS {\c&H00E6FF&}BOUGHT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:09.01,0:00:09.18,Cap,,0,0,0,,CRICKETS BOUGHT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.18,0:00:09.92,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TICKETS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.03,0:00:10.19,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} RAILWAY WAS
+Dialogue: 0,0:00:10.19,0:00:10.57,Cap,,0,0,0,,THE {\c&H00E6FF&}RAILWAY{\c&HFFFFFF&} WAS
+Dialogue: 0,0:00:10.57,0:00:10.74,Cap,,0,0,0,,THE RAILWAY {\c&H00E6FF&}WAS{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.74,0:00:11.04,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BROKE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.04,0:00:11.18,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} IT SENT
+Dialogue: 0,0:00:11.18,0:00:11.30,Cap,,0,0,0,,SO {\c&H00E6FF&}IT{\c&HFFFFFF&} SENT
+Dialogue: 0,0:00:11.30,0:00:11.59,Cap,,0,0,0,,SO IT {\c&H00E6FF&}SENT{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.59,0:00:11.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} WORKER HOME.
+Dialogue: 0,0:00:11.82,0:00:12.11,Cap,,0,0,0,,EVERY {\c&H00E6FF&}WORKER{\c&HFFFFFF&} HOME.
+Dialogue: 0,0:00:12.11,0:00:12.57,Cap,,0,0,0,,EVERY WORKER {\c&H00E6FF&}HOME.{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.66,0:00:12.83,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THEY PLANNED
+Dialogue: 0,0:00:12.83,0:00:13.01,Cap,,0,0,0,,THEN {\c&H00E6FF&}THEY{\c&HFFFFFF&} PLANNED
+Dialogue: 0,0:00:13.01,0:00:13.29,Cap,,0,0,0,,THEN THEY {\c&H00E6FF&}PLANNED{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.29,0:00:13.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} SHUT THE
+Dialogue: 0,0:00:13.41,0:00:13.65,Cap,,0,0,0,,TO {\c&H00E6FF&}SHUT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:13.65,0:00:13.79,Cap,,0,0,0,,TO SHUT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.79,0:00:14.01,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHOLE{\c&HFFFFFF&} LINE DOWN.
+Dialogue: 0,0:00:14.01,0:00:14.19,Cap,,0,0,0,,WHOLE {\c&H00E6FF&}LINE{\c&HFFFFFF&} DOWN.
+Dialogue: 0,0:00:14.19,0:00:14.63,Cap,,0,0,0,,WHOLE LINE {\c&H00E6FF&}DOWN.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.71,0:00:14.91,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A SHOPKEEPER'S
+Dialogue: 0,0:00:14.91,0:00:15.00,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} SHOPKEEPER'S
+Dialogue: 0,0:00:15.00,0:00:15.58,Cap,,0,0,0,,THEN A {\c&H00E6FF&}SHOPKEEPER'S{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.58,0:00:15.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}STRAY{\c&HFFFFFF&} CAT,
+Dialogue: 0,0:00:15.82,0:00:15.99,Cap,,0,0,0,,STRAY {\c&H00E6FF&}CAT,{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.99,0:00:16.28,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TAMA,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.28,0:00:16.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MOVED{\c&HFFFFFF&} INTO THE
+Dialogue: 0,0:00:16.52,0:00:16.72,Cap,,0,0,0,,MOVED {\c&H00E6FF&}INTO{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:16.72,0:00:16.89,Cap,,0,0,0,,MOVED INTO {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.89,0:00:17.17,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TICKET{\c&HFFFFFF&} BOOTH.
+Dialogue: 0,0:00:17.17,0:00:17.84,Cap,,0,0,0,,TICKET {\c&H00E6FF&}BOOTH.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.01,0:00:18.15,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE BOSS
+Dialogue: 0,0:00:18.15,0:00:18.33,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} BOSS
+Dialogue: 0,0:00:18.33,0:00:18.56,Cap,,0,0,0,,SO THE {\c&H00E6FF&}BOSS{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.56,0:00:18.78,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MADE{\c&HFFFFFF&} IT OFFICIAL:
+Dialogue: 0,0:00:18.78,0:00:19.03,Cap,,0,0,0,,MADE {\c&H00E6FF&}IT{\c&HFFFFFF&} OFFICIAL:
+Dialogue: 0,0:00:19.03,0:00:19.59,Cap,,0,0,0,,MADE IT {\c&H00E6FF&}OFFICIAL:{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.59,0:00:19.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TAMA{\c&HFFFFFF&} WAS THE
+Dialogue: 0,0:00:19.81,0:00:20.00,Cap,,0,0,0,,TAMA {\c&H00E6FF&}WAS{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:20.00,0:00:20.18,Cap,,0,0,0,,TAMA WAS {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.18,0:00:20.36,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEW{\c&HFFFFFF&} STATION MASTER.
+Dialogue: 0,0:00:20.36,0:00:20.71,Cap,,0,0,0,,NEW {\c&H00E6FF&}STATION{\c&HFFFFFF&} MASTER.
+Dialogue: 0,0:00:20.71,0:00:21.34,Cap,,0,0,0,,NEW STATION {\c&H00E6FF&}MASTER.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.48,0:00:21.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SHE{\c&HFFFFFF&} GREETED EVERY
+Dialogue: 0,0:00:21.66,0:00:22.01,Cap,,0,0,0,,SHE {\c&H00E6FF&}GREETED{\c&HFFFFFF&} EVERY
+Dialogue: 0,0:00:22.01,0:00:22.28,Cap,,0,0,0,,SHE GREETED {\c&H00E6FF&}EVERY{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.28,0:00:22.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRAIN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.54,0:00:22.89,Cap,,0,0,0,,{\fs107}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SITTING{\c&HFFFFFF&} PERFECTLY STILL
+Dialogue: 0,0:00:22.89,0:00:23.39,Cap,,0,0,0,,{\fs107}SITTING {\c&H00E6FF&}PERFECTLY{\c&HFFFFFF&} STILL
+Dialogue: 0,0:00:23.39,0:00:23.66,Cap,,0,0,0,,{\fs107}SITTING PERFECTLY {\c&H00E6FF&}STILL{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.66,0:00:23.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BY{\c&HFFFFFF&} THE GATE.
+Dialogue: 0,0:00:23.80,0:00:23.99,Cap,,0,0,0,,BY {\c&H00E6FF&}THE{\c&HFFFFFF&} GATE.
+Dialogue: 0,0:00:23.99,0:00:24.48,Cap,,0,0,0,,BY THE {\c&H00E6FF&}GATE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.58,0:00:24.81,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}KIDS{\c&HFFFFFF&} WAVED.
+Dialogue: 0,0:00:24.81,0:00:25.09,Cap,,0,0,0,,KIDS {\c&H00E6FF&}WAVED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.09,0:00:25.71,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GRANDMAS{\c&HFFFFFF&} BOWED.
+Dialogue: 0,0:00:25.71,0:00:26.12,Cap,,0,0,0,,GRANDMAS {\c&H00E6FF&}BOWED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.12,0:00:26.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TAMA{\c&HFFFFFF&} YAWNED.
+Dialogue: 0,0:00:26.35,0:00:26.94,Cap,,0,0,0,,TAMA {\c&H00E6FF&}YAWNED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.11,0:00:27.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}AND{\c&HFFFFFF&} THAT'S WHEN
+Dialogue: 0,0:00:27.24,0:00:27.44,Cap,,0,0,0,,AND {\c&H00E6FF&}THAT'S{\c&HFFFFFF&} WHEN
+Dialogue: 0,0:00:27.44,0:00:27.61,Cap,,0,0,0,,AND THAT'S {\c&H00E6FF&}WHEN{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.61,0:00:27.84,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THINGS{\c&HFFFFFF&} GOT WEIRD.
+Dialogue: 0,0:00:27.84,0:00:27.98,Cap,,0,0,0,,THINGS {\c&H00E6FF&}GOT{\c&HFFFFFF&} WEIRD.
+Dialogue: 0,0:00:27.98,0:00:28.44,Cap,,0,0,0,,THINGS GOT {\c&H00E6FF&}WEIRD.{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.61,0:00:29.00,Cap,,0,0,0,,{\fs102}{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOURISTS{\c&HFFFFFF&} STARTED SHOWING
+Dialogue: 0,0:00:29.00,0:00:29.35,Cap,,0,0,0,,{\fs102}TOURISTS {\c&H00E6FF&}STARTED{\c&HFFFFFF&} SHOWING
+Dialogue: 0,0:00:29.35,0:00:29.71,Cap,,0,0,0,,{\fs102}TOURISTS STARTED {\c&H00E6FF&}SHOWING{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.71,0:00:30.07,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}UP.{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.07,0:00:30.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TEN,{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.26,0:00:30.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} A HUNDRED,
+Dialogue: 0,0:00:30.49,0:00:30.59,Cap,,0,0,0,,THEN {\c&H00E6FF&}A{\c&HFFFFFF&} HUNDRED,
+Dialogue: 0,0:00:30.59,0:00:31.01,Cap,,0,0,0,,THEN A {\c&H00E6FF&}HUNDRED,{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.01,0:00:31.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} WHOLE BUSLOADS.
+Dialogue: 0,0:00:31.24,0:00:31.51,Cap,,0,0,0,,THEN {\c&H00E6FF&}WHOLE{\c&HFFFFFF&} BUSLOADS.
+Dialogue: 0,0:00:31.51,0:00:32.17,Cap,,0,0,0,,THEN WHOLE {\c&H00E6FF&}BUSLOADS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.27,0:00:32.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TRAINS{\c&HFFFFFF&} WERE PACKED
+Dialogue: 0,0:00:32.52,0:00:32.70,Cap,,0,0,0,,TRAINS {\c&H00E6FF&}WERE{\c&HFFFFFF&} PACKED
+Dialogue: 0,0:00:32.70,0:00:33.01,Cap,,0,0,0,,TRAINS WERE {\c&H00E6FF&}PACKED{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.01,0:00:33.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} PEOPLE WHO
+Dialogue: 0,0:00:33.29,0:00:33.54,Cap,,0,0,0,,WITH {\c&H00E6FF&}PEOPLE{\c&HFFFFFF&} WHO
+Dialogue: 0,0:00:33.54,0:00:33.69,Cap,,0,0,0,,WITH PEOPLE {\c&H00E6FF&}WHO{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.69,0:00:33.88,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ONLY{\c&HFFFFFF&} WANTED TO
+Dialogue: 0,0:00:33.88,0:00:34.13,Cap,,0,0,0,,ONLY {\c&H00E6FF&}WANTED{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:34.13,0:00:34.25,Cap,,0,0,0,,ONLY WANTED {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.25,0:00:34.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SEE{\c&HFFFFFF&} A CAT.
+Dialogue: 0,0:00:34.40,0:00:34.48,Cap,,0,0,0,,SEE {\c&H00E6FF&}A{\c&HFFFFFF&} CAT.
+Dialogue: 0,0:00:34.48,0:00:34.90,Cap,,0,0,0,,SEE A {\c&H00E6FF&}CAT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.99,0:00:35.11,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}IN{\c&HFFFFFF&} ONE YEAR,
+Dialogue: 0,0:00:35.11,0:00:35.27,Cap,,0,0,0,,IN {\c&H00E6FF&}ONE{\c&HFFFFFF&} YEAR,
+Dialogue: 0,0:00:35.27,0:00:35.47,Cap,,0,0,0,,IN ONE {\c&H00E6FF&}YEAR,{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.47,0:00:35.63,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SHE{\c&HFFFFFF&} BROUGHT THE
+Dialogue: 0,0:00:35.63,0:00:35.94,Cap,,0,0,0,,SHE {\c&H00E6FF&}BROUGHT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:35.94,0:00:36.10,Cap,,0,0,0,,SHE BROUGHT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.10,0:00:36.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TOWN{\c&HFFFFFF&} MILLIONS.
+Dialogue: 0,0:00:36.29,0:00:36.90,Cap,,0,0,0,,TOWN {\c&H00E6FF&}MILLIONS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.00,0:00:37.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SO{\c&HFFFFFF&} THE RAILWAY
+Dialogue: 0,0:00:37.16,0:00:37.37,Cap,,0,0,0,,SO {\c&H00E6FF&}THE{\c&HFFFFFF&} RAILWAY
+Dialogue: 0,0:00:37.37,0:00:37.78,Cap,,0,0,0,,SO THE {\c&H00E6FF&}RAILWAY{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.78,0:00:38.23,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}PROMOTED{\c&HFFFFFF&} HER:
+Dialogue: 0,0:00:38.23,0:00:38.56,Cap,,0,0,0,,PROMOTED {\c&H00E6FF&}HER:{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.56,0:00:38.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SUPER{\c&HFFFFFF&} STATION MASTER,
+Dialogue: 0,0:00:38.87,0:00:39.27,Cap,,0,0,0,,SUPER {\c&H00E6FF&}STATION{\c&HFFFFFF&} MASTER,
+Dialogue: 0,0:00:39.27,0:00:39.63,Cap,,0,0,0,,SUPER STATION {\c&H00E6FF&}MASTER,{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.63,0:00:39.89,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} A GOLD
+Dialogue: 0,0:00:39.89,0:00:40.01,Cap,,0,0,0,,WITH {\c&H00E6FF&}A{\c&HFFFFFF&} GOLD
+Dialogue: 0,0:00:40.01,0:00:40.27,Cap,,0,0,0,,WITH A {\c&H00E6FF&}GOLD{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.27,0:00:40.75,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.84,0:00:41.00,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SHE{\c&HFFFFFF&} EVEN GOT
+Dialogue: 0,0:00:41.00,0:00:41.20,Cap,,0,0,0,,SHE {\c&H00E6FF&}EVEN{\c&HFFFFFF&} GOT
+Dialogue: 0,0:00:41.20,0:00:41.36,Cap,,0,0,0,,SHE EVEN {\c&H00E6FF&}GOT{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.36,0:00:41.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HER{\c&HFFFFFF&} OWN OFFICE,
+Dialogue: 0,0:00:41.53,0:00:41.77,Cap,,0,0,0,,HER {\c&H00E6FF&}OWN{\c&HFFFFFF&} OFFICE,
+Dialogue: 0,0:00:41.77,0:00:42.10,Cap,,0,0,0,,HER OWN {\c&H00E6FF&}OFFICE,{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.10,0:00:42.30,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} A TINY
+Dialogue: 0,0:00:42.30,0:00:42.39,Cap,,0,0,0,,WITH {\c&H00E6FF&}A{\c&HFFFFFF&} TINY
+Dialogue: 0,0:00:42.39,0:00:42.59,Cap,,0,0,0,,WITH A {\c&H00E6FF&}TINY{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.59,0:00:43.06,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}DESK.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.23,0:00:43.37,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BUT{\c&HFFFFFF&} COULD A
+Dialogue: 0,0:00:43.37,0:00:43.59,Cap,,0,0,0,,BUT {\c&H00E6FF&}COULD{\c&HFFFFFF&} A
+Dialogue: 0,0:00:43.59,0:00:43.67,Cap,,0,0,0,,BUT COULD {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.67,0:00:43.82,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAT{\c&HFFFFFF&} GET ANY
+Dialogue: 0,0:00:43.82,0:00:43.97,Cap,,0,0,0,,CAT {\c&H00E6FF&}GET{\c&HFFFFFF&} ANY
+Dialogue: 0,0:00:43.97,0:00:44.21,Cap,,0,0,0,,CAT GET {\c&H00E6FF&}ANY{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.21,0:00:44.39,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}MORE{\c&HFFFFFF&} FAMOUS?
+Dialogue: 0,0:00:44.39,0:00:44.90,Cap,,0,0,0,,MORE {\c&H00E6FF&}FAMOUS?{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.47,0:00:45.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEY{\c&HFFFFFF&} REBUILT THE
+Dialogue: 0,0:00:45.66,0:00:46.05,Cap,,0,0,0,,THEY {\c&H00E6FF&}REBUILT{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:46.05,0:00:46.22,Cap,,0,0,0,,THEY REBUILT {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.22,0:00:46.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ENTIRE{\c&HFFFFFF&} STATION TO
+Dialogue: 0,0:00:46.49,0:00:46.80,Cap,,0,0,0,,ENTIRE {\c&H00E6FF&}STATION{\c&HFFFFFF&} TO
+Dialogue: 0,0:00:46.80,0:00:46.94,Cap,,0,0,0,,ENTIRE STATION {\c&H00E6FF&}TO{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.94,0:00:47.13,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LOOK{\c&HFFFFFF&} LIKE HER
+Dialogue: 0,0:00:47.13,0:00:47.34,Cap,,0,0,0,,LOOK {\c&H00E6FF&}LIKE{\c&HFFFFFF&} HER
+Dialogue: 0,0:00:47.34,0:00:47.69,Cap,,0,0,0,,LOOK LIKE {\c&H00E6FF&}HER{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.69,0:00:48.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FACE.{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.26,0:00:48.45,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EARS{\c&HFFFFFF&} ON THE
+Dialogue: 0,0:00:48.45,0:00:48.59,Cap,,0,0,0,,EARS {\c&H00E6FF&}ON{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:48.59,0:00:48.76,Cap,,0,0,0,,EARS ON {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.76,0:00:49.16,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ROOF.{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.16,0:00:49.52,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WHISKERS{\c&HFFFFFF&} ON THE
+Dialogue: 0,0:00:49.52,0:00:49.65,Cap,,0,0,0,,WHISKERS {\c&H00E6FF&}ON{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:49.65,0:00:49.81,Cap,,0,0,0,,WHISKERS ON {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.81,0:00:50.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WINDOWS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.49,0:00:50.69,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} THEY PAINTED
+Dialogue: 0,0:00:50.69,0:00:50.89,Cap,,0,0,0,,THEN {\c&H00E6FF&}THEY{\c&HFFFFFF&} PAINTED
+Dialogue: 0,0:00:50.89,0:00:51.19,Cap,,0,0,0,,THEN THEY {\c&H00E6FF&}PAINTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.19,0:00:51.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} WHOLE TRAIN
+Dialogue: 0,0:00:51.29,0:00:51.52,Cap,,0,0,0,,A {\c&H00E6FF&}WHOLE{\c&HFFFFFF&} TRAIN
+Dialogue: 0,0:00:51.52,0:00:51.76,Cap,,0,0,0,,A WHOLE {\c&H00E6FF&}TRAIN{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.76,0:00:51.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}WITH{\c&HFFFFFF&} HER ON
+Dialogue: 0,0:00:51.96,0:00:52.12,Cap,,0,0,0,,WITH {\c&H00E6FF&}HER{\c&HFFFFFF&} ON
+Dialogue: 0,0:00:52.12,0:00:52.25,Cap,,0,0,0,,WITH HER {\c&H00E6FF&}ON{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.25,0:00:52.49,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} SEAT.
+Dialogue: 0,0:00:52.49,0:00:52.95,Cap,,0,0,0,,EVERY {\c&H00E6FF&}SEAT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.14,0:00:53.35,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FANS{\c&HFFFFFF&} WAITED IN
+Dialogue: 0,0:00:53.35,0:00:53.64,Cap,,0,0,0,,FANS {\c&H00E6FF&}WAITED{\c&HFFFFFF&} IN
+Dialogue: 0,0:00:53.64,0:00:53.77,Cap,,0,0,0,,FANS WAITED {\c&H00E6FF&}IN{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.77,0:00:53.98,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}LINE{\c&HFFFFFF&} FOR HOURS
+Dialogue: 0,0:00:53.98,0:00:54.15,Cap,,0,0,0,,LINE {\c&H00E6FF&}FOR{\c&HFFFFFF&} HOURS
+Dialogue: 0,0:00:54.15,0:00:54.40,Cap,,0,0,0,,LINE FOR {\c&H00E6FF&}HOURS{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.40,0:00:54.54,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} RIDE IT.
+Dialogue: 0,0:00:54.54,0:00:54.75,Cap,,0,0,0,,TO {\c&H00E6FF&}RIDE{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:54.75,0:00:55.15,Cap,,0,0,0,,TO RIDE {\c&H00E6FF&}IT.{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.26,0:00:55.41,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALL{\c&HFFFFFF&} BECAUSE ONE
+Dialogue: 0,0:00:55.41,0:00:55.73,Cap,,0,0,0,,ALL {\c&H00E6FF&}BECAUSE{\c&HFFFFFF&} ONE
+Dialogue: 0,0:00:55.73,0:00:55.91,Cap,,0,0,0,,ALL BECAUSE {\c&H00E6FF&}ONE{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.91,0:00:56.08,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAT{\c&HFFFFFF&} SAT BY
+Dialogue: 0,0:00:56.08,0:00:56.24,Cap,,0,0,0,,CAT {\c&H00E6FF&}SAT{\c&HFFFFFF&} BY
+Dialogue: 0,0:00:56.24,0:00:56.45,Cap,,0,0,0,,CAT SAT {\c&H00E6FF&}BY{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.45,0:00:56.55,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}A{\c&HFFFFFF&} GATE AND
+Dialogue: 0,0:00:56.55,0:00:56.77,Cap,,0,0,0,,A {\c&H00E6FF&}GATE{\c&HFFFFFF&} AND
+Dialogue: 0,0:00:56.77,0:00:56.94,Cap,,0,0,0,,A GATE {\c&H00E6FF&}AND{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.94,0:00:57.60,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}BLINKED.{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.72,0:00:57.96,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THAT'S{\c&HFFFFFF&} HOW A
+Dialogue: 0,0:00:57.96,0:00:58.13,Cap,,0,0,0,,THAT'S {\c&H00E6FF&}HOW{\c&HFFFFFF&} A
+Dialogue: 0,0:00:58.13,0:00:58.23,Cap,,0,0,0,,THAT'S HOW {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.23,0:00:58.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}CAT{\c&HFFFFFF&} IN A
+Dialogue: 0,0:00:58.40,0:00:58.53,Cap,,0,0,0,,CAT {\c&H00E6FF&}IN{\c&HFFFFFF&} A
+Dialogue: 0,0:00:58.53,0:00:58.63,Cap,,0,0,0,,CAT IN {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.63,0:00:58.80,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HAT{\c&HFFFFFF&} SAVED A
+Dialogue: 0,0:00:58.80,0:00:59.05,Cap,,0,0,0,,HAT {\c&H00E6FF&}SAVED{\c&HFFFFFF&} A
+Dialogue: 0,0:00:59.05,0:00:59.14,Cap,,0,0,0,,HAT SAVED {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.14,0:00:59.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}RAILWAY.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.81,0:01:00.12,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}FOLLOW{\c&HFFFFFF&} FOR A
+Dialogue: 0,0:01:00.12,0:01:00.30,Cap,,0,0,0,,FOLLOW {\c&H00E6FF&}FOR{\c&HFFFFFF&} A
+Dialogue: 0,0:01:00.30,0:01:00.41,Cap,,0,0,0,,FOLLOW FOR {\c&H00E6FF&}A{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.41,0:01:00.59,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}NEW{\c&HFFFFFF&} WEIRD STORY
+Dialogue: 0,0:01:00.59,0:01:00.86,Cap,,0,0,0,,NEW {\c&H00E6FF&}WEIRD{\c&HFFFFFF&} STORY
+Dialogue: 0,0:01:00.86,0:01:01.13,Cap,,0,0,0,,NEW WEIRD {\c&H00E6FF&}STORY{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.13,0:01:01.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} DAY.
+Dialogue: 0,0:01:01.40,0:01:01.85,Cap,,0,0,0,,EVERY {\c&H00E6FF&}DAY.{\c&HFFFFFF&}
