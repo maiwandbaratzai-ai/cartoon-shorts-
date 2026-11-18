@@ -34,8 +34,8 @@ safety) and the pre-render checklist. Its rules override anything below when the
    frame, characters too small, text clipped, plain untextured surfaces, blown-out or too-dark areas (LOOK.md). Usually 2–4 passes.
 6. **Sound:** `stories/<slug>/audio.py` (copy one): music beds via `bed(t0, t1, style)` (quirky, march, dark, sad,
    tension), SFX library (boom, mgun, crash, splat, gull, squawk, engine, pop, gloop, roar, water, …) placed
-   **Only the narrator speaks:** no character voices, soundbites, gasps or crowd voices (vox/gasp/crowd are silenced).
    on line/word times `LS(i)`, `WS(i,'word')`. `python3 stories/<slug>/audio.py` → mix_raw.wav (voice-led, ducked).
+   **Only the narrator speaks:** no character voices, soundbites, gasps or crowd voices (vox/gasp/crowd are silenced).
 7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3 s/frame/process outdoors, 4–5 s indoors with lamps → a 45 s short ≈ 55–75 min).
    Render the three stories one after another, not in parallel.
 7b. **Opening graphic:** `python3 tools/hookcard.py stories/<slug> "BIG CLAIM|2-5 WORDS" "<badge>"` (LOOK.md); finish.sh overlays it on 0–1.6 s.
