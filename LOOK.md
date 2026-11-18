@@ -45,6 +45,17 @@ Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side
 
 ## Shot rules (you do these in each story)
 
+- **Every shot moves the camera** (Maiwand 2026-11-18): slow push-in `fov: 40 * K.push(u)` (100% → 112%), a pan following
+  the action, or a tracking move. Add `K.shake(f, f0)` to the camera position only on impacts, creaks and collapses.
+  Cut to close-ups (a foot, a face, a cable) and back to the wide.
+- **Layers / depth in every shot:** a foreground layer close to the camera (crowd heads, ropes, a sign, a post) that
+  the depth of field blurs, the sharp subject in the middle, a detailed background, and effects (dust, clouds,
+  smoke, rain, birds). Because our world is real 3D, the layers move at different speeds automatically when the camera moves.
+- **Same light direction** in every shot of a scene (keep `az`/`el` the same), the same colours, and small details: signs,
+  ropes, cracks, tools, flags, birds, moving water.
+- Everything has a shadow (3D characters and animals cast real ones; keep `sunI` > 0 or a lamp with `shadow: true`).
+- **Dust:** `K.puff(f, wf(..), x, z)` on footsteps of heavy things, landings, impacts and falls.
+- Same character design in every shot (create each character once in build() and reuse it).
 - **Never reuse a shot.** 12–20 different shots per video (more for 64 s); something visibly moving in every 3-second window.
 - Lots of close-ups on the key object (the gold, the fuse, the bridge cable).
 - Rich worlds around the characters: weather, crowds, smoke, light, background people doing things.

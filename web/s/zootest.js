@@ -35,6 +35,7 @@ export default {
     CHEF.set(T.act(f, [[0, 'hips', { expr: 'proud' }], [120, 'show', { R: [0.42, -0.6, 'food'], expr: 'excited' }], [220, 'panic', { expr: 'scared' }]], { seed: 2, blink: blinkAt(f, 2) }), { x: 6.2, z: 1.0 });
     COP.set(T.act(f, [[0, 'cross', { expr: 'stern' }], [100, 'stop', { expr: 'yell', talk: true }], [220, 'facepalm', { expr: 'sad' }]], { seed: 3, blink: blinkAt(f, 3) }), { x: 7.2, z: 0.2 });
     KID.set(T.act(f, [[0, 'wave', { expr: 'excited' }], [90, 'celebrate'], [220, 'shock', { expr: 'scared' }]], { seed: 4, blink: blinkAt(f, 4) }), { x: 9.8, z: -0.4 });
+    if (f > 60) K.puff(f, 60 + Math.floor((f - 60) / 12) * 12, 5.2, 3.0, 6);
     // shots: wide on animals -> people -> punch-in on the shock beat
     let cam;
     if (f < 100) cam = { pos: [lerp(-5.5, 4.5, f / 100), 1.4, 2.6], look: [lerp(-4.5, 5, f / 100), 0.5, -2.2], fov: 46 };

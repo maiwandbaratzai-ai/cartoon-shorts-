@@ -149,6 +149,18 @@ const walkPath = (f, f0, path, speed = 1.2, o = {}) => {
   return { x, z, yaw, moving: !done && f >= f0, done };
 };
 /** K.punch(f, f0, amount=0.25, dur=8): quick camera zoom-in on a dramatic beat -> multiply your fov by the result. */
+/** K.shake(f, f0, amp=0.04, dur=10) -> [dx, dy] metres to add to the camera position on an impact/creak/collapse. */
+const shake = (f, f0, amp = 0.04, dur = 10) => { const t = (f - f0) / dur; if (t < 0 || t > 1) return [0, 0]; const k = amp * (1 - t); return [k * Math.sin(f * 2.7), k * Math.cos(f * 3.3)]; };
+/** K.push(u, amount=0.11): slow push-in over a shot (u = 0..1 through the shot) -> multiply fov (100% -> ~112% framing). */
+const push = (u, amount = 0.11) => 1 - amount * Math.min(1, Math.max(0, u));
+// dust puffs: K.puff(f, f0, x, z, n) shows a little dust burst for 0.8 s after frame f0 (footsteps, landings, impacts)
+const puffTex = P.tex(P.radial('225,205,175', 0.5)); const puffPool = []; let puffUsed = 0;
+const puff = (f, f0, x, z, n = 7, size = 0.35, color = '#d8c8a8') => {
+  const t = (f - f0) / 24; if (t < 0 || t > 1) return;
+  for (let i = 0; i < n; i++) { if (puffUsed >= puffPool.length) { const sp = new THREE.Sprite(new THREE.SpriteMaterial({ map: puffTex, transparent: true, depthWrite: false })); sp.userData.ndSkip = true; scene.add(sp); puffPool.push(sp); }
+    const sp = puffPool[puffUsed++], a = i / n * Math.PI * 2 + f0, r = 0.15 + t * 0.55;
+    sp.visible = true; sp.material.color.set(color); sp.material.opacity = 0.55 * (1 - t);
+    sp.position.set(x + Math.cos(a) * r, 0.08 + t * 0.25 + (i % 3) * 0.05, z + Math.sin(a) * r * 0.6); sp.scale.setScalar(size * (0.6 + t)); } };
 const punch = (f, f0, amount = 0.25, dur = 8) => { const t = (f - f0) / dur; if (t < 0) return 1; const e = t < 1 ? 1 - Math.pow(1 - t, 3) : 1; return 1 - amount * e; };
 
 // ---------- cards (2D characters / effects on billboards) ----------
@@ -287,7 +299,7 @@ const swapForNd = (on) => {
 };
 
 // ---------- kit context handed to stories ----------
-const K = { stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;
@@ -295,6 +307,7 @@ LOOK = QS.get('look') || S.look || 'rich';
 await S.build(K);
 
 window.renderFrame = (f) => {
+  for (const sp of puffPool) sp.visible = false; puffUsed = 0;
   const R = S.frame(f, K), L = R.light, Cm = R.cam;
   applyLight(L); cardTint = L.cardTint || '#ffffff';
   camera.position.set(...Cm.pos); camera.up.set(0, 1, 0); camera.lookAt(...Cm.look); camera.rotateZ(rx(Cm.roll || 0));
