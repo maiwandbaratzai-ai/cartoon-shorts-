@@ -27,7 +27,7 @@ place(sfx, swish(), LS(4) - 0.15, 0.5); place(sfx, hum(2.6), WS(4, 'cables') - 0
 # riverbank crowd
 place(sfx, swish(), LS(5) - 0.15, 0.5); place(sfx, crowd(1.6, 'gasp'), WS(5, 'thousands'), 0.3); place(sfx, gasp(), WS(5, 'froze'), 0.5); place(sfx, sting(), WS(5, 'hold') + 0.1, 0.3)
 # the stop, the foot, the stomp
-place(sfx, scratch(), LS(6) - 0.75, 0.35); vox("Easy, Jumbo...", LS(6) - 0.62, 'am_adam', 1.2, 0.8, 1.05)
+place(sfx, scratch(), LS(6) - 0.75, 0.35) - 0.62, 'am_adam', 1.2, 0.8, 1.05)
 place(sfx, swish(), LS(6) - 0.15, 0.4); place(sfx, thunk(70, 0.3), WS(6, 'stopped'), 0.5); place(sfx, bloop(180), WS(6, 'looked'), 0.4); place(sfx, slide(True, 0.7), WS(6, 'lifted'), 0.45)
 place(sfx, thunk(45, 0.7), WS(7, 'stomped'), 1.0); place(sfx, rumble(0.9), WS(7, 'stomped'), 0.5); place(sfx, crash(0.6), WS(7, 'stomped') + 0.02, 0.15); place(sfx, ting(), WS(7, 'nothing') + 0.25, 0.4)
 # passed + free ads
@@ -35,5 +35,5 @@ place(sfx, swish(), LS(8) - 0.15, 0.5); place(sfx, stamp(), WS(8, 'passed'), 0.6
 place(sfx, swish(), F(763) - 0.15, 0.45); place(sfx, flip(), WS(8, 'free'), 0.5); place(sfx, bell(1760), WS(8, 'ads'), 0.3)
 # end: back to the hook image, loops
 place(sfx, swish(), LS(9) - 0.15, 0.5); place(sfx, trumpet(), WS(9, 'elephants'), 0.65); place(sfx, thunk(55, 0.4), WS(9, 'elephants') + 0.2, 0.5)
-vox("Hooray!", D - 1.05, 'af_bella', 1.15, 0.7, 1.1); place(sfx, crowd(1.0, 'cheer'), D - 1.0, 0.2)
+place(sfx, crowd(1.0, 'cheer'), D - 1.0, 0.2)
 mixdown()

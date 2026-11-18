@@ -146,7 +146,7 @@ Move them with `K.walkPath` like people. Pair every animal moment with its sound
 ## Faces match the narration (2026-11-17)
 Every line, set each character's `expr` to the feeling of what's being said, on the word: neutral, smile, grin, laugh,
 proud, excited, shock, scared, nervous, confused, sad, pained, angry, stern, yell, sleepy, relief, dazed, whistle, lick, talk.
-When a character "says" something (vox line or dialogue), add `talk: true` to that key so the mouth moves.
+Only the narrator is heard. If the narration quotes a character, you may add `talk: true` so their mouth moves, but no character voice is ever added.
 Listeners react with a different face from the speaker.
 
 ## Lighting: bright, glowing, clean ("HD")

@@ -87,9 +87,8 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
   bespoke sound every 2–3 s on top of the cut whooshes, and match the sound to the action on screen.
   Also: `screech()` (swerving cars), `flip()` (signs, pages, cards turning), `stamp()` (votes, approvals, gavels),
   `swish()` on every fast camera transition.
-- **Character soundbites:** characters say 1–4 word lines in their own voices with `vox("Mine!", t, "am_fenrir", pitch=1.1)`
-  (voices: am_michael, am_adam, am_fenrir, af_bella, af_nicole, af_sky, bf_emma, bm_george; pitch >1 = cartoonier).
-  Put them in gaps between narration lines, 1–3 per video. Gasps with `gasp()`.
+- **Only the narrator speaks (Maiwand 2026-11-18).** No character voices, no soundbites, no dialogue audio, no gasps.
+  Characters show what they feel with faces, poses and mouth movement only; `vox()` is disabled.
 - **Animal sounds:** `bark() meow() moo() oink() baa() quack() cluck() roar() neigh() monkey() trumpet() squeak() tweet()`.
   Every animal on screen makes its sound at least once.
 - Music now ducks more under the narration automatically (mixdown). Let the music build tension during the
@@ -211,7 +210,7 @@ after studying Ricks Clips, whose Shorts run 55–65 s; 45 s keeps the overnight
 - 2026-11-17 (YouTube AI feedback on the 3D baboon video): all A's (Hook, Visuals, Audio, Narrative, Presence). Notes:
   hint at the stakes in the first line or two ("...would the baboon keep his job?"), a micro-pause ([beat]) before the
   reveal, quick camera punch-ins on dramatic beats, music ducked more under fast narration, and character
-  soundbites/animal vocalizations for personality. All are in the kit now.
+  soundbites/animal vocalizations for personality. (Character voices were later removed: only the narrator speaks.)
 
 - 2026-11-18 (Maiwand's study of 10 Ricks Clips Shorts, 194K subs, 472M views): his top videos hit 16–35M views while his
   newest got 195K with the same quality, so **the topic and title decide the ceiling and craft decides the floor.** His

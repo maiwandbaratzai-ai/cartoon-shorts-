@@ -1,0 +1,30 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY WOULD
+Dialogue: 0,0:00:00.56,0:00:00.94,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}21
+Dialogue: 0,0:00:00.94,0:00:01.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ELEPHANTS MARCH ONTO
+Dialogue: 0,0:00:01.94,0:00:03.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A BRAND-NEW BRIDGE?
+Dialogue: 0,0:00:03.19,0:00:03.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CROWD BELOW
+Dialogue: 0,0:00:03.64,0:00:04.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SCREAMED IT WOULD
+Dialogue: 0,0:00:04.15,0:00:04.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COLLAPSE!
+Dialogue: 0,0:00:04.66,0:00:05.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE CABLES
+Dialogue: 0,0:00:05.22,0:00:05.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CREAKED,
+Dialogue: 0,0:00:05.49,0:00:06.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE WHOLE
+Dialogue: 0,0:00:06.08,0:00:06.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DECK
+Dialogue: 0,0:00:06.31,0:00:06.82,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SAGGED.
+Dialogue: 0,0:00:07.23,0:00:07.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT IT
+Dialogue: 0,0:00:07.53,0:00:07.74,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HELD,
+Dialogue: 0,0:00:07.74,0:00:08.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THAT IS
+Dialogue: 0,0:00:08.25,0:00:09.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EXACTLY WHY THEY
+Dialogue: 0,0:00:09.03,0:00:09.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DID IT.

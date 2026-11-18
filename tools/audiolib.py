@@ -231,6 +231,8 @@ def gull():
     s = np.sin(2 * np.pi * np.cumsum(f) / SR) * (0.6 + 0.4 * np.sin(2 * np.pi * 28 * t))
     return (s * np.sin(np.pi * t / 0.45) ** 2).astype(np.float32) * 0.4
 def crowd(d=2.0, mood='cheer'):
+    # DISABLED: crowd voices are voices; only the narrator speaks (VIRAL.md §5). Returns silence.
+    return np.zeros(int(d * SR), np.float32)
     n = int(d * SR); t = np.arange(n) / SR; s = np.zeros(n, np.float32)
     for k in range(14):
         f0 = rng.uniform(180, 420) * (1.4 if mood == 'scream' else 1); vib = rng.uniform(4, 7)
@@ -323,9 +325,11 @@ def gulp():
 # ---------------- character voices & animal sounds (YouTube feedback: give characters soundbites) ----------------
 _kok = None
 def vox(text, t, voice='am_michael', speed=1.15, gain=0.9, pitch=1.0):
-    """A character says a short line ("Huh?!", "Mine!", "Nooo!") at time t, in a different voice from the narrator.
+    """DISABLED (Maiwand 2026-11-18): only the narrator speaks in our videos. This does nothing.
+    A character says a short line ("Huh?!", "Mine!", "Nooo!") at time t, in a different voice from the narrator.
     voices: am_michael, am_adam, am_fenrir (men), af_bella, af_nicole, af_sky (women), bf_emma, bm_george (British).
     pitch > 1 = higher/cartoonier (also faster). Keep lines to 1-4 words so they don't fight the narration."""
+    print('vox() is disabled: only the narrator speaks (VIRAL.md §5)'); return
     global _kok
     import os
     if _kok is None:
@@ -386,6 +390,8 @@ def tweet():
     for k in range(3): c = _tone(np.linspace(3000, 4200, int(0.08 * SR)), 0.08, harm=(1, .2)); i = int(k * 0.12 * SR); out[i:i + len(c)] += c * 0.6
     return out
 def gasp():
+    # DISABLED: a gasp is a voice; only the narrator speaks (VIRAL.md §5). Returns silence.
+    return np.zeros(int(0.35 * SR), np.float32)
     d = 0.35; n = int(d * SR); t = np.arange(n) / SR
     return (bp(noise(d), 1800) * np.sin(np.pi * t / d) ** 2 * 0.7).astype(np.float32)
 

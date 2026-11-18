@@ -1,0 +1,47 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,112,&H00FFFFFF,&H00FFFFFF,&H00000000,&H90000000,-1,0,0,0,100,100,3,0,1,9,5,2,50,50,560,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.29,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}JOE{\c&HFFFFFF&} DUG THE
+Dialogue: 0,0:00:00.29,0:00:00.47,Cap,,0,0,0,,JOE {\c&H00E6FF&}DUG{\c&HFFFFFF&} THE
+Dialogue: 0,0:00:00.47,0:00:00.65,Cap,,0,0,0,,JOE DUG {\c&H00E6FF&}THE{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.65,0:00:00.87,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SAME{\c&HFFFFFF&} MINE FOR
+Dialogue: 0,0:00:00.87,0:00:01.09,Cap,,0,0,0,,SAME {\c&H00E6FF&}MINE{\c&HFFFFFF&} FOR
+Dialogue: 0,0:00:01.09,0:00:01.43,Cap,,0,0,0,,SAME MINE {\c&H00E6FF&}FOR{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.43,0:00:01.73,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TWENTY{\c&HFFFFFF&} LONG YEARS.
+Dialogue: 0,0:00:01.73,0:00:01.95,Cap,,0,0,0,,TWENTY {\c&H00E6FF&}LONG{\c&HFFFFFF&} YEARS.
+Dialogue: 0,0:00:01.95,0:00:02.53,Cap,,0,0,0,,TWENTY LONG {\c&H00E6FF&}YEARS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.65,0:00:02.86,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} ONE MORNING,
+Dialogue: 0,0:00:02.86,0:00:03.03,Cap,,0,0,0,,THEN {\c&H00E6FF&}ONE{\c&HFFFFFF&} MORNING,
+Dialogue: 0,0:00:03.03,0:00:03.36,Cap,,0,0,0,,THEN ONE {\c&H00E6FF&}MORNING,{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.36,0:00:03.53,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HIS{\c&HFFFFFF&} SHOVEL HIT
+Dialogue: 0,0:00:03.53,0:00:03.82,Cap,,0,0,0,,HIS {\c&H00E6FF&}SHOVEL{\c&HFFFFFF&} HIT
+Dialogue: 0,0:00:03.82,0:00:03.99,Cap,,0,0,0,,HIS SHOVEL {\c&H00E6FF&}HIT{\c&HFFFFFF&}
+Dialogue: 0,0:00:03.99,0:00:04.24,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}SOLID{\c&HFFFFFF&} GOLD!
+Dialogue: 0,0:00:04.24,0:00:04.72,Cap,,0,0,0,,SOLID {\c&H00E6FF&}GOLD!{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.88,0:00:05.05,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}HE{\c&HFFFFFF&} SPRINTED STRAIGHT
+Dialogue: 0,0:00:05.05,0:00:05.36,Cap,,0,0,0,,HE {\c&H00E6FF&}SPRINTED{\c&HFFFFFF&} STRAIGHT
+Dialogue: 0,0:00:05.36,0:00:05.67,Cap,,0,0,0,,HE SPRINTED {\c&H00E6FF&}STRAIGHT{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.67,0:00:05.79,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}TO{\c&HFFFFFF&} HIS BOSS.
+Dialogue: 0,0:00:05.79,0:00:05.93,Cap,,0,0,0,,TO {\c&H00E6FF&}HIS{\c&HFFFFFF&} BOSS.
+Dialogue: 0,0:00:05.93,0:00:06.38,Cap,,0,0,0,,TO HIS {\c&H00E6FF&}BOSS.{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.50,0:00:06.66,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THE{\c&HFFFFFF&} BOSS COUNTED
+Dialogue: 0,0:00:06.66,0:00:06.86,Cap,,0,0,0,,THE {\c&H00E6FF&}BOSS{\c&HFFFFFF&} COUNTED
+Dialogue: 0,0:00:06.86,0:00:07.18,Cap,,0,0,0,,THE BOSS {\c&H00E6FF&}COUNTED{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.18,0:00:07.42,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}EVERY{\c&HFFFFFF&} NUGGET,
+Dialogue: 0,0:00:07.42,0:00:07.69,Cap,,0,0,0,,EVERY {\c&H00E6FF&}NUGGET,{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.69,0:00:08.40,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}GRINNING.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.48,0:00:08.68,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}THEN{\c&HFFFFFF&} HE KEPT
+Dialogue: 0,0:00:08.68,0:00:08.81,Cap,,0,0,0,,THEN {\c&H00E6FF&}HE{\c&HFFFFFF&} KEPT
+Dialogue: 0,0:00:08.81,0:00:09.10,Cap,,0,0,0,,THEN HE {\c&H00E6FF&}KEPT{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.10,0:00:09.26,Cap,,0,0,0,,{\fscx80\fscy80\t(0,90,\fscx100\fscy100)}{\c&H00E6FF&}ALL{\c&HFFFFFF&} OF IT.
+Dialogue: 0,0:00:09.26,0:00:09.39,Cap,,0,0,0,,ALL {\c&H00E6FF&}OF{\c&HFFFFFF&} IT.
+Dialogue: 0,0:00:09.39,0:00:09.79,Cap,,0,0,0,,ALL OF {\c&H00E6FF&}IT.{\c&HFFFFFF&}
