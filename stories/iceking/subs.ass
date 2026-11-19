@@ -1,0 +1,118 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY DID FREDERIC
+Dialogue: 0,0:00:00.97,0:00:01.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TUDOR SHIP A
+Dialogue: 0,0:00:01.64,0:00:02.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROZEN LAKE TO
+Dialogue: 0,0:00:02.27,0:00:03.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TROPICS?
+Dialogue: 0,0:00:03.22,0:00:03.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS SHIP SAILS
+Dialogue: 0,0:00:03.92,0:00:05.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INTO CARIBBEAN HEAT,
+Dialogue: 0,0:00:05.11,0:00:05.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PACKED WITH
+Dialogue: 0,0:00:05.79,0:00:06.45,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}130
+Dialogue: 0,0:00:06.45,0:00:06.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TONS OF
+Dialogue: 0,0:00:06.83,0:00:07.35,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE.
+Dialogue: 0,0:00:07.37,0:00:07.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IF IT MELTS,
+Dialogue: 0,0:00:07.94,0:00:08.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE LOSES EVERY
+Dialogue: 0,0:00:08.64,0:00:09.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PENNY HE OWNS.
+Dialogue: 0,0:00:09.57,0:00:10.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACK IN BOSTON,
+Dialogue: 0,0:00:10.28,0:00:11.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERYONE LAUGHED.
+Dialogue: 0,0:00:11.36,0:00:12.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEWSPAPERS CALLED IT
+Dialogue: 0,0:00:12.46,0:00:13.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SLIPPERY IDEA.
+Dialogue: 0,0:00:13.56,0:00:14.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN HE LANDS,
+Dialogue: 0,0:00:14.11,0:00:14.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE
+Dialogue: 0,0:00:14.43,0:00:14.59,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:14.59,0:00:15.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS ALREADY DRIPPING
+Dialogue: 0,0:00:15.36,0:00:16.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF THE DOCK.
+Dialogue: 0,0:00:16.39,0:00:16.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WORSE,
+Dialogue: 0,0:00:16.66,0:00:17.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOBODY ON THE
+Dialogue: 0,0:00:17.30,0:00:18.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ISLAND HAS EVER
+Dialogue: 0,0:00:18.05,0:00:18.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SEEN
+Dialogue: 0,0:00:18.27,0:00:18.46,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:18.46,0:00:19.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEFORE.
+Dialogue: 0,0:00:19.25,0:00:19.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY POKE IT.
+Dialogue: 0,0:00:19.84,0:00:20.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY SNIFF IT.
+Dialogue: 0,0:00:20.64,0:00:21.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE BRAVE MAN
+Dialogue: 0,0:00:21.20,0:00:21.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LICKS IT.
+Dialogue: 0,0:00:21.55,0:00:22.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THEY ALL
+Dialogue: 0,0:00:22.24,0:00:22.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WATCH IT
+Dialogue: 0,0:00:22.60,0:00:23.06,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MELT.
+Dialogue: 0,0:00:23.17,0:00:23.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO TUDOR LOSES
+Dialogue: 0,0:00:23.83,0:00:24.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALL HIS MONEY,
+Dialogue: 0,0:00:24.45,0:00:25.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HIS FORTUNE
+Dialogue: 0,0:00:25.34,0:00:26.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TURNS INTO PUDDLES!
+Dialogue: 0,0:00:26.50,0:00:27.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT HE SAILS
+Dialogue: 0,0:00:27.07,0:00:27.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOME,
+Dialogue: 0,0:00:27.27,0:00:27.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TRIES AGAIN.
+Dialogue: 0,0:00:27.96,0:00:28.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND AGAIN.
+Dialogue: 0,0:00:28.83,0:00:29.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS
+Dialogue: 0,0:00:29.00,0:00:29.18,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:29.18,0:00:29.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KEEPS MELTING,
+Dialogue: 0,0:00:29.77,0:00:30.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE LAUGHING
+Dialogue: 0,0:00:30.64,0:00:31.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GETS LOUDER.
+Dialogue: 0,0:00:31.41,0:00:31.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SOME DAYS,
+Dialogue: 0,0:00:31.82,0:00:32.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE CAN'T EVEN
+Dialogue: 0,0:00:32.36,0:00:32.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PAY FOR HIS
+Dialogue: 0,0:00:32.95,0:00:33.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OWN LUNCH.
+Dialogue: 0,0:00:33.73,0:00:34.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HOW DO
+Dialogue: 0,0:00:34.14,0:00:34.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU SELL
+Dialogue: 0,0:00:34.50,0:00:34.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:34.66,0:00:35.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO PEOPLE WHO
+Dialogue: 0,0:00:35.34,0:00:35.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DON'T EVEN WANT
+Dialogue: 0,0:00:35.93,0:00:36.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT?
+Dialogue: 0,0:00:36.41,0:00:37.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO TRICKS.
+Dialogue: 0,0:00:37.06,0:00:37.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIRST,
+Dialogue: 0,0:00:37.35,0:00:38.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE PACKS EVERY
+Dialogue: 0,0:00:38.10,0:00:38.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BLOCK IN
+Dialogue: 0,0:00:38.61,0:00:39.00,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SAWDUST,
+Dialogue: 0,0:00:39.00,0:00:39.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A COZY
+Dialogue: 0,0:00:39.61,0:00:40.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BLANKET.
+Dialogue: 0,0:00:40.25,0:00:40.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SECOND,
+Dialogue: 0,0:00:40.58,0:00:41.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE GIVES BARTENDERS
+Dialogue: 0,0:00:41.68,0:00:41.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FREE
+Dialogue: 0,0:00:41.92,0:00:42.21,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE,
+Dialogue: 0,0:00:42.21,0:00:43.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO EVERY DRINK
+Dialogue: 0,0:00:43.02,0:00:43.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COMES
+Dialogue: 0,0:00:43.31,0:00:43.51,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:43.51,0:00:44.02,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COLD.
+Dialogue: 0,0:00:44.31,0:00:44.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE
+Dialogue: 0,0:00:44.50,0:00:44.75,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COLD
+Dialogue: 0,0:00:44.75,0:00:44.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIP,
+Dialogue: 0,0:00:44.95,0:00:45.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND NOBODY WANTS
+Dialogue: 0,0:00:45.94,0:00:46.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WARM DRINK
+Dialogue: 0,0:00:46.58,0:00:47.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVER AGAIN.
+Dialogue: 0,0:00:47.48,0:00:47.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SOON HIS
+Dialogue: 0,0:00:47.95,0:00:48.17,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:48.17,0:00:48.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAILS TO CUBA,
+Dialogue: 0,0:00:48.91,0:00:49.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO BRAZIL,
+Dialogue: 0,0:00:49.51,0:00:50.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVEN TO INDIA,
+Dialogue: 0,0:00:50.31,0:00:51.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOUR MONTHS AT
+Dialogue: 0,0:00:51.27,0:00:51.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SEA.
+Dialogue: 0,0:00:51.73,0:00:51.93,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:51.93,0:00:52.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CREAM,
+Dialogue: 0,0:00:52.23,0:00:52.48,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COLD
+Dialogue: 0,0:00:52.48,0:00:52.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEMONADE,
+Dialogue: 0,0:00:52.91,0:00:53.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A CLINKING GLASS
+Dialogue: 0,0:00:53.82,0:00:54.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN EVERY HAND.
+Dialogue: 0,0:00:54.82,0:00:55.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MAN EVERYONE
+Dialogue: 0,0:00:55.57,0:00:56.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LAUGHED AT BECOMES
+Dialogue: 0,0:00:56.40,0:00:56.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:56.58,0:00:56.76,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ICE
+Dialogue: 0,0:00:56.76,0:00:57.23,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}KING.
+Dialogue: 0,0:00:57.23,0:00:57.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THAT'S WHY
+Dialogue: 0,0:00:57.78,0:00:58.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FROZEN LAKE
+Dialogue: 0,0:00:58.34,0:00:58.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WENT TO THE
+Dialogue: 0,0:00:58.91,0:00:59.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TROPICS.
+Dialogue: 0,0:00:59.56,0:01:00.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOLLOW FOR A
+Dialogue: 0,0:01:00.17,0:01:00.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEIRD STORY EVERY
+Dialogue: 0,0:01:00.99,0:01:01.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY.
+Dialogue: 0,0:01:01.18,0:01:02.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE THIS ONE:
