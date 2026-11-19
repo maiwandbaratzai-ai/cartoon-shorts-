@@ -1,0 +1,7 @@
+Platform: YouTube Shorts — Channel B
+Type: true
+Title: Why the First Pilots Were a Sheep, Duck & Rooster
+Description: On 19 September 1783 at Versailles, the Montgolfier brothers sent a sheep, a duck and a rooster up in a hot-air balloon to test whether the sky was safe for people. They landed in a forest two miles away, and two months later humans flew.
+Hashtags: #shorts #hotairballoon #history #animals
+Script score: 25/30
+Guidelines: pass
