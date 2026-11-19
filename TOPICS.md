@@ -41,6 +41,7 @@
 - 2026-11-18 Tama the cat station master saves a railway, Kishi Station, Wakayama, Japan, 2007 (64 s, TikTok, story)
 - 2026-11-19 Raising of Chicago: the Tremont House jacked up with guests inside, Chicago, 1850s–60s (45 s, Channel A, story)
 - 2026-11-19 Montgolfier balloon flies a sheep, a duck and a rooster, Versailles, 1783 (45 s, Channel B, true)
+- 2026-11-19 Tulip mania: the sailor who ate a tulip bulb thinking it was an onion, Holland, 1637 (45 s, Channel A, story)
 
 ---
 Author: Maiwand
