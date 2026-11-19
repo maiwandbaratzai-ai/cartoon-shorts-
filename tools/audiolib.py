@@ -134,7 +134,7 @@ def sub(d=0.5, f0=52, drop=1.7):
 def thunk(f0=90, d=0.3, bass=0.7):
     n = int(d * SR); t = np.arange(n) / SR
     s = np.sin(2 * np.pi * f0 * t * (1 + 0.6 * np.exp(-t * 40))) * np.exp(-t * 14) + lp_fast(noise(d), 1200) * np.exp(-t * 30) * 0.5
-    out = np.zeros(int(max(d, 0.45) * SR), np.float32); out[:n] += s.astype(np.float32)
+    out = np.zeros(n, np.float32); out[:n] += s.astype(np.float32)   # length = d so callers can mix it (2026-11-19 fix)
     if bass: out += sub(len(out) / SR, 50) * bass
     return out
 def stomp(weight=1.0):

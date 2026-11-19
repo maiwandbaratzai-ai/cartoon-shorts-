@@ -39,6 +39,7 @@
 - 2026-11-18 Shoe-stealing fox with a stash of 117 shoes, inspired by Föhren 2009 / Berlin 2020 (30 s, Channel B, story)
 - 2026-11-18 Maple syrup heist from the emergency reserve, Quebec, 2011–12 (30 s, Channel A, story)
 - 2026-11-18 Tama the cat station master saves a railway, Kishi Station, Wakayama, Japan, 2007 (64 s, TikTok, story)
+- 2026-11-19 Raising of Chicago: the Tremont House jacked up with guests inside, Chicago, 1850s–60s (45 s, Channel A, story)
 
 ---
 Author: Maiwand
