@@ -42,6 +42,7 @@
 - 2026-11-19 Raising of Chicago: the Tremont House jacked up with guests inside, Chicago, 1850s–60s (45 s, Channel A, story)
 - 2026-11-19 Montgolfier balloon flies a sheep, a duck and a rooster, Versailles, 1783 (45 s, Channel B, true)
 - 2026-11-19 Tulip mania: the sailor who ate a tulip bulb thinking it was an onion, Holland, 1637 (45 s, Channel A, story)
+- 2026-11-19 Clever Hans, the horse who "did math" by reading faces, Berlin, 1904–1907 (45 s, Channel B, true)
 
 ---
 Author: Maiwand

@@ -1,0 +1,7 @@
+Platform: YouTube Shorts — Channel B
+Type: true
+Title: How a Horse Named Hans Did Math
+Description: Clever Hans tapped out answers to sums in early-1900s Berlin and fooled a 13-person expert commission, until psychologist Oskar Pfungst's blinder tests showed he was reading the faces of the people watching.
+Hashtags: #shorts #cleverhans #horse #psychology
+Script score: 25/30
+Guidelines: pass
