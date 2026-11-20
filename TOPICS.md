@@ -44,6 +44,7 @@
 - 2026-11-19 Tulip mania: the sailor who ate a tulip bulb thinking it was an onion, Holland, 1637 (45 s, Channel A, story)
 - 2026-11-19 Clever Hans, the horse who "did math" by reading faces, Berlin, 1904–1907 (45 s, Channel B, true)
 - 2026-11-19 Frederic Tudor, the Ice King, ships Boston ice to the Caribbean, 1806 (64 s, TikTok, story)
+- 2026-11-20 Tom Thumb steam engine races a stagecoach horse and loses, Baltimore, 1830 (45 s, Channel A, true)
 
 ---
 Author: Maiwand

@@ -1,0 +1,7 @@
+Platform: YouTube Shorts — Channel A
+Type: true
+Title: Why a Horse Beat the Train and Still Lost 🐴
+Description: In 1830 Peter Cooper's tiny steam engine Tom Thumb raced a stagecoach horse near Baltimore. A slipped blower belt let the horse win, but the railroad bet on steam anyway.
+Hashtags: #shorts #history #weirdhistory #tomthumb #trains
+Script score: 25/30
+Guidelines: pass
