@@ -1,0 +1,125 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY DID
+Dialogue: 0,0:00:00.55,0:00:01.35,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}73-YEAR-OLD
+Dialogue: 0,0:00:01.35,0:00:02.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALVIN STRAIGHT RIDE
+Dialogue: 0,0:00:02.46,0:00:03.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A LAWNMOWER
+Dialogue: 0,0:00:03.17,0:00:03.94,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}240
+Dialogue: 0,0:00:03.94,0:00:04.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MILES?
+Dialogue: 0,0:00:04.69,0:00:05.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOP SPEED:
+Dialogue: 0,0:00:05.18,0:00:05.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIVE MILES AN
+Dialogue: 0,0:00:05.90,0:00:06.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUR,
+Dialogue: 0,0:00:06.12,0:00:06.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOWING A LITTLE
+Dialogue: 0,0:00:06.90,0:00:07.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRAILER WITH HIS
+Dialogue: 0,0:00:07.70,0:00:08.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BED INSIDE.
+Dialogue: 0,0:00:08.48,0:00:08.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS
+Dialogue: 0,0:00:08.73,0:00:09.06,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BROTHER
+Dialogue: 0,0:00:09.06,0:00:09.31,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HENRY
+Dialogue: 0,0:00:09.31,0:00:09.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS SICK,
+Dialogue: 0,0:00:09.88,0:00:10.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FAR AWAY IN
+Dialogue: 0,0:00:10.40,0:00:10.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WISCONSIN,
+Dialogue: 0,0:00:10.81,0:00:11.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THEY HAVEN'T
+Dialogue: 0,0:00:11.66,0:00:12.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SPOKEN IN TEN
+Dialogue: 0,0:00:12.34,0:00:12.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YEARS.
+Dialogue: 0,0:00:12.94,0:00:13.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALVIN'S EYES ARE
+Dialogue: 0,0:00:13.66,0:00:14.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOO WEAK TO
+Dialogue: 0,0:00:14.36,0:00:14.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DRIVE A CAR,
+Dialogue: 0,0:00:14.92,0:00:15.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HE WON'T
+Dialogue: 0,0:00:15.56,0:00:16.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TAKE A BUS.
+Dialogue: 0,0:00:16.32,0:00:16.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HE HITCHES
+Dialogue: 0,0:00:16.91,0:00:17.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS TRAILER TO
+Dialogue: 0,0:00:17.53,0:00:17.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN OLD
+Dialogue: 0,0:00:17.84,0:00:18.09,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MOWER
+Dialogue: 0,0:00:18.09,0:00:18.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND PUTTERS ONTO
+Dialogue: 0,0:00:18.89,0:00:19.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:19.06,0:00:19.65,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HIGHWAY.
+Dialogue: 0,0:00:19.68,0:00:20.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRUCKS ROAR PAST
+Dialogue: 0,0:00:20.36,0:00:20.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIM.
+Dialogue: 0,0:00:20.52,0:00:21.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEIGHBORS SHAKE THEIR
+Dialogue: 0,0:00:21.47,0:00:21.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEADS.
+Dialogue: 0,0:00:21.83,0:00:22.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVEN THE COWS
+Dialogue: 0,0:00:22.40,0:00:22.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STARE.
+Dialogue: 0,0:00:22.90,0:00:23.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN,
+Dialogue: 0,0:00:23.10,0:00:23.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FEW DAYS
+Dialogue: 0,0:00:23.58,0:00:23.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT,
+Dialogue: 0,0:00:23.81,0:00:23.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:23.98,0:00:24.23,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MOWER
+Dialogue: 0,0:00:24.23,0:00:24.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COUGHS,
+Dialogue: 0,0:00:24.52,0:00:24.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SMOKES,
+Dialogue: 0,0:00:24.80,0:00:25.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND DIES.
+Dialogue: 0,0:00:25.46,0:00:26.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALVIN GETS TOWED
+Dialogue: 0,0:00:26.19,0:00:26.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOME.
+Dialogue: 0,0:00:26.51,0:00:27.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERYONE SAYS HE'S
+Dialogue: 0,0:00:27.29,0:00:27.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DONE.
+Dialogue: 0,0:00:27.74,0:00:28.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT ALVIN BUYS
+Dialogue: 0,0:00:28.45,0:00:29.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ANOTHER OLD
+Dialogue: 0,0:00:29.01,0:00:29.29,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MOWER
+Dialogue: 0,0:00:29.29,0:00:30.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR THREE HUNDRED
+Dialogue: 0,0:00:30.23,0:00:31.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOLLARS AND STARTS
+Dialogue: 0,0:00:31.19,0:00:31.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AGAIN.
+Dialogue: 0,0:00:31.72,0:00:32.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RAIN SOAKS HIM,
+Dialogue: 0,0:00:32.21,0:00:32.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SUN BAKES
+Dialogue: 0,0:00:32.68,0:00:32.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIM,
+Dialogue: 0,0:00:32.82,0:00:33.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THEN HIS
+Dialogue: 0,0:00:33.34,0:00:34.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MONEY RUNS OUT!
+Dialogue: 0,0:00:34.10,0:00:34.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HE CAMPS
+Dialogue: 0,0:00:34.60,0:00:35.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BESIDE THE ROAD
+Dialogue: 0,0:00:35.41,0:00:35.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR DAYS,
+Dialogue: 0,0:00:35.77,0:00:36.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAITING FOR HIS
+Dialogue: 0,0:00:36.59,0:00:37.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PENSION CHECK.
+Dialogue: 0,0:00:37.59,0:00:38.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN IT GETS
+Dialogue: 0,0:00:38.15,0:00:38.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WORSE.
+Dialogue: 0,0:00:38.48,0:00:38.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE NEW
+Dialogue: 0,0:00:38.83,0:00:39.08,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MOWER
+Dialogue: 0,0:00:39.08,0:00:39.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BREAKS DOWN ON
+Dialogue: 0,0:00:39.72,0:00:40.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A HILL,
+Dialogue: 0,0:00:40.02,0:00:41.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MILES FROM ANYWHERE.
+Dialogue: 0,0:00:41.18,0:00:41.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRANGERS STOP.
+Dialogue: 0,0:00:41.81,0:00:42.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FARMER FIXES
+Dialogue: 0,0:00:42.75,0:00:43.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE ENGINE.
+Dialogue: 0,0:00:43.22,0:00:44.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FAMILY FEEDS
+Dialogue: 0,0:00:44.18,0:00:44.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIM SUPPER.
+Dialogue: 0,0:00:44.99,0:00:45.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIX WEEKS LATER,
+Dialogue: 0,0:00:45.77,0:00:46.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TINY
+Dialogue: 0,0:00:46.12,0:00:46.41,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MOWER
+Dialogue: 0,0:00:46.41,0:00:47.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLLS UP TO
+Dialogue: 0,0:00:47.08,0:00:47.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FARMHOUSE IN
+Dialogue: 0,0:00:47.90,0:00:48.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WISCONSIN.
+Dialogue: 0,0:00:48.82,0:00:49.08,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HENRY
+Dialogue: 0,0:00:49.08,0:00:49.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STEPS OUTSIDE,
+Dialogue: 0,0:00:49.70,0:00:50.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SEES THE
+Dialogue: 0,0:00:50.11,0:00:50.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MOWER,
+Dialogue: 0,0:00:50.38,0:00:50.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND CAN'T SAY
+Dialogue: 0,0:00:50.98,0:00:51.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WORD.
+Dialogue: 0,0:00:51.63,0:00:52.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BECAUSE ALVIN HAD
+Dialogue: 0,0:00:52.50,0:00:53.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO COME BY
+Dialogue: 0,0:00:53.06,0:00:53.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIMSELF.
+Dialogue: 0,0:00:53.73,0:00:54.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TEN YEARS OF
+Dialogue: 0,0:00:54.38,0:00:54.76,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SILENCE
+Dialogue: 0,0:00:54.76,0:00:55.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEEDED ONE SLOW,
+Dialogue: 0,0:00:55.54,0:00:56.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STUBBORN TRIP.
+Dialogue: 0,0:00:56.68,0:00:57.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TWO BROTHERS
+Dialogue: 0,0:00:57.37,0:00:57.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIT ON THE
+Dialogue: 0,0:00:57.90,0:00:58.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PORCH TOGETHER,
+Dialogue: 0,0:00:58.60,0:00:59.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND NOBODY NEEDS
+Dialogue: 0,0:00:59.29,0:00:59.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO TALK.
+Dialogue: 0,0:01:00.03,0:01:00.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THAT'S WHY
+Dialogue: 0,0:01:00.81,0:01:01.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN OLD MAN
+Dialogue: 0,0:01:01.44,0:01:02.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RODE A LAWNMOWER
+Dialogue: 0,0:01:02.45,0:01:03.14,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}240
+Dialogue: 0,0:01:03.14,0:01:03.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MILES.
+Dialogue: 0,0:01:03.72,0:01:04.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOLLOW FOR A
+Dialogue: 0,0:01:04.28,0:01:05.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEIRD STORY EVERY
+Dialogue: 0,0:01:05.04,0:01:05.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY.
+Dialogue: 0,0:01:05.22,0:01:06.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE THIS ONE:
