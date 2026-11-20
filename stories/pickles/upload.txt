@@ -1,0 +1,7 @@
+Platform: YouTube Shorts — Channel B
+Type: true
+Title: How a Dog Named Pickles Saved the World Cup 🐶
+Description: In March 1966 the stolen World Cup trophy turned up wrapped in newspaper under a London hedge, found by a collie named Pickles. His owner was questioned by police, and Pickles ended up at England's victory party.
+Hashtags: #shorts #dogs #worldcup #history #pickles
+Script score: 25/30
+Guidelines: pass

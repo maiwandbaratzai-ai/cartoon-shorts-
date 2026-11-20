@@ -47,6 +47,7 @@
 - 2026-11-20 Tom Thumb steam engine races a stagecoach horse and loses, Baltimore, 1830 (45 s, Channel A, true)
 - 2026-11-20 Cardiff Giant hoax and P. T. Barnum's plaster copy, Cardiff, New York, 1869 (45 s, Channel A, true)
 - 2026-11-20 Gérard de Nerval walks his lobster Thibault on a blue ribbon, Paris palace garden, 1840s (45 s, Channel B, story)
+- 2026-11-20 Pickles the collie finds the stolen World Cup trophy under a hedge, London, 1966 (45 s, Channel B, true)
 
 ---
 Author: Maiwand
