@@ -1,0 +1,86 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY DID POET
+Dialogue: 0,0:00:00.81,0:00:01.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GÉRARD DE NERVAL
+Dialogue: 0,0:00:01.70,0:00:02.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WALK A
+Dialogue: 0,0:00:02.09,0:00:02.49,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LOBSTER
+Dialogue: 0,0:00:02.49,0:00:03.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THROUGH PARIS?
+Dialogue: 0,0:00:03.57,0:00:03.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:03.75,0:00:04.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LOBSTER
+Dialogue: 0,0:00:04.10,0:00:05.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS NAMED THIBAULT,
+Dialogue: 0,0:00:05.01,0:00:05.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HIS LEASH
+Dialogue: 0,0:00:05.77,0:00:06.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS A BLUE
+Dialogue: 0,0:00:06.24,0:00:06.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SILK
+Dialogue: 0,0:00:06.59,0:00:07.13,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIBBON.
+Dialogue: 0,0:00:07.13,0:00:07.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LADIES GASP,
+Dialogue: 0,0:00:07.66,0:00:08.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KIDS GIGGLE,
+Dialogue: 0,0:00:08.28,0:00:08.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND A
+Dialogue: 0,0:00:08.56,0:00:08.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POODLE
+Dialogue: 0,0:00:08.87,0:00:09.13,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BARKS
+Dialogue: 0,0:00:09.13,0:00:09.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT IT FROM
+Dialogue: 0,0:00:09.74,0:00:10.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A BENCH.
+Dialogue: 0,0:00:10.39,0:00:11.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GÉRARD TIPS HIS
+Dialogue: 0,0:00:11.09,0:00:11.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT AND KEEPS
+Dialogue: 0,0:00:11.86,0:00:12.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON STROLLING,
+Dialogue: 0,0:00:12.43,0:00:13.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PROUD AS A
+Dialogue: 0,0:00:13.03,0:00:13.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KING.
+Dialogue: 0,0:00:13.60,0:00:14.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THIBAULT SNAPS
+Dialogue: 0,0:00:14.46,0:00:15.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT A PIGEON,
+Dialogue: 0,0:00:15.06,0:00:15.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE WHOLE
+Dialogue: 0,0:00:15.77,0:00:16.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GARDEN SCREAMS!
+Dialogue: 0,0:00:16.75,0:00:17.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A GENTLEMAN JUMPS
+Dialogue: 0,0:00:17.50,0:00:17.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACKWARD,
+Dialogue: 0,0:00:17.91,0:00:18.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT INTO THE
+Dialogue: 0,0:00:18.50,0:00:19.08,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FOUNTAIN!
+Dialogue: 0,0:00:19.08,0:00:19.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO A POLICEMAN
+Dialogue: 0,0:00:19.88,0:00:20.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARCHES OVER AND
+Dialogue: 0,0:00:20.77,0:00:21.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ASKS:
+Dialogue: 0,0:00:21.26,0:00:21.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"MONSIEUR,
+Dialogue: 0,0:00:21.72,0:00:22.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY A
+Dialogue: 0,0:00:22.06,0:00:22.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LOBSTER?"
+Dialogue: 0,0:00:22.66,0:00:23.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT IT GETS
+Dialogue: 0,0:00:23.23,0:00:23.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WORSE.
+Dialogue: 0,0:00:23.61,0:00:24.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THIBAULT SITS DOWN,
+Dialogue: 0,0:00:24.48,0:00:25.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND REFUSES TO
+Dialogue: 0,0:00:25.27,0:00:25.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOVE.
+Dialogue: 0,0:00:25.85,0:00:26.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A CROWD CIRCLES
+Dialogue: 0,0:00:26.65,0:00:26.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEM.
+Dialogue: 0,0:00:26.90,0:00:27.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}REPORTERS SCRIBBLE.
+Dialogue: 0,0:00:27.89,0:00:28.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SOME PEOPLE BET
+Dialogue: 0,0:00:28.90,0:00:29.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'S MAD.
+Dialogue: 0,0:00:29.82,0:00:30.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN GÉRARD FINALLY
+Dialogue: 0,0:00:30.88,0:00:31.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ANSWERS.
+Dialogue: 0,0:00:31.51,0:00:31.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"WHY IS A
+Dialogue: 0,0:00:31.96,0:00:32.32,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LOBSTER
+Dialogue: 0,0:00:32.32,0:00:33.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SILLIER THAN A
+Dialogue: 0,0:00:33.03,0:00:33.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOG?
+Dialogue: 0,0:00:33.43,0:00:33.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT'S CALM,
+Dialogue: 0,0:00:33.86,0:00:34.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT'S SERIOUS,
+Dialogue: 0,0:00:34.60,0:00:35.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND IT KNOWS
+Dialogue: 0,0:00:35.15,0:00:35.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SECRETS OF
+Dialogue: 0,0:00:35.79,0:00:36.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SEA.
+Dialogue: 0,0:00:36.14,0:00:36.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND IT NEVER
+Dialogue: 0,0:00:36.79,0:00:37.35,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BARKS."
+Dialogue: 0,0:00:37.35,0:00:37.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT THEN,
+Dialogue: 0,0:00:37.92,0:00:38.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:38.11,0:00:38.42,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POODLE
+Dialogue: 0,0:00:38.42,0:00:38.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BARKS.
+Dialogue: 0,0:00:38.87,0:00:39.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERYBODY TURNS AND
+Dialogue: 0,0:00:39.77,0:00:40.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STARES AT THE
+Dialogue: 0,0:00:40.49,0:00:41.07,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POODLE.
+Dialogue: 0,0:00:41.07,0:00:41.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THAT'S WHY
+Dialogue: 0,0:00:41.73,0:00:42.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A POET WALKS
+Dialogue: 0,0:00:42.36,0:00:42.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:42.46,0:00:42.83,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LOBSTER
+Dialogue: 0,0:00:42.83,0:00:43.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THROUGH PARIS.
