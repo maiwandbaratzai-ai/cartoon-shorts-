@@ -1,0 +1,90 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY DID A
+Dialogue: 0,0:00:00.55,0:00:00.76,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPY
+Dialogue: 0,0:00:00.76,0:00:01.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF THE CARDIFF
+Dialogue: 0,0:00:01.39,0:00:01.64,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GIANT
+Dialogue: 0,0:00:01.64,0:00:02.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEAT THE ORIGINAL
+Dialogue: 0,0:00:02.51,0:00:02.98,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FAKE?
+Dialogue: 0,0:00:03.21,0:00:04.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO FARMHANDS DIG
+Dialogue: 0,0:00:04.04,0:00:04.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WELL,
+Dialogue: 0,0:00:04.33,0:00:05.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THEIR SHOVELS
+Dialogue: 0,0:00:05.04,0:00:05.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIT A STONE
+Dialogue: 0,0:00:05.54,0:00:06.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOOT.
+Dialogue: 0,0:00:06.12,0:00:06.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN A LEG.
+Dialogue: 0,0:00:06.60,0:00:07.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN A TEN-FOOT
+Dialogue: 0,0:00:07.31,0:00:07.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STONE MAN,
+Dialogue: 0,0:00:07.74,0:00:08.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CURLED UP LIKE
+Dialogue: 0,0:00:08.45,0:00:09.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'S ASLEEP.
+Dialogue: 0,0:00:09.37,0:00:10.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PEOPLE CALL IT
+Dialogue: 0,0:00:10.03,0:00:10.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A PETRIFIED
+Dialogue: 0,0:00:10.62,0:00:10.88,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GIANT,
+Dialogue: 0,0:00:10.88,0:00:11.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THEY LINE
+Dialogue: 0,0:00:11.56,0:00:12.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP FOR MILES
+Dialogue: 0,0:00:12.26,0:00:12.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO SEE IT.
+Dialogue: 0,0:00:12.99,0:00:13.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FARMER THROWS
+Dialogue: 0,0:00:13.75,0:00:14.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP A TENT
+Dialogue: 0,0:00:14.26,0:00:15.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND CHARGES FIFTY
+Dialogue: 0,0:00:15.08,0:00:15.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CENTS A LOOK.
+Dialogue: 0,0:00:15.96,0:00:16.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THOUSANDS COME EVERY
+Dialogue: 0,0:00:16.81,0:00:16.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY,
+Dialogue: 0,0:00:16.98,0:00:17.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND WAGONS JAM
+Dialogue: 0,0:00:17.61,0:00:18.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE ROADS!
+Dialogue: 0,0:00:18.36,0:00:19.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SCIENTISTS CALL IT
+Dialogue: 0,0:00:19.29,0:00:20.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A CARVED STATUE.
+Dialogue: 0,0:00:20.17,0:00:21.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOBODY LISTENS.
+Dialogue: 0,0:00:21.18,0:00:21.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN IT GETS
+Dialogue: 0,0:00:21.80,0:00:22.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEIRDER.
+Dialogue: 0,0:00:22.25,0:00:22.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}P.T.
+Dialogue: 0,0:00:22.41,0:00:22.73,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BARNUM
+Dialogue: 0,0:00:22.73,0:00:24.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFFERS FIFTY THOUSAND
+Dialogue: 0,0:00:24.00,0:00:24.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOLLARS TO RENT
+Dialogue: 0,0:00:24.77,0:00:24.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:24.96,0:00:25.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GIANT.
+Dialogue: 0,0:00:25.59,0:00:26.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE OWNERS SAY
+Dialogue: 0,0:00:26.30,0:00:26.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NO,
+Dialogue: 0,0:00:26.45,0:00:26.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO
+Dialogue: 0,0:00:26.69,0:00:27.01,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BARNUM
+Dialogue: 0,0:00:27.01,0:00:27.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUILDS HIS OWN
+Dialogue: 0,0:00:27.73,0:00:28.01,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GIANT
+Dialogue: 0,0:00:28.01,0:00:28.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT OF
+Dialogue: 0,0:00:28.44,0:00:29.06,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PLASTER!
+Dialogue: 0,0:00:29.06,0:00:29.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SHOWS IT
+Dialogue: 0,0:00:29.58,0:00:30.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN NEW YORK
+Dialogue: 0,0:00:30.17,0:00:30.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND SWEARS HIS
+Dialogue: 0,0:00:30.90,0:00:31.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS THE REAL
+Dialogue: 0,0:00:31.42,0:00:31.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE.
+Dialogue: 0,0:00:32.08,0:00:32.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND MORE PEOPLE
+Dialogue: 0,0:00:32.79,0:00:33.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PAY TO SEE
+Dialogue: 0,0:00:33.29,0:00:33.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARNUM'S
+Dialogue: 0,0:00:33.64,0:00:33.93,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPY
+Dialogue: 0,0:00:33.93,0:00:34.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAN THE ORIGINAL.
+Dialogue: 0,0:00:34.97,0:00:35.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BECAUSE THE FIRST
+Dialogue: 0,0:00:35.69,0:00:35.94,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GIANT
+Dialogue: 0,0:00:35.94,0:00:36.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS
+Dialogue: 0,0:00:36.17,0:00:36.48,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FAKE
+Dialogue: 0,0:00:36.48,0:00:36.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOO.
+Dialogue: 0,0:00:36.65,0:00:37.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GEORGE HULL HAD
+Dialogue: 0,0:00:37.45,0:00:38.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT CARVED AND
+Dialogue: 0,0:00:38.10,0:00:38.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURIED.
+Dialogue: 0,0:00:38.71,0:00:39.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HULL'S JOKE MADE
+Dialogue: 0,0:00:39.48,0:00:39.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIM RICH,
+Dialogue: 0,0:00:39.93,0:00:40.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND BARNUM'S
+Dialogue: 0,0:00:40.44,0:00:40.65,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPY
+Dialogue: 0,0:00:40.65,0:00:41.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF THE JOKE
+Dialogue: 0,0:00:41.24,0:00:42.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MADE HIM RICHER.
+Dialogue: 0,0:00:42.28,0:00:42.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHICH
+Dialogue: 0,0:00:42.64,0:00:42.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GIANT
+Dialogue: 0,0:00:42.87,0:00:43.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS THE REAL
+Dialogue: 0,0:00:43.40,0:00:43.98,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FAKE?

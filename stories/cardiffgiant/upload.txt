@@ -1,0 +1,7 @@
+Platform: YouTube Shorts — Channel A
+Type: true
+Title: Why a Copy of a Fake Giant Beat the Original
+Description: In 1869 farmhands in Cardiff, New York dug up a 10-foot "petrified giant" that George Hull had carved and buried; P. T. Barnum built his own plaster copy and outdrew the original.
+Hashtags: #shorts #history #hoax #cardiffgiant #barnum
+Script score: 27/30
+Guidelines: pass
