@@ -11,6 +11,7 @@ import * as LK from './look.js';
 import * as R3 from './rig3d.js';
 import * as AN from './animals3d.js';
 import { initFX } from './fx.js';
+import { initSet } from './set3d.js';
 
 const W = 1080, H = 1920;
 const canvas = document.getElementById('c');
@@ -367,6 +368,7 @@ const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.g
 const S = (await import(`./s/${story}.js`)).default;
 LOOK = QS.get('look') || S.look || 'rich';
 FX = initFX(K); K.fx = FX;
+K.set = initSet(K);   // detailed set dressing: K.set.building/street/car/tree/trafficLight/sign/... (web/set3d.js)
 for (const n of ['paint', 'gold', 'chrome', 'glass', 'rbox', 'sparks', 'rain', 'steam', 'leaves', 'leafLitter', 'holo', 'holoBox', 'trace', 'badge', 'hud', 'mist']) K[n] = FX[n];
 await S.build(K);
 

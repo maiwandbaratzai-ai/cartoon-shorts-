@@ -268,3 +268,10 @@ A 61 s invented fable with ~22K likes. What makes it work, now in the kit:
 - **Atmosphere:** sparks, steam plumes, rain, falling leaves, season changes with a white mist wipe
   (`K.sparks`, `K.steam`, `K.rain`, `K.leaves`, `K.leafLitter`, `K.mist`). Warm, saturated, glowing grade.
 
+### Reference study #2: "Why This Town Removed Every Traffic Light" (2026-11-21, shared by Maiwand)
+Same channel, same fable formula (strange act → "You see," → people protest → it gets worse → reveal → callback).
+The lesson here is DETAIL DENSITY: every frame is packed with small, well-made objects (framed windows, shutters,
+awnings with shop names, gables, zebra crossings, bike lanes, poles, signs, lights, bollards, bikes, parked cars,
+background people, protest signs with words). Now in the kit: `K.set` builders (web/set3d.js, demo web/s/town.js)
+and the "Detail density" rules in LOOK.md.
+

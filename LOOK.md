@@ -67,6 +67,26 @@ Our weakest point vs. top channels was not the characters, it was everything aro
   low track-level angles, telephoto head-on of racers, macro on the key part, tracking alongside. Big props hide
   drivers from the side: shoot from the front quarter or higher.
 
+## Detail density: fill every frame (reference study 2026-11-21 #2, "Why This Town Removed Every Traffic Light")
+Top channels look rich because EVERY frame is packed with small, well-made objects, not because of one fancy model.
+Build sets from the detailed builders in `K.set` (web/set3d.js; see web/s/town.js for a whole street):
+- `K.set.building({ w, d, floors, color, kind, gable: 'step'|'bell'|'pitched'|'flat', shop: 'BAKERY', awning, shutters, flowers, seed })`
+  real framed windows with mullions, sills and lintels, shutters, flower boxes, doors with steps and knobs, shop
+  windows with a readable sign and striped awning, cornices, gables, tiled roofs, chimneys.
+- `K.set.street({ len, width, sidewalk, crossings: [x...] })` asphalt, curbs, red bike lanes, dashes, zebra crossings, brick herringbone sidewalks.
+- `K.set.car({ kind: 'hatch'|'van'|'taxi', color })` glossy cars with glass, chrome bumpers, lights, plates, mirrors (`.wheels` to spin).
+- `K.set.trafficLight()` (`.set('red'|'amber'|'green')` lights up), `K.set.sign('yield'|'warn'|'stop'|'arrow'|'noentry'|'bike'|'parking')`,
+  `K.set.streetLamp()`, `K.set.bollard()`, `K.set.bench()`, `K.set.bin()`, `K.set.planter()`, `K.set.tree({ h, colors })`, `K.set.bike()`.
+- Words on things: `K.set.protestSign('MORE|LIGHTS!')`, `K.set.board('CRASHES|BEFORE: 8  NOW: 2')`, `K.set.textMat(text)` for any shop sign,
+  crate label, poster or banner. Readable words on props are a cheap, strong detail — use 2+ per video.
+- Background people: `K.set.extras(n, { x0, len, z })` + `K.set.extrasFrame(f, list, K.T)` every frame (walkers + idlers, varied outfits).
+- `K.set.bake(group)` merges a static group into a few meshes: ALWAYS bake custom static scenery so dense sets stay fast.
+**Minimum per shot:** 3 depth layers (foreground object, subject, busy background) and at least 8 distinct set
+objects visible in wide shots; no empty ground (markings, texture, leaves, props) and no blank walls (windows,
+signs, pipes, posters). Characters: 3+ outfit details each, plus a carried prop where it fits (basket, bag, sign).
+For other settings (farm, port, factory, kitchen, station...) write the same kind of builders: many small parts,
+real bevels and trims, then bake.
+
 ## Shot rules (you do these in each story)
 
 - **Every shot moves the camera** (Maiwand 2026-11-18): slow push-in `fov: 40 * K.push(u)` (100% → 112%), a pan following
