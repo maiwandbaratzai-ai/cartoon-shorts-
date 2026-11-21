@@ -46,7 +46,7 @@ export function initSet(K) {
   const herringbone = (c1, c2) => canvasTex(512, 512, (g, w, h) => { g.fillStyle = '#5a3a2e'; g.fillRect(0, 0, w, h); let n = 0;
     for (let y = -64; y < h + 64; y += 32) for (let x = -64; x < w + 64; x += 32) { n++; const sh = (hash(n) - 0.5) * 0.18; g.fillStyle = hash(n + 3) > 0.5 ? c1 : c2; g.globalAlpha = 0.85 + sh;
       g.save(); g.translate(x, y); g.rotate(((x + y) / 32) % 2 ? Math.PI / 4 : -Math.PI / 4); g.fillRect(-14, -6, 28, 12); g.restore(); } g.globalAlpha = 1; }, [8, 8]);
-  const asphalt = () => canvasTex(512, 512, (g, w, h) => { g.fillStyle = '#4a4a50'; g.fillRect(0, 0, w, h); for (let i = 0; i < 9000; i++) { g.fillStyle = `rgba(${hash(i) > 0.5 ? 255 : 0},${hash(i) > 0.5 ? 255 : 0},${hash(i) > 0.5 ? 255 : 0},${0.05 + hash(i + 1) * 0.08})`; g.fillRect(hash(i + 2) * w, hash(i + 3) * h, 2, 2); } }, [6, 6]);
+  const asphalt = () => canvasTex(512, 512, (g, w, h) => { g.fillStyle = '#62606a'; g.fillRect(0, 0, w, h); for (let i = 0; i < 9000; i++) { g.fillStyle = `rgba(${hash(i) > 0.5 ? 255 : 0},${hash(i) > 0.5 ? 255 : 0},${hash(i) > 0.5 ? 255 : 0},${0.05 + hash(i + 1) * 0.08})`; g.fillRect(hash(i + 2) * w, hash(i + 3) * h, 2, 2); } }, [6, 6]);
   const tiles = (c) => canvasTex(256, 256, (g, w, h) => { g.fillStyle = c; g.fillRect(0, 0, w, h); for (let y = 0; y < h; y += 22) for (let x = ((y / 22) % 2) * 16; x < w + 32; x += 32) { g.fillStyle = `rgba(0,0,0,${0.12 + hash(x * 7 + y) * 0.15})`; g.beginPath(); g.arc(x, y + 22, 16, Math.PI, 0); g.fill(); g.strokeStyle = 'rgba(0,0,0,.35)'; g.lineWidth = 2; g.stroke(); } }, [4, 4]);
   const stripes = (a, b, n = 8) => canvasTex(256, 128, (g, w, h) => { for (let i = 0; i < n; i++) { g.fillStyle = i % 2 ? b : a; g.fillRect(i * w / n, 0, w / n, h); } });
 

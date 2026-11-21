@@ -3,6 +3,7 @@
 // Copy the build() of this file whenever a story happens in a town, street or square.
 import { blinkAt, lerp, clamp } from '../motion.js';
 export const TOTAL = 180;
+const QS_LIGHT = new URLSearchParams(location.search).get('light') || 'golden';
 let LIGHT, CARS = [], BIKE, EXTRAS, HERO, GRAN, PROT = [];
 export default {
   TOTAL, look: 'rich',
@@ -52,7 +53,6 @@ export default {
     if (sh(0, 60)) { cam = { pos: [lerp(13, 9, u), 8.5, 5.5], look: [-2, 0.8, -3], fov: 42 }; dof = { focus: 14, cinf: 3 }; }                 // wide: the whole busy street
     else if (sh(60, 120)) { cam = { pos: [lerp(1.6, 1.2, u), 1.7, lerp(-1.4, -1.8, u)], look: [-0.5, 1.5, -5.2], fov: 38 }; dof = { focus: 3.8, cinf: 12 }; } // hero + gran, street behind
     else { cam = { pos: [lerp(-8, -6, u), 1.1, 3.2], look: [0, 1.6, -6], fov: 34 }; dof = { focus: 9, cinf: 6 }; }                                   // low across the crossing
-    return { light: { az: 210, el: 26, sky: '#cfe4f4', ground: '#b85a3e', hemi: 1.0, sun: '#ffe2b0', sunI: 3.3, skyTop: '#3f7ad0', skyHor: '#f0dcc0',
-      fog: '#e8dcc8', fogNear: 40, fogFar: 220, shadowExt: 26, sat: 1.18 }, cam, dof, actors: [], fx: [] };
+    return { light: K.light(QS_LIGHT), cam, dof, actors: [], fx: [] };
   },
 };

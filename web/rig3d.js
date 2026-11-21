@@ -68,9 +68,10 @@ export function stick(K, o, opts = {}) {
   const root = new THREE.Group(); (opts.parent || K.scene).add(root);
   const stout = o.build === 'stout', kid = o.build === 'kid', sc = kid ? 0.72 : 1;
   root.userData.base = sc;
-  const jacket = K.toon({ color: o.jacket || '#4f7fb8', kind: 'fabric', amt: 0.25, bump: 0.002 });
-  const limbMat = K.toon({ color: T.mix(o.jacket || '#4f7fb8', T.INK, 0.5), plain: true, roughness: 0.6 });
-  const legMat = K.toon({ color: T.mix(o.pants || '#333', T.INK, 0.55), plain: true, roughness: 0.6 });
+  const jacket = opts.style !== 'classic' ? K.toon({ color: o.jacket || '#4f7fb8', plain: true, roughness: 0.75 }) : K.toon({ color: o.jacket || '#4f7fb8', kind: 'fabric', amt: 0.25, bump: 0.002 });
+  const STY = opts.style !== 'classic';   // 'ref' style (2026-11-21): dark stick limbs, bigger head, bold outlines, flatter cartoon shading
+  const limbMat = K.toon({ color: T.mix(o.jacket || '#4f7fb8', T.INK, STY ? 0.82 : 0.5), plain: true, roughness: 0.6 });
+  const legMat = K.toon({ color: T.mix(o.pants || '#333', T.INK, STY ? 0.85 : 0.55), plain: true, roughness: 0.6 });
   const shoeMat = K.toon({ color: o.boots || '#2a2018', plain: true, roughness: 0.45 });
   const handMat = K.toon({ color: o.gloves || T.INK, plain: true, roughness: 0.5 });
   const skinMat = new THREE.MeshStandardMaterial({ color: '#ffffff', roughness: 0.62 });
@@ -83,7 +84,7 @@ export function stick(K, o, opts = {}) {
   const torso = new THREE.Mesh(new THREE.LatheGeometry(prof, 40), jacket); torso.position.y = -0.06; torso.scale.z = 0.86; body.add(torso);
   for (let i = 0; i < 3; i++) { const b = new THREE.Mesh(new THREE.SphereGeometry(0.014, 10, 8), K.toon({ color: T.shade(o.jacket || '#4f7fb8', 0.55), plain: true })); b.position.set(0, 0.16 + i * 0.11, R * 0.86 * 0.98); body.add(b); }
   // head
-  const neck = new THREE.Group(); neck.position.y = BH - 0.1; body.add(neck);
+  const neck = new THREE.Group(); neck.position.y = BH - 0.1; body.add(neck); if (STY) neck.scale.setScalar(opts.head ?? 1.14);
   const head = new THREE.Mesh(new THREE.SphereGeometry(0.245, 48, 32), skinMat); head.position.y = 0.2; head.scale.set(1.0, 0.94, 0.9); neck.add(head);
   // hats
   const hatCol = o.hat === 'cap' ? (o.cap || '#c89a3a') : o.hat === 'hair' ? (o.hair || '#3b2a20') : '#22222a';
@@ -159,12 +160,12 @@ export function stick(K, o, opts = {}) {
   const itemHolder = new THREE.Group(); root.add(itemHolder);
   const items = buildItems(K, itemHolder);
   // cartoon readability: a little self-light so characters never sink into dark sets (opts.glow, default 0.22)
-  const glow = opts.glow ?? 0.22;
+  const glow = opts.glow ?? (STY ? 0.3 : 0.22);
   root.traverse((m) => { if (m.isMesh) { m.castShadow = true; m.receiveShadow = true;
     if (m.material && m.material.emissive && m.material !== skinMat && !m.material.userData.lit) { m.material.emissive.copy(m.material.color).multiplyScalar(glow); m.material.userData.lit = true; } } });
   skinMat.emissive.set('#ffffff'); skinMat.emissiveIntensity = glow * 1.1;
   // rim light: a soft glowing edge so characters pop off the background (opts.rim colour/strength)
-  const rimCol = new THREE.Color(opts.rimColor || '#fff1d6'), rimK = opts.rim ?? 0.55;
+  const rimCol = new THREE.Color(opts.rimColor || '#fff1d6'), rimK = opts.rim ?? (STY ? 0.12 : 0.55);
   root.traverse((m) => { if (!m.isMesh || !m.material || m.material.userData.rim) return; const mt = m.material; mt.userData.rim = true;
     const prev = mt.onBeforeCompile; const pk = mt.customProgramCacheKey ? mt.customProgramCacheKey.bind(mt) : null;
     mt.onBeforeCompile = function (sh, r) { if (prev) prev.call(this, sh, r); sh.uniforms.uRimC = { value: rimCol }; sh.uniforms.uRimK = { value: rimK };
@@ -172,6 +173,14 @@ export function stick(K, o, opts = {}) {
         .replace('#include <opaque_fragment>', '{ float fr = pow(1.0 - clamp(abs(dot(normalize(normal), normalize(vViewPosition))), 0.0, 1.0), 3.0); outgoingLight += uRimC * fr * uRimK; }\n#include <opaque_fragment>'); };
     mt.customProgramCacheKey = () => 'rim' + (pk ? pk() : '') + (prev ? 'p' : ''); mt.needsUpdate = true; });
 
+  // bold cartoon outline (inverted hull, constant thickness on screen) on every solid part of the character
+  if (STY && opts.outline !== false) {
+    const om = new THREE.ShaderMaterial({ side: THREE.BackSide, uniforms: { c: { value: new THREE.Color(opts.outlineColor || '#16110e') }, w: { value: opts.outlineW ?? 0.0016 } },
+      vertexShader: 'uniform float w; void main(){ vec4 mv = modelViewMatrix * vec4(position, 1.); vec3 n = normalize(normalMatrix * normal); mv.xyz += n * w * max(-mv.z, .5); gl_Position = projectionMatrix * mv; }',
+      fragmentShader: 'uniform vec3 c; void main(){ gl_FragColor = vec4(c, 1.); }' });
+    const list = []; root.traverse((m) => { if (m.isMesh && !m.userData.outline && m.material && !m.material.transparent && !sweat.includes(m)) list.push(m); });
+    for (const m of list) { const ol = new THREE.Mesh(m.geometry, om); ol.userData.outline = true; ol.userData.ndSkip = true; ol.castShadow = false; ol.receiveShadow = false; ol.renderOrder = -1; m.add(ol); }
+  }
   const w = new THREE.Vector3();
   const api = {
     root, head, body,

@@ -67,6 +67,16 @@ Our weakest point vs. top channels was not the characters, it was everything aro
   low track-level angles, telephoto head-on of racers, macro on the key part, tracking alongside. Big props hide
   drivers from the side: shoot from the front quarter or higher.
 
+## Movie light + stylised characters (2026-11-21, Maiwand: "make it good")
+- **Light: always start from a preset:** `light: K.light('golden', { az, el })` (also 'day', 'morning', 'overcast',
+  'night', 'interior'). Presets give warm low sun, a cool sky fill that lifts the shadows, soft blurred shadows,
+  glowing bloom, and a film grade (cool shadows, warm highlights, gentle contrast curve, vignette). Only override
+  what the scene needs (usually `az`/`el` so the sun hits the faces and the front of the set, or `shadowExt`).
+  Point the sun at what the camera sees: if a whole street or a face is in shadow, turn `az`, raise `el`.
+- **Characters are stylised by default:** bold dark outline around every part, bigger head (×1.14), dark stick
+  limbs, flat cartoon clothing colours (no fabric noise), soft rim. `K.stick(o, { head: 1.2 })` for an even bigger
+  head, `{ outlineW: 0.002 }` for a thicker line, `{ style: 'classic' }` for the old look.
+
 ## Detail density: fill every frame (reference study 2026-11-21 #2, "Why This Town Removed Every Traffic Light")
 Top channels look rich because EVERY frame is packed with small, well-made objects, not because of one fancy model.
 Build sets from the detailed builders in `K.set` (web/set3d.js; see web/s/town.js for a whole street):

@@ -17,7 +17,7 @@ const W = 1080, H = 1920;
 const canvas = document.getElementById('c');
 const renderer = new THREE.WebGLRenderer({ canvas, antialias: false, preserveDrawingBuffer: true });
 renderer.setPixelRatio(1); renderer.setSize(W, H, false);
-renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.shadowMap.enabled = true; renderer.shadowMap.type = new URLSearchParams(location.search).get('sm') === 'pcf' ? THREE.PCFSoftShadowMap : THREE.VSMShadowMap;   // soft, blurred shadows (movie look, 2026-11-21)
 renderer.outputColorSpace = THREE.SRGBColorSpace; renderer.toneMapping = THREE.NoToneMapping;
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(40, W / H, 0.05, 2500);
@@ -72,7 +72,7 @@ const sky = new THREE.Mesh(new THREE.SphereGeometry(2000, 32, 16), new THREE.Sha
 sky.userData.ndSkip = true; scene.add(sky);
 const hemi = new THREE.HemisphereLight('#ffffff', '#ffffff', 1); scene.add(hemi);
 const sun = new THREE.DirectionalLight('#ffffff', 2); sun.castShadow = true;
-sun.shadow.mapSize.set(2048, 2048); sun.shadow.bias = -0.0005; sun.shadow.normalBias = 0.04; sun.shadow.radius = 2;
+sun.shadow.mapSize.set(2048, 2048); sun.shadow.bias = -0.0005; sun.shadow.normalBias = 0.04; sun.shadow.radius = 7; sun.shadow.blurSamples = 12;
 scene.add(sun); scene.add(sun.target);
 scene.fog = new THREE.Fog('#ffffff', 100, 1000);
 
@@ -219,9 +219,9 @@ const blurScene = fs(new THREE.ShaderMaterial({ uniforms: blurU, vertexShader: v
   fragmentShader: `uniform sampler2D src; uniform vec2 dir; varying vec2 vUv; void main(){ vec3 c = texture2D(src, vUv).rgb*.2; float w[4]; w[0]=.18; w[1]=.13; w[2]=.08; w[3]=.04; for(int i=0;i<4;i++){ vec2 o = dir*float(i+1)*1.6; c += (texture2D(src, vUv+o).rgb + texture2D(src, vUv-o).rgb)*w[i]; } gl_FragColor = vec4(c, 1.); }` }));
 const inkU = { col: { value: rtColor.texture }, nd: { value: rtNd.texture }, bl: { value: rtB1.texture }, res: { value: new THREE.Vector2(W, H) }, px: { value: 2.5 },
   sat: { value: 1.08 }, lift: { value: new THREE.Color(0, 0, 0) }, gain: { value: new THREE.Color(1, 1, 1) }, vig: { value: 0.22 }, flash: { value: 0 }, fade: { value: 0 },
-  ink: { value: 1 }, ao: { value: 0 }, bloom: { value: 0 }, expo: { value: 1 }, tm: { value: 0 }, tanH: { value: new THREE.Vector2(1, 1) }, projS: { value: 1000 } };
+  ink: { value: 1 }, ao: { value: 0 }, shT: { value: new THREE.Color(1, 1, 1) }, hiT: { value: new THREE.Color(1, 1, 1) }, tone: { value: 0 }, con: { value: 0 }, bloom: { value: 0 }, expo: { value: 1 }, tm: { value: 0 }, tanH: { value: new THREE.Vector2(1, 1) }, projS: { value: 1000 } };
 const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: vsFS,
-  fragmentShader: `uniform sampler2D col, nd, bl; uniform vec2 res, tanH; uniform float px, sat, vig, flash, fade, ink, ao, bloom, expo, tm, projS; uniform vec3 lift, gain; varying vec2 vUv;
+  fragmentShader: `uniform sampler2D col, nd, bl; uniform vec2 res, tanH; uniform float px, sat, vig, flash, fade, ink, ao, bloom, expo, tm, projS, tone, con; uniform vec3 lift, gain, shT, hiT; varying vec2 vUv;
   float edgeAt(vec2 uv, float r){
     vec4 c = texture2D(nd, uv); if (dot(c.rgb,c.rgb) < .01) return 0.; float d = c.a; vec3 n = c.rgb*2.-1.;
     float e = 0.; float rr = r * clamp(7./d, .62, 1.25);
@@ -257,6 +257,8 @@ const inkScene = fs(new THREE.ShaderMaterial({ uniforms: inkU, vertexShader: vsF
     c = mix(c, vec3(.012,.01,.014), e);
     float l = dot(c, vec3(.299,.587,.114)); c = mix(vec3(l), c, sat);
     c = c*gain + lift;
+    { float l2 = dot(c, vec3(.299,.587,.114)); c = mix(c, c * shT, (1. - smoothstep(.05, .5, l2)) * tone); c = mix(c, c * hiT, smoothstep(.45, 1., l2) * tone);
+      vec3 cc = clamp(c, 0., 1.); c = mix(c, cc*cc*(3.-2.*cc), con); }   // split-tone (cool shadows, warm highlights) + gentle S-curve
     vec2 q = vUv-.5; c *= 1. - vig*dot(q*vec2(1.,.75), q*vec2(1.,.75))*2.2;
     c = mix(c, vec3(1.), flash); c = mix(c, vec3(0.), fade);
     gl_FragColor = vec4(c,1.); }` }));
@@ -330,6 +332,7 @@ function applyLight(L) {
   skyU.top.value.set(L.skyTop); skyU.hor.value.set(L.skyHor);
   const R_ = LOOK === 'rich'; inkU.ink.value = L.ink ?? (R_ ? 0.3 : 1); inkU.ao.value = L.ao ?? (R_ ? 0.7 : 0); inkU.bloom.value = L.bloom ?? (R_ ? 0.75 : 0); inkU.expo.value = L.exposure ?? 1.45; inkU.tm.value = R_ ? 1 : 0; brightU.thr.value = L.bloomThr ?? 0.8;
   inkU.sat.value = L.sat ?? (R_ ? 1.14 : 1.08); inkU.gain.value.set(L.gain || '#ffffff'); inkU.lift.value.set(L.lift || '#000000'); inkU.vig.value = L.vig ?? 0.22;
+  inkU.shT.value.set(L.shadowT || '#ffffff'); inkU.hiT.value.set(L.highT || '#ffffff'); inkU.tone.value = L.tone ?? 0; inkU.con.value = L.con ?? 0;
 }
 function placeSun(L, focus) {
   const az = rx(L.az), el = rx(L.el); tmpV.set(Math.cos(el) * Math.cos(az), Math.sin(el), Math.cos(el) * Math.sin(az));
@@ -361,8 +364,25 @@ const swapForNd = (on) => {
   });
 };
 
+// ---------- cinematic light presets (2026-11-21): K.light('golden', { overrides }) -> a light object for frame() ----------
+const LIGHTS = {
+  golden: { az: 112, el: 30, sky: '#b4ccee', ground: '#d09a70', hemi: 1.4, sun: '#ffc88e', sunI: 3.3, skyTop: '#4a84d4', skyHor: '#ffd6a6', fog: '#f2c9a2', fogNear: 35, fogFar: 260,
+    exposure: 1.36, bloom: 0.85, bloomThr: 0.72, sat: 1.15, shadowT: '#9aa6d0', highT: '#ffe2bc', tone: 0.3, con: 0.2, vig: 0.3, ink: 0.24, ao: 0.55, shadowExt: 24 },
+  day: { az: 160, el: 38, sky: '#bcd8f4', ground: '#b89a78', hemi: 1.05, sun: '#fff0d6', sunI: 3.3, skyTop: '#3f7ad0', skyHor: '#f2e2c8', fog: '#e8e0d4', fogNear: 40, fogFar: 260,
+    exposure: 1.4, bloom: 0.85, bloomThr: 0.75, sat: 1.18, shadowT: '#8aa0d0', highT: '#fff0da', tone: 0.3, con: 0.18, vig: 0.26, ink: 0.26, ao: 0.6, shadowExt: 24 },
+  morning: { az: 100, el: 14, sky: '#c8d8f0', ground: '#a8987a', hemi: 1.1, sun: '#ffd8b0', sunI: 3.0, skyTop: '#6a98d8', skyHor: '#ffe0c8', fog: '#f0dcd0', fogNear: 20, fogFar: 180,
+    exposure: 1.42, bloom: 1.0, bloomThr: 0.7, sat: 1.12, shadowT: '#8a9ad8', highT: '#ffe6cc', tone: 0.35, con: 0.18, vig: 0.28, ink: 0.24, ao: 0.6, shadowExt: 24 },
+  overcast: { az: 150, el: 45, sky: '#b8c4d0', ground: '#8a8a7a', hemi: 1.3, sun: '#eef2f8', sunI: 1.4, skyTop: '#7a8aa0', skyHor: '#d4d8dc', fog: '#bcc4cc', fogNear: 30, fogFar: 180,
+    exposure: 1.45, bloom: 0.7, bloomThr: 0.8, sat: 1.15, shadowT: '#8a9ac8', highT: '#fff4e6', tone: 0.3, con: 0.2, vig: 0.3, ink: 0.26, ao: 0.7, shadowExt: 20 },
+  night: { az: 200, el: 30, sky: '#2a3a6a', ground: '#1a1a24', hemi: 0.55, sun: '#9ab0ff', sunI: 0.9, skyTop: '#0a1028', skyHor: '#2a3460', fog: '#1a2040', fogNear: 15, fogFar: 120,
+    exposure: 1.5, bloom: 1.2, bloomThr: 0.6, sat: 1.15, shadowT: '#6a7ad8', highT: '#ffd8a0', tone: 0.45, con: 0.25, vig: 0.38, ink: 0.24, ao: 0.6, shadowExt: 20 },
+  interior: { az: 120, el: 50, sky: '#f4e0c8', ground: '#8a6a50', hemi: 1.0, sun: '#ffd6a8', sunI: 2.4, skyTop: '#f4e0c8', skyHor: '#f4e0c8', fog: '#2a2018', fogNear: 30, fogFar: 90,
+    exposure: 1.4, bloom: 0.95, bloomThr: 0.7, sat: 1.15, shadowT: '#8a8ad0', highT: '#ffe2c0', tone: 0.35, con: 0.2, vig: 0.34, ink: 0.24, ao: 0.75, shadowExt: 16 },
+};
+const light = (name = 'golden', over = {}) => ({ ...(LIGHTS[name] || LIGHTS.golden), ...over });
+
 // ---------- kit context handed to stories ----------
-const K = { fx: null, stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { fx: null, light, LIGHTS, stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;
