@@ -1,0 +1,7 @@
+Platform: TikTok
+Type: story
+Title: Why Ships Are Buried Under San Francisco
+Description: Inspired by the Gold Rush ships of 1849 that crews abandoned in San Francisco's harbor, turned into a hotel, a store and a jail, then buried under landfill downtown. Would you have stayed in a ship hotel? 🚢
+Hashtags: #history #sanfrancisco #goldrush #weirdhistory #storytime
+Script score: 26/30
+Guidelines: pass

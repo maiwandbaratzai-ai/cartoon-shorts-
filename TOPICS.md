@@ -53,5 +53,6 @@
 - 2026-11-21 Statue of Liberty arm and torch displayed alone to raise pedestal money, Philadelphia + Madison Square Park, New York, 1876-1882 (45 s, Channel A, story)
 - 2026-11-21 Bobbie the Wonder Dog walks home from Indiana to Silverton, Oregon, 1923-24 (45 s, Channel B, story)
 - 2026-11-21 John Moore-Brabazon flies a piglet in a basket on his biplane ("pigs might fly"), Isle of Sheppey, England, 1909 (45 s, Channel B, story)
+- 2026-11-21 Gold Rush ships abandoned, turned into a hotel/store/jail, burned and buried under downtown San Francisco, 1849-51 (64 s, TikTok, story)
 ---
 Author: Maiwand

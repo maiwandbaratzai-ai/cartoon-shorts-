@@ -1,0 +1,111 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY ARE THERE
+Dialogue: 0,0:00:00.74,0:00:01.09,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS
+Dialogue: 0,0:00:01.09,0:00:01.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURIED UNDER SAN
+Dialogue: 0,0:00:01.90,0:00:03.29,Cap,,0,0,0,,{\fs101}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FRANCISCO'S SKYSCRAPERS?
+Dialogue: 0,0:00:03.40,0:00:03.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WORKERS DIG A
+Dialogue: 0,0:00:03.99,0:00:04.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOLE FOR A
+Dialogue: 0,0:00:04.46,0:00:04.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEW TOWER,
+Dialogue: 0,0:00:04.88,0:00:05.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HIT THE
+Dialogue: 0,0:00:05.57,0:00:05.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOW OF A
+Dialogue: 0,0:00:05.97,0:00:06.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WOODEN SHIP.
+Dialogue: 0,0:00:06.84,0:00:07.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN ANOTHER.
+Dialogue: 0,0:00:07.41,0:00:08.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND ANOTHER.
+Dialogue: 0,0:00:08.04,0:00:08.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOZENS OF
+Dialogue: 0,0:00:08.49,0:00:08.90,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS,
+Dialogue: 0,0:00:08.90,0:00:10.12,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURIED UNDER DOWNTOWN.
+Dialogue: 0,0:00:10.13,0:00:10.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT STARTED IN
+Dialogue: 0,0:00:10.78,0:00:11.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}1849,
+Dialogue: 0,0:00:11.60,0:00:12.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHEN SOMEONE FOUND
+Dialogue: 0,0:00:12.72,0:00:12.96,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOLD
+Dialogue: 0,0:00:12.96,0:00:13.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE HILLS.
+Dialogue: 0,0:00:13.82,0:00:14.07,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS
+Dialogue: 0,0:00:14.07,0:00:14.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RACED INTO THE
+Dialogue: 0,0:00:14.74,0:00:14.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BAY,
+Dialogue: 0,0:00:14.92,0:00:15.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE MOMENT
+Dialogue: 0,0:00:15.58,0:00:16.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY DOCKED,
+Dialogue: 0,0:00:16.22,0:00:17.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERYONE ABOARD RAN
+Dialogue: 0,0:00:17.20,0:00:17.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR THE
+Dialogue: 0,0:00:17.64,0:00:18.12,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOLD.
+Dialogue: 0,0:00:18.23,0:00:18.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SAILORS.
+Dialogue: 0,0:00:18.70,0:00:19.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE COOKS.
+Dialogue: 0,0:00:19.18,0:00:20.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVEN THE CAPTAINS.
+Dialogue: 0,0:00:20.24,0:00:20.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SOON,
+Dialogue: 0,0:00:20.49,0:00:21.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HUNDREDS OF EMPTY
+Dialogue: 0,0:00:21.39,0:00:21.68,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS
+Dialogue: 0,0:00:21.68,0:00:22.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROT IN THE
+Dialogue: 0,0:00:22.26,0:00:22.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HARBOR,
+Dialogue: 0,0:00:22.60,0:00:23.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FOREST OF
+Dialogue: 0,0:00:23.44,0:00:24.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MASTS WITH NOBODY
+Dialogue: 0,0:00:24.47,0:00:24.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOME.
+Dialogue: 0,0:00:24.98,0:00:25.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PEOPLE LAUGH:
+Dialogue: 0,0:00:25.52,0:00:26.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BUSIEST PORT
+Dialogue: 0,0:00:26.48,0:00:27.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN AMERICA,
+Dialogue: 0,0:00:27.02,0:00:27.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND NOT ONE
+Dialogue: 0,0:00:27.62,0:00:28.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHIP CAN LEAVE.
+Dialogue: 0,0:00:28.75,0:00:29.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN IT GETS
+Dialogue: 0,0:00:29.32,0:00:29.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEIRDER.
+Dialogue: 0,0:00:29.66,0:00:30.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TOWN IS
+Dialogue: 0,0:00:30.20,0:00:30.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO CROWDED,
+Dialogue: 0,0:00:30.68,0:00:31.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PEOPLE MOVE INTO
+Dialogue: 0,0:00:31.52,0:00:31.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:31.70,0:00:32.30,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS.
+Dialogue: 0,0:00:32.30,0:00:33.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE SHIP BECOMES
+Dialogue: 0,0:00:33.23,0:00:33.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:33.34,0:00:33.64,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HOTEL.
+Dialogue: 0,0:00:33.64,0:00:34.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ANOTHER,
+Dialogue: 0,0:00:34.16,0:00:34.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A STORE.
+Dialogue: 0,0:00:34.57,0:00:35.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE BECOMES THE
+Dialogue: 0,0:00:35.49,0:00:35.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOWN
+Dialogue: 0,0:00:35.74,0:00:36.26,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}JAIL.
+Dialogue: 0,0:00:36.30,0:00:36.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN A GIANT
+Dialogue: 0,0:00:36.98,0:00:37.20,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FIRE
+Dialogue: 0,0:00:37.20,0:00:38.24,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SWEEPS THE WATERFRONT,
+Dialogue: 0,0:00:38.24,0:00:38.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE
+Dialogue: 0,0:00:38.78,0:00:39.14,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS
+Dialogue: 0,0:00:39.14,0:00:39.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURN DOWN TO
+Dialogue: 0,0:00:39.72,0:00:40.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WATERLINE.
+Dialogue: 0,0:00:40.78,0:00:41.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY ARE
+Dialogue: 0,0:00:41.20,0:00:42.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY UNDERGROUND NOW?
+Dialogue: 0,0:00:42.34,0:00:43.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BECAUSE THE CITY
+Dialogue: 0,0:00:43.09,0:00:43.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WANTED MORE LAND,
+Dialogue: 0,0:00:43.85,0:00:44.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO IT DUMPED
+Dialogue: 0,0:00:44.51,0:00:45.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHOLE HILLS OF
+Dialogue: 0,0:00:45.18,0:00:45.50,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DIRT
+Dialogue: 0,0:00:45.50,0:00:46.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INTO THE BAY,
+Dialogue: 0,0:00:46.09,0:00:46.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT ON TOP
+Dialogue: 0,0:00:46.81,0:00:47.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF THE
+Dialogue: 0,0:00:47.27,0:00:47.91,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIPS.
+Dialogue: 0,0:00:47.91,0:00:48.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STREETS,
+Dialogue: 0,0:00:48.31,0:00:49.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BANKS AND SKYSCRAPERS
+Dialogue: 0,0:00:49.24,0:00:49.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RISE OVER THEM,
+Dialogue: 0,0:00:49.89,0:00:51.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND EVERYONE FORGETS.
+Dialogue: 0,0:00:51.28,0:00:51.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UNTIL A DIGGER
+Dialogue: 0,0:00:51.96,0:00:52.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HITS ONE AGAIN,
+Dialogue: 0,0:00:52.64,0:00:53.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STILL FULL OF
+Dialogue: 0,0:00:53.40,0:00:54.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OLD BOTTLES AND
+Dialogue: 0,0:00:54.12,0:00:54.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOOTS.
+Dialogue: 0,0:00:54.73,0:00:54.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TODAY,
+Dialogue: 0,0:00:54.99,0:00:55.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRAINS EVEN RUN
+Dialogue: 0,0:00:55.70,0:00:56.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT THROUGH ONE
+Dialogue: 0,0:00:56.73,0:00:57.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURIED
+Dialogue: 0,0:00:57.03,0:00:57.35,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHIP'S
+Dialogue: 0,0:00:57.35,0:00:57.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HULL.
+Dialogue: 0,0:00:57.85,0:00:58.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOLLOW FOR A
+Dialogue: 0,0:00:58.54,0:00:59.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEIRD STORY EVERY
+Dialogue: 0,0:00:59.48,0:00:59.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY.
+Dialogue: 0,0:00:59.69,0:01:00.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND NEXT TIME
+Dialogue: 0,0:01:00.65,0:01:01.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU'RE DOWNTOWN,
+Dialogue: 0,0:01:01.42,0:01:02.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOOK DOWN.

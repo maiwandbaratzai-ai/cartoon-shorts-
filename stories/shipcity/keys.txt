@@ -1,0 +1,6 @@
+ships
+gold
+hotel
+jail
+fire
+dirt
