@@ -5,6 +5,35 @@ Author: Maiwand. Every daily run reads this before writing a script, follows the
 picture can only be as gripping as the words it illustrates.
 
 
+## 00. FICTION ONLY + the "fable that explains a why" (Maiwand 2026-11-21: no more true stories)
+
+**Every video is an invented story.** Made-up characters, made-up events, made-up dialogue (read by the narrator).
+No real people, no real events retold, no "true story" anything. upload.txt always says "Type: story".
+
+The format that works best (studied 2026-11-21 from a top 3D Shorts channel, "Why every train carries sand", 22K likes):
+**an invented little fable whose ending explains a real everyday "why".** The story is fiction; the "why" is a real,
+harmless curiosity (why trains carry sand, why tractors have giant back wheels, why ships have bulbous noses...).
+Beat by beat (60 s version; squeeze for 45 s):
+1. **Frame 1: the hero does something strange, already mid-action.** "He poured a ton of sand into a brand-new
+   locomotive and ran pipes from it down to his own wheels." No question needed when the action itself is weird.
+2. **"You see, ..." one line of world rules / stakes** with a number ("engineers here are paid by the ton").
+3. **A rival mocks him with a quoted joke line** (the narrator reads it): "Is that a locomotive, or a litter box?"
+   The hero NEVER answers. Plant the joke word: it comes back as the punchline.
+4. **The rival wins at first** ("all summer he's first over the pass").
+5. **The challenge in COUNTED stages that get harder** ("forty cars over three hills"): stage 1 easy, stage 2
+   worse (it starts to drizzle), stage 3 worst (wet leaves). Show a stage counter / progress HUD (`K.hud`) and a
+   big "HILL 1 / 2 / 3" badge so viewers stay to see the last stage.
+6. **The rival's pride**: he grins, sure he's too strong. Then **he gets stuck**: "the train stands still."
+7. **The explanation as an everyday analogy the viewer has felt** (~75%): "Ever run across a kitchen floor in
+   socks? Your legs are going, but you're not." Cut to a quick cutaway scene of exactly that. One line of the real
+   reason ("a steel wheel on wet steel rail: all that power and nothing to push against").
+8. **The hero's odd thing saves him**, shown with an x-ray / glowing explainer graphic (`K.holo`, `K.trace`, badges).
+9. **The rival begs** (quoted line: "Throw me some sand!").
+10. **Punchline callback to the planted joke**: "Sorry. The sand is for the cat." (the cat was riding in the sand dome).
+**Title:** "Why Every <thing> <has/does odd thing>" (search-friendly, the real curiosity).
+**Pace:** ~3 words per second, a new shot every 1–2 s, every number said out loud (a ton, forty cars, three hills).
+Characters: one deadpan hero, one smug rival, one animal sidekick for the final laugh.
+
 ## 0. The Ricks Clips structure (studied 2026-11-18: 10 of his videos, 3–35M views each). Use it for every script.
 1. **Frame 1 + line 1 = a strange ACTION and a paradox**, no intro, no title card, no "In 1884...":
    a man loading a shotgun with gold; a bomb rolling into camp that won't go off; an elephant's foot on a swaying bridge.
@@ -107,6 +136,9 @@ Use at most one per 45 s video, two per 64 s video. It must be followed by somet
 - Respectful with deaths: state them once, plainly, no jokes near them, no graphic detail.
 
 ## 6b. Storytelling rule: entertainment first (changed 2026-11-16, Maiwand's call)
+
+**Update 2026-11-21 (Maiwand): fiction only.** "True" videos are retired: every video is a "story" video (§00).
+The "True" option below is kept only as history.
 
 Stories **do not have to be true.** Fiction and exaggeration are welcome when they make the video more fun and keep
 people watching. We study real stories (what happened, why people loved them) to build our best stories, true or not.

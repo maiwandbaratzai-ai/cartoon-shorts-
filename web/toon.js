@@ -426,6 +426,12 @@ export const headBlob = (seed, a = 118, facing = 0)=>({
 export const thickAngle = (light)=>Math.atan2(-Math.sin(light) + 0.8, -Math.cos(light));
 const DEF_LIGHT = rad(-120);
 const FACE = {
+    // reference study 2026-11-21: bigger, more readable cartoon acting faces
+    smug: { eye: ["lid", "lid"], brow: [3, -4], mouth: "smirk" },          // the cocky rival
+    evil: { eye: ["lid", "lid"], brow: [6, -5], mouth: "teeth" },          // villain grin
+    deadpan: { eye: ["lid", "lid"], brow: [1, 1], mouth: "dash" },        // unimpressed hero
+    beg: { eye: ["shock", "shock"], brow: [-7, 5], mouth: "O" },          // pleading
+    gloat: { eye: ["squeeze", "squeeze"], brow: [4, -4], mouth: "laugh" }, // laughing at someone
     neutral: {
         eye: [
             "lid",

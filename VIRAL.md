@@ -24,6 +24,10 @@ looping into a rewatch. Everything below serves those two.
 
 ## 2. Topic: pick stories that stop a thumb
 
+**2026-11-21 (Maiwand): fiction only.** Topics are now invented fables (SCRIPTS.md §00): pick a real, harmless
+everyday "why" (why trains carry sand, why tractors have giant back wheels) and invent the characters and story
+that explain it. Score the *invented story* on the 5 points below. Real events are no longer retold.
+
 The closest successful format to ours is Zack D. Films (3D animated curiosity Shorts, 100% Shorts, ~27M subs).
 Its most-viewed video is "Ohio's 1986 Balloon Disaster": **place + year + absurd disaster**. That's our lane.
 
@@ -248,4 +252,19 @@ Grades: hook A, visual B+, audio A-, narrative A, presence A. Fixes now in the k
 - Pause before the big moment → `[beat]` is now 0.2 s; near-silence before the payoff is at most 0.2 s.
 - More reactions → sweat drops for nervous/scared faces (`sweat: true`), and crowd reaction close-ups (see LOOK.md).
 - Name the main character in line 1 when there is a known name (e.g. "Why did P.T. Barnum march 21 elephants...").
+
+### Reference study: "Why Every Train Carries Sand" (2026-11-21, shared by Maiwand)
+A 61 s invented fable with ~22K likes. What makes it work, now in the kit:
+- **Story:** strange action in frame 1 → "You see," stakes → rival's quoted joke → rival wins early → challenge in
+  3 counted stages that get harder → rival stuck → everyday analogy cutaway (socks on a kitchen floor) → hero's odd
+  thing saves him (x-ray graphic) → rival begs → punchline calls back the planted joke. SCRIPTS.md §00.
+- **Hero prop is the star:** glossy painted machines with gold trim, bells, lamps, rivets, bevelled edges and real
+  reflections (`K.paint`, `K.gold`, `K.chrome`, `K.glass`, `K.rbox`). Characters are simple, faces exaggerated.
+- **Explainer graphics:** pill badges that pop in ("1 TON", "PAID", "$0", "GRIP ✗/✓", "HILL 1") with `K.badge`, a
+  progress map at the top (`K.hud`), x-ray hologram cutaways (`K.holoBox`) and glowing lines that draw themselves
+  along pipes (`K.trace`).
+- **Motion:** heavy motion blur on whip-pans and spinning wheels (automatic now), shallow depth of field, cameras at
+  track level, telephoto head-on, macro on wheels, tracking alongside at speed.
+- **Atmosphere:** sparks, steam plumes, rain, falling leaves, season changes with a white mist wipe
+  (`K.sparks`, `K.steam`, `K.rain`, `K.leaves`, `K.leafLitter`, `K.mist`). Warm, saturated, glowing grade.
 

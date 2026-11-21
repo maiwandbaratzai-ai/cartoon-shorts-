@@ -43,6 +43,30 @@ Indoor light recipe: `hemi 0.2–0.3`, `sunI 0`, 2–4 lamps (intensity 3–4, d
 Outdoor recipe: low or mid sun (`el` 25–40) from in front of the camera's side, so faces and signs are lit,
 `hemi ~0.9`, `sunI ~3`, `exposure ~1.1`.
 
+## Pro look toolkit (reference study 2026-11-21) — use in EVERY video; see web/s/demo2.js for all of it working
+Our weakest point vs. top channels was not the characters, it was everything around them. Do all of these:
+- **A glossy hero prop** (the machine/object the story is about) built with care: `K.paint(color)` clear-coat paint,
+  `K.gold()` trim, `K.chrome()`, `K.glass()`, and `K.rbox(w, h, d, radius, mat, x, y, z, parent)` bevelled boxes
+  instead of plain boxes (bevels catch highlights). Add small details: pinstripes, rivets, lamps, bells, grilles,
+  rings around pipes, lugs on tyres. Reflections are automatic (environment built from the light settings).
+- **Motion blur is automatic** (camera and moving/spinning objects, hard cuts never blur). `cam.mb: 0` turns it off
+  for a shot, `cam.mb: 1` doubles it for whip-pans.
+- **Particles:** `K.sparks(f, f0, f1, at, { dir, rate, speed })` for grinding metal/impacts; `K.steam(f, at, { rate,
+  size, rise, drift, dark })` for chimneys, kettles, breath, smoke (`dark: 0.6`); `K.rain(f, cam.look, {...})`;
+  `K.leaves(f, cam.look, {...})` falling leaves; `K.leafLitter(x0, x1, z0, z1, n)` leaves on the ground (build once).
+  `at` can be a function of the frame so emitters follow moving objects.
+- **Explainer graphics** (drawn crisp on top, never blurred): `K.badge(f, f0, 'TEXT', at, { icon, f1, style })`
+  pill labels that pop in and follow a 3D point (icons: check, x, coin, up, down, warn, weight, drop, bolt, clock;
+  `style: 'stamp'` = big yellow sticker); `K.hud(f, f0, { stages, labels, u, rival })` progress map at the top for
+  counted stages; `K.holoBox(w, h, d, x, y, z, parent)` x-ray box with glowing edges; `K.holo()` x-ray material
+  for any mesh; `K.trace(points, { parent, color })` glowing line that draws itself (`.show(0..1)`).
+  Use 3–6 badges per video, each on a number or key word the narrator says.
+- **Transitions:** `K.mist(f, f0, dur)` white fog wipe for time/season/place changes; whip-pans with motion blur.
+- **Faces:** new big expressions `smug`, `evil`, `deadpan`, `beg`, `gloat` (plus sweat drops on `nervous`/`scared`).
+- **Camera:** frame characters by their HEAD position (helper `head()` in demo2.js), never by the vehicle origin;
+  low track-level angles, telephoto head-on of racers, macro on the key part, tracking alongside. Big props hide
+  drivers from the side: shoot from the front quarter or higher.
+
 ## Shot rules (you do these in each story)
 
 - **Every shot moves the camera** (Maiwand 2026-11-18): slow push-in `fov: 40 * K.push(u)` (100% → 112%), a pan following

@@ -10,6 +10,7 @@ import * as MO from './motion.js';
 import * as LK from './look.js';
 import * as R3 from './rig3d.js';
 import * as AN from './animals3d.js';
+import { initFX } from './fx.js';
 
 const W = 1080, H = 1920;
 const canvas = document.getElementById('c');
@@ -272,6 +273,53 @@ const dofScene = fs(new THREE.ShaderMaterial({ uniforms: dofU, vertexShader: `va
       acc += texture2D(src, vUv+o).rgb*w; wsum += w; }
     gl_FragColor = linearToOutputTexel(vec4(acc/max(wsum,1e-3), 1.)); }` }));
 
+// ---------- motion blur (reference study 2026-11-21: fast moves smear like a real camera) ----------
+// A velocity pass stores how far every pixel moved since the previous frame (camera AND objects, e.g. spinning wheels);
+// the blur pass smears along it with a 180-degree shutter. Hard cuts are detected and never blurred.
+const rtVel = new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType, minFilter: THREE.NearestFilter, magFilter: THREE.NearestFilter });
+const rtMB = new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType });
+const rtDof = new THREE.WebGLRenderTarget(W, H, { type: THREE.HalfFloatType });
+const prevVP = new THREE.Matrix4(), curVP = new THREE.Matrix4();
+const velVS = `uniform mat4 prevVP, prevModel; varying vec4 vC; varying vec4 vP;
+  void main(){ vec4 p = vec4(position, 1.);
+  #ifdef USE_INSTANCING
+    p = instanceMatrix * p;
+  #endif
+  vC = projectionMatrix * modelViewMatrix * p; vP = prevVP * prevModel * p; gl_Position = vC; }`;
+const velFS = `varying vec4 vC; varying vec4 vP; void main(){ vec2 v = (vC.xy/vC.w - vP.xy/vP.w) * .5; gl_FragColor = vec4(v, 0., 1.); }`;
+const velMatFor = (o) => { let m = o.userData.velMat; if (!m) { m = new THREE.ShaderMaterial({ uniforms: { prevVP: { value: prevVP }, prevModel: { value: new THREE.Matrix4() } }, vertexShader: velVS, fragmentShader: velFS, side: THREE.DoubleSide }); o.userData.velMat = m; }
+  m.uniforms.prevModel.value.copy(o.userData.pmw || o.matrixWorld); return m; };
+const swapForVel = (on) => {
+  scene.traverse((o) => {
+    if (!o.isMesh && !o.isPoints && !o.isSprite && !o.isLine) return;
+    if (on) { o.userData.mat0 = o.material; o.userData.vis0 = o.visible;
+      if (o.userData.ndSkip || !o.isMesh || (o.material && o.material.transparent && o.material.depthWrite === false && o !== sky)) { o.visible = false; return; }
+      o.material = velMatFor(o); }
+    else { o.material = o.userData.mat0; o.visible = o.userData.vis0; delete o.userData.vis0; }
+  });
+};
+const mbU = { src: { value: rtInk.texture }, vel: { value: rtVel.texture }, k: { value: 0 }, maxL: { value: 0.05 } };
+const mbScene = fs(new THREE.ShaderMaterial({ uniforms: mbU, vertexShader: vsFS,
+  fragmentShader: `uniform sampler2D src, vel; uniform float k, maxL; varying vec2 vUv;
+  void main(){ vec3 c0 = texture2D(src, vUv).rgb; if (k <= 0.) { gl_FragColor = vec4(c0, 1.); return; }
+    vec2 v = texture2D(vel, vUv).xy * k; float L = length(v); if (L > maxL) v *= maxL / L; if (length(v * vec2(1080., 1920.)) < 1.2) { gl_FragColor = vec4(c0, 1.); return; }
+    vec3 acc = vec3(0.); float n = 0.;
+    for (int i = 0; i < 14; i++) { float t = (float(i) + .5) / 14. - .5; vec2 u = vUv + v * t; vec2 vs = texture2D(vel, u).xy * k;
+      float w = 1.; if (length(vs) < length(v) * .25) w = .35; acc += texture2D(src, u).rgb * w; n += w; }
+    gl_FragColor = vec4(acc / n, 1.); }` }));
+let FX = null;
+const compU = { src: { value: rtDof.texture }, ov: { value: null }, mist: { value: 0 }, t: { value: 0 } };
+const compScene = fs(new THREE.ShaderMaterial({ uniforms: compU, vertexShader: vsFS,
+  fragmentShader: `uniform sampler2D src, ov; uniform float mist, t; varying vec2 vUv;
+  float h(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+  float n(vec2 p){ vec2 i = floor(p), f = fract(p); f = f*f*(3.-2.*f); return mix(mix(h(i), h(i+vec2(1,0)), f.x), mix(h(i+vec2(0,1)), h(i+vec2(1,1)), f.x), f.y); }
+  float fbm(vec2 p){ float s = 0., a = .5; for (int i = 0; i < 5; i++) { s += n(p) * a; p *= 2.03; a *= .5; } return s; }
+  void main(){ vec3 c = texture2D(src, vUv).rgb;
+    if (mist > 0.) { float m = fbm(vUv * vec2(3., 5.) + vec2(t * .15, t * .05)); float a = smoothstep(1. - mist * 1.35, 1.12 - mist * 1.35, 1. - m); c = mix(c, vec3(.97, .96, .94), clamp(a * 1.05, 0., 1.) * min(1., mist * 1.6)); }
+    vec4 o = texture2D(ov, vUv); c = mix(c, o.rgb, o.a);
+    gl_FragColor = linearToOutputTexel(vec4(c, 1.)); }` }));
+const camFrom = (Cm) => { camera.position.set(...Cm.pos); camera.up.set(0, 1, 0); camera.lookAt(...Cm.look); camera.rotateZ(rx(Cm.roll || 0)); camera.fov = Cm.fov; camera.updateProjectionMatrix(); camera.updateMatrixWorld(); };
+
 // ---------- per-frame ----------
 const tmpV = new THREE.Vector3();
 function applyLight(L) {
@@ -313,19 +361,34 @@ const swapForNd = (on) => {
 };
 
 // ---------- kit context handed to stories ----------
-const K = { stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { fx: null, stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;
 LOOK = QS.get('look') || S.look || 'rich';
+FX = initFX(K); K.fx = FX;
+for (const n of ['paint', 'gold', 'chrome', 'glass', 'rbox', 'sparks', 'rain', 'steam', 'leaves', 'leafLitter', 'holo', 'holoBox', 'trace', 'badge', 'hud', 'mist']) K[n] = FX[n];
 await S.build(K);
 
 window.renderFrame = (f) => {
-  for (const sp of puffPool) sp.visible = false; puffUsed = 0;
+  const PT = [performance.now()]; const tick = () => PT.push(performance.now());
+  // previous frame first (for motion blur): where the camera and every object were 1 frame ago
+  let mbK = 0; const pPos = new THREE.Vector3(), pDir = new THREE.Vector3(); let pFov = 0;
+  if (f > 0 && QS.get('mb') !== '0') {
+    for (const sp of puffPool) sp.visible = false; puffUsed = 0; FX.resetFrame();
+    const Rp = S.frame(f - 1, K); camFrom(Rp.cam); prevVP.multiplyMatrices(camera.projectionMatrix, camera.matrixWorldInverse);
+    pPos.copy(camera.position); camera.getWorldDirection(pDir); pFov = camera.fov;
+    scene.updateMatrixWorld(true); scene.traverse((o) => { if (o.isMesh) (o.userData.pmw || (o.userData.pmw = new THREE.Matrix4())).copy(o.matrixWorld); });
+    mbK = Rp.cam.mb ?? 0.5;
+  }
+  tick();
+  for (const sp of puffPool) sp.visible = false; puffUsed = 0; FX.resetFrame();
   const R = S.frame(f, K), L = R.light, Cm = R.cam;
-  applyLight(L); cardTint = L.cardTint || '#ffffff';
-  camera.position.set(...Cm.pos); camera.up.set(0, 1, 0); camera.lookAt(...Cm.look); camera.rotateZ(rx(Cm.roll || 0));
-  camera.fov = Cm.fov; camera.updateProjectionMatrix(); camera.updateMatrixWorld();
+  applyLight(L); cardTint = L.cardTint || '#ffffff'; FX.envUpdate(L);
+  camFrom(Cm); FX.flush(camera);
+  if (mbK > 0) { const d = new THREE.Vector3(); camera.getWorldDirection(d);   // a hard cut between shots: no blur this frame
+    if (camera.position.distanceTo(pPos) > 2.5 || d.angleTo(pDir) > 0.6 || Math.abs(camera.fov / pFov - 1) > 0.35) mbK = 0; }
+  mbK = Cm.mb ?? mbK;
   placeSun(L, new THREE.Vector3(...(Cm.shadowAt || Cm.look)));
   drawActors([...(R.actors || []), ...(R.fx || [])], camera);
   for (const l of lamps) { const k = 1 + l.flicker * (Math.sin(f * 0.37 + l.seed) * 0.6 + Math.sin(f * 1.13 + l.seed * 2) * 0.4); l.light.intensity = l.base * k * (R.lampK ?? 1); if (l.glow) l.glow.material.opacity = 0.8 * k * (R.lampK ?? 1); }
@@ -334,7 +397,7 @@ window.renderFrame = (f) => {
   sky.position.copy(camera.position);
   for (const c of clouds) c.quaternion.copy(camera.quaternion);
   if (DBG === 'col') { renderer.setRenderTarget(null); renderer.setClearColor(0xff00ff, 1); renderer.clear(); renderer.render(scene, camera); return true; }
-  renderer.setRenderTarget(rtColor); renderer.setClearColor(0x000000, 1); renderer.clear(); renderer.render(scene, camera);
+  tick(); renderer.setRenderTarget(rtColor); renderer.setClearColor(0x000000, 1); renderer.clear(); renderer.render(scene, camera); tick();
   const fog = scene.fog; scene.fog = null; const sm = renderer.shadowMap.enabled; renderer.shadowMap.enabled = false; renderer.shadowMap.autoUpdate = false;
   swapForNd(true); renderer.setRenderTarget(rtNd); renderer.setClearColor(0x000000, 0); renderer.clear(); renderer.render(scene, camera); swapForNd(false);
   scene.fog = fog; renderer.shadowMap.enabled = sm; renderer.shadowMap.autoUpdate = true;
@@ -345,9 +408,19 @@ window.renderFrame = (f) => {
     for (let i = 0; i < 2; i++) { blurU.src.value = rtB1.texture; blurU.dir.value.set(1 / 270, 0); renderer.setRenderTarget(rtB2); renderer.render(blurScene, fsCam);
       blurU.src.value = rtB2.texture; blurU.dir.value.set(0, 1 / 480); renderer.setRenderTarget(rtB1); renderer.render(blurScene, fsCam); }
   }
-  renderer.setRenderTarget(rtInk); renderer.render(inkScene, fsCam);
-  dofU.focus.value = D.focus; dofU.cinf.value = D.cinf; dofU.near.value = D.near ?? 1;
-  renderer.setRenderTarget(null); renderer.render(dofScene, fsCam);
+  tick(); renderer.setRenderTarget(rtInk); renderer.render(inkScene, fsCam); tick();
+  dofU.src.value = rtInk.texture;
+  if (mbK > 0) {
+    const fog2 = scene.fog; scene.fog = null; const sm2 = renderer.shadowMap.enabled; renderer.shadowMap.enabled = false; renderer.shadowMap.autoUpdate = false;
+    swapForVel(true); renderer.setRenderTarget(rtVel); renderer.setClearColor(0x000000, 0); renderer.clear(); renderer.render(scene, camera); swapForVel(false);
+    scene.fog = fog2; renderer.shadowMap.enabled = sm2; renderer.shadowMap.autoUpdate = true;
+    mbU.k.value = mbK; renderer.setRenderTarget(rtMB); renderer.render(mbScene, fsCam); dofU.src.value = rtMB.texture;
+  }
+  tick(); dofU.focus.value = D.focus; dofU.cinf.value = D.cinf; dofU.near.value = D.near ?? 1;
+  renderer.setRenderTarget(rtDof); renderer.render(dofScene, fsCam);
+  FX.drawOverlay(camera); compU.ov.value = FX.overlayTex; compU.mist.value = Math.max(FX.getMist(), Cm.mist || 0); compU.t.value = f / 30;
+  renderer.setRenderTarget(null); renderer.render(compScene, fsCam); tick();
+  if (QS.get('prof')) { renderer.getContext().finish(); tick(); console.log('PROF ' + PT.slice(1).map((t, i) => (t - PT[i]).toFixed(0)).join(' ')); }
   return true;
 };
 window.TOTAL = S.TOTAL;

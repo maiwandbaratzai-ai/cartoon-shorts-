@@ -1,6 +1,6 @@
 # Daily cartoon shorts — playbook
 
-Five vertical (1080×1920) cartoon explainer shorts a day: **four × 45 s (two per YouTube channel), one × 64 s for TikTok**, each a surprising (true, or fictional and inspired by real events: SCRIPTS.md §6b),
+Five vertical (1080×1920) cartoon explainer shorts a day: **four × 45 s (two per YouTube channel), one × 64 s for TikTok**, each an invented fable that explains a real everyday "why" (fiction only since 2026-11-21: SCRIPTS.md §00),
 visual story (disasters, blunders, weird history, nature oddities). Flat 2D "card" characters in a textured, lit 3D world (LOOK.md),
 natural AI narration (Kokoro `am_puck`, the playful male voice Maiwand chose), word-by-word captions, original synthesized music + SFX.
 
@@ -9,7 +9,7 @@ safety) and the pre-render checklist. Its rules override anything below when the
 
 ## Pipeline (per story, from the kit root)
 1. **Pick the topic** with the VIRAL.md §2 scorecard (7+/10). Check `TOPICS.md` so nothing repeats. Prefer one clear,
-   visual event with a twist ending, and a different setting from the last few days. For a "true" video, check the facts with 2–3 web searches; for a "story" video, research the real event for inspiration, then make it as fun as you like.
+   visual event with a twist ending, and a different setting from the last few days. Every video is fiction (SCRIPTS.md §00): pick a real, harmless everyday "why", check the real reason with 1–2 web searches, then invent the characters and story that explain it.
 2. **Script** — follow the SCRIPTS.md process (5 hooks, beat sheet, `tools/script_check.py` must pass, rubric ≥ 24/30, storytelling rule §6b: entertainment first; fiction is fine but never labelled as true). `stories/<slug>/script.txt`: one narration line per line. Line 1 is the hook (≤ 12 words, the most
    shocking concrete claim). Last line is the twist and should loop back into line 1. 118–136 words for 45 s,
    140–165 for 60 s (VIRAL.md §3).
@@ -36,7 +36,7 @@ safety) and the pre-render checklist. Its rules override anything below when the
    tension), SFX library (boom, mgun, crash, splat, gull, squawk, engine, pop, gloop, roar, water, …) placed
    on line/word times `LS(i)`, `WS(i,'word')`. `python3 stories/<slug>/audio.py` → mix_raw.wav (voice-led, ducked).
    **Only the narrator speaks:** no character voices, soundbites, gasps or crowd voices (vox/gasp/crowd are silenced).
-7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3 s/frame/process outdoors, 4–5 s indoors with lamps → a 45 s short ≈ 55–75 min).
+7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3.5–4 s/frame/process outdoors, 5–7 s with a detailed hero prop → a 45 s short ≈ 65–100 min; motion blur adds ~15%).
    Render the three stories one after another, not in parallel.
 7b. **Opening graphic:** `python3 tools/hookcard.py stories/<slug> "BIG CLAIM|2-5 WORDS" "<badge>"` (LOOK.md); finish.sh overlays it on 0–1.6 s.
 8. **Finish:** `tools/finish.sh <slug> "Title"` → `stories/<slug>/out/<Title>.mp4` (−14 LUFS, burned captions, QA).

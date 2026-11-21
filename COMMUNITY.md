@@ -13,7 +13,7 @@ A strike, an age-restriction or "limited ads" kills reach and money, so when in 
   wholesome roles. Nothing sexual or suggestive, ever, with any character.
 - **Hate & harassment:** no jokes about race, religion, nationality, gender, disability, body type etc.;
   no stereotyped accents or costumes; no mocking real private people.
-- **Misinformation:** "story" videos are fiction: never labelled "true", never about current events, elections,
+- **Misinformation:** every video is now fiction (Maiwand 2026-11-21): invented characters only, and never labelled "true", never about current events, elections,
   health/medicine or real disasters with victims (SCRIPTS.md §6b). No fake medical claims.
 - **Real people:** no invented scandals, crimes or quotes pinned on real named people; no politicians as jokes.
 - **Spam / deceptive practices:** title and thumbnail must match what's in the video (no bait we don't pay off);

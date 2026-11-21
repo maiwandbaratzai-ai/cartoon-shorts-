@@ -55,7 +55,8 @@ last = lines[-1]
 if len(words(last)) > 12: Wn(f'last line is long ({len(words(last))} words): make the kicker short and punchy')
 first_keys = {w.lower().strip('.,?!') for w in words(lines[0]) if len(w) > 3}
 last_keys = {w.lower().strip('.,?!') for w in words(last) if len(w) > 3}
-if not (first_keys & last_keys) and not re.search(r'(?i)(that.s how|that.s why|and that|so how|which is why)', last) and not last.endswith(('?', ',', '…')):
+plant_keys = {w.lower().strip('.,?!:"') for l in lines[1:4] for w in words(l) if len(w) > 3}   # SCRIPTS.md §00: a punchline that calls back the rival's joke also closes the loop
+if not (first_keys & last_keys) and not (plant_keys & last_keys) and not re.search(r'(?i)(that.s how|that.s why|and that|so how|which is why)', last) and not last.endswith(('?', ',', '…')):
     Wn('last line doesn\'t echo or lead into line 1 (loop): consider "And that\'s how…" / a question / the hook image')
 
 for m in fails: print('FAIL', m)
