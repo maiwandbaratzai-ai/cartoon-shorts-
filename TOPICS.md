@@ -51,5 +51,6 @@
 - 2026-11-20 Alvin Straight rides a lawnmower 240 miles to his brother, Laurens, Iowa to Wisconsin, 1994 (67 s, TikTok, story)
 - 2026-11-21 Walter Arnold, first speeding fine: bicycle constable chases an 8 mph car, Paddock Wood, Kent, 1896 (45 s, Channel A, story)
 - 2026-11-21 Statue of Liberty arm and torch displayed alone to raise pedestal money, Philadelphia + Madison Square Park, New York, 1876-1882 (45 s, Channel A, story)
+- 2026-11-21 Bobbie the Wonder Dog walks home from Indiana to Silverton, Oregon, 1923-24 (45 s, Channel B, story)
 ---
 Author: Maiwand

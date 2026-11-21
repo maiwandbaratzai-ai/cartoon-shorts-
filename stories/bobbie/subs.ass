@@ -1,0 +1,80 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY DID A
+Dialogue: 0,0:00:00.60,0:00:01.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOG NAMED
+Dialogue: 0,0:00:01.14,0:00:01.45,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BOBBIE
+Dialogue: 0,0:00:01.45,0:00:01.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WALK
+Dialogue: 0,0:00:01.82,0:00:02.56,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}2,500
+Dialogue: 0,0:00:02.56,0:00:03.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MILES THROUGH WINTER?
+Dialogue: 0,0:00:03.87,0:00:04.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIX MONTHS AFTER
+Dialogue: 0,0:00:04.71,0:00:05.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE VANISHED,
+Dialogue: 0,0:00:05.42,0:00:06.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SKINNY COLLIE
+Dialogue: 0,0:00:06.22,0:00:06.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SCRATCHES AT A
+Dialogue: 0,0:00:06.92,0:00:07.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOOR IN
+Dialogue: 0,0:00:07.30,0:00:07.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}OREGON.
+Dialogue: 0,0:00:07.87,0:00:08.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT
+Dialogue: 0,0:00:08.13,0:00:08.45,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BOBBIE
+Dialogue: 0,0:00:08.45,0:00:09.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GOT LOST IN
+Dialogue: 0,0:00:09.02,0:00:09.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}INDIANA,
+Dialogue: 0,0:00:09.38,0:00:10.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON THE OTHER
+Dialogue: 0,0:00:10.16,0:00:11.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIDE OF AMERICA.
+Dialogue: 0,0:00:11.37,0:00:11.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IF IT'S HIM,
+Dialogue: 0,0:00:11.88,0:00:12.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE CROSSED RIVERS,
+Dialogue: 0,0:00:12.76,0:00:13.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DESERTS AND THE
+Dialogue: 0,0:00:13.59,0:00:14.90,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROCKY MOUNTAINS ALONE.
+Dialogue: 0,0:00:14.90,0:00:16.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE NEIGHBORS LAUGH.
+Dialogue: 0,0:00:16.04,0:00:16.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NO DOG FINDS
+Dialogue: 0,0:00:16.70,0:00:17.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOME FROM
+Dialogue: 0,0:00:17.20,0:00:17.84,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}INDIANA.
+Dialogue: 0,0:00:17.84,0:00:18.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE LETTERS
+Dialogue: 0,0:00:18.53,0:00:19.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}START ARRIVING,
+Dialogue: 0,0:00:19.14,0:00:20.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM PEOPLE WHO
+Dialogue: 0,0:00:20.03,0:00:20.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FED HIM ON
+Dialogue: 0,0:00:20.50,0:00:21.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WAY.
+Dialogue: 0,0:00:21.09,0:00:21.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FARMER IN
+Dialogue: 0,0:00:21.69,0:00:21.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IOWA.
+Dialogue: 0,0:00:21.93,0:00:22.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A COOK IN
+Dialogue: 0,0:00:22.66,0:00:23.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WYOMING.
+Dialogue: 0,0:00:23.04,0:00:23.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FAMILY WHO
+Dialogue: 0,0:00:23.92,0:00:24.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HID HIM FROM
+Dialogue: 0,0:00:24.56,0:00:24.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:24.67,0:00:25.36,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BLIZZARD.
+Dialogue: 0,0:00:25.43,0:00:25.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SWAM AN
+Dialogue: 0,0:00:25.95,0:00:26.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ICY RIVER AND
+Dialogue: 0,0:00:26.71,0:00:27.95,Cap,,0,0,0,,{\fs101}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CLIMBED MOUNTAINS BURIED
+Dialogue: 0,0:00:27.95,0:00:28.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN SNOW.
+Dialogue: 0,0:00:28.80,0:00:29.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HOW DID
+Dialogue: 0,0:00:29.33,0:00:29.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE KNOW THE
+Dialogue: 0,0:00:29.92,0:00:30.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAY?
+Dialogue: 0,0:00:30.25,0:00:31.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE RETRACED THE
+Dialogue: 0,0:00:31.08,0:00:32.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FAMILY'S ROAD TRIP,
+Dialogue: 0,0:00:32.05,0:00:32.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOWN BY TOWN.
+Dialogue: 0,0:00:32.92,0:00:33.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN
+Dialogue: 0,0:00:33.14,0:00:33.44,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}OREGON
+Dialogue: 0,0:00:33.44,0:00:33.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GOES WILD:
+Dialogue: 0,0:00:33.88,0:00:34.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MEDALS,
+Dialogue: 0,0:00:34.33,0:00:35.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KEYS TO CITIES,
+Dialogue: 0,0:00:35.10,0:00:35.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HIS OWN
+Dialogue: 0,0:00:35.64,0:00:35.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LITTLE
+Dialogue: 0,0:00:35.94,0:00:36.47,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HOUSE.
+Dialogue: 0,0:00:36.49,0:00:37.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY THOUSAND PEOPLE
+Dialogue: 0,0:00:37.47,0:00:38.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LINE UP TO
+Dialogue: 0,0:00:38.00,0:00:38.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PET HIM.
+Dialogue: 0,0:00:38.60,0:00:39.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE EVEN STARS
+Dialogue: 0,0:00:39.22,0:00:39.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS HIMSELF IN
+Dialogue: 0,0:00:39.92,0:00:40.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A MOVIE.
+Dialogue: 0,0:00:40.55,0:00:41.41,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}2,500
+Dialogue: 0,0:00:41.41,0:00:41.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MILES,
+Dialogue: 0,0:00:41.73,0:00:42.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALL TO SCRATCH
+Dialogue: 0,0:00:42.70,0:00:43.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT ONE DOOR.
