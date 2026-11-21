@@ -50,5 +50,6 @@
 - 2026-11-20 Pickles the collie finds the stolen World Cup trophy under a hedge, London, 1966 (45 s, Channel B, true)
 - 2026-11-20 Alvin Straight rides a lawnmower 240 miles to his brother, Laurens, Iowa to Wisconsin, 1994 (67 s, TikTok, story)
 - 2026-11-21 Walter Arnold, first speeding fine: bicycle constable chases an 8 mph car, Paddock Wood, Kent, 1896 (45 s, Channel A, story)
+- 2026-11-21 Statue of Liberty arm and torch displayed alone to raise pedestal money, Philadelphia + Madison Square Park, New York, 1876-1882 (45 s, Channel A, story)
 ---
 Author: Maiwand
