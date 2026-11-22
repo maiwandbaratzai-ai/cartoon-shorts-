@@ -1,0 +1,117 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEA BUILT HER
+Dialogue: 0,0:00:00.66,0:00:01.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRIDGE FULL OF
+Dialogue: 0,0:00:01.30,0:00:01.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GAPS,
+Dialogue: 0,0:00:01.50,0:00:01.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH STEEL
+Dialogue: 0,0:00:01.92,0:00:02.15,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEETH
+Dialogue: 0,0:00:02.15,0:00:03.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STICKING OUT.
+Dialogue: 0,0:00:03.03,0:00:03.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU SEE,
+Dialogue: 0,0:00:03.40,0:00:04.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RED CANYON PAYS
+Dialogue: 0,0:00:04.13,0:00:05.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}5,000
+Dialogue: 0,0:00:05.05,0:00:05.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOLLARS TO THE
+Dialogue: 0,0:00:05.74,0:00:06.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRIDGE THAT CARRIES
+Dialogue: 0,0:00:06.76,0:00:07.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MAIL ALL
+Dialogue: 0,0:00:07.36,0:00:07.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SUMMER.
+Dialogue: 0,0:00:07.94,0:00:08.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HER RIVAL DUKE
+Dialogue: 0,0:00:08.65,0:00:09.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LAUGHED:
+Dialogue: 0,0:00:09.02,0:00:09.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"IS THAT A
+Dialogue: 0,0:00:09.60,0:00:09.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRIDGE,
+Dialogue: 0,0:00:09.92,0:00:10.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OR A GIANT
+Dialogue: 0,0:00:10.53,0:00:10.93,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COMB?"
+Dialogue: 0,0:00:10.93,0:00:11.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUKE'S BRIDGE WAS
+Dialogue: 0,0:00:11.74,0:00:12.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SMOOTH STEEL,
+Dialogue: 0,0:00:12.30,0:00:13.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}END TO END.
+Dialogue: 0,0:00:13.06,0:00:13.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOT ONE GAP.
+Dialogue: 0,0:00:13.98,0:00:14.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO EVERY WAGON
+Dialogue: 0,0:00:14.62,0:00:15.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PICKED DUKE'S BRIDGE,
+Dialogue: 0,0:00:15.67,0:00:16.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHILE BEA'S
+Dialogue: 0,0:00:16.14,0:00:16.40,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEETH
+Dialogue: 0,0:00:16.40,0:00:16.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WENT CLACK,
+Dialogue: 0,0:00:16.87,0:00:17.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CLACK,
+Dialogue: 0,0:00:17.26,0:00:17.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CLACK.
+Dialogue: 0,0:00:18.00,0:00:18.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN SUMMER CAME
+Dialogue: 0,0:00:18.71,0:00:19.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THREE STEPS.
+Dialogue: 0,0:00:19.58,0:00:19.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JUNE:
+Dialogue: 0,0:00:19.79,0:00:20.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THIRTY DEGREES.
+Dialogue: 0,0:00:20.47,0:00:21.77,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUKE'S BRIDGE CREAKED.
+Dialogue: 0,0:00:21.92,0:00:22.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JULY:
+Dialogue: 0,0:00:22.15,0:00:22.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY DEGREES.
+Dialogue: 0,0:00:22.80,0:00:23.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A BUMP ROSE
+Dialogue: 0,0:00:23.37,0:00:24.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE MIDDLE
+Dialogue: 0,0:00:24.04,0:00:24.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF HIS ROAD.
+Dialogue: 0,0:00:24.62,0:00:25.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT DUKE GRINNED:
+Dialogue: 0,0:00:25.78,0:00:27.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"FREE SPEED BUMP!"
+Dialogue: 0,0:00:27.08,0:00:27.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AUGUST:
+Dialogue: 0,0:00:27.37,0:00:27.77,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FIFTY
+Dialogue: 0,0:00:27.77,0:00:28.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DEGREES.
+Dialogue: 0,0:00:28.10,0:00:28.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BUMP BECAME
+Dialogue: 0,0:00:28.90,0:00:29.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:29.00,0:00:29.22,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HUMP,
+Dialogue: 0,0:00:29.22,0:00:29.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE MAIL
+Dialogue: 0,0:00:29.78,0:00:30.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAGON GOT STUCK
+Dialogue: 0,0:00:30.52,0:00:31.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON TOP.
+Dialogue: 0,0:00:31.22,0:00:31.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUKE PUSHED.
+Dialogue: 0,0:00:31.84,0:00:32.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE HORSES PULLED.
+Dialogue: 0,0:00:32.59,0:00:33.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MAIL DID
+Dialogue: 0,0:00:33.22,0:00:33.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOT MOVE AN
+Dialogue: 0,0:00:33.69,0:00:34.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INCH.
+Dialogue: 0,0:00:34.17,0:00:34.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY DID
+Dialogue: 0,0:00:34.62,0:00:35.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A STEEL BRIDGE
+Dialogue: 0,0:00:35.21,0:00:35.47,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GROW
+Dialogue: 0,0:00:35.47,0:00:35.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:35.56,0:00:36.02,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HUMP?
+Dialogue: 0,0:00:36.23,0:00:36.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVER FOUGHT A
+Dialogue: 0,0:00:36.83,0:00:37.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STUCK JAR
+Dialogue: 0,0:00:37.37,0:00:37.54,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LID?
+Dialogue: 0,0:00:37.54,0:00:38.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RUN IT UNDER
+Dialogue: 0,0:00:38.24,0:00:38.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOT WATER,
+Dialogue: 0,0:00:38.67,0:00:39.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND IT POPS
+Dialogue: 0,0:00:39.27,0:00:39.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT OFF.
+Dialogue: 0,0:00:40.09,0:00:41.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAT MAKES METAL
+Dialogue: 0,0:00:41.01,0:00:41.27,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GROW.
+Dialogue: 0,0:00:41.27,0:00:42.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A HUNDRED METERS
+Dialogue: 0,0:00:42.24,0:00:43.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF STEEL GROWS
+Dialogue: 0,0:00:43.01,0:00:44.55,Cap,,0,0,0,,{\fs105}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ABOUT FIVE CENTIMETERS.
+Dialogue: 0,0:00:44.55,0:00:45.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUKE'S BRIDGE HAD
+Dialogue: 0,0:00:45.34,0:00:45.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOWHERE TO
+Dialogue: 0,0:00:45.78,0:00:45.99,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GROW,
+Dialogue: 0,0:00:45.99,0:00:46.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO IT SHOVED
+Dialogue: 0,0:00:46.55,0:00:47.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CLIFFS AND
+Dialogue: 0,0:00:47.16,0:00:47.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BENT UP.
+Dialogue: 0,0:00:48.10,0:00:48.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT BEA'S
+Dialogue: 0,0:00:48.51,0:00:48.78,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEETH
+Dialogue: 0,0:00:48.78,0:00:49.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLIDE APART IN
+Dialogue: 0,0:00:49.47,0:00:49.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINTER,
+Dialogue: 0,0:00:49.78,0:00:50.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TOGETHER IN
+Dialogue: 0,0:00:50.61,0:00:51.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SUMMER.
+Dialogue: 0,0:00:51.17,0:00:51.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HER BRIDGE
+Dialogue: 0,0:00:51.79,0:00:52.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STAYED FLAT AS
+Dialogue: 0,0:00:52.60,0:00:53.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TABLE ALL
+Dialogue: 0,0:00:53.14,0:00:53.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SUMMER LONG.
+Dialogue: 0,0:00:53.91,0:00:54.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MAIL ROLLED
+Dialogue: 0,0:00:54.55,0:00:54.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ACROSS,
+Dialogue: 0,0:00:54.83,0:00:55.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND BEA GOT
+Dialogue: 0,0:00:55.33,0:00:55.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:55.58,0:00:56.33,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}5,000
+Dialogue: 0,0:00:56.33,0:00:56.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOLLARS.
+Dialogue: 0,0:00:56.90,0:00:57.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUKE BEGGED:
+Dialogue: 0,0:00:57.46,0:00:57.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"BEA,
+Dialogue: 0,0:00:57.61,0:00:58.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAN YOU PUT
+Dialogue: 0,0:00:58.18,0:00:58.40,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEETH
+Dialogue: 0,0:00:58.40,0:00:59.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN MY BRIDGE?"
+Dialogue: 0,0:00:59.10,0:00:59.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHE AGREED.
+Dialogue: 0,0:00:59.61,0:01:00.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HER HORSE WAS
+Dialogue: 0,0:01:00.41,0:01:01.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALREADY COMBING ITS
+Dialogue: 0,0:01:01.39,0:01:02.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TAIL ON THEM.

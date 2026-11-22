@@ -1,0 +1,8 @@
+Platform: TikTok
+Type: story
+Title: Why Every Big Bridge Has Metal Teeth
+Caption: Bea's bridge looked like a giant comb... until summer hit 50 degrees. Would you have picked the smooth bridge? 👇
+Description: A made-up desert fable about Bea's comb-jointed bridge and Duke's smooth one that explains real expansion joints: steel grows in the heat, so bridges need teeth that slide.
+Hashtags: #howthingswork #engineering #bridges #animation #storytime
+Script score: 25/30
+Guidelines: pass
