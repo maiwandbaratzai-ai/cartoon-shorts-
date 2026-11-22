@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HENRIK BUILT HIS
+Dialogue: 0,0:00:00.97,0:00:01.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROOF SO STEEP,
+Dialogue: 0,0:00:01.81,0:00:01.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS
+Dialogue: 0,0:00:01.99,0:00:02.21,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOAT
+Dialogue: 0,0:00:02.21,0:00:02.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLID OFF IT
+Dialogue: 0,0:00:02.82,0:00:03.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWICE.
+Dialogue: 0,0:00:03.38,0:00:03.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU SEE,
+Dialogue: 0,0:00:03.75,0:00:04.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN FROSTDAL,
+Dialogue: 0,0:00:04.59,0:00:05.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THREE METERS OF
+Dialogue: 0,0:00:05.31,0:00:06.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SNOW FALL EVERY
+Dialogue: 0,0:00:06.14,0:00:06.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINTER.
+Dialogue: 0,0:00:06.72,0:00:07.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS NEIGHBOR SVEN
+Dialogue: 0,0:00:07.51,0:00:08.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LAUGHED:
+Dialogue: 0,0:00:08.09,0:00:08.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"IS THAT A
+Dialogue: 0,0:00:08.56,0:00:08.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUSE,
+Dialogue: 0,0:00:08.82,0:00:09.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OR A PARTY
+Dialogue: 0,0:00:09.33,0:00:09.70,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HAT?"
+Dialogue: 0,0:00:09.70,0:00:10.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SVEN'S ROOF WAS
+Dialogue: 0,0:00:10.37,0:00:10.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLAT,
+Dialogue: 0,0:00:10.69,0:00:11.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH A HOT
+Dialogue: 0,0:00:11.27,0:00:11.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TUB ON TOP.
+Dialogue: 0,0:00:11.78,0:00:12.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALL AUTUMN,
+Dialogue: 0,0:00:12.47,0:00:13.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SOAKED.
+Dialogue: 0,0:00:13.36,0:00:14.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN CAME THREE
+Dialogue: 0,0:00:14.14,0:00:14.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STORMS.
+Dialogue: 0,0:00:14.48,0:00:14.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STORM ONE:
+Dialogue: 0,0:00:14.97,0:00:15.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HALF A METER.
+Dialogue: 0,0:00:15.86,0:00:16.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SVEN WAVED.
+Dialogue: 0,0:00:16.79,0:00:17.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STORM TWO:
+Dialogue: 0,0:00:17.25,0:00:17.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO METERS.
+Dialogue: 0,0:00:17.77,0:00:18.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS BEAMS CREAKED,
+Dialogue: 0,0:00:18.78,0:00:19.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT SVEN GRINNED:
+Dialogue: 0,0:00:19.72,0:00:20.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"STRONG ROOF!"
+Dialogue: 0,0:00:20.59,0:00:21.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STORM THREE:
+Dialogue: 0,0:00:21.15,0:00:21.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WET SNOW,
+Dialogue: 0,0:00:21.59,0:00:22.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EACH SQUARE METER
+Dialogue: 0,0:00:22.43,0:00:23.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS HEAVY AS
+Dialogue: 0,0:00:23.02,0:00:23.34,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FOUR
+Dialogue: 0,0:00:23.34,0:00:23.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MEN.
+Dialogue: 0,0:00:23.98,0:00:24.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE ROOF
+Dialogue: 0,0:00:24.58,0:00:24.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAGGED,
+Dialogue: 0,0:00:24.87,0:00:25.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND SVEN'S DOOR
+Dialogue: 0,0:00:25.57,0:00:26.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JAMMED SHUT.
+Dialogue: 0,0:00:26.32,0:00:26.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVER SAT AT
+Dialogue: 0,0:00:26.86,0:00:27.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TOP OF
+Dialogue: 0,0:00:27.36,0:00:27.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A STEEP
+Dialogue: 0,0:00:27.71,0:00:27.98,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SLIDE?
+Dialogue: 0,0:00:27.98,0:00:28.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU CAN'T STAY
+Dialogue: 0,0:00:28.71,0:00:29.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP THERE.
+Dialogue: 0,0:00:29.50,0:00:30.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEITHER CAN SNOW.
+Dialogue: 0,0:00:30.25,0:00:30.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO ON A
+Dialogue: 0,0:00:30.64,0:00:31.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STEEP ROOF,
+Dialogue: 0,0:00:31.21,0:00:31.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT SLIDES OFF
+Dialogue: 0,0:00:31.93,0:00:32.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEFORE IT GETS
+Dialogue: 0,0:00:32.80,0:00:33.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAVY.
+Dialogue: 0,0:00:33.31,0:00:33.57,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHUMP!
+Dialogue: 0,0:00:33.57,0:00:34.51,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HENRIK'S ROOF SHRUGGED
+Dialogue: 0,0:00:34.51,0:00:35.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF ITS SNOW
+Dialogue: 0,0:00:35.09,0:00:35.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND STOOD DRY.
+Dialogue: 0,0:00:35.96,0:00:36.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SVEN CLIMBED OUT
+Dialogue: 0,0:00:36.71,0:00:37.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS WINDOW AND
+Dialogue: 0,0:00:37.39,0:00:37.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEGGED:
+Dialogue: 0,0:00:37.94,0:00:38.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"CAN I SLEEP
+Dialogue: 0,0:00:38.49,0:00:39.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT YOURS?"
+Dialogue: 0,0:00:39.09,0:00:40.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HENRIK HANDED HIM
+Dialogue: 0,0:00:40.09,0:00:40.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TINY PARTY
+Dialogue: 0,0:00:40.78,0:00:41.01,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HAT.
+Dialogue: 0,0:00:41.01,0:00:41.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:41.44,0:00:41.70,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOAT
+Dialogue: 0,0:00:41.70,0:00:42.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALREADY HAD ONE.

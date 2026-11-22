@@ -54,5 +54,6 @@
 - 2026-11-21 Bobbie the Wonder Dog walks home from Indiana to Silverton, Oregon, 1923-24 (45 s, Channel B, story)
 - 2026-11-21 John Moore-Brabazon flies a piglet in a basket on his biplane ("pigs might fly"), Isle of Sheppey, England, 1909 (45 s, Channel B, story)
 - 2026-11-21 Gold Rush ships abandoned, turned into a hotel/store/jail, burned and buried under downtown San Francisco, 1849-51 (64 s, TikTok, story)
+- 2026-11-22 Why snow houses have steep roofs: Henrik's party-hat roof vs Sven's flat roof + hot tub, mountain village Frostdal (45 s, Channel A, story)
 ---
 Author: Maiwand
