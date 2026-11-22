@@ -37,6 +37,10 @@ safety) and the pre-render checklist. Its rules override anything below when the
    on line/word times `LS(i)`, `WS(i,'word')`. `python3 stories/<slug>/audio.py` → mix_raw.wav (voice-led, ducked).
    **Only the narrator speaks:** no character voices, soundbites, gasps or crowd voices (vox/gasp/crowd are silenced).
 7. **Render:** `tools/render_all.sh <slug> 2` (resumable; ~3.5–4 s/frame/process outdoors, 5–7 s with a detailed hero prop → a 45 s short ≈ 65–100 min; motion blur adds ~15%).
+   **2026-11-22:** with the pro look (VSM shadows, MSAA, motion blur, dense sets) a frame takes ~8 s and SwiftShader already uses
+   both cores, so 2 processes are no faster than 1. Five videos at 30 fps no longer fit one night: render on twos with
+   `STEP=2 tools/render_all.sh <slug> 1` (every other frame, gaps filled with copies; ~45-50 min for 45 s), or queue several
+   stories with `tools/queue.sh slug1 slug2 ...`. Keep stills passes few: they steal CPU from the running render.
    Render the three stories one after another, not in parallel.
 7b. **Opening graphic:** `python3 tools/hookcard.py stories/<slug> "BIG CLAIM|2-5 WORDS" "<badge>"` (LOOK.md); finish.sh overlays it on 0–1.6 s.
 8. **Finish:** `tools/finish.sh <slug> "Title"` → `stories/<slug>/out/<Title>.mp4` (−14 LUFS, burned captions, QA).
