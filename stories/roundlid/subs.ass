@@ -1,0 +1,90 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GRETA ROLLED A
+Dialogue: 0,0:00:00.85,0:00:01.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GIANT IRON
+Dialogue: 0,0:00:01.39,0:00:01.63,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COIN
+Dialogue: 0,0:00:01.63,0:00:02.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOWN MAIN STREET,
+Dialogue: 0,0:00:02.66,0:00:03.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOG ON TOP.
+Dialogue: 0,0:00:03.63,0:00:03.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU SEE,
+Dialogue: 0,0:00:03.96,0:00:04.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BELLPORT HAS
+Dialogue: 0,0:00:04.55,0:00:05.15,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}300
+Dialogue: 0,0:00:05.15,0:00:05.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOLES IN ITS
+Dialogue: 0,0:00:05.69,0:00:06.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STREETS,
+Dialogue: 0,0:00:06.16,0:00:06.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND EVERY ONE
+Dialogue: 0,0:00:06.83,0:00:07.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEEDS A LID.
+Dialogue: 0,0:00:07.69,0:00:08.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HER RIVAL BRUNO
+Dialogue: 0,0:00:08.44,0:00:08.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LAUGHED:
+Dialogue: 0,0:00:08.88,0:00:09.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"ROUND LIDS?
+Dialogue: 0,0:00:09.40,0:00:10.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHAT IS THIS,
+Dialogue: 0,0:00:10.12,0:00:10.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:10.29,0:00:10.57,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIZZA
+Dialogue: 0,0:00:10.57,0:00:11.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHOP?"
+Dialogue: 0,0:00:11.05,0:00:11.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRUNO'S SQUARE LIDS
+Dialogue: 0,0:00:11.88,0:00:12.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WERE CHEAPER,
+Dialogue: 0,0:00:12.48,0:00:12.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE TOWN
+Dialogue: 0,0:00:12.99,0:00:13.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOUGHT ALL THREE
+Dialogue: 0,0:00:13.77,0:00:14.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HUNDRED.
+Dialogue: 0,0:00:14.44,0:00:15.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN CAME THREE
+Dialogue: 0,0:00:15.22,0:00:15.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEEKS.
+Dialogue: 0,0:00:15.52,0:00:15.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEEK ONE:
+Dialogue: 0,0:00:15.96,0:00:16.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WORKER LIFTED
+Dialogue: 0,0:00:16.75,0:00:17.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A LID.
+Dialogue: 0,0:00:17.16,0:00:17.45,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CLUNK.
+Dialogue: 0,0:00:17.45,0:00:18.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT FELL IN.
+Dialogue: 0,0:00:18.27,0:00:18.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEEK TWO:
+Dialogue: 0,0:00:18.72,0:00:19.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWELVE LIDS FELL
+Dialogue: 0,0:00:19.49,0:00:19.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN.
+Dialogue: 0,0:00:19.62,0:00:20.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT BRUNO SHRUGGED:
+Dialogue: 0,0:00:20.48,0:00:21.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"JUST FISH THEM
+Dialogue: 0,0:00:21.27,0:00:21.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT!"
+Dialogue: 0,0:00:21.62,0:00:22.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEEK THREE:
+Dialogue: 0,0:00:22.01,0:00:22.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRUCKS BUMPED THE
+Dialogue: 0,0:00:22.53,0:00:22.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIDS,
+Dialogue: 0,0:00:22.68,0:00:23.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY FLIPPED,
+Dialogue: 0,0:00:23.12,0:00:23.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:23.32,0:00:23.49,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FORTY
+Dialogue: 0,0:00:23.49,0:00:24.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DROPPED IN.
+Dialogue: 0,0:00:24.33,0:00:25.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN MAIN STREET
+Dialogue: 0,0:00:25.06,0:00:25.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS NOTHING BUT
+Dialogue: 0,0:00:25.81,0:00:26.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOLES AND TRAFFIC
+Dialogue: 0,0:00:26.65,0:00:27.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CONES.
+Dialogue: 0,0:00:27.16,0:00:27.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVER CARRIED A
+Dialogue: 0,0:00:27.78,0:00:28.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TABLE THROUGH A
+Dialogue: 0,0:00:28.43,0:00:28.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NARROW DOOR?
+Dialogue: 0,0:00:28.92,0:00:29.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TILT IT,
+Dialogue: 0,0:00:29.37,0:00:29.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND IT SLIPS
+Dialogue: 0,0:00:29.92,0:00:30.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THROUGH.
+Dialogue: 0,0:00:30.55,0:00:31.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SQUARE'S
+Dialogue: 0,0:00:31.10,0:00:31.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DIAGONAL
+Dialogue: 0,0:00:31.52,0:00:32.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS LONGER THAN
+Dialogue: 0,0:00:32.26,0:00:32.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITS SIDE,
+Dialogue: 0,0:00:32.86,0:00:33.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO A TILTED
+Dialogue: 0,0:00:33.46,0:00:34.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SQUARE LID DROPS
+Dialogue: 0,0:00:34.36,0:00:34.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN.
+Dialogue: 0,0:00:34.78,0:00:35.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT A
+Dialogue: 0,0:00:35.07,0:00:35.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CIRCLE
+Dialogue: 0,0:00:35.38,0:00:36.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS THE SAME
+Dialogue: 0,0:00:36.00,0:00:37.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WIDTH EVERY WAY.
+Dialogue: 0,0:00:37.03,0:00:37.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GRETA'S LIDS CAN
+Dialogue: 0,0:00:37.76,0:00:38.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEVER FALL IN.
+Dialogue: 0,0:00:38.76,0:00:39.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRUNO BEGGED:
+Dialogue: 0,0:00:39.39,0:00:39.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"GRETA,
+Dialogue: 0,0:00:39.65,0:00:40.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAN I BUY
+Dialogue: 0,0:00:40.12,0:00:40.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOUR LIDS?"
+Dialogue: 0,0:00:40.74,0:00:41.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHE ROLLED HIM
+Dialogue: 0,0:00:41.45,0:00:41.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE.
+Dialogue: 0,0:00:41.79,0:00:42.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HER DOG RODE
+Dialogue: 0,0:00:42.42,0:00:42.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT LIKE A
+Dialogue: 0,0:00:42.98,0:00:43.26,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIZZA
+Dialogue: 0,0:00:43.26,0:00:43.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DELIVERY.

@@ -1,0 +1,6 @@
+coin
+pizza
+clunk
+forty
+diagonal
+circle
