@@ -1,0 +1,88 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAPTAIN PIM WELDED
+Dialogue: 0,0:00:01.17,0:00:01.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A GIANT STEEL
+Dialogue: 0,0:00:01.91,0:00:02.18,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BALL
+Dialogue: 0,0:00:02.18,0:00:02.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONTO HIS SHIP'S
+Dialogue: 0,0:00:02.97,0:00:03.50,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}NOSE.
+Dialogue: 0,0:00:03.50,0:00:03.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOU SEE,
+Dialogue: 0,0:00:03.85,0:00:04.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FIRST SHIP
+Dialogue: 0,0:00:04.69,0:00:05.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO BRING
+Dialogue: 0,0:00:05.09,0:00:05.79,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}1,000
+Dialogue: 0,0:00:05.79,0:00:06.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CRATES TO PORT
+Dialogue: 0,0:00:06.45,0:00:07.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}VELLA GETS PAID
+Dialogue: 0,0:00:07.22,0:00:07.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOUBLE.
+Dialogue: 0,0:00:07.77,0:00:08.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAPTAIN BRAG LAUGHED:
+Dialogue: 0,0:00:08.89,0:00:09.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"IS THAT A
+Dialogue: 0,0:00:09.38,0:00:09.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CARGO SHIP,
+Dialogue: 0,0:00:09.97,0:00:10.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OR A
+Dialogue: 0,0:00:10.23,0:00:10.50,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CLOWN
+Dialogue: 0,0:00:10.50,0:00:10.92,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}NOSE?"
+Dialogue: 0,0:00:10.92,0:00:11.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT OF THE
+Dialogue: 0,0:00:11.38,0:00:11.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HARBOR,
+Dialogue: 0,0:00:11.65,0:00:12.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAG'S SLEEK SHIP
+Dialogue: 0,0:00:12.41,0:00:13.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHOT AHEAD.
+Dialogue: 0,0:00:13.18,0:00:14.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN CAME THREE
+Dialogue: 0,0:00:14.01,0:00:14.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEGS.
+Dialogue: 0,0:00:14.37,0:00:14.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEG ONE:
+Dialogue: 0,0:00:14.79,0:00:15.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAG LED BY
+Dialogue: 0,0:00:15.54,0:00:16.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A MILE.
+Dialogue: 0,0:00:16.16,0:00:16.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEG TWO:
+Dialogue: 0,0:00:16.59,0:00:17.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FULL SPEED.
+Dialogue: 0,0:00:17.23,0:00:17.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A HUGE
+Dialogue: 0,0:00:17.74,0:00:18.00,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WAVE
+Dialogue: 0,0:00:18.00,0:00:18.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PILED UP ON
+Dialogue: 0,0:00:18.74,0:00:19.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAG'S BOW.
+Dialogue: 0,0:00:19.61,0:00:20.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEG THREE:
+Dialogue: 0,0:00:20.10,0:00:20.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAG PUSHED HARDER,
+Dialogue: 0,0:00:20.96,0:00:21.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HIS FUEL
+Dialogue: 0,0:00:21.49,0:00:22.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEEDLE DROPPED AND
+Dialogue: 0,0:00:22.38,0:00:22.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:22.56,0:00:22.84,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WAVE
+Dialogue: 0,0:00:22.84,0:00:23.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GREW.
+Dialogue: 0,0:00:23.50,0:00:24.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN HIS ENGINES
+Dialogue: 0,0:00:24.15,0:00:24.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COUGHED,
+Dialogue: 0,0:00:24.58,0:00:25.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HE DRIFTED
+Dialogue: 0,0:00:25.24,0:00:26.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO A STOP.
+Dialogue: 0,0:00:26.02,0:00:26.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVER WALKED THROUGH
+Dialogue: 0,0:00:26.89,0:00:27.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAIST-DEEP WATER?
+Dialogue: 0,0:00:27.61,0:00:28.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSHING THE WATER
+Dialogue: 0,0:00:28.49,0:00:29.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS THE HARD
+Dialogue: 0,0:00:29.06,0:00:29.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PART.
+Dialogue: 0,0:00:29.63,0:00:30.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT PIM'S
+Dialogue: 0,0:00:30.16,0:00:30.39,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BALL
+Dialogue: 0,0:00:30.39,0:00:31.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MAKES ITS OWN
+Dialogue: 0,0:00:31.04,0:00:31.48,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WAVE:
+Dialogue: 0,0:00:31.48,0:00:32.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A DIP RIGHT
+Dialogue: 0,0:00:32.13,0:00:32.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHERE THE HUMP
+Dialogue: 0,0:00:32.81,0:00:33.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RISES.
+Dialogue: 0,0:00:33.34,0:00:34.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HUMP MEETS DIP,
+Dialogue: 0,0:00:34.04,0:00:34.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SEA GOES
+Dialogue: 0,0:00:34.71,0:00:35.00,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FLAT,
+Dialogue: 0,0:00:35.00,0:00:35.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND PIM BURNS
+Dialogue: 0,0:00:35.67,0:00:36.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP TO
+Dialogue: 0,0:00:36.01,0:00:36.50,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FIFTEEN
+Dialogue: 0,0:00:36.50,0:00:37.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PERCENT LESS FUEL.
+Dialogue: 0,0:00:37.60,0:00:38.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAG WAVED FROM
+Dialogue: 0,0:00:38.31,0:00:39.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS DRIFTING SHIP:
+Dialogue: 0,0:00:39.40,0:00:39.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"PIM!
+Dialogue: 0,0:00:39.58,0:00:40.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GIVE ME A
+Dialogue: 0,0:00:40.05,0:00:40.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOW!"
+Dialogue: 0,0:00:40.40,0:00:40.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIM THREW A
+Dialogue: 0,0:00:40.93,0:00:41.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROPE.
+Dialogue: 0,0:00:41.34,0:00:41.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CAT HAD
+Dialogue: 0,0:00:41.87,0:00:42.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIED A
+Dialogue: 0,0:00:42.24,0:00:42.50,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CLOWN
+Dialogue: 0,0:00:42.50,0:00:42.72,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}NOSE
+Dialogue: 0,0:00:42.72,0:00:43.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON IT.
