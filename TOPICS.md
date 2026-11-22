@@ -57,5 +57,6 @@
 - 2026-11-22 Why snow houses have steep roofs: Henrik's party-hat roof vs Sven's flat roof + hot tub, mountain village Frostdal (45 s, Channel A, story)
 - 2026-11-22 Why big ships have a bulbous bow: Captain Pim's ball nose vs Captain Brag's sleek bow, harbor + open-sea race (45 s, Channel B, story)
 - 2026-11-22 Why manhole covers are round: Greta's round iron lids vs Bruno's square lids that fall in, Bellport Main Street (45 s, Channel A, story)
+- 2026-11-22 Why some skyscrapers hide a giant ball (tuned mass damper): Mira's golden ball vs Rex's rooftop pool, Windport skyline in three storms (45 s, Channel B, story)
 ---
 Author: Maiwand
