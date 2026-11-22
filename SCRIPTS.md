@@ -5,7 +5,75 @@ Author: Maiwand. Every daily run reads this before writing a script, follows the
 picture can only be as gripping as the words it illustrates.
 
 
+## 000. FUNNY + ORIGINAL (Maiwand 2026-11-22) — this section beats every other one in this file
+"Make the scripts funny, engaging and interesting so they keep watching. Fake and NEW, not copied from anyone."
+
+**What went wrong on 2026-11-22:** all five scripts used the same skeleton and even the reference video's joke
+shape ("Is that a skyscraper, or a Christmas ornament?" = their "locomotive or litter box?"). That is copying, and
+it is predictable: viewers feel the template by video two. `tools/script_check.py` now FAILS copied/worn lines,
+repeated skeletons, too few jokes, and a missing originality note.
+
+### Originality rules
+- Invent the premise, the characters, the jokes and the ending yourself. Reference videos teach pacing and craft
+  only: never reuse their stories, lines, joke shapes, characters or endings.
+- Never reuse our own skeleton: rotate the story engines below. At most ONE video per night may use the
+  "rival mocks the hero, rival gets stuck" engine (§00), and never with its old lines.
+- Before writing, search YouTube for the premise; if a Short already tells that same gag, change the premise.
+- Write stories/<slug>/original.txt: 1–2 lines on what is new here (premise, characters, the big gag).
+
+### Story engines (pick a different one for each video of the night)
+1. **The Upgrade** — someone "improves" the thing (round pencils, square wheels, a fridge with no door seal) and
+   the chaos escalates until the real reason is obvious.
+2. **Remove It and See** — a mayor/boss bans the thing ("lids are ugly") and the town falls apart in a chain reaction.
+3. **The Bet** — two friends bet on something silly; each try is bigger and dumber; the loser learns the why.
+4. **Fish Out of Water** — an alien, a dog, a robot or a baby tries to run a human thing and gets it wrong.
+5. **The Complaint Desk** — customers complain about the thing, the clerk "fixes" each complaint, it gets worse.
+6. **The Heist** — a crew plans something; the everyday "why" is the obstacle that ruins (or saves) the plan.
+7. **The Overconfident Expert** — a famous know-it-all ignores the intern; the intern's "dumb" idea is the why.
+8. **The Rivals** (§00) — max once per night, all new lines.
+
+### Comedy toolkit (a laugh every ~5 seconds: 8+ jokes in 45 s, 11+ in 64 s)
+- **Specific beats generic:** "Linda from Accounting" not "a worker"; "forty-one cones" not "many cones".
+- **Comparison jokes:** "forty pencils rolled off, like lemmings with erasers."
+- **Escalation to absurd:** normal → bad → ridiculous (the CEO moonwalks into the fountain).
+- **The failed fix:** the hero's solution makes it worse ("he gave the pencils tiny seatbelts. They rolled anyway.").
+- **Rule of three:** two normal items, the third is the joke.
+- **Deadpan narration of chaos:** the narrator states madness calmly.
+- **Character flaw/want:** every main character wants something silly and specific (to be called "Captain").
+- **Visual gag on every line:** write what we SEE that is funny, not only what we hear.
+- **Misdirection:** set up one meaning, pay off another.
+- **Callback button:** the last line brings back an earlier joke in a new way — never the same ending shape twice.
+- **Explanation as a joke too:** the real reason in one funny, true image ("a round pencil is a tiny wheel; six
+  sides make it a tiny brick").
+- Never explain a joke; never end on a moral; never "and that's why..." without a gag.
+
+### Process
+1. Pick the engine and the "why". 2. Write 10 premises, keep the funniest. 3. Draft. 4. **Punch-up pass:** for
+every line, write 3 funnier versions and keep the best. 5. Fill stories/<slug>/jokes.txt — one line per laugh:
+`L<line number> <type>: <the joke>` (types: specific, comparison, escalation, failed-fix, rule-of-three, deadpan,
+character, visual, misdirection, callback, explanation). 6. **Repeat-to-a-friend test:** would a 13-year-old
+repeat a line from this to a friend? If not, punch up again. 7. Run script_check (no FAILs).
+
+### Example (written fresh for the kit — do not reuse it, write new ones like it)
+Engine: The Upgrade. Why are pencils six-sided?
+```
+Gerald made every pencil in Pinewood Office perfectly round.
+"Round is classier," he said, polishing one with his tie.
+But at 9:01, the first pencil rolled off a desk.
+At 9:02, forty more followed it, like lemmings with erasers.
+Then it got worse: by lunch the floor was a pencil river, and Linda from Accounting was surfing it.
+So Gerald gave every pencil a tiny seatbelt. They rolled anyway.
+[hype] At three, the boss stepped on one and moonwalked straight into the fountain.
+[beat] Then Bo the intern held up an old pencil. Six flat sides.
+A round pencil is a tiny wheel. Six sides make it a tiny brick.
+And bricks don't go anywhere.
+Gerald got promoted. Head of Seatbelts.
+```
+
 ## 00. FICTION ONLY + the "fable that explains a why" (Maiwand 2026-11-21: no more true stories)
+
+**Since 2026-11-22 this is only ONE of the engines in §000 (max once per night) and its example lines below are
+the reference video's — never reuse them. Fiction-only still applies to every video.**
 
 **Every video is an invented story.** Made-up characters, made-up events, made-up dialogue (read by the narrator).
 No real people, no real events retold, no "true story" anything. upload.txt always says "Type: story".

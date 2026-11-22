@@ -275,3 +275,9 @@ awnings with shop names, gables, zebra crossings, bike lanes, poles, signs, ligh
 background people, protest signs with words). Now in the kit: `K.set` builders (web/set3d.js, demo web/s/town.js)
 and the "Detail density" rules in LOOK.md.
 
+### 2026-11-22: funny + original (Maiwand)
+The first fiction night copied the reference too closely: all five scripts used one skeleton and the reference's
+joke shape. Maiwand wants funny, engaging, NEW stories that copy nobody. Fix: SCRIPTS.md §000 (8 story engines to
+rotate, comedy toolkit, a laugh every ~5 s, punch-up pass, jokes.txt + original.txt), and script_check FAILS
+copied lines, repeated skeletons and low joke counts.
+

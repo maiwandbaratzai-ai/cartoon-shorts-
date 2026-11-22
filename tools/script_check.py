@@ -59,6 +59,39 @@ plant_keys = {w.lower().strip('.,?!:"') for l in lines[1:4] for w in words(l) if
 if not (first_keys & last_keys) and not (plant_keys & last_keys) and not re.search(r'(?i)(that.s how|that.s why|and that|so how|which is why)', last) and not last.endswith(('?', ',', '…')):
     Wn('last line doesn\'t echo or lead into line 1 (loop): consider "And that\'s how…" / a question / the hook image')
 
+# ---- originality + comedy (Maiwand 2026-11-22: funny, engaging, NEW stories, never copied) ----
+import os, glob
+raw = open(f'{sd}/script.txt').read()
+BANNED = [  # lines/joke shapes lifted from reference videos or worn out by our own repeats: never again
+  (r"(?i)\bis (that|this) an? [\w' -]+,? or an? [\w' -]+\?", 'the "Is that a X, or a Y?" joke is copied from the reference video'),
+  (r'(?i)^you see,', '"You see," opener is the reference video\'s line'),
+  (r'(?i)\bthen came (two|three|four|five)\b', '"Then came three ..." is a worn template'),
+  (r'(?i)\blitter box\b|\bsand is for the cat\b|\bthrow me some sand\b|socks on a kitchen floor|kitchen floor in socks', 'reference video line'),
+  (r'(?i)\b(he|she|they) begged\b|\bbegged:', '"begged" ending is our worn template'),
+  (r'(?i)\b(her|his) rival \w+ laughed\b', '"Her rival X laughed" is our worn template'),
+]
+for rx, why in BANNED:
+    if re.search(rx, raw, re.M): F(f'copied/worn line: {why}')
+# structure repeats: compare this script's line openers with the last 12 stories
+mine = [' '.join(words(l)[:2]).lower() for l in lines]
+others = sorted(glob.glob(os.path.join(os.path.dirname(sd), '*', 'script.txt')), key=os.path.getmtime)[-13:]
+for o in others:
+    if os.path.abspath(o) == os.path.abspath(f'{sd}/script.txt'): continue
+    ol = [' '.join(words(re.sub(r'\[(hype|slow|beat)\]\s*', '', x))[:2]).lower() for x in open(o) if x.strip()]
+    same = sum(1 for x in mine if x and x in ol)
+    if same >= max(4, len(mine) // 3): F(f'same skeleton as {o.split("/")[-2]} ({same} lines start the same way): use a different story engine (SCRIPTS.md §000)')
+# jokes: stories/<slug>/jokes.txt lists every laugh, one per line: "L<n> <type>: <the joke>"
+jp = f'{sd}/jokes.txt'
+if not os.path.exists(jp): F('no jokes.txt: list every laugh as "L<n> <type>: <joke>" (SCRIPTS.md §000)')
+else:
+    jl = [x for x in open(jp) if re.match(r'\s*L\d+', x)]; need = 8 if target <= 50 else 11
+    if len(jl) < need: F(f'only {len(jl)} jokes in jokes.txt (need {need}+ for {target}s: a laugh every ~5 s)')
+    jt = {re.sub(r'\s*L\d+\s*', '', x).split(':')[0].strip().lower() for x in jl}
+    if len(jt) < 4: Wn(f'only {len(jt)} joke types: mix more (SCRIPTS.md §000 list)')
+    covered = {int(re.match(r'\s*L(\d+)', x).group(1)) for x in jl}
+    gap = max((b - a for a, b in zip(sorted(covered), sorted(covered)[1:])), default=0)
+    if gap > 3: Wn(f'{gap} lines in a row with no joke: fill the dead stretch')
+if not os.path.exists(f'{sd}/original.txt'): F('no original.txt: say in 1-2 lines what is NEW here (premise, characters, gag) and that it is not taken from any video')
 for m in fails: print('FAIL', m)
 for m in warns: print('WARN', m)
 print(f'{len(lines)} lines, {total} words, {turns} turns — {"FAIL" if fails else "ok"} ({len(warns)} warnings)')
