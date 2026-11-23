@@ -59,6 +59,14 @@ function buildItems(K, hand) {
     const b = new THREE.Mesh(new THREE.BoxGeometry(0.4, 0.26, 0.02), M('#fbf6ea')); b.position.y = 0.55; m.add(b); add('sign', m); }
   { const m = grp(); const h = new THREE.Mesh(new THREE.CylinderGeometry(0.02, 0.016, 0.3, 8), K.mat('wood', '#6a4428')); h.position.y = 0.08; m.add(h);
     const fl = new THREE.Mesh(new THREE.SphereGeometry(0.05, 12, 10), new THREE.MeshBasicMaterial({ color: '#ffb02e' })); fl.scale.set(1, 1.6, 1); fl.position.y = 0.28; m.add(fl); add('torch', m); }
+  { const m = grp(); const d = new THREE.Mesh(new THREE.TorusGeometry(0.11, 0.05, 14, 28), M('#d8a05a')); d.position.y = 0.13; m.add(d);   // donut with pink icing
+    const ic = new THREE.Mesh(new THREE.TorusGeometry(0.11, 0.043, 10, 28, Math.PI * 2), M('#f08ab8')); ic.position.set(0, 0.13, 0.018); ic.scale.z = 0.7; m.add(ic); add('donut', m); }
+  { const m = grp(); const t = new THREE.Mesh(new THREE.TorusGeometry(0.06, 0.03, 10, 24), M('#a8acb4', { roughness: 0.4 })); t.position.y = 0.07; m.add(t); add('tape', m); }   // duct tape roll
+  { const m = grp(); const c = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.07, 0.012, 28), M('#e8b830', { roughness: 0.3 })); c.rotation.x = Math.PI / 2; c.position.y = 0.08; m.add(c); add('coin', m); }   // gold coin
+  { const m = grp(); const h = new THREE.Mesh(new THREE.BoxGeometry(0.02, 0.2, 0.01), M('#8a8c94', { roughness: 0.4 })); h.position.y = 0.12; m.add(h);
+    const hd = new THREE.Mesh(new THREE.BoxGeometry(0.035, 0.08, 0.025), K.mat('wood', '#8a5a34')); hd.position.y = 0.0; m.add(hd); add('file', m); }   // metal file
+  { const m = grp(); const h = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 0.9, 8), M('#c8c8cc', { roughness: 0.3 })); h.position.y = 0.3; m.add(h);
+    const hd = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.05, 0.04), M('#4a4c54', { roughness: 0.3 })); hd.position.set(0.03, 0.75, 0); m.add(hd); add('club', m); }   // golf club
   return g;
 }
 

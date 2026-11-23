@@ -1,0 +1,12 @@
+L0 misdirection: "gave the king's gold coins a haircut" (they are filing gold off the edges)
+L1 specific: the punishment is forty years scrubbing the royal moat
+L2 visual: stolen gold dust hidden in a jar labelled "PICKLES"
+L3 escalation: a loaf of bread now costs two coins and a button
+L4 rule-of-three: the king's face loses his crown, then his ears, then his nose
+L5 failed-fix: coins made twice as big, so the brothers just buy bigger files
+L6 escalation: coins the size of dinner plates, shaved into stars
+L7 deadpan: "how do you catch a haircut nobody can see?"
+L9 explanation: shave a ridged coin and the lines vanish: one bald spot
+L10 comparison: like a birthday cake with one slice gone
+L11 character: the baker thumbs the coin edge and blows a whistle like a referee
+L12 callback: the brothers still give haircuts... to the royal sheep

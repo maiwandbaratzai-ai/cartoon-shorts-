@@ -1,0 +1,13 @@
+L0 rule-of-three: the "upgrade" is four legs, a cupholder and a heated seat
+L1 specific: miss six o'clock and the cheese truck leaves without the milk
+L2 rule-of-three: three legs, a crack, and a name: Gerald
+L3 deadpan: it rocked. Clack. Clack. Clack.
+L4 escalation: Daisy the cow gets seasick watching and knocks the bucket over with her tail
+L5 comparison: six legs rock twice as much, like a table at a cheap cafe
+L6 escalation: the ten-legged Centipede Deluxe wobbles so hard it walks across the barn by itself
+L7 failed-fix: cardboard under one leg, then two, then Grandma's best cheese
+L8 specific: at 5:58 he has milked exactly one cup, into the cupholder
+L10 comparison: three feet always touch any ground, like a camera tripod on a rocky beach
+L11 explanation: on a bumpy floor a fourth leg always hangs in the air: clack (callback to the clacks)
+L12 character: Grandma on Gerald: not one wobble, full bucket in four minutes
+L13 callback: the Centipede Deluxe becomes a coat rack, and it still wobbles

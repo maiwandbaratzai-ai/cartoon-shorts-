@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GORDON GLITZ GAVE
+Dialogue: 0,0:00:01.02,0:00:01.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS NEW JET
+Dialogue: 0,0:00:01.78,0:00:02.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY
+Dialogue: 0,0:00:02.08,0:00:02.43,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SQUARE
+Dialogue: 0,0:00:02.43,0:00:03.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINDOWS.
+Dialogue: 0,0:00:03.01,0:00:03.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH CURTAINS.
+Dialogue: 0,0:00:03.96,0:00:04.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IF THE TEST
+Dialogue: 0,0:00:04.56,0:00:05.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLIGHT WORKED,
+Dialogue: 0,0:00:05.29,0:00:05.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS FACE WENT
+Dialogue: 0,0:00:05.83,0:00:06.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON EVERY TAIL.
+Dialogue: 0,0:00:06.62,0:00:07.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIA THE INTERN
+Dialogue: 0,0:00:07.36,0:00:07.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HELD UP A
+Dialogue: 0,0:00:07.87,0:00:08.15,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DONUT.
+Dialogue: 0,0:00:08.15,0:00:09.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GORDON IGNORED THE
+Dialogue: 0,0:00:09.31,0:00:09.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DONUT.
+Dialogue: 0,0:00:09.87,0:00:10.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE HAD ELEVEN
+Dialogue: 0,0:00:10.54,0:00:11.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DESIGN AWARDS.
+Dialogue: 0,0:00:11.20,0:00:11.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE WAS FOR
+Dialogue: 0,0:00:11.90,0:00:12.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"BEST HAIR."
+Dialogue: 0,0:00:12.56,0:00:13.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE JET
+Dialogue: 0,0:00:13.12,0:00:13.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOOK OFF:
+Dialogue: 0,0:00:13.65,0:00:14.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PILOT DOUG,
+Dialogue: 0,0:00:14.13,0:00:14.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THREE HUNDRED
+Dialogue: 0,0:00:14.97,0:00:15.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RUBBER
+Dialogue: 0,0:00:15.27,0:00:15.72,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CHICKENS
+Dialogue: 0,0:00:15.72,0:00:16.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN SEAT BELTS.
+Dialogue: 0,0:00:16.82,0:00:17.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT UP HIGH,
+Dialogue: 0,0:00:17.34,0:00:17.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TINY CRACK
+Dialogue: 0,0:00:17.90,0:00:18.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}APPEARED.
+Dialogue: 0,0:00:18.33,0:00:18.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN A
+Dialogue: 0,0:00:18.56,0:00:19.11,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CORNER.
+Dialogue: 0,0:00:19.11,0:00:19.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN EVERY
+Dialogue: 0,0:00:19.54,0:00:19.82,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CORNER
+Dialogue: 0,0:00:19.82,0:00:20.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CRACKED,
+Dialogue: 0,0:00:20.21,0:00:21.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE LIGHTNING DRAWN
+Dialogue: 0,0:00:21.10,0:00:21.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY A TODDLER.
+Dialogue: 0,0:00:21.90,0:00:22.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GORDON'S FIX:
+Dialogue: 0,0:00:22.41,0:00:23.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY ROLLS OF
+Dialogue: 0,0:00:23.15,0:00:23.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUCT TAPE,
+Dialogue: 0,0:00:23.70,0:00:24.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE SHAPE
+Dialogue: 0,0:00:24.36,0:00:25.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF HIS SIGNATURE.
+Dialogue: 0,0:00:25.55,0:00:26.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UNTIL WINDOW SEVEN
+Dialogue: 0,0:00:26.38,0:00:27.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POPPED OUT LIKE
+Dialogue: 0,0:00:27.25,0:00:27.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOAST,
+Dialogue: 0,0:00:27.52,0:00:28.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TWELVE
+Dialogue: 0,0:00:28.25,0:00:28.64,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CHICKENS
+Dialogue: 0,0:00:28.64,0:00:29.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEFT EARLY.
+Dialogue: 0,0:00:29.49,0:00:30.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY THE CORNERS?
+Dialogue: 0,0:00:30.34,0:00:30.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP HIGH,
+Dialogue: 0,0:00:30.73,0:00:31.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE AIR INSIDE
+Dialogue: 0,0:00:31.44,0:00:32.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSHES ON EVERY
+Dialogue: 0,0:00:32.25,0:00:32.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINDOW.
+Dialogue: 0,0:00:32.84,0:00:33.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SHARP
+Dialogue: 0,0:00:33.29,0:00:33.59,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CORNER
+Dialogue: 0,0:00:33.59,0:00:34.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRAPS THAT PUSH
+Dialogue: 0,0:00:34.35,0:00:35.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN ONE POINT,
+Dialogue: 0,0:00:35.07,0:00:35.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A CROWD
+Dialogue: 0,0:00:35.64,0:00:36.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN A DOORWAY.
+Dialogue: 0,0:00:36.46,0:00:36.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:36.56,0:00:36.83,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ROUND
+Dialogue: 0,0:00:36.83,0:00:37.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINDOW HAS NO
+Dialogue: 0,0:00:37.47,0:00:37.84,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CORNER.
+Dialogue: 0,0:00:37.84,0:00:38.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CRACKS HAVE NOWHERE
+Dialogue: 0,0:00:38.89,0:00:39.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO START.
+Dialogue: 0,0:00:39.64,0:00:40.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOW PIA'S
+Dialogue: 0,0:00:40.18,0:00:40.50,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DONUT
+Dialogue: 0,0:00:40.50,0:00:41.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS ON EVERY
+Dialogue: 0,0:00:41.22,0:00:41.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TAIL.
+Dialogue: 0,0:00:41.48,0:00:42.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GORDON GOT A
+Dialogue: 0,0:00:42.45,0:00:43.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINDOW SEAT.

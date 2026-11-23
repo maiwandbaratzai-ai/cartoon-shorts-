@@ -1,0 +1,8 @@
+Platform: YouTube Shorts — Channel A
+Type: story
+Title: Why Airplane Windows Are Never Square
+Description: A vain designer gives his jet 40 square windows (with curtains) and ignores an intern holding a donut. A made-up test flight full of rubber chickens shows the real reason windows are round: sharp corners pile up the cabin's push and crack first.
+Hashtags: #shorts #airplane #engineering #howthingswork #animation
+Script score: 25/30
+Jokes: 12
+Guidelines: pass

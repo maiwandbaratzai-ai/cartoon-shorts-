@@ -1,0 +1,12 @@
+L0 character: a robot groundskeeper sands every golf ball perfectly smooth (it thinks dimples are damage)
+L1 specific: first prize of the Club Championship is a golden toaster
+L2 visual: balls buffed so shiny they reflect the clouds
+L3 character: Margaret "The Hurricane" Pratt and her famous drive
+L4 deadpan: the ball flies half as far, plops in the pond, and a duck keeps it
+L5 rule-of-three: next golfer the same, the third golfer hits the snack cart
+L6 failed-fix: B-12 polishes them shinier; the next ball barely clears the golfer's shoe
+L7 escalation: 92 balls in the pond and the duck sits on them like eggs
+L9 comparison: a smooth ball drags a messy whirlpool of air like a parachute
+L10 explanation: dimples make the air hug the ball so the whirlpool shrinks
+L11 misdirection: the robot "learned fast" and now adds dimples to everything
+L12 callback: the golden toaster gets dimples; toast now flies twice as far

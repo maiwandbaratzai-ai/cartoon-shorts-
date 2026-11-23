@@ -1,0 +1,11 @@
+L0 character: a tidy mayor bans the "ugly" rocks under the railway
+L1 rule-of-three: a lawn, with tulips, and one garden gnome
+L2 comparison: the first rain turns the lawn into chocolate pudding
+L3 comparison: the rails go wobbly like cooked spaghetti
+L4 specific: the 8:15 arrives bouncing like a rocking horse at 11:40
+L5 escalation: the grass grows so tall the station master needs a ladder to spot the train
+L6 failed-fix: she mows the tracks every morning; a cow moves in and does it for free
+L7 escalation: the train is stuck in the mud and the cow is faster
+L9 comparison: a train presses down like three hundred elephants; rocks lock like puzzle pieces
+L10 explanation: rain runs through the gaps, grass holds water like a sponge
+L12 callback: the rocks come back... painted pink; the cow approves
