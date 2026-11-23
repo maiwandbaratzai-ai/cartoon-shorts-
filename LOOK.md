@@ -101,7 +101,7 @@ real bevels and trims, then bake.
 
 - **Every shot moves the camera** (Maiwand 2026-11-18): slow push-in `fov: 40 * K.push(u)` (100% → 112%), a pan following
   the action, or a tracking move. Add `K.shake(f, f0)` to the camera position only on impacts, creaks and collapses.
-  Cut to close-ups (a foot, a face, a cable) and back to the wide.
+  Stay wide; cut to a short close-up only for a character's reaction the narrator is talking about.
 - **Tracking camera** (YouTube feedback 2026-11-18): every shot where someone walks, runs or chases uses
   `K.track(f, (g) => posOf(g), { off: [x, y, z] })` so the camera eases along behind the subject and frames slightly
   ahead of it. `posOf(g)` must return the subject's [x, y, z] at frame g (the same function used to place it).
@@ -114,13 +114,23 @@ real bevels and trims, then bake.
 - **Dust:** `K.puff(f, wf(..), x, z)` on footsteps of heavy things, landings, impacts and falls.
 - Same character design in every shot (create each character once in build() and reuse it).
 - **Never reuse a shot.** 12–20 different shots per video (more for 64 s); something visibly moving in every 3-second window.
-- Lots of close-ups on the key object (the gold, the fuse, the bridge cable).
+- Short inserts on the key object when it is named (the gold, the fuse, the bridge cable), then back to the wide.
 - Rich worlds around the characters: weather, crowds, smoke, light, background people doing things.
 
 - **Cut or move every 1.5–3 s.** A 45 s video has 15+ shots; a 64 s video has 20+. The middle explanation (lines 3–6)
   needs it most: new angle per line (low angle, over-the-shoulder, top-down, insert), never one long held shot.
-- **At least half the shots are close-ups:** the character's head and body fill 60–80% of the frame height
-  (camera 2–4 m away, fov 30–40). Wide shots only open a new place.
+- **SEE EVERYTHING (Maiwand 2026-11-23: "pull the camera further, it's so zoomed in I can't see everything").**
+  Default shot = wide or full: every character in the scene head-to-feet, the key prop, and the set around them,
+  with air around the edges. Use `cam = K.fit([...points], { yaw, pitch, fov })` — it computes the distance so all
+  the points fit (put each character's feet AND head in the list, plus the prop).
+  - **Wide/full shots: at least 70% of screen time.** Walking, chasing, building, crashing, crowds: always wide/full.
+  - **Close-ups ONLY when the narrator is talking about that character and they react** (a face, a shrug, sweat),
+    max ~2 s each, then cut back out. Max 20% of screen time.
+  - **Inserts** (a prop the narrator names) max ~1.2 s, then back to the wide. Max 10% of screen time.
+  - Never crop a walking or acting character: we always see their whole body when they move.
+  - The frame is tall and narrow: stage groups in depth (one behind the other, diagonal lines) rather than in a long
+    side-by-side row, and keep `maxDist` small enough that the camera stays inside the set (K.fit widens the lens
+    instead). Check the stills: the camera must never be inside a wall, tree or building.
 - **Insert shot for every object the narration names** (newspaper headline, money, tool, food, sign, letter).
   Camera 0.5–1.5 m away, `dof { focus: <distance>, cinf: 14–22 }`.
 - **Three layers in every frame:** something in the foreground (a post, a barrel edge, a lamp), the character(s),
@@ -206,7 +216,7 @@ proud, excited, shock, scared, nervous, confused, sad, pained, angry, stern, yel
 **Sweat** (YouTube feedback 2026-11-18): `expr: 'nervous'` or `'scared'` shows sweat drops sliding down the temples
 automatically; add `sweat: true` to any other key (a showman with a confident smile but sweating). Use it on whoever
 has the most at stake.
-**Reaction close-ups:** at least 2 per video — a crowd member's face (gasp face, hands on cheeks, pointing), or the
+**Reaction close-ups:** 2–4 per video, each ~1.5–2 s, only on lines about that character — a crowd member's face (gasp face, hands on cheeks, pointing), or the
 main character sweating, cut in right after the big moment and right before it.
 Only the narrator is heard. If the narration quotes a character, you may add `talk: true` so their mouth moves, but no character voice is ever added.
 Listeners react with a different face from the speaker.

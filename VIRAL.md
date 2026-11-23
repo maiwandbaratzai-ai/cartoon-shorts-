@@ -293,3 +293,11 @@ Stick History 2,439 subs, 13 Shorts, ~16.8K views; Stick Stories 19 subs, 9 Shor
 - **Zero comments:** upload.txt now carries a "Pinned comment:" with a funny, easy question (pin it after posting).
 - One Stick Stories video (first pilots: sheep, duck, rooster) got 0 views in 4 days — stuck, not pushed at all.
 
+### Week Nov 16–22 + Maiwand's notes (2026-11-23)
+- Stick History 35.0K views, +30 subs (2,439); Stick Stories 11.2K views, +8 subs (19). Lengths stay as they are.
+- Biggest video of the week: "The Sheep Who Hid From Haircuts for 6 Years" (4,435 views, 65.8% stayed). Animal
+  stars win again → every story now has an animal co-star with a funny want (SCRIPTS.md §000).
+- Two Stick Stories videos got ~0 push from the start (Sweden road switch, first pilots) — platform-side, not the video.
+- **Camera was too zoomed in** (Maiwand): viewers must see the whole scene. Wide/full shots ≥70% of screen time,
+  close-ups only for reactions the narrator is talking about (≤2 s), `K.fit()` for framing. LOOK.md "See everything".
+

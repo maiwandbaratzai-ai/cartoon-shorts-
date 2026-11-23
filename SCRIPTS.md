@@ -41,6 +41,12 @@ Line 1 = a named character + a strange thing we can SEE + a funny consequence, i
 So: the hook line must already be a joke (jokes.txt needs an L0 entry), nothing hidden or inside, no metaphor
 the viewer has to decode, numbers come later.
 
+### Animal co-star (our numbers 2026-11-23)
+Our biggest videos all star an animal with a personality: the sheep who hid from haircuts 6 years (4,435 views,
+66% stayed), the goat sliding off the roof (#1 of the fiction videos), 21 elephants (82% viewed), Pickles the dog.
+Every story gets an animal with a funny, specific want (a goat who wants the roof, a cow who hates being late),
+on screen from the first shot and part of the ending.
+
 ### Comedy toolkit (a laugh every ~5 seconds: 8+ jokes in 45 s, 11+ in 64 s)
 - **Specific beats generic:** "Linda from Accounting" not "a worker"; "forty-one cones" not "many cones".
 - **Comparison jokes:** "forty pencils rolled off, like lemmings with erasers."

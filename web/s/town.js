@@ -51,7 +51,7 @@ export default {
     K.leaves(f, [0, 0, -2], { area: 14, count: 20, fall: 0.4, colors: ['#4f9a3a', '#6ab84a', '#f2c12e'] });
     let cam, dof, u; const sh = (a, b) => (u = clamp((f - a) / (b - a), 0, 1), f >= a && f < b);
     if (sh(0, 60)) { cam = { pos: [lerp(13, 9, u), 8.5, 5.5], look: [-2, 0.8, -3], fov: 42 }; dof = { focus: 14, cinf: 3 }; }                 // wide: the whole busy street
-    else if (sh(60, 120)) { cam = { pos: [lerp(1.6, 1.2, u), 1.7, lerp(-1.4, -1.8, u)], look: [-0.5, 1.5, -5.2], fov: 38 }; dof = { focus: 3.8, cinf: 12 }; } // hero + gran, street behind
+    else if (sh(60, 120)) { cam = K.fit([[-1.2, 0, -5], [-1.2, 2.1, -5], [0.3, 0, -5.4], [0.3, 2.1, -5.4], [5, 0, -5.9], [7.2, 2.9, -5.5]], { yaw: lerp(78, 70, u), pitch: 6, fov: 40 }); dof = { focus: 7, cinf: 5 }; /* see everything: both characters + the protest */ } // hero + gran, street behind
     else { cam = { pos: [lerp(-8, -6, u), 1.1, 3.2], look: [0, 1.6, -6], fov: 34 }; dof = { focus: 9, cinf: 6 }; }                                   // low across the crossing
     return { light: K.light(QS_LIGHT), cam, dof, actors: [], fx: [] };
   },

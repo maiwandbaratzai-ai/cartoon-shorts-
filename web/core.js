@@ -379,10 +379,28 @@ const LIGHTS = {
   interior: { az: 120, el: 50, sky: '#f4e0c8', ground: '#8a6a50', hemi: 1.0, sun: '#ffd6a8', sunI: 2.4, skyTop: '#f4e0c8', skyHor: '#f4e0c8', fog: '#2a2018', fogNear: 30, fogFar: 90,
     exposure: 1.4, bloom: 0.95, bloomThr: 0.7, sat: 1.15, shadowT: '#8a8ad0', highT: '#ffe2c0', tone: 0.35, con: 0.2, vig: 0.34, ink: 0.24, ao: 0.75, shadowExt: 16 },
 };
+/** K.fit(points, o): a camera that shows ALL the given points (characters, key props) with room around them.
+ *  points: [[x,y,z], ...] (put a character's feet AND head in, e.g. [x,0,z] and [x,1.9,z]).
+ *  o = { yaw: deg (0 = camera on +x side, 90 = on +z side), pitch: deg (8), fov (40), margin (1.35 = 35% air), lift (0) }
+ *  -> { pos, look, fov }. Default framing for every shot that isn't a reaction close-up (LOOK.md "See everything"). */
+const fit = (pts, o = {}) => {
+  const mn = [1e9, 1e9, 1e9], mx = [-1e9, -1e9, -1e9];
+  for (const p of pts) for (let k = 0; k < 3; k++) { mn[k] = Math.min(mn[k], p[k]); mx[k] = Math.max(mx[k], p[k]); }
+  const c = [(mn[0] + mx[0]) / 2, (mn[1] + mx[1]) / 2 + (o.lift || 0), (mn[2] + mx[2]) / 2];
+  let r = 0.5; for (const p of pts) r = Math.max(r, Math.hypot(p[0] - c[0], p[1] - c[1], p[2] - c[2]));
+  // portrait frames are narrow: if the group is too wide for maxDist (default 13 m, so the camera stays inside the set),
+  // widen the lens instead of backing into a wall (up to 72 degrees)
+  let fov = o.fov ?? 40, vf = rx(fov) / 2, hf = Math.atan(Math.tan(vf) * (W / H)), d = r * (o.margin ?? 1.35) / Math.sin(Math.min(vf, hf));
+  const maxD = o.maxDist ?? 13;
+  while (d > maxD && fov < 72) { fov += 2; vf = rx(fov) / 2; hf = Math.atan(Math.tan(vf) * (W / H)); d = r * (o.margin ?? 1.35) / Math.sin(Math.min(vf, hf)); }
+  d = Math.min(d, maxD);
+  const a = rx(o.yaw ?? 0), pt = rx(o.pitch ?? 8);
+  return { pos: [c[0] + Math.cos(a) * Math.cos(pt) * d, c[1] + Math.sin(pt) * d, c[2] + Math.sin(a) * Math.cos(pt) * d], look: c, fov };
+};
 const light = (name = 'golden', over = {}) => ({ ...(LIGHTS[name] || LIGHTS.golden), ...over });
 
 // ---------- kit context handed to stories ----------
-const K = { fx: null, light, LIGHTS, stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
+const K = { fx: null, light, LIGHTS, fit, stick: (o, opts) => R3.stick(K, o, opts), animal: (type, opts) => AN.animal(K, type, opts), solid, walkPath, punch, shake, push, puff, track, lamp, shaft, dust, mat, kinds: ['grime', 'wood', 'rock', 'dirt', 'metal', 'fabric', 'brick', 'plaster'], THREE, T, P, MO, scene, camera, renderer, V, rx, toon, col, texM, grad, ndMat, flatNd, cardNd, add, box, slab, beam, cyl, sphere, group, smoothstep, addClouds, CM, W, H };
 
 const QS = new URLSearchParams(location.search), story = QS.get('s'), DBG = QS.get('dbg');
 const S = (await import(`./s/${story}.js`)).default;
