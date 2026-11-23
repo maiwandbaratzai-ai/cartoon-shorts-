@@ -256,7 +256,7 @@ export default {
     } else if (sh(1259, 1320)) { // 25. the golden toaster, dimpled (insert, push)
       cam = { pos: [-5.9, 1.8, -3.5], look: [-7, 1.35, -5.2], fov: 40 * K.push(u, 0.1) }; dof = { focus: 2.1, cinf: 12 }; light = late;
     } else {                     // 26. toast flies twice as far; Margaret and B-12 look up
-      cam = { pos: [-3.8, 1.2, -1.2], look: [lerp(-6, -1, sm(1330, 1390, f)), lerp(1.8, 4.5, sm(1330, 1390, f)), -5.6], fov: 50 }; dof = { focus: 4, cinf: 5 }; light = late;
+      const tp = TOAST.position; cam = { pos: [tp.x + 1.6, tp.y + 0.2, tp.z + 2.2], look: [tp.x - 0.2, tp.y - 0.25, tp.z], fov: 46 }; dof = { focus: 2.7, cinf: 8 }; light = late;
     }
     // ---------- effects + graphics ----------
     if (buff && !inTunnel) K.steam(f, [-4, 1.0, 5.5], { rate: 4, size: 0.18, rise: 0.4, drift: [0.3, 0.2], seed: 2 });
