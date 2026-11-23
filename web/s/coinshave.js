@@ -231,7 +231,7 @@ export default {
     if (f >= 1155) { bp = { x: MK + 0.2, z: -5.25, yaw: 0.25 }; }
     const bk = [[0, 'idle', { expr: 'smile' }], [F.LOAF - 4, 'show', { expr: 'smile', R: [0.35, -0.45, 'food'] }], [F.BUTTON - 2, 'shock', { expr: 'confused' }], [F.BUTTON + 14, 'cross', { expr: 'stern' }],
       [690, 'hold', { expr: 'confused', R: [0.4, -0.4, 'coin'] }], [1053, 'idle', { expr: 'smile' }], [F.NOTICES - 4, 'point', { expr: 'shock' }],
-      [1155, 'hold', { expr: 'think', R: [0.3, -0.5, 'coin'] }], [F.FELT + 4, 'hold', { expr: 'stern', R: [0.25, -0.55, 'coin'] }], [F.WHISTLE - 3, 'pointUp', { expr: 'whistle', talk: false }]];
+      [1155, 'hold', { expr: 'confused', R: [0.3, -0.5, 'coin'] }], [F.FELT + 4, 'hold', { expr: 'stern', R: [0.25, -0.55, 'coin'] }], [F.WHISTLE - 3, 'pointUp', { expr: 'whistle', talk: false }]];
     BAKER.set(T.act(f, bk, { seed: 7, blink: blink(7) }), bp);
     const ck = [[0, 'idle', { expr: 'smile' }], [F.TWO - 6, 'show', { expr: 'nervous', R: [0.35, -0.4, 'coin'] }], [F.BUTTON + 2, 'shrug', { expr: 'nervous', sweat: true }],
       [690, 'carry', { expr: 'shock' }], [1053, 'idle', { expr: 'smile' }], [F.SLICE - 2, 'shock', { expr: 'shock' }], [F.NOTICES, 'pointL', { expr: 'shock' }], [1155, 'cross', { expr: 'stern' }]];

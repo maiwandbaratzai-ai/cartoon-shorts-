@@ -60,5 +60,6 @@
 - 2026-11-22 Why some skyscrapers hide a giant ball (tuned mass damper): Mira's golden ball vs Rex's rooftop pool, Windport skyline in three storms (45 s, Channel B, story)
 - 2026-11-22 Why big bridges have metal teeth (expansion joints): Bea's comb bridge vs Duke's smooth bridge that grows a hump, Red Canyon desert (64 s, TikTok, story)
 - 2026-11-23 Why airplane windows are round: designer Gordon Glitz's 40 square windows vs intern Pia's donut, test flight of 300 rubber chickens, Glitz Air airfield + sky (45 s, Channel A, story, engine: Overconfident Expert)
+- 2026-11-23 Why coins have ridged edges: the Whisker brothers shave the king's gold coins every night (PICKLES jar), King Barnaby's bigger-coin fix fails, Mina's mint adds edge lines, medieval town Coinbury workshop + market + mint + moat (45 s, Channel A, story, engine: Heist)
 ---
 Author: Maiwand
