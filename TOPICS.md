@@ -62,5 +62,6 @@
 - 2026-11-23 Why airplane windows are round: designer Gordon Glitz's 40 square windows vs intern Pia's donut, test flight of 300 rubber chickens, Glitz Air airfield + sky (45 s, Channel A, story, engine: Overconfident Expert)
 - 2026-11-23 Why coins have ridged edges: the Whisker brothers shave the king's gold coins every night (PICKLES jar), King Barnaby's bigger-coin fix fails, Mina's mint adds edge lines, medieval town Coinbury workshop + market + mint + moat (45 s, Channel A, story, engine: Heist)
 - 2026-11-23 Why golf balls have dimples: robot groundskeeper B-12 sands every ball smooth before the Club Championship (golden toaster prize), Margaret "The Hurricane" Pratt, a duck sits on 92 lost balls, Mossy Pines golf course + wind tunnel (45 s, Channel B, story, engine: Fish Out of Water)
+- 2026-11-23 Why train tracks sit on rocks (ballast): Mayor Primrose bans the "ugly" rocks and plants tulips + a gnome, pudding mud, spaghetti rails, the 8:15 arrives at 11:40, a cow mows and outruns the train, rocks come back painted pink, Tidyton station + elephant cutaway (45 s, Channel B, story, engine: Remove It and See)
 ---
 Author: Maiwand

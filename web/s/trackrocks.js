@@ -210,7 +210,7 @@ export default {
     } else if (sh(470, 543)) {   // 10. the station clock says 11:40; the station master facepalms
       cam = { pos: [2.7, 2.5, 2.0], look: [4.1, 2.45, 5.4], fov: 46 * K.punch(f, F.AT, 0.15, 6) }; dof = { focus: 3.6, cinf: 10 }; light = rain;
     } else if (sh(543, 600)) {   // 11. the grass grows over the train (low)
-      cam = { pos: [-3, 1.3, 4.5], look: [1.5, 1.6, 0], fov: 46 }; dof = { focus: 5.5, cinf: 6 }; light = day;
+      cam = { pos: [lerp(13, 12, u), 1.0, 3.4], look: [6.5, 1.5, 0], fov: 46 }; dof = { focus: 5.5, cinf: 6 }; light = day;
     } else if (sh(600, 663)) {   // 12. the station master climbs a ladder to spot the train (crane up)
       const h = hd(sp); cam = { pos: [h[0] + 0.9, h[1] + lerp(-0.2, 0.3, u), h[2] - 2.1], look: [h[0], h[1] - 0.1, h[2]], fov: 42 }; dof = { focus: 2.4, cinf: 12 }; light = day;
     } else if (sh(663, 720)) {   // 13. her fix: she mows the tracks (tracking)
@@ -220,7 +220,7 @@ export default {
     } else if (sh(775, 848)) {   // 15. Friday: the train stuck in the mud, the cow walks faster (tracking the cow)
       const tc = K.track(f, (g) => { const W = K.walkPath(g, 775, [[-12, -2.2], [12, -2.2]], 1.4); return [W.x, 0, W.z]; }, { off: [-2.6, 1.2, -0.85], lag: 4, lead: 0.2, lookY: 1.0 }); cam = { ...tc, fov: 48 }; dof = { focus: 5, cinf: 5 }; light = rain;
     } else if (sh(848, 903)) {   // 16. re-hook: the mayor, confused, on the platform
-      const h = hd(mp); cam = { pos: [h[0] - 1.1, h[1] + 0.05, h[2] - 2.0], look: [h[0], h[1] - 0.1, h[2]], fov: 38 * K.push(u, 0.1) }; dof = { focus: 2.3, cinf: 13 }; light = rain;
+      const h = hd(mp); cam = { pos: [h[0] + 1.0, h[1] + 0.05, h[2] + 2.0], look: [h[0], h[1] - 0.1, h[2]], fov: 38 * K.push(u, 0.1) }; dof = { focus: 2.3, cinf: 13 }; light = rain;
     } else if (sh(903, 960)) {   // 17. cutaway: elephants stand on a track (it presses like 300 of them)
       cam = { pos: [ELX + 1, 2.4, 9], look: [ELX, 1.4, 0], fov: 46 }; dof = { focus: 9, cinf: 4 }; light = day;
     } else if (sh(960, 1030)) {  // 18. x-ray: sharp rocks lock together like puzzle pieces
@@ -236,7 +236,7 @@ export default {
     } else if (sh(1253, 1310)) { // 23. pink rocks! the mayor with her paint roller, the cow lies down
       cam = { pos: [4.6, 2.6, 5.0], look: [1.3, 0.6, 1.2], fov: 46 * K.push(u, 0.1) }; dof = { focus: 5.5, cinf: 7 }; light = gold_;
     } else {                     // 24. the cow approves (close), the 8:15 glides past on time behind
-      cam = { pos: [-0.1, 1.0, 3.6], look: [-1.5, 0.8, 1.0], fov: 40 * K.push(u, 0.12) }; dof = { focus: 2.9, cinf: 11 }; light = gold_;
+      cam = { pos: [-0.1, 1.9, 3.4], look: [-1.6, 0.6, 0.9], fov: 42 * K.push(u, 0.12) }; dof = { focus: 2.9, cinf: 11 }; light = gold_;
     }
     // ---------- effects + graphics ----------
     if (wet && f < 663) K.rain(f, cam.look, { area: 12, count: 600, speed: 12 });
