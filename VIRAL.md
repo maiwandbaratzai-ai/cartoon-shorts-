@@ -93,6 +93,10 @@ Never repeat a topic in TOPICS.md. Vary the setting every day (beach, city, fiel
   `swish()` on every fast camera transition.
 - **Deep bass on every impact (YouTube feedback 2026-11-18).** Heavy steps use `stomp()`, impacts `thunk()` (now with
   a sub layer) or `boom()`, tension drones `hum()` (now with a deep under-hum). Add `sub()` under any big hit.
+- **Land the gags (YouTube feedback 2026-11-23):** put gag sounds in with `gag(sig, t)` (it dips the music under
+  them), a `riser()` into the explanation line and a `drop()` on it, a jaunty music bed under EVERY second (never
+  leave a video without music), and `clink()` / `scrape()` for metal, coins and tools. The narrator now varies speed
+  and lifts on questions/exclamations automatically.
 - **Only the narrator speaks (Maiwand 2026-11-18).** No character voices, no soundbites, no dialogue audio, no gasps.
   Characters show what they feel with faces, poses and mouth movement only; `vox()` is disabled.
 - **Animal sounds:** `bark() meow() moo() oink() baa() quack() cluck() roar() neigh() monkey() trumpet() squeak() tweet()`.
@@ -300,4 +304,11 @@ Stick History 2,439 subs, 13 Shorts, ~16.8K views; Stick Stories 19 subs, 9 Shor
 - Two Stick Stories videos got ~0 push from the start (Sweden road switch, first pilots) — platform-side, not the video.
 - **Camera was too zoomed in** (Maiwand): viewers must see the whole scene. Wide/full shots ≥70% of screen time,
   close-ups only for reactions the narrator is talking about (≤2 s), `K.fit()` for framing. LOOK.md "See everything".
+
+### YouTube AI feedback on the first fiction videos (2026-11-23)
+Five videos (airplane windows, golf dimples, coins, three-leg stools, Tidyton rocks): Hook A/A/A/A/A, Visual
+A/A-/A/A/A, Audio A/A/A/A-/A, Narrative A/A-/A/A/A+, Presence A/A/A+/A/A. Fixes now in the kit: question asked by
+line 2 and on the hook card; tighter middles (max 2 repeats); a catchphrase per main character; sidekick reaction in
+the first 5 s; punch-in zooms only on punchlines (camera stays wide); badges on each step of a progression; gag()
+music dips; riser()/drop() before the explanation; music under every second; livelier narration.
 

@@ -410,6 +410,28 @@ def gasp():
     d = 0.35; n = int(d * SR); t = np.arange(n) / SR
     return (bp(noise(d), 1800) * np.sin(np.pi * t / d) ** 2 * 0.7).astype(np.float32)
 
+# ---------------- comic punctuation (YouTube feedback 2026-11-23) ----------------
+DIPS = []
+def gag(sig, t, gain=0.8, dip=0.4):
+    """Place a gag sound effect AND dip the music under it for `dip` seconds so the gag lands."""
+    place(sfx, sig, t, gain); DIPS.append((t - 0.05, t + dip))
+def riser(d=1.2):
+    """A rising whoosh/tone that builds into a reveal (put it right before the explanation line)."""
+    n = int(d * SR); t = np.arange(n) / SR; f = 180 * (2 ** (t / d * 2.2))
+    tone = np.sin(2 * np.pi * np.cumsum(f) / SR) * 0.35 + bp(noise(d), 2500) * 0.5 * (t / d)
+    return (tone * (t / d) ** 1.6).astype(np.float32)
+def drop(d=0.5):
+    """The hit right after a riser: deep boom + bright tick (lands the reveal)."""
+    out = sub(d, 48, 2.2) * 0.9; tk = _tone(np.linspace(2400, 1800, int(0.05 * SR)), 0.05, harm=(1, .3)); out[:len(tk)] += tk * 0.6
+    return out.astype(np.float32)
+def clink(n=1):
+    """Bright metal clink(s): coins, keys, cutlery."""
+    out = np.zeros(int((0.35 + 0.09 * n) * SR), np.float32)
+    for k in range(n):
+        d = 0.3; t = np.arange(int(d * SR)) / SR; c = sum(np.sin(2 * np.pi * f * t) * a for f, a in ((3150, 1), (4720, .6), (6890, .35))) * np.exp(-t * 18)
+        i = int(k * 0.09 * SR); out[i:i + len(c)] += c.astype(np.float32) * 0.5
+    return out
+
 # ---------------- mix ----------------
 def load_voice():
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', f'{SD}/voice.wav', '-ac', '1', '-ar', str(SR), '-f', 'f32le', '-'], capture_output=True).stdout
@@ -422,6 +444,10 @@ def mixdown(music_gain=0.8, sfx_gain=0.55):
     duck = 1 - 0.82 * np.clip(ve / (vmax * 0.18), 0, 1)
     k2 = int(0.12 * SR); duck = np.convolve(duck, np.ones(k2) / k2, 'same')
     m, x = music[:N], sfx[:N]
+    if DIPS:   # music dips under gag SFX
+        g = np.ones(N, np.float32)
+        for a, b in DIPS: i, j = max(0, int(a * SR)), min(N, int(b * SR)); g[i:j] = np.minimum(g[i:j], 0.35)
+        k3 = int(0.06 * SR); g = np.convolve(g, np.ones(k3) / k3, 'same'); m = m * g
     mix = voice * 1.25 + m * duck * music_gain + x * sfx_gain * (1 - 0.3 * np.clip(ve / (vmax * 0.25), 0, 1))
     mix = np.tanh(mix * 0.95) / np.tanh(0.95)
     fade = int(0.04 * SR); mix[-fade:] *= np.linspace(1, 0, fade)

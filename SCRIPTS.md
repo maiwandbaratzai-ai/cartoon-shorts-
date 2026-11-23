@@ -47,6 +47,15 @@ Our biggest videos all star an animal with a personality: the sheep who hid from
 Every story gets an animal with a funny, specific want (a goat who wants the roof, a cow who hates being late),
 on screen from the first shot and part of the ending.
 
+### YouTube feedback on the first fiction week (2026-11-23: mostly A, A+ on structure)
+- **Ask the "why" out loud by line 2** ("...so why do milking stools have three legs?") and put it on the hook card,
+  so viewers know the question they are waiting for.
+- **Tight middle:** a failed attempt or montage gets at most 2 repeats, and each one must be bigger than the last.
+  If two beats are the same joke, cut one.
+- **Catchphrase:** the main character has a short catchphrase the narrator quotes 2–3 times (setup, twist, callback
+  in the last line). It makes the world memorable and gives comments something to repeat.
+- **Show the animal sidekick reacting in the first 5 seconds.**
+
 ### Comedy toolkit (a laugh every ~5 seconds: 8+ jokes in 45 s, 11+ in 64 s)
 - **Specific beats generic:** "Linda from Accounting" not "a worker"; "forty-one cones" not "many cones".
 - **Comparison jokes:** "forty pencils rolled off, like lemmings with erasers."

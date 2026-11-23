@@ -39,8 +39,13 @@ k = Kokoro(f'{MODEL}/kokoro-v1.0.onnx', f'{MODEL}/voices-v1.0.bin')
 def synth(speed):
     out = []
     for l, tg in zip(say, TAGS):
-        sp = speed * (1.12 if 'hype' in tg else 0.88 if 'slow' in tg else 1.0)
+        # expressive narration (YouTube feedback 2026-11-23: more pitch variety): questions and exclamations lift,
+        # every line gets a small, natural speed change so the read never sounds flat
+        i = len(out); var = (0.97, 1.03, 1.0, 1.05, 0.98)[i % 5]
+        sp = speed * var * (1.12 if 'hype' in tg else 0.88 if 'slow' in tg else 1.0)
         a, sr = k.create(l, voice=VOICE, speed=sp, lang='en-us')
+        if l.rstrip().endswith(('?', '!')) and 'slow' not in tg:   # ~+3% pitch lift by resampling
+            a = np.interp(np.arange(0, len(a), 1.03), np.arange(len(a)), a).astype(np.float32)
         idx = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, idx[0] - 120):idx[-1] + 600].astype(np.float32)
         out.append(a * (1.3 if 'hype' in tg else 1.0))
     return out

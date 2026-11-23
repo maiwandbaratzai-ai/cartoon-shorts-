@@ -128,6 +128,11 @@ real bevels and trims, then bake.
     max ~2 s each, then cut back out. Max 20% of screen time.
   - **Inserts** (a prop the narrator names) max ~1.2 s, then back to the wide. Max 10% of screen time.
   - Never crop a walking or acting character: we always see their whole body when they move.
+  - **Punch on the joke, not on everything** (YouTube feedback 2026-11-23): on each punchline, impact or crack, a fast
+    `K.punch(f, wf(...), 0.2, 6)` zoom (6 frames in, then back to the wide) plus `K.shake` on impacts. The shot
+    itself stays wide; the punch is a 0.2 s jolt.
+  - Label every step of a progression with a badge (e.g. "4 LEGS" → "6 LEGS" → "10 LEGS").
+  - Frame 0 is already the action: no establishing beat before it (cut in half a second earlier if in doubt).
   - The frame is tall and narrow: stage groups in depth (one behind the other, diagonal lines) rather than in a long
     side-by-side row, and keep `maxDist` small enough that the camera stays inside the set (K.fit widens the lens
     instead). Check the stills: the camera must never be inside a wall, tree or building.
