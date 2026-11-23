@@ -9,6 +9,7 @@ export { TOTAL };
 
 const sm = (a, b, x) => { const t = clamp((x - a) / (b - a), 0, 1); return t * t * (3 - 2 * t); };
 const hash = (n) => { const s = Math.sin(n * 127.1 + 311.7) * 43758.5453; return s - Math.floor(s); };
+let COATW;
 let THREE, TOBIAS, ILSE, DRIVER, DAISY, COW2, COW3, CAT, GERALD, DELUXE, SIX, CENT, BUCKET, PUDDLE, CUP, CARD = [], CHEESE, TRUCK, CLOCKH, CLOCKM, CAFE, CAFECUP, TRIPOD, TRI_TR, GAP_TR, HOLO, COAT, EXTRA_HAT;
 let F = {};
 const CAF = 100, BEACH = 200;                     // cheap-cafe cutaway, rocky-beach cutaway
@@ -95,6 +96,10 @@ export default {
       COAT = new THREE.Group(); CENT.add(COAT); const cm = K.mat('fabric', '#8a3a2a'); const ct = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.26, 0.9, 14, 1, true), cm); ct.material.side = THREE.DoubleSide; ct.position.set(0.55, 0.1, 0.28); COAT.add(ct);
       const hat = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.13, 0.1, 18), K.mat('fabric', '#2a2a30')); hat.position.set(-0.35, -0.08, 0.3); hat.rotation.x = Math.PI / 2; COAT.add(hat); const br = new THREE.Mesh(new THREE.CylinderGeometry(0.2, 0.2, 0.02, 18), K.mat('fabric', '#2a2a30')); br.position.set(-0.35, -0.08, 0.25); br.rotation.x = Math.PI / 2; COAT.add(br);
       const scarf = K.rbox(0.08, 0.7, 0.03, 0.02, K.mat('fabric', '#f2c230'), 0.05, 0.0, 0.25, COAT); }
+    COATW = new THREE.Group(); sc.add(COATW); { const cm = K.mat('fabric', '#8a3a2a'); const ct = new THREE.Mesh(new THREE.CylinderGeometry(0.14, 0.3, 0.95, 16, 1, true), cm); ct.material.side = THREE.DoubleSide; ct.position.set(-3.02, 1.2, 2.45); ct.castShadow = true; COATW.add(ct);
+      for (const dx of [-0.08, 0.08]) K.rbox(0.03, 0.5, 0.02, 0.01, K.paint('#f2c230'), -3.02 + dx, 1.35, 2.6, COATW);
+      const hat = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.13, 0.16, 18), K.mat('fabric', '#2a2a30')); hat.position.set(-3.08, 1.95, 2.3); COATW.add(hat); const br = new THREE.Mesh(new THREE.CylinderGeometry(0.21, 0.21, 0.02, 18), K.mat('fabric', '#2a2a30')); br.position.set(-3.08, 1.87, 2.3); COATW.add(br);
+      K.rbox(0.09, 0.75, 0.03, 0.02, K.mat('fabric', '#f2c230'), -3.08, 1.3, 2.18, COATW); const tag = new THREE.Mesh(new THREE.PlaneGeometry(0.4, 0.14), S.textMat('COAT RACK', { bg: '#1a1a1a', fg: '#f2c230', w: 256, h: 90, border: false })); tag.position.set(-3.2, 0.5, 2.62); COATW.add(tag); }
     // bucket + milk + puddle, cardboard, cheese
     BUCKET = new THREE.Group(); sc.add(BUCKET); { const b = new THREE.Mesh(new THREE.CylinderGeometry(0.17, 0.13, 0.3, 24, 1, true), chrome); b.material.side = THREE.DoubleSide; b.position.y = 0.15; BUCKET.add(b); const bt = new THREE.Mesh(new THREE.CircleGeometry(0.13, 24), chrome); bt.rotation.x = -Math.PI / 2; bt.position.y = 0.005; BUCKET.add(bt);
       BUCKET.milk = new THREE.Mesh(new THREE.CircleGeometry(0.16, 24), K.paint('#fbfaf4', { rough: 0.35 })); BUCKET.milk.rotation.x = -Math.PI / 2; BUCKET.add(BUCKET.milk); const hd = new THREE.Mesh(new THREE.TorusGeometry(0.17, 0.008, 6, 24, Math.PI), chrome); hd.position.y = 0.3; BUCKET.add(hd); }
@@ -147,7 +152,7 @@ export default {
     if (use === 'cent') { crz = rockAmp(0.05); crx = rockAmp(0.04) * Math.sin(f * 0.21);
       if (f >= F.WALKED - 10 && f < 905) { const W = sm(F.WALKED - 10, 900, f); cx = lerp(SPOT[0], SPOT[0] + 3.2, W); cz = SPOT[1] + 0.1 + 0.5 * W; } else if (f >= 905) { cx = SPOT[0]; } }
     if (use === 'rack') { cx = -3.2; cz = 2.4; cyaw = 0; crz = Math.PI / 2 + 0.04 * Math.tanh(4 * Math.sin(f * 0.5)); cy = 0.95; }
-    place(CENT, cx, cz, cyaw, crz, crx, cy); CENT.visible = loc === 'barn' && (use === 'cent' || use === 'rack'); COAT.visible = use === 'rack';
+    place(CENT, cx, cz, cyaw, crz, crx, cy); CENT.visible = loc === 'barn' && (use === 'cent' || use === 'rack'); COAT.visible = false; COATW.visible = use === 'rack' && loc === 'barn'; COATW.rotation.z = 0; COATW.position.x = 0.04 * Math.tanh(4 * Math.sin(f * 0.5));
     if (CENT.pupils) CENT.pupils.forEach((p, k) => { p.position.y = 0.5 + 0.02 * Math.sin(f * 0.6 + k); });
     CENT.legs.forEach((l, k) => { l.foot.position.y = 0.01 + (use === 'cent' && f >= F.WALKED - 10 && f < 905 ? 0.04 * Math.max(0, Math.sin(f * 0.9 + k * 1.3)) : 0); });
     // Gerald: by Grandma (early), the x-ray (1302-1370), Grandma milks on it (1610-1731), behind at the end
@@ -270,7 +275,7 @@ export default {
     } else if (sh(1670, 1731)) { // 30. insert: the bucket fills to the top
       cam = { pos: [S0[0] + 0.55, 0.75, S0[2] + 0.1], look: [S0[0] - 0.05, 0.2, S0[2] - 0.55], fov: 38 * K.push(u, 0.1) }; dof = { focus: 0.9, cinf: 15 }; light = barn;
     } else if (sh(1731, 1820)) { // 31. the Centipede Deluxe as a coat rack (it wobbles)
-      cam = { pos: [-3.2 + lerp(1.3, 0.9, u), 1.3, 2.4 + 1.6], look: [-3.2, 1.0, 2.4], fov: 44 }; dof = { focus: 1.9, cinf: 11 }; light = barn;
+      cam = { pos: [-3.2 + lerp(1.4, 1.0, u), 1.35, 2.4 + 2.6], look: [-3.0, 1.0, 2.4], fov: 46 }; dof = { focus: 1.9, cinf: 11 }; light = barn;
     } else {                     // 32. Tobias deadpan beside it; Grandma and Gerald behind (push)
       const h = hd(tp); cam = { pos: [h[0] + 0.9, h[1] + 0.05, h[2] + 1.9], look: [h[0] - 0.25, h[1] - 0.2, h[2] - 0.2], fov: 44 * K.push(clamp((f - 1820) / 100, 0, 1), 0.12) }; dof = { focus: 2.0, cinf: 12 }; light = barn;
     }
