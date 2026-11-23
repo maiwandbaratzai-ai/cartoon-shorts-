@@ -281,3 +281,15 @@ joke shape. Maiwand wants funny, engaging, NEW stories that copy nobody. Fix: SC
 rotate, comedy toolkit, a laugh every ~5 s, punch-up pass, jokes.txt + original.txt), and script_check FAILS
 copied lines, repeated skeletons and low joke counts.
 
+### Studio numbers Nov 19–23 (shared by Maiwand 2026-11-23)
+Stick History 2,439 subs, 13 Shorts, ~16.8K views; Stick Stories 19 subs, 9 Shorts, 7.8K views; ~0 comments.
+- **Fiction works:** "Why Every Snow House Has a Pointy Roof" (fiction, 45 s) is the #1 video: 2,244 views, 64.2% stayed.
+- **"Stayed" (didn't swipe) = the hook.** Best 64–67% (snow roof, fake giant copy, sailor breakfast); worst 34–41%
+  (pig plane, manhole, skyscraper ball). See the hook rule in SCRIPTS.md §000.
+- **64 s videos hold people best:** ships under a city 75% viewed, tooth bridge 0:56 of 1:05 (86%). 45 s Shorts
+  average 62–73%. Longer videos also bank more watch time.
+- **No titles = fewer views:** two uploads went out with only hashtags (lowest views, 532). Always paste the
+  title line from upload.txt.
+- **Zero comments:** upload.txt now carries a "Pinned comment:" with a funny, easy question (pin it after posting).
+- One Stick Stories video (first pilots: sheep, duck, rooster) got 0 views in 4 days — stuck, not pushed at all.
+

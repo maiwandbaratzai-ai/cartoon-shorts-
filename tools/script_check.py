@@ -91,6 +91,8 @@ else:
     covered = {int(re.match(r'\s*L(\d+)', x).group(1)) for x in jl}
     gap = max((b - a for a, b in zip(sorted(covered), sorted(covered)[1:])), default=0)
     if gap > 3: Wn(f'{gap} lines in a row with no joke: fill the dead stretch')
+    if 0 not in covered: F('no joke in line 1 (jokes.txt has no L0): the hook must be a funny, visible consequence, e.g. "his goat slid off it twice" (VIRAL.md 2026-11-23)')
+if re.search(r'(?i)\b(inside|hidden|hid|secret|invisible|underground)\b', lines[0]): Wn('hook shows something hidden/inside: viewers swipe when they cannot SEE the strange thing (towerball 41% stayed)')
 if not os.path.exists(f'{sd}/original.txt'): F('no original.txt: say in 1-2 lines what is NEW here (premise, characters, gag) and that it is not taken from any video')
 for m in fails: print('FAIL', m)
 for m in warns: print('WARN', m)

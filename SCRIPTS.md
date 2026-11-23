@@ -32,6 +32,15 @@ repeated skeletons, too few jokes, and a missing originality note.
 7. **The Overconfident Expert** — a famous know-it-all ignores the intern; the intern's "dumb" idea is the why.
 8. **The Rivals** (§00) — max once per night, all new lines.
 
+### Hook rule from our own numbers (2026-11-23)
+Line 1 = a named character + a strange thing we can SEE + a funny consequence, in plain words (no metaphors).
+- 64% stayed: "Henrik built his roof so steep, his goat slid off it twice." (joke + animal + visible)
+- 53%: "Captain Pim welded a giant steel ball onto his ship's nose." (visible, but no joke)
+- 41%: "Mira hung a 600-ton golden ball inside her skyscraper." (hidden inside, numbers, no joke)
+- 37%: "Greta rolled a giant iron coin down Main Street, dog on top." (confusing metaphor: it's a lid, not a coin)
+So: the hook line must already be a joke (jokes.txt needs an L0 entry), nothing hidden or inside, no metaphor
+the viewer has to decode, numbers come later.
+
 ### Comedy toolkit (a laugh every ~5 seconds: 8+ jokes in 45 s, 11+ in 64 s)
 - **Specific beats generic:** "Linda from Accounting" not "a worker"; "forty-one cones" not "many cones".
 - **Comparison jokes:** "forty pencils rolled off, like lemmings with erasers."
