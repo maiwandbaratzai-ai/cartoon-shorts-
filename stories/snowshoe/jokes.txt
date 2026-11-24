@@ -1,0 +1,13 @@
+L0 visual: Barry sinks into the meadow until only his hat shows
+L1 specific: the stakes are a carrot cake and a race to the cocoa hut
+L2 comparison: Tess straps two giant tennis rackets to her boots
+L3 character: catchphrase "Easy peasy" + the dumb plan "I'll run faster"
+L4 escalation: he runs so fast he digs a tunnel and pops up under a rabbit
+L5 character: Clover the rabbit's one want: the carrot cake
+L6 comparison: one pogo bounce, he sticks in the snow like a carrot in a snowman
+L7 misdirection: Clover sniffs the "carrot" — hopefully
+L8 deadpan: Tess strolls across the top like it's a sidewalk
+L9 explanation: tiny shoes = a finger poking pudding
+L10 explanation: rackets spread the push so each patch holds a little
+L11 misdirection: the rabbit had snowshoes all along: its own giant back feet
+L12 callback: Clover wins the cake — "Easy peasy" turned on Barry
