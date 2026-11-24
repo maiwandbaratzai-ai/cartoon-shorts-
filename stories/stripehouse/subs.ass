@@ -1,0 +1,109 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIR REGINALD PAINTED
+Dialogue: 0,0:00:01.31,0:00:02.47,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIVE LIGHTHOUSES PLAIN
+Dialogue: 0,0:00:02.47,0:00:03.01,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE.
+Dialogue: 0,0:00:03.01,0:00:03.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVEN THE PIGEON
+Dialogue: 0,0:00:03.84,0:00:04.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GOT LOST.
+Dialogue: 0,0:00:04.61,0:00:05.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'S THE WORLD'S
+Dialogue: 0,0:00:05.42,0:00:06.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FANCIEST DESIGNER.
+Dialogue: 0,0:00:06.52,0:00:06.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOTTO:
+Dialogue: 0,0:00:06.82,0:00:07.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"LESS IS MORE!"
+Dialogue: 0,0:00:07.46,0:00:08.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY DO
+Dialogue: 0,0:00:08.11,0:00:08.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIGHTHOUSES WEAR
+Dialogue: 0,0:00:08.99,0:00:09.77,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRIPES?
+Dialogue: 0,0:00:09.90,0:00:10.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUFFIN COAST HAD
+Dialogue: 0,0:00:10.89,0:00:11.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIVE:
+Dialogue: 0,0:00:11.14,0:00:11.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRIPES,
+Dialogue: 0,0:00:11.52,0:00:12.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SPIRAL,
+Dialogue: 0,0:00:12.05,0:00:12.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHECKERS,
+Dialogue: 0,0:00:12.48,0:00:13.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POLKA DOTS,
+Dialogue: 0,0:00:13.19,0:00:13.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND ONE WITH
+Dialogue: 0,0:00:13.85,0:00:13.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:13.96,0:00:14.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MUSTACHE.
+Dialogue: 0,0:00:14.77,0:00:15.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"TACKY," SAID SIR
+Dialogue: 0,0:00:15.51,0:00:15.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}REGINALD.
+Dialogue: 0,0:00:15.94,0:00:16.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"LESS IS MORE!"
+Dialogue: 0,0:00:16.76,0:00:17.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY TUESDAY,
+Dialogue: 0,0:00:17.43,0:00:18.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALL FIVE WERE
+Dialogue: 0,0:00:18.23,0:00:18.78,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE.
+Dialogue: 0,0:00:18.78,0:00:19.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIP THE INTERN
+Dialogue: 0,0:00:19.59,0:00:20.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RAISED HER HAND.
+Dialogue: 0,0:00:20.53,0:00:20.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"UM,
+Dialogue: 0,0:00:20.68,0:00:20.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:20.87,0:00:21.24,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRIPES
+Dialogue: 0,0:00:21.24,0:00:22.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ARE..." "LESS IS
+Dialogue: 0,0:00:22.02,0:00:22.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MORE,
+Dialogue: 0,0:00:22.25,0:00:22.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIP."
+Dialogue: 0,0:00:22.82,0:00:23.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO CAPTAIN MO
+Dialogue: 0,0:00:23.50,0:00:24.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAILED IN WITH
+Dialogue: 0,0:00:24.14,0:00:24.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOUR TONS OF
+Dialogue: 0,0:00:24.86,0:00:25.21,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CHEESE
+Dialogue: 0,0:00:25.21,0:00:26.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR LIGHTHOUSE THREE.
+Dialogue: 0,0:00:26.51,0:00:27.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT IN DAYLIGHT
+Dialogue: 0,0:00:27.22,0:00:27.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE LAMPS ARE
+Dialogue: 0,0:00:27.98,0:00:28.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF.
+Dialogue: 0,0:00:28.15,0:00:28.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIVE
+Dialogue: 0,0:00:28.41,0:00:28.65,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE
+Dialogue: 0,0:00:28.65,0:00:28.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOWERS.
+Dialogue: 0,0:00:28.99,0:00:29.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE PICKED ONE.
+Dialogue: 0,0:00:29.63,0:00:30.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WRONG.
+Dialogue: 0,0:00:30.12,0:00:30.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE UNLOADED THE
+Dialogue: 0,0:00:30.72,0:00:31.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CHEESE
+Dialogue: 0,0:00:31.05,0:00:31.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR A KEEPER
+Dialogue: 0,0:00:31.67,0:00:32.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHO HATES
+Dialogue: 0,0:00:32.12,0:00:32.63,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CHEESE.
+Dialogue: 0,0:00:32.63,0:00:33.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY FRIDAY,
+Dialogue: 0,0:00:33.04,0:00:33.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MAIL BOAT,
+Dialogue: 0,0:00:33.63,0:00:34.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE ICE CREAM
+Dialogue: 0,0:00:34.40,0:00:35.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOAT AND SIR
+Dialogue: 0,0:00:35.03,0:00:35.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}REGINALD'S YACHT WERE
+Dialogue: 0,0:00:35.89,0:00:36.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOST.
+Dialogue: 0,0:00:36.41,0:00:37.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GARY THE PIGEON
+Dialogue: 0,0:00:37.20,0:00:37.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LANDED ON THE
+Dialogue: 0,0:00:37.90,0:00:39.05,Cap,,0,0,0,,{\fs105}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WRONG LIGHTHOUSE ELEVEN
+Dialogue: 0,0:00:39.05,0:00:39.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIMES.
+Dialogue: 0,0:00:39.35,0:00:40.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE WANTED HIS
+Dialogue: 0,0:00:40.35,0:00:40.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEST.
+Dialogue: 0,0:00:40.92,0:00:41.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT WERE
+Dialogue: 0,0:00:41.38,0:00:41.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TACKY
+Dialogue: 0,0:00:41.80,0:00:42.15,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRIPES
+Dialogue: 0,0:00:42.15,0:00:42.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR?
+Dialogue: 0,0:00:42.65,0:00:43.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT NIGHT,
+Dialogue: 0,0:00:43.10,0:00:44.15,Cap,,0,0,0,,{\fs105}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERY LIGHTHOUSE BLINKS
+Dialogue: 0,0:00:44.15,0:00:45.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITS OWN PATTERN.
+Dialogue: 0,0:00:45.03,0:00:45.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN DAYLIGHT,
+Dialogue: 0,0:00:45.53,0:00:46.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE PAINT IS
+Dialogue: 0,0:00:46.19,0:00:46.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE PATTERN.
+Dialogue: 0,0:00:46.95,0:00:47.36,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRIPES
+Dialogue: 0,0:00:47.36,0:00:48.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MEAN LIGHTHOUSE ONE.
+Dialogue: 0,0:00:48.42,0:00:49.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SPIRAL IS
+Dialogue: 0,0:00:49.18,0:00:49.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO,
+Dialogue: 0,0:00:49.40,0:00:50.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHECKERS THREE,
+Dialogue: 0,0:00:50.27,0:00:51.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POLKA DOTS FOUR.
+Dialogue: 0,0:00:51.20,0:00:52.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAILORS READ THEM
+Dialogue: 0,0:00:52.47,0:00:53.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE NAME TAGS,
+Dialogue: 0,0:00:53.34,0:00:54.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM THREE MILES
+Dialogue: 0,0:00:54.40,0:00:54.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT.
+Dialogue: 0,0:00:55.09,0:00:56.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIP REPAINTED ALL
+Dialogue: 0,0:00:56.03,0:00:56.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIVE BY MONDAY.
+Dialogue: 0,0:00:56.83,0:00:57.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN A TUGBOAT
+Dialogue: 0,0:00:57.75,0:00:58.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOWED SIR REGINALD
+Dialogue: 0,0:00:58.78,0:00:59.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOME.
+Dialogue: 0,0:00:59.27,0:00:59.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND GARY FLEW
+Dialogue: 0,0:00:59.92,0:01:00.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT TO HIS
+Dialogue: 0,0:01:00.62,0:01:00.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEST.
+Dialogue: 0,0:01:00.82,0:01:01.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE ONE WITH
+Dialogue: 0,0:01:01.68,0:01:01.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:01:01.85,0:01:02.46,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MUSTACHE.

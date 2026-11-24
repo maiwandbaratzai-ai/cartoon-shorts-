@@ -1,0 +1,11 @@
+L0 rule-of-three: moving one square barrel takes four sailors and a song
+L1 character: Gustav's catchphrase "Progress!" — square ones stack neater
+L2 escalation: 300 barrels a day; by noon the sailors run out of songs
+L3 character: Coconut the monkey only wants the banana barrel — at the bottom of the stack
+L4 failed-fix: "Progress!" — perfect tubes
+L5 rule-of-three: straight ahead, straight down the pier, straight into the sea
+L6 visual: forty barrels bob away, Coconut surfing on the banana one
+L8 comparison: a fat barrel spins like a top on its belly
+L9 explanation: the curve is an arch; hoops squeeze the boards tight
+L10 specific: one sailor per barrel
+L11 callback: the three spare sailors start a band (the song); Coconut drums on the banana barrel

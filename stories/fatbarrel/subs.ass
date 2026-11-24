@@ -1,0 +1,83 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GUSTAV MADE
+Dialogue: 0,0:00:00.67,0:00:01.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SQUARE
+Dialogue: 0,0:00:01.05,0:00:01.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARRELS.
+Dialogue: 0,0:00:01.41,0:00:02.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOVING ONE TOOK
+Dialogue: 0,0:00:02.45,0:00:03.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOUR SAILORS AND
+Dialogue: 0,0:00:03.23,0:00:03.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SONG.
+Dialogue: 0,0:00:03.82,0:00:04.18,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"PROGRESS!"
+Dialogue: 0,0:00:04.18,0:00:04.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SAID.
+Dialogue: 0,0:00:04.53,0:00:04.90,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SQUARE
+Dialogue: 0,0:00:04.90,0:00:05.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONES STACK NEATER.
+Dialogue: 0,0:00:05.75,0:00:06.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY ARE
+Dialogue: 0,0:00:06.34,0:00:07.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}REAL BARRELS FAT
+Dialogue: 0,0:00:07.06,0:00:08.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE MIDDLE?
+Dialogue: 0,0:00:08.11,0:00:09.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT PORT PUDDLE
+Dialogue: 0,0:00:09.03,0:00:09.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHIPS
+Dialogue: 0,0:00:09.37,0:00:09.93,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}300
+Dialogue: 0,0:00:09.93,0:00:10.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARRELS A DAY.
+Dialogue: 0,0:00:10.78,0:00:11.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY NOON,
+Dialogue: 0,0:00:11.15,0:00:11.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SAILORS RAN
+Dialogue: 0,0:00:11.87,0:00:12.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT OF SONGS.
+Dialogue: 0,0:00:12.74,0:00:13.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COCONUT,
+Dialogue: 0,0:00:13.10,0:00:13.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SHIP'S MONKEY,
+Dialogue: 0,0:00:13.97,0:00:14.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONLY CARED ABOUT
+Dialogue: 0,0:00:14.76,0:00:15.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE BARREL:
+Dialogue: 0,0:00:15.28,0:00:15.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BANANAS.
+Dialogue: 0,0:00:15.70,0:00:16.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT WAS AT
+Dialogue: 0,0:00:16.31,0:00:17.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BOTTOM.
+Dialogue: 0,0:00:17.18,0:00:18.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO GUSTAV UPGRADED
+Dialogue: 0,0:00:18.11,0:00:18.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AGAIN:
+Dialogue: 0,0:00:18.39,0:00:18.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PERFECT
+Dialogue: 0,0:00:18.91,0:00:19.32,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TUBES.
+Dialogue: 0,0:00:19.32,0:00:19.91,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"PROGRESS!"
+Dialogue: 0,0:00:19.91,0:00:20.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TUBE ROLLS
+Dialogue: 0,0:00:20.51,0:00:20.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GREAT.
+Dialogue: 0,0:00:20.76,0:00:21.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT AHEAD.
+Dialogue: 0,0:00:21.43,0:00:22.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT DOWN THE
+Dialogue: 0,0:00:22.27,0:00:22.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIER.
+Dialogue: 0,0:00:22.48,0:00:23.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT INTO THE
+Dialogue: 0,0:00:23.21,0:00:23.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SEA.
+Dialogue: 0,0:00:23.64,0:00:24.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY BARRELS BOBBED
+Dialogue: 0,0:00:24.35,0:00:24.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AWAY,
+Dialogue: 0,0:00:24.51,0:00:25.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH COCONUT SURFING
+Dialogue: 0,0:00:25.29,0:00:25.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON THE BANANA
+Dialogue: 0,0:00:25.73,0:00:26.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE.
+Dialogue: 0,0:00:26.11,0:00:26.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT IS
+Dialogue: 0,0:00:26.48,0:00:27.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FAT MIDDLE
+Dialogue: 0,0:00:27.07,0:00:27.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR?
+Dialogue: 0,0:00:27.57,0:00:28.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A FAT BARREL
+Dialogue: 0,0:00:28.32,0:00:29.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONLY TOUCHES THE
+Dialogue: 0,0:00:29.07,0:00:29.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GROUND AT ITS
+Dialogue: 0,0:00:29.75,0:00:30.00,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BELLY.
+Dialogue: 0,0:00:30.00,0:00:30.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE SAILOR CAN
+Dialogue: 0,0:00:30.84,0:00:31.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLL IT,
+Dialogue: 0,0:00:31.20,0:00:31.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND SPIN IT
+Dialogue: 0,0:00:31.86,0:00:32.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A TOP.
+Dialogue: 0,0:00:32.71,0:00:33.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CURVE IS
+Dialogue: 0,0:00:33.30,0:00:33.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN ARCH.
+Dialogue: 0,0:00:33.67,0:00:34.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IRON HOOPS SQUEEZE
+Dialogue: 0,0:00:34.67,0:00:35.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BOARDS TIGHT,
+Dialogue: 0,0:00:35.43,0:00:36.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO IT CAN'T
+Dialogue: 0,0:00:36.00,0:00:36.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURST.
+Dialogue: 0,0:00:36.77,0:00:37.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GUSTAV BROUGHT THE
+Dialogue: 0,0:00:37.68,0:00:38.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FAT BARRELS BACK.
+Dialogue: 0,0:00:38.66,0:00:39.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE SAILOR PER
+Dialogue: 0,0:00:39.30,0:00:39.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARREL.
+Dialogue: 0,0:00:39.85,0:00:40.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE OTHER THREE
+Dialogue: 0,0:00:40.69,0:00:41.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STARTED A
+Dialogue: 0,0:00:41.18,0:00:41.65,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BAND.
+Dialogue: 0,0:00:41.65,0:00:42.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COCONUT DRUMS THE
+Dialogue: 0,0:00:42.63,0:00:43.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BANANA BARREL.
