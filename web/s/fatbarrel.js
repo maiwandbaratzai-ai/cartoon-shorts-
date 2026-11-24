@@ -199,7 +199,7 @@ export default {
     } else if (sh(597, 640)) {                // 11. a tube rolls great, straight ahead (tracking)
       cam = fitT(K, [[tx - 2.5, 0, 0.8], [tx + 1.5, 1.0, 0.8], ...body(-3.4, 0.9)], { yaw: 80, pitch: 8, fov: 44 });
     } else if (sh(640, 680)) {                // 12. straight down the pier (behind it, looking out to sea)
-      cam = { pos: [tx - 5, 1.6, 2.2], look: [tx + 2, 0.4, 0.6], fov: 44 }; dof = { focus: 5, cinf: 4 };
+      cam = { pos: [tx - 4.5, 3.2, 3.0], look: [tx + 2.5, 0.3, 0.6], fov: 44 }; dof = { focus: 5.5, cinf: 4 };
     } else if (sh(680, 709)) {                // 13. straight into the sea (wide, splash)
       cam = fitT(K, [[7, -1, 0], [12, 1.5, 0.8]], { yaw: 70, pitch: 10, fov: 44 }); cam.fov *= K.punch(f, F.SEA, 0.1, 6);
     } else if (sh(709, 783)) {                // 14. forty barrels bob away, Coconut surfing on the banana one (tracking)
