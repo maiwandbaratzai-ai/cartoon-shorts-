@@ -243,7 +243,7 @@ export default {
       cam = fitT(K, [[-6.5, 0.4, -8.4], ...body(-6.5, -5.6), ...body(-3, -3.6), [-5.6, 2.1, -6.3], [-1.2, 0, -1.6]], { yaw: lerp(70, 78, u), pitch: 10, fov: 44 }); light = LG;
     } else if (sh(1229, 1295)) {             // 24. "Your dog is sleeping in my spare tire." (wide: Plum, the spare, Biscuit, Doris)
       cam = fitT(K, [...body(-4.0, -3.6), [-4.9, 0, -2.4], [-3.9, 0.6, -2.4], [-3.2, 1.4, -1.6]], { yaw: 72, pitch: 12, fov: 42 }); light = LG;
-    } else {                                 // 25. Doris said no more (deadpan), pull back to the whole Tire Hut (loops to frame 0)
+    } else { u = clamp((f - 1295) / 70, 0, 1);                                 // 25. Doris said no more (deadpan), pull back to the whole Tire Hut (loops to frame 0)
       cam = fitT(K, [...body(-1.6, -4.4), [-4.9, 0, -2.4], ...body(-4.0, -3.6), [lerp(-2.5, 0, u), lerp(1.5, 3.5, u), lerp(-3, -10, u)]], { yaw: lerp(95, 78, u), pitch: lerp(10, 14, u), fov: 44 }); light = LG;
     }
     dof = dof || { focus: Math.hypot(cam.pos[0] - cam.look[0], cam.pos[1] - cam.look[1], cam.pos[2] - cam.look[2]), cinf: 4 };

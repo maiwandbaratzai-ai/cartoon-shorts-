@@ -123,8 +123,8 @@ export default {
     // ---------- characters ----------
     let rp = { x: 1.0, z: 0.0, yaw: -0.3 };
     if (f < 138) rp = { x: 2.0, z: -14.0 + 1.6, y: 0.4, yaw: Math.PI + 0.2 };          // painting the last stripe (on Lighthouse Three's rock)
-    if (f >= F.YACHT - 4 && f < 1092) { rp = { x: YACHT.position.x - 1.5, z: YACHT.position.z, y: YACHT.position.y + 0.8, yaw: YACHT.rotation.y }; }
-    if (ytow && f < 1778) rp = { x: YACHT.position.x - 1.2, z: -6, y: WY + 0.9, yaw: Math.PI / 2 };
+    if (f >= F.YACHT - 4 && f < 1092) { const ry = YACHT.rotation.y; rp = { x: YACHT.position.x - 3.0 * Math.cos(ry), z: YACHT.position.z + 3.0 * Math.sin(ry), y: YACHT.position.y + 0.8, yaw: ry + Math.PI / 2 }; }
+    if (ytow && f < 1778) rp = { x: YACHT.position.x - 3.0, z: -6, y: WY + 0.85, yaw: 0.6 };
     if (f >= 1092 && f < F.TUG - 4) rp = { visible: false };
     if (f >= 685 && f < 979) rp = { visible: false };
     const rk = [[0, 'hammer', { expr: 'proud', R: [0.45, -1.0, 'hammer'] }], [F.LOST - 6, 'shrug', { expr: 'smug' }], [138, 'hips', { expr: 'smug' }], [F.LESS - 4, 'pointUp', { expr: 'proud', talk: true }], [F.WHY, 'cross', { expr: 'smug' }],
@@ -200,9 +200,9 @@ export default {
     } else if (sh(1035, 1092)) {               // 18. ...and Reginald's own yacht (tracking it, Reginald panicking)
       cam = fitT(K, [[YACHT.position.x - 4.5, WY, YACHT.position.z], [YACHT.position.x + 4.5, WY + 3.2, YACHT.position.z], ...tw(3)], { yaw: 75, pitch: 8, fov: 44 });
     } else if (sh(1092, 1160)) {               // 19. Gary lands on the wrong lighthouse (eleven times)
-      cam = fitT(K, [...tw(0, TH - 2, TH + 4), ...tw(1, TH - 2, TH + 4), [gp.x, gp.y, gp.z]], { yaw: 80, pitch: 4, fov: 44 });
+      cam = fitT(K, [...tw(0, TH - 2, TH + 4), ...tw(1, TH - 2, TH + 4), [gp.x, gp.y, gp.z]], { yaw: lerp(74, 88, u), pitch: 4, fov: 44 }); cam.fov *= K.push(u, 0.06);
     } else if (sh(1160, 1228)) {               // 20. he wanted his nest (Gary close on a wrong gallery)
-      cam = fitT(K, [[gp.x - 1.2, gp.y - 0.4, gp.z], [gp.x + 1.2, gp.y + 1.0, gp.z]], { yaw: 75, pitch: 8, fov: 40, margin: 1.6 });
+      cam = fitT(K, [[gp.x - 1.2, gp.y - 0.4, gp.z], [gp.x + 1.2, gp.y + 1.0, gp.z]], { yaw: lerp(68, 82, u), pitch: 8, fov: 40, margin: 1.6 }); cam.fov *= K.push(u, 0.08);
     } else if (sh(1228, 1279)) {               // 21. so what were the tacky stripes for? Pip thinks (medium)
       cam = fitT(K, [...body(pp), ...tw(2)], { yaw: 105, pitch: 4, fov: 44 }); cam.fov *= K.push(u, 0.06);
     } else if (sh(1279, 1340)) {               // 22. at night: each light blinks its own pattern (wide, night)
@@ -210,21 +210,21 @@ export default {
     } else if (sh(1340, 1409)) {               // 23. in daylight the paint is the pattern (towers pop their colours)
       cam = fitT(K, [...tw(1), ...tw(2), ...tw(3)], { yaw: lerp(95, 85, u), pitch: 4, fov: 46 });
     } else if (sh(1409, 1455)) {               // 24. stripes = Lighthouse One
-      cam = fitT(K, [...tw(0)], { yaw: 80, pitch: 4, fov: 40, margin: 1.35 }); cam.fov *= K.punch(f, F.ONE, 0.08, 6);
+      cam = fitT(K, [...tw(0)], { yaw: lerp(74, 88, u), pitch: 4, fov: 40, margin: 1.35 }); cam.fov *= K.push(u, 0.06); cam.fov *= K.punch(f, F.ONE, 0.08, 6);
     } else if (sh(1455, 1500)) {               // 25. the spiral is Two
-      cam = fitT(K, [...tw(1)], { yaw: 95, pitch: 4, fov: 40, margin: 1.35 }); cam.fov *= K.punch(f, F.TWO, 0.08, 6);
+      cam = fitT(K, [...tw(1)], { yaw: lerp(100, 88, u), pitch: 4, fov: 40, margin: 1.35 }); cam.fov *= K.push(u, 0.06); cam.fov *= K.punch(f, F.TWO, 0.08, 6);
     } else if (sh(1500, 1580)) {               // 26. checkers Three, polka dots Four
-      cam = fitT(K, [...tw(2), ...tw(3)], { yaw: 85, pitch: 4, fov: 44 });
+      cam = fitT(K, [...tw(2), ...tw(3)], { yaw: lerp(80, 92, u), pitch: 4, fov: 44 }); cam.fov *= K.push(u, 0.08);
     } else if (sh(1580, 1653)) {               // 27. name tags, from three miles out: Mo reads them through his telescope (wide from the boat)
       cam = fitT(K, [...body(mp), [-11, WY, -6], [-8, WY + 1, -6], ...tw(0), ...tw(1)], { yaw: 70, pitch: 4, fov: 46 });
     } else if (sh(1653, 1715)) {               // 28. Pip repainted all five by Monday (quay, towers behind)
-      cam = fitT(K, [...body(pp), ...tw(2), ...tw(1)], { yaw: 90, pitch: 6, fov: 44 });
+      cam = fitT(K, [...body(pp), ...tw(2), ...tw(1)], { yaw: lerp(86, 94, u), pitch: 6, fov: 44 }); cam.fov *= K.push(u, 0.08);
     } else if (sh(1715, 1778)) {               // 29. a tugboat tows Sir Reginald home (tracking, wide)
-      cam = fitT(K, [[TUG.position.x + 2.5, WY, -6], [TUG.position.x - 11, WY + 3, -6], ...body(pp)], { yaw: 80, pitch: 8, fov: 44 });
+      cam = fitT(K, [[TUG.position.x - 0.5, WY, -6], [YACHT.position.x - 3.5, WY + 3.2, -6]], { yaw: 70, pitch: 30, fov: 42 });
     } else if (sh(1778, 1850)) {               // 30. Gary flies straight to his nest — the one with the mustache
-      cam = fitT(K, [...tw(4, 2, TH + 3), [gp.x, gp.y, gp.z]], { yaw: 80, pitch: 4, fov: 42 });
-    } else {                                   // 31. pull back: all five lighthouses in their colours (loops to the start)
-      cam = fitT(K, [...tw(0), ...tw(4), ...tw(2), [0, 0, 0]], { yaw: lerp(90, 80, u), pitch: lerp(6, 12, u), fov: 46, margin: 1.05 });
+      cam = fitT(K, [...tw(4, 2, TH + 3), [gp.x, gp.y, gp.z]], { yaw: lerp(76, 86, u), pitch: 4, fov: 42 }); cam.fov *= K.push(u, 0.1);
+    } else { u = clamp((f - 1850) / 70, 0, 1);                                   // 31. pull back: all five lighthouses in their colours (loops to the start)
+      cam = fitT(K, [...tw(0), ...tw(4), ...tw(2), [0, 0, 0]], { yaw: lerp(96, 78, u), pitch: lerp(4, 14, u), fov: 46, margin: 1.05 });
     }
     dof = dof || { focus: Math.hypot(cam.pos[0] - cam.look[0], cam.pos[1] - cam.look[1], cam.pos[2] - cam.look[2]), cinf: 3 };
     // ---------- effects + graphics ----------
