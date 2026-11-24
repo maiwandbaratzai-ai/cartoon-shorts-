@@ -1,0 +1,12 @@
+L0 visual: Marco paints his house black and his cat packs a tiny suitcase and moves in next door
+L2 character: catchphrase "Black is back!" — 400 tourist selfies
+L3 comparison: Nina's house gets zero selfies; Marco calls it "a giant sugar cube"
+L4 failed-fix: his own doorknob needs oven mitts
+L5 deadpan: his front step fries an egg; nobody asked it to
+L6 comparison: the sprinkler hits the wall and the whole house steams like a teapot
+L7 character: Mango the cat, cool as a cucumber on Nina's roof (the coolest spot she wanted)
+L8 callback: "So what did the sugar cube know?"
+L9 explanation: a black wall soaks up sun like a black T-shirt at the beach
+L10 specific: his living room hits 40 degrees
+L11 escalation: "Black is back," he whispers... from Nina's kiddie pool
+L12 callback: he paints it white — "Black is back" becomes "Mango is back"

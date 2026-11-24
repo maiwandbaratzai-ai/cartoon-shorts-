@@ -1,0 +1,89 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARCO PAINTED HIS
+Dialogue: 0,0:00:00.94,0:00:01.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUSE
+Dialogue: 0,0:00:01.30,0:00:01.65,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BLACK,
+Dialogue: 0,0:00:01.65,0:00:02.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HIS CAT
+Dialogue: 0,0:00:02.18,0:00:02.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOVED IN NEXT
+Dialogue: 0,0:00:02.83,0:00:03.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOOR.
+Dialogue: 0,0:00:03.32,0:00:04.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEXT DOOR STOOD
+Dialogue: 0,0:00:04.06,0:00:04.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NINA'S PLAIN
+Dialogue: 0,0:00:04.69,0:00:04.96,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE
+Dialogue: 0,0:00:04.96,0:00:05.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUSE.
+Dialogue: 0,0:00:05.24,0:00:05.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY ARE
+Dialogue: 0,0:00:05.95,0:00:06.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUSES IN SUNNY
+Dialogue: 0,0:00:06.70,0:00:06.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOWNS
+Dialogue: 0,0:00:06.98,0:00:07.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE?
+Dialogue: 0,0:00:07.62,0:00:07.88,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"BLACK
+Dialogue: 0,0:00:07.88,0:00:08.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS BACK!" MARCO
+Dialogue: 0,0:00:08.58,0:00:08.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHOUTED.
+Dialogue: 0,0:00:08.93,0:00:09.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOURISTS TOOK
+Dialogue: 0,0:00:09.62,0:00:10.33,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}400
+Dialogue: 0,0:00:10.33,0:00:11.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SELFIES WITH HIS
+Dialogue: 0,0:00:11.15,0:00:11.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUSE.
+Dialogue: 0,0:00:11.69,0:00:12.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NINA'S HOUSE GOT
+Dialogue: 0,0:00:12.50,0:00:12.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ZERO.
+Dialogue: 0,0:00:12.75,0:00:13.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARCO CALLED IT
+Dialogue: 0,0:00:13.69,0:00:14.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"A GIANT SUGAR
+Dialogue: 0,0:00:14.41,0:00:14.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CUBE."
+Dialogue: 0,0:00:14.99,0:00:15.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE HEAT
+Dialogue: 0,0:00:15.65,0:00:16.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAVE HIT.
+Dialogue: 0,0:00:16.28,0:00:16.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY ONE:
+Dialogue: 0,0:00:16.73,0:00:17.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS DOORKNOB NEEDED
+Dialogue: 0,0:00:17.65,0:00:18.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OVEN MITTS.
+Dialogue: 0,0:00:18.53,0:00:18.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY TWO:
+Dialogue: 0,0:00:18.88,0:00:19.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS FRONT STEP
+Dialogue: 0,0:00:19.72,0:00:20.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FRIED AN EGG.
+Dialogue: 0,0:00:20.43,0:00:21.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOBODY ASKED IT
+Dialogue: 0,0:00:21.25,0:00:21.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO.
+Dialogue: 0,0:00:21.63,0:00:21.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY THREE:
+Dialogue: 0,0:00:21.96,0:00:22.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS SPRINKLER HIT
+Dialogue: 0,0:00:22.57,0:00:22.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WALL,
+Dialogue: 0,0:00:22.88,0:00:23.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE WHOLE
+Dialogue: 0,0:00:23.35,0:00:23.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOUSE STEAMED LIKE
+Dialogue: 0,0:00:23.99,0:00:24.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:24.06,0:00:24.56,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEAPOT.
+Dialogue: 0,0:00:24.56,0:00:25.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MEANWHILE,
+Dialogue: 0,0:00:25.01,0:00:25.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MANGO THE CAT
+Dialogue: 0,0:00:25.68,0:00:26.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NAPPED ON NINA'S
+Dialogue: 0,0:00:26.52,0:00:26.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROOF,
+Dialogue: 0,0:00:26.91,0:00:27.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COOL AS A
+Dialogue: 0,0:00:27.47,0:00:28.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CUCUMBER.
+Dialogue: 0,0:00:28.14,0:00:28.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT DID
+Dialogue: 0,0:00:28.54,0:00:29.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SUGAR CUBE
+Dialogue: 0,0:00:29.11,0:00:29.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KNOW?
+Dialogue: 0,0:00:29.64,0:00:29.97,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE
+Dialogue: 0,0:00:29.97,0:00:30.89,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOUNCES SUNSHINE AWAY.
+Dialogue: 0,0:00:30.89,0:00:31.15,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BLACK
+Dialogue: 0,0:00:31.15,0:00:31.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SOAKS IT UP,
+Dialogue: 0,0:00:31.81,0:00:32.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A
+Dialogue: 0,0:00:32.20,0:00:32.46,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BLACK
+Dialogue: 0,0:00:32.46,0:00:33.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}T-SHIRT AT THE
+Dialogue: 0,0:00:33.23,0:00:33.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEACH.
+Dialogue: 0,0:00:33.86,0:00:34.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT HEAT GOES
+Dialogue: 0,0:00:34.62,0:00:35.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT INSIDE.
+Dialogue: 0,0:00:35.53,0:00:36.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARCO'S LIVING ROOM
+Dialogue: 0,0:00:36.36,0:00:36.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIT
+Dialogue: 0,0:00:36.55,0:00:37.16,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}40
+Dialogue: 0,0:00:37.16,0:00:37.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DEGREES.
+Dialogue: 0,0:00:37.97,0:00:38.20,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"BLACK
+Dialogue: 0,0:00:38.20,0:00:38.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS BACK," MARCO
+Dialogue: 0,0:00:38.85,0:00:39.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHISPERED,
+Dialogue: 0,0:00:39.31,0:00:40.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM NINA'S KIDDIE
+Dialogue: 0,0:00:40.19,0:00:40.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POOL.
+Dialogue: 0,0:00:40.65,0:00:41.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON SATURDAY,
+Dialogue: 0,0:00:41.19,0:00:41.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE PAINTED IT
+Dialogue: 0,0:00:41.83,0:00:42.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WHITE.
+Dialogue: 0,0:00:42.10,0:00:42.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND MANGO IS
+Dialogue: 0,0:00:42.96,0:00:43.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACK.
