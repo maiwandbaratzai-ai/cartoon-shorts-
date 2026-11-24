@@ -1,0 +1,12 @@
+L0 comparison: Mr. Plum's white tires wear down to pancakes by Friday (car scraping on flat tires)
+L1 deadpan: the complaint box: "black is boring"
+L2 character: catchphrase "Say no more!" — she BAKES tires in pink and mint
+L3 comparison: the tires look like cupcakes; Biscuit the dog wants one as a bed
+L4 comparison: 104 degrees, the pink tires go soft like gum
+L5 visual: Mrs. Ortiz leaves a pink stripe across the whole town
+L6 failed-fix: "Say no more!" — a tiny umbrella on every wheel
+L7 escalation: mint tires pop, Mr. Plum drives on bare rims throwing sparks
+L9 explanation: carbon specks make rubber tough, like a gummy bear in armor
+L10 explanation: black = built-in sunscreen for rubber
+L11 specific: complaints counter drops to zero... then one more
+L12 callback: the dog finally got his tire bed (the spare); "Doris said no more" flips her catchphrase

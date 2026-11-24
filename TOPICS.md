@@ -64,5 +64,6 @@
 - 2026-11-23 Why golf balls have dimples: robot groundskeeper B-12 sands every ball smooth before the Club Championship (golden toaster prize), Margaret "The Hurricane" Pratt, a duck sits on 92 lost balls, Mossy Pines golf course + wind tunnel (45 s, Channel B, story, engine: Fish Out of Water)
 - 2026-11-23 Why train tracks sit on rocks (ballast): Mayor Primrose bans the "ugly" rocks and plants tulips + a gnome, pudding mud, spaghetti rails, the 8:15 arrives at 11:40, a cow mows and outruns the train, rocks come back painted pink, Tidyton station + elephant cutaway (45 s, Channel B, story, engine: Remove It and See)
 - 2026-11-23 Why milking stools have three legs: Tobias "upgrades" Grandma Ilse's stool Gerald to 4, 6, then the 10-legged Centipede Deluxe, seasick cow Daisy, cheese under a leg, the cheese truck honks at 5:58, barn + cheap cafe + rocky-beach tripod cutaways (64 s, TikTok, story, engine: Upgrade)
+- 2026-11-24 Why tires are black (carbon black): Doris' Tire Hut answers complaints with "Say no more!" — pink + mint tires melt like gum at 104°F, tiny wheel umbrellas, bare rims, Biscuit the dog sleeps in the spare, desert Route 9 + x-ray cutaway (45 s, Channel A, story, engine: Complaint Desk)
 ---
 Author: Maiwand
