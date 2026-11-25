@@ -1,0 +1,87 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.40,Cap,,0,0,0,,{\fs93}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WANDA'S FLAT-BOTTOMED SODA
+Dialogue: 0,0:00:01.40,0:00:02.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CANS WADDLED OFF
+Dialogue: 0,0:00:02.25,0:00:03.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SHELF LIKE
+Dialogue: 0,0:00:03.22,0:00:03.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PENGUINS.
+Dialogue: 0,0:00:03.88,0:00:04.13,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"FLAT
+Dialogue: 0,0:00:04.13,0:00:04.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS
+Dialogue: 0,0:00:04.29,0:00:04.59,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FANCY!"
+Dialogue: 0,0:00:04.59,0:00:05.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAID WANDA,
+Dialogue: 0,0:00:05.14,0:00:06.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOSS OF FIZZWELL
+Dialogue: 0,0:00:06.10,0:00:06.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SODA.
+Dialogue: 0,0:00:06.35,0:00:07.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY DO
+Dialogue: 0,0:00:07.02,0:00:07.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}REAL CANS HAVE
+Dialogue: 0,0:00:07.78,0:00:09.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A DENT UNDERNEATH?
+Dialogue: 0,0:00:09.18,0:00:09.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY LUNCH,
+Dialogue: 0,0:00:09.58,0:00:09.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERY
+Dialogue: 0,0:00:09.92,0:00:10.14,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FLAT
+Dialogue: 0,0:00:10.14,0:00:11.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOTTOM HAD PUFFED
+Dialogue: 0,0:00:11.07,0:00:11.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INTO A ROUND
+Dialogue: 0,0:00:11.65,0:00:12.16,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BELLY.
+Dialogue: 0,0:00:12.16,0:00:12.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POGO,
+Dialogue: 0,0:00:12.38,0:00:13.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FACTORY DOG,
+Dialogue: 0,0:00:13.24,0:00:13.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS THRILLED.
+Dialogue: 0,0:00:13.91,0:00:14.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLLING CANS MEANT
+Dialogue: 0,0:00:14.92,0:00:15.35,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FETCH.
+Dialogue: 0,0:00:15.35,0:00:16.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIX HUNDRED ROUNDS
+Dialogue: 0,0:00:16.42,0:00:16.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF
+Dialogue: 0,0:00:16.56,0:00:17.29,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FETCH.
+Dialogue: 0,0:00:17.31,0:00:17.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WANDA MADE
+Dialogue: 0,0:00:17.94,0:00:18.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE METAL TWICE
+Dialogue: 0,0:00:18.66,0:00:19.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS THICK.
+Dialogue: 0,0:00:19.50,0:00:19.78,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"FLAT
+Dialogue: 0,0:00:19.78,0:00:19.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS
+Dialogue: 0,0:00:19.93,0:00:20.37,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FANCY!"
+Dialogue: 0,0:00:20.37,0:00:20.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOW EACH CAN
+Dialogue: 0,0:00:20.97,0:00:21.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEIGHED AS MUCH
+Dialogue: 0,0:00:21.70,0:00:22.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS A BRICK.
+Dialogue: 0,0:00:22.54,0:00:23.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE DELIVERY TRUCK
+Dialogue: 0,0:00:23.40,0:00:24.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAT DOWN LIKE
+Dialogue: 0,0:00:24.13,0:00:25.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TIRED CAMEL.
+Dialogue: 0,0:00:25.11,0:00:25.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN A HOT
+Dialogue: 0,0:00:25.61,0:00:25.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DAY HIT,
+Dialogue: 0,0:00:25.91,0:00:26.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TWO HUNDRED
+Dialogue: 0,0:00:26.52,0:00:27.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BELLIES POPPED AT
+Dialogue: 0,0:00:27.34,0:00:27.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONCE.
+Dialogue: 0,0:00:27.70,0:00:28.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SODA RAINED FROM
+Dialogue: 0,0:00:28.43,0:00:29.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CEILING.
+Dialogue: 0,0:00:29.12,0:00:29.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY THE
+Dialogue: 0,0:00:29.57,0:00:30.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DENT?
+Dialogue: 0,0:00:30.16,0:00:30.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIZZ PUSHES OUT
+Dialogue: 0,0:00:30.91,0:00:31.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HARD ON EVERY
+Dialogue: 0,0:00:31.53,0:00:32.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PART OF THE
+Dialogue: 0,0:00:32.16,0:00:32.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAN.
+Dialogue: 0,0:00:32.59,0:00:32.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:32.69,0:00:33.03,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FLAT
+Dialogue: 0,0:00:33.03,0:00:33.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOTTOM BENDS.
+Dialogue: 0,0:00:34.04,0:00:34.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:34.13,0:00:34.34,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DOME
+Dialogue: 0,0:00:34.34,0:00:35.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSHES BACK LIKE
+Dialogue: 0,0:00:35.11,0:00:35.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN
+Dialogue: 0,0:00:35.25,0:00:35.53,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ARCH,
+Dialogue: 0,0:00:35.53,0:00:36.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THIN METAL
+Dialogue: 0,0:00:36.33,0:00:37.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAN HOLD THE
+Dialogue: 0,0:00:37.06,0:00:37.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIZZ.
+Dialogue: 0,0:00:37.54,0:00:38.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WANDA BROUGHT THE
+Dialogue: 0,0:00:38.38,0:00:39.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DENT BACK.
+Dialogue: 0,0:00:39.14,0:00:39.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POGO KEPT ONE
+Dialogue: 0,0:00:39.83,0:00:40.09,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BELLY
+Dialogue: 0,0:00:40.09,0:00:40.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAN AS HIS
+Dialogue: 0,0:00:40.67,0:00:41.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BALL.
+Dialogue: 0,0:00:41.15,0:00:41.39,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"FLAT
+Dialogue: 0,0:00:41.39,0:00:41.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS
+Dialogue: 0,0:00:41.55,0:00:41.84,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FANCY,"
+Dialogue: 0,0:00:41.84,0:00:42.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WANDA SAYS NOW.
+Dialogue: 0,0:00:42.59,0:00:43.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ABOUT HER HAT.

@@ -1,0 +1,11 @@
+L0 comparison: flat-bottomed soda cans waddle off the shelf like penguins
+L1 character: Wanda's catchphrase "Flat is fancy!"
+L2 visual: every flat bottom puffs into a round belly
+L3 character: Pogo the factory dog is thrilled — rolling cans mean six hundred rounds of fetch
+L4 failed-fix: metal twice as thick ("Flat is fancy!")
+L5 comparison: each can weighs as much as a brick; the truck sits down like a tired camel
+L6 escalation: two hundred bellies pop at once; soda rains from the ceiling
+L8 deadpan: fizz pushes out hard on every part; a flat bottom bends
+L9 explanation: a dome pushes back like an arch, so thin metal holds the fizz
+L10 callback: Pogo keeps one belly can as his ball
+L11 callback: "Flat is fancy," Wanda says now — about her hat
