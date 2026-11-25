@@ -1,0 +1,18 @@
+L0 visual: Mayor Doug's flat road turns into a lake and a duck moves in
+L1 character: Doug's catchphrase "Smooth as a pancake!"
+L2 specific: golden scissors, four hundred people clap
+L3 specific: Hilda of Humpton builds her road with a hump down the middle
+L4 character: Doug mocks it — "Her road has a spine!"
+L5 deadpan: Hilda doesn't argue — she buys a bike (pays off with dry socks)
+L6 deadpan: then it rained for a week
+L7 rule-of-three: puddles, ankle-deep, the bus needs a captain
+L8 escalation: pizza by canoe; the fire truck gets a paddle
+L9 character: Admiral Puddles always wanted a lake — now he has one, with traffic
+L10 failed-fix: a sponge the size of a sofa ("Smooth as a pancake!")
+L11 escalation: the sponge swells like a whale and floats off with Doug on it
+L12 comparison: in Humpton, Hilda rides her bike to work — dry socks
+L14 explanation: rain rolls downhill from the high middle into the gutters
+L15 explanation: a flat road has no downhill; the water sits there and soaks in
+L16 comparison: Flatbury Road looks like Swiss cheese — 200 potholes, one with a fish in it
+L17 callback: Doug rebuilds with a hump; Admiral Puddles loses his lake
+L18 callback: so the duck moves into Doug's bathtub
