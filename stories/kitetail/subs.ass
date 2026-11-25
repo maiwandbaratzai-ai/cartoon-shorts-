@@ -1,0 +1,91 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLF'S KITE LOOPED
+Dialogue: 0,0:00:00.99,0:00:01.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO MANY TIMES,
+Dialogue: 0,0:00:01.63,0:00:02.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT TIED HIM
+Dialogue: 0,0:00:02.34,0:00:02.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO HIS
+Dialogue: 0,0:00:02.68,0:00:03.22,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOAT.
+Dialogue: 0,0:00:03.22,0:00:04.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLF BET BEA
+Dialogue: 0,0:00:04.03,0:00:04.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS KITE DIDN'T
+Dialogue: 0,0:00:04.81,0:00:05.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NEED A
+Dialogue: 0,0:00:05.30,0:00:05.53,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TAIL.
+Dialogue: 0,0:00:05.53,0:00:06.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"TAILS ARE FOR
+Dialogue: 0,0:00:06.26,0:00:06.59,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DOGS!"
+Dialogue: 0,0:00:06.59,0:00:07.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY DO
+Dialogue: 0,0:00:07.07,0:00:08.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KITES HAVE TAILS?
+Dialogue: 0,0:00:08.30,0:00:09.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOSER BUYS LUNCH:
+Dialogue: 0,0:00:09.13,0:00:10.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE CHEESE SANDWICH
+Dialogue: 0,0:00:10.21,0:00:10.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TWO
+Dialogue: 0,0:00:10.62,0:00:11.33,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PICKLES.
+Dialogue: 0,0:00:11.33,0:00:12.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEA'S KITE HAD
+Dialogue: 0,0:00:12.02,0:00:12.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:12.13,0:00:12.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TAIL
+Dialogue: 0,0:00:12.38,0:00:13.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF NINE RIBBONS.
+Dialogue: 0,0:00:13.16,0:00:13.68,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PRETZEL
+Dialogue: 0,0:00:13.68,0:00:13.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:13.88,0:00:14.13,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOAT
+Dialogue: 0,0:00:14.13,0:00:14.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WANTED TO EAT
+Dialogue: 0,0:00:14.91,0:00:15.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALL NINE.
+Dialogue: 0,0:00:15.60,0:00:16.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLF'S KITE WENT
+Dialogue: 0,0:00:16.33,0:00:16.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP,
+Dialogue: 0,0:00:16.48,0:00:17.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SPUN LIKE A
+Dialogue: 0,0:00:17.17,0:00:17.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WASHING MACHINE,
+Dialogue: 0,0:00:17.88,0:00:18.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND DOVE INTO
+Dialogue: 0,0:00:18.61,0:00:19.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE DUCK POND.
+Dialogue: 0,0:00:19.68,0:00:20.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO ROLF GAVE
+Dialogue: 0,0:00:20.39,0:00:20.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT A BIGGER
+Dialogue: 0,0:00:20.98,0:00:21.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAIL.
+Dialogue: 0,0:00:21.34,0:00:22.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"TAILS ARE FOR
+Dialogue: 0,0:00:22.09,0:00:22.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DOGS!"
+Dialogue: 0,0:00:22.60,0:00:23.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT SPUN SO
+Dialogue: 0,0:00:23.05,0:00:23.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HARD,
+Dialogue: 0,0:00:23.25,0:00:23.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT LIFTED ROLF
+Dialogue: 0,0:00:23.93,0:00:24.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF HIS BOOTS
+Dialogue: 0,0:00:24.70,0:00:25.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND WRAPPED HIM
+Dialogue: 0,0:00:25.47,0:00:25.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO
+Dialogue: 0,0:00:25.59,0:00:26.17,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PRETZEL.
+Dialogue: 0,0:00:26.17,0:00:26.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MEANWHILE,
+Dialogue: 0,0:00:26.60,0:00:27.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEA'S KITE SAT
+Dialogue: 0,0:00:27.25,0:00:28.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP THERE FOR
+Dialogue: 0,0:00:28.04,0:00:28.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY MINUTES,
+Dialogue: 0,0:00:28.79,0:00:29.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CALM AS A
+Dialogue: 0,0:00:29.26,0:00:29.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CLOUD.
+Dialogue: 0,0:00:29.86,0:00:30.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT DOES
+Dialogue: 0,0:00:30.36,0:00:30.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:30.51,0:00:30.70,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TAIL
+Dialogue: 0,0:00:30.70,0:00:31.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DO?
+Dialogue: 0,0:00:31.20,0:00:31.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WIND DRAGS THE
+Dialogue: 0,0:00:31.93,0:00:32.16,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TAIL
+Dialogue: 0,0:00:32.16,0:00:32.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACKWARD,
+Dialogue: 0,0:00:32.67,0:00:33.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE KITE'S
+Dialogue: 0,0:00:33.44,0:00:34.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOSE ALWAYS POINTS
+Dialogue: 0,0:00:34.41,0:00:35.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INTO THE WIND.
+Dialogue: 0,0:00:35.61,0:00:36.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT WORKS LIKE
+Dialogue: 0,0:00:36.40,0:00:37.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FEATHERS ON
+Dialogue: 0,0:00:37.13,0:00:37.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN
+Dialogue: 0,0:00:37.28,0:00:37.72,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ARROW.
+Dialogue: 0,0:00:37.72,0:00:37.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NO
+Dialogue: 0,0:00:37.87,0:00:38.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TAIL,
+Dialogue: 0,0:00:38.10,0:00:38.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND EVERY GUST
+Dialogue: 0,0:00:38.79,0:00:39.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SPINS IT.
+Dialogue: 0,0:00:39.53,0:00:40.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEA WON THE
+Dialogue: 0,0:00:40.07,0:00:40.41,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PICKLES.
+Dialogue: 0,0:00:40.41,0:00:40.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN
+Dialogue: 0,0:00:40.63,0:00:40.97,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PRETZEL
+Dialogue: 0,0:00:40.97,0:00:41.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ATE HER
+Dialogue: 0,0:00:41.33,0:00:41.80,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TAIL.
+Dialogue: 0,0:00:41.80,0:00:42.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOW SHE'S TIED
+Dialogue: 0,0:00:42.42,0:00:42.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO THE
+Dialogue: 0,0:00:42.75,0:00:43.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOAT
+Dialogue: 0,0:00:43.05,0:00:43.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOO.

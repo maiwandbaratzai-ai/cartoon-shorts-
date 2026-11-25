@@ -1,0 +1,12 @@
+L0 visual: the kite loops so many times its string ties Rolf to his goat
+L1 character: Rolf's catchphrase "Tails are for dogs!"
+L2 specific: the stakes — one cheese sandwich and two pickles
+L3 character: Pretzel the goat wants to eat all nine ribbons of Bea's tail
+L4 comparison: the tailless kite spins like a washing machine and dives into the duck pond
+L5 failed-fix: a bigger sail ("Tails are for dogs!")
+L6 escalation: it spins so hard it lifts Rolf off his boots and wraps him to Pretzel
+L7 comparison: Bea's kite sits up there, calm as a cloud
+L9 explanation: wind drags the tail back so the nose points into the wind
+L10 explanation: like the feathers on an arrow; no tail, every gust spins it
+L11 callback: Bea wins the pickles, then Pretzel eats her tail
+L12 callback: now she's tied to the goat too (the hook, flipped)
