@@ -1,0 +1,84 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHESTER THE BEAVER
+Dialogue: 0,0:00:00.99,0:00:01.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUT THE DOORKNOB
+Dialogue: 0,0:00:01.78,0:00:02.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY THE
+Dialogue: 0,0:00:02.12,0:00:02.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HINGE.
+Dialogue: 0,0:00:02.60,0:00:03.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOBODY GOT IN.
+Dialogue: 0,0:00:03.53,0:00:03.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"TRUST THE
+Dialogue: 0,0:00:03.95,0:00:04.28,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEETH!"
+Dialogue: 0,0:00:04.28,0:00:04.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SAID.
+Dialogue: 0,0:00:04.62,0:00:05.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY ARE
+Dialogue: 0,0:00:05.11,0:00:06.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOORKNOBS ALWAYS FAR
+Dialogue: 0,0:00:06.05,0:00:07.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM THE HINGES?
+Dialogue: 0,0:00:07.16,0:00:07.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MRS.
+Dialogue: 0,0:00:07.35,0:00:08.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PLUM PUSHED THE
+Dialogue: 0,0:00:08.17,0:00:09.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIBRARY DOOR FOR
+Dialogue: 0,0:00:09.04,0:00:09.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TEN MINUTES.
+Dialogue: 0,0:00:09.76,0:00:10.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT MOVED ONE
+Dialogue: 0,0:00:10.38,0:00:10.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INCH.
+Dialogue: 0,0:00:10.88,0:00:11.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BIG LARS,
+Dialogue: 0,0:00:11.30,0:00:12.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE STRONGEST MAN
+Dialogue: 0,0:00:12.13,0:00:13.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN PINECONE HOLLOW,
+Dialogue: 0,0:00:13.00,0:00:13.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSHED UNTIL HIS
+Dialogue: 0,0:00:13.86,0:00:15.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT POPPED OFF.
+Dialogue: 0,0:00:15.10,0:00:15.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO INCHES.
+Dialogue: 0,0:00:15.88,0:00:16.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO CHESTER ADDED
+Dialogue: 0,0:00:16.62,0:00:17.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SECOND KNOB,
+Dialogue: 0,0:00:17.24,0:00:17.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT NEXT TO
+Dialogue: 0,0:00:17.86,0:00:18.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FIRST.
+Dialogue: 0,0:00:18.40,0:00:19.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"TRUST THE
+Dialogue: 0,0:00:19.24,0:00:19.76,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TEETH!"
+Dialogue: 0,0:00:19.80,0:00:20.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY FRIDAY,
+Dialogue: 0,0:00:20.23,0:00:21.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY PEOPLE WERE
+Dialogue: 0,0:00:21.11,0:00:21.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STUCK OUTSIDE,
+Dialogue: 0,0:00:21.70,0:00:22.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}READING THROUGH THE
+Dialogue: 0,0:00:22.71,0:00:23.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WINDOW.
+Dialogue: 0,0:00:23.28,0:00:23.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO CHESTER HIRED
+Dialogue: 0,0:00:23.92,0:00:24.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GERTRUDE THE
+Dialogue: 0,0:00:24.41,0:00:24.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ELEPHANT.
+Dialogue: 0,0:00:24.87,0:00:25.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHE PUSHED.
+Dialogue: 0,0:00:25.29,0:00:26.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE DOOR OPENED.
+Dialogue: 0,0:00:26.15,0:00:26.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO DID THE
+Dialogue: 0,0:00:26.58,0:00:27.04,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WALL.
+Dialogue: 0,0:00:27.04,0:00:27.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY IS
+Dialogue: 0,0:00:27.45,0:00:28.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FAR EDGE
+Dialogue: 0,0:00:28.05,0:00:28.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO EASY?
+Dialogue: 0,0:00:28.73,0:00:29.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A DOOR SPINS
+Dialogue: 0,0:00:29.34,0:00:30.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AROUND ITS HINGES,
+Dialogue: 0,0:00:30.17,0:00:30.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE FAR
+Dialogue: 0,0:00:30.88,0:00:31.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EDGE WORKS LIKE
+Dialogue: 0,0:00:31.68,0:00:32.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A LONG
+Dialogue: 0,0:00:32.02,0:00:32.56,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LEVER.
+Dialogue: 0,0:00:32.75,0:00:33.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSH FAR FROM
+Dialogue: 0,0:00:33.30,0:00:33.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:33.46,0:00:33.69,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HINGE,
+Dialogue: 0,0:00:33.69,0:00:34.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND ONE FINGER
+Dialogue: 0,0:00:34.38,0:00:34.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOES IT.
+Dialogue: 0,0:00:34.70,0:00:35.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSH NEXT TO
+Dialogue: 0,0:00:35.44,0:00:35.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT,
+Dialogue: 0,0:00:35.56,0:00:36.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND YOU NEED
+Dialogue: 0,0:00:36.17,0:00:36.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN
+Dialogue: 0,0:00:36.30,0:00:36.99,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}ELEPHANT.
+Dialogue: 0,0:00:37.07,0:00:38.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHESTER MOVED EVERY
+Dialogue: 0,0:00:38.03,0:00:38.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KNOB TO THE
+Dialogue: 0,0:00:38.69,0:00:38.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EDGE.
+Dialogue: 0,0:00:38.94,0:00:39.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MRS.
+Dialogue: 0,0:00:39.33,0:00:40.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PLUM OPENED THE
+Dialogue: 0,0:00:40.23,0:00:40.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOOR WITH HER
+Dialogue: 0,0:00:40.98,0:00:41.53,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PINKY.
+Dialogue: 0,0:00:41.53,0:00:42.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GERTRUDE STILL WORKS
+Dialogue: 0,0:00:42.44,0:00:42.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THERE.
+Dialogue: 0,0:00:42.71,0:00:43.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHE HOLDS THE
+Dialogue: 0,0:00:43.34,0:00:43.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOOR.

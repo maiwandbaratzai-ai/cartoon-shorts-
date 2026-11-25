@@ -1,0 +1,11 @@
+L0 visual: a beaver carpenter puts the doorknob right by the hinge, and nobody gets in
+L1 character: Chester's catchphrase "Trust the teeth!"
+L2 specific: Mrs. Plum pushes for ten minutes; the door moves one inch
+L3 escalation: Big Lars, strongest man in town, pushes until his hat pops off — two inches
+L4 failed-fix: a second knob right next to the first ("Trust the teeth!")
+L5 deadpan: forty people stuck outside the library, reading through the window
+L6 escalation: Gertrude the elephant pushes; the door opens — so does the wall
+L8 explanation: the door spins around its hinges, the far edge is a long lever
+L9 callback: one finger at the edge vs an elephant next to the hinge
+L10 specific: Mrs. Plum opens it with her pinky
+L11 callback: Gertrude still works there — she holds the door
