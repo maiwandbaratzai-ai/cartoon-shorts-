@@ -1,0 +1,11 @@
+L0 visual: the crackers puff up like pillows and the mouse moves into one
+L1 character: Otto's catchphrase "Holes are lazy!" — he banned the holes
+L2 comparison: crackers round as hamburger buns; Otto proudly calls them "fluffy"
+L3 escalation: beach-ball crackers; one rolls out and chases the mailman
+L4 character: Nibbles is furious — his cracker house used the holes as windows
+L5 failed-fix: Otto stacks bricks on the oven door ("Holes are lazy!")
+L6 escalation: the door blows open and shoots 400 crackers over town like popcorn
+L8 deadpan: steam wants out
+L9 explanation: the holes are tiny chimneys — steam escapes, the cracker stays flat
+L10 callback: "Holes are lazy... so I gave them a job"
+L11 callback: Nibbles gets his windows back; the mailman still runs past the bakery

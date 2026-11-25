@@ -2,7 +2,7 @@
 // Real 3D cartoon animals (they look like the animal, not a stick man in a costume).
 //   const dog = K.animal('dog', { color: '#c8874a' });           // build()
 //   dog.set(f, { x, z, yaw, mode: 'walk', look: 0.3, expr: 'happy' });   // frame()
-// types: dog, cat, pig, cow, horse, sheep, bear, fox, rabbit, monkey (baboon), chicken, duck, pigeon, elephant
+// types: beaver, mouse, dog, cat, pig, cow, horse, sheep, bear, fox, rabbit, monkey (baboon), chicken, duck, pigeon, elephant
 // modes: stand, walk, run, sit, jump, eat (head down), beg (sit up), sleep, wag (stand + fast tail)
 // expr: neutral, happy, shock, angry, sad, sleepy. Extras: nod (head tilt down, radians), lift (0..1 raises the right front foot). Faces +z at yaw 0. Units: metres.
 import * as THREE from './lib/three.module.js';
@@ -31,6 +31,8 @@ const SPEC = {
   elephant:{ body: [1.3, 0.85, 0.75], leg: 0.5, head: 0.36, snout: [0.0, 0.1], neck: [0.2, 0.3], ears: 'elephant', tail: 'thin', color: '#9a9aa2', trunk: true, tusks: true },
   chicken: { bird: true, body: [0.28, 0.24, 0.22], leg: 0.18, head: 0.09, color: '#f6f2e8', beak: '#f2a830', comb: '#d8302a', feet: '#f2a830' },
   duck:    { bird: true, body: [0.34, 0.2, 0.22], leg: 0.1, head: 0.1, color: '#f2f0e6', beak: '#f2a830', feet: '#f2a830', flatBeak: true },
+  beaver:  { body: [0.56, 0.36, 0.38], leg: 0.12, head: 0.17, snout: [0.06, 0.085], neck: [0.1, 0.1], ears: 'round', tail: 'paddle', color: '#8a5a34', belly: '#c89a6a', nose: '#2a1a14', teeth: true, whiskers: true },
+  mouse:   { body: [0.24, 0.15, 0.14], leg: 0.07, head: 0.1, snout: [0.08, 0.045], neck: [0.08, 0.06], ears: 'mouse', tail: 'thin', color: '#a4a2b0', belly: '#f2ece6', nose: '#f08a9a', whiskers: true },
   pigeon:  { bird: true, body: [0.24, 0.16, 0.15], leg: 0.08, head: 0.07, color: '#8a90a0', beak: '#3a3a3a', feet: '#e88a8a', neckSheen: '#5a9a8a' },
 };
 
@@ -71,6 +73,7 @@ export function animal(K, type, opts = {}) {
     if (S.snoutDisc) { const d = add(new THREE.CylinderGeometry(sr * 0.9, sr * 0.9, 0.04, 24), plain(S.nose), 0, -hr * 0.2, hr * 0.85 + sl + sr * 0.6, head); d.rotation.x = Math.PI / 2; for (const sx of [-1, 1]) add(new THREE.SphereGeometry(sr * 0.18, 8, 6), plain('#8a3a4a'), sx * sr * 0.35, -hr * 0.2, hr * 0.85 + sl + sr * 0.62 + 0.02, head); }
     else add(new THREE.SphereGeometry(sr * 0.42, 14, 10), plain(S.nose || '#1a1210', 0.3), 0, -hr * 0.12, hr * 0.78 + sl + sr * 0.75, head);
     if (S.whiskers) for (const sx of [-1, 1]) for (const dy of [-0.01, 0.015]) { const w = add(new THREE.CylinderGeometry(0.002, 0.002, 0.14, 4), plain('#f6f2ea'), sx * 0.08, -hr * 0.28 + dy, hr * 0.95, head); w.rotation.z = Math.PI / 2 + sx * 0.15; }
+    if (S.teeth) for (const sx of [-1, 1]) add(new THREE.BoxGeometry(sr * 0.42, sr * 0.7, sr * 0.14), plain('#fbf6ea', 0.3), sx * sr * 0.23, -hr * 0.25 - sr * 0.75, hr * 0.78 + sl * 0.5 + sr * 0.95, head);
     if (S.horns) for (const sx of [-1, 1]) { const h = add(new THREE.ConeGeometry(0.03, 0.14, 10), plain('#f2e8cc', 0.4), sx * hr * 0.6, hr * 0.85, -hr * 0.1, head); h.rotation.z = -sx * 0.7; }
     if (S.mane) for (let i = 0; i < 7; i++) { const m = add(new THREE.BoxGeometry(0.04, 0.12, 0.1), plain(S.mane, 0.8), 0, nUp * (1 - i / 7) + 0.04, nFw * (1 - i / 7) - 0.03, neck); m.rotation.x = 0.4; }
   }
@@ -80,6 +83,7 @@ export function animal(K, type, opts = {}) {
     let e;
     if (S.ears === 'pointy') { e = add(new THREE.ConeGeometry(hr * 0.32, hr * 0.7, 4), earMat, sx * hr * 0.55, hr * 0.85, -hr * 0.05, head); e.rotation.z = -sx * 0.25; e.scale.z = 0.5; }
     else if (S.ears === 'long') { e = add(new THREE.CapsuleGeometry(hr * 0.2, hr * 1.4, 4, 12), earMat, sx * hr * 0.35, hr * 1.5, -hr * 0.1, head); e.rotation.z = -sx * 0.15; e.scale.z = 0.45; }
+    else if (S.ears === 'mouse') { e = add(new THREE.SphereGeometry(hr * 0.55, 18, 12), earMat, sx * hr * 0.8, hr * 0.85, -hr * 0.1, head); e.scale.z = 0.3; const inr = add(new THREE.SphereGeometry(hr * 0.4, 16, 10), plain('#f2a0b0'), 0, 0, hr * 0.06, e); inr.scale.z = 0.4; }
     else if (S.ears === 'round') { e = add(new THREE.SphereGeometry(hr * 0.3, 16, 12), earMat, sx * hr * 0.75, hr * 0.7, -hr * 0.05, head); e.scale.z = 0.5; }
     else if (S.ears === 'floppy' || S.ears === 'flop') { e = add(new THREE.CapsuleGeometry(hr * 0.22, hr * 0.6, 4, 12), S.ears === 'flop' ? fur : plain(shade(S.color, 0.75)), sx * hr * 0.85, hr * 0.15, -hr * 0.05, head); e.rotation.z = sx * 0.35; e.scale.z = 0.45; }
     else if (S.ears === 'side') { e = add(new THREE.SphereGeometry(hr * 0.3, 14, 10), earMat, sx * hr * 1.05, hr * 0.35, -hr * 0.1, head); e.scale.set(1.4, 0.55, 0.4); }
@@ -112,6 +116,7 @@ export function animal(K, type, opts = {}) {
   const tail = new THREE.Group(); tail.position.set(0, BHt * 0.15, -BL * 0.48); body.add(tail);
   const tm = S.tail === 'bushy' ? fur : fur;
   if (S.bird) { const tf = add(new THREE.ConeGeometry(BW * 0.35, BL * 0.45, 4), fur, 0, BHt * 0.1, -BL * 0.12, tail); tf.rotation.x = -2.0; tf.scale.z = 0.35; }
+  else if (S.tail === 'paddle') { const t = add(new THREE.SphereGeometry(0.5, 20, 12), plain('#4a3a32', 0.5), 0, -BHt * 0.3, -BL * 0.42, tail); t.scale.set(BW * 0.55, 0.05, BL * 0.75); for (let i = 0; i < 4; i++) { const x = add(new THREE.BoxGeometry(BW * 0.5, 0.012, 0.01), plain('#2a201a', 0.6), 0, -BHt * 0.3 + 0.025, -BL * (0.2 + i * 0.16), tail); x.rotation.y = 0.5; } }
   else if (S.tail === 'curl') { const t = add(new THREE.TorusGeometry(0.035, 0.01, 8, 20, Math.PI * 1.6), tm, 0, 0.02, -0.02, tail); t.rotation.y = Math.PI / 2; }
   else if (S.tail === 'puff' || S.tail === 'stub') add(new THREE.SphereGeometry(S.tail === 'puff' ? 0.06 : 0.05, 14, 10), S.tail === 'puff' ? plain('#ffffff', 0.9) : tm, 0, 0, -0.02, tail);
   else { const n = 6, len = S.tail === 'long' ? BL * 0.8 : S.tail === 'thin' || S.tail === 'tuft' ? BL * 0.55 : BL * 0.5; let par = tail;
