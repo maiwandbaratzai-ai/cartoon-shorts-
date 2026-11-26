@@ -1,0 +1,12 @@
+L0 visual: Zib's white cat walks out of his new cottage completely black
+L1 character: Zib the alien built the chimney teacup-tall — catchphrase "Short and sweet!"
+L2 deadpan: the smoke ignores the chimney and fills the kitchen
+L3 character: Duchess's one dream (whitest cat in Puddleford) is gone in four seconds
+L4 comparison: smoke pours out of all six windows like a steam train in a hat
+L5 misdirection: Mrs. Fig waves at the cottage and tries to buy a ticket
+L6 failed-fix: Zib makes the chimney even shorter ("Short and sweet!")
+L7 escalation: the wind stuffs the smoke back down and out the mail slot
+L10 comparison: a tall chimney is a tall tube of hot air that pulls like a straw
+L11 explanation: the top pokes above the roof where wind can't push the smoke back in
+L12 callback: Duchess spends a week licking herself white
+L13 callback: now Zib's flying saucer parks on top of the tall chimney

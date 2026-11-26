@@ -1,0 +1,92 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ZIB'S WHITE CAT
+Dialogue: 0,0:00:00.82,0:00:01.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WALKED OUT OF
+Dialogue: 0,0:00:01.48,0:00:02.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS NEW COTTAGE
+Dialogue: 0,0:00:02.21,0:00:03.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COMPLETELY BLACK.
+Dialogue: 0,0:00:03.25,0:00:03.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ZIB,
+Dialogue: 0,0:00:03.43,0:00:03.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN ALIEN,
+Dialogue: 0,0:00:03.85,0:00:04.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAD BUILT THE
+Dialogue: 0,0:00:04.56,0:00:05.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHIMNEY TEACUP-TALL.
+Dialogue: 0,0:00:05.62,0:00:05.89,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"SHORT
+Dialogue: 0,0:00:05.89,0:00:06.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:06.08,0:00:06.56,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWEET!"
+Dialogue: 0,0:00:06.56,0:00:07.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY ARE
+Dialogue: 0,0:00:07.08,0:00:07.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}REAL CHIMNEYS SO
+Dialogue: 0,0:00:07.85,0:00:08.34,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TALL?
+Dialogue: 0,0:00:08.45,0:00:08.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE LIT HIS
+Dialogue: 0,0:00:08.97,0:00:09.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIRST FIRE.
+Dialogue: 0,0:00:09.47,0:00:10.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SMOKE IGNORED
+Dialogue: 0,0:00:10.35,0:00:11.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CHIMNEY AND
+Dialogue: 0,0:00:11.00,0:00:12.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FILLED THE KITCHEN.
+Dialogue: 0,0:00:12.10,0:00:12.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUCHESS THE CAT
+Dialogue: 0,0:00:12.79,0:00:13.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAD ONE DREAM:
+Dialogue: 0,0:00:13.40,0:00:14.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEING THE WHITEST
+Dialogue: 0,0:00:14.17,0:00:15.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAT IN PUDDLEFORD.
+Dialogue: 0,0:00:15.02,0:00:15.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GONE IN FOUR
+Dialogue: 0,0:00:15.95,0:00:16.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SECONDS.
+Dialogue: 0,0:00:16.61,0:00:17.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO ZIB OPENED
+Dialogue: 0,0:00:17.22,0:00:17.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WINDOWS.
+Dialogue: 0,0:00:17.74,0:00:18.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SMOKE POURED OUT
+Dialogue: 0,0:00:18.77,0:00:19.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF ALL SIX,
+Dialogue: 0,0:00:19.27,0:00:19.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A STEAM
+Dialogue: 0,0:00:19.97,0:00:20.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRAIN IN A
+Dialogue: 0,0:00:20.47,0:00:20.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT.
+Dialogue: 0,0:00:20.91,0:00:21.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MRS.
+Dialogue: 0,0:00:21.09,0:00:21.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIG NEXT DOOR
+Dialogue: 0,0:00:21.81,0:00:22.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAVED AT IT
+Dialogue: 0,0:00:22.35,0:00:23.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TRIED TO
+Dialogue: 0,0:00:23.01,0:00:23.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUY A TICKET.
+Dialogue: 0,0:00:23.86,0:00:24.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO ZIB MADE
+Dialogue: 0,0:00:24.38,0:00:25.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CHIMNEY EVEN
+Dialogue: 0,0:00:25.11,0:00:25.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHORTER.
+Dialogue: 0,0:00:25.44,0:00:25.83,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"SHORT
+Dialogue: 0,0:00:25.83,0:00:26.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND
+Dialogue: 0,0:00:26.01,0:00:26.53,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWEET!"
+Dialogue: 0,0:00:26.56,0:00:26.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE WIND
+Dialogue: 0,0:00:26.97,0:00:27.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROLLED OVER THE
+Dialogue: 0,0:00:27.44,0:00:28.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROOF AND STUFFED
+Dialogue: 0,0:00:28.11,0:00:28.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SMOKE RIGHT
+Dialogue: 0,0:00:28.66,0:00:29.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACK DOWN,
+Dialogue: 0,0:00:29.03,0:00:29.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT THE MAIL
+Dialogue: 0,0:00:29.56,0:00:29.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLOT.
+Dialogue: 0,0:00:29.97,0:00:30.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT'S A
+Dialogue: 0,0:00:30.35,0:00:30.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TALL
+Dialogue: 0,0:00:30.52,0:00:31.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHIMNEY FOR?
+Dialogue: 0,0:00:31.36,0:00:31.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOT SMOKE IS
+Dialogue: 0,0:00:31.91,0:00:32.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIGHT.
+Dialogue: 0,0:00:32.16,0:00:32.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT WANTS TO
+Dialogue: 0,0:00:32.67,0:00:33.15,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RISE.
+Dialogue: 0,0:00:33.34,0:00:33.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:33.43,0:00:33.64,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TALL
+Dialogue: 0,0:00:33.64,0:00:34.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHIMNEY IS A
+Dialogue: 0,0:00:34.20,0:00:34.41,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TALL
+Dialogue: 0,0:00:34.41,0:00:34.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TUBE OF HOT
+Dialogue: 0,0:00:34.99,0:00:35.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AIR,
+Dialogue: 0,0:00:35.17,0:00:35.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND IT PULLS
+Dialogue: 0,0:00:35.92,0:00:36.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A
+Dialogue: 0,0:00:36.22,0:00:36.80,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRAW.
+Dialogue: 0,0:00:36.80,0:00:37.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITS TOP POKES
+Dialogue: 0,0:00:37.42,0:00:38.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ABOVE THE ROOF,
+Dialogue: 0,0:00:38.14,0:00:38.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHERE WIND CAN'T
+Dialogue: 0,0:00:38.82,0:00:39.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSH THE SMOKE
+Dialogue: 0,0:00:39.51,0:00:40.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACK IN.
+Dialogue: 0,0:00:40.07,0:00:40.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ZIB BUILT IT
+Dialogue: 0,0:00:40.56,0:00:40.74,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TALL.
+Dialogue: 0,0:00:40.74,0:00:41.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DUCHESS SPENT A
+Dialogue: 0,0:00:41.43,0:00:42.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEEK LICKING HERSELF
+Dialogue: 0,0:00:42.37,0:00:42.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHITE.
+Dialogue: 0,0:00:42.97,0:00:43.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND NOW HIS
+Dialogue: 0,0:00:43.47,0:00:44.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLYING SAUCER PARKS
+Dialogue: 0,0:00:44.28,0:00:44.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON TOP.
