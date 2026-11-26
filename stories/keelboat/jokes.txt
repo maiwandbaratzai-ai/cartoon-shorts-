@@ -1,0 +1,14 @@
+L0 visual: Commodore Fitz crosses the finish line backwards, sitting on his upside-down boat
+L1 character: Fitz saws off his keel — catchphrase "Less boat, more speed!"
+L2 comparison: he hangs the keel on his wall like a moose head
+L3 character: Fitz mocks Nana June — "your boat is wearing a shark costume!"
+L4 character: Truffle the pig came for one thing: a suntan
+L5 comparison: Fitz shoots ahead like toast out of a toaster
+L6 character: "Less boat, more speed!" while waving his hat
+L8 comparison: his boat slides sideways like a hockey puck, right through the fish market
+L9 comparison: a gust flips his boat like a pancake
+L10 misdirection: the wind pushes him back to the start, which was also the finish
+L13 explanation: the water shoves back on the fin, so the boat slides forward instead of sideways
+L14 comparison: the heavy bottom pulls it upright like a toy that won't stay knocked down
+L15 callback: June wins by a mile and Truffle gets his tan
+L16 callback: Fitz's new motto — "More boat. Less swimming."

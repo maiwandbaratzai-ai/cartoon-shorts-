@@ -1,0 +1,116 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.20,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COMMODORE FITZ CROSSED
+Dialogue: 0,0:00:01.20,0:00:01.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FINISH LINE
+Dialogue: 0,0:00:01.99,0:00:02.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACKWARDS,
+Dialogue: 0,0:00:02.52,0:00:03.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SITTING ON HIS
+Dialogue: 0,0:00:03.26,0:00:04.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UPSIDE-DOWN BOAT.
+Dialogue: 0,0:00:04.20,0:00:04.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT MORNING,
+Dialogue: 0,0:00:04.76,0:00:05.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'D SAWED OFF
+Dialogue: 0,0:00:05.51,0:00:05.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITS
+Dialogue: 0,0:00:05.69,0:00:06.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}KEEL.
+Dialogue: 0,0:00:06.10,0:00:06.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"LESS BOAT,
+Dialogue: 0,0:00:06.61,0:00:06.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MORE
+Dialogue: 0,0:00:06.90,0:00:07.24,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SPEED!"
+Dialogue: 0,0:00:07.24,0:00:07.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY DO
+Dialogue: 0,0:00:07.70,0:00:08.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAILBOATS HAVE KEELS?
+Dialogue: 0,0:00:09.05,0:00:09.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FITZ HUNG THE
+Dialogue: 0,0:00:09.61,0:00:09.82,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}KEEL
+Dialogue: 0,0:00:09.82,0:00:10.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON HIS WALL,
+Dialogue: 0,0:00:10.31,0:00:10.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A MOOSE
+Dialogue: 0,0:00:10.84,0:00:11.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAD.
+Dialogue: 0,0:00:11.37,0:00:12.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN HE POINTED
+Dialogue: 0,0:00:12.08,0:00:12.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT NANA JUNE'S
+Dialogue: 0,0:00:12.80,0:00:13.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOAT.
+Dialogue: 0,0:00:13.35,0:00:13.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"JUNE,
+Dialogue: 0,0:00:13.58,0:00:14.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}YOUR BOAT IS
+Dialogue: 0,0:00:14.17,0:00:14.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEARING A SHARK
+Dialogue: 0,0:00:14.99,0:00:15.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COSTUME!"
+Dialogue: 0,0:00:15.51,0:00:16.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JUNE DIDN'T ANSWER.
+Dialogue: 0,0:00:16.33,0:00:16.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HER PIG,
+Dialogue: 0,0:00:16.78,0:00:17.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRUFFLE,
+Dialogue: 0,0:00:17.31,0:00:17.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS BUSY.
+Dialogue: 0,0:00:17.81,0:00:18.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'D COME FOR
+Dialogue: 0,0:00:18.68,0:00:19.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE THING:
+Dialogue: 0,0:00:19.20,0:00:19.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SUNTAN.
+Dialogue: 0,0:00:19.89,0:00:20.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEG ONE:
+Dialogue: 0,0:00:20.26,0:00:20.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WIND BLEW
+Dialogue: 0,0:00:20.98,0:00:21.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM BEHIND.
+Dialogue: 0,0:00:21.52,0:00:22.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FITZ SHOT AHEAD
+Dialogue: 0,0:00:22.58,0:00:23.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE TOAST OUT
+Dialogue: 0,0:00:23.36,0:00:24.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF A TOASTER.
+Dialogue: 0,0:00:24.22,0:00:24.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"LESS BOAT,
+Dialogue: 0,0:00:24.72,0:00:25.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MORE
+Dialogue: 0,0:00:25.01,0:00:25.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SPEED!"
+Dialogue: 0,0:00:25.38,0:00:25.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SHOUTED,
+Dialogue: 0,0:00:25.85,0:00:26.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAVING HIS HAT.
+Dialogue: 0,0:00:26.75,0:00:27.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEG TWO:
+Dialogue: 0,0:00:27.19,0:00:27.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WIND BLEW
+Dialogue: 0,0:00:27.85,0:00:28.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM THE SIDE.
+Dialogue: 0,0:00:28.52,0:00:29.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JUNE'S BOAT KEPT
+Dialogue: 0,0:00:29.65,0:00:30.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAILING STRAIGHT,
+Dialogue: 0,0:00:30.42,0:00:31.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE IT WAS
+Dialogue: 0,0:00:31.00,0:00:31.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON RAILS.
+Dialogue: 0,0:00:31.68,0:00:32.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT FITZ'S BOAT
+Dialogue: 0,0:00:32.33,0:00:32.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLID
+Dialogue: 0,0:00:32.52,0:00:32.84,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SIDEWAYS
+Dialogue: 0,0:00:32.84,0:00:33.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A HOCKEY
+Dialogue: 0,0:00:33.38,0:00:33.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUCK,
+Dialogue: 0,0:00:33.63,0:00:34.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT THROUGH THE
+Dialogue: 0,0:00:34.69,0:00:35.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FISH MARKET.
+Dialogue: 0,0:00:35.51,0:00:35.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEG THREE:
+Dialogue: 0,0:00:35.93,0:00:36.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A GUST HIT
+Dialogue: 0,0:00:36.33,0:00:36.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIM,
+Dialogue: 0,0:00:36.47,0:00:37.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HIS BOAT
+Dialogue: 0,0:00:37.00,0:00:37.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLIPPED LIKE A
+Dialogue: 0,0:00:37.75,0:00:38.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PANCAKE.
+Dialogue: 0,0:00:38.42,0:00:38.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE WIND
+Dialogue: 0,0:00:38.98,0:00:39.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSHED HIM ALL
+Dialogue: 0,0:00:39.59,0:00:40.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WAY BACK
+Dialogue: 0,0:00:40.12,0:00:40.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO THE START,
+Dialogue: 0,0:00:40.73,0:00:41.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHICH WAS ALSO
+Dialogue: 0,0:00:41.52,0:00:42.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FINISH.
+Dialogue: 0,0:00:42.36,0:00:42.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT WAS
+Dialogue: 0,0:00:42.82,0:00:43.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JUNE'S SHARK COSTUME
+Dialogue: 0,0:00:43.63,0:00:44.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOING?
+Dialogue: 0,0:00:44.20,0:00:44.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:44.28,0:00:44.47,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}KEEL
+Dialogue: 0,0:00:44.47,0:00:44.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS A BIG,
+Dialogue: 0,0:00:44.83,0:00:45.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLAT
+Dialogue: 0,0:00:45.10,0:00:45.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FIN
+Dialogue: 0,0:00:45.38,0:00:46.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UNDER THE BOAT.
+Dialogue: 0,0:00:46.31,0:00:46.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHEN THE WIND
+Dialogue: 0,0:00:46.90,0:00:47.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHOVES THE BOAT
+Dialogue: 0,0:00:47.57,0:00:48.00,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SIDEWAYS,
+Dialogue: 0,0:00:48.00,0:00:48.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WATER SHOVES
+Dialogue: 0,0:00:48.77,0:00:49.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACK ON THE
+Dialogue: 0,0:00:49.39,0:00:49.67,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FIN,
+Dialogue: 0,0:00:49.67,0:00:50.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE BOAT
+Dialogue: 0,0:00:50.18,0:00:51.49,Cap,,0,0,0,,{\fs105}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLIDES FORWARD INSTEAD.
+Dialogue: 0,0:00:51.74,0:00:52.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND ITS HEAVY
+Dialogue: 0,0:00:52.37,0:00:53.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOTTOM PULLS THE
+Dialogue: 0,0:00:53.12,0:00:53.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOAT
+Dialogue: 0,0:00:53.35,0:00:53.90,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}UPRIGHT,
+Dialogue: 0,0:00:53.90,0:00:54.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A TOY
+Dialogue: 0,0:00:54.41,0:00:55.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT WON'T STAY
+Dialogue: 0,0:00:55.08,0:00:56.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KNOCKED DOWN.
+Dialogue: 0,0:00:56.03,0:00:56.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}JUNE WON BY
+Dialogue: 0,0:00:56.63,0:00:56.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A MILE,
+Dialogue: 0,0:00:56.99,0:00:57.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TRUFFLE GOT
+Dialogue: 0,0:00:57.87,0:00:58.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS TAN.
+Dialogue: 0,0:00:58.52,0:00:59.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SUNGLASSES AND ALL.
+Dialogue: 0,0:00:59.70,0:01:00.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND FITZ HAS
+Dialogue: 0,0:01:00.34,0:01:00.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A NEW MOTTO:
+Dialogue: 0,0:01:00.87,0:01:01.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"MORE BOAT.
+Dialogue: 0,0:01:01.30,0:01:02.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LESS SWIMMING."
