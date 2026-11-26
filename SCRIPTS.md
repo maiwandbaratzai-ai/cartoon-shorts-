@@ -5,6 +5,42 @@ Author: Maiwand. Every daily run reads this before writing a script, follows the
 picture can only be as gripping as the words it illustrates.
 
 
+## 0000. TOPICS + HOOKS FIRST (Maiwand 2026-11-26: "you need a good hook, I'm losing viewers") — beats everything below
+Average views per new video fell from ~1,500 (true-story week) to ~900. The numbers say why:
+
+| Opening line | Stayed |
+|---|---|
+| "Every night, the Whisker brothers gave the king's gold coins a haircut." | 62% (1,790 views, 79% viewed) |
+| "Doris gave Mr. Plum white tires. By Friday, they were pancakes." | 54% |
+| "Mayor Doug's flat road turned into a lake. A duck moved in." | 33% |
+| "Chester the beaver put the doorknob by the hinge. Nobody got in." | 23% (worst on both channels) |
+All-time best: "The Sheep Who Hid From Haircuts for 6 Years" — 4,441 views, 66% stayed.
+
+**1. The topic decides most of it.** Doorknobs, kites, road crowns, crackers, barrels, snowshoes = questions nobody
+asks. Winners have a SURPRISING answer + STAKES (money, crime, danger, disaster) + SPECTACLE (golf dimples make the
+ball fly twice as far; square plane windows tore planes apart; people shaved gold off coins).
+Write stories/<slug>/topics.txt: 10 candidate "whys", each scored 0–3 on Surprise (would people guess wrong?),
+Stakes, Spectacle (can we SHOW something huge break, fly, explode, flood?). Pick one with 7+/9. Mark it with `*`.
+**Never again:** convenience/geometry whys with no danger or money (doorknobs, kite tails, road crowns, cracker holes).
+
+**2. The hook OPENS a question; it never closes one.** "Nobody got in." and "A duck moved in." answer themselves:
+nothing left to wonder. "Gave the king's gold coins a haircut" makes you ask how, why, and will they get caught?
+Good hook shapes (rotate them): a secret crime in progress; a character doing something insane for a reason we don't
+know yet; the disaster shown first ("This plane split in half because of its windows"); an impossible-looking
+result ("His golf ball flew twice as far as the champion's"); a ridiculous feat with a number ("hid from haircuts
+for 6 years").
+Write stories/<slug>/hooks.txt: 10 hooks (≤ 12 words each), each scored 0–3 on Open loop, Stakes, Visual (frame 0
+shows it IN MOTION). Pick one with 7+/9, mark it with `*`; it must be line 1 word for word.
+
+**3. Kill the template.** Every script of Nov 24–26 had the same line 2: `"Catchphrase!" So why do X?` Viewers feel
+a formula by the third video. Line 2 raises the stakes or deepens the mystery; never "So why ...". The "why" goes on
+the hook card and in the title, not in a stock sentence.
+
+**4. Titles:** our all-time winners are story titles about a character's absurd feat ("The Sheep Who Hid From
+Haircuts for 6 Years", "Two Pigs Escaped the Butcher", "Their pants exploded"), not textbook questions. At least half
+the videos each night use a story title ("The Brothers Who Shaved the King's Gold"), the rest a "Why" title with a
+surprise in it ("Why Golf Balls With Holes Fly Twice as Far"). Never a plain "Why X Are Y".
+
 ## 000. FUNNY + ORIGINAL (Maiwand 2026-11-22) — this section beats every other one in this file
 "Make the scripts funny, engaging and interesting so they keep watching. Fake and NEW, not copied from anyone."
 
@@ -48,8 +84,7 @@ Every story gets an animal with a funny, specific want (a goat who wants the roo
 on screen from the first shot and part of the ending.
 
 ### YouTube feedback on the first fiction week (2026-11-23: mostly A, A+ on structure)
-- **Ask the "why" out loud by line 2** ("...so why do milking stools have three legs?") and put it on the hook card,
-  so viewers know the question they are waiting for.
+- **The "why" is on the hook card and in the title** (since 2026-11-26 never as a stock "So why do X?" line — §0000).
 - **Tight middle:** a failed attempt or montage gets at most 2 repeats, and each one must be bigger than the last.
   If two beats are the same joke, cut one.
 - **Catchphrase:** the main character has a short catchphrase the narrator quotes 2–3 times (setup, twist, callback

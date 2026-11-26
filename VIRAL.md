@@ -312,3 +312,11 @@ line 2 and on the hook card; tighter middles (max 2 repeats); a catchphrase per 
 the first 5 s; punch-in zooms only on punchlines (camera stays wide); badges on each step of a progression; gag()
 music dips; riser()/drop() before the explanation; music under every second; livelier narration.
 
+### Numbers Nov 23–26 (Maiwand: "the hooks are bad, I'm losing viewers")
+Stick History 26.9K views/7 days (+22 subs, 2,441); Stick Stories 12.6K (+8, 22). New videos average ~900 views vs
+~1,500 the week before. Best: coins 1,790 (62% stayed, 79% viewed), golf 87% viewed, tracks 82% viewed, tires 54%
+stayed. Worst: doorknobs 22.8% stayed, roads 33%, kites 380 views, snowshoes 494. Cause: mundane topics + hooks that
+close their own question + one repeated line-2 template + plain "Why X Are Y" titles. Fix: SCRIPTS.md §0000
+(topics.txt and hooks.txt labs, enforced by script_check). Airplane windows went from 0 views on Monday to 1,004:
+slow starters can recover; don't judge a video before 48 hours.
+

@@ -93,6 +93,20 @@ else:
     if gap > 3: Wn(f'{gap} lines in a row with no joke: fill the dead stretch')
     if 0 not in covered: F('no joke in line 1 (jokes.txt has no L0): the hook must be a funny, visible consequence, e.g. "his goat slid off it twice" (VIRAL.md 2026-11-23)')
 if re.search(r'(?i)\b(inside|hidden|hid|secret|invisible|underground)\b', lines[0]): Wn('hook shows something hidden/inside: viewers swipe when they cannot SEE the strange thing (towerball 41% stayed)')
+# topics + hooks lab (SCRIPTS.md §0000, Maiwand 2026-11-26)
+if len(lines) > 1 and re.search(r'(?i)\bso why (do|does|are|is|did)\b', lines[1]): F('line 2 is the worn "So why do X?" template: raise the stakes or deepen the mystery instead (SCRIPTS.md §0000)')
+for nm, need in (('topics.txt', 10), ('hooks.txt', 10)):
+    pth = f'{sd}/{nm}'
+    if not os.path.exists(pth): F(f'no {nm}: write {need} candidates scored 0-3 x3, mark the pick with * (SCRIPTS.md §0000)'); continue
+    rows = [x.strip() for x in open(pth) if x.strip() and not x.startswith('#')]
+    if len(rows) < need: F(f'{nm} has {len(rows)} candidates (need {need})')
+    star = [x for x in rows if x.startswith('*')]
+    if not star: F(f'{nm}: mark the chosen one with *'); continue
+    sc = re.findall(r'(\d)\s*/\s*9|\b([0-9])\s*$', star[0]); tot = re.search(r'(\d+)\s*/\s*9', star[0])
+    if tot and int(tot.group(1)) < 7: F(f'{nm}: the pick scores {tot.group(1)}/9 (need 7+)')
+    if nm == 'hooks.txt':
+        norm = lambda z: re.sub(r'[^a-z0-9 ]', '', z.lower()).split()
+        if norm(lines[0])[:6] != norm(re.sub(r'^\*\s*|\s*[\(\[]?\d+\s*/\s*9.*$', '', star[0]))[:6]: F('line 1 is not the starred hook from hooks.txt')
 if not os.path.exists(f'{sd}/original.txt'): F('no original.txt: say in 1-2 lines what is NEW here (premise, characters, gag) and that it is not taken from any video')
 for m in fails: print('FAIL', m)
 for m in warns: print('WARN', m)
