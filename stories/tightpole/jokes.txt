@@ -1,0 +1,13 @@
+L0 comparison: Lola crosses the high wire with a toothpick, wobbling like a noodle
+L1 character: ringmaster Barty's catchphrase "The customer is always right!" — he shrank her pole
+L2 failed-fix: complaint one (the pole knocked off a hat), so Barty saws the pole in half
+L3 character: Peanut the elephant has been practicing on a garden hose for years
+L4 failed-fix: complaint two (blocks my popcorn), so Barty hands her a toothpick
+L5 comparison: Lola spins around the wire like a rotisserie chicken
+L6 misdirection: complaint three — the fix itself made a fan seasick
+L8 comparison: a long pole is hard to turn, like spinning on an office chair holding a ladder
+L9 explanation: she tips slowly, with time to fix it
+L10 comparison: a toothpick tips you over like a dropped pencil
+L11 callback: Lola strolls across eating popcorn
+L12 callback: Peanut gets a pole too, still on the garden hose
+L13 callback: Barty's sign — "The customer is always right. Except about poles."

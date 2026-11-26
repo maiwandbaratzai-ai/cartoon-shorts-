@@ -1,0 +1,97 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOLA CROSSED THE
+Dialogue: 0,0:00:00.79,0:00:01.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIGH WIRE WITH
+Dialogue: 0,0:00:01.39,0:00:01.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:01.48,0:00:02.20,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TOOTHPICK,
+Dialogue: 0,0:00:02.20,0:00:02.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WOBBLING LIKE A
+Dialogue: 0,0:00:02.84,0:00:03.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOODLE.
+Dialogue: 0,0:00:03.37,0:00:04.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RINGMASTER BARTY HAD
+Dialogue: 0,0:00:04.33,0:00:04.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHRUNK HER
+Dialogue: 0,0:00:04.84,0:00:05.25,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POLE.
+Dialogue: 0,0:00:05.25,0:00:06.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"THE CUSTOMER IS
+Dialogue: 0,0:00:06.00,0:00:06.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALWAYS
+Dialogue: 0,0:00:06.32,0:00:06.81,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIGHT!"
+Dialogue: 0,0:00:06.81,0:00:07.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY DO
+Dialogue: 0,0:00:07.30,0:00:08.54,Cap,,0,0,0,,{\fs105}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIGHTROPE WALKERS CARRY
+Dialogue: 0,0:00:08.54,0:00:09.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LONG POLES?
+Dialogue: 0,0:00:09.42,0:00:09.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COMPLAINT ONE:
+Dialogue: 0,0:00:09.99,0:00:10.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"HER
+Dialogue: 0,0:00:10.22,0:00:10.43,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POLE
+Dialogue: 0,0:00:10.43,0:00:11.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KNOCKED OFF MY
+Dialogue: 0,0:00:11.19,0:00:11.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT." SO BARTY
+Dialogue: 0,0:00:11.95,0:00:12.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAWED IT IN
+Dialogue: 0,0:00:12.47,0:00:12.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HALF.
+Dialogue: 0,0:00:13.05,0:00:13.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PEANUT THE ELEPHANT
+Dialogue: 0,0:00:13.83,0:00:14.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GASPED.
+Dialogue: 0,0:00:14.11,0:00:15.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'S BEEN PRACTICING
+Dialogue: 0,0:00:15.19,0:00:15.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON A GARDEN
+Dialogue: 0,0:00:15.68,0:00:16.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOSE FOR YEARS.
+Dialogue: 0,0:00:16.61,0:00:17.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COMPLAINT TWO:
+Dialogue: 0,0:00:17.24,0:00:17.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"NOW IT BLOCKS
+Dialogue: 0,0:00:17.89,0:00:18.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MY
+Dialogue: 0,0:00:18.04,0:00:18.49,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POPCORN."
+Dialogue: 0,0:00:18.49,0:00:19.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARTY HANDED HER
+Dialogue: 0,0:00:19.49,0:00:19.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:19.60,0:00:20.44,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TOOTHPICK.
+Dialogue: 0,0:00:20.44,0:00:21.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"THE CUSTOMER IS
+Dialogue: 0,0:00:21.18,0:00:21.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALWAYS
+Dialogue: 0,0:00:21.49,0:00:21.93,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIGHT!"
+Dialogue: 0,0:00:21.93,0:00:22.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOLA SWAYED LEFT,
+Dialogue: 0,0:00:22.61,0:00:22.96,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIGHT,
+Dialogue: 0,0:00:22.96,0:00:23.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN SPUN AROUND
+Dialogue: 0,0:00:23.82,0:00:24.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WIRE LIKE
+Dialogue: 0,0:00:24.40,0:00:25.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A ROTISSERIE CHICKEN.
+Dialogue: 0,0:00:25.55,0:00:26.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COMPLAINT THREE:
+Dialogue: 0,0:00:26.18,0:00:26.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"WATCHING HER MADE
+Dialogue: 0,0:00:26.83,0:00:27.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ME SEASICK."
+Dialogue: 0,0:00:27.52,0:00:27.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT WAS
+Dialogue: 0,0:00:27.95,0:00:28.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:28.11,0:00:28.29,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POLE
+Dialogue: 0,0:00:28.29,0:00:28.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOING?
+Dialogue: 0,0:00:28.84,0:00:29.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A LONG
+Dialogue: 0,0:00:29.14,0:00:29.35,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POLE
+Dialogue: 0,0:00:29.35,0:00:29.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS HARD TO
+Dialogue: 0,0:00:29.82,0:00:30.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TURN,
+Dialogue: 0,0:00:30.03,0:00:30.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE SPINNING ON
+Dialogue: 0,0:00:30.86,0:00:31.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN OFFICE CHAIR
+Dialogue: 0,0:00:31.59,0:00:32.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOLDING A LADDER.
+Dialogue: 0,0:00:32.78,0:00:33.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHEN LOLA
+Dialogue: 0,0:00:33.34,0:00:33.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIPS,
+Dialogue: 0,0:00:33.56,0:00:33.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHE TIPS
+Dialogue: 0,0:00:33.95,0:00:34.24,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SLOWLY,
+Dialogue: 0,0:00:34.24,0:00:34.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH TIME TO
+Dialogue: 0,0:00:34.88,0:00:35.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIX IT.
+Dialogue: 0,0:00:35.51,0:00:35.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:35.59,0:00:36.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TOOTHPICK
+Dialogue: 0,0:00:36.10,0:00:36.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIPS YOU OVER
+Dialogue: 0,0:00:36.61,0:00:37.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A DROPPED
+Dialogue: 0,0:00:37.28,0:00:37.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PENCIL.
+Dialogue: 0,0:00:37.78,0:00:38.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARTY BROUGHT THE
+Dialogue: 0,0:00:38.58,0:00:38.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LONG
+Dialogue: 0,0:00:38.81,0:00:39.04,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POLE
+Dialogue: 0,0:00:39.04,0:00:39.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BACK.
+Dialogue: 0,0:00:39.54,0:00:40.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOLA STROLLED ACROSS,
+Dialogue: 0,0:00:40.47,0:00:40.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EATING
+Dialogue: 0,0:00:40.78,0:00:41.51,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POPCORN.
+Dialogue: 0,0:00:41.51,0:00:42.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PEANUT GOT A
+Dialogue: 0,0:00:42.12,0:00:42.34,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POLE
+Dialogue: 0,0:00:42.34,0:00:42.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOO.
+Dialogue: 0,0:00:42.51,0:00:43.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'S STILL ON
+Dialogue: 0,0:00:43.16,0:00:44.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE GARDEN HOSE.
+Dialogue: 0,0:00:44.10,0:00:44.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARTY'S NEW SIGN:
+Dialogue: 0,0:00:44.84,0:00:45.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"THE CUSTOMER IS
+Dialogue: 0,0:00:45.59,0:00:45.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ALWAYS
+Dialogue: 0,0:00:45.91,0:00:46.18,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIGHT.
+Dialogue: 0,0:00:46.18,0:00:47.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EXCEPT ABOUT POLES."
