@@ -1,0 +1,11 @@
+L0 visual: Big Lou's stolen pie car drives straight through his own barn
+L1 character: Lou's catchphrase "Easy as pie!" — he swapped the cone wheels for flat ones
+L2 misdirection: the heist plan depends on the pie car getting stuck at Hairpin Bend
+L3 character: Fennel the fox only wants one cherry pie and picked it out a week ago
+L4 comparison: the pie car climbs the rail like a cat up a curtain, screeching and throwing sparks
+L5 rule-of-three: it rolls straight across Moo Meadow, past three confused cows
+L6 failed-fix: Lou cheers "Easy as pie!" — then sees it's heading for his barn
+L9 explanation: outer wheel rides the fat part, inner the thin part, so the axle steers itself
+L10 comparison: like a paper cup rolling in a circle
+L11 deadpan: flat wheels can't steer, they only know straight
+L12 callback: Fennel gets his pie, Lou gets the other forty-nine — "Easy as pie."

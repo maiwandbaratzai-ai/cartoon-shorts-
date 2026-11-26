@@ -1,0 +1,97 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BIG LOU'S STOLEN
+Dialogue: 0,0:00:00.86,0:00:01.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE
+Dialogue: 0,0:00:01.05,0:00:01.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAR DROVE
+Dialogue: 0,0:00:01.52,0:00:01.92,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRAIGHT
+Dialogue: 0,0:00:01.92,0:00:02.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THROUGH HIS OWN
+Dialogue: 0,0:00:02.78,0:00:03.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARN.
+Dialogue: 0,0:00:03.26,0:00:04.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'D SWAPPED ITS
+Dialogue: 0,0:00:04.03,0:00:05.23,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CONE-SHAPED WHEELS FOR
+Dialogue: 0,0:00:05.23,0:00:05.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FLAT
+Dialogue: 0,0:00:05.66,0:00:05.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONES.
+Dialogue: 0,0:00:05.88,0:00:06.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EASY AS
+Dialogue: 0,0:00:06.31,0:00:06.55,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE!"
+Dialogue: 0,0:00:06.55,0:00:07.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY ARE
+Dialogue: 0,0:00:07.06,0:00:07.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRAIN WHEELS
+Dialogue: 0,0:00:07.63,0:00:08.16,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CONES?
+Dialogue: 0,0:00:08.27,0:00:08.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE PLAN:
+Dialogue: 0,0:00:08.66,0:00:08.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH
+Dialogue: 0,0:00:08.87,0:00:09.09,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FLAT
+Dialogue: 0,0:00:09.09,0:00:09.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHEELS,
+Dialogue: 0,0:00:09.39,0:00:09.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:09.56,0:00:09.74,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE
+Dialogue: 0,0:00:09.74,0:00:10.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAR WOULD GET
+Dialogue: 0,0:00:10.35,0:00:11.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STUCK AT HAIRPIN
+Dialogue: 0,0:00:11.08,0:00:11.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEND.
+Dialogue: 0,0:00:11.60,0:00:12.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FENNEL THE FOX
+Dialogue: 0,0:00:12.27,0:00:12.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONLY WANTED ONE
+Dialogue: 0,0:00:12.99,0:00:13.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHERRY
+Dialogue: 0,0:00:13.30,0:00:13.49,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE.
+Dialogue: 0,0:00:13.49,0:00:14.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'D PICKED IT
+Dialogue: 0,0:00:14.30,0:00:14.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT A WEEK
+Dialogue: 0,0:00:14.81,0:00:15.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AGO.
+Dialogue: 0,0:00:15.26,0:00:15.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE
+Dialogue: 0,0:00:15.62,0:00:15.79,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE
+Dialogue: 0,0:00:15.79,0:00:16.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EXPRESS HIT THE
+Dialogue: 0,0:00:16.49,0:00:16.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEND.
+Dialogue: 0,0:00:16.69,0:00:17.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:17.13,0:00:17.30,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE
+Dialogue: 0,0:00:17.30,0:00:17.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAR SCREECHED,
+Dialogue: 0,0:00:17.90,0:00:18.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THREW SPARKS,
+Dialogue: 0,0:00:18.55,0:00:19.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND CLIMBED THE
+Dialogue: 0,0:00:19.19,0:00:19.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RAIL LIKE A
+Dialogue: 0,0:00:19.68,0:00:20.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAT UP A
+Dialogue: 0,0:00:20.12,0:00:20.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CURTAIN.
+Dialogue: 0,0:00:20.69,0:00:21.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT IGNORED THE
+Dialogue: 0,0:00:21.41,0:00:22.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEND AND ROLLED
+Dialogue: 0,0:00:22.17,0:00:22.58,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRAIGHT
+Dialogue: 0,0:00:22.58,0:00:23.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ACROSS MOO MEADOW,
+Dialogue: 0,0:00:23.54,0:00:24.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PAST THREE CONFUSED
+Dialogue: 0,0:00:24.57,0:00:25.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COWS.
+Dialogue: 0,0:00:25.06,0:00:25.54,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOU CHEERED.
+Dialogue: 0,0:00:25.54,0:00:25.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EASY AS
+Dialogue: 0,0:00:25.87,0:00:26.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE!"
+Dialogue: 0,0:00:26.10,0:00:26.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN HE SAW
+Dialogue: 0,0:00:26.74,0:00:27.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHERE IT WAS
+Dialogue: 0,0:00:27.28,0:00:27.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GOING.
+Dialogue: 0,0:00:27.77,0:00:28.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT DO
+Dialogue: 0,0:00:28.23,0:00:29.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CONE WHEELS DO?
+Dialogue: 0,0:00:29.22,0:00:29.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EACH WHEEL IS
+Dialogue: 0,0:00:29.89,0:00:30.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FATTER ON THE
+Dialogue: 0,0:00:30.49,0:00:30.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INSIDE.
+Dialogue: 0,0:00:30.79,0:00:31.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON A BEND,
+Dialogue: 0,0:00:31.46,0:00:32.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE AXLE SLIDES
+Dialogue: 0,0:00:32.14,0:00:32.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT A LITTLE.
+Dialogue: 0,0:00:33.20,0:00:33.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE OUTER WHEEL
+Dialogue: 0,0:00:33.89,0:00:34.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIDES ITS FAT
+Dialogue: 0,0:00:34.67,0:00:34.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PART,
+Dialogue: 0,0:00:34.88,0:00:35.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE INNER WHEEL
+Dialogue: 0,0:00:35.72,0:00:36.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITS THIN PART,
+Dialogue: 0,0:00:36.49,0:00:37.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE AXLE
+Dialogue: 0,0:00:37.03,0:00:37.33,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STEERS
+Dialogue: 0,0:00:37.33,0:00:37.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITSELF.
+Dialogue: 0,0:00:37.98,0:00:38.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT'S HOW A
+Dialogue: 0,0:00:38.40,0:00:39.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PAPER CUP ROLLS
+Dialogue: 0,0:00:39.13,0:00:39.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN A CIRCLE.
+Dialogue: 0,0:00:39.89,0:00:40.07,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FLAT
+Dialogue: 0,0:00:40.07,0:00:40.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHEELS CAN'T STEER.
+Dialogue: 0,0:00:40.72,0:00:41.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY ONLY KNOW
+Dialogue: 0,0:00:41.28,0:00:41.85,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRAIGHT.
+Dialogue: 0,0:00:41.85,0:00:42.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FENNEL GOT HIS
+Dialogue: 0,0:00:42.53,0:00:42.71,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE.
+Dialogue: 0,0:00:42.71,0:00:43.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOU GOT THE
+Dialogue: 0,0:00:43.33,0:00:44.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OTHER FORTY-NINE.
+Dialogue: 0,0:00:44.15,0:00:44.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EASY AS
+Dialogue: 0,0:00:44.58,0:00:45.03,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PIE.
