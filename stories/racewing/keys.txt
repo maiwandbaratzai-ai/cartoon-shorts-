@@ -1,0 +1,5 @@
+WINGS
+UP
+DOWN
+GRIP
+FLY

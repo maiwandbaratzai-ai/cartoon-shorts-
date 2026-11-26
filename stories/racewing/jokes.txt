@@ -1,0 +1,12 @@
+L0 visual: Vinnie's race car flies over the grandstand with his chicken on board
+L1 character: Vinnie's catchphrase "Wings go UP!" as he flips the wing like a plane's
+L2 comparison: the car goes light, like a shopping cart on ice
+L3 character: Henrietta the team hen has wanted to fly since she was an egg
+L4 failed-fix: Vinnie bolts on a second wing ("Wings go UP!")
+L5 deadpan: the front wheels lift and Dot the driver steers at clouds
+L6 escalation: the whole car takes off over forty rows of fans and a hot-dog stand
+L7 comparison: it lands in the hay bales like a dart in a cushion
+L9 explanation: the same plane wing flipped upside down pushes the car down
+L10 deadpan: more push, more grip — the tires bite into the corners
+L11 comparison: the car hugs the track like a cat on a heater
+L12 callback: Henrietta gets the spare wing and makes it to the hot-dog stand
