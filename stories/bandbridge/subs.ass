@@ -1,0 +1,96 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE HUNDRED MARCHING
+Dialogue: 0,0:00:01.08,0:00:01.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MUSICIANS MADE A
+Dialogue: 0,0:00:01.88,0:00:02.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STEEL BRIDGE
+Dialogue: 0,0:00:02.48,0:00:02.88,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BOUNCE
+Dialogue: 0,0:00:02.88,0:00:03.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A TRAMPOLINE.
+Dialogue: 0,0:00:03.96,0:00:04.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TUBA PLAYER
+Dialogue: 0,0:00:04.58,0:00:05.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WENT UP FIRST.
+Dialogue: 0,0:00:05.47,0:00:06.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS TUBA WENT
+Dialogue: 0,0:00:06.03,0:00:06.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIGHER.
+Dialogue: 0,0:00:06.56,0:00:07.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BAND HAD
+Dialogue: 0,0:00:07.22,0:00:08.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A NEW LEADER:
+Dialogue: 0,0:00:08.02,0:00:08.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}METRO-NINE,
+Dialogue: 0,0:00:08.59,0:00:09.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A ROBOT DRUM
+Dialogue: 0,0:00:09.25,0:00:10.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MAJOR BUILT FOR
+Dialogue: 0,0:00:10.05,0:00:10.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PERFECT
+Dialogue: 0,0:00:10.52,0:00:11.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIME.
+Dialogue: 0,0:00:11.04,0:00:11.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"LEFT!
+Dialogue: 0,0:00:11.25,0:00:11.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT!
+Dialogue: 0,0:00:11.50,0:00:12.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEFT!" EVERY BOOT
+Dialogue: 0,0:00:12.23,0:00:12.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIT THE BRIDGE
+Dialogue: 0,0:00:12.93,0:00:13.49,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT THE EXACT
+Dialogue: 0,0:00:13.49,0:00:14.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAME MOMENT.
+Dialogue: 0,0:00:14.26,0:00:15.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MAJOR THE DUCK,
+Dialogue: 0,0:00:15.07,0:00:15.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHO HAD LED
+Dialogue: 0,0:00:15.60,0:00:16.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE PARADE FOR
+Dialogue: 0,0:00:16.37,0:00:17.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NINE YEARS,
+Dialogue: 0,0:00:17.00,0:00:17.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS DEMOTED TO
+Dialogue: 0,0:00:17.71,0:00:18.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CYMBALS.
+Dialogue: 0,0:00:18.32,0:00:18.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT
+Dialogue: 0,0:00:18.45,0:00:18.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STEP
+Dialogue: 0,0:00:18.66,0:00:18.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONE,
+Dialogue: 0,0:00:18.84,0:00:19.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BRIDGE HUMMED.
+Dialogue: 0,0:00:19.59,0:00:19.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT
+Dialogue: 0,0:00:19.73,0:00:19.94,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STEP
+Dialogue: 0,0:00:19.94,0:00:20.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TEN,
+Dialogue: 0,0:00:20.21,0:00:20.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT WOBBLED.
+Dialogue: 0,0:00:20.67,0:00:21.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT
+Dialogue: 0,0:00:21.04,0:00:21.25,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STEP
+Dialogue: 0,0:00:21.25,0:00:21.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY,
+Dialogue: 0,0:00:21.63,0:00:22.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT BOUNCED LIKE
+Dialogue: 0,0:00:22.38,0:00:22.89,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}JELLY.
+Dialogue: 0,0:00:22.89,0:00:23.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE ROBOT
+Dialogue: 0,0:00:23.58,0:00:24.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIXED IT BY
+Dialogue: 0,0:00:24.19,0:00:25.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARCHING EVEN MORE
+Dialogue: 0,0:00:25.04,0:00:25.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PERFECTLY.
+Dialogue: 0,0:00:25.80,0:00:26.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"LEFT!
+Dialogue: 0,0:00:26.11,0:00:26.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT!
+Dialogue: 0,0:00:26.46,0:00:27.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEFT!"
+Dialogue: 0,0:00:27.02,0:00:27.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE BRIDGE
+Dialogue: 0,0:00:27.59,0:00:28.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLUNG THE DRUMMERS
+Dialogue: 0,0:00:28.27,0:00:28.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INTO THE RIVER
+Dialogue: 0,0:00:28.82,0:00:29.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE FLUTES
+Dialogue: 0,0:00:29.59,0:00:30.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INTO A TREE.
+Dialogue: 0,0:00:30.33,0:00:30.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHY WOULD
+Dialogue: 0,0:00:30.77,0:00:31.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARCHING SHAKE A
+Dialogue: 0,0:00:31.34,0:00:32.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STEEL BRIDGE?
+Dialogue: 0,0:00:32.23,0:00:32.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERY BRIDGE HAS
+Dialogue: 0,0:00:32.92,0:00:33.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITS OWN
+Dialogue: 0,0:00:33.26,0:00:33.55,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BOUNCE,
+Dialogue: 0,0:00:33.55,0:00:33.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A
+Dialogue: 0,0:00:33.85,0:00:34.36,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWING.
+Dialogue: 0,0:00:34.55,0:00:34.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUSH A
+Dialogue: 0,0:00:34.85,0:00:35.10,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWING
+Dialogue: 0,0:00:35.10,0:00:35.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT JUST THE
+Dialogue: 0,0:00:35.62,0:00:36.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIGHT MOMENT,
+Dialogue: 0,0:00:36.32,0:00:36.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AGAIN AND AGAIN,
+Dialogue: 0,0:00:36.99,0:00:37.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND IT GOES
+Dialogue: 0,0:00:37.63,0:00:38.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIGHER.
+Dialogue: 0,0:00:38.18,0:00:38.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A HUNDRED BOOTS
+Dialogue: 0,0:00:38.84,0:00:38.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN
+Dialogue: 0,0:00:38.98,0:00:39.37,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}PERFECT
+Dialogue: 0,0:00:39.37,0:00:39.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TIME PUSH THE
+Dialogue: 0,0:00:39.97,0:00:40.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRIDGE AT THAT
+Dialogue: 0,0:00:40.60,0:00:41.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOMENT.
+Dialogue: 0,0:00:41.13,0:00:41.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVERY
+Dialogue: 0,0:00:41.37,0:00:41.85,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STEP.
+Dialogue: 0,0:00:41.96,0:00:42.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOW MAJOR LEADS
+Dialogue: 0,0:00:42.76,0:00:43.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AGAIN.
+Dialogue: 0,0:00:43.06,0:00:44.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOBODY CAN MARCH
+Dialogue: 0,0:00:44.07,0:00:44.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN
+Dialogue: 0,0:00:44.23,0:00:44.48,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STEP
+Dialogue: 0,0:00:44.48,0:00:45.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEHIND A
+Dialogue: 0,0:00:45.05,0:00:45.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WADDLE.

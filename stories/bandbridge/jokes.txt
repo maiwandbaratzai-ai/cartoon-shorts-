@@ -1,0 +1,12 @@
+L0 comparison: one hundred marching musicians make a steel bridge bounce like a trampoline
+L1 escalation: the tuba player goes up first, his tuba goes higher
+L2 character: the new leader is Metro-Nine, a robot drum major built for perfect time
+L3 character: catchphrase "Left! Right! Left!" — every boot at the exact same moment
+L4 deadpan: Major the duck, nine years leading the parade, demoted to cymbals
+L5 escalation: step one hums, step ten wobbles, step forty bounces like jelly
+L6 failed-fix: the robot's fix is to march even more perfectly
+L7 rule-of-three: drummers into the river, flutes into a tree
+L9 comparison: every bridge has its own bounce, like a swing
+L10 explanation: push a swing at just the right moment and it goes higher
+L11 explanation: a hundred boots in perfect time push the bridge at that moment, every step
+L12 callback: Major leads again — nobody can march in step behind a waddle

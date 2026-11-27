@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* One hundred marching musicians made a steel bridge bounce like a trampoline. — O3 S3 V3 = 9/9
+The tuba player went up. His tuba went higher. — O2 S2 V3 = 7/9
+A robot led a marching band onto a bridge. Bad idea. — O2 S2 V1 = 5/9
+A steel bridge stood for eighty years, until a band crossed it. — O3 S3 V1 = 7/9
+Major the duck got demoted to cymbals. The bridge took his side. — O2 S1 V1 = 4/9
+The Bramblewick band marched so perfectly, the bridge threw them off. — O3 S3 V2 = 8/9
+Forty steps in, the bridge was bouncing like jelly. — O2 S3 V3 = 8/9
+Every boot hit the bridge at once. The bridge hit back. — O3 S2 V2 = 7/9
+A robot drum major flung a whole drum line into a river. — O2 S2 V2 = 6/9
+This bridge only bounces when you march in perfect time. — O3 S2 V1 = 6/9
