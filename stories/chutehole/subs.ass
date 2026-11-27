@@ -1,0 +1,93 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FELIX'S WEDDING CAKE
+Dialogue: 0,0:00:01.05,0:00:01.40,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWUNG
+Dialogue: 0,0:00:01.40,0:00:02.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ACROSS THE SKY
+Dialogue: 0,0:00:02.18,0:00:03.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A WRECKING
+Dialogue: 0,0:00:03.07,0:00:03.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BALL.
+Dialogue: 0,0:00:03.58,0:00:04.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOUR TIERS,
+Dialogue: 0,0:00:04.07,0:00:04.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NINE HUNDRED DOLLARS,
+Dialogue: 0,0:00:04.99,0:00:05.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE BRIDE
+Dialogue: 0,0:00:05.71,0:00:06.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS WATCHING FROM
+Dialogue: 0,0:00:06.61,0:00:07.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BELOW.
+Dialogue: 0,0:00:07.14,0:00:07.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT MORNING,
+Dialogue: 0,0:00:07.66,0:00:08.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FELIX HAD FOUND
+Dialogue: 0,0:00:08.44,0:00:08.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:08.53,0:00:08.74,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HOLE
+Dialogue: 0,0:00:08.74,0:00:09.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE TOP
+Dialogue: 0,0:00:09.20,0:00:10.20,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF HIS PARACHUTE.
+Dialogue: 0,0:00:10.20,0:00:10.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"A
+Dialogue: 0,0:00:10.29,0:00:10.49,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HOLE
+Dialogue: 0,0:00:10.49,0:00:10.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS A
+Dialogue: 0,0:00:10.70,0:00:10.90,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LEAK!"
+Dialogue: 0,0:00:10.90,0:00:11.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE SAID,
+Dialogue: 0,0:00:11.38,0:00:11.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND PATCHED IT
+Dialogue: 0,0:00:11.98,0:00:12.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH A PIZZA
+Dialogue: 0,0:00:12.56,0:00:13.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOX.
+Dialogue: 0,0:00:13.08,0:00:13.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUDDING THE PIG,
+Dialogue: 0,0:00:13.70,0:00:14.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PROMISED THE TOP
+Dialogue: 0,0:00:14.45,0:00:14.65,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TIER,
+Dialogue: 0,0:00:14.65,0:00:15.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LICKED HER LIPS.
+Dialogue: 0,0:00:15.69,0:00:16.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE CHUTE
+Dialogue: 0,0:00:16.27,0:00:16.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OPENED.
+Dialogue: 0,0:00:16.60,0:00:16.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CAKE
+Dialogue: 0,0:00:16.95,0:00:17.18,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWUNG
+Dialogue: 0,0:00:17.18,0:00:17.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LEFT,
+Dialogue: 0,0:00:17.52,0:00:18.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN RIGHT,
+Dialogue: 0,0:00:18.05,0:00:18.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN UPSIDE DOWN.
+Dialogue: 0,0:00:19.00,0:00:19.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO FELIX TRIED
+Dialogue: 0,0:00:19.74,0:00:20.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A PARACHUTE TWICE
+Dialogue: 0,0:00:20.59,0:00:20.99,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS BIG.
+Dialogue: 0,0:00:20.99,0:00:21.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"A
+Dialogue: 0,0:00:21.34,0:00:21.56,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HOLE
+Dialogue: 0,0:00:21.56,0:00:21.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS A
+Dialogue: 0,0:00:21.80,0:00:22.29,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LEAK!"
+Dialogue: 0,0:00:22.34,0:00:22.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT
+Dialogue: 0,0:00:22.47,0:00:22.73,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SWUNG
+Dialogue: 0,0:00:22.73,0:00:23.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWICE AS FAR,
+Dialogue: 0,0:00:23.36,0:00:24.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POPPED THE BOUNCY
+Dialogue: 0,0:00:24.32,0:00:24.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CASTLE,
+Dialogue: 0,0:00:24.61,0:00:25.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND TOOK THE
+Dialogue: 0,0:00:25.28,0:00:26.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GROOM'S HAT.
+Dialogue: 0,0:00:26.02,0:00:26.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUDDING CHASED THE
+Dialogue: 0,0:00:26.76,0:00:27.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT.
+Dialogue: 0,0:00:27.06,0:00:27.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE GROOM CHASED
+Dialogue: 0,0:00:27.82,0:00:28.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUDDING.
+Dialogue: 0,0:00:28.36,0:00:28.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY DID IT
+Dialogue: 0,0:00:28.78,0:00:29.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SWING?
+Dialogue: 0,0:00:29.37,0:00:30.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AIR TRAPPED UNDER
+Dialogue: 0,0:00:30.24,0:00:30.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A CLOSED CHUTE
+Dialogue: 0,0:00:30.92,0:00:31.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAS TO ESCAPE,
+Dialogue: 0,0:00:31.80,0:00:32.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO IT SPILLS
+Dialogue: 0,0:00:32.47,0:00:33.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT ONE SIDE.
+Dialogue: 0,0:00:33.58,0:00:34.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT SHOVES IT
+Dialogue: 0,0:00:34.14,0:00:34.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE OTHER WAY.
+Dialogue: 0,0:00:34.66,0:00:35.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN IT SPILLS
+Dialogue: 0,0:00:35.30,0:00:35.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE OTHER SIDE.
+Dialogue: 0,0:00:35.86,0:00:36.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TICK,
+Dialogue: 0,0:00:36.36,0:00:36.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOCK.
+Dialogue: 0,0:00:36.93,0:00:37.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:37.01,0:00:37.20,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HOLE
+Dialogue: 0,0:00:37.20,0:00:37.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE TOP
+Dialogue: 0,0:00:37.62,0:00:38.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LETS THE AIR
+Dialogue: 0,0:00:38.18,0:00:38.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OUT THE MIDDLE,
+Dialogue: 0,0:00:38.80,0:00:39.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO IT FALLS
+Dialogue: 0,0:00:39.37,0:00:39.95,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STRAIGHT.
+Dialogue: 0,0:00:39.95,0:00:40.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE CAKE LANDED
+Dialogue: 0,0:00:40.64,0:00:41.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON PUDDING,
+Dialogue: 0,0:00:41.12,0:00:41.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOP
+Dialogue: 0,0:00:41.30,0:00:41.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TIER
+Dialogue: 0,0:00:41.60,0:00:41.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIRST.
+Dialogue: 0,0:00:41.86,0:00:42.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEST DAY OF
+Dialogue: 0,0:00:42.60,0:00:43.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HER LIFE.

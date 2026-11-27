@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Felix's wedding cake swung across the sky like a wrecking ball. — O3 S2 V3 = 8/9
+A nine-hundred-dollar cake was swinging from a parachute over a wedding. — O2 S3 V2 = 7/9
+Felix patched the hole in his parachute. The wedding never recovered. — O3 S2 V1 = 6/9
+The wedding cake did three loops before it landed. — O2 S2 V3 = 7/9
+Felix's parachute swung so hard it stole the groom's hat. — O2 S1 V3 = 6/9
+A pig waited under a wedding cake falling from the sky. — O2 S1 V2 = 5/9
+Felix fixed his parachute with a pizza box. Big mistake. — O2 S1 V1 = 4/9
+Four tiers of cake swung over the bride like a pendulum. — O2 S2 V3 = 7/9
+The bouncy castle popped. A wedding cake did it. — O3 S1 V2 = 6/9
+This parachute was perfect, except for the hole Felix fixed. — O3 S1 V1 = 5/9

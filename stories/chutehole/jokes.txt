@@ -1,0 +1,12 @@
+L0 comparison: a wedding cake swinging across the sky like a wrecking ball
+L1 specific: four tiers, nine hundred dollars, the bride watching from below
+L3 character: catchphrase "A hole is a leak!" — he patches the parachute with a pizza box
+L4 character: Pudding the pig was promised the top tier and licks her lips
+L5 rule-of-three: left, then right, then upside down
+L6 failed-fix: a parachute twice as big, same catchphrase
+L7 escalation: it swings twice as far, pops the bouncy castle and takes the groom's hat
+L8 escalation: Pudding chases the hat, the groom chases Pudding
+L10 explanation: trapped air has to escape, so it spills out one side
+L11 deadpan: it shoves the chute the other way — "Tick, tock." like a pendulum
+L12 explanation: a hole in the top lets the air out the middle, so it falls straight
+L13 callback: the cake lands on Pudding, top tier first — best day of her life

@@ -1,0 +1,11 @@
+# Topic lab 2026-11-27 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why parachutes have a hole in the top (a closed chute spills air out one side then the other and swings like a pendulum; the vent lets it out the middle) — S3 $2 X3 = 8/9
+Why cement trucks never stop spinning — S3 $3 X3 = 9/9 (used tonight)
+Why wet hay sets itself on fire — S3 $3 X2 = 8/9 (used tonight)
+Why marching bands break step on bridges — S3 $3 X3 = 9/9
+Why ships sink lower in rivers than at sea — S3 $3 X2 = 8/9
+Why planes take off into the wind — S3 $2 X2 = 7/9
+Why hot-air balloons have a vent at the top — S2 $2 X2 = 6/9
+Why skydivers arch their backs — S2 $2 X2 = 6/9
+Why bubble wrap has bubbles — S1 $1 X1 = 3/9
+Why pizza boxes are square — S1 $0 X0 = 1/9
