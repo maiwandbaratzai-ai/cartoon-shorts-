@@ -1,0 +1,11 @@
+# Topic lab 2026-11-27 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why wet hay sets itself on fire (bacteria eat it, make heat, the tight stack traps it until it ignites) — S3 $3 X2 = 8/9
+Why cement trucks never stop spinning — S3 $3 X3 = 9/9 (used tonight: Channel A)
+Why parachutes have a hole in the top — S3 $2 X3 = 8/9
+Why marching bands break step on bridges — S3 $3 X3 = 9/9
+Why ships sink lower in rivers than at sea — S3 $3 X2 = 8/9
+Why grain silos have no-spark rules (flour dust) — S3 $3 X3 = 9/9 (rejected: explosive how-to risk)
+Why elevators can't free-fall — S2 $3 X2 = 7/9
+Why bridges in hot towns have rollers under them — S2 $2 X2 = 6/9
+Why oily rags must be laid flat — S3 $2 X1 = 6/9 (rejected: household fire how-to)
+Why fridges hum — S1 $0 X0 = 1/9

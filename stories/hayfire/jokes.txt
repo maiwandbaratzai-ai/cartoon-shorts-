@@ -1,0 +1,11 @@
+L0 character: the main suspect in the haystack fires is a sheep
+L1 specific: three fires in three weeks, and Pickles is always right there, chewing
+L2 deadpan: the famous inspector sniffs the sheep and announces "Case closed!"
+L3 deadpan: he locks Pickles in the chicken coop — the hens were not consulted
+L4 misdirection: the farmhand raises her hand like a schoolkid with the real answer
+L5 failed-fix: "Wet hay can't burn!" — he stacks a fresh wet pile as bait
+L6 escalation: it steams like a kettle, then toasts his sandwich
+L7 visual: it bursts into flames while the suspect is locked in the coop with the hens
+L9 explanation: wet hay is a buffet for billions of tiny bacteria
+L10 comparison: they eat, make heat, and the tight stack traps it like a blanket
+L12 callback: Pomfrey arrests the bacteria, Pickles eats the evidence, "Case closed."

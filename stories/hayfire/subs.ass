@@ -1,0 +1,84 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EDNA'S HAYSTACKS KEPT
+Dialogue: 0,0:00:01.07,0:00:01.59,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CATCHING
+Dialogue: 0,0:00:01.59,0:00:01.89,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}FIRE.
+Dialogue: 0,0:00:01.89,0:00:02.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MAIN SUSPECT
+Dialogue: 0,0:00:02.81,0:00:03.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS A
+Dialogue: 0,0:00:03.19,0:00:03.73,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHEEP.
+Dialogue: 0,0:00:03.85,0:00:04.57,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THREE FIRES IN
+Dialogue: 0,0:00:04.57,0:00:05.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THREE WEEKS,
+Dialogue: 0,0:00:05.14,0:00:05.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND EVERY TIME,
+Dialogue: 0,0:00:05.78,0:00:06.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PICKLES WAS RIGHT
+Dialogue: 0,0:00:06.61,0:00:07.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THERE,
+Dialogue: 0,0:00:07.02,0:00:07.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHEWING.
+Dialogue: 0,0:00:07.62,0:00:08.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FAMOUS INSPECTOR
+Dialogue: 0,0:00:08.60,0:00:09.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POMFREY SNIFFED THE
+Dialogue: 0,0:00:09.52,0:00:09.76,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SHEEP
+Dialogue: 0,0:00:09.76,0:00:10.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND ANNOUNCED,
+Dialogue: 0,0:00:10.51,0:00:10.72,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"CASE
+Dialogue: 0,0:00:10.72,0:00:11.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CLOSED!"
+Dialogue: 0,0:00:11.30,0:00:12.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE LOCKED PICKLES
+Dialogue: 0,0:00:12.11,0:00:12.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THE CHICKEN
+Dialogue: 0,0:00:12.69,0:00:13.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COOP.
+Dialogue: 0,0:00:13.12,0:00:13.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE HENS WERE
+Dialogue: 0,0:00:13.65,0:00:14.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOT CONSULTED.
+Dialogue: 0,0:00:14.56,0:00:15.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIP THE FARMHAND
+Dialogue: 0,0:00:15.37,0:00:16.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RAISED HER HAND.
+Dialogue: 0,0:00:16.04,0:00:16.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"THE HAY WAS
+Dialogue: 0,0:00:16.80,0:00:16.98,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WET
+Dialogue: 0,0:00:16.98,0:00:17.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHEN WE STACKED
+Dialogue: 0,0:00:17.64,0:00:18.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT."
+Dialogue: 0,0:00:18.05,0:00:18.23,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"WET
+Dialogue: 0,0:00:18.23,0:00:18.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAY CAN'T BURN!"
+Dialogue: 0,0:00:18.85,0:00:19.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAID POMFREY,
+Dialogue: 0,0:00:19.47,0:00:20.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND STACKED A
+Dialogue: 0,0:00:20.17,0:00:20.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FRESH
+Dialogue: 0,0:00:20.60,0:00:20.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WET
+Dialogue: 0,0:00:20.87,0:00:21.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PILE AS BAIT.
+Dialogue: 0,0:00:21.78,0:00:22.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY TUESDAY IT
+Dialogue: 0,0:00:22.36,0:00:22.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STEAMED LIKE A
+Dialogue: 0,0:00:22.98,0:00:23.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KETTLE.
+Dialogue: 0,0:00:23.27,0:00:24.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BY WEDNESDAY IT
+Dialogue: 0,0:00:24.09,0:00:24.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS TOASTING HIS
+Dialogue: 0,0:00:24.79,0:00:25.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SANDWICH.
+Dialogue: 0,0:00:25.52,0:00:26.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON THURSDAY IT
+Dialogue: 0,0:00:26.09,0:00:26.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BURST INTO FLAMES,
+Dialogue: 0,0:00:26.88,0:00:27.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH PICKLES STILL
+Dialogue: 0,0:00:27.76,0:00:28.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOCKED IN THE
+Dialogue: 0,0:00:28.39,0:00:28.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COOP.
+Dialogue: 0,0:00:29.08,0:00:29.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHO LIT
+Dialogue: 0,0:00:29.46,0:00:29.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT?
+Dialogue: 0,0:00:30.01,0:00:30.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOBODY.
+Dialogue: 0,0:00:30.33,0:00:30.52,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WET
+Dialogue: 0,0:00:30.52,0:00:31.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAY IS A
+Dialogue: 0,0:00:31.07,0:00:32.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUFFET FOR BILLIONS
+Dialogue: 0,0:00:32.19,0:00:32.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF TINY
+Dialogue: 0,0:00:32.64,0:00:33.41,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BACTERIA.
+Dialogue: 0,0:00:33.65,0:00:34.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY EAT,
+Dialogue: 0,0:00:34.07,0:00:34.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEY MAKE
+Dialogue: 0,0:00:34.48,0:00:34.68,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}HEAT,
+Dialogue: 0,0:00:34.68,0:00:35.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE TIGHT
+Dialogue: 0,0:00:35.25,0:00:35.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STACK TRAPS IT
+Dialogue: 0,0:00:35.95,0:00:36.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A BLANKET.
+Dialogue: 0,0:00:36.97,0:00:37.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT COOKS ITSELF
+Dialogue: 0,0:00:37.62,0:00:38.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOTTER AND HOTTER,
+Dialogue: 0,0:00:38.36,0:00:39.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UNTIL IT LIGHTS
+Dialogue: 0,0:00:39.01,0:00:39.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ITSELF.
+Dialogue: 0,0:00:39.64,0:00:40.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POMFREY ARRESTED THE
+Dialogue: 0,0:00:40.71,0:00:41.13,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BACTERIA.
+Dialogue: 0,0:00:41.13,0:00:42.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PICKLES ATE THE
+Dialogue: 0,0:00:42.09,0:00:42.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVIDENCE.
+Dialogue: 0,0:00:42.63,0:00:42.87,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CASE
+Dialogue: 0,0:00:42.87,0:00:43.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CLOSED.

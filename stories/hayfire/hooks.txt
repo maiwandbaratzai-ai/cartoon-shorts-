@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Edna's haystacks kept catching fire. The main suspect was a sheep. — O3 S3 V2 = 8/9
+A haystack burst into flames. Nobody was near it except a sheep. — O3 S3 V2 = 8/9
+Someone kept setting Edna's hay on fire, three weeks running. — O3 S3 V1 = 7/9
+Inspector Pomfrey locked a sheep in a chicken coop for arson. — O2 S2 V2 = 6/9
+Edna's hay was cooking a sandwich all by itself. — O2 S1 V2 = 5/9
+Three barns, three fires, one very guilty-looking sheep. — O2 S3 V1 = 6/9
+The famous detective arrested a sheep. Then the haystack lit itself. — O2 S3 V2 = 7/9
+Pickles the sheep was framed by billions of tiny criminals. — O3 S2 V0 = 5/9
+Edna's hay steamed like a kettle for three days, then exploded. — O2 S3 V2 = 7/9
+A detective baited a fire-starter with a fresh pile of hay. — O2 S2 V1 = 5/9
