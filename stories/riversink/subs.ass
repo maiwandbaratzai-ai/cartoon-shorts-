@@ -1,0 +1,121 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BARNACLE GANG'S
+Dialogue: 0,0:00:01.01,0:00:01.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOAT CROSSED AN
+Dialogue: 0,0:00:01.79,0:00:02.19,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OCEAN,
+Dialogue: 0,0:00:02.19,0:00:02.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN SANK IN
+Dialogue: 0,0:00:02.77,0:00:02.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:02.87,0:00:03.40,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIVER.
+Dialogue: 0,0:00:03.40,0:00:04.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT WAS CARRYING
+Dialogue: 0,0:00:04.18,0:00:04.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO TONS OF
+Dialogue: 0,0:00:04.78,0:00:05.11,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STOLEN
+Dialogue: 0,0:00:05.11,0:00:05.36,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOLD
+Dialogue: 0,0:00:05.36,0:00:05.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BARS,
+Dialogue: 0,0:00:05.60,0:00:06.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIDDEN UNDER FROZEN
+Dialogue: 0,0:00:06.82,0:00:07.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FISH.
+Dialogue: 0,0:00:07.42,0:00:07.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT SEA,
+Dialogue: 0,0:00:07.76,0:00:08.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAPTAIN GILL LOADED
+Dialogue: 0,0:00:08.74,0:00:09.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT RIGHT TO
+Dialogue: 0,0:00:09.31,0:00:09.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BRIM.
+Dialogue: 0,0:00:09.97,0:00:10.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EVERY INCH IS
+Dialogue: 0,0:00:10.63,0:00:11.09,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MONEY!"
+Dialogue: 0,0:00:11.09,0:00:11.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIR WHISKERS,
+Dialogue: 0,0:00:11.66,0:00:12.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SHIP'S CAT,
+Dialogue: 0,0:00:12.31,0:00:13.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WANTED ONLY ONE
+Dialogue: 0,0:00:13.09,0:00:13.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THING IN LIFE:
+Dialogue: 0,0:00:13.97,0:00:14.16,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DRY
+Dialogue: 0,0:00:14.16,0:00:14.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PAWS.
+Dialogue: 0,0:00:14.64,0:00:15.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BOAT SAT
+Dialogue: 0,0:00:15.18,0:00:15.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO LOW THAT
+Dialogue: 0,0:00:15.68,0:00:16.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAVES LICKED THE
+Dialogue: 0,0:00:16.51,0:00:16.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DECK.
+Dialogue: 0,0:00:16.71,0:00:17.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STILL,
+Dialogue: 0,0:00:17.31,0:00:18.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT FLOATED.
+Dialogue: 0,0:00:18.22,0:00:18.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE PLAN WAS
+Dialogue: 0,0:00:18.78,0:00:19.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO SNEAK UP
+Dialogue: 0,0:00:19.31,0:00:19.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE MUDD
+Dialogue: 0,0:00:19.79,0:00:20.04,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIVER
+Dialogue: 0,0:00:20.04,0:00:20.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO THEIR HIDEOUT,
+Dialogue: 0,0:00:20.77,0:00:21.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AN OLD PICKLE
+Dialogue: 0,0:00:21.72,0:00:22.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FACTORY.
+Dialogue: 0,0:00:22.40,0:00:23.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT THE MOMENT
+Dialogue: 0,0:00:23.12,0:00:23.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT LEFT THE
+Dialogue: 0,0:00:23.78,0:00:24.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SALTY SEA,
+Dialogue: 0,0:00:24.27,0:00:25.08,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BOAT STARTED
+Dialogue: 0,0:00:25.08,0:00:25.67,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SINKING.
+Dialogue: 0,0:00:25.67,0:00:26.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLOWLY,
+Dialogue: 0,0:00:26.00,0:00:26.60,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE IT HAD
+Dialogue: 0,0:00:26.60,0:00:27.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CHANGED ITS MIND.
+Dialogue: 0,0:00:27.74,0:00:28.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIRST THE DECK
+Dialogue: 0,0:00:28.27,0:00:28.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WENT UNDER.
+Dialogue: 0,0:00:28.61,0:00:29.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE FISH.
+Dialogue: 0,0:00:29.24,0:00:29.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE CAPTAIN'S
+Dialogue: 0,0:00:29.88,0:00:30.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT.
+Dialogue: 0,0:00:30.26,0:00:30.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO GILL THREW
+Dialogue: 0,0:00:30.84,0:00:31.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FISH OVERBOARD.
+Dialogue: 0,0:00:31.80,0:00:32.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EVERY INCH IS
+Dialogue: 0,0:00:32.38,0:00:32.63,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MONEY!"
+Dialogue: 0,0:00:32.63,0:00:33.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE FISH THAWED
+Dialogue: 0,0:00:33.50,0:00:34.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND SWAM HOME.
+Dialogue: 0,0:00:34.33,0:00:34.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT KEPT
+Dialogue: 0,0:00:34.80,0:00:35.13,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SINKING
+Dialogue: 0,0:00:35.13,0:00:35.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ANYWAY,
+Dialogue: 0,0:00:35.41,0:00:36.16,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE POLICE
+Dialogue: 0,0:00:36.16,0:00:36.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAITED ON THE
+Dialogue: 0,0:00:36.76,0:00:38.21,Cap,,0,0,0,,{\fs101}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}RIVERBANK WITH LEMONADE.
+Dialogue: 0,0:00:38.28,0:00:38.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HOW CAN
+Dialogue: 0,0:00:38.69,0:00:39.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A BOAT FLOAT
+Dialogue: 0,0:00:39.31,0:00:39.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT SEA AND
+Dialogue: 0,0:00:39.73,0:00:40.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SINK IN A
+Dialogue: 0,0:00:40.12,0:00:40.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIVER?
+Dialogue: 0,0:00:40.71,0:00:41.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SEA WATER IS
+Dialogue: 0,0:00:41.28,0:00:41.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FULL OF
+Dialogue: 0,0:00:41.70,0:00:41.92,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SALT,
+Dialogue: 0,0:00:41.92,0:00:42.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHICH MAKES IT
+Dialogue: 0,0:00:42.66,0:00:43.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAVIER.
+Dialogue: 0,0:00:43.21,0:00:44.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAVIER WATER PUSHES
+Dialogue: 0,0:00:44.09,0:00:44.79,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UP HARDER.
+Dialogue: 0,0:00:44.97,0:00:45.23,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIVER
+Dialogue: 0,0:00:45.23,0:00:46.00,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WATER IS LIGHTER,
+Dialogue: 0,0:00:46.00,0:00:46.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE SAME
+Dialogue: 0,0:00:46.56,0:00:47.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOAT SINKS DEEPER.
+Dialogue: 0,0:00:47.58,0:00:48.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOAD IT TO
+Dialogue: 0,0:00:48.35,0:00:48.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BRIM AT
+Dialogue: 0,0:00:48.91,0:00:49.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SEA,
+Dialogue: 0,0:00:49.10,0:00:49.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THE
+Dialogue: 0,0:00:49.47,0:00:49.84,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIVER
+Dialogue: 0,0:00:49.84,0:00:50.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FINISHES THE JOB.
+Dialogue: 0,0:00:50.98,0:00:51.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT'S WHY BIG
+Dialogue: 0,0:00:51.58,0:00:52.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHIPS WEAR A
+Dialogue: 0,0:00:52.14,0:00:52.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOAD
+Dialogue: 0,0:00:52.36,0:00:52.57,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}LINE:
+Dialogue: 0,0:00:52.57,0:00:53.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A SEA MARK,
+Dialogue: 0,0:00:53.15,0:00:53.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND A HIGHER
+Dialogue: 0,0:00:53.80,0:00:54.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RIVER
+Dialogue: 0,0:00:54.05,0:00:54.53,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MARK.
+Dialogue: 0,0:00:54.65,0:00:54.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:54.82,0:00:55.04,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOLD
+Dialogue: 0,0:00:55.04,0:00:55.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WENT BACK TO
+Dialogue: 0,0:00:55.69,0:00:56.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BANK.
+Dialogue: 0,0:00:56.36,0:00:56.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EVERY INCH IS
+Dialogue: 0,0:00:56.97,0:00:57.29,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}MONEY,"
+Dialogue: 0,0:00:57.29,0:00:57.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAID GILL,
+Dialogue: 0,0:00:57.90,0:00:58.43,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FROM A VERY
+Dialogue: 0,0:00:58.43,0:00:59.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SMALL CELL.
+Dialogue: 0,0:00:59.17,0:01:00.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SIR WHISKERS RODE
+Dialogue: 0,0:01:00.04,0:01:00.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOME,
+Dialogue: 0,0:01:00.38,0:01:00.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PERFECTLY
+Dialogue: 0,0:01:00.92,0:01:01.12,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DRY,
+Dialogue: 0,0:01:01.12,0:01:01.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON A POLICEMAN'S
+Dialogue: 0,0:01:01.90,0:01:02.37,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HAT.

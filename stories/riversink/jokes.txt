@@ -1,0 +1,15 @@
+L0 misdirection: the boat survives an entire ocean, then sinks in a river
+L1 specific: two tons of stolen gold bars hidden under frozen fish
+L2 character: catchphrase "Every inch is money!" as he loads it to the brim
+L3 character: Sir Whiskers the ship's cat wants only one thing in life: dry paws
+L4 deadpan: the waves lick the deck. Still, it floats.
+L5 specific: the hideout is an old pickle factory up the Mudd River
+L6 comparison: it sinks slowly, like it changed its mind
+L7 rule-of-three: the deck, the fish, then the captain's hat
+L8 failed-fix: he throws the fish overboard — they thaw and swim home
+L9 deadpan: the police just wait on the riverbank with lemonade
+L11 explanation: salt makes sea water heavier, and heavier water pushes up harder
+L12 explanation: load it to the brim at sea and the river finishes the job
+L13 explanation: big ships wear a load line — a sea mark and a higher river mark
+L14 callback: "Every inch is money," said Gill, from a very small cell
+L15 callback: Sir Whiskers rides home perfectly dry, on a policeman's hat

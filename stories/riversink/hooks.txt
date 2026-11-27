@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* The Barnacle gang's boat crossed an ocean, then sank in a river. — O3 S2 V3 = 8/9
+Two tons of stolen gold sank in a river nobody could drown in. — O3 S3 V1 = 7/9
+The police caught the Barnacle gang without moving from their chairs. — O3 S2 V1 = 6/9
+A getaway boat sank so slowly, the police brought lemonade. — O3 S2 V2 = 7/9
+The ship floated across the ocean. The river beat it in a minute. — O3 S1 V2 = 6/9
+Captain Gill hid two tons of gold under frozen fish. Bad idea. — O2 S3 V1 = 6/9
+The fish swam home. The gold did not. — O2 S2 V1 = 5/9
+A cat rode home from a robbery on a policeman's hat. — O2 S1 V1 = 4/9
+The Barnacle gang's getaway boat sank in a river, perfectly slowly. — O2 S2 V3 = 7/9
+This boat was fine at sea. Rivers are a different story. — O2 S1 V1 = 4/9
