@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Moose delivered nine tons of concrete to Elm Street. In one piece. — O3 S2 V3 = 8/9
+A giant stone egg rolled down Elm Street, chasing eleven builders. — O3 S2 V3 = 8/9
+Moose's cement truck came back with a nine-ton boulder inside. — O2 S2 V2 = 6/9
+Moose turned off his cement truck's drum to win a week of donuts. — O2 S2 V1 = 5/9
+The builders ordered a sidewalk. Moose brought them a nine-ton gumball. — O3 S2 V2 = 7/9
+Bruno the bulldog jogs forty miles a day on a cement truck. — O2 S0 V3 = 5/9
+Moose's truck spun in circles while its drum stood still. — O2 S1 V3 = 6/9
+Elm Street's new sidewalk arrived round, nine tons, and rolling. — O3 S2 V2 = 7/9
+A crane had to lift Moose's delivery out of his own truck. — O2 S2 V2 = 6/9
+Moose stopped stirring for two hours. It cost him a crane. — O2 S2 V0 = 4/9

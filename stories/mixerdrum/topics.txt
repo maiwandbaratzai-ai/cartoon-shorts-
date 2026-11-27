@@ -1,0 +1,11 @@
+# Topic lab 2026-11-27 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why cement trucks never stop spinning (concrete doesn't dry, it turns to stone; stop stirring and you get a 9-ton rock in the drum) — S3 $3 X3 = 9/9
+Why wet hay bales set themselves on fire — S3 $3 X2 = 8/9
+Why parachutes have a hole in the top — S3 $2 X3 = 8/9
+Why marching bands break step on bridges — S3 $3 X3 = 9/9
+Why ships sink lower in rivers than at sea (Plimsoll line) — S3 $3 X2 = 8/9
+Why planes take off into the wind — S3 $2 X2 = 7/9
+Why elevators can't free-fall (safety brakes grab the rails) — S2 $3 X2 = 7/9
+Why padlocks have a tiny hole in the bottom — S3 $1 X1 = 5/9
+Why money survives the washing machine (it's cotton) — S3 $2 X1 = 6/9
+Why lightning rods are pointy — S2 $2 X2 = 6/9

@@ -1,0 +1,81 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:01.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOOSE DELIVERED NINE
+Dialogue: 0,0:00:01.02,0:00:01.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TONS OF
+Dialogue: 0,0:00:01.45,0:00:01.96,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CONCRETE
+Dialogue: 0,0:00:01.96,0:00:02.88,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO ELM STREET.
+Dialogue: 0,0:00:02.88,0:00:03.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN ONE PIECE.
+Dialogue: 0,0:00:03.72,0:00:04.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'D BET DOLORES
+Dialogue: 0,0:00:04.41,0:00:04.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WEEK OF
+Dialogue: 0,0:00:04.81,0:00:05.08,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DONUTS
+Dialogue: 0,0:00:05.08,0:00:05.66,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE COULD GET
+Dialogue: 0,0:00:05.66,0:00:06.65,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THERE WITHOUT TURNING
+Dialogue: 0,0:00:06.65,0:00:07.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE DRUM.
+Dialogue: 0,0:00:07.39,0:00:07.71,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"SPINNING
+Dialogue: 0,0:00:07.71,0:00:08.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS FOR WASHING
+Dialogue: 0,0:00:08.27,0:00:09.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MACHINES!" HE SAID,
+Dialogue: 0,0:00:09.07,0:00:09.81,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND FLIPPED IT
+Dialogue: 0,0:00:09.81,0:00:10.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF.
+Dialogue: 0,0:00:10.31,0:00:11.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRUNO THE BULLDOG,
+Dialogue: 0,0:00:11.09,0:00:11.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHO JOGS ON
+Dialogue: 0,0:00:11.64,0:00:12.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT DRUM EVERY
+Dialogue: 0,0:00:12.42,0:00:12.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MORNING,
+Dialogue: 0,0:00:12.76,0:00:13.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLID RIGHT OFF.
+Dialogue: 0,0:00:13.82,0:00:14.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN ELEVEN DUCKLINGS
+Dialogue: 0,0:00:14.94,0:00:16.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CROSSED MAIN STREET.
+Dialogue: 0,0:00:16.12,0:00:16.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLOWLY.
+Dialogue: 0,0:00:16.55,0:00:17.47,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR TWO HOURS.
+Dialogue: 0,0:00:17.47,0:00:18.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INSIDE THE DRUM,
+Dialogue: 0,0:00:18.15,0:00:18.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:18.32,0:00:18.69,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CONCRETE
+Dialogue: 0,0:00:18.69,0:00:19.30,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WENT SOUP,
+Dialogue: 0,0:00:19.30,0:00:19.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OATMEAL,
+Dialogue: 0,0:00:19.71,0:00:20.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PEANUT BUTTER,
+Dialogue: 0,0:00:20.44,0:00:21.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOWLING BALL.
+Dialogue: 0,0:00:21.24,0:00:21.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MOOSE HIT THE
+Dialogue: 0,0:00:21.82,0:00:22.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SWITCH.
+Dialogue: 0,0:00:22.10,0:00:22.76,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE DRUM STAYED
+Dialogue: 0,0:00:22.76,0:00:22.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PUT.
+Dialogue: 0,0:00:22.93,0:00:23.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WHOLE TRUCK
+Dialogue: 0,0:00:23.85,0:00:24.64,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SPUN INSTEAD.
+Dialogue: 0,0:00:24.68,0:00:25.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO WHAT TURNED
+Dialogue: 0,0:00:25.22,0:00:25.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT TO
+Dialogue: 0,0:00:25.42,0:00:25.61,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}STONE
+Dialogue: 0,0:00:25.61,0:00:26.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN THERE?
+Dialogue: 0,0:00:26.27,0:00:26.74,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CONCRETE
+Dialogue: 0,0:00:26.74,0:00:27.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOESN'T DRY.
+Dialogue: 0,0:00:27.27,0:00:28.22,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WATER AND CEMENT
+Dialogue: 0,0:00:28.22,0:00:29.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GRAB HANDS AND
+Dialogue: 0,0:00:29.04,0:00:29.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GROW INTO ROCK,
+Dialogue: 0,0:00:29.92,0:00:30.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}EVEN UNDERWATER.
+Dialogue: 0,0:00:31.22,0:00:31.56,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SPINNING
+Dialogue: 0,0:00:31.56,0:00:32.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}KEEPS IT STIRRED
+Dialogue: 0,0:00:32.24,0:00:32.89,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A SMOOTHIE,
+Dialogue: 0,0:00:32.89,0:00:33.34,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO IT CAN'T
+Dialogue: 0,0:00:33.34,0:00:33.94,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LOCK UP.
+Dialogue: 0,0:00:34.08,0:00:34.72,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STOP FOR TWO
+Dialogue: 0,0:00:34.72,0:00:35.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HOURS,
+Dialogue: 0,0:00:35.07,0:00:35.61,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND YOU GET
+Dialogue: 0,0:00:35.61,0:00:36.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A NINE-TON
+Dialogue: 0,0:00:36.06,0:00:36.66,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GUMBALL.
+Dialogue: 0,0:00:36.66,0:00:37.05,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}"SPINNING
+Dialogue: 0,0:00:37.05,0:00:37.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS FOR WASHING
+Dialogue: 0,0:00:37.69,0:00:38.77,Cap,,0,0,0,,{\fs90}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MACHINES," MOOSE WHISPERED.
+Dialogue: 0,0:00:38.77,0:00:39.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE BUILDERS CALLED
+Dialogue: 0,0:00:39.74,0:00:39.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A
+Dialogue: 0,0:00:39.83,0:00:40.32,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}CRANE.
+Dialogue: 0,0:00:40.33,0:00:41.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOLORES GOT HER
+Dialogue: 0,0:00:41.17,0:00:41.73,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}DONUTS.
+Dialogue: 0,0:00:41.73,0:00:42.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRUNO GOT A
+Dialogue: 0,0:00:42.39,0:00:43.74,Cap,,0,0,0,,{\fs110}{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NINE-TON JOGGING BALL.

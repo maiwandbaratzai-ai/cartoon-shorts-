@@ -1,0 +1,12 @@
+L0 misdirection: nine tons of concrete delivered "in one piece" — a giant stone ball rolling down Elm Street
+L1 specific: the bet is a week of donuts
+L2 character: catchphrase "Spinning is for washing machines!" as he flips the drum off
+L3 visual: Bruno the bulldog jogging on the drum like a hamster wheel slides right off when it stops
+L4 deadpan: eleven ducklings cross Main Street. Slowly. For two hours.
+L5 escalation: soup, oatmeal, peanut butter, bowling ball
+L6 failed-fix: he hits the switch, the drum stays put and the whole truck spins instead
+L8 explanation: concrete doesn't dry — water and cement grab hands and grow into rock, even underwater
+L9 comparison: spinning keeps it stirred like a smoothie
+L10 comparison: stop for two hours and you get a nine-ton gumball
+L11 callback: the catchphrase whispered while the builders call a crane
+L12 callback: Bruno gets a nine-ton jogging ball (his drum, back as a ball)
