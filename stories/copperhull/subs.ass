@@ -1,0 +1,96 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.95,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}CAPTAIN ROOK ROBBED
+Dialogue: 0,0:00:00.95,0:00:01.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A TREASURE SHIP
+Dialogue: 0,0:00:01.56,0:00:02.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH A BUCKET
+Dialogue: 0,0:00:02.25,0:00:02.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OF
+Dialogue: 0,0:00:02.38,0:00:02.86,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WORMS.
+Dialogue: 0,0:00:02.86,0:00:03.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}INSIDE THE GOLDEN
+Dialogue: 0,0:00:03.70,0:00:04.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GULL:
+Dialogue: 0,0:00:04.02,0:00:04.63,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TEN THOUSAND
+Dialogue: 0,0:00:04.63,0:00:04.95,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOLD
+Dialogue: 0,0:00:04.95,0:00:05.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COINS,
+Dialogue: 0,0:00:05.23,0:00:06.13,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND FORTY SLEEPY
+Dialogue: 0,0:00:06.13,0:00:06.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GUARDS.
+Dialogue: 0,0:00:06.80,0:00:07.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EASY PEASY,
+Dialogue: 0,0:00:07.31,0:00:08.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WORM SQUEEZY!" ROOK
+Dialogue: 0,0:00:08.21,0:00:08.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHISPERED,
+Dialogue: 0,0:00:08.98,0:00:09.77,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROWING UNDER ITS
+Dialogue: 0,0:00:09.77,0:00:10.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHINY
+Dialogue: 0,0:00:10.05,0:00:10.38,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPPER
+Dialogue: 0,0:00:10.38,0:00:10.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BELLY.
+Dialogue: 0,0:00:10.90,0:00:11.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIRST,
+Dialogue: 0,0:00:11.15,0:00:11.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS CREW PRIED
+Dialogue: 0,0:00:11.80,0:00:12.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF THE
+Dialogue: 0,0:00:12.24,0:00:12.53,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPPER
+Dialogue: 0,0:00:12.53,0:00:12.93,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PLATES.
+Dialogue: 0,0:00:12.93,0:00:13.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TWO THOUSAND OF
+Dialogue: 0,0:00:13.62,0:00:13.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEM.
+Dialogue: 0,0:00:13.83,0:00:14.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WITH
+Dialogue: 0,0:00:14.05,0:00:14.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SPOONS.
+Dialogue: 0,0:00:14.60,0:00:15.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN ROOK DUMPED
+Dialogue: 0,0:00:15.51,0:00:15.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE
+Dialogue: 0,0:00:15.68,0:00:15.94,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}WORMS
+Dialogue: 0,0:00:15.94,0:00:16.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON THE BARE
+Dialogue: 0,0:00:16.69,0:00:16.90,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WOOD.
+Dialogue: 0,0:00:16.90,0:00:17.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SARDINE THE CAT
+Dialogue: 0,0:00:17.68,0:00:18.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ONLY WANTED ONE
+Dialogue: 0,0:00:18.35,0:00:18.83,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COIN.
+Dialogue: 0,0:00:18.84,0:00:19.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WEEK LATER,
+Dialogue: 0,0:00:19.44,0:00:20.17,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE GOLDEN GULL
+Dialogue: 0,0:00:20.17,0:00:20.48,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SAGGED,
+Dialogue: 0,0:00:20.48,0:00:21.40,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN SANK SLOWLY,
+Dialogue: 0,0:00:21.40,0:00:22.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A COOKIE
+Dialogue: 0,0:00:22.04,0:00:22.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN MILK.
+Dialogue: 0,0:00:22.80,0:00:23.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TEN THOUSAND COINS
+Dialogue: 0,0:00:23.42,0:00:23.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}POURED OUT THE
+Dialogue: 0,0:00:23.92,0:00:24.14,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BOTTOM,
+Dialogue: 0,0:00:24.14,0:00:24.80,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT ONTO ROOK'S
+Dialogue: 0,0:00:24.80,0:00:25.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROWBOAT.
+Dialogue: 0,0:00:25.31,0:00:26.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"EASY PEASY," SAID
+Dialogue: 0,0:00:26.04,0:00:26.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROOK,
+Dialogue: 0,0:00:26.27,0:00:27.01,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS HIS WORMY
+Dialogue: 0,0:00:27.01,0:00:28.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROWBOAT CRUMBLED LIKE
+Dialogue: 0,0:00:28.07,0:00:28.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A CRACKER.
+Dialogue: 0,0:00:28.86,0:00:29.32,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT WHY WOULD
+Dialogue: 0,0:00:29.32,0:00:29.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}A WOODEN SHIP
+Dialogue: 0,0:00:29.86,0:00:30.02,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WEAR
+Dialogue: 0,0:00:30.02,0:00:30.24,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPPER
+Dialogue: 0,0:00:30.24,0:00:30.82,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UNDERWEAR?
+Dialogue: 0,0:00:30.93,0:00:31.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SHIPWORMS DRILL INTO
+Dialogue: 0,0:00:31.86,0:00:32.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WOOD AND EAT
+Dialogue: 0,0:00:32.42,0:00:32.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IT,
+Dialogue: 0,0:00:32.67,0:00:33.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TUNNEL BY TUNNEL,
+Dialogue: 0,0:00:33.39,0:00:34.10,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}UNTIL THE HULL
+Dialogue: 0,0:00:34.10,0:00:34.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS A
+Dialogue: 0,0:00:34.33,0:00:35.01,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SPONGE.
+Dialogue: 0,0:00:35.25,0:00:35.53,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPPER
+Dialogue: 0,0:00:35.53,0:00:35.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IS
+Dialogue: 0,0:00:35.73,0:00:36.01,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}POISON
+Dialogue: 0,0:00:36.01,0:00:36.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TO THEM,
+Dialogue: 0,0:00:36.36,0:00:36.91,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO OLD SHIPS
+Dialogue: 0,0:00:36.91,0:00:37.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WRAPPED THEIR BOTTOMS
+Dialogue: 0,0:00:37.92,0:00:38.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN IT.
+Dialogue: 0,0:00:38.44,0:00:38.73,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO THE
+Dialogue: 0,0:00:38.73,0:00:38.94,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GOLD
+Dialogue: 0,0:00:38.94,0:00:39.25,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SANK,
+Dialogue: 0,0:00:39.25,0:00:39.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND A CRAB
+Dialogue: 0,0:00:39.71,0:00:40.29,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DOWN THERE IS
+Dialogue: 0,0:00:40.29,0:00:41.21,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOW VERY RICH.
+Dialogue: 0,0:00:41.22,0:00:42.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ROOK PADDLED HOME
+Dialogue: 0,0:00:42.12,0:00:42.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}IN A
+Dialogue: 0,0:00:42.36,0:00:42.75,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COPPER
+Dialogue: 0,0:00:42.75,0:00:43.20,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}BATHTUB.
+Dialogue: 0,0:00:43.20,0:00:44.03,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SARDINE KEPT ONE
+Dialogue: 0,0:00:44.03,0:00:44.52,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}COIN.

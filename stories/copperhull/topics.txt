@@ -1,0 +1,11 @@
+# Topic lab 2026-11-28 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why old wooden ships wore copper bottoms (shipworms drill into wood and eat it until the hull is a sponge; copper is poison to them) — S3 $3 X3 = 9/9
+Why ships' bottoms are painted red (anti-fouling paint, the copper's descendant) — S2 $2 X1 = 5/9
+Why oil tankers are split into many small tanks (sloshing can roll a ship over) — S3 $3 X3 = 9/9
+Why bananas ship green in sealed cold rooms (one ripe banana's gas ripens the whole ship) — S3 $3 X2 = 8/9
+Why submarines are round (water pressure squeezes evenly) — S2 $3 X2 = 7/9
+Why sails are triangular on racing boats (they can sail toward the wind) — S2 $1 X1 = 4/9
+Why anchors have hooks (they dig in when dragged) — S1 $2 X1 = 4/9
+Why ships have portholes, not windows (round holes don't crack at corners) — S2 $2 X1 = 5/9
+Why pirates hung lanterns low at night (to fool other ships) — S2 $2 X1 = 5/9
+Why life jackets are orange (seen from far away) — S1 $2 X1 = 4/9

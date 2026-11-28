@@ -1,0 +1,12 @@
+L0 misdirection: robbing a treasure ship with a bucket of worms
+L1 rule-of-three: ten thousand gold coins, and forty sleepy guards
+L2 character: catchphrase "Easy peasy, worm squeezy!" whispered under the ship's shiny copper belly
+L3 specific: two thousand copper plates pried off. With spoons.
+L4 character: Sardine the cat only wants one coin
+L5 comparison: the treasure ship sinks slowly, like a cookie in milk
+L6 escalation: ten thousand coins pour out the bottom straight onto Rook's rowboat
+L7 failed-fix: "Easy peasy" — and his own wormy rowboat crumbles like a cracker
+L8 comparison: a wooden ship wearing copper underwear
+L9 explanation: shipworms drill tunnel by tunnel until the hull is a sponge
+L11 deadpan: the gold sank and a crab down there is now very rich
+L12 callback: Rook paddles home in a copper bathtub; the cat kept one coin

@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Captain Rook robbed a treasure ship with a bucket of worms. — O3 S3 V2 = 8/9
+Rook's gang pried two thousand copper plates off a ship. With spoons. — O3 S2 V2 = 7/9
+The Golden Gull sank in its own harbor, slowly, like a cookie in milk. — O2 S3 V2 = 7/9
+Ten thousand gold coins fell out of a ship's bottom at noon. — O2 S3 V3 = 8/9
+A crab in Port Pickle is now the richest crab alive. — O2 S1 V1 = 4/9
+Rook's rowboat crumbled like a cracker, under ten thousand gold coins. — O2 S2 V2 = 6/9
+Captain Rook went home in a copper bathtub. It was the plan. — O2 S1 V1 = 4/9
+Forty guards slept while Rook's crew undressed the ship's bottom. — O3 S2 V1 = 6/9
+The worms Rook bought ate a treasure ship and his escape boat. — O2 S3 V1 = 6/9
+Every night Rook rowed under the Golden Gull with a bucket. — O2 S1 V2 = 5/9
