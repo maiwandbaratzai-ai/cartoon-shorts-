@@ -1,0 +1,11 @@
+# Topic lab 2026-11-28 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why helicopters need that tiny tail propeller (the big blades push the body around the other way; the tail rotor pushes sideways to cancel the spin) — S3 $3 X3 = 9/9
+Why hockey pucks are frozen before games (warm rubber bounces like a super ball) — S3 $2 X3 = 8/9
+Why wooden ships wore copper bottoms (shipworms eat the hull) — S3 $3 X3 = 9/9
+Why mountain roads have gravel runaway-truck ramps (brakes overheat and fade) — S3 $3 X3 = 9/9
+Why big dams are curved (the arch pushes the water's weight into the canyon walls) — S2 $3 X3 = 8/9
+Why bananas ship green in sealed cold rooms (one ripe banana's gas ripens the whole ship) — S3 $3 X2 = 8/9
+Why oil tankers are split into many small tanks (sloshing can roll a ship over) — S3 $3 X3 = 9/9
+Why astronaut visors are coated in real gold (it bounces the sun's heat away) — S3 $2 X2 = 7/9
+Why popcorn pops (water inside turns to steam and bursts the shell) — S2 $1 X3 = 6/9
+Why zebras have stripes (biting flies can't land on them) — S3 $1 X2 = 6/9

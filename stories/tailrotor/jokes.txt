@@ -1,0 +1,11 @@
+L0 character: the boss saws off a part of his own helicopter, sparks flying, to save forty bucks
+L1 specific: three hundred pizzas for the mayor's birthday
+L2 character: catchphrase "Cut the fat!"; a pigeon who hates flying buckles his tiny seatbelt
+L3 deadpan: it went up. Then it went around.
+L4 comparison: like a salad spinner full of pepperoni
+L5 visual: forty pizzas fly out like frisbees and stack up on the mayor's limo
+L6 failed-fix: Sal grabs the tail to stop it and becomes a human tetherball
+L8 explanation: push the blades one way, they shove the helicopter the other way
+L9 comparison: the office chair — swing your arms right, the chair turns left
+L11 callback: "Cut the fat," whispered, dizzy, gluing the propeller back on
+L12 callback: the pigeon who hates flying flies the last pizza down — forty bucks, plus tip

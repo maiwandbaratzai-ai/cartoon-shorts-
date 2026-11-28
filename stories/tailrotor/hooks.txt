@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Big Sal sawed his helicopter's tail propeller off to save forty bucks. — O3 S2 V3 = 8/9
+Big Sal's pizza helicopter twirled over town, flinging pizzas like frisbees. — O2 S2 V3 = 7/9
+Three hundred pizzas left Sal's helicopter. They all went sideways. — O2 S2 V2 = 6/9
+Every pizza from Sal's helicopter landed in a different neighborhood. — O2 S1 V1 = 4/9
+The mayor's limo got forty pizzas. From the sky. Spinning. — O2 S2 V2 = 6/9
+Pepper the pigeon is scared of flying, so he rides a helicopter. — O2 S0 V2 = 4/9
+Big Sal's helicopter spun like a salad spinner over the mayor's party. — O2 S2 V3 = 7/9
+Sal's pilot took off straight up, then went around. And around. — O2 S1 V2 = 5/9
+Big Sal hung off his own helicopter's tail, spinning like a tetherball. — O3 S2 V3 = 8/9
+A helicopter lost forty dollars of propeller and three hundred pizzas. — O2 S2 V1 = 5/9
