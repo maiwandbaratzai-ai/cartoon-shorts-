@@ -1,0 +1,11 @@
+# Topic lab 2026-11-28 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why mountain roads have gravel runaway-truck ramps (brakes ridden down a long hill overheat and go slippery; deep loose gravel soaks up the speed) — S3 $3 X3 = 9/9
+Why trucks downshift on hills instead of braking (the engine holds the truck back without heating the brakes) — S2 $3 X2 = 7/9
+Why planes take off into the wind (more air over the wings, shorter runway) — S3 $2 X2 = 7/9
+Why elevators can't free-fall (safety brakes grab the rails) — S2 $3 X2 = 7/9
+Why bridges ice before roads (cold air underneath too) — S2 $3 X1 = 6/9
+Why train brakes are on every car (one engine can't stop the weight) — S2 $3 X2 = 7/9
+Why airplanes dump fuel before emergency landings (too heavy to land) — S2 $3 X2 = 7/9
+Why race cars have parachutes (drag racers outrun their brakes) — S2 $2 X3 = 7/9
+Why highways have rumble strips (sleepy drivers wake up) — S1 $2 X1 = 4/9
+Why roads have sand barrels in front of pillars (water/sand soaks up a crash) — S2 $3 X2 = 7/9

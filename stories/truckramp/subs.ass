@@ -1,0 +1,92 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,116,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,11,4,2,50,50,520,1
+Style: Key,Poppins,168,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,2,0,1,14,5,2,50,50,500,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.12,0:00:00.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BIG HANK'S BRAKES
+Dialogue: 0,0:00:00.84,0:00:01.38,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GLOWED LIKE
+Dialogue: 0,0:00:01.38,0:00:01.71,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}TOASTERS,
+Dialogue: 0,0:00:01.71,0:00:02.33,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND HE WAVED
+Dialogue: 0,0:00:02.33,0:00:02.74,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}OFF THE
+Dialogue: 0,0:00:02.74,0:00:03.20,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RAMP.
+Dialogue: 0,0:00:03.33,0:00:03.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BEHIND HIM,
+Dialogue: 0,0:00:03.92,0:00:04.58,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY TONS OF
+Dialogue: 0,0:00:04.58,0:00:05.12,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WATERMELONS.
+Dialogue: 0,0:00:05.12,0:00:05.75,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BESIDE HIM,
+Dialogue: 0,0:00:05.75,0:00:06.50,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PICKLES THE PIG,
+Dialogue: 0,0:00:06.50,0:00:07.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DROOLING.
+Dialogue: 0,0:00:07.26,0:00:07.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"NO
+Dialogue: 0,0:00:07.41,0:00:07.80,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SANDBOX
+Dialogue: 0,0:00:07.80,0:00:08.70,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR HANK!" HE
+Dialogue: 0,0:00:08.70,0:00:09.24,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOLD JUNIE,
+Dialogue: 0,0:00:09.24,0:00:09.84,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS ROOKIE,
+Dialogue: 0,0:00:09.84,0:00:10.26,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AS THE
+Dialogue: 0,0:00:10.26,0:00:10.60,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GRAVEL
+Dialogue: 0,0:00:10.60,0:00:10.85,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RAMP
+Dialogue: 0,0:00:10.85,0:00:11.68,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLEW BY.
+Dialogue: 0,0:00:11.68,0:00:12.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HE'D RIDDEN THE
+Dialogue: 0,0:00:12.36,0:00:13.28,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAKES FOR ELEVEN
+Dialogue: 0,0:00:13.28,0:00:13.55,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MILES:
+Dialogue: 0,0:00:13.55,0:00:13.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WARM,
+Dialogue: 0,0:00:13.78,0:00:14.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOASTY,
+Dialogue: 0,0:00:14.09,0:00:14.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GLOWING,
+Dialogue: 0,0:00:14.45,0:00:15.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SMOKING.
+Dialogue: 0,0:00:15.15,0:00:15.69,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO HE POURED
+Dialogue: 0,0:00:15.69,0:00:15.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HIS
+Dialogue: 0,0:00:15.86,0:00:16.14,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}COFFEE
+Dialogue: 0,0:00:16.14,0:00:16.46,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ON THEM.
+Dialogue: 0,0:00:16.46,0:00:17.18,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NOW THEY WERE
+Dialogue: 0,0:00:17.18,0:00:18.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}GLOWING AND STEAMING.
+Dialogue: 0,0:00:18.27,0:00:18.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THEN THE PEDAL
+Dialogue: 0,0:00:18.86,0:00:19.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SANK TO THE
+Dialogue: 0,0:00:19.44,0:00:19.96,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FLOOR LIKE A
+Dialogue: 0,0:00:19.96,0:00:20.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHOOPEE CUSHION.
+Dialogue: 0,0:00:20.87,0:00:21.31,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FORTY TONS,
+Dialogue: 0,0:00:21.31,0:00:22.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}NO BRAKES.
+Dialogue: 0,0:00:22.05,0:00:22.39,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BUT ONE
+Dialogue: 0,0:00:22.39,0:00:22.61,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}RAMP
+Dialogue: 0,0:00:22.61,0:00:23.41,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WAS LEFT BEFORE
+Dialogue: 0,0:00:23.41,0:00:24.09,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}MAIN STREET.
+Dialogue: 0,0:00:24.09,0:00:24.23,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}"NO
+Dialogue: 0,0:00:24.23,0:00:24.57,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SANDBOX
+Dialogue: 0,0:00:24.57,0:00:25.27,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FOR HANK!"
+Dialogue: 0,0:00:25.29,0:00:25.85,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WHY WOULD BRAKES
+Dialogue: 0,0:00:25.85,0:00:26.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THAT WORKED AT
+Dialogue: 0,0:00:26.42,0:00:26.97,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE TOP QUIT
+Dialogue: 0,0:00:26.97,0:00:27.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AT THE BOTTOM?
+Dialogue: 0,0:00:27.80,0:00:28.36,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}BRAKES STOP A
+Dialogue: 0,0:00:28.36,0:00:29.15,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TRUCK BY RUBBING,
+Dialogue: 0,0:00:29.15,0:00:29.87,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND RUBBING MAKES
+Dialogue: 0,0:00:29.87,0:00:30.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAT.
+Dialogue: 0,0:00:30.35,0:00:30.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}ELEVEN MILES OF
+Dialogue: 0,0:00:30.98,0:00:31.45,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HEAT.
+Dialogue: 0,0:00:31.72,0:00:32.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TOO HOT,
+Dialogue: 0,0:00:32.05,0:00:32.62,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND THEY TURN
+Dialogue: 0,0:00:32.62,0:00:33.04,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SLIPPERY,
+Dialogue: 0,0:00:33.04,0:00:33.86,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE GRABBING A
+Dialogue: 0,0:00:33.86,0:00:34.42,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}WET BAR OF
+Dialogue: 0,0:00:34.42,0:00:34.98,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SOAP.
+Dialogue: 0,0:00:34.98,0:00:35.67,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SO JUNIE YANKED
+Dialogue: 0,0:00:35.67,0:00:36.07,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE WHEEL,
+Dialogue: 0,0:00:36.07,0:00:36.78,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}STRAIGHT INTO THE
+Dialogue: 0,0:00:36.78,0:00:37.42,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SANDBOX.
+Dialogue: 0,0:00:37.42,0:00:37.92,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}DEEP LOOSE
+Dialogue: 0,0:00:37.92,0:00:38.19,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}GRAVEL
+Dialogue: 0,0:00:38.19,0:00:38.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}SWALLOWS THE WHEELS
+Dialogue: 0,0:00:38.98,0:00:39.51,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}AND SOAKS UP
+Dialogue: 0,0:00:39.51,0:00:40.06,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}THE SPEED,
+Dialogue: 0,0:00:40.06,0:00:40.56,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}LIKE A BALL
+Dialogue: 0,0:00:40.56,0:00:41.05,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PIT.
+Dialogue: 0,0:00:41.05,0:00:41.71,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}HANK GOT HIS
+Dialogue: 0,0:00:41.71,0:00:41.98,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}FIRST
+Dialogue: 0,0:00:41.98,0:00:42.40,Key,,0,0,0,,{\fscx70\fscy70\t(0,110,\fscx112\fscy112)\t(110,190,\fscx100\fscy100)}SANDBOX.
+Dialogue: 0,0:00:42.40,0:00:43.44,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}PICKLES GOT FORTY
+Dialogue: 0,0:00:43.44,0:00:44.35,Cap,,0,0,0,,{\fscx86\fscy86\t(0,80,\fscx100\fscy100)}TONS OF MELON.

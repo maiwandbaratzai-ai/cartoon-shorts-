@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Big Hank's brakes glowed like toasters, and he waved off the ramp. — O3 S3 V2 = 8/9
+Forty tons of watermelons, no brakes, and Big Hank said no thanks. — O3 S3 V1 = 7/9
+Big Hank's truck went down Mount Grumble faster than the melons in it. — O2 S2 V2 = 6/9
+A watermelon truck stopped in a sandbox. Forty tons, two hundred feet. — O2 S2 V2 = 6/9
+Big Hank poured his coffee on his brakes. They started steaming. — O2 S2 V2 = 6/9
+Pickles the pig wore a helmet for the last two miles. — O2 S1 V1 = 4/9
+Big Hank's brake pedal sank to the floor like a whoopee cushion. — O2 S3 V1 = 6/9
+Eleven miles of downhill, forty tons of melons, and one sandbox. — O2 S2 V1 = 5/9
+The rookie grabbed the wheel and drove forty tons into a sandbox. — O2 S2 V2 = 6/9
+Big Hank's truck smoked like a barbecue all the way down the mountain. — O2 S2 V3 = 7/9
