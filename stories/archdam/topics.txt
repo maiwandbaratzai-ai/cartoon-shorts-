@@ -1,0 +1,11 @@
+# Topic lab 2026-11-28 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why big dams are curved (the arch passes the water's push sideways into the rock walls; a straight wall must hold the whole lake alone and bends in the middle) — S3 $3 X3 = 9/9
+Why levees are wide at the bottom (water pushes hardest at the bottom) — S2 $3 X2 = 7/9
+Why water towers are up high (gravity makes the pressure) — S2 $1 X1 = 4/9
+Why bridges sway in the wind (flutter) — S2 $3 X3 = 8/9
+Why sandbags stop floods (they squish into a watertight wall) — S2 $3 X2 = 7/9
+Why dams have spillways (overflow cuts the dam from the top) — S2 $3 X3 = 8/9
+Why castles had moats (attackers can't dig under) — S1 $2 X1 = 4/9
+Why igloos don't melt inside (snow insulates) — S2 $1 X1 = 4/9
+Why tunnels are round (the arch spreads the mountain's weight) — S2 $2 X1 = 5/9
+Why eggs are hard to crush end to end (the dome spreads the push) — S3 $0 X1 = 4/9

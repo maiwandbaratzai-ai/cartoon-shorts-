@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Mayor Brick's dam was twice as thick as Nell's. It burst first. — O3 S3 V3 = 9/9
+A cow surfed down Main Street on a sofa, thanks to Mayor Brick. — O2 S2 V3 = 7/9
+Nell's skinny banana-shaped dam held back a lake. The mayor's didn't. — O2 S3 V2 = 7/9
+Mayor Brick propped his dam with forty logs. The logs bent. — O2 S2 V2 = 6/9
+Nine days of rain, two dams, and only one was still standing. — O2 S3 V1 = 6/9
+A beaver who'd built one dam got the job over the mayor. — O2 S1 V1 = 4/9
+Puddleford's lake went downtown at midnight. The mayor had a plan. — O2 S3 V1 = 6/9
+Mayor Brick laughed so hard at a bent dam his hat fell in. — O2 S1 V2 = 5/9
+The thinnest dam in the valley was the only one that held. — O2 S2 V1 = 5/9
+Mayor Brick's straight dam bulged like a belly after dinner. — O2 S2 V2 = 6/9

@@ -1,0 +1,17 @@
+L0 misdirection: the dam twice as thick is the one that bursts first
+L1 rule-of-three: a bakery, a school, and four hundred garden gnomes
+L2 character: catchphrase "Straight is strong!"
+L3 comparison: Nell's dam is thin and bent like a banana
+L4 escalation: Brick laughs so hard his hat falls in the lake
+L5 character: a beaver who has built exactly one dam moves in with Nell, bringing his own pillow
+L7 deadpan: it rained so hard the ducks went indoors
+L8 comparison: the straight dam bulges like a belly after dinner
+L9 failed-fix: "Straight is strong!" — forty logs prop it up, the logs bend too
+L10 visual: the lake goes downtown; a cow surfs by on a sofa
+L11 deadpan: Brick's car floats past Brick and honks
+L12 deadpan: the skinny bent dam didn't even creak
+L13 explanation: the curve passes the push sideways into the rock walls
+L14 comparison: an arch lying on its side wedges in tighter the harder it's pushed
+L16 misdirection: Puddleford's brand-new swimming pool is Main Street
+L17 callback: "Straight is... strong-ish."
+L18 callback: the one-dam beaver gets a hard hat: "Dam Engineer"
