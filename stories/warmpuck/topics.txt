@@ -1,0 +1,11 @@
+# Topic lab 2026-11-28 (S = surprise, $ = stakes, X = spectacle, 0-3 each)
+* Why hockey pucks are frozen before games (warm rubber is springy and bounces like a super ball; frozen rubber goes stiff, slides flat) — S3 $2 X3 = 8/9
+Why baseballs are rubbed with mud before games (new balls are too slippery to grip) — S3 $2 X1 = 6/9
+Why bowling pins are bottom-heavy (so they wobble and fall in a chain) — S1 $1 X2 = 4/9
+Why race horses wear blinkers (they spook at what they see beside them) — S2 $2 X2 = 6/9
+Why curling players sweep the ice (melts a thin water film so the stone slides further) — S2 $2 X1 = 5/9
+Why tennis balls are fuzzy (fuzz slows them in the air so they don't fly out) — S3 $1 X2 = 6/9
+Why ski jumpers lean forward in a V (their body becomes a wing) — S2 $3 X3 = 8/9
+Why basketballs have bumps (grip) — S1 $0 X1 = 2/9
+Why goalies' pads are huge (rules) — S1 $1 X1 = 3/9
+Why ice skates glide (pressure + a slippery surface layer) — S2 $1 X1 = 4/9

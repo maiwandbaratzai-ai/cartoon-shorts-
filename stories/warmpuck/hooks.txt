@@ -1,0 +1,11 @@
+# Hook lab (O = open loop, S = stakes, V = visual in motion at frame 0, 0-3 each)
+* Bernie's hockey puck bounced higher than the scoreboard. Twice. — O3 S2 V3 = 8/9
+A hockey puck bounced into the nachos during the championship final. — O2 S2 V2 = 6/9
+Bernie baked his hockey pucks in a pizza oven. Every single one. — O3 S1 V2 = 6/9
+Forty-one bounces, one goal, wrong net: the worst final ever. — O2 S2 V1 = 5/9
+Waffles the bear goalie got hit by the same puck nine times. — O2 S1 V2 = 5/9
+The championship puck hit the ice and went boing. — O2 S2 V3 = 7/9
+Bernie warmed the pucks, and the whole rink turned into pinball. — O2 S2 V2 = 6/9
+A bear moved into the puck freezer, and nobody could stop him. — O2 S0 V2 = 4/9
+Every slapshot at Frostbite Rink bounced over the glass. — O2 S1 V3 = 6/9
+The referee got bonked by a puck that fell from the sky. — O2 S1 V2 = 5/9

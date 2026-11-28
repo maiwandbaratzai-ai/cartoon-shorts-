@@ -1,0 +1,11 @@
+L0 visual: a hockey puck bounces higher than the scoreboard, twice
+L1 specific: championship final, and the puck lands in the nachos
+L2 deadpan: one complaint — the pucks are too cold to touch (it's ice hockey)
+L3 character: catchphrase "Nice and toasty!" while baking pucks in a pizza oven
+L4 escalation: the puck hits the ice, goes boing, bonks the ref's helmet
+L5 character: the bear goalie complains it's too chilly to nap
+L6 failed-fix: "Nice and toasty!" again — every heater cranked to max, everything gets worse
+L7 rule-of-three: forty-one bounces, one goal, wrong net
+L9 comparison: warm rubber is springy, like a bouncy ball
+L10 explanation: freeze it and the rubber goes stiff, it slides flat instead of jumping
+L12 callback: the bear moves into the freezer — "Nice and toasty."
